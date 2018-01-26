@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst setup
+DESCRIPTION=Server software for testing internet bandwidth using speedtest.net
+EAPI=6
+HOMEPAGE=http://www.ookla.com/
+LICENSE=all-rights-reserved
+SLOT=0
+SRC_URI=x86? ( http://install.speedtest.net/ooklaserver/stable/OoklaServer-linux32.tgz ) amd64? ( http://install.speedtest.net/ooklaserver/stable/OoklaServer-linux64.tgz )
+_eclasses_=user	8bc2845510e2109af75e3eeac607ec81
+_md5_=bf8f30c20cb9fa86de6d8fea973d510e

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-libs/libbsd dev-libs/libressl sys-libs/libseccomp virtual/pkgconfig virtual/pkgconfig
+DESCRIPTION=Secure Let's Encrypt client
+EAPI=6
+HOMEPAGE=https://kristaps.bsd.lv/acme-client/
+IUSE=seccomp systemd
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC MIT
+RDEPEND=dev-libs/libbsd dev-libs/libressl sys-libs/libseccomp
+SLOT=0
+SRC_URI=https://github.com/kristapsdz/acme-client-portable/archive/VERSION_0_1_16.tar.gz -> acme-client-0.1.16.tar.gz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	8f5286f89e265842f5b5189666eae88b	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_md5_=ed369b388fc78ed24775e99d03b7fe6f

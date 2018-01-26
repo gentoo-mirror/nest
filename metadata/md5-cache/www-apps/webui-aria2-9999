@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=>=app-admin/webapp-config-1.50.15 >=dev-vcs/git-1.8.2.1 >=app-admin/webapp-config-1.50.15
+DESCRIPTION=The worlds best and hottest interface to interact with aria2
+EAPI=6
+HOMEPAGE=https://github.com/ziahamza/webui-aria2
+IUSE=vhosts vhosts
+LICENSE=MIT
+RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
+SLOT=0
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	webapp	a76ebd3cb5649737496e8238992dd7ca
+_md5_=ac4352dba1106f60956f82d1a48170b4

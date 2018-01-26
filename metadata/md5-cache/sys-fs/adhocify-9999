@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install setup unpack
+DEPEND=>=dev-vcs/git-1.8.2.1
+DESCRIPTION=Tool which monitors for inotify events and executes script
+EAPI=6
+HOMEPAGE=https://github.com/quitesimpleorg/adhocify
+LICENSE=ISC
+SLOT=0
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	linux-info	ca370deef9d44125d829f2eb6ebc83e0	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	versionator	ce21313503c41896ebcd7d58b0607e37
+_md5_=ad56aae7053e5efd894d388394090cba
