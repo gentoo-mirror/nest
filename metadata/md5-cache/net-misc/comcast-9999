@@ -1,10 +1,10 @@
-DEFINED_PHASES=compile install prepare unpack
-DEPEND=dev-lang/go:0= >=dev-vcs/git-1.8.2.1
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/go:0= >=dev-vcs/git-1.8.2.1 >=dev-lang/go-1.8
 DESCRIPTION=Network problems simulator
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/tylertreat/Comcast
 LICENSE=Apache-2.0
 RDEPEND=dev-lang/go:0=
 SLOT=0
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=6a43694861db52f878976de2c280ffbd
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	golang-base	51a1f13e065f1cff4507685d9cc268c7
+_md5_=26bc1717ddff04849ff57aebb11e8b58

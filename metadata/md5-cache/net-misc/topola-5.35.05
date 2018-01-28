@@ -1,7 +1,7 @@
 DEFINED_PHASES=install postinst prepare setup unpack
 DESCRIPTION=Customer accounting system, services and statistics collection management
 EAPI=6
-HOMEPAGE=topola.unity.net/
+HOMEPAGE=https://topola.unity.net
 IUSE=elibc_glibc base unlicensed-bin licensed-bin taremote +xinetd
 KEYWORDS=~amd64 ~x86
 LICENSE=no-source-code
@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=base? ( http://topola.unity.net/files/base/topola-base-5.35.01.bin ) unlicensed-bin? ( http://topola.unity.net/files/bin_unl/topola-bin_unl-5.35.05.bin ) licensed-bin? ( http://topola.unity.net/files/bin/topola-bin-5.35.05.bin ) taremote? ( http://topola.unity.net/files/taremote/topola-taremote_src-5.35.06.bin )
 _eclasses_=unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	user	8bc2845510e2109af75e3eeac607ec81
-_md5_=e81e7c49601f0a4114c2f787829849b6
+_md5_=998c1db15c78b0ff3615d11350fca390
