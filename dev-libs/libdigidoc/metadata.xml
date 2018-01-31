@@ -10,11 +10,14 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Chrome and Firefox extension allows you to sign documents
-	on the web with your eID smart card. Firefox supports
-	since version 50 Chrome extensions.
+	DigiDoc is an XML file format for documents with digital signatures
+	in use by the Estonian ID card infrastructure. This library allows
+	for creation and reading of DigiDoc files.
 	</longdescription>
+	<use>
+		<flag name="utils">install command-line utility</flag>
+	</use>
 	<upstream>
-		<remote-id type="github">open-eid/chrome-token-signing</remote-id>
+		<remote-id type="github">open-eid/libdigidoc</remote-id>
 	</upstream>
 </pkgmetadata>
