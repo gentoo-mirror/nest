@@ -5,5 +5,5 @@ HOMEPAGE=http://www.ookla.com/
 LICENSE=all-rights-reserved
 SLOT=0
 SRC_URI=x86? ( http://install.speedtest.net/ooklaserver/stable/OoklaServer-linux32.tgz ) amd64? ( http://install.speedtest.net/ooklaserver/stable/OoklaServer-linux64.tgz )
-_eclasses_=user	8bc2845510e2109af75e3eeac607ec81
-_md5_=bf8f30c20cb9fa86de6d8fea973d510e
+_eclasses_=readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	user	8bc2845510e2109af75e3eeac607ec81
+_md5_=522e27f125f62fd66a967d6f38ddd220
