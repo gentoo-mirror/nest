@@ -10,4 +10,4 @@ RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
 SLOT=0
 SRC_URI=https://github.com/jgraph/drawio/archive/v7.9.0.tar.gz
 _eclasses_=webapp	a76ebd3cb5649737496e8238992dd7ca
-_md5_=f9ece512ea9b96d37b5821e89fa4ce53
+_md5_=ba1c18dcc1991841f48ec6bfa819b502

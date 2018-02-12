@@ -6,4 +6,4 @@ HOMEPAGE=https://github.com/toots/shine
 LICENSE=LGPL-2.1
 SLOT=0
 _eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=d92d15da572cb06937d3efcb965044cd
+_md5_=158a4902482e7f0fcf35295cb580a04e

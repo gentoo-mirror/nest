@@ -7,4 +7,4 @@ LICENSE=GPL-2+
 SLOT=0
 SRC_URI=https://github.com/ColinIanKing/powerstat/archive/V0.02.15.tar.gz -> powerstat-0.02.15.tar.gz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=7b45c2d558190f28c13aef5e643dab37
+_md5_=0180ad4134b21d824f31732a904f0967
