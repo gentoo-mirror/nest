@@ -9,4 +9,4 @@ RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 || ( sys-apps/firejail
 SLOT=0
 SRC_URI=https://github.com/netblue30/firetools/archive/0.9.50.tar.gz -> firetools-0.9.50.tar.gz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=ff237d8d473bb04535c4472ba6e364dc
+_md5_=0293dd70f06b31dfb82782cadab89d30
