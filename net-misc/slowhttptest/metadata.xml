@@ -10,22 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
+	A highly configurable tool that simulates some Application Layer
+	Denial of Service attacks by prolonging HTTP connections in different ways.
+	Use it to test your web server for DoS vulnerabilites, or just to figure out
+	how many concurrent connections it can handle.
 	</longdescription>
-	<use>
-		<flag name=""></flag>
-	</use>
 	<upstream>
-		<maintainer>
-			<email></email>
-			<name></name>
-		</maintainer>
-		<bugs-to></bugs-to>
-		<doc></doc>
-		<changelog></changelog>
-		<remote-id type=""></remote-id>
+		<remote-id type="github">shekyan/slowhttptest</remote-id>
 	</upstream>
-	<slots>
-		<slot name="0">
-		</slot>
-	</slots>
 </pkgmetadata>
