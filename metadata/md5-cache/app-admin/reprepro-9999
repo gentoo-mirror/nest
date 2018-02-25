@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure unpack
+DEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A tool to handle local repositories of Debian packages
+EAPI=6
+HOMEPAGE=https://mirrorer.alioth.debian.org/
+IUSE=archive bzip2 gpg lzma
+LICENSE=GPL-2
+RDEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
+SLOT=0
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
+_md5_=814903550129534cc0fc8825f975f33f
