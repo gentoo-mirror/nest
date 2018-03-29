@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://github.com/solusipse/fiche
 LICENSE=MIT
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	user	8bc2845510e2109af75e3eeac607ec81
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	user	8bc2845510e2109af75e3eeac607ec81
 _md5_=1d3beb9697a4290c6f7f00b4369f438d

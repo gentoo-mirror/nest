@@ -7,5 +7,5 @@ IUSE=libressl
 LICENSE=Apache-2.0
 RDEPEND=libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= )
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782
 _md5_=6ce8697bb0b7b00130cef1a06d730de6

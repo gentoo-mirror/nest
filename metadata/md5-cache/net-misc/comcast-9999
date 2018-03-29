@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/tylertreat/Comcast
 LICENSE=Apache-2.0
 RDEPEND=dev-lang/go:0=
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	golang-base	51a1f13e065f1cff4507685d9cc268c7
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	golang-base	51a1f13e065f1cff4507685d9cc268c7
 _md5_=3d962ae2db3958bcc4d31cf002a7224c
