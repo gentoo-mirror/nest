@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst prepare setup unpack
+DEFINED_PHASES=install nofetch postinst prepare setup unpack
 DESCRIPTION=Customer accounting system, services and statistics collection management
 EAPI=6
 HOMEPAGE=https://topola.unity.net
