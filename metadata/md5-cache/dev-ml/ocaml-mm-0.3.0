@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] alsa? ( dev-ml/ocaml-alsa:= ) ao? ( dev-ml/ocaml-ao:= ) camlp4? ( dev-ml/camlp4:= ) ffmpeg? ( dev-ml/ocaml-ffmpeg:= ) gstreamer? ( dev-ml/ocaml-gstreamer:= ) mad? ( dev-ml/ocaml-mad:= ) ogg? ( dev-ml/ocaml-ogg:= ) pulseaudio? ( dev-ml/ocaml-pulseaudio:= ) sdl? ( dev-ml/ocamlsdl:= ) theora? ( dev-ml/ocaml-theora:= )
 SLOT=0/0.3.0
 SRC_URI=https://github.com/savonet/ocaml-mm/releases/download/0.3.0/ocaml-mm-0.3.0.tar.gz
-_eclasses_=autotools	d0e5375d47f4c809f406eb892e531513	findlib	45d6030075064a68da8d7143726a1150	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
+_eclasses_=autotools	d0e5375d47f4c809f406eb892e531513	findlib	45d6030075064a68da8d7143726a1150	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=cfb310cdd878c6029cfd5b467b625524
