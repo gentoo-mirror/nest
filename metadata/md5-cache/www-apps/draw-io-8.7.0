@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Online diagramming web application
+EAPI=6
+HOMEPAGE=https://github.com/jgraph/drawio
+IUSE=vhosts vhosts
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
+SLOT=0
+SRC_URI=https://github.com/jgraph/drawio/archive/v8.7.0.tar.gz
+_eclasses_=webapp	6ae2395d7f341093c36057cb4f69101a
+_md5_=65a09a3bbcc5dd00d6857152312c496a
