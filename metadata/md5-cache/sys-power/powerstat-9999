@@ -6,4 +6,4 @@ HOMEPAGE=https://launchpad.net/ubuntu/+source/powerstat https://github.com/Colin
 LICENSE=GPL-2+
 SLOT=0
 _eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=a805655998864a338317cc82315cb0e9
+_md5_=5a50cd7726a95e848c887ad1005a1b06
