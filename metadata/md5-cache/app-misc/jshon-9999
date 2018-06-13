@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile prepare unpack
-DEPEND=dev-libs/jansson >=dev-vcs/git-1.8.2.1
+DEPEND=dev-libs/jansson >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=JSON parser designed for maximum convenience within the shell
 EAPI=6
 HOMEPAGE=http://kmkeen.com/jshon https://github.com/keenerd/jshon
@@ -7,5 +7,5 @@ IUSE=zsh-completion
 LICENSE=MIT
 RDEPEND=dev-libs/jansson zsh-completion? ( app-shells/zsh-completions )
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=b670dafc9f452265d7d3320f21d4ceac

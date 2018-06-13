@@ -1,5 +1,5 @@
 DEFINED_PHASES=unpack
-DEPEND=libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= ) >=dev-vcs/git-1.8.2.1
+DEPEND=libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= ) >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Application Layer DoS attack simulator
 EAPI=6
 HOMEPAGE=https://github.com/shekyan/slowhttptest
@@ -7,5 +7,5 @@ IUSE=libressl
 LICENSE=Apache-2.0
 RDEPEND=libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= )
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=6ce8697bb0b7b00130cef1a06d730de6
