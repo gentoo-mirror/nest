@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=Secure introspected tunnels to localhost
-EAPI=6
+EAPI=7
 HOMEPAGE=https://ngrok.com/
-KEYWORDS=~amd64 ~arm
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=all-rights-reserved
 RESTRICT=mirror
 SLOT=0
-SRC_URI=amd64? ( https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip ) arm? ( https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip )
-_md5_=f9ce6e521fb19b38215ec5809aac21cf
+SRC_URI=amd64? ( https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip ) arm? ( https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip ) arm64? ( https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip ) x86? ( https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip )
+_md5_=438cd647ce17fe90f2ad490086329edf
