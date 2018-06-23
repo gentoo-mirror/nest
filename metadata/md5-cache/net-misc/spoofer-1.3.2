@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) virtual/pkgconfig >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+DESCRIPTION=A tool to assess of deployment of source address validation
+EAPI=6
+HOMEPAGE=https://spoofer.caida.org
+IUSE=libressl qt5
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) net-analyzer/traceroute virtual/tmpfiles
+SLOT=0
+SRC_URI=https://www.caida.org/projects/spoofer/downloads/spoofer-1.3.2.tar.gz
+_eclasses_=autotools	d0e5375d47f4c809f406eb892e531513	desktop	1b286a7e7143d8c4ec89cd0d2743a097	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	04e50685fbf3d89e5c67ac6a385dd595	tmpfiles	d7dc36a24e327d58f0728badddca6448	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	user	8bc2845510e2109af75e3eeac607ec81
+_md5_=87f66c8de7379f2ceb09c9754a7f4cdb
