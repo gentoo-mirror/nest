@@ -3,12 +3,12 @@ DEPEND=module_config_rpcconfig? ( dev-libs/expat dev-libs/xmlrpc-c[abyss,cxx] ) 
 DESCRIPTION=Billing system for small home and office networks
 EAPI=6
 HOMEPAGE=http://stg.net.ua/
-IUSE=sgconv radius rscriptd sgauth sgconf sgconf_xml +stargazer debug module_auth_always_online module_auth_internet_access module_auth_freeradius module_capture_ether module_capture_netflow module_config_sgconfig module_config_rpcconfig module_other_ping module_other_smux module_other_remote_script +module_store_files module_store_firebird module_store_mysql module_store_postgres
+IUSE=sgconv radius rscriptd sgauth sgconf sgconf_xml +stargazer debug module_auth_always_online module_auth_internet_access module_auth_freeradius module_capture_ether module_capture_netflow module_config_sgconfig module_config_rpcconfig module_other_ping module_other_smux module_other_remote_script +module_store_files module_store_firebird module_store_mysql module_store_postgres kernel_linux
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=module_config_rpcconfig? ( dev-libs/expat dev-libs/xmlrpc-c[abyss,cxx] ) module_config_sgconfig? ( dev-libs/expat ) module_store_firebird? ( dev-db/firebird ) module_store_mysql? ( virtual/mysql:0= ) module_store_postgres? ( dev-db/postgresql:= ) sgconf? ( dev-libs/expat ) sgconf_xml? ( dev-libs/expat ) module_auth_freeradius? ( dev-libs/yajl ) radius? ( dev-libs/yajl dev-libs/boost:0= net-dialup/freeradius ) rscriptd? ( app-admin/logrotate ) stargazer? ( app-admin/logrotate )
 REQUIRED_USE=stargazer? ( ^^ ( module_store_files module_store_firebird module_store_mysql module_store_postgres ) )
 SLOT=0
 SRC_URI=http://stg.codes/attachments/download/11/stg-2.409-rc4.tar.gz
-_eclasses_=desktop	1b286a7e7143d8c4ec89cd0d2743a097	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	5b8ce72259e08104b337fe28c6de5dbc	flag-o-matic	5128c4729303400bd8d4b0b966530955	linux-info	aedb720bff5a5dec9b87edd351382bfc	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	user	8bc2845510e2109af75e3eeac607ec81	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
+_eclasses_=desktop	1b286a7e7143d8c4ec89cd0d2743a097	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	5b8ce72259e08104b337fe28c6de5dbc	flag-o-matic	5128c4729303400bd8d4b0b966530955	linux-info	ee2d911941350f117c3c9032783bb0e2	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	user	8bc2845510e2109af75e3eeac607ec81	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
 _md5_=8a86cb746e9bd501be0c187352779c98
