@@ -8,4 +8,4 @@ LICENSE=GPL-3
 RDEPEND=net-misc/curl || ( net-analyzer/netcat6 net-analyzer/openbsd-netcat ) sys-apps/iproute2 sys-apps/net-tools sys-apps/util-linux apache2? ( www-servers/apache:2 ) cron? ( virtual/cron ) libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= ) nginx? ( www-servers/nginx:0 ) standalone? ( net-misc/socat )
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
-_md5_=66a4ffbeda9e468f7ae28757745ba9ee
+_md5_=e94bc878c866d74a145c56f5be7e4bdc
