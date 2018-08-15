@@ -7,5 +7,5 @@ IUSE=vhosts vhosts
 LICENSE=MIT
 RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	webapp	6ae2395d7f341093c36057cb4f69101a
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765	webapp	6ae2395d7f341093c36057cb4f69101a
 _md5_=e6a35f6119b3fa42f618a341fdbc9c69

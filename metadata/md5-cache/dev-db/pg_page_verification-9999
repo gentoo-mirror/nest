@@ -6,5 +6,5 @@ EAPI=7
 HOMEPAGE=https://github.com/google/pg_page_verification
 LICENSE=google
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=69dde5ca631558c660362ac1f14fbc3e
