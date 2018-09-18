@@ -7,5 +7,5 @@ IUSE=debug doc
 LICENSE=GPL-1
 RDEPEND=dev-libs/libev virtual/tmpfiles
 SLOT=0
-_eclasses_=git-r3	918d6a744039c29af2cadc7317459765	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	47c677ae1d7b69031f11f630ac09f0d1	tmpfiles	c8f9ea76ade103890e42d0f339afb64c	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	97f470f374f2e94ccab04a2fb21d811e	systemd	47c677ae1d7b69031f11f630ac09f0d1	tmpfiles	c8f9ea76ade103890e42d0f339afb64c	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512
 _md5_=912d76bc0235d8208970358bd2b8060f
