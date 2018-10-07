@@ -1,5 +1,6 @@
+BDEPEND=app-emulation/spice-protocol virtual/pkgconfig
 DEFINED_PHASES=compile install prepare
-DEPEND=dev-libs/libconfig:= dev-libs/nettle:=[gmp] media-libs/fontconfig:1.0 media-libs/libsdl2 media-libs/sdl2-ttf virtual/glu app-emulation/spice-protocol virtual/pkgconfig
+DEPEND=dev-libs/libconfig:= dev-libs/nettle:=[gmp] media-libs/fontconfig:1.0 media-libs/libsdl2 media-libs/sdl2-ttf virtual/glu
 DESCRIPTION=A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 EAPI=7
 HOMEPAGE=https://looking-glass.hostfission.com https://github.com/gnif/LookingGlass/
@@ -10,4 +11,4 @@ RDEPEND=dev-libs/libconfig:= dev-libs/nettle:=[gmp] media-libs/fontconfig:1.0 me
 SLOT=0
 SRC_URI=https://github.com/gnif/LookingGlass/archive/a11.tar.gz -> LookingGlass-a11.tar.gz host? ( https://github.com/gnif/LookingGlass/releases/download/a11/looking-glass-host-a11.zip )
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=d4805eb9835c6df775306c37552b4727
+_md5_=969312ec301df03d2ed5783195faaddb
