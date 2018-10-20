@@ -2,10 +2,9 @@ DEFINED_PHASES=install
 DESCRIPTION=An ACME Shell script
 EAPI=7
 HOMEPAGE=https://github.com/Neilpang/acme.sh
-IUSE=apache2 +cron nginx libressl standalone
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=net-misc/curl || ( net-analyzer/netcat6 net-analyzer/openbsd-netcat ) sys-apps/iproute2 sys-apps/net-tools sys-apps/util-linux apache2? ( www-servers/apache:2 ) cron? ( virtual/cron ) libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= ) nginx? ( www-servers/nginx:0 ) standalone? ( net-misc/socat )
+RDEPEND=net-misc/curl || ( dev-libs/libressl dev-libs/openssl:0 ) || ( net-analyzer/netcat6 net-analyzer/openbsd-netcat ) || ( net-misc/socat www-servers/apache:2 www-servers/nginx:0 ) virtual/cron
 SLOT=0
 SRC_URI=https://github.com/Neilpang/acme.sh/archive/2.7.9.tar.gz -> acme.sh-2.7.9.tar.gz
-_md5_=3da57ddd6e39cda2b7cc25f9b8c30dc3
+_md5_=721401a96fe70ae9f2387dc9fecaaa48
