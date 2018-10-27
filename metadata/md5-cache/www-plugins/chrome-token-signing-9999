@@ -1,12 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtnetwork:5 sys-apps/pcsc-lite firefox? ( || ( www-client/firefox www-client/firefox-bin ) ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) virtual/pkgconfig
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtnetwork:5 sys-apps/pcsc-lite !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 DESCRIPTION=Native client and extension for signing with your eID on the web
 EAPI=7
 HOMEPAGE=https://github.com/open-eid/chrome-token-signing http://id.ee/
-IUSE=firefox libressl
+IUSE=chromium firefox libressl vivaldi
 LICENSE=LGPL-2.1
-RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtnetwork:5 sys-apps/pcsc-lite firefox? ( || ( www-client/firefox www-client/firefox-bin ) ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtnetwork:5 sys-apps/pcsc-lite !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 SLOT=0
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=eca50db977a82d5bf0103ea0c0a9408a
+_md5_=4a35927d0cc07420b0603b058ecbf240
