@@ -2,15 +2,15 @@
 # Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-command="/usr/bin/passivedns"
-command_background="yes"
+command="/usr/bin/fiche"
 command_args="${OPTS}"
+command_backround="yes"
+description="Pastebin server"
+name="Pastebin server"
+user="${FICHE_USER:-fiche}"
+group="${FICHE_GROUP:-fiche}"
 pidfile="/run/${RC_SVCNAME}.pid"
 
 depend() {
 	need net
-}
-
-start_post() {
-	pgrep -n "${RC_SVCNAME}" > "${pidfile}"
 }
