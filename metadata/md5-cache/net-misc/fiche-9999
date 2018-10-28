@@ -1,9 +1,9 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Command line pastebin server
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/solusipse/fiche
 LICENSE=MIT
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	user	8bc2845510e2109af75e3eeac607ec81
-_md5_=1d3beb9697a4290c6f7f00b4369f438d
+_md5_=2b688c6c25d1cdcae98603dccb9b1118
