@@ -8,6 +8,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-db/mongodb virtual/jre:1.8
 RESTRICT=bindist mirror preserve-libs strip
 SLOT=0
-SRC_URI=http://dl.ubnt.com/unifi/5.6.30/UniFi.unix.zip -> unifi-5.6.30.zip
+SRC_URI=http://dl.ubnt.com/unifi/5.6.40/UniFi.unix.zip -> unifi-5.6.40.zip
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	47c677ae1d7b69031f11f630ac09f0d1	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bc2845510e2109af75e3eeac607ec81
 _md5_=ca8256ae79d11d2185bb6a2ef77b4752
