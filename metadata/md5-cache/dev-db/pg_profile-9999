@@ -1,0 +1,10 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
+DEPEND=dev-db/postgresql:*
+DESCRIPTION=Postgres historic performance reports
+EAPI=7
+HOMEPAGE=https://github.com/zubkov-andrei/pg_profile
+LICENSE=LGPL-3
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=d686063078cbdb63eb9b0dacf8604b84
