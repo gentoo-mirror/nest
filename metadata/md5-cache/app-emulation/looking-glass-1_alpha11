@@ -11,4 +11,4 @@ RDEPEND=dev-libs/libconfig:= dev-libs/nettle:=[gmp] media-libs/fontconfig:1.0 me
 SLOT=0
 SRC_URI=https://github.com/gnif/LookingGlass/archive/a11.tar.gz -> LookingGlass-a11.tar.gz host? ( https://github.com/gnif/LookingGlass/releases/download/a11/looking-glass-host-a11.zip )
 _eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=969312ec301df03d2ed5783195faaddb
+_md5_=e48d559a7bcf0bd17901107120970357
