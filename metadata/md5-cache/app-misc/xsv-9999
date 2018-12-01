@@ -8,4 +8,4 @@ LICENSE=MIT Unlicense
 RESTRICT=mirror
 SLOT=0
 _eclasses_=cargo	c11c4632a7a9d8e0b76e9f4412e76163	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multiprocessing	cac3169468f893670dac3e7cb940e045
-_md5_=24d594c2b54c1e54a0f96c988e4eb449
+_md5_=762133b12f42b71c79e0c30fd9ce1a6e
