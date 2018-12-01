@@ -10,11 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	Recursive Serialization for Django REST framework
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">heywbj/django-rest-framework-recursive</remote-id>
+		<remote-id type="pypi">djangorestframework-recursive</remote-id>
 	</upstream>
 </pkgmetadata>

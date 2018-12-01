@@ -10,11 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	This provides a tag and filter that lets you quickly render forms
+	in a div format while providing an enormous amount of capability
+	to configure and control the rendered HTML.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">django-crispy-forms/django-crispy-forms</remote-id>
+		<remote-id type="pypi">django-crispy-forms</remote-id>
 	</upstream>
 </pkgmetadata>

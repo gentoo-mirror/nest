@@ -10,11 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	A library to provide human-readable diffs of python data structures
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="sourceforge">datadiff</remote-id>
+		<remote-id type="pypi">datadiff</remote-id>
 	</upstream>
 </pkgmetadata>

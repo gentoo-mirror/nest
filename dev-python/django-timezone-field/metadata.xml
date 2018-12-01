@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	Django application for database and form fields for pytz
+	timezone objects
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">mfogel/django-timezone-field</remote-id>
+		<remote-id type="pypi">django-timezone-field</remote-id>
 	</upstream>
 </pkgmetadata>

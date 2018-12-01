@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	Utilities for implementing Modified Preorder Tree Traversal
+	with Django Models and working with trees of Model instances
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">django-mptt/django-mptt</remote-id>
+		<remote-id type="pypi">django-mptt</remote-id>
 	</upstream>
 </pkgmetadata>

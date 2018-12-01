@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	A library to identify devices (phones, tablets) and their capabilities
+	by parsing (browser/HTTP) user agent strings
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">selwin/python-user-agents</remote-id>
+		<remote-id type="pypi">user-agents</remote-id>
 	</upstream>
 </pkgmetadata>

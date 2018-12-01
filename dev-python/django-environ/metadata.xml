@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	An utilization of 12factor inspired environment variables
+	to configure Django application
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">joke2k/django-environ</remote-id>
+		<remote-id type="pypi">django-environ</remote-id>
 	</upstream>
 </pkgmetadata>

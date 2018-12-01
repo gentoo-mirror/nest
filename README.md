@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 166](https://img.shields.io/badge/ebuild-166-orange.svg)](https://img.shields.io/badge/ebuild-166-orange.svg)
+[![Number of ebuilds: 181](https://img.shields.io/badge/ebuild-181-orange.svg)](https://img.shields.io/badge/ebuild-181-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -125,13 +125,24 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[aws-sam-translator](https://github.com/awslabs/serverless-application-model) | A library to transform SAM templates into AWS CloudFormation templates
 * dev-python/[crayons](https://github.com/kennethreitz/crayons) | Text UI colors
 * dev-python/[crossplane](https://github.com/nginxinc/crossplane) | Fast and reliable NGINX configuration parser
+* dev-python/[datadiff](https://datadiff.sourceforge.net/) | A library for diffs of python data structures
 * dev-python/[dateparser](https://github.com/scrapinghub/dateparser) | Date parsing library designed to parse dates from HTML pages
+* dev-python/[django-cors-headers](https://github.com/ottoyiu/django-cors-headers) | Django application for Cross-Origin Resource Sharing (CORS)
+* dev-python/[django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms) | DRY Django forms
 * dev-python/[django-debug-toolbar](https://github.com/django-debug-toolbar/django-debug-toolbar) | A configurable set of panels that display debug information
-* dev-python/[django-filter](https://github.com/alex/django-filter) | A generic system for filtering Django QuerySets based on user selections
-* dev-python/[django-guardian](https://github.com/lukaszb/django-guardian) | Implementation of per object permissions for Django 1.2+
-* dev-python/[django-rest-framework](http://django-rest-framework.org/) | Powerful and flexible toolkit that makes it easy to build Web APIs using Django
+* dev-python/[django-environ](https://github.com/joke2k/django-environ) | An environment variables to configure Django
+* dev-python/[django-filter](https://github.com/carltongibson/django-filter) | Django application for filtering querysets
+* dev-python/[django-guardian](https://github.com/django-guardian/django-guardian) | An implementation of per object permissions for Django
+* dev-python/[django-js-asset](https://github.com/matthiask/django-js-asset) | A script tag with additional attributes for django.forms.Media
+* dev-python/[django-mptt](https://github.com/django-mptt/django-mptt) | Utilities for implementing Modified Preorder Tree Traversal
+* dev-python/[django-rest-framework](https://django-rest-framework.org/) | Django REST framework
+* dev-python/[django-rest-framework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
+* dev-python/[django-rest-framework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
 * dev-python/[django-rest-swagger](https://github.com/marcgibbons/django-rest-swagger) | Swagger Documentation Generator for Django REST Framework
 * dev-python/[django-tables2](https://pypi.python.org/pypi/django-tables2/) | Table/data-grid framework for Django
+* dev-python/[django-taggit](https://github.com/alex/django-taggit) | Django application for simple tagging
+* dev-python/[django-timezone-field](https://github.com/mfogel/django-timezone-field) | Django application for database and form fields for pytz objects
+* dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
 * dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
@@ -140,11 +151,15 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[port-for](https://github.com/kmike/port-for) | An utility and python library for TCP ports management
 * dev-python/[python-coreapi](https://github.com/core-api/python-client) | Python client library for Core API
 * dev-python/[python-coreschema](https://github.com/core-api/python-coreschema) | Python CoreSchema
+* dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
 * dev-python/[PythonQt](http://pythonqt.sourceforge.net/) | A dynamic Python binding for the Qt framework
 * dev-python/[rstr](http://bitbucket.org/leapfrogdevelopment/rstr) | Generate random strings in Python
+* dev-python/[ruamel-std-pathlib](https://pypi.org/project/ruamel.std.pathlib/) | Ruamel enhancements to pathlib and pathlib2
+* dev-python/[ruamel-yaml](https://pypi.org/project/ruamel.yaml/) | YAML parser/emitter that supports roundtrip comment preservation
 * dev-python/[selectors2](https://github.com/SethMichaelLarson/selectors2) | Portable replacement to the standard library selectors module
 * dev-python/[testinfra](https://github.com/philpep/testinfra) | An unit tests in Python to test actual state of servers
 * dev-python/[toml](https://github.com/uiri/toml) | Python Library for Tom's Obvious, Minimal Language
+* dev-python/[ua-parser](https://datadiff.sourceforge.net/) | A library for diffs of python data structures
 * dev-util/[ansible-lint](https://github.com/willthames/ansible-lint) | Best practices checker for Ansible
 * dev-util/[ansible-molecule](https://github.com/metacloud/ansible-molecule) | Automated testing for Ansible roles
 * dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter

@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An implementation of per object permissions on top of Django’s
-	authorization backend
+	A Django App that adds CORS (Cross-Origin Resource Sharing) headers
+	to responses
 	</longdescription>
 	<upstream>
-		<remote-id type="github">django-guardian/django-guardian</remote-id>
-		<remote-id type="pypi">django-guardian</remote-id>
+		<remote-id type="github">ottoyiu/django-cors-headers</remote-id>
+		<remote-id type="pypi">django-cors-headers</remote-id>
 	</upstream>
 </pkgmetadata>
