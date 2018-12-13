@@ -10,10 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A script tag with additional attributes for django.forms.Media
+	A simple library for mocking certain Django behavior,
+	such as the ORM
 	</longdescription>
 	<upstream>
-		<remote-id type="github">matthiask/django-js-asset</remote-id>
-		<remote-id type="pypi">django-js-asset</remote-id>
+		<remote-id type="github">dcramer/mock-django</remote-id>
+		<remote-id type="pypi">mock-django</remote-id>
 	</upstream>
 </pkgmetadata>
