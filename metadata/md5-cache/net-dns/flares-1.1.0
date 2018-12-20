@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=MIT-with-advertising
 SLOT=0
 SRC_URI=https://github.com/lfaoro/flares/archive/v1.1.0.tar.gz -> flares-1.1.0.tar.gz https://github.com/inconshreveable/mousetrap/archive/76626ae9c91c4f2a10f34cad8ce83ea42c93bb75.tar.gz -> github.com-inconshreveable-mousetrap-76626ae9c91c4f2a10f34cad8ce83ea42c93bb75.tar.gz https://github.com/pkg/errors/archive/645ef00459ed84a119197bfb8d8205042c6df63d.tar.gz -> github.com-pkg-errors-645ef00459ed84a119197bfb8d8205042c6df63d.tar.gz https://github.com/spf13/cobra/archive/ef82de70bb3f60c65fb8eebacbb2d122ef517385.tar.gz -> github.com-spf13-cobra-ef82de70bb3f60c65fb8eebacbb2d122ef517385.tar.gz https://github.com/spf13/pflag/archive/298182f68c66c05229eb03ac171abe6e309ee79a.tar.gz -> github.com-spf13-pflag-298182f68c66c05229eb03ac171abe6e309ee79a.tar.gz https://github.com/vlct-io/pkg/archive/a03a7c08cf76b08899f3423beee8538f851c5e22.tar.gz -> github.com-vlct-io-pkg-a03a7c08cf76b08899f3423beee8538f851c5e22.tar.gz
-_eclasses_=golang-base	e764075c9bbce927b424f8e9b7a25dfe	golang-build	1b46197451ce01766db03a9955597d7b	golang-vcs-snapshot	6f66975a5b570c5e05ed96910c574abc
+_eclasses_=golang-base	8e4d7f712ec0e170e2c190c1e3da6501	golang-build	42942532e7429ed9b2efaabf93dc0615	golang-vcs-snapshot	6f66975a5b570c5e05ed96910c574abc
 _md5_=34b79c33e2ffe9a36a6e74eb9dc6edf6
