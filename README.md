@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 207](https://img.shields.io/badge/ebuild-207-orange.svg)](https://img.shields.io/badge/ebuild-207-orange.svg)
+[![Number of ebuilds: 211](https://img.shields.io/badge/ebuild-211-orange.svg)](https://img.shields.io/badge/ebuild-211-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -157,6 +157,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[flex](https://github.com/pipermerriam/flex) | Validation tooling for Swagger 2.0 specifications
 * dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
+* dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 * dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 * dev-python/[msrest](https://pypi.python.org/pypi/msrest/) | AutoRest swagger generator Python client runtime
@@ -176,6 +177,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ruamel-std-pathlib](https://bitbucket.org/ruamel/std.pathlib) | Ruamel enhancements to pathlib and pathlib2
 * dev-python/[ruamel-yaml](https://bitbucket.org/ruamel/yaml) | YAML parser/emitter that supports roundtrip comment preservation
 * dev-python/[selectors2](https://github.com/SethMichaelLarson/selectors2) | Portable replacement to the standard library selectors module
+* dev-python/[sphinx-autobuild](https://github.com/GaretJax/sphinx-autobuild) | Mermaid diagrams in sphinx powered docs
+* dev-python/[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | Mermaid diagrams in sphinx powered docs
+* dev-python/[sphinxcontrib-openapi](https://github.com/ikalnytskyi/sphinxcontrib-openapi) | Sphinx extension to generate APIs docs from OpenAPI
 * dev-python/[tablib](http://python-tablib.org/) | A format-agnostic tabular dataset library written in Python
 * dev-python/[testinfra](https://github.com/philpep/testinfra) | An unit tests in Python to test actual state of servers
 * dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
