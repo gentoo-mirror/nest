@@ -10,8 +10,8 @@ MY_P="${MY_PN}-${PV}"
 
 inherit distutils-r1 vcs-snapshot
 
-DESCRIPTION="Ruamel enhancements to pathlib and pathlib2"
-HOMEPAGE="https://bitbucket.org/ruamel/std.pathlib"
+DESCRIPTION="YAML parser/emitter that supports roundtrip comment preservation"
+HOMEPAGE="https://bitbucket.org/ruamel/yaml"
 SRC_URI="https://bitbucket.org/${MY_PN/.//}/get/${PV}.tar.gz -> ${MY_P}.tar.gz"
 
 LICENSE="MIT"
@@ -19,17 +19,20 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
 IUSE="test"
 
-RDEPEND="$(python_gen_cond_dep 'dev-python/pathlib2[${PYTHON_USEDEP}]' python3_4)"
-DEPEND="${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
+	test? ( dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/ruamel-std-pathlib[${PYTHON_USEDEP}] )"
 
 S="${WORKDIR}/${MY_P}"
 
 python_test() {
+	# This file produced by setup.py breaks finding system-wide installed
+	# ruamel.std.pathlib due to shared namespace
+	rm "${BUILD_DIR}/lib/ruamel/__init__.py" || die "rm failed"
+
 	# tests fail with python2_7 due to import with namespace
 	if python_is_python3 ; then
-		py.test -v || die "tests failed with ${EPYTHON}"
+		py.test -v _test/test_*.py || die "tests failed with ${EPYTHON}"
 	fi
 }
 
