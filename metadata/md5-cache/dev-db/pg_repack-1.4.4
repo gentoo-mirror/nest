@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile prepare
+DEPEND=dev-db/postgresql:*[static-libs?]
+DESCRIPTION=PostgreSQL extension for data reorganization
+EAPI=7
+HOMEPAGE=https://github.com/reorg/pg_repack
+IUSE=client debug static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=client? ( dev-db/postgresql:*[static-libs?] )
+REQUIRED_USE=debug? ( client ) client? ( static-libs )
+SLOT=0
+SRC_URI=https://github.com/reorg/pg_repack/archive/ver_1.4.4.tar.gz -> pg_repack-ver_1.4.4.tar.gz
+_md5_=34d7951d7618ffea0efa5b4408de9555
