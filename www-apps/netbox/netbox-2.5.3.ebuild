@@ -3,12 +3,12 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python2_7 )
+PYTHON_COMPAT=( python3_{4..6} )
 WEBAPP_MANUAL_SLOT="yes"
 
 inherit python-r1 webapp user
 
-DESCRIPTION="IP address (IPAM) and data center infrastructure management (DCIM)"
+DESCRIPTION="IP address management (IPAM) and data center infrastructure management (DCIM)"
 HOMEPAGE="https://github.com/digitalocean/netbox"
 SRC_URI="https://github.com/digitalocean/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
@@ -17,29 +17,26 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="vhosts"
 
-RDEPEND="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/drf-yasg[${PYTHON_USEDEP}]
-	dev-python/django-rest-framework[${PYTHON_USEDEP}]
-	dev-python/django-filter[${PYTHON_USEDEP}]
-	dev-python/django-timezone-field[${PYTHON_USEDEP}]
-	dev-python/django-taggit[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/django-2[${PYTHON_USEDEP}]
 	dev-python/django-cors-headers[${PYTHON_USEDEP}]
 	dev-python/django-debug-toolbar[${PYTHON_USEDEP}]
+	dev-python/django-filter[${PYTHON_USEDEP}]
 	dev-python/django-mptt[${PYTHON_USEDEP}]
+	dev-python/django-rest-framework[${PYTHON_USEDEP}]
 	dev-python/django-tables2[${PYTHON_USEDEP}]
+	dev-python/django-taggit[${PYTHON_USEDEP}]
+	dev-python/django-taggit-serializer[${PYTHON_USEDEP}]
+	dev-python/django-timezone-field[${PYTHON_USEDEP}]
+	dev-python/drf-yasg[${PYTHON_USEDEP}]
 	dev-python/graphviz[${PYTHON_USEDEP}]
 	dev-python/markdown[${PYTHON_USEDEP}]
-	dev-python/natsort[${PYTHON_USEDEP}]
 	dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/ncclient[${PYTHON_USEDEP}]
-	dev-python/paramiko[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/psycopg:2[${PYTHON_USEDEP}]
 	dev-python/py-gfm[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	dev-python/pycryptodome[${PYTHON_USEDEP}]"
 
-DOCS=( README.md CONTRIBUTING.md )
+DOCS=( CHANGELOG.md CONTRIBUTING.md README.md )
 
 pkg_setup() {
 	python_setup

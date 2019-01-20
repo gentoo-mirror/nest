@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	This package facilitates the creation and rendering of graph
-	descriptions in the DOT language of the Graphviz graph drawing
-	software
+	It provides out of the box all the endpoints, data and logic
+	needed to add OAuth2 capabilities to your Django projects
 	</longdescription>
 	<upstream>
-		<remote-id type="github">xflr6/graphviz</remote-id>
-		<remote-id type="pypi">graphviz</remote-id>
+		<remote-id type="github">jazzband/django-oauth-toolkit</remote-id>
+		<remote-id type="pypi">django-oauth-toolkit</remote-id>
 	</upstream>
 </pkgmetadata>
