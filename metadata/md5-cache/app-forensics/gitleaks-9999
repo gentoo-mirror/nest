@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare test unpack
+DEPEND=dev-go/go-net:= dev-go/go-oauth2:= dev-go/go-protobuf:= dev-go/go-text:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.9
+DESCRIPTION=Auditing git repository for secrets and keys
+EAPI=6
+HOMEPAGE=https://github.com/zricethezav/gitleaks
+LICENSE=GPL-3
+RDEPEND=dev-go/go-net:= dev-go/go-oauth2:= dev-go/go-protobuf:= dev-go/go-text:=
+SLOT=0
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	golang-base	8e4d7f712ec0e170e2c190c1e3da6501	golang-build	42942532e7429ed9b2efaabf93dc0615	golang-vcs-snapshot	6f66975a5b570c5e05ed96910c574abc
+_md5_=f7e3881a00f450ea1208a7a54934b911
