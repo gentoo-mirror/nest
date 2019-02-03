@@ -1,12 +1,12 @@
 DEFINED_PHASES=configure prepare
 DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 || ( sys-apps/firejail sys-apps/firejail-lts )
 DESCRIPTION=Graphical user interface of Firajail security sandbox
-EAPI=6
+EAPI=7
 HOMEPAGE=https://firejail.wordpress.com https://github.com/netblue30/firetools
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 || ( sys-apps/firejail sys-apps/firejail-lts ) x11-terms/xterm
 SLOT=0
-SRC_URI=https://github.com/netblue30/firetools/archive/0.9.50.tar.gz -> firetools-0.9.50.tar.gz
+SRC_URI=https://github.com/netblue30/firetools/archive/0.9.58.tar.gz -> firetools-0.9.58.tar.gz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	b2f01ad412baf81650c23fcf0975fa33	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=250e32bb2066e28e98f2449ba3a42c7f
+_md5_=295cdf66a69034be6679b008b279b822
