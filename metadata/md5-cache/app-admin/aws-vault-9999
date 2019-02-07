@@ -1,11 +1,12 @@
 DEFINED_PHASES=compile install prepare test unpack
-DEPEND=dev-go/go-crypto:= dev-go/go-sys:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.9
+DEPEND=dev-go/go-crypto:= dev-go/go-sys:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.10
 DESCRIPTION=A vault for securely storing and accessing AWS credentials
 EAPI=6
 HOMEPAGE=https://github.com/99designs/aws-vault
 IUSE=bash-completion zsh-completion
 LICENSE=MIT
 RDEPEND=dev-go/go-crypto:= dev-go/go-sys:= bash-completion? ( app-shells/bash-completion ) zsh-completion? ( app-shells/zsh-completions )
+RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	golang-base	8e4d7f712ec0e170e2c190c1e3da6501	golang-build	42942532e7429ed9b2efaabf93dc0615
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7
 _md5_=a8c65b120f7d567e1afd97ba60e6929f
