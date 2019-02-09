@@ -1,11 +1,11 @@
-DEFINED_PHASES=install
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
 DEPEND=dev-lang/perl:0=[berkdb] virtual/perl-DB_File
 DESCRIPTION=Tool to manage (PAM) userdb files with crypted passwords
 EAPI=7
 HOMEPAGE=http://nasauber.de/opensource/userdbadm
-KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-lang/perl:0=[berkdb] virtual/perl-DB_File
 SLOT=0
-SRC_URI=http://nasauber.de/opensource/userdbadm/userdbadm-0.1.tar.gz
-_md5_=1c33b7808c92169b7ce6a3a4e5ccf4da
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_md5_=22545dfa46ab845f5f612a272c212f02
