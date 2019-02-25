@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=virtual/tmpfiles
 SLOT=0
 SRC_URI=mirror://sourceforge/inadyn-mt/inadyn-mt.v.02.28.10.tar.gz
-_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	a6dd0427ea9c68067a0a7fe2236b457f	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bc2845510e2109af75e3eeac607ec81
+_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	a6dd0427ea9c68067a0a7fe2236b457f	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	user	8bd74731cafdcdad8f7a63637302e073
 _md5_=65f5b42b24aa45bcf5285a79ceeb69ac
