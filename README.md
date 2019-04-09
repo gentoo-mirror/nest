@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 227](https://img.shields.io/badge/ebuild-227-orange.svg)](https://img.shields.io/badge/ebuild-227-orange.svg)
+[![Number of ebuilds: 232](https://img.shields.io/badge/ebuild-232-orange.svg)](https://img.shields.io/badge/ebuild-232-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -45,6 +45,7 @@ Afterwards, simply run `emerge --sync`, and Portage should seamlessly make all o
 
 This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for projects:
 
+* app-admin/[awslimitchecker](https://github.com/jantman/awslimitchecker) | Utility to check AWS resource limits and usage
 * app-admin/[awslog](https://github.com/jaksi/awslog) | History and changes of configuration versions of AWS resources
 * app-admin/[awsudo](https://github.com/makethunder/awsudo) | A temporary credentials for AWS roles via sudo-like utility
 * app-admin/[aws-vault](https://github.com/99designs/aws-vault) | A vault for securely storing and accessing AWS credentials
@@ -129,6 +130,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-ml/[ocaml-vorbis](https://github.com/savonet/ocaml-vorbis) | OCaml bindings to libvorbis
 * dev-ml/[ocaml-xmlplaylist](https://github.com/savonet/ocaml-xmlplaylist) | OCaml module to parse various RSS playlist formats
 * dev-php/[scrypt]() | A PHP wrapper fo the scrypt hashing algorithm
+* dev-python/[GitPython](https://github.com/gitpython-developers/GitPython) | A python library used to interact with Git repositories
 * dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 * dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
 * dev-python/[applicationinsights](https://pypi.python.org/pypi/applicationinsights/) | Application Insights API surface
@@ -174,6 +176,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 * dev-python/[msrest](https://pypi.python.org/pypi/msrest/) | AutoRest swagger generator Python client runtime
 * dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
+* dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 * dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 * dev-python/[polemarch-ansible](https://gitlab.com/vstconsulting/polemarch-ansible) | Wrapper for Ansible CLI
 * dev-python/[port-for](https://github.com/kmike/port-for) | An utility and python library for TCP ports management
@@ -198,11 +201,13 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[tablib](http://python-tablib.org/) | A format-agnostic tabular dataset library written in Python
 * dev-python/[testinfra](https://github.com/philpep/testinfra) | An unit tests in Python to test actual state of servers
 * dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
+* dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
 * dev-python/[toml](https://github.com/uiri/toml) | Python Library for Tom's Obvious, Minimal Language
 * dev-python/[ua-parser](https://datadiff.sourceforge.net/) | A library for diffs of python data structures
 * dev-python/[whaaaaat](https://github.com/finklabs/whaaaaat) | A collection of common interactive command line user interfaces
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
+* dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 * dev-util/[ansible-lint](https://github.com/willthames/ansible-lint) | Best practices checker for Ansible
 * dev-util/[ansible-molecule](https://github.com/metacloud/ansible-molecule) | Automated testing for Ansible roles
 * dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter
