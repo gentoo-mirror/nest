@@ -18,8 +18,8 @@ IUSE=""
 
 RDEPEND="net-misc/curl
 	|| ( dev-libs/libressl dev-libs/openssl:0 )
-	|| ( net-analyzer/netcat6 net-analyzer/openbsd-netcat )
-	|| ( net-misc/socat www-servers/apache:2 www-servers/nginx:0 )
+	|| ( net-analyzer/netcat net-analyzer/openbsd-netcat )
+	|| ( net-misc/socat www-servers/apache:2 www-servers/nginx )
 	virtual/cron"
 
 src_install() {
