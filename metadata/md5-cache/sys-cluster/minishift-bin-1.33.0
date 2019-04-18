@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Single Node OpenShift Cluster
+EAPI=7
+HOMEPAGE=https://github.com/minishift/minishift
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+SLOT=0
+SRC_URI=https://github.com/minishift/minishift/releases/download/v1.33.0/minishift-1.33.0-linux-amd64.tgz
+_md5_=d6a65d9b18a5908736a865e371b1e9c7
