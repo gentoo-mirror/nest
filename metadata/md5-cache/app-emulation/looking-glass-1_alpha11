@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/libconfig:= dev-libs/nettle:=[gmp] media-libs/fontconfig:1.0 media-libs/libsdl2 media-libs/sdl2-ttf virtual/glu
 SLOT=0
 SRC_URI=https://github.com/gnif/LookingGlass/archive/a11.tar.gz -> LookingGlass-a11.tar.gz host? ( https://github.com/gnif/LookingGlass/releases/download/a11/looking-glass-host-a11.zip )
-_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
 _md5_=cd71143a24b2186b02222578b671698c
