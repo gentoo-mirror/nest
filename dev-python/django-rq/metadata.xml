@@ -10,15 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	NetBox is an IP address management (IPAM) and data center
-	infrastructure management (DCIM) tool. Initially conceived by
-	the network engineering team at DigitalOcean, NetBox was developed
-	specifically to address the needs of network and infrastructure engineers.
+	A django integration with RQ, a Redis based Python queuing library
 	</longdescription>
-	<use>
-		<flag name="webhooks">Enable webhooks via django-rq</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">digitalocean/netbox</remote-id>
+		<remote-id type="github">rq/django-rq</remote-id>
+		<remote-id type="pypi">django-rq</remote-id>
 	</upstream>
 </pkgmetadata>
