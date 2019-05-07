@@ -10,4 +10,4 @@ RDEPEND=>=dev-python/django-2.2[python_targets_python3_6(-)?,-python_single_targ
 SLOT=0
 SRC_URI=https://github.com/digitalocean/netbox/archive/v2.5.12.tar.gz -> netbox-2.5.12.tar.gz
 _eclasses_=multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-r1	ce1cd23cfdc1848e8e32743efe34f299	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	user	8bd74731cafdcdad8f7a63637302e073	webapp	16783e418aca3ffa461d68310bf7ab12
-_md5_=0994175ffd8ef22a13b63c584bc9c65b
+_md5_=84c80bd8c073f2fad2bfe1f27c95dcb1
