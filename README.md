@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 243](https://img.shields.io/badge/ebuild-243-orange.svg)](https://img.shields.io/badge/ebuild-243-orange.svg)
+[![Number of ebuilds: 245](https://img.shields.io/badge/ebuild-245-orange.svg)](https://img.shields.io/badge/ebuild-245-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -65,6 +65,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-crypt/[acme-client](https://github.com/kristapsdz/acme-client-portable) | Secure Let's Encrypt client
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/acme-sh.svg)](https://repology.org/metapackage/acme-sh) app-crypt/[acme-sh](https://github.com/Neilpang/acme.sh) | An ACME Shell script
 * app-crypt/[qesteidutil](https://github.com/open-eid/qesteidutil) | Estonian ID card management desktop utility
+* app-editors/[qedit](http://hugo.pereira.free.fr/software/index.php) | Qt-based multi-purpose text editor
 * app-editors/[FeatherPad](https://github.com/tsujan/FeatherPad) | Lightweight Qt5 plain-text editor
 * app-editors/[visual-studio-code-bin](http://code.visualstudio.com) | Editor for building and debugging modern web and cloud applications
 * app-emulation/[looking-glass](https://looking-glass.hostfission.com) | A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
@@ -229,6 +230,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-gfx/[butteraugli](https://github.com/google/butteraugli) | A tool for measuring perceived differences between images
 * media-gfx/[lsix](https://github.com/hackerb9/lsix) | Image viewer for terminal that use sixel graphics
 * media-gfx/[screencloud](https://screencloud.net/) | Screenshot capturing and sharing tool over various services
+* media-gfx/[xgrabcolor](http://hugo.pereira.free.fr/software/index.php) | Qt-based basic color picker
 * media-libs/[shine](https://github.com/toots/shine) | Fixed-point mp3 encoding library
 * media-radio/[krudio](https://github.com/loast/krudio) | Radio tray for linux on QT
 * media-radio/[liquidsoap](http://liquidsoap.fm/) | A swiss-army knife for multimedia streaming, used for netradios and webtvs
