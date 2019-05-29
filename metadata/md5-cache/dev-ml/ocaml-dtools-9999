@@ -1,11 +1,12 @@
+BDEPEND=>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=dev-lang/ocaml:=[ocamlopt?] camlp4? ( dev-ml/camlp4:= ) syslog? ( dev-ml/ocaml-syslog:= ) dev-ml/findlib >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-ml/findlib-1.0.4-r1 >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=dev-lang/ocaml:=[ocamlopt?] camlp4? ( dev-ml/camlp4:= ) syslog? ( dev-ml/ocaml-syslog:= ) dev-ml/findlib >=dev-ml/findlib-1.0.4-r1
 DESCRIPTION=OCaml daemon tools library
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-dtools
 IUSE=+camlp4 debug +ocamlopt profiling syslog
 LICENSE=GPL-2
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] camlp4? ( dev-ml/camlp4:= ) syslog? ( dev-ml/ocaml-syslog:= )
 SLOT=0/9999
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	findlib	45d6030075064a68da8d7143726a1150	git-r3	0d4635eeb5a96cd5315597a47eba25c9	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=51e20506960f6f06c6ea67ab353b92a9
+_md5_=cf65b1d8766b422f7c68f9cad67931d2
