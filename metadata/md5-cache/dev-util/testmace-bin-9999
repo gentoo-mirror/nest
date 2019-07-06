@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm prepare unpack
+DESCRIPTION=Powerful IDE to work with API
+EAPI=7
+HOMEPAGE=https://testmace.com
+IUSE=pax_kernel abi_x86_64
+LICENSE=all-rights-reserved
+RDEPEND=app-accessibility/at-spi2-atk:2[abi_x86_64(-)?] dev-libs/atk:0[abi_x86_64(-)?] dev-libs/dbus-glib:0[abi_x86_64(-)?] dev-libs/expat:0[abi_x86_64(-)?] dev-libs/glib:2[abi_x86_64(-)?] dev-libs/libdbusmenu:0[abi_x86_64(-)?] dev-libs/nspr:0[abi_x86_64(-)?] dev-libs/nss:0[abi_x86_64(-)?] media-libs/alsa-lib:0[abi_x86_64(-)?] media-libs/mesa:0[abi_x86_64(-)?] net-print/cups:0[abi_x86_64(-)?] sys-apps/dbus:0[abi_x86_64(-)?] sys-apps/util-linux:0[abi_x86_64(-)?] x11-libs/cairo:0[abi_x86_64(-)?] x11-libs/gdk-pixbuf:2[abi_x86_64(-)?] x11-libs/gtk+:3[abi_x86_64(-)?] x11-libs/libX11:0[abi_x86_64(-)?] x11-libs/libxcb:0/1.12[abi_x86_64(-)?] x11-libs/libXcomposite:0[abi_x86_64(-)?] x11-libs/libXcursor:0[abi_x86_64(-)?] x11-libs/libXdamage:0[abi_x86_64(-)?] x11-libs/libXext:0[abi_x86_64(-)?] x11-libs/libXfixes:0[abi_x86_64(-)?] x11-libs/libXi:0[abi_x86_64(-)?] x11-libs/libXrandr:0[abi_x86_64(-)?] x11-libs/libXrender:0[abi_x86_64(-)?] x11-libs/libXScrnSaver:0[abi_x86_64(-)?] x11-libs/libXtst:0[abi_x86_64(-)?] x11-libs/pango:0[abi_x86_64(-)?]
+REQUIRED_USE=|| ( abi_x86_64 )
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://s3.amazonaws.com/testmacedownload/TestMace.AppImage
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multilib-build	0d0c25170069d06d0eb233154229af97	pax-utils	db85a3c508cf82c45f24b2723791cc93	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	xdg-utils	14d00d009167652b1fa363e55effe213
+_md5_=5f425640433b22d2df2dc030d14bf798
