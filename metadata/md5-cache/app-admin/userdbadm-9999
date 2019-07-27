@@ -5,7 +5,8 @@ DESCRIPTION=Tool to manage (PAM) userdb files with crypted passwords
 EAPI=7
 HOMEPAGE=http://nasauber.de/opensource/userdbadm
 LICENSE=GPL-2
+PROPERTIES=live
 RDEPEND=dev-lang/perl:0=[berkdb] virtual/perl-DB_File
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=22545dfa46ab845f5f612a272c212f02
