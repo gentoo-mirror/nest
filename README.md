@@ -202,6 +202,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[pywinrm](https://github.com/diyan/pywinrm) | Python library for Windows Remote Management
 * dev-python/[PythonQt](http://pythonqt.sourceforge.net/) | A dynamic Python binding for the Qt framework
 * dev-python/[questionary](https://github.com/tmbo/questionary) | Python library to build pretty command line user prompts
+* dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
 * dev-python/[requests-credssp](https://github.com/jborean93/requests-credssp) | CredSSP authentication handler for Python Requests
 * dev-python/[rq](https://github.com/rq/rq) | A library for creating and processing background jobs
 * dev-python/[rstr](http://bitbucket.org/leapfrogdevelopment/rstr) | Generate random strings in Python
@@ -224,9 +225,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[whaaaaat](https://github.com/finklabs/whaaaaat) | A collection of common interactive command line user interfaces
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
+* dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
 * dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 * dev-python/[yattag](http://www.yattag.org) | Generate HTML or XML in a pythonic way
-* dev-util/[ansible-lint](https://github.com/willthames/ansible-lint) | Best practices checker for Ansible
 * dev-util/[ansible-molecule](https://github.com/metacloud/ansible-molecule) | Automated testing for Ansible roles
 * dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter
 * dev-util/[fossa-cli](https://github.com/fossas/fossa-cli) | License and vulnerability analysis

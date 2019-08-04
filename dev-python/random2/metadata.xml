@@ -10,10 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A robust email syntax and deliverability validation library for Python
+	Package provides a Python 3 ported version of Python 2.7's ``random``
+	module.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">JoshData/python-email-validator</remote-id>
-		<remote-id type="pypi">email_validator</remote-id>
+		<remote-id type="github">strichter/random2</remote-id>
+		<remote-id type="pypi">random2</remote-id>
 	</upstream>
 </pkgmetadata>

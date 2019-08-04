@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Checks playbooks for practices and behaviour
-	that could potentially be improved
+	Python validation library where validating a simple value does
+	not require defining a form or a schema.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">willthames/ansible-lint</remote-id>
-		<remote-id type="pypi">ansible-lint</remote-id>
+		<remote-id type="github">kvesteri/validators</remote-id>
+		<remote-id type="pypi">validators</remote-id>
 	</upstream>
 </pkgmetadata>

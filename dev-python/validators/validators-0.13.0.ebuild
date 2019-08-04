@@ -7,15 +7,18 @@ PYTHON_COMPAT=( python{2_7,3_{5..7}} )
 
 inherit distutils-r1
 
-DESCRIPTION="The most basic Text::Unidecode port"
-HOMEPAGE="https://github.com/kmike/text-unidecode"
-SRC_URI="https://github.com/kmike/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Python data validation library"
+HOMEPAGE="https://github.com/kvesteri/validators"
+SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="Artistic"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
+RDEPEND="dev-python/decorator[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]"
+DEPEND="${RDEPEND}"
 BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 
