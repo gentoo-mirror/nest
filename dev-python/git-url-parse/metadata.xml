@@ -10,14 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	With Testinfra you can write unit tests in Python to test actual state
-	of your servers configured by managements tools like
-	Salt, Ansible, Puppet, Chef and other configuration managment tools.
-	Testinfra aims to be a Serverspec equivalent in python and is written
-	as a plugin to the powerful Pytest test engine
+	A GIT URL parser
 	</longdescription>
 	<upstream>
-		<remote-id type="github">philpep/testinfra</remote-id>
-		<remote-id type="pypi">testinfra</remote-id>
+		<remote-id type="github">coala/git-url-parse</remote-id>
+		<remote-id type="pypi">git-url-parse</remote-id>
 	</upstream>
 </pkgmetadata>
