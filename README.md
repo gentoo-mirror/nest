@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 265](https://img.shields.io/badge/ebuild-265-orange.svg)](https://img.shields.io/badge/ebuild-265-orange.svg)
+[![Number of ebuilds: 269](https://img.shields.io/badge/ebuild-269-orange.svg)](https://img.shields.io/badge/ebuild-269-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -235,6 +235,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 * dev-python/[yattag](http://www.yattag.org) | Generate HTML or XML in a pythonic way
 * dev-util/[ansible-molecule](https://github.com/ansible/molecule) | Automated testing for Ansible roles
+* dev-util/[cargo-ebuild](https://github.com/cardoe/cargo-ebuild) | Generates an ebuild for a package using the in-tree eclasses
 * dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter
 * dev-util/[fossa-cli](https://github.com/fossas/fossa-cli) | License and vulnerability analysis
 * dev-util/[gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner) | GitLab Runner
@@ -248,8 +249,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-vcs/[mercurial-keyring](https://bitbucket.org/Mekk/mercurial_keyring) | Mercurial Keyring Extension
 * media-gfx/[butteraugli](https://github.com/google/butteraugli) | A tool for measuring perceived differences between images
 * media-gfx/[colorpick](https://github.com/agateau/colorpick) | Color picker and contrast checker
+* media-gfx/[dssim](https://github.com/kornelski/dssim) | Image similarity comparison simulating human perception
 * media-gfx/[lsix](https://github.com/hackerb9/lsix) | Image viewer for terminal that use sixel graphics
 * media-gfx/[qView](https://interversehq.com/qview) | Practical and minimal image viewer
+* media-gfx/[pingo-bin](https://css-ig.net/pingo) | Fast web image optimizer
 * media-gfx/[screencloud](https://screencloud.net/) | Screenshot capturing and sharing tool over various services
 * media-gfx/[xgrabcolor](http://hugo.pereira.free.fr/software/index.php) | Qt-based basic color picker
 * media-libs/[shine](https://github.com/toots/shine) | Fixed-point mp3 encoding library
