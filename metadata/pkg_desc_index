@@ -1,2 +1,268 @@
-dev-python/livereload 2.4.1: Python LiveReload is an awesome tool for web developers
+app-admin/aws-vault 4.5.1 9999: A vault for securely storing and accessing AWS credentials
+app-admin/awslimitchecker 6.1.5 9999: Utility to check AWS resource limits and usage
+app-admin/awslog 0.1.5 0.1.6 9999: History and changes of configuration versions of AWS resources
+app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
+app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
+app-admin/doctl 1.14.0 1.20.1 9999: A command line tool for DigitalOcean services
+app-admin/jl 1.1.1 9999: A tool for working with structured JSON logging
+app-admin/kconfig-hardened-check 9999: A script to check the hardening options in the Linux kernel config
+app-admin/qtpass 1.2.2 1.2.3 9999: multi-platform GUI for pass, the standard unix password manager
+app-admin/reprepro 5.1.1 5.3.0 9999: A tool to handle local repositories of Debian packages
+app-admin/saw 0.2.2: Fast, multi-purpose tool for AWS CloudWatch Logs
+app-admin/tztail 1.0.0 9999: A log view in various timezones
+app-admin/userdbadm 0.1 9999: Tool to manage (PAM) userdb files with crypted passwords
+app-admin/uwsgitop 0.10 0.11 9999: uWSGI stats viewer
+app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Vault
+app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
+app-backup/pgbackrest 2.0.7 2.0.9 9999: Reliable PostgreSQL Backup & Restore
+app-backup/urbackup-client 2.3.4.0 9999: Client Server backup system
+app-backup/urbackup-server 2.3.8 9999: Client Server backup system
+app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
+app-crypt/acme-client 0.1.16: Secure Let's Encrypt client
+app-crypt/acme-sh 2.7.9 2.8.0 9999: An ACME Shell script
+app-crypt/acmebot 2.2.0 2.3.0 9999: ACME protocol automatic certitificate manager
+app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
+app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
+app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
+app-editors/visual-studio-code-bin 1.35.1 1.36.0 1.36.1: Editor for building and debugging modern web and cloud applications
+app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
+app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
+app-forensics/gitleaks 1.23.0 1.24.0 9999: Auditing git repository for secrets and keys
+app-metrics/do-agent 0.5.0: DigitalOcean Agent for Enhanced Droplet Graphs
+app-metrics/nginx-amplify-agent 1.4.1.1 1.7.0.3 9999: System and NGINX metric collection
+app-misc/android-file-transfer-linux 3.2 9999: Reliable MTP client with minimalistic UI
+app-misc/cointop 1.0.1 1.1.2 9999: Interactive cryptocurrency monitor
+app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
+app-misc/pet 0.3.2 0.3.3 0.3.4 9999: Simple command-line snippet manager
+app-misc/rmlint 2.6.1: Removes duplicates and other lint from your filesystem
+app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
+app-shells/peco 0.5.3 9999: Simplistic interactive filtering tool
+app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
+dev-db/odyssey 9999: Scalable PostgreSQL connection pooler
+dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
+dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
+dev-db/pg_profile 9999: Postgres historic performance reports
+dev-db/pg_repack 1.4.4 9999: PostgreSQL extension for data reorganization
+dev-db/pgcenter 0.6.1 9999: Command-line admin tool for observing and troubleshooting Postgres
+dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
+dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
+dev-haskell/daemons 0.2.1: Daemons in Haskell made fun and easy
+dev-haskell/ini 0.3.6: Quick and easy configuration files in the INI format
+dev-haskell/scotty 0.11.1: A Haskell web framework, using WAI and Warp
+dev-haskell/tz 0.1.3.1: Library for time zone conversions
+dev-haskell/tzdata 0.1.20180122.0: Distribution of the standard time zone database
+dev-haskell/wai-cors 0.2.6: Cross-Origin resource sharing (CORS) for Wai
+dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
+dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
+dev-libs/loki 0.1.7: C++ library of common design patterns and idioms
+dev-lua/lyaml 6.1: LibYAML binding for Lua
+dev-ml/ocaml-alsa 0.2.3 9999: OCaml bindings to alsa-lib
+dev-ml/ocaml-ao 0.2.1 9999: OCaml bindings to libao
+dev-ml/ocaml-bjack 0.1.5 9999: OCaml blocking JACK API
+dev-ml/ocaml-cry 0.5.0 9999: OCaml native module for icecast/shoutcast source protocols
+dev-ml/ocaml-dssi 0.1.2 9999: OCaml bindings to dssi
+dev-ml/ocaml-dtools 0.3.3 0.4.1 9999: OCaml daemon tools library
+dev-ml/ocaml-duppy 0.6.0 9999: OCaml advanced scheduler
+dev-ml/ocaml-faad 0.3.3 9999: OCaml bindings to faad2
+dev-ml/ocaml-fdkaac 0.2.1 9999: OCaml bindings to fdk-aac
+dev-ml/ocaml-ffmpeg 0.1.2 9999: OCaml bindings to ffmpeg
+dev-ml/ocaml-flac 0.1.2 9999: OCaml bindings to flac
+dev-ml/ocaml-frei0r 0.1.1 9999: OCaml bindings to frei0r plugins
+dev-ml/ocaml-gavl 0.1.6 9999: OCaml bindings to Gavl video manipulation library
+dev-ml/ocaml-gstreamer 0.2.3 9999: OCaml bindings to gstreamer
+dev-ml/ocaml-inotify 2.3 9999: OCaml bindings to inotify
+dev-ml/ocaml-ladspa 0.1.5 9999: OCaml bindings to LADSPA plugins
+dev-ml/ocaml-lame 0.3.3 9999: OCaml bindings to lame
+dev-ml/ocaml-lastfm 0.3.1 9999: OCaml interface for Lastfm
+dev-ml/ocaml-lo 0.1.1 9999: OCaml bindings to liblo
+dev-ml/ocaml-mad 0.4.5 9999: OCaml bindings to libmad
+dev-ml/ocaml-magic 0.7.3: OCaml bindings to libmagic
+dev-ml/ocaml-mm 0.3.0 0.4.0 9999: OCaml bindings to mm
+dev-ml/ocaml-ogg 0.5.1 9999: OCaml bindings to libogg
+dev-ml/ocaml-opus 0.1.2 9999: OCaml bindings to opus
+dev-ml/ocaml-portaudio 0.2.1 9999: OCaml bindings to portaudio
+dev-ml/ocaml-pulseaudio 0.1.3 9999: OCaml bindings to pulseaudio
+dev-ml/ocaml-samplerate 0.1.4 9999: OCaml bindings to libsamplerate
+dev-ml/ocaml-shine 0.2.1 9999: OCaml bindings to libshine
+dev-ml/ocaml-soundtouch 0.1.8 9999: OCaml bindings to libsoundtouch
+dev-ml/ocaml-speex 0.2.1 9999: OCaml bindings to speex
+dev-ml/ocaml-syslog 1.4: OCaml syslog client functions
+dev-ml/ocaml-taglib 0.3.3 9999: OCaml bindings to taglib
+dev-ml/ocaml-theora 0.3.1 9999: OCaml bindings to libtheora
+dev-ml/ocaml-vorbis 0.7.0 9999: OCaml bindings to libvorbis
+dev-ml/ocaml-xmlplaylist 0.1.4 9999: OCaml module to parse various RSS playlist formats
+dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
+dev-python/GitPython 2.1.11 9999: A python library used to interact with Git repositories
+dev-python/PythonQt 3.2 9999: A dynamic Python binding for the Qt framework
+dev-python/adal 1.2.1 9999: Library for authentication in Azure Active Directory
+dev-python/anyconfig 0.9.9 9999: Generic access to configuration files in any formats
+dev-python/applicationinsights 0.10.0: Application Insights API surface
+dev-python/aws-sam-translator 1.10.0 1.11.0 9999: A library to transform SAM templates into AWS CloudFormation templates
+dev-python/cerberus 1.3.1 9999: Lightweight and extensible data validation library for Python
+dev-python/click-completion 0.5.1 9999: Enhanced completion for bash, fish, zsh in Click
+dev-python/coreapi 2.3.3 9999: Python client library for Core API
+dev-python/coreschema 0.0.4 9999: Python CoreSchema
+dev-python/crayons 0.1.2 9999: Text UI colors
+dev-python/cron-descriptor 1.2.22 9999: Converts cron expressions into human readable strings
+dev-python/crossplane 0.4.12 0.5.2 9999: Fast and reliable NGINX configuration parser
+dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
+dev-python/dateparser 0.7.0 9999: Date parsing library designed to parse dates from HTML pages
+dev-python/decli 0.5.0 9999: Minimal declarative cli tool
+dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
+dev-python/django-celery-beat 1.4.0 9999: Celery Periodic Tasks for Django
+dev-python/django-cors-headers 2.5.2 2.5.3 3.0.2 9999: Django application for Cross-Origin Resource Sharing (CORS)
+dev-python/django-crispy-forms 1.7.2 9999: DRY Django forms
+dev-python/django-debug-toolbar 1.11 2.0 9999: A configurable set of panels that display debug information
+dev-python/django-environ 0.4.5 9999: An environment variables to configure Django
+dev-python/django-filter 1.1.0 2.0.0 2.1.0 9999: Django application for filtering querysets
+dev-python/django-guardian 1.4.9 9999: An implementation of per object permissions for Django
+dev-python/django-jinja 2.4.1 9999: Jinja2 templating language integrated in Django
+dev-python/django-js-asset 1.1.0 1.2.2 9999: A script tag with additional attributes for django.forms.Media
+dev-python/django-jsonfield 2.0.2 9999: A Django field to store validated JSON in your model
+dev-python/django-mptt 0.9.1 9999: Utilities for implementing Modified Preorder Tree Traversal
+dev-python/django-oauth-toolkit 1.1.3 1.2.0 9999: OAuth2 Provider for Django
+dev-python/django-pipeline 1.6.14 9999: An asset packaging library for Django
+dev-python/django-rest-framework 3.9.0 3.9.3 9999: Django REST framework
+dev-python/django-rest-framework-camel-case 1.0_beta1 9999: Camel case JSON support for Django REST framework
+dev-python/django-rest-framework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
+dev-python/django-rest-swagger 2.2.0 9999: Swagger UI for Django REST Framework
+dev-python/django-rq 2.0 9999: An app that provides django integration for RQ (Redis Queue)
+dev-python/django-tables2 2.0.3 2.0.6 9999: Django application for creating HTML tables
+dev-python/django-taggit 0.23.0 0.24.0 1.1.0 9999: Django application for simple tagging
+dev-python/django-taggit-serializer 0.1.7 9999: Django Taggit Serializer Created for the Django REST Framework
+dev-python/django-timezone-field 3.0 9999: Django application for database and form fields for pytz objects
+dev-python/drf-yasg 1.14.0 1.16.0 9999: Yet another Swagger generator
+dev-python/factory_boy 2.11.1 9999: A fixtures replacement tool
+dev-python/fakeldap 0.6.1 9999: An implementation of a LDAPObject to fake a ldap server
+dev-python/faker 1.0.8 2.0.0 9999: Python package that generates fake data
+dev-python/filetype 1.0.5 9999: Infer file type and MIME type of any file/buffer
+dev-python/flex 6.13.2 9999: Validation tooling for Swagger 2.0 specifications
+dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
+dev-python/graphviz 0.10.1 9999: Simple Python interface for Graphviz
+dev-python/itypes 1.1.0 9999: Simple immutable types for python
+dev-python/livereload 2.4.1 2.5.2: Python LiveReload is an awesome tool for web developers
+dev-python/m9dicts 0.4.0: A dict-like object supports recursive merge operation
+dev-python/markdown2 2.3.7 9999: A fast and complete Python implementation of Markdown
+dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
+dev-python/msrest 0.4.26: AutoRest swagger generator Python client runtime
+dev-python/ncclient 0.6.3 9999: Python library for NETCONF clients
+dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
+dev-python/parameterized 0.7.0 9999: Parameterized testing with any Python test framework
+dev-python/pathspec 0.5.9 9999: A utility library for pattern matching of file paths
+dev-python/polemarch-ansible 1.1.0 9999: Wrapper for Ansible CLI
+dev-python/port-for 0.4 9999: An utility and python library for TCP ports management
+dev-python/python-crontab 2.3.5 9999: Crontab module for reading and writing crontab files
+dev-python/python-gilt 1.2.1 9999: A GIT layering tool
+dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
+dev-python/python-user-agents 1.1.0 9999: A library to identify devices by parsing user agent strings
+dev-python/pytimeparse 1.1.8 9999: A library to parse time from human readable string
+dev-python/pywinrm 0.3.0 9999: Python library for Windows Remote Management
+dev-python/questionary 1.1.1 9999: Python library to build pretty command line user prompts
+dev-python/random2 1.0.1 9999: Python-2.7 random module ported to python-3
+dev-python/requests-credssp 1.0.2 9999: CredSSP authentication handler for Python Requests
+dev-python/rq 1.0 9999: A library for creating and processing background jobs
+dev-python/rstr 2.2.6 9999: Generate random strings in Python
+dev-python/ruamel-ordereddict 0.4.13 9999: An ordered dictionary with KIO/KVIO
+dev-python/ruamel-std-pathlib 0.6.3 0.6.4 9999: Ruamel enhancements to pathlib and pathlib2
+dev-python/ruamel-yaml 0.15.100 0.16.0 9999: YAML parser/emitter that supports roundtrip comment preservation
+dev-python/selectors2 2.0.1 9999: Portable replacement to the standard library selectors module
+dev-python/sentry-sdk 0.7.14 9999: Python client for Sentry
+dev-python/shellingham 1.3.1 9999: Detects what shell the current Python executable is running in
+dev-python/sphinx-autobuild 0.7.1 9999: Mermaid diagrams in sphinx powered docs
+dev-python/sphinxcontrib-mermaid 0.3.1 9999: Mermaid diagrams in sphinx powered docs
+dev-python/sphinxcontrib-openapi 0.3.2 9999: Sphinx extension to generate APIs docs from OpenAPI
+dev-python/swagger_spec_validator 2.4.1 9999: Python library that validates Swagger Specs
 dev-python/tablib 0.12.1-r1: A format-agnostic tabular dataset library written in Python
+dev-python/testinfra 3.0.6 9999: Testinfra test your infrastructures
+dev-python/text-unidecode 1.2 9999: The most basic Text::Unidecode port
+dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
+dev-python/toml 0.9.2 9999: Python Library for Tom's Obvious, Minimal Language
+dev-python/tomlkit 0.5.3 9999: Style-preserving TOML library for Python
+dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
+dev-python/ua-parser 0.8.0 9999: A library for diffs of python data structures
+dev-python/ukpostcodeparser 1.1.2 9999: UK postcode parser library
+dev-python/validate_email 1.3 9999: Python email validation library
+dev-python/validators 0.13.0 9999: Python data validation library
+dev-python/versionfinder 0.1.1 9999: Find version of python package, installed via pip, setuptools, git
+dev-python/whaaaaat 0.5.2 9999: A collection of common interactive command line user interfaces
+dev-python/yattag 1.11.1 9999: Generate HTML or XML in a pythonic way
+dev-util/ansible-molecule 2.20.2 9999: Automated testing for Ansible roles
+dev-util/cargo-ebuild 0.1.5 9999: Generates an ebuild for a package using the in-tree eclasses
+dev-util/cfn-python-lint 0.20.1 0.21.4 9999: AWS CloudFormation Linter
+dev-util/fossa-cli 0.7.13: License and vulnerability analysis
+dev-util/gitlab-runner 10.8.0 11.9.1 9999: GitLab Runner
+dev-util/insomnia-bin 6.3.2 6.5.4: HTTP and GraphQL client for developers
+dev-util/taskcat 0.8.32 9999: An OpenSource Cloudformation Deployment Framework
+dev-util/testmace-bin 9999: Powerful IDE to work with API
+dev-util/yamllint 1.16.0 9999: A linter for YAML files
+dev-vcs/commitizen 0.9.10 1.5.0 9999: Python commitizen client tool
+dev-vcs/gitlint 0.10.0 9999: Git commit message linter
+dev-vcs/mercurial-extension_utils 1.3.7 9999: Mercurial Extension Utils
+dev-vcs/mercurial-keyring 1.2.1 9999: Mercurial Keyring Extension
+media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
+media-gfx/colorpick 9999: Color picker and contrast checker
+media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
+media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
+media-gfx/pingo-bin 0.99_beta52: Fast web image optimizer
+media-gfx/qView 2.0 9999: Practical and minimal image viewer
+media-gfx/screencloud 1.4.0 9999: Screenshot capturing and sharing tool over various services
+media-gfx/xgrabcolor 1.4.6: Qt-based basic color picker
+media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
+media-radio/krudio 9999: Radio tray for linux on QT
+media-radio/liquidsoap 1.3.1 9999: A swiss-army knife for multimedia streaming, used for netradios and webtvs
+net-analyzer/goaccess 1.2 1.3 9999: A real-time web log analyzer and interactive viewer that runs in a terminal
+net-analyzer/logswan 1.07 2.0.3 9999: Web log analyzer using probabilistic data structures
+net-analyzer/netgauge 9999: Server software for testing internet bandwidth using speedtest.net
+net-analyzer/nuttcp 8.1.4: Network performance measurement tool
+net-analyzer/passivedns 1.2.0 9999: Network sniffer that logs all DNS server replies
+net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
+net-dns/flares 1.1.0: CloudFlare DNS backup tool
+net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
+net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
+net-firewall/ipt_netflow 9999: Netflow iptables module
+net-firewall/ipt_ratelimit 0.2 9999: Ratelimit iptables module
+net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
+net-im/gitter-bin 3.1.0 4.1.0: Chat and network platform
+net-im/slack-bin 2.1.2 3.1.1 3.4.0 3.4.2: Team collaboration tool
+net-im/viber-bin 10.3.0.37: Free text and calls
+net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
+net-misc/comcast 1.0.1 9999: Network problems simulator
+net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
+net-misc/fiche 0.9 0.9.1 9999: Command line pastebin server
+net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
+net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
+net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
+net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
+net-misc/redir 3.0 3.2 9999: TCP port redirector
+net-misc/rstatd 4.0.1: Client-server linux performance statistics
+net-misc/samplicator 1.3.6 1.3.8_rc1 9999: UDP packets forwarder and duplicator
+net-misc/slowhttptest 1.7 9999: Application Layer DoS attack simulator
+net-misc/spoofer 1.3.2 1.4.2: A tool to assess of deployment of source address validation
+net-misc/ssmd 9999: SNMP Switch Management Daemon
+net-misc/stargazer 2.408 2.409_rc4: Billing system for small home and office networks
+net-misc/topola 5.35.06 5.36.07: Customer accounting system, services and statistics collection management
+net-misc/uredir 3.2 9999: UDP port redirector
+net-misc/virtualhere-usb-bin 9999: Share USB devices over the network
+net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
+net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
+net-p2p/resilio-sync 2.6.1 2.6.3 9999: Resilient, fast and scalable file synchronization tool
+net-p2p/tremotesf 1.4.0 1.6.0 9999: A remote GUI for transmission
+net-vpn/softether 4.08_p9449 4.17_beta9562 4.25_p9656 4.27_beta9668 9999: Multi-protocol VPN software
+sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer
+sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail security sandbox
+sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
+sys-fs/adhocify 9999: Tool which monitors for inotify events and executes script
+sys-power/powerstat 0.02.15 0.02.17 0.02.18 9999: Laptop power measuring tool
+www-apps/LookingGlass 9999: A Python-backed Looking Glass
+www-apps/draw-io 8.7.0 9.3.1 10.1.2 10.5.2: Online diagramming web application
+www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
+www-apps/netbox 2.4.7 2.5.8 2.5.10 2.5.12: IP address and data center infrastructure management tool
+www-apps/noc-tower 9999: NOCProject supervisor
+www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
+www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for signing with your eID on the web
+www-servers/gitlab-gitaly 0.81.0 0.108.0 0.111.0 0.114.0: Gitaly is a Git RPC service for handling GitLab git calls
+www-servers/gitlab-workhorse 3.6.0 4.3.1 5.0.0: GitLab reverse proxy
+x11-misc/RazerGenie 0.8.1 9999: Razer devices configurator
+x11-misc/libinput-gestures 2.41 2.42 9999: Actions gestures on your touchpad using libinput
+x11-misc/logkeys 0.1.1c 9999: A Linux keylogger
+x11-misc/openrazer 2.5.0 9999: Linux drivers for the Razer devices
