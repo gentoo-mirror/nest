@@ -1,13 +1,16 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
+
+EGIT_REPO_URI="https://github.com/savonet/${PN}.git"
+EGIT_SUBMODULES=()
+EGIT_COMMIT="2493762c1aefba52e6c4c0ca196ddb04b07d09a0"
 
 inherit autotools findlib git-r3
 
 DESCRIPTION="OCaml bindings to mm"
 HOMEPAGE="https://github.com/savonet/ocaml-mm"
-EGIT_REPO_URI="https://github.com/savonet/${PN}.git"
 SRC_URI=""
 
 LICENSE="LGPL-2.1"
@@ -16,6 +19,7 @@ KEYWORDS=""
 IUSE="alsa ao +camlp4 debug ffmpeg gstreamer mad +ocamlopt ogg oss profiling pulseaudio sdl theora v4l"
 
 RDEPEND="dev-lang/ocaml:=[ocamlopt?]
+	dev-ml/ocamlsdl:=[ocamlopt?]
 	alsa? ( dev-ml/ocaml-alsa:= )
 	ao? ( dev-ml/ocaml-ao:= )
 	camlp4? ( dev-ml/camlp4:= )
@@ -32,12 +36,13 @@ DEPEND="${RDEPEND}
 
 DOCS=( CHANGES README )
 
-PATCHES=( "${FILESDIR}"/"${P}"-configure.patch
-	"${FILESDIR}"/"${P}"-makefile.patch )
+PATCHES=( "${FILESDIR}"/"${PN}"-0.3.0-configure.patch
+	"${FILESDIR}"/"${PN}"-0.3.0-makefile.patch )
 
 src_prepare() {
 	default
 
+	m4/bootstrap || die "bootstrap failed"
 	sed -i 's/AC_CHECK_TOOL_STRICT/AC_CHECK_TOOL/g' m4/ocaml.m4 \
 		|| die "Failed editing m4/ocaml.m4!"
 	AT_M4DIR="m4" eautoreconf

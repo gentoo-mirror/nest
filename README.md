@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 269](https://img.shields.io/badge/ebuild-269-orange.svg)](https://img.shields.io/badge/ebuild-269-orange.svg)
+[![Number of ebuilds: 272](https://img.shields.io/badge/ebuild-272-orange.svg)](https://img.shields.io/badge/ebuild-272-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -103,6 +103,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[tz](https://github.com/nilcons/haskell-tz) | Library for time zone conversions
 * dev-haskell/[tzdata](https://github.com/nilcons/haskell-tzdata) | Distribution of the standard time zone database
 * dev-haskell/[wai-cors](https://github.com/larskuhtz/wai-cors) | Cross-Origin resource sharing (CORS) for Wai
+* dev-ml/[camomile](https://github.com/yoriyuki/Camomile) | Camomile is a comprehensive Unicode library for ocaml
+* dev-ml/[dune](https://github.com/ocaml/dune) | A composable build system for OCaml
+* dev-ml/[ocamlnet](http://projects.camlcity.org/projects/ocamlnet.html) | Modules for OCaml application-level Internet protocols
 * dev-ml/[ocaml-alsa](https://github.com/savonet/ocaml-alsa) | OCaml bindings to alsa-lib
 * dev-ml/[ocaml-ao](https://github.com/savonet/ocaml-ao) | OCaml bindings to libao
 * dev-ml/[ocaml-bjack](https://github.com/savonet/ocaml-bjack) | OCaml blocking JACK API
@@ -123,7 +126,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-ml/[ocaml-lastfm](https://github.com/savonet/ocaml-lastfm) | OCaml interface for Lastfm
 * dev-ml/[ocaml-lo](https://github.com/savonet/ocaml-lo) | OCaml bindings to liblo
 * dev-ml/[ocaml-mad](https://github.com/savonet/ocaml-mad) | OCaml bindings to libmad
-* dev-ml/[ocaml-magic](https://github.com/savonet/ocaml-magic) | OCaml bindings to libmagic
+* dev-ml/[ocaml-magic](https://sourceforge.net/projects/ocaml-magic) | OCaml bindings to libmagic
 * dev-ml/[ocaml-mm](https://github.com/savonet/ocaml-mm) | OCaml bindings to mm
 * dev-ml/[ocaml-ogg](https://github.com/savonet/ocaml-ogg) | OCaml bindings to libogg
 * dev-ml/[ocaml-opus](https://github.com/savonet/ocaml-opus) | OCaml bindings to opus
@@ -257,7 +260,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-gfx/[xgrabcolor](http://hugo.pereira.free.fr/software/index.php) | Qt-based basic color picker
 * media-libs/[shine](https://github.com/toots/shine) | Fixed-point mp3 encoding library
 * media-radio/[krudio](https://github.com/loast/krudio) | Radio tray for linux on QT
-* media-radio/[liquidsoap](http://liquidsoap.fm/) | A swiss-army knife for multimedia streaming, used for netradios and webtvs
+* media-radio/[liquidsoap](http://liquidsoap.info) | A swiss-army knife for multimedia streaming, used for netradios and webtvs
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/goaccess.svg)](https://repology.org/metapackage/goaccess) net-analyzer/[goaccess](https://goaccess.io) | A real-time web log analyzer and interactive viewer that runs in a terminal
 * net-analyzer/[logswan](https://github.com/fcambus/logswan) | Web log analyzer using probabilistic data structures
 * net-analyzer/[netgauge](http://www.ookla.com/) | Server software for testing internet bandwidth using speedtest.net
