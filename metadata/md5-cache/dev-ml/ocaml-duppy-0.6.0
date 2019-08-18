@@ -1,7 +1,8 @@
+BDEPEND=>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install prepare
-DEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/pcre-ocaml:= camlp4? ( dev-ml/camlp4:= ) ssl? ( dev-ml/ocaml-ssl:= ) dev-ml/findlib >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-ml/findlib-1.0.4-r1
+DEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/pcre-ocaml:= camlp4? ( dev-ml/camlp4:= ) ssl? ( dev-ml/ocaml-ssl:= ) dev-ml/findlib >=dev-ml/findlib-1.0.4-r1
 DESCRIPTION=OCaml advanced scheduler
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-duppy
 IUSE=+camlp4 debug +ocamlopt profiling ssl
 KEYWORDS=~amd64 ~x86
@@ -10,4 +11,4 @@ RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/pcre-ocaml:= camlp4? ( dev-ml/camlp4:
 SLOT=0/0.6.0
 SRC_URI=https://github.com/savonet/ocaml-duppy/releases/download/0.6.0/ocaml-duppy-0.6.0.tar.gz
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	findlib	45d6030075064a68da8d7143726a1150	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=518150c463df592730f376303c761821
+_md5_=600e31072ce0079e122b7ac442186dad

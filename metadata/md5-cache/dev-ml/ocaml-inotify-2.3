@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-lang/ocaml:=[ocamlopt?] lwt? ( dev-ml/lwt:= ) dev-ml/findlib test? ( dev-ml/ocaml-fileutils:= ) >=dev-ml/findlib-1.0.4-r1 >=dev-lang/ocaml-3.12:=[ocamlopt?] dev-ml/ocamlbuild
+DEPEND=dev-lang/ocaml:=[ocamlopt?] lwt? ( dev-ml/lwt:=[ocamlopt?] ) dev-ml/findlib[ocamlopt?] test? ( dev-ml/ocaml-fileutils:=[ocamlopt?] ) >=dev-ml/findlib-1.0.4-r1 >=dev-lang/ocaml-3.12:=[ocamlopt?] dev-ml/ocamlbuild
 DESCRIPTION=OCaml bindings to inotify
 EAPI=5
 HOMEPAGE=https://github.com/whitequark/ocaml-inotify
-IUSE=debug doc lwt +ocamlopt profiling test +ocamlopt debug doc test
+IUSE=debug doc lwt +ocamlopt profiling test +ocamlopt debug test
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1-with-linking-exception
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] lwt? ( dev-ml/lwt:= ) >=dev-lang/ocaml-3.12:=[ocamlopt?]
+RDEPEND=dev-lang/ocaml:=[ocamlopt?] lwt? ( dev-ml/lwt:=[ocamlopt?] ) >=dev-lang/ocaml-3.12:=[ocamlopt?]
 SLOT=0/2.3
 SRC_URI=https://github.com/whitequark/ocaml-inotify/archive/v2.3.tar.gz -> ocaml-inotify-2.3.tar.gz
 _eclasses_=base	2ec5c64f5de125f0c65a927c4c128fef	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	findlib	45d6030075064a68da8d7143726a1150	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	oasis	79efa057b6e27e203e3feaa1c1710794	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=84ba4823beb92e9e380b3d60cbcb1783
+_md5_=10d36f1d8c110b4f8120938bfb434cd2

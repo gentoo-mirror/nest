@@ -1,0 +1,13 @@
+BDEPEND=>=dev-ml/dune-1.11.1:= >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:= dev-ml/opam
+DESCRIPTION=Camomile is a comprehensive Unicode library for ocaml
+EAPI=7
+HOMEPAGE=https://github.com/yoriyuki/Camomile
+IUSE=+ocamlopt
+LICENSE=LGPL-2+
+PROPERTIES=live
+RDEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:=
+SLOT=0/9999
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	opam	3f1ccc0b5a5708088c2c156d4ca79a20
+_md5_=0da789e542dba18bf1011a318baada85

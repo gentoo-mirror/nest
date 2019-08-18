@@ -1,7 +1,8 @@
+BDEPEND=>=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DEFINED_PHASES=configure install prepare
-DEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/gst-plugins-base:1.0 media-libs/gstreamer:1.0 camlp4? ( dev-ml/camlp4:= ) dev-ml/findlib virtual/pkgconfig >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-ml/findlib-1.0.4-r1
+DEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/gst-plugins-base:1.0 media-libs/gstreamer:1.0 camlp4? ( dev-ml/camlp4:= ) dev-ml/findlib virtual/pkgconfig >=dev-ml/findlib-1.0.4-r1
 DESCRIPTION=OCaml bindings to gstreamer
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-gstreamer
 IUSE=+camlp4 debug +ocamlopt profiling
 KEYWORDS=~amd64 ~x86
@@ -10,4 +11,4 @@ RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/gst-plugins-base:1.0 media-libs/g
 SLOT=0/0.2.3
 SRC_URI=https://github.com/savonet/ocaml-gstreamer/releases/download/0.2.3/ocaml-gstreamer-0.2.3.tar.gz
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	findlib	45d6030075064a68da8d7143726a1150	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=e2ee50b8828f413e395e60e3fe2387d7
+_md5_=828fb6c32de4ffeb6bd5d8a937c30c50
