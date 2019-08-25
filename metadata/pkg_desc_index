@@ -1,4 +1,4 @@
-app-admin/aws-vault 4.5.1 9999: A vault for securely storing and accessing AWS credentials
+app-admin/aws-vault 4.5.1 4.6.3 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awslimitchecker 6.1.5 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.5 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
