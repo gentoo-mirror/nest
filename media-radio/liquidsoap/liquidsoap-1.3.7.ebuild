@@ -35,7 +35,7 @@ RDEPEND="app-admin/logrotate
 	faad? ( >=dev-ml/ocaml-faad-0.4.0:=[ocamlopt?] )
 	fdk? ( <dev-ml/ocaml-fdkaac-0.3.0:=[ocamlopt?] )
 	ffmpeg? ( >=dev-ml/ocaml-ffmpeg-0.2.1:=[ocamlopt?] )
-	flac? ( dev-ml/ocaml-flac:=[ocamlopt?,ogg?] )
+	flac? ( <dev-ml/ocaml-flac-0.1.5:=[ocamlopt?,ogg?] )
 	frei0r? ( dev-ml/ocaml-frei0r:=[ocamlopt?] )
 	gavl? ( dev-ml/ocaml-gavl:=[ocamlopt?] )
 	gd? ( dev-ml/gd4o:=[ocamlopt?]
@@ -63,7 +63,7 @@ RDEPEND="app-admin/logrotate
 	soundtouch? ( dev-ml/ocaml-soundtouch:=[ocamlopt?] )
 	speex? ( dev-ml/ocaml-speex:=[ocamlopt?] )
 	ssl? ( dev-ml/ocaml-ssl:= )
-	taglib? ( dev-ml/ocaml-taglib:=[ocamlopt?] )
+	taglib? ( <dev-ml/ocaml-taglib-0.3.6:=[ocamlopt?] )
 	theora? ( dev-ml/ocaml-theora:=[ocamlopt?] )
 	unicode? ( >=dev-ml/camomile-1.0.2:=[ocamlopt?] )
 	vorbis? ( dev-ml/ocaml-vorbis:=[ocamlopt?] )
