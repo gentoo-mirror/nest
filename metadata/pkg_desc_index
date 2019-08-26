@@ -3,7 +3,7 @@ app-admin/awslimitchecker 6.1.5 9999: Utility to check AWS resource limits and u
 app-admin/awslog 0.1.5 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.14.0 1.20.1 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.20.1 1.28.0 9999: A command line tool for DigitalOcean services
 app-admin/jl 1.1.1 9999: A tool for working with structured JSON logging
 app-admin/kconfig-hardened-check 9999: A script to check the hardening options in the Linux kernel config
 app-admin/qtpass 1.2.2 1.2.3 9999: multi-platform GUI for pass, the standard unix password manager
@@ -28,7 +28,7 @@ app-editors/visual-studio-code-bin 1.35.1 1.36.0 1.36.1: Editor for building and
 app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
 app-forensics/gitleaks 1.23.0 1.24.0 9999: Auditing git repository for secrets and keys
-app-metrics/do-agent 0.5.0: DigitalOcean Agent for Enhanced Droplet Graphs
+app-metrics/do-agent 0.5.0 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-metrics/nginx-amplify-agent 1.4.1.1 1.7.0.3 9999: System and NGINX metric collection
 app-misc/android-file-transfer-linux 3.2 9999: Reliable MTP client with minimalistic UI
 app-misc/cointop 1.0.1 1.1.2 9999: Interactive cryptocurrency monitor
