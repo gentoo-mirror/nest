@@ -31,6 +31,7 @@ app-forensics/gitleaks 1.23.0 1.24.0 9999: Auditing git repository for secrets a
 app-metrics/do-agent 0.5.0 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-metrics/nginx-amplify-agent 1.4.1.1 1.7.0.3 9999: System and NGINX metric collection
 app-misc/android-file-transfer-linux 3.2 9999: Reliable MTP client with minimalistic UI
+app-misc/cheat 2.5.1 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.0.1 1.1.2 9999: Interactive cryptocurrency monitor
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
 app-misc/pet 0.3.2 0.3.3 0.3.4 9999: Simple command-line snippet manager

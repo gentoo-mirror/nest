@@ -14,6 +14,7 @@ app-editors/visual-studio-code-bin:pax_kernel - Triggers a paxmarking of the bin
 app-emulation/looking-glass:host - Download Windows host application
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
+app-misc/cheat:fish-completion - Enable fish completion support
 dev-db/pg_repack:client - Build CLI client
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
