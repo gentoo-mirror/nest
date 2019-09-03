@@ -24,7 +24,7 @@ app-crypt/acmebot 2.2.0 2.3.0 9999: ACME protocol automatic certitificate manage
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/visual-studio-code-bin 1.35.1 1.36.0 1.36.1: Editor for building and debugging modern web and cloud applications
+app-editors/visual-studio-code-bin 1.36.1 1.37.1: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
 app-forensics/gitleaks 1.23.0 1.24.0 9999: Auditing git repository for secrets and keys
@@ -193,7 +193,7 @@ dev-python/whaaaaat 0.5.2 9999: A collection of common interactive command line 
 dev-python/yattag 1.11.1 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.20.2 9999: Automated testing for Ansible roles
 dev-util/cargo-ebuild 0.1.5 9999: Generates an ebuild for a package using the in-tree eclasses
-dev-util/cfn-python-lint 0.20.1 0.21.4 9999: AWS CloudFormation Linter
+dev-util/cfn-python-lint 0.21.4 0.23.5 9999: AWS CloudFormation Linter
 dev-util/fossa-cli 0.7.13: License and vulnerability analysis
 dev-util/gitlab-runner 10.8.0 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.3.2 6.5.4: HTTP and GraphQL client for developers
