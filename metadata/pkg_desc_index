@@ -193,7 +193,7 @@ dev-python/whaaaaat 0.5.2 9999: A collection of common interactive command line 
 dev-python/yattag 1.11.1 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.20.2 9999: Automated testing for Ansible roles
 dev-util/cargo-ebuild 0.1.5 9999: Generates an ebuild for a package using the in-tree eclasses
-dev-util/cfn-python-lint 0.21.4 0.23.5 9999: AWS CloudFormation Linter
+dev-util/cfn-python-lint 0.23.5 0.24.1 9999: AWS CloudFormation Linter
 dev-util/fossa-cli 0.7.13: License and vulnerability analysis
 dev-util/gitlab-runner 10.8.0 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.3.2 6.5.4: HTTP and GraphQL client for developers
