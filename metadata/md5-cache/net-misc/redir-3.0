@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=xinetd? ( sys-apps/xinetd ) virtual/tmpfiles
 SLOT=0
 SRC_URI=https://github.com/troglobit/redir/releases/download/v3.0/redir-3.0.tar.xz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	96a7c72c5b059d0b75854baf84950ce3	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	user	00484e1be1aac73e24fca1c99557a7d6
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	user	00484e1be1aac73e24fca1c99557a7d6
 _md5_=9a2946cf69c7d28b0e24cdee726ce8e3
