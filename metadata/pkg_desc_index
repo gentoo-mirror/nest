@@ -27,14 +27,14 @@ app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/visual-studio-code-bin 1.37.1 1.38.0 1.38.1: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
-app-forensics/gitleaks 1.23.0 1.24.0 9999: Auditing git repository for secrets and keys
+app-forensics/gitleaks 2.1.0 9999: Auditing git repository for secrets and keys
 app-metrics/do-agent 0.5.0 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-metrics/nginx-amplify-agent 1.4.1.1 1.7.0.3 9999: System and NGINX metric collection
 app-misc/android-file-transfer-linux 3.2 9999: Reliable MTP client with minimalistic UI
 app-misc/cheat 2.5.1 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.0.1 1.1.2 9999: Interactive cryptocurrency monitor
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
-app-misc/pet 0.3.4 0.3.6 9999: Simple command-line snippet manager
+app-misc/pet 0.3.6 9999: Simple command-line snippet manager
 app-misc/rmlint 2.6.1: Removes duplicates and other lint from your filesystem
 app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
 app-shells/peco 0.5.3 9999: Simplistic interactive filtering tool
@@ -195,8 +195,8 @@ dev-util/ansible-molecule 2.20.2 9999: Automated testing for Ansible roles
 dev-util/cargo-ebuild 0.1.5 9999: Generates an ebuild for a package using the in-tree eclasses
 dev-util/cfn-python-lint 0.23.5 0.24.1 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
-dev-util/fossa-cli 0.7.13: License and vulnerability analysis
-dev-util/gitlab-runner 10.8.0 11.9.1 9999: GitLab Runner
+dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
+dev-util/gitlab-runner 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.3.2 6.5.4: HTTP and GraphQL client for developers
 dev-util/taskcat 0.8.32 0.8.42 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace-bin 9999: Powerful IDE to work with API
@@ -266,7 +266,7 @@ www-apps/netbox 2.4.7 2.5.8 2.5.10 2.5.12: IP address and data center infrastruc
 www-apps/noc-tower 9999: NOCProject supervisor
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for signing with your eID on the web
-www-servers/gitlab-gitaly 0.81.0 0.108.0 0.111.0 0.114.0: Gitaly is a Git RPC service for handling GitLab git calls
+www-servers/gitlab-gitaly 0.111.0 0.114.0: Gitaly is a Git RPC service for handling GitLab git calls
 www-servers/gitlab-workhorse 3.6.0 4.3.1 5.0.0: GitLab reverse proxy
 x11-misc/RazerGenie 0.8.1 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.42 2.45 9999: Actions gestures on your touchpad using libinput
