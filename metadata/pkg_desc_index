@@ -4,6 +4,7 @@ app-admin/awslog 0.1.5 0.1.6 9999: History and changes of configuration versions
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.20.1 1.28.0 9999: A command line tool for DigitalOcean services
+app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/jl 1.1.1 9999: A tool for working with structured JSON logging
 app-admin/kconfig-hardened-check 9999: A script to check the hardening options in the Linux kernel config
 app-admin/qtpass 1.2.3 1.3.0 9999: multi-platform GUI for pass, the standard unix password manager
