@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=net-misc/curl || ( dev-libs/libressl dev-libs/openssl:0 ) || ( net-analyzer/netcat net-analyzer/openbsd-netcat ) || ( net-misc/socat www-servers/apache:2 www-servers/nginx ) virtual/cron
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=bbe6561dceef16d6eca564de75c39924
+_md5_=5235a9c244d7e36d2ed7ddd34366abd0
