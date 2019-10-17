@@ -193,7 +193,6 @@ dev-python/versionfinder 0.1.1 9999: Find version of python package, installed v
 dev-python/whaaaaat 0.5.2 9999: A collection of common interactive command line user interfaces
 dev-python/yattag 1.11.1 1.12.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.20.2 9999: Automated testing for Ansible roles
-dev-util/cargo-ebuild 0.1.5 9999: Generates an ebuild for a package using the in-tree eclasses
 dev-util/cfn-python-lint 0.23.5 0.24.1 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
 dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
@@ -261,7 +260,7 @@ sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 9999: Tool which monitors for inotify events and executes script
 sys-power/powerstat 0.02.18 0.02.20 9999: Laptop power measuring tool
 www-apps/LookingGlass 9999: A Python-backed Looking Glass
-www-apps/draw-io 8.7.0 9.3.1 10.1.2 10.5.2: Online diagramming web application
+www-apps/draw-io 10.1.2 10.5.2 12.1.2: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/netbox 2.4.7 2.5.8 2.5.10 2.5.12: IP address and data center infrastructure management tool
 www-apps/noc-tower 9999: NOCProject supervisor
