@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm unpack
+DESCRIPTION=Diagram drawing application built on web technology
+EAPI=7
+HOMEPAGE=https://github.com/jgraph/drawio-desktop
+IUSE=abi_x86_64
+KEYWORDS=-* ~amd64
+LICENSE=Apache-2.0
+RDEPEND=app-accessibility/at-spi2-atk:2[abi_x86_64(-)?] app-accessibility/at-spi2-core:2[abi_x86_64(-)?] dev-libs/atk:0[abi_x86_64(-)?] dev-libs/expat:0[abi_x86_64(-)?] dev-libs/glib:2[abi_x86_64(-)?] dev-libs/nspr:0[abi_x86_64(-)?] dev-libs/nss:0[abi_x86_64(-)?] media-libs/alsa-lib:0[abi_x86_64(-)?] media-libs/mesa:0[abi_x86_64(-)?] net-print/cups:0[abi_x86_64(-)?] sys-apps/dbus:0[abi_x86_64(-)?] sys-apps/util-linux:0[abi_x86_64(-)?] x11-libs/cairo:0[abi_x86_64(-)?] x11-libs/gdk-pixbuf:2[abi_x86_64(-)?] x11-libs/gtk+:3[abi_x86_64(-)?] x11-libs/libX11:0[abi_x86_64(-)?] x11-libs/libxcb:0/1.12[abi_x86_64(-)?] x11-libs/libXcomposite:0[abi_x86_64(-)?] x11-libs/libXcursor:0[abi_x86_64(-)?] x11-libs/libXdamage:0[abi_x86_64(-)?] x11-libs/libXext:0[abi_x86_64(-)?] x11-libs/libXfixes:0[abi_x86_64(-)?] x11-libs/libXi:0[abi_x86_64(-)?] x11-libs/libXrandr:0[abi_x86_64(-)?] x11-libs/libXrender:0[abi_x86_64(-)?] x11-libs/libXScrnSaver:0[abi_x86_64(-)?] x11-libs/libXtst:0[abi_x86_64(-)?] x11-libs/pango:0[abi_x86_64(-)?]
+REQUIRED_USE=|| ( abi_x86_64 )
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://github.com/jgraph/drawio-desktop/releases/download/v12.1.0/draw.io-amd64-12.1.0.deb
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multilib-build	0d0c25170069d06d0eb233154229af97	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	unpacker	3cd8bad0d31e525cd26be1bfa4e61631	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=af30153db079b4d1ddd5d2956bb9748c

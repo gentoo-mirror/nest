@@ -38,6 +38,7 @@ app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience withi
 app-misc/pet 0.3.6 9999: Simple command-line snippet manager
 app-misc/rmlint 2.6.1: Removes duplicates and other lint from your filesystem
 app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
+app-office/drawio-desktop-bin 12.1.0: Diagram drawing application built on web technology
 app-shells/peco 0.5.3 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
 dev-db/odyssey 9999: Scalable PostgreSQL connection pooler
