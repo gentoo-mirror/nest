@@ -41,6 +41,9 @@ app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
 app-office/drawio-desktop-bin 12.1.0: Diagram drawing application built on web technology
 app-shells/peco 0.5.3 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
+dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
+dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
+dev-cpp/xsd 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/odyssey 9999: Scalable PostgreSQL connection pooler
 dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
@@ -58,7 +61,9 @@ dev-haskell/tzdata 0.1.20180122.0: Distribution of the standard time zone databa
 dev-haskell/wai-cors 0.2.6: Cross-Origin resource sharing (CORS) for Wai
 dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
 dev-libs/loki 0.1.7: C++ library of common design patterns and idioms
+dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
 dev-lua/lyaml 6.1: LibYAML binding for Lua
 dev-ml/camomile 1.0.2 9999: Camomile is a comprehensive Unicode library for ocaml
 dev-ml/dune 1.11.1 9999: A composable build system for OCaml
@@ -194,8 +199,10 @@ dev-python/versionfinder 0.1.1 9999: Find version of python package, installed v
 dev-python/whaaaaat 0.5.2 9999: A collection of common interactive command line user interfaces
 dev-python/yattag 1.11.1 1.12.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.20.2 9999: Automated testing for Ansible roles
+dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-python-lint 0.23.5 0.24.1 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
+dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
 dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
 dev-util/gitlab-runner 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.3.2 6.5.4: HTTP and GraphQL client for developers

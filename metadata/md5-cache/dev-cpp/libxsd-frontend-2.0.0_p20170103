@@ -1,0 +1,13 @@
+BDEPEND=dev-util/build
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=dev-cpp/libcutl dev-libs/boost:=[threads] dev-libs/xerces-c
+DESCRIPTION=A compiler frontend for the W3C XML Schema definition language
+EAPI=7
+HOMEPAGE=https://www.codesynthesis.com/projects/libxsd-frontend
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-cpp/libcutl dev-libs/boost:=[threads] dev-libs/xerces-c
+SLOT=0
+SRC_URI=https://git.codesynthesis.com/cgit/libxsd-frontend/libxsd-frontend/snapshot/7c69e80.tar.gz -> libxsd-frontend-2.0.0_p20170103.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=437af9f7915438aa226e8591fbcc7933

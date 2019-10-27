@@ -1,0 +1,14 @@
+BDEPEND=dev-util/build2
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=>=dev-cpp/libcutl-1.11
+DESCRIPTION=Command Line Interface compiler for C++
+EAPI=7
+HOMEPAGE=https://www.codesynthesis.com/projects/cli
+IUSE=static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-cpp/libcutl-1.11
+SLOT=0
+SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/eb5ef9d.tar.gz -> cli-eb5ef9d.tar.gz
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=adbbc4a043216b9026930b157a61833e
