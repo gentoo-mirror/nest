@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 275](https://img.shields.io/badge/ebuild-275-orange.svg)](https://img.shields.io/badge/ebuild-275-orange.svg)
+[![Number of ebuilds: 282](https://img.shields.io/badge/ebuild-282-orange.svg)](https://img.shields.io/badge/ebuild-282-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -88,6 +88,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-office/[drawio-desktop-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/peco.svg)](https://repology.org/metapackage/peco) app-shells/[peco](https://github.com/peco/peco) | Simplistic interactive filtering tool
 * app-text/[keening](https://github.com/vehk/keening) | A simple command line pastebin designed to be used together with ssh
+* dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend) | A compiler frontend for the W3C XML Schema definition language
+* dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl) | A collection of C++ libraries (successor of libcult)
+* dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
 * dev-db/[pg_cron](https://github.com/citusdata/pg_cron) | Run periodic jobs in PostgreSQL
 * dev-db/[odyssey](https://github.com/yandex/odyssey) | Scalable PostgreSQL connection pooler
 * dev-db/[pg_page_verification](https://github.com/google/pg_page_verification) | Checksums verification on PostgreSQL data pages
@@ -98,7 +101,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-db/[pipelinedb](https://www.pipelinedb.com/) | High-performance time-series aggregation for PostgreSQL
 * dev-libs/[libcommuni](http://communi.github.io/) | A cross-platform IRC framework written with Qt
 * dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
+* dev-libs/[libdigidocpp](https://github.com/open-eid/libdigidocpp) | Library for handling digitally signed documents
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-482946-red.svg)](https://bugs.gentoo.org/482946) dev-libs/[loki](http://loki-lib.sourceforge.net/) | C++ library of common design patterns and idioms
+* dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
 * dev-go/[keyring](https://github.com/99designs/keyring) | Library with uniform interface across a range of secure credential stores
 * dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
 * dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
@@ -242,8 +247,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 * dev-python/[yattag](http://www.yattag.org) | Generate HTML or XML in a pythonic way
 * dev-util/[ansible-molecule](https://github.com/ansible/molecule) | Automated testing for Ansible roles
+* dev-util/[build2](https://build2.org) | A cross-platform toolchain for building and packaging C++ code
 * dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter
 * dev-util/[cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip) | AWS CloudFormation Template Flip
+* dev-util/[cli](https://www.codesynthesis.com/projects/cli) | Command Line Interface compiler for C++
 * dev-util/[fossa-cli](https://github.com/fossas/fossa-cli) | License and vulnerability analysis
 * dev-util/[gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner) | GitLab Runner
 * dev-util/[insomnia-bin](https://insomnia.rest) | HTTP and GraphQL client for developers
