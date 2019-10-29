@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=An undelete tool for the XFS filesystem
+EAPI=7
+HOMEPAGE=https://github.com/ianka/xfs_undelete
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=>=dev-lang/tcl-8.6:0= dev-tcltk/tcllib sys-fs/xfsprogs
+SLOT=0
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_md5_=544ed848e15fbfbf7e08c6ff17796655
