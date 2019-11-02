@@ -1,13 +1,13 @@
-BDEPEND=dev-qt/linguist-tools:5 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install prepare unpack
+BDEPEND=dev-qt/linguist-tools:5 >=dev-vcs/git-1.8.2.1[curl] test? ( !prefix? ( x11-base/xorg-server[xvfb] ) x11-apps/xhost )
+DEFINED_PHASES=configure install prepare test unpack
 DEPEND=app-admin/pass dev-qt/qtcore:5 dev-qt/qtgui:5[xcb] dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 net-misc/x11-ssh-askpass dev-qt/qtsvg:5 test? ( dev-qt/qttest:5 )
 DESCRIPTION=multi-platform GUI for pass, the standard unix password manager
 EAPI=7
-HOMEPAGE=https://qtpass.org/
-IUSE=test
+HOMEPAGE=https://qtpass.org
+IUSE=test test
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=app-admin/pass dev-qt/qtcore:5 dev-qt/qtgui:5[xcb] dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 net-misc/x11-ssh-askpass
 SLOT=0
-_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	562b380fc59ae6a8622171d0acb777d1	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
-_md5_=dd496abb639415cf19615cb8ba627734
+_eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	estack	43ddf5aaffa7a8d0482df54d25a66a1f	git-r3	562b380fc59ae6a8622171d0acb777d1	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	virtualx	53625127887b62eabb9ec61d3d943462
+_md5_=a65d3f7ad998c15db9309f0853659e1c
