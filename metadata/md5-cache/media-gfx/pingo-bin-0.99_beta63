@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Fast web image optimizer
+EAPI=7
+HOMEPAGE=https://css-ig.net/pingo
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+SLOT=0
+SRC_URI=https://files.spiderx.dp.ua/software/pingo/pingo-0.99_beta63.tar.gz
+_md5_=88a56af9a272f78882dcba88043ae4d8

@@ -219,7 +219,7 @@ media-gfx/butteraugli 9999: A tool for measuring perceived differences between i
 media-gfx/colorpick 9999: Color picker and contrast checker
 media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
 media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
-media-gfx/pingo-bin 0.99_beta52: Fast web image optimizer
+media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
 media-gfx/qView 2.0 9999: Practical and minimal image viewer
 media-gfx/screencloud 1.4.0 9999: Screenshot capturing and sharing tool over various services
 media-gfx/xgrabcolor 1.4.6: Qt-based basic color picker
