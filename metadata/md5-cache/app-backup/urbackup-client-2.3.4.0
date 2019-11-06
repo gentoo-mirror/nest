@@ -10,5 +10,5 @@ LICENSE=AGPL-3+
 RDEPEND=dev-db/sqlite:3 dev-libs/crypto++:0= dev-libs/icu:0= sys-libs/zlib:0= X? ( x11-libs/wxGTK:3.0 )
 SLOT=0
 SRC_URI=https://hndl.urbackup.org/Client/2.3.4/urbackup-client-2.3.4.0.tar.gz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	user	00484e1be1aac73e24fca1c99557a7d6	wxwidgets	e1e6e1eb5b3d911b3abd712f611e2312
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	8a43b9830f1e64a7a5fc0a276afa0275	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	user	00484e1be1aac73e24fca1c99557a7d6	wxwidgets	e1e6e1eb5b3d911b3abd712f611e2312
 _md5_=d9b4969ce503d39ff380e9b3a2cb766a
