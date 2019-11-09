@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst prepare setup
-DEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) virtual/pkgconfig >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
+DEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 virtual/pkgconfig
 DESCRIPTION=A tool to assess of deployment of source address validation
 EAPI=6
 HOMEPAGE=https://spoofer.caida.org
@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) net-analyzer/traceroute virtual/tmpfiles
 SLOT=0
 SRC_URI=https://www.caida.org/projects/spoofer/downloads/spoofer-1.3.2.tar.gz
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	desktop	b1d22ac8bdd4679ab79c71aca235009d	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	user	00484e1be1aac73e24fca1c99557a7d6
+_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	desktop	b1d22ac8bdd4679ab79c71aca235009d	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	user	00484e1be1aac73e24fca1c99557a7d6
 _md5_=87f66c8de7379f2ceb09c9754a7f4cdb
