@@ -94,6 +94,7 @@ dev-ml/ocamlnet:httpd - Enables net-httpd web server component
 dev-ml/ocamlnet:zip - Enables netzip support to read/write gzip data using object channels
 dev-python/PythonQt:extensions - Install extensions
 dev-python/aws-sam-translator:cli - Enables the CLI interface
+dev-python/ctypescrypto:gost - Enable gost algorithm
 dev-util/gitlab-runner:docker - Add support for docker executors
 dev-util/insomnia-bin:pax_kernel - Triggers a paxmarking of the binary
 dev-util/testmace-bin:pax_kernel - Triggers a paxmarking of the binary
