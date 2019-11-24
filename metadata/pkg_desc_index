@@ -118,6 +118,7 @@ dev-python/coreschema 0.0.4 9999: Python CoreSchema
 dev-python/crayons 0.1.2 9999: Text UI colors
 dev-python/cron-descriptor 1.2.22 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.4.12 0.5.2 9999: Fast and reliable NGINX configuration parser
+dev-python/ctypescrypto 0.5 9999: File format determination library for Python
 dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
 dev-python/dateparser 0.7.0 9999: Date parsing library designed to parse dates from HTML pages
 dev-python/decli 0.5.0 9999: Minimal declarative cli tool
@@ -149,9 +150,11 @@ dev-python/factory_boy 2.11.1 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.1 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/faker 1.0.8 2.0.0 9999: Python package that generates fake data
 dev-python/filetype 1.0.5 9999: Infer file type and MIME type of any file/buffer
+dev-python/fleep 1.0.1 9999: File format determination library for Python
 dev-python/flex 6.13.2 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
 dev-python/graphviz 0.10.1 9999: Simple Python interface for Graphviz
+dev-python/ifaddr 0.1.6 9999: Python Library to enumerate all network interfaces
 dev-python/itypes 1.1.0 9999: Simple immutable types for python
 dev-python/livereload 2.4.1 2.5.2: Python LiveReload is an awesome tool for web developers
 dev-python/m9dicts 0.4.0: A dict-like object supports recursive merge operation
@@ -246,6 +249,7 @@ net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/fiche 0.9 0.9.1 9999: Command line pastebin server
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
+net-misc/opendrop 0.10.2 9999: an Open Source AirDrop Implementation
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
 net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
 net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
