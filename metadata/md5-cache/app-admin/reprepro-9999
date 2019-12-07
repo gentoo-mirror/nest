@@ -9,5 +9,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
 _md5_=6600e4a59044f34a1a823a2d7d3e244c
