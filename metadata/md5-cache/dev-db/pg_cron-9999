@@ -7,5 +7,5 @@ HOMEPAGE=https://github.com/citusdata/pg_cron
 LICENSE=POSTGRESQL
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=9f2e2e827751d6fb33361e19b4a9650c
