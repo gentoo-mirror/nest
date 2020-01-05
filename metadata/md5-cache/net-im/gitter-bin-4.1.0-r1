@@ -12,4 +12,4 @@ RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=amd64? ( https://update.gitter.im/linux64/gitter_4.1.0_amd64.deb ) x86? ( https://update.gitter.im/linux32/gitter_4.1.0_i386.deb )
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multilib-build	0d0c25170069d06d0eb233154229af97	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	unpacker	3cd8bad0d31e525cd26be1bfa4e61631	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=84ee2f416e83bbdf9ce27ffbbb1dedc4
+_md5_=5d5ce94ea45800f901ec70b18337506f
