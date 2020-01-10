@@ -8,5 +8,5 @@ LICENSE=MIT Unlicense
 PROPERTIES=live
 RESTRICT=mirror
 SLOT=0
-_eclasses_=cargo	b3bac18f5f7e424b691700ed49f3c5a0	git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	multiprocessing	cac3169468f893670dac3e7cb940e045
+_eclasses_=cargo	b3bac18f5f7e424b691700ed49f3c5a0	git-r3	809e27702c573cbba31c08ed00bbad33	multiprocessing	cac3169468f893670dac3e7cb940e045
 _md5_=762133b12f42b71c79e0c30fd9ce1a6e

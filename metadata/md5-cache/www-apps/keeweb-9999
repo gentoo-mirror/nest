@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	webapp	16783e418aca3ffa461d68310bf7ab12
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	webapp	16783e418aca3ffa461d68310bf7ab12
 _md5_=14cab2a46a9200b3e30c71c5c7898caa

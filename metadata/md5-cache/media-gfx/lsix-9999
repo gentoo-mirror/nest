@@ -8,5 +8,5 @@ LICENSE=GPL-3+
 PROPERTIES=live
 RDEPEND=media-gfx/imagemagick[truetype,djvu?,jpeg?,jpeg2k?,png?,svg?,tiff?,webp?]
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
 _md5_=cd0b805d55a77c89d85b59f880f31df5

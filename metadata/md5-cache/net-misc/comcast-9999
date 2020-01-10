@@ -8,5 +8,5 @@ PROPERTIES=live
 RDEPEND=dev-lang/go:0=
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892
 _md5_=3d962ae2db3958bcc4d31cf002a7224c
