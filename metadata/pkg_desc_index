@@ -230,6 +230,7 @@ dev-vcs/mercurial-keyring 1.2.1 9999: Mercurial Keyring Extension
 media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
 media-gfx/colorpick 9999: Color picker and contrast checker
 media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
+media-gfx/guetzli 1.0.1 9999: Perceptual JPEG encoder
 media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
 media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
 media-gfx/qView 2.0 9999: Practical and minimal image viewer
