@@ -3,10 +3,10 @@ DEFINED_PHASES=install unpack
 DEPEND=dev-lang/perl:0=[berkdb] virtual/perl-DB_File
 DESCRIPTION=Tool to manage (PAM) userdb files with crypted passwords
 EAPI=7
-HOMEPAGE=http://nasauber.de/opensource/userdbadm
+HOMEPAGE=https://nasauber.de/opensource/userdbadm
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-lang/perl:0=[berkdb] virtual/perl-DB_File
 SLOT=0
 _eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
-_md5_=22545dfa46ab845f5f612a272c212f02
+_md5_=8d2a783d52fb81915e984206d5bf6057
