@@ -98,6 +98,9 @@ dev-python/ctypescrypto:gost - Enable gost algorithm
 dev-util/gitlab-runner:docker - Add support for docker executors
 dev-util/insomnia-bin:pax_kernel - Triggers a paxmarking of the binary
 dev-util/testmace-bin:pax_kernel - Triggers a paxmarking of the binary
+media-gfx/nomacs:heif - Build support for media-libs/libheif
+media-gfx/nomacs:opencv - Build support for media-libs/opencv
+media-gfx/nomacs:plugins - Build support for plugins
 media-radio/liquidsoap:camlimages - Support for image manipulation library
 media-radio/liquidsoap:camlp4 - Enable camlp4 syntax extension
 media-radio/liquidsoap:dssi - Support for DSSI sound synthesis
