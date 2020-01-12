@@ -127,9 +127,7 @@ net-analyzer/goaccess:tokyocabinet - Enable Tokyo Cabinet's on-memory hash datab
 net-analyzer/passivedns:json - Enable JSON support
 net-dns/inadyn-mt:sound - Enable sound support using
 net-firewall/ipt_netflow:pax_kernel - Apply patch needed for pax enabled kernels
-net-im/slack-bin:pax_kernel - Triggers a paxmarking of the binary
 net-im/viber-bin:apulse - Use PulseAudio emulation for ALSA
-net-im/vk-messenger-bin:pax_kernel - Triggers a paxmarking of the binary
 net-misc/redir:ftp - Support for FTP (File Transfer Protocol) redirection
 net-misc/redir:shaper - Support for traffic shaping
 net-misc/redir:xinetd - Add support for the xinetd super-server
