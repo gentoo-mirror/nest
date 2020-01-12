@@ -60,7 +60,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[reprepro](https://salsa.debian.org/brlink/reprepro) | A tool to handle local repositories of Debian packages
 * app-admin/[saw](https://github.com/TylerBrock/saw) | Fast, multi-purpose tool for AWS CloudWatch Logs
 * app-admin/[tztail](https://github.com/thecasualcoder/tztail) | A log view in various timezones
-* app-admin/[userdbadm](http://nasauber.de/opensource/userdbadm) | Tool to manage (PAM) userdb files with crypted passwords
+* app-admin/[userdbadm](https://nasauber.de/opensource/userdbadm) | Tool to manage (PAM) userdb files with crypted passwords
 * app-admin/[uwsgitop](https://github.com/unbit/uwsgitop) | uWSGI stats viewer
 * app-admin/[yaml-vault](https://github.com/Jimdo/yaml-vault) | Utility to import/export data from HashiCorp Vault
 * app-backup/[hashget](https://gitlab.com/yaroslaff/hashget) | Deduplication tool for archiving data with extremely high ratio
@@ -74,7 +74,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-crypt/[qesteidutil](https://github.com/open-eid/qesteidutil) | Estonian ID card management desktop utility
 * app-editors/[qedit](http://hugo.pereira.free.fr/software/index.php) | Qt-based multi-purpose text editor
 * app-editors/[FeatherPad](https://github.com/tsujan/FeatherPad) | Lightweight Qt5 plain-text editor
-* app-editors/[visual-studio-code-bin](http://code.visualstudio.com) | Editor for building and debugging modern web and cloud applications
+* app-editors/[visual-studio-code-bin](https://code.visualstudio.com) | Editor for building and debugging modern web and cloud applications
 * app-emulation/[looking-glass](https://looking-glass.hostfission.com) | A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 * app-emulation/[qio](https://github.com/SpiderX/qio) | QEMU Init OpenRC
 * app-forensics/[gitleaks](https://github.com/zricethezav/gitleaks) | Auditing git repository for secrets and keys
@@ -83,10 +83,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-misc/[android-file-transfer-linux](https://whoozle.github.io/android-file-transfer-linux/) | Reliable MTP client with minimalistic UI
 * app-misc/[cheat](https://github.com/cheat/cheat) | Interactive cheatsheets on the command-line
 * app-misc/[cointop](https://github.com/miguelmota/cointop) | Interactive cryptocurrency monitor
-* app-misc/[deco](http://deco.sourceforge.net) | Demos Commander, a free Norton Commander clone
+* app-misc/[deco](https://deco.sourceforge.net) | Demos Commander, a free Norton Commander clone
 * app-misc/[jshon](http://kmkeen.com/jshon) | JSON parser designed for maximum convenience within the shell
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/pet.svg)](https://repology.org/metapackage/pet) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
-* app-misc/[rmlint](http://rmlint.rtfd.org) | Removes duplicates and other lint from your filesystem
+* app-misc/[rmlint](https://rmlint.rtfd.org) | Removes duplicates and other lint from your filesystem
 * app-misc/[xsv](https://github.com/BurntSushi/xsv) | A fast CSV command line toolkit
 * app-office/[drawio-desktop-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/peco.svg)](https://repology.org/metapackage/peco) app-shells/[peco](https://github.com/peco/peco) | Simplistic interactive filtering tool
