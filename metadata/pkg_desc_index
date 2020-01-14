@@ -238,6 +238,7 @@ media-gfx/qView 2.0 9999: Practical and minimal image viewer
 media-gfx/screencloud 1.4.0 9999: Screenshot capturing and sharing tool over various services
 media-gfx/xgrabcolor 1.4.6: Qt-based basic color picker
 media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
+media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999: Radio tray for linux on QT
 media-radio/liquidsoap 1.3.1 1.3.7 1.4.0_beta2 9999: A swiss-army knife for multimedia streaming, used for netradios and webtvs
