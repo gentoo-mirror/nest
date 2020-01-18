@@ -22,7 +22,7 @@ app-backup/urbackup-client 2.3.4.0 9999: Client Server backup system
 app-backup/urbackup-server 2.3.8 9999: Client Server backup system
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 0.1.16: Secure Let's Encrypt client
-app-crypt/acme-sh 2.8.3 9999: An ACME Shell script
+app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
 app-crypt/acmebot 2.2.0 2.3.0 9999: ACME protocol automatic certitificate manager
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
@@ -38,7 +38,7 @@ app-misc/cheat 2.5.1 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.0.1 1.1.2 9999: Interactive cryptocurrency monitor
 app-misc/deco 3.9.1: Demos Commander, a free Norton Commander clone
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
-app-misc/pet 0.3.6 9999: Simple command-line snippet manager
+app-misc/pet 0.3.6 0.3.6-r1 9999: Simple command-line snippet manager
 app-misc/rmlint 2.6.1: Removes duplicates and other lint from your filesystem
 app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
 app-office/drawio-desktop-bin 12.1.0: Diagram drawing application built on web technology
