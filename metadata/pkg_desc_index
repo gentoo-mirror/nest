@@ -22,7 +22,7 @@ app-backup/urbackup-client 2.3.4.0 9999: Client Server backup system
 app-backup/urbackup-server 2.3.8 9999: Client Server backup system
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 0.1.16: Secure Let's Encrypt client
-app-crypt/acme-sh 2.8.2 2.8.3 9999: An ACME Shell script
+app-crypt/acme-sh 2.8.3 9999: An ACME Shell script
 app-crypt/acmebot 2.2.0 2.3.0 9999: ACME protocol automatic certitificate manager
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
@@ -42,7 +42,7 @@ app-misc/pet 0.3.6 9999: Simple command-line snippet manager
 app-misc/rmlint 2.6.1: Removes duplicates and other lint from your filesystem
 app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
 app-office/drawio-desktop-bin 12.1.0: Diagram drawing application built on web technology
-app-shells/peco 0.5.4 0.5.5 9999: Simplistic interactive filtering tool
+app-shells/peco 0.5.4 0.5.5 0.5.7 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
@@ -288,7 +288,7 @@ sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail secu
 sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 9999: Tool which monitors for inotify events and executes script
 sys-fs/xfs_undelete 1.3 9999: An undelete tool for the XFS filesystem
-sys-power/powerstat 0.02.18 0.02.20 9999: Laptop power measuring tool
+sys-power/powerstat 0.02.20 0.02.21 9999: Laptop power measuring tool
 www-apps/LookingGlass 9999: A Python-backed Looking Glass
 www-apps/draw-io 10.1.2 10.5.2 12.1.2: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
