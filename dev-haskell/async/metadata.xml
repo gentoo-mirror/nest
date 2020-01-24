@@ -10,13 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A library that can read time zone info files (aka. Olson files),
-	and does time zone conversions in a pure and efficient way
+	A higher-level interface over threads, in which an Async a is
+	a concurrent thread that will eventually deliver a value of type a.
+	The package provides ways to create Async computations, wait for
+	their results, and cancel them.
 	</longdescription>
-	<use>
-		<flag name="template-haskell">Enable and use template haskell support.</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">nilcons/haskell-tz</remote-id>
+		<remote-id type="github">simonmar/async</remote-id>
 	</upstream>
 </pkgmetadata>

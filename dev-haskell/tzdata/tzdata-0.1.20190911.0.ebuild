@@ -7,23 +7,20 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 
 inherit haskell-cabal
 
-DESCRIPTION="Daemons in Haskell made fun and easy"
-HOMEPAGE="https://github.com/scvalex/daemons"
+DESCRIPTION="Distribution of the standard time zone database"
+HOMEPAGE="https://github.com/nilcons/haskell-tzdata"
 SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="Apache-2.0"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-haskell/cereal-0.4.0.1:=[profile?]
-	dev-haskell/data-default:=[profile?]
-	dev-haskell/network:=[profile?]
-	dev-haskell/pipes:=[profile?]
-	dev-haskell/transformers:=[profile?]
+RDEPEND="dev-haskell/vector:=[profile?]
 	dev-lang/ghc:="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:=[profile?]
 	test? ( dev-haskell/hunit:=[profile?]
 		dev-haskell/test-framework:=[profile?]
-		dev-haskell/test-framework-hunit:=[profile?] )"
+		dev-haskell/test-framework-hunit:=[profile?]
+		dev-haskell/test-framework-th:=[profile?] )"

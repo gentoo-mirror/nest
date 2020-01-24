@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 305](https://img.shields.io/badge/ebuild-305-orange.svg)](https://img.shields.io/badge/ebuild-305-orange.svg)
+[![Number of ebuilds: 310](https://img.shields.io/badge/ebuild-310-orange.svg)](https://img.shields.io/badge/ebuild-310-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -108,12 +108,17 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-482946-red.svg)](https://bugs.gentoo.org/482946) dev-libs/[loki](http://loki-lib.sourceforge.net/) | C++ library of common design patterns and idioms
 * dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
 * dev-go/[keyring](https://github.com/99designs/keyring) | Library with uniform interface across a range of secure credential stores
+* dev-haskell/[async](https://github.com/simonmar/async) | Run IO operations asynchronously and wait for their results
+* dev-haskell/[call-stack](https://github.com/sol/call-stack#readme) | Use GHC call-stacks in a backward compatible way
+* dev-haskell/[clock](https://github.com/corsis/clock) | High-resolution clock functions
 * dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
 * dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
 * dev-haskell/[scotty](https://github.com/scotty-web/scotty) | A Haskell web framework, using WAI and Warp
 * dev-haskell/[tz](https://github.com/nilcons/haskell-tz) | Library for time zone conversions
 * dev-haskell/[tzdata](https://github.com/nilcons/haskell-tzdata) | Distribution of the standard time zone database
+* dev-haskell/[websockets](http://jaspervdj.be/websockets) | Allows you to write WebSocket-capable servers
 * dev-haskell/[wai-cors](https://github.com/larskuhtz/wai-cors) | Cross-Origin resource sharing (CORS) for Wai
+* dev-haskell/[wai-websockets](https://github.com/yesodweb/wai) | Provide a bridge between WAI and the websockets package
 * dev-lua/[lyaml](https://github.com/gvvaughan/lyaml) | LibYAML binding for Lua
 * dev-ml/[camlimages](http://gallium.inria.fr/camlimages) | An image manipulation library for ocaml
 * dev-ml/[camomile](https://github.com/yoriyuki/Camomile) | Camomile is a comprehensive Unicode library for ocaml
