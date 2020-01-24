@@ -56,12 +56,17 @@ dev-db/pgcenter 0.6.1 9999: Command-line admin tool for observing and troublesho
 dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
 dev-go/keyring 1.1.3 9999: Library with uniform interface across a range of secure credential stores
+dev-haskell/async 2.2.2: Run IO operations asynchronously and wait for their results
+dev-haskell/call-stack 0.2.0: Use GHC call-stacks in a backward compatible way
+dev-haskell/clock 0.8: High-resolution clock functions
 dev-haskell/daemons 0.2.1: Daemons in Haskell made fun and easy
-dev-haskell/ini 0.3.6: Quick and easy configuration files in the INI format
+dev-haskell/ini 0.4.1: Quick and easy configuration files in the INI format
 dev-haskell/scotty 0.11.1: A Haskell web framework, using WAI and Warp
-dev-haskell/tz 0.1.3.1: Library for time zone conversions
-dev-haskell/tzdata 0.1.20180122.0: Distribution of the standard time zone database
-dev-haskell/wai-cors 0.2.6: Cross-Origin resource sharing (CORS) for Wai
+dev-haskell/tz 0.1.3.3: Library for time zone conversions
+dev-haskell/tzdata 0.1.20190911.0: Distribution of the standard time zone database
+dev-haskell/wai-cors 0.2.7: Cross-Origin resource sharing (CORS) for Wai
+dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
+dev-haskell/websockets 0.12.7.0: Allows you to write WebSocket-capable servers
 dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents

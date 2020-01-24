@@ -17,6 +17,7 @@ app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-f
 app-misc/android-file-transfer-linux:shared - Build shared library
 app-misc/cheat:fish-completion - Enable fish completion support
 dev-db/pg_repack:client - Build CLI client
+dev-haskell/tz:template-haskell - Enable and use template haskell support.
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
 dev-libs/libdigidoc:utils - install command-line utility

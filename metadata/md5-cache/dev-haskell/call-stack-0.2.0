@@ -1,0 +1,15 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/nanospec:=[profile?] )
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=dev-lang/ghc:= doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Use GHC call-stacks in a backward compatible way
+EAPI=7
+HOMEPAGE=https://github.com/sol/call-stack#readme
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/ghc:=
+RESTRICT=!test? ( test )
+SLOT=0/0.2.0
+SRC_URI=https://hackage.haskell.org/package/call-stack-0.2.0/call-stack-0.2.0.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	fac7ea2deca456f8e70b85a6ebef9e8a	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=b77c5d260f3f142c77864491110b6ee1
