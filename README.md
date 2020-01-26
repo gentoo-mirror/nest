@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 361](https://img.shields.io/badge/ebuild-361-orange.svg)](https://img.shields.io/badge/ebuild-361-orange.svg)
+[![Number of ebuilds: 370](https://img.shields.io/badge/ebuild-370-orange.svg)](https://img.shields.io/badge/ebuild-370-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -116,8 +116,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[base-compat-batteries](https://github.com/haskell-compat/base-compat) | Base-compat with extra batteries
 * dev-haskell/[base-orphans](https://github.com/haskell-compat/base-orphans) | Backwards-compatible orphan instances for base
 * dev-haskell/[bifunctors](https://github.com/ekmett/bifunctors) | Haskell 98 bifunctors, bifoldables and bitraversables
+* dev-haskell/[bsb-http-chunked](https://github.com/sjakobi/bsb-http-chunked) | Chunked HTTP transfer encoding for bytestring builders
 * dev-haskell/[call-stack](https://github.com/sol/call-stack) | Use GHC call-stacks in a backward compatible way
 * dev-haskell/[clock](https://github.com/corsis/clock) | High-resolution clock functions
+* dev-haskell/[concurrent-output](https://git.joeyh.name/index.cgi/concurrent-output.git) | Ungarble output from several threads or commands
 * dev-haskell/[contravariant](https://github.com/ekmett/contravariant) | Contravariant functors
 * dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
 * dev-haskell/[diff](https://hackage.haskell.org/package/Diff) | O(ND) diff algorithm in haskell
@@ -125,6 +127,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[exceptions](https://github.com/ekmett/exceptions) | Extensible optionally-pure exceptions
 * dev-haskell/[fast-logger](https://github.com/kazu-yamamoto/logger) | A fast logging system
 * dev-haskell/[glob](http://iki.fi/matti.niemenmaa/glob) | Globbing library
+* dev-haskell/[hedgehog](https://hedgehog.qa) | Hedgehog will eat all your bugs
 * dev-haskell/[hunit](https://github.com/hspec/HUnit) | A unit testing framework for Haskell
 * dev-haskell/[hspec](http://hspec.github.io) | A Testing Framework for Haskell
 * dev-haskell/[hspec-core](http://hspec.github.io) | A Testing Framework for Haskell
@@ -137,6 +140,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
 * dev-haskell/[integer-logarithms](https://github.com/Bodigrim/integer-logarithms) | Integer logarithms
 * dev-haskell/[integer-simple](http://hackage.haskell.org/package/integer-simple) | Simple Integer library
+* dev-haskell/[lifted-async](https://github.com/maoe/lifted-async) | Run lifted IO operations asynchronously and wait for their results
 * dev-haskell/[nats](https://github.com/ekmett/nats) | Natural numbers
 * dev-haskell/[network-byte-order](https://github.com/kazu-yamamoto/network-byte-order) | Network byte order utilities
 * dev-haskell/[quickcheck](https://github.com/nick8325/quickcheck) | Automatic testing of Haskell programs
@@ -151,12 +155,15 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[streaming-commons](https://github.com/fpco/streaming-commons) | Common lower-level functions needed by various streaming data libraries
 * dev-haskell/[tasty](https://github.com/feuerbach/tasty) | Modern and extensible testing framework
 * dev-haskell/[tasty-ant-xml](https://github.com/ocharles/tasty-ant-xml) | Render tasty output to XML for Jenkins
+* dev-haskell/[tasty-expected-failure](https://github.com/nomeata/tasty-expected-failure) | Mark tasty tests as failure expected
+* dev-haskell/[tasty-hedgehog](https://github.com/qfpl/tasty-hedgehog) | Integration for tasty and hedgehog
 * dev-haskell/[tasty-hunit](https://github.com/feuerbach/tasty) | HUnit support for the Tasty test framework
 * dev-haskell/[tasty-quickcheck](https://github.com/feuerbach/tasty) | QuickCheck support for the Tasty test framework
 * dev-haskell/[text](https://github.com/haskell/text) | An efficient packed Unicode text type
 * dev-haskell/[th-abstraction](https://github.com/glguy/th-abstraction) | Uniform interface to reified data type information
 * dev-haskell/[time-compat](https://github.com/phadej/time-compat) | Compatibility with old-time for the time package
 * dev-haskell/[time-manager](https://github.com/yesodweb/wai) | Scalable timer
+* dev-haskell/[transformers-base](https://github.com/mvv/transformers-base) | Lift computations from the bottom of a transformer stack
 * dev-haskell/[transformers-compat](https://github.com/ekmett/transformers-compat) | A small compatibility shim for dev-haskell/transformers
 * dev-haskell/[type-equality](https://github.com/hesselink/type-equality) | Type equality, coercion/cast and other operations
 * dev-haskell/[tz](https://github.com/nilcons/haskell-tz) | Library for time zone conversions
@@ -169,7 +176,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[wai-extra](https://github.com/yesodweb/wai) | Provides some basic WAI handlers and middleware
 * dev-haskell/[wai-logger](http://hackage.haskell.org/package/wai-logger) | A logging system for WAI
 * dev-haskell/[wai-websockets](https://github.com/yesodweb/wai) | Provide a bridge between WAI and the websockets package
+* dev-haskell/[warp](https://github.com/yesodweb/wai) | A fast, light-weight web server for WAI applications
 * dev-haskell/[wcwidth](https://github.com/solidsnack/wcwidth) | Native wcwidth
+* dev-haskell/[wl-pprint-annotated](https://github.com/minad/wl-pprint-annotated) | Pretty printer with annotations
 * dev-lua/[lyaml](https://github.com/gvvaughan/lyaml) | LibYAML binding for Lua
 * dev-ml/[camlimages](http://gallium.inria.fr/camlimages) | An image manipulation library for ocaml
 * dev-ml/[camomile](https://github.com/yoriyuki/Camomile) | Camomile is a comprehensive Unicode library for ocaml
