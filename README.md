@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 380](https://img.shields.io/badge/ebuild-380-orange.svg)](https://img.shields.io/badge/ebuild-380-orange.svg)
+[![Number of ebuilds: 384](https://img.shields.io/badge/ebuild-384-orange.svg)](https://img.shields.io/badge/ebuild-384-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -127,6 +127,8 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[diff](https://hackage.haskell.org/package/Diff) | O(ND) diff algorithm in haskell
 * dev-haskell/[distributive](https://github.com/ekmett/distributive) | Distributive functors
 * dev-haskell/[dlist](https://github.com/spl/dlist) | Difference lists
+* dev-haskell/[either](https://github.com/ekmett/either) | An either monad transformer
+* dev-haskell/[errors](https://github.com/Gabriel439/Haskell-Errors-Library) | Simplified error-handling
 * dev-haskell/[exceptions](https://github.com/ekmett/exceptions) | Extensible optionally-pure exceptions
 * dev-haskell/[fast-logger](https://github.com/kazu-yamamoto/logger) | A fast logging system
 * dev-haskell/[free](https://github.com/ekmett/free) | Monads for free
@@ -150,9 +152,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[lifted-async](https://github.com/maoe/lifted-async) | Run lifted IO operations asynchronously and wait for their results
 * dev-haskell/[nats](https://github.com/ekmett/nats) | Natural numbers
 * dev-haskell/[network-byte-order](https://github.com/kazu-yamamoto/network-byte-order) | Network byte order utilities
+* dev-haskell/[mmorph](https://github.com/Gabriel439/Haskell-MMorph-Library) | Monad morphisms
 * dev-haskell/[quickcheck](https://github.com/nick8325/quickcheck) | Automatic testing of Haskell programs
 * dev-haskell/[quickcheck-instances](https://github.com/phadej/qc-instances) | Common quickcheck instances
 * dev-haskell/[quickcheck-io](https://github.com/hspec/quickcheck-io) | Use HUnit assertions as QuickCheck properties
+* dev-haskell/[pipes](https://github.com/Gabriel439/Haskell-Pipes-Library) | Compositional pipelines
 * dev-haskell/[primitive](https://github.com/haskell/primitive) | Primitive memory-related operations
 * dev-haskell/[profunctors](https://github.com/ekmett/profunctors) | Profunctors
 * dev-haskell/[optparse-applicative](https://github.com/pcapriotti/optparse-applicative) | Utilities and combinators for parsing command line options
