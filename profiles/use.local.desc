@@ -17,20 +17,28 @@ app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-f
 app-misc/android-file-transfer-linux:shared - Build shared library
 app-misc/cheat:fish-completion - Enable fish completion support
 dev-db/pg_repack:client - Build CLI client
+dev-haskell/aeson:cffi - Build with include c-ffi bits
+dev-haskell/aeson:fast - Build without optimizations
 dev-haskell/bifunctors:semigroups - Enable support for dev-haskell/semigroups
 dev-haskell/bifunctors:tagged - Enable support for dev-haskell/tagged
 dev-haskell/contravariant:semigroups - Enable support for dev-haskell/semigroups
 dev-haskell/contravariant:statevar - Enable support for dev-haskell/statevar
 dev-haskell/contravariant:tagged - Enable support for dev-haskell/tagged
+dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
 dev-haskell/nats:binary - Enable support for dev-haskell/binary
 dev-haskell/nats:hashable - Enable support for dev-haskell/hashable
 dev-haskell/nats:template-haskell - Enable template_haskell
 dev-haskell/quickcheck:template-haskell - Enable additional test modules requiring Template Haskell support
+dev-haskell/scientific:integer-simple - Use dev-haskell/integer-simple instead of integer-gmp
 dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/splitmix:optimised-mixer - Use JavaScript for mix32
 dev-haskell/splitmix:random - Provide RandomGen SMGen instance
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
+dev-haskell/vector:boundschecks - Enable bounds checking
+dev-haskell/vector:internalchecks - Enable internal consistency checks
+dev-haskell/vector:unsafechecks - Enable bounds checking in unsafe operations
+dev-haskell/wcwidth:cli - Build CLI tool
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
 dev-libs/libdigidoc:utils - install command-line utility
