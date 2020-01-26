@@ -7,16 +7,15 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 
 inherit haskell-cabal
 
-DESCRIPTION="Use GHC call-stacks in a backward compatible way"
-HOMEPAGE="https://github.com/sol/call-stack"
+DESCRIPTION="Uniform interface to reified data type information"
+HOMEPAGE="https://github.com/glguy/th-abstraction"
 SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="ISC"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-lang/ghc:="
 DEPEND="${RDEPEND}"
-BDEPEND="dev-haskell/cabal:=[profile?]
-	test? ( dev-haskell/nanospec:=[profile?] )"
+BDEPEND="dev-haskell/cabal:=[profile?]"

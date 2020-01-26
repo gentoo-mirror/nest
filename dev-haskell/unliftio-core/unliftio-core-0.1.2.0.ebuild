@@ -3,12 +3,12 @@
 
 EAPI=7
 
-CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
+CABAL_FEATURES="lib profile haddock hoogle hscolour"
 
 inherit haskell-cabal
 
-DESCRIPTION="Use GHC call-stacks in a backward compatible way"
-HOMEPAGE="https://github.com/sol/call-stack"
+DESCRIPTION="The MonadUnliftIO typeclass for unlifting monads to IO"
+HOMEPAGE="https://github.com/fpco/unliftio"
 SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,5 +18,11 @@ IUSE=""
 
 RDEPEND="dev-lang/ghc:="
 DEPEND="${RDEPEND}"
-BDEPEND="dev-haskell/cabal:=[profile?]
-	test? ( dev-haskell/nanospec:=[profile?] )"
+BDEPEND="dev-haskell/cabal:=[profile?]"
+
+src_prepare() {
+	default
+
+	cabal_chdeps \
+		'base >=4.5 && <4.12' 'base >=4.5'
+}

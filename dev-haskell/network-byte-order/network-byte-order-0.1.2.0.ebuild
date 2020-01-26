@@ -7,16 +7,16 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 
 inherit haskell-cabal
 
-DESCRIPTION="Use GHC call-stacks in a backward compatible way"
-HOMEPAGE="https://github.com/sol/call-stack"
+DESCRIPTION="Network byte order utilities"
+HOMEPAGE="https://github.com/kazu-yamamoto/network-byte-order"
 SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="dev-lang/ghc:="
+RDEPEND=">=dev-lang/ghc-7.10.1:="
 DEPEND="${RDEPEND}"
-BDEPEND="dev-haskell/cabal:=[profile?]
-	test? ( dev-haskell/nanospec:=[profile?] )"
+BDEPEND=">=dev-haskell/cabal-1.22.2.0
+	test? ( dev-haskell/doctest:=[profile?] )"

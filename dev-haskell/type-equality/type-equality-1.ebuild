@@ -3,20 +3,19 @@
 
 EAPI=7
 
-CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
+CABAL_FEATURES="lib profile haddock hoogle hscolour"
 
 inherit haskell-cabal
 
-DESCRIPTION="Use GHC call-stacks in a backward compatible way"
-HOMEPAGE="https://github.com/sol/call-stack"
+DESCRIPTION="Type equality, coercion/cast and other operations"
+HOMEPAGE="https://github.com/hesselink/type-equality"
 SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-lang/ghc:="
 DEPEND="${RDEPEND}"
-BDEPEND="dev-haskell/cabal:=[profile?]
-	test? ( dev-haskell/nanospec:=[profile?] )"
+BDEPEND="dev-haskell/cabal:=[profile?]"

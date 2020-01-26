@@ -7,8 +7,8 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 
 inherit haskell-cabal
 
-DESCRIPTION="Use GHC call-stacks in a backward compatible way"
-HOMEPAGE="https://github.com/sol/call-stack"
+DESCRIPTION="Automatically discover and run Hspec tests"
+HOMEPAGE="http://hspec.github.io"
 SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -19,4 +19,5 @@ IUSE=""
 RDEPEND="dev-lang/ghc:="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:=[profile?]
-	test? ( dev-haskell/nanospec:=[profile?] )"
+	test? ( >=dev-haskell/hspec-meta-2.2.1:=[profile?]
+		>=dev-haskell/quickcheck-2.7:=[profile?] )"
