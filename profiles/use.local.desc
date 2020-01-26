@@ -21,15 +21,33 @@ dev-haskell/aeson:cffi - Build with include c-ffi bits
 dev-haskell/aeson:fast - Build without optimizations
 dev-haskell/bifunctors:semigroups - Enable support for dev-haskell/semigroups
 dev-haskell/bifunctors:tagged - Enable support for dev-haskell/tagged
+dev-haskell/comonad:containers - Build support for containers
+dev-haskell/comonad:distributive - Build support for dev-haskell/distributive
+dev-haskell/comonad:test-doctests - Run the doctests test suite
 dev-haskell/contravariant:semigroups - Enable support for dev-haskell/semigroups
 dev-haskell/contravariant:statevar - Enable support for dev-haskell/statevar
 dev-haskell/contravariant:tagged - Enable support for dev-haskell/tagged
 dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
+dev-haskell/lens:benchmark-uniplate - Enable benchmarking against uniplate
+dev-haskell/lens:dump-splices - Build and run the doctests test-suite
+dev-haskell/lens:inlining - Generate inline pragmas using template-haskell
+dev-haskell/lens:j - Attempt a parallel build with GHC
+dev-haskell/lens:old-inline-pragmas - Enable inlining
+dev-haskell/lens:safe - Disallow unsafeCoerce
+dev-haskell/lens:test-doctests - Build and run the doctests test-suite
+dev-haskell/lens:test-templates - Build the test templates if we're building tests
+dev-haskell/lens:trustworthy - Assert that we are trustworthy when we can
 dev-haskell/nats:binary - Enable support for dev-haskell/binary
 dev-haskell/nats:hashable - Enable support for dev-haskell/hashable
 dev-haskell/nats:template-haskell - Enable template_haskell
 dev-haskell/quickcheck:template-haskell - Enable additional test modules requiring Template Haskell support
 dev-haskell/scientific:integer-simple - Use dev-haskell/integer-simple instead of integer-gmp
+dev-haskell/semigroupoids:comonad - Build support for dev-haskell/comonad
+dev-haskell/semigroupoids:containers - Build support for containers
+dev-haskell/semigroupoids:contravariant - Build support for dev-haskell/contravariant
+dev-haskell/semigroupoids:distributive - Build support for dev-haskell/distributive
+dev-haskell/semigroupoids:tagged - Build support for dev-haskell/tagged
+dev-haskell/semigroupoids:unordered-containers - Build support for dev-haskell/unordered-containers
 dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/splitmix:optimised-mixer - Use JavaScript for mix32

@@ -1,0 +1,15 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( >=dev-haskell/generic-deriving-1.11:=[profile?] >=dev-haskell/hspec-2:=[profile?] )
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/comonad-4:=[profile?] >=dev-haskell/contravariant-1:=[profile?] >=dev-haskell/distributive-0.5.1:=[profile?] dev-haskell/free:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/profunctors-4:=[profile?] >=dev-haskell/semigroupoids-4:=[profile?] >=dev-haskell/semigroups-0.11:=[profile?] >=dev-haskell/tagged-0.7:=[profile?] >=dev-haskell/transformers-compat-0.3:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:= doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Adjunctions and representable functors
+EAPI=7
+HOMEPAGE=https://github.com/ekmett/adjunctions
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-haskell/comonad-4:=[profile?] >=dev-haskell/contravariant-1:=[profile?] >=dev-haskell/distributive-0.5.1:=[profile?] dev-haskell/free:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/profunctors-4:=[profile?] >=dev-haskell/semigroupoids-4:=[profile?] >=dev-haskell/semigroups-0.11:=[profile?] >=dev-haskell/tagged-0.7:=[profile?] >=dev-haskell/transformers-compat-0.3:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:=
+RESTRICT=!test? ( test )
+SLOT=0/4.4
+SRC_URI=https://hackage.haskell.org/package/adjunctions-4.4/adjunctions-4.4.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	fac7ea2deca456f8e70b85a6ebef9e8a	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=283a2619859f9b718a46ac80c921f8ff
