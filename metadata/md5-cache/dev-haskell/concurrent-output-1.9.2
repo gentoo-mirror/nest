@@ -1,0 +1,14 @@
+BDEPEND=dev-haskell/cabal:=[profile?]
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/ansi-terminal:=[profile?] dev-haskell/async:=[profile?] >=dev-haskell/exceptions-0.6.0:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/terminal-size:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8:= doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Ungarble output from several threads or commands
+EAPI=7
+HOMEPAGE=https://git.joeyh.name/index.cgi/concurrent-output.git
+IUSE=doc hscolour profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=dev-haskell/ansi-terminal:=[profile?] dev-haskell/async:=[profile?] >=dev-haskell/exceptions-0.6.0:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/terminal-size:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8:=
+SLOT=0/1.9.2
+SRC_URI=https://hackage.haskell.org/package/concurrent-output-1.9.2/concurrent-output-1.9.2.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	fac7ea2deca456f8e70b85a6ebef9e8a	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=f8b0ff4aac90902123b1299ee1e21e6f

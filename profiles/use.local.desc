@@ -34,10 +34,13 @@ dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/splitmix:optimised-mixer - Use JavaScript for mix32
 dev-haskell/splitmix:random - Provide RandomGen SMGen instance
+dev-haskell/transformers-base:orphaninstances - Build instances for orphan datatypes
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
 dev-haskell/vector:boundschecks - Enable bounds checking
 dev-haskell/vector:internalchecks - Enable internal consistency checks
 dev-haskell/vector:unsafechecks - Enable bounds checking in unsafe operations
+dev-haskell/warp:allow-sendfilefd - Allow use of sendfileFd
+dev-haskell/warp:warp-debug - Add additional debuging information
 dev-haskell/wcwidth:cli - Build CLI tool
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
