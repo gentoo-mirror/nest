@@ -97,7 +97,7 @@ dev-haskell/quickcheck-instances 0.3.22: Common quickcheck instances
 dev-haskell/quickcheck-io 0.2.0: Use HUnit assertions as QuickCheck properties
 dev-haskell/resourcet 1.2.2: Deterministic allocation and freeing of scarce resources
 dev-haskell/scientific 0.3.6.2: Numbers represented using scientific notation
-dev-haskell/scotty 0.11.1: A Haskell web framework, using WAI and Warp
+dev-haskell/scotty 0.11.5: Haskell web framework
 dev-haskell/semigroups 0.18.5 0.19.1: Anything that associates
 dev-haskell/splitmix 0.0.3: Fast Splittable PRNG
 dev-haskell/streaming-commons 0.2.1.2: Common lower-level functions needed by various streaming data libraries

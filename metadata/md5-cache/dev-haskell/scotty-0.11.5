@@ -1,0 +1,15 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/async:=[profile?] >=dev-haskell/hspec-2:=[profile?] dev-haskell/hspec-wai:=[profile?] dev-haskell/lifted-base:=[profile?] )
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/data-default-class:=[profile?] >=dev-haskell/exceptions-0.7:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/http-types:=[profile?] >=dev-haskell/monad-control-1.0.1.0:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/nats:=[profile?] >=dev-haskell/network-2.6.0.2:=[profile?] dev-haskell/regex-compat:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers-base:=[profile?] >=dev-haskell/transformers-compat-0.4:=[profile?] >=dev-haskell/wai-3.0.0:=[profile?] dev-haskell/wai-extra:=[profile?] dev-haskell/warp:=[profile?] dev-lang/ghc:= doc? ( || ( dev-haskell/haddock >=dev-lang/ghc-7.10.2 ) ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell web framework
+EAPI=7
+HOMEPAGE=https://github.com/scotty-web/scotty
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/data-default-class:=[profile?] >=dev-haskell/exceptions-0.7:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/http-types:=[profile?] >=dev-haskell/monad-control-1.0.1.0:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/nats:=[profile?] >=dev-haskell/network-2.6.0.2:=[profile?] dev-haskell/regex-compat:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers-base:=[profile?] >=dev-haskell/transformers-compat-0.4:=[profile?] >=dev-haskell/wai-3.0.0:=[profile?] dev-haskell/wai-extra:=[profile?] dev-haskell/warp:=[profile?] dev-lang/ghc:=
+RESTRICT=!test? ( test )
+SLOT=0/0.11.5
+SRC_URI=https://hackage.haskell.org/package/scotty-0.11.5/scotty-0.11.5.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	ghc-package	fac7ea2deca456f8e70b85a6ebef9e8a	haskell-cabal	433b5153bec6b0ffe21c7be2210e8396	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=f1b17dc6c19db20648cb6f5c2e933fb5
