@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 370](https://img.shields.io/badge/ebuild-370-orange.svg)](https://img.shields.io/badge/ebuild-370-orange.svg)
+[![Number of ebuilds: 380](https://img.shields.io/badge/ebuild-380-orange.svg)](https://img.shields.io/badge/ebuild-380-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -108,6 +108,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-482946-red.svg)](https://bugs.gentoo.org/482946) dev-libs/[loki](http://loki-lib.sourceforge.net/) | C++ library of common design patterns and idioms
 * dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
 * dev-go/[keyring](https://github.com/99designs/keyring) | Library with uniform interface across a range of secure credential stores
+* dev-haskell/[adjunctions](https://github.com/ekmett/adjunctions) | Adjunctions and representable functors
 * dev-haskell/[aeson](https://github.com/bos/aeson) | Fast JSON parsing and encoding
 * dev-haskell/[ansi-terminal](https://github.com/feuerbach/ansi-terminal) | Simple ANSI terminal support, with Windows compatibility
 * dev-haskell/[ansi-wl-pprint](https://github.com/ekmett/ansi-wl-pprint) | The Wadler/Leijen Pretty Printer for colored ANSI terminal output
@@ -121,11 +122,14 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[clock](https://github.com/corsis/clock) | High-resolution clock functions
 * dev-haskell/[concurrent-output](https://git.joeyh.name/index.cgi/concurrent-output.git) | Ungarble output from several threads or commands
 * dev-haskell/[contravariant](https://github.com/ekmett/contravariant) | Contravariant functors
+* dev-haskell/[comonad](https://github.com/ekmett/comonad) | Haskell 98 compatible comonads
 * dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
 * dev-haskell/[diff](https://hackage.haskell.org/package/Diff) | O(ND) diff algorithm in haskell
+* dev-haskell/[distributive](https://github.com/ekmett/distributive) | Distributive functors
 * dev-haskell/[dlist](https://github.com/spl/dlist) | Difference lists
 * dev-haskell/[exceptions](https://github.com/ekmett/exceptions) | Extensible optionally-pure exceptions
 * dev-haskell/[fast-logger](https://github.com/kazu-yamamoto/logger) | A fast logging system
+* dev-haskell/[free](https://github.com/ekmett/free) | Monads for free
 * dev-haskell/[glob](http://iki.fi/matti.niemenmaa/glob) | Globbing library
 * dev-haskell/[hedgehog](https://hedgehog.qa) | Hedgehog will eat all your bugs
 * dev-haskell/[hunit](https://github.com/hspec/HUnit) | A unit testing framework for Haskell
@@ -140,6 +144,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
 * dev-haskell/[integer-logarithms](https://github.com/Bodigrim/integer-logarithms) | Integer logarithms
 * dev-haskell/[integer-simple](http://hackage.haskell.org/package/integer-simple) | Simple Integer library
+* dev-haskell/[invariant](https://github.com/nfrisby/invariant-functors) | Haskell 98 invariant functors
+* dev-haskell/[kan-extensions](https://github.com/ekmett/kan-extensions) | Kan extensions
+* dev-haskell/[lens](https://github.com/ekmett/lens) | Lenses, Folds and Traversals
 * dev-haskell/[lifted-async](https://github.com/maoe/lifted-async) | Run lifted IO operations asynchronously and wait for their results
 * dev-haskell/[nats](https://github.com/ekmett/nats) | Natural numbers
 * dev-haskell/[network-byte-order](https://github.com/kazu-yamamoto/network-byte-order) | Network byte order utilities
@@ -147,9 +154,12 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[quickcheck-instances](https://github.com/phadej/qc-instances) | Common quickcheck instances
 * dev-haskell/[quickcheck-io](https://github.com/hspec/quickcheck-io) | Use HUnit assertions as QuickCheck properties
 * dev-haskell/[primitive](https://github.com/haskell/primitive) | Primitive memory-related operations
+* dev-haskell/[profunctors](https://github.com/ekmett/profunctors) | Profunctors
+* dev-haskell/[optparse-applicative](https://github.com/pcapriotti/optparse-applicative) | Utilities and combinators for parsing command line options
 * dev-haskell/[resourcet](https://github.com/snoyberg/conduit) | Deterministic allocation and freeing of scarce resources
 * dev-haskell/[scientific](https://github.com/basvandijk/scientific) | Numbers represented using scientific notation
-* dev-haskell/[scotty](https://github.com/scotty-web/scotty) | A Haskell web framework, using WAI and Warp
+* dev-haskell/[scotty](https://github.com/scotty-web/scotty) | Haskell web framework
+* dev-haskell/[semigroupoids](https://github.com/ekmett/semigroupoids) | Semigroupoids: Category sans id
 * dev-haskell/[semigroups](https://github.com/ekmett/semigroups) | Anything that associates
 * dev-haskell/[splitmix](https://github.com/phadej/splitmix) | Fast Splittable PRNG
 * dev-haskell/[streaming-commons](https://github.com/fpco/streaming-commons) | Common lower-level functions needed by various streaming data libraries
