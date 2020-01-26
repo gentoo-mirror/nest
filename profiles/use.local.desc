@@ -17,6 +17,19 @@ app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-f
 app-misc/android-file-transfer-linux:shared - Build shared library
 app-misc/cheat:fish-completion - Enable fish completion support
 dev-db/pg_repack:client - Build CLI client
+dev-haskell/bifunctors:semigroups - Enable support for dev-haskell/semigroups
+dev-haskell/bifunctors:tagged - Enable support for dev-haskell/tagged
+dev-haskell/contravariant:semigroups - Enable support for dev-haskell/semigroups
+dev-haskell/contravariant:statevar - Enable support for dev-haskell/statevar
+dev-haskell/contravariant:tagged - Enable support for dev-haskell/tagged
+dev-haskell/nats:binary - Enable support for dev-haskell/binary
+dev-haskell/nats:hashable - Enable support for dev-haskell/hashable
+dev-haskell/nats:template-haskell - Enable template_haskell
+dev-haskell/quickcheck:template-haskell - Enable additional test modules requiring Template Haskell support
+dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
+dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
+dev-haskell/splitmix:optimised-mixer - Use JavaScript for mix32
+dev-haskell/splitmix:random - Provide RandomGen SMGen instance
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet

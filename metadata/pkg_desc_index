@@ -57,14 +57,46 @@ dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
 dev-go/keyring 1.1.3 9999: Library with uniform interface across a range of secure credential stores
 dev-haskell/async 2.2.2: Run IO operations asynchronously and wait for their results
+dev-haskell/base-compat-batteries 0.11.0: Base-compat with extra batteries
+dev-haskell/base-orphans 0.8.1: Backwards-compatible orphan instances for base
+dev-haskell/bifunctors 5.5.6: Haskell 98 bifunctors, bifoldables and bitraversables
 dev-haskell/call-stack 0.2.0: Use GHC call-stacks in a backward compatible way
 dev-haskell/clock 0.8: High-resolution clock functions
+dev-haskell/contravariant 1.5.2: Contravariant functors
 dev-haskell/daemons 0.2.1: Daemons in Haskell made fun and easy
+dev-haskell/exceptions 0.10.4: Extensible optionally-pure exceptions
+dev-haskell/fast-logger 3.0.0: A fast logging system
+dev-haskell/glob 0.10.0: Globbing library
+dev-haskell/hspec 2.7.1: A Testing Framework for Haskell
+dev-haskell/hspec-core 2.7.1: A Testing Framework for Haskell
+dev-haskell/hspec-discover 2.7.1: Automatically discover and run Hspec tests
+dev-haskell/hspec-expectations 0.8.2: Catchy combinators for HUnit
+dev-haskell/hspec-meta 2.6.0: A version of Hspec which is used to test Hspec itself
+dev-haskell/hspec-wai 0.9.0: Experimental Hspec support for testing WAI applications
+dev-haskell/http-types 0.12.3: Generic HTTP types for Haskell (for both client and server code)
+dev-haskell/http2 2.0.3: HTTP/2.0 library including frames and HPACK
+dev-haskell/hunit 1.6.0.0: A unit testing framework for Haskell
 dev-haskell/ini 0.4.1: Quick and easy configuration files in the INI format
+dev-haskell/nats 1.1.2: Natural numbers
+dev-haskell/network-byte-order 0.1.2.0: Network byte order utilities
+dev-haskell/quickcheck 2.13.2: Automatic testing of Haskell programs
+dev-haskell/quickcheck-io 0.2.0: Use HUnit assertions as QuickCheck properties
+dev-haskell/resourcet 1.2.2: Deterministic allocation and freeing of scarce resources
 dev-haskell/scotty 0.11.1: A Haskell web framework, using WAI and Warp
+dev-haskell/semigroups 0.18.5 0.19.1: Anything that associates
+dev-haskell/splitmix 0.0.3: Fast Splittable PRNG
+dev-haskell/streaming-commons 0.2.1.2: Common lower-level functions needed by various streaming data libraries
+dev-haskell/text 1.2.4.0: An efficient packed Unicode text type
+dev-haskell/th-abstraction 0.3.1.0: Uniform interface to reified data type information
+dev-haskell/time-manager 0.0.0: Scalable timer
+dev-haskell/type-equality 1: Type equality, coercion/cast and other operations
 dev-haskell/tz 0.1.3.3: Library for time zone conversions
 dev-haskell/tzdata 0.1.20190911.0: Distribution of the standard time zone database
+dev-haskell/unix-time 0.4.7: Unix time parser/formatter and utilities
+dev-haskell/unliftio-core 0.1.2.0: The MonadUnliftIO typeclass for unlifting monads to IO
 dev-haskell/wai-cors 0.2.7: Cross-Origin resource sharing (CORS) for Wai
+dev-haskell/wai-extra 3.0.29: Provides some basic WAI handlers and middleware
+dev-haskell/wai-logger 2.3.6: A logging system for WAI
 dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
 dev-haskell/websockets 0.12.7.0: Allows you to write WebSocket-capable servers
 dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
