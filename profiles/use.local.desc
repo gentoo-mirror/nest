@@ -27,6 +27,8 @@ dev-haskell/comonad:test-doctests - Run the doctests test suite
 dev-haskell/contravariant:semigroups - Enable support for dev-haskell/semigroups
 dev-haskell/contravariant:statevar - Enable support for dev-haskell/statevar
 dev-haskell/contravariant:tagged - Enable support for dev-haskell/tagged
+dev-haskell/cryptonite:cpu-flags-x86-rdrand - Build with RDRAND on system and architecture that supports it
+dev-haskell/cryptonite:integer-gmp - Build with GMP for some functions
 dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
 dev-haskell/lens:benchmark-uniplate - Enable benchmarking against uniplate
 dev-haskell/lens:dump-splices - Build and run the doctests test-suite

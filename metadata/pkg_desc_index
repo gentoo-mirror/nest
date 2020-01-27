@@ -71,6 +71,7 @@ dev-haskell/clock 0.8: High-resolution clock functions
 dev-haskell/comonad 5.0.6: Haskell 98 compatible comonads
 dev-haskell/concurrent-output 1.9.2: Ungarble output from several threads or commands
 dev-haskell/contravariant 1.5.2: Contravariant functors
+dev-haskell/cryptonite 0.25: Cryptography Primitives sink
 dev-haskell/daemons 0.2.1: Daemons in Haskell made fun and easy
 dev-haskell/diff 0.4.0: O(ND) diff algorithm in haskell
 dev-haskell/distributive 0.6.1: Distributive functors
