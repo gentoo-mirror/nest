@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=IBM Cloud Developer Tools
+EAPI=7
+HOMEPAGE=https://github.com/IBM-Cloud/ibm-cloud-cli-release
+IUSE=bash-completion zsh-completion
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=Apache-2.0 BSD IBM MIT
+RDEPEND=bash-completion? ( app-shells/bash-completion ) zsh-completion? ( app-shells/zsh-completions )
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=amd64? ( https://public.dhe.ibm.com/cloud/bluemix/cli/bluemix-cli/0.22.0/IBM_Cloud_CLI_0.22.0_amd64.tar.gz ) x86? ( https://public.dhe.ibm.com/cloud/bluemix/cli/bluemix-cli/0.22.0/IBM_Cloud_CLI_0.22.0_386.tar.gz )
+_eclasses_=bash-completion-r1	47a7402d95930413ce25ba8d857339bb	multilib	1d91b03d42ab6308b5f4f6b598ed110e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=d2dde1ec68ea285f9b80929a15ad764b
