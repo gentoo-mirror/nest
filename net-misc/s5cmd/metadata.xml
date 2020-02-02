@@ -10,9 +10,9 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	HTTP and GraphQL client for developers
+	Parallel S3 and local filesystem execution tool
 	</longdescription>
 	<upstream>
-		<remote-id type="github">getinsomnia/insomnia</remote-id>
+		<remote-id type="github">peak/s5cmd</remote-id>
 	</upstream>
 </pkgmetadata>
