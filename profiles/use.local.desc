@@ -16,6 +16,10 @@ app-emulation/looking-glass:host - Download Windows host application
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
 app-misc/cheat:fish-completion - Enable fish completion support
+app-shells/fzf:fish-completion - Enable fish completion support
+app-shells/fzf:neovim - Install neovim plugin
+app-shells/fzf:tmux - Install TMUX extra tools
+app-shells/fzf:vim - Install vim plugin
 dev-db/pg_repack:client - Build CLI client
 dev-haskell/aeson:cffi - Build with include c-ffi bits
 dev-haskell/aeson:fast - Build without optimizations
@@ -141,7 +145,6 @@ dev-python/PythonQt:extensions - Install extensions
 dev-python/aws-sam-translator:cli - Enables the CLI interface
 dev-python/ctypescrypto:gost - Enable gost algorithm
 dev-util/gitlab-runner:docker - Add support for docker executors
-dev-util/insomnia-bin:pax_kernel - Triggers a paxmarking of the binary
 dev-util/testmace-bin:pax_kernel - Triggers a paxmarking of the binary
 media-gfx/nomacs:heif - Build support for media-libs/libheif
 media-gfx/nomacs:opencv - Build support for media-libs/opencv

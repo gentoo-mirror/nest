@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=A command-line fuzzy finder
+EAPI=7
+HOMEPAGE=https://github.com/junegunn/fzf
+IUSE=fish-completion neovim tmux vim
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=fish-completion? ( app-shells/fish ) vim? ( app-editors/vim ) tmux? ( app-misc/tmux )
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	go-module	c1d483897ed4807f97f20fb3b5a3cb7b
+_md5_=2773a0a25e0dac59b1db17fbb22b68e4
