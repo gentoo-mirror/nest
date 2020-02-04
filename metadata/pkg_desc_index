@@ -341,7 +341,7 @@ net-firewall/ipt_netflow 9999: Netflow iptables module
 net-firewall/ipt_ratelimit 0.2 9999: Ratelimit iptables module
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
-net-im/slack-bin 2.1.2 3.1.1 4.1.1 4.2.0: Team collaboration tool
+net-im/slack-bin 4.1.1 4.2.0: Team collaboration tool
 net-im/viber-bin 12.0.0.7: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
 net-misc/comcast 1.0.1 9999: Network problems simulator
