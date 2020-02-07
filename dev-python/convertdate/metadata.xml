@@ -10,12 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	This module gives you colored strings for terminal usage.
-	Included colors are red, green, yellow, blue, black, magenta, cyan,
-	white, and normal ( as well as clean and disable).
+	Converts between Gregorian dates and other calendar systems.Calendars
+	included: Baha'i, French Republican, Hebrew, Indian Civil, Islamic,
+	ISO, Julian, Mayan and Persian.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">kennethreitz/crayons</remote-id>
-		<remote-id type="pypi">crayons</remote-id>
+		<remote-id type="github">fitnr/convertdate</remote-id>
+		<remote-id type="pypi">convertdate</remote-id>
 	</upstream>
 </pkgmetadata>

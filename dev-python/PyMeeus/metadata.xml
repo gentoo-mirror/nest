@@ -10,12 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	This module gives you colored strings for terminal usage.
-	Included colors are red, green, yellow, blue, black, magenta, cyan,
-	white, and normal ( as well as clean and disable).
+	Python implementation of Jean Meeus astronomical routines
 	</longdescription>
 	<upstream>
-		<remote-id type="github">kennethreitz/crayons</remote-id>
-		<remote-id type="pypi">crayons</remote-id>
+		<remote-id type="github">architest/pymeeus</remote-id>
+		<remote-id type="pypi">PyMeeus</remote-id>
 	</upstream>
 </pkgmetadata>

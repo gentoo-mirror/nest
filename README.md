@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 392](https://img.shields.io/badge/ebuild-392-orange.svg)](https://img.shields.io/badge/ebuild-392-orange.svg)
+[![Number of ebuilds: 394](https://img.shields.io/badge/ebuild-394-orange.svg)](https://img.shields.io/badge/ebuild-394-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -249,6 +249,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[aws-sam-translator](https://github.com/awslabs/serverless-application-model) | A library to transform SAM templates into AWS CloudFormation templates
 * dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
 * dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
+* dev-python/[convertdate](https://github.com/fitnr/convertdate) | Utils for converting between date formats and calculating holidays
 * dev-python/[coreapi](https://github.com/core-api/python-client) | Python client library for Core API
 * dev-python/[coreschema](https://github.com/core-api/python-coreschema) | Python CoreSchema
 * dev-python/[crayons](https://github.com/kennethreitz/crayons) | Text UI colors
@@ -313,6 +314,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[python-openapi-codec](https://github.com/core-api/python-openapi-codec) | An OpenAPI codec for Core API
 * dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
 * dev-python/[pywinrm](https://github.com/diyan/pywinrm) | Python library for Windows Remote Management
+* dev-python/[PyMeeus](https://github.com/architest/pymeeus) | Library of astronomical algorithms in Python
 * dev-python/[PythonQt](http://pythonqt.sourceforge.net/) | A dynamic Python binding for the Qt framework
 * dev-python/[questionary](https://github.com/tmbo/questionary) | Python library to build pretty command line user prompts
 * dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
