@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 394](https://img.shields.io/badge/ebuild-394-orange.svg)](https://img.shields.io/badge/ebuild-394-orange.svg)
+[![Number of ebuilds: 406](https://img.shields.io/badge/ebuild-406-orange.svg)](https://img.shields.io/badge/ebuild-406-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -261,6 +261,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[delegator-py](https://github.com/kennethreitz/delegator.py) | Simple library for dealing with subprocesses
 * dev-python/[dateparser](https://github.com/scrapinghub/dateparser) | Date parsing library designed to parse dates from HTML pages
 * dev-python/[django-celery-beat](https://github.com/celery/django-celery-beat) | Celery Periodic Tasks for Django
+* dev-python/[django-configurations](https://github.com/jazzband/django-configurations) | A helper for organizing Django project settings
 * dev-python/[django-cors-headers](https://github.com/ottoyiu/django-cors-headers) | Django application for Cross-Origin Resource Sharing (CORS)
 * dev-python/[django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms) | DRY Django forms
 * dev-python/[django-debug-toolbar](https://github.com/django-debug-toolbar/django-debug-toolbar) | A configurable set of panels that display debug information
@@ -273,7 +274,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[django-mptt](https://github.com/django-mptt/django-mptt) | Utilities for implementing Modified Preorder Tree Traversal
 * dev-python/[django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) | OAuth2 Provider for Django
 * dev-python/[django-pipeline](https://github.com/jazzband/django-pipeline) | An asset packaging library for Django
-* dev-python/[django-rest-framework](https://django-rest-framework.org/) | Django REST framework
+* dev-python/[django-rest-framework](https://django-rest-framework.org) | Django REST framework
 * dev-python/[django-rest-framework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
 * dev-python/[django-rest-framework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
 * dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger/) | Swagger UI for Django REST Framework
@@ -301,15 +302,19 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
 * dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 * dev-python/[msrest](https://pypi.python.org/pypi/msrest/) | AutoRest swagger generator Python client runtime
+* dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 * dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
 * dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 * dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 * dev-python/[pathspec](https://github.com/cpburnz/python-path-specification) | A utility library for pattern matching of file paths
 * dev-python/[polemarch-ansible](https://gitlab.com/vstconsulting/polemarch-ansible) | Wrapper for Ansible CLI
 * dev-python/[port-for](https://github.com/kmike/port-for) | An utility and python library for TCP ports management
-* dev-python/[pytest-pythonpath](https://pypi.org/project/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
+* dev-python/[purl](https://github.com/codeinthehole/purl) | Simple Python URL class
+* dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
+* dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
+* dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 * dev-python/[pytimeparse](https://github.com/wroberts/pytimeparse) | A library to parse time from human readable string
-* dev-python/[python-crontab](https://github.com/doctormo/python-coreschema) | Crontab module for reading and writing crontab files
+* dev-python/[python-crontab](https://gitlab.com/doctormo/python-crontab/) | Crontab module for reading and writing crontab files
 * dev-python/[python-gilt](https://github.com/metacloud/gilt) | A GIT layering tool
 * dev-python/[python-openapi-codec](https://github.com/core-api/python-openapi-codec) | An OpenAPI codec for Core API
 * dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
@@ -319,6 +324,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[questionary](https://github.com/tmbo/questionary) | Python library to build pretty command line user prompts
 * dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
 * dev-python/[requests-credssp](https://github.com/jborean93/requests-credssp) | CredSSP authentication handler for Python Requests
+* dev-python/[requests-mock](https://github.com/jamielennox/requests-mock) | Mock out responses from the requests package
 * dev-python/[rq](https://github.com/rq/rq) | A library for creating and processing background jobs
 * dev-python/[rstr](http://bitbucket.org/leapfrogdevelopment/rstr) | Generate random strings in Python
 * dev-python/[ruamel-ordereddict](https://bitbucket.org/ruamel/ordereddict) | An ordered dictionary with KIO/KVIO
@@ -339,7 +345,8 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[toml](https://github.com/uiri/toml) | Python Library for Tom's Obvious, Minimal Language
 * dev-python/[tomlkit](https://github.com/sdispater/decli) | Style-preserving TOML library for Python
 * dev-python/[tree-format](https://github.com/jml/tree-format) | Python library for printing trees on the console
-* dev-python/[ua-parser](https://datadiff.sourceforge.net/) | A library for diffs of python data structures
+* dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
+* dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
 * dev-python/[whaaaaat](https://github.com/finklabs/whaaaaat) | A collection of common interactive command line user interfaces
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library

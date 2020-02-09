@@ -1,9 +1,9 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python{2_7,3_{4..7}} )
+PYTHON_COMPAT=( python3_{6..7} )
 EGIT_REPO_URI="https://github.com/django-crispy-forms/${PN}.git"
 
 inherit distutils-r1 git-r3
@@ -16,20 +16,14 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
 IUSE="test"
+RESTRICT="!test? ( test )"
 
 RDEPEND="dev-python/django[${PYTHON_USEDEP}]"
-BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( $(python_gen_impl_dep sqlite)
+BDEPEND="test? ( $(python_gen_impl_dep sqlite)
 		dev-python/pytest-django[${PYTHON_USEDEP}] )"
 
 # Add manage.py to run tests
 PATCHES=( "${FILESDIR}/${PN}"-1.7.2-manage.py.patch )
-
-python_prepare_all() {
-	# fix config to remove warning
-	sed -i '/pytest/s/\[/\[tool:/' setup.cfg || die "sed failed for setup.cfg"
-	distutils-r1_python_prepare_all
-}
 
 python_test() {
 	DJANGO_SETTINGS_MODULE=crispy_forms.tests.test_settings py.test -v \
