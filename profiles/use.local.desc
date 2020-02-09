@@ -144,6 +144,7 @@ dev-ml/ocamlnet:zip - Enables netzip support to read/write gzip data using objec
 dev-python/PythonQt:extensions - Install extensions
 dev-python/aws-sam-translator:cli - Enables the CLI interface
 dev-python/ctypescrypto:gost - Enable gost algorithm
+dev-python/netaddr:cli - Enable netaddr shell with dev-python/ipython
 dev-util/gitlab-runner:docker - Add support for docker executors
 dev-util/testmace-bin:pax_kernel - Triggers a paxmarking of the binary
 media-gfx/nomacs:heif - Build support for media-libs/libheif
