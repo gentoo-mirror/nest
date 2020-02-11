@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/solusipse/fiche
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	user	95500565ced27667aca7cf7da2d46068	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	user	95500565ced27667aca7cf7da2d46068	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
 _md5_=a7df70003d274e5d93a85df3a761e96c
