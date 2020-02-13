@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 411](https://img.shields.io/badge/ebuild-411-orange.svg)](https://img.shields.io/badge/ebuild-411-orange.svg)
+[![Number of ebuilds: 410](https://img.shields.io/badge/ebuild-410-orange.svg)](https://img.shields.io/badge/ebuild-410-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -302,7 +302,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 * dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
 * dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
-* dev-python/[msrest](https://pypi.python.org/pypi/msrest/) | AutoRest swagger generator Python client runtime
+* dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
 * dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 * dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
 * dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
@@ -346,12 +346,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
 * dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
 * dev-python/[toml](https://github.com/uiri/toml) | Python Library for Tom's Obvious, Minimal Language
-* dev-python/[tomlkit](https://github.com/sdispater/decli) | Style-preserving TOML library for Python
+* dev-python/[tomlkit](https://github.com/sdispater/tomlkit) | Style-preserving TOML library for Python
 * dev-python/[tree-format](https://github.com/jml/tree-format) | Python library for printing trees on the console
 * dev-python/[trio](https://github.com/python-trio/trio) | Python library for async concurrency and I/O
 * dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
 * dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
-* dev-python/[whaaaaat](https://github.com/finklabs/whaaaaat) | A collection of common interactive command line user interfaces
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
 * dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
