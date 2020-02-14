@@ -10,10 +10,13 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A tool for web developers
+	A library for setting up self-contained Kerberos 5 environments,
+	and running Python unit tests inside those environments.
+	It is based on the file of the same name found alongside the MIT
+	Kerberos 5 unit tests.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">lepture/python-livereload</remote-id>
-		<remote-id type="pypi">livereload</remote-id>
+		<remote-id type="github">pythongssapi/k5test</remote-id>
+		<remote-id type="pypi">k5test</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -10,10 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A tool for web developers
+	Provides both low-level and high level wrappers around
+	the GSSAPI C libraries. While it focuses on the Kerberos mechanism,
+	it should also be useable with other GSSAPI mechanisms.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">lepture/python-livereload</remote-id>
-		<remote-id type="pypi">livereload</remote-id>
+		<remote-id type="github">pythongssapi/python-gssapi</remote-id>
+		<remote-id type="pypi">gssapi</remote-id>
 	</upstream>
 </pkgmetadata>

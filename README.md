@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 411](https://img.shields.io/badge/ebuild-411-orange.svg)](https://img.shields.io/badge/ebuild-411-orange.svg)
+[![Number of ebuilds: 415](https://img.shields.io/badge/ebuild-415-orange.svg)](https://img.shields.io/badge/ebuild-415-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -292,12 +292,15 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[filetype](https://github.com/h2non/filetype.py) | Infer file type and MIME type of any file/buffer
 * dev-python/[fleep](https://github.com/floyernick/fleep-py) | File format determination library for Python
 * dev-python/[flex](https://github.com/pipermerriam/flex) | Validation tooling for Swagger 2.0 specifications
+* dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
 * dev-python/[fudge](http://farmdev.com/projects/fudge) | Replace real objects with fakes (mocks, stubs, etc) while testing
 * dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
 * dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
+* dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
 * dev-python/[ifaddr](https://github.com/floyernick/fleep-py) | Python Library to enumerate all network interfaces
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
+* dev-python/[k5test](https://github.com/pythongssapi/k5test) | A library for setting up self-contained Kerberos 5 environments
 * dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 * dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
@@ -335,6 +338,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[selectors2](https://github.com/SethMichaelLarson/selectors2) | Portable replacement to the standard library selectors module
 * dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | Python client for Sentry
 * dev-python/[shellingham](https://github.com/sarugaku/shellingham) | Detects what shell the current Python executable is running in
+* dev-python/[shouldbe](https://github.com/directxman12/should_be) | A Python Assertions Helper
 * dev-python/[slimit](https://slimit.readthedocs.io/en/latest) | A JavaScript minifier written in Python
 * dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
 * dev-python/[sphinx-autobuild](https://github.com/GaretJax/sphinx-autobuild) | Mermaid diagrams in sphinx powered docs

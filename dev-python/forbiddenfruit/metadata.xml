@@ -10,10 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A tool for web developers
+	Allows Python code to extend built-in types
 	</longdescription>
 	<upstream>
-		<remote-id type="github">lepture/python-livereload</remote-id>
-		<remote-id type="pypi">livereload</remote-id>
+		<remote-id type="github">clarete/forbiddenfruit</remote-id>
+		<remote-id type="pypi">forbiddenfruit</remote-id>
 	</upstream>
 </pkgmetadata>

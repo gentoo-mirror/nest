@@ -10,10 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A tool for web developers
+	A Python Assertions Helper
 	</longdescription>
 	<upstream>
-		<remote-id type="github">lepture/python-livereload</remote-id>
-		<remote-id type="pypi">livereload</remote-id>
+		<remote-id type="github">directxman12/should_be</remote-id>
+		<remote-id type="pypi">shouldbe</remote-id>
 	</upstream>
 </pkgmetadata>
