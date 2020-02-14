@@ -314,6 +314,7 @@ dev-util/cfn-python-lint 0.27.4 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
 dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
 dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
+dev-util/gh 0.5.5 9999: The GitHub CLI
 dev-util/gitlab-runner 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.5.4 7.0.6: HTTP and GraphQL client for developers
 dev-util/taskcat 0.8.32 0.8.42 9999: An OpenSource Cloudformation Deployment Framework
