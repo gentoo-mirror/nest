@@ -246,6 +246,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 * dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
 * dev-python/[applicationinsights](https://pypi.python.org/pypi/applicationinsights/) | Application Insights API surface
+* dev-python/[arrow](https://github.com/crsmithdev/arrow) | Better dates and times for Python
 * dev-python/[aws-sam-translator](https://github.com/awslabs/serverless-application-model) | A library to transform SAM templates into AWS CloudFormation templates
 * dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
 * dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
@@ -325,7 +326,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
 * dev-python/[pywinrm](https://github.com/diyan/pywinrm) | Python library for Windows Remote Management
 * dev-python/[PyMeeus](https://github.com/architest/pymeeus) | Library of astronomical algorithms in Python
-* dev-python/[PythonQt](http://pythonqt.sourceforge.net/) | A dynamic Python binding for the Qt framework
+* dev-python/[PythonQt](https://mevislab.github.io/pythonqt) | A dynamic Python binding for the Qt framework
 * dev-python/[questionary](https://github.com/tmbo/questionary) | Python library to build pretty command line user prompts
 * dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
 * dev-python/[requests-credssp](https://github.com/jborean93/requests-credssp) | CredSSP authentication handler for Python Requests
@@ -345,7 +346,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | Mermaid diagrams in sphinx powered docs
 * dev-python/[sphinxcontrib-openapi](https://github.com/ikalnytskyi/sphinxcontrib-openapi) | Sphinx extension to generate APIs docs from OpenAPI
 * dev-python/[swagger_spec_validator](https://github.com/Yelp/swagger_spec_validator) | Python library that validates Swagger Specs
-* dev-python/[tablib](http://python-tablib.org/) | A format-agnostic tabular dataset library written in Python
 * dev-python/[testinfra](https://github.com/philpep/testinfra) | Testinfra test your infrastructures
 * dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
 * dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
@@ -386,7 +386,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-gfx/[nomacs](https://nomacs.org) | Qt-based image viewer
 * media-gfx/[qView](https://interversehq.com/qview) | Practical and minimal image viewer
 * media-gfx/[pingo-bin](https://css-ig.net/pingo) | Fast web image optimizer
-* media-gfx/[screencloud](https://screencloud.net/) | Screenshot capturing and sharing tool over various services
+* media-gfx/[screencloud](https://screencloud.net) | Screenshot capturing and sharing tool over various services
 * media-gfx/[xgrabcolor](http://hugo.pereira.free.fr/software/index.php) | Qt-based basic color picker
 * media-libs/[libqpsd](https://github.com/roniemartinez/libqpsd) | PSD & PSB Plugin for Qt/C++
 * media-libs/[qt-heif](https://github.com/jakar/qt-heif-image-plugin) | Qt plugin for HEIF images
@@ -445,8 +445,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * www-apps/[draw-io](https://github.com/jgraph/drawio) | Online diagramming web application
 * www-apps/[keeweb](https://github.com/keeweb/keeweb) | Cross-platform password manager compatible with KeePass
 * www-apps/[LookingGlass](https://github.com/ramnode/LookingGlass) | A Python-backed Looking Glass
-* www-apps/[netbox](https://github.com/digitalocean/netbox) | IP address management (IPAM) and data center infrastructure management (DCIM)
-* www-apps/[noc-tower](https://code.getnoc.com/noc/tower/) | NOCProject supervisor
+* www-apps/[netbox](https://github.com/netbox-community/netbox) | IP address and data center infrastructure management tool
 * www-apps/[webui-aria2](https://github.com/ziahamza/webui-aria2) | The worlds best and hottest interface to interact with aria2
 * www-plugins/[chrome-token-signing](https://github.com/open-eid/chrome-token-signing) | Native client and extension for signing with your eID on the web
 * www-servers/[gitlab-gitaly](https://gitlab.com/gitlab-org/gitaly) | Gitaly is a Git RPC service for handling GitLab git calls

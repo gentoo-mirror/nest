@@ -10,9 +10,14 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	NOCProject service registry
+	A Python library that offers a sensible and human-friendly approach
+	to creating, manipulating, formatting and converting dates, times and
+	timestamps. It implements and updates the datetime type, plugging gaps
+	in functionality and providing an intelligent module API that supports
+	many common creation scenarios.
 	</longdescription>
 	<upstream>
-		<doc>https://code.getnoc.com/noc/tower</doc>
+		<remote-id type="github">crsmithdev/arrow</remote-id>
+		<remote-id type="pypi">arrow</remote-id>
 	</upstream>
 </pkgmetadata>
