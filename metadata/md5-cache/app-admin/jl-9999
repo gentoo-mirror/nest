@@ -1,13 +1,11 @@
-DEFINED_PHASES=compile install test unpack
-DEPEND=dev-go/go-sys:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.10
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12
+DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=A tool for working with structured JSON logging
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/koenbollen/jl
 LICENSE=ISC
 PROPERTIES=live
-RDEPEND=dev-go/go-sys:=
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/SpiderX/portage-empty/archive/3f4db1eb10e4dc42584b6b3df23f037904e6ea07.tar.gz -> github.com-SpiderX-portage-empty-3f4db1eb10e4dc42584b6b3df23f037904e6ea07.tar.gz https://github.com/docopt/docopt-go/archive/784ddc588536785e7299f7272f39101f7faccc3f.tar.gz -> github.com-docopt-docopt-go-784ddc588536785e7299f7272f39101f7faccc3f.tar.gz https://github.com/fatih/color/archive/570b54cabe6b8eb0bc2dfce68d964677d63b5260.tar.gz -> github.com-fatih-color-570b54cabe6b8eb0bc2dfce68d964677d63b5260.tar.gz https://github.com/mattn/go-colorable/archive/167de6bfdfba052fa6b2d3664c8f5272e23c9072.tar.gz -> github.com-mattn-go-colorable-167de6bfdfba052fa6b2d3664c8f5272e23c9072.tar.gz https://github.com/mattn/go-isatty/archive/0360b2af4f38e8d38c7fce2a9f4e702702d73a39.tar.gz -> github.com-mattn-go-isatty-0360b2af4f38e8d38c7fce2a9f4e702702d73a39.tar.gz https://github.com/tidwall/gjson/archive/5a69e67cfd8f6f9b0044ed49f5079d0eeed28653.tar.gz -> github.com-tidwall-gjson-5a69e67cfd8f6f9b0044ed49f5079d0eeed28653.tar.gz https://github.com/tidwall/match/archive/1731857f09b1f38450e2c12409748407822dc6be.tar.gz -> github.com-tidwall-match-1731857f09b1f38450e2c12409748407822dc6be.tar.gz
-_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7	golang-vcs-snapshot	12177e83bede6f7fb87eae383864b40b
-_md5_=f806548a7ea37319a3d36828ab1991a5
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	go-module	73c3a1e46baff60bac989cffe25c6ff1
+_md5_=5621275628a44f5654cb023d24a1013c

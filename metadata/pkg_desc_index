@@ -1,5 +1,5 @@
 app-admin/ansible-lint 4.2.0 9999: Best practices checker for Ansible
-app-admin/aws-vault 4.6.3 4.7.1 9999: A vault for securely storing and accessing AWS credentials
+app-admin/aws-vault 4.7.1 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
@@ -7,7 +7,7 @@ app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.20.1 1.28.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/ibmcloud-bin 0.22.0: IBM Cloud Developer Tools
-app-admin/jl 1.1.1 9999: A tool for working with structured JSON logging
+app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
 app-admin/kconfig-hardened-check 9999: A script to check the hardening options in the Linux kernel config
 app-admin/netutils-linux 2.7.9 9999: Suite of network stack performance tunning utilities
 app-admin/qtpass 1.2.3 1.3.1 1.3.2 9999: multi-platform GUI for pass, the standard unix password manager
@@ -32,12 +32,12 @@ app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/visual-studio-code-bin 1.41.1 1.42.0: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
-app-forensics/gitleaks 2.1.0 9999: Auditing git repository for secrets and keys
-app-metrics/do-agent 0.5.0 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
+app-forensics/gitleaks 3.3.0 9999: Auditing git repository for secrets and keys
+app-metrics/do-agent 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-metrics/nginx-amplify-agent 1.7.0.3 1.7.0.5 9999: System and NGINX metric collection
 app-misc/android-file-transfer-linux 3.2 9999: Reliable MTP client with minimalistic UI
 app-misc/cheat 2.5.1 9999: Interactive cheatsheets on the command-line
-app-misc/cointop 1.0.1 1.1.2 9999: Interactive cryptocurrency monitor
+app-misc/cointop 1.4.4 9999: Interactive cryptocurrency monitor
 app-misc/deco 3.9.1: Demos Commander, a free Norton Commander clone
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
 app-misc/pet 0.3.6 0.3.6-r1 9999: Simple command-line snippet manager
@@ -55,7 +55,7 @@ dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
 dev-db/pg_profile 9999: Postgres historic performance reports
 dev-db/pg_repack 1.4.4 9999: PostgreSQL extension for data reorganization
-dev-db/pgcenter 0.6.1 9999: Command-line admin tool for observing and troubleshooting Postgres
+dev-db/pgcenter 0.6.4 9999: Command-line admin tool for observing and troubleshooting Postgres
 dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
 dev-go/keyring 1.1.3 9999: Library with uniform interface across a range of secure credential stores
@@ -197,10 +197,11 @@ dev-ml/xmlm 1.3.0 9999: Ocaml XML manipulation module
 dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-python/GitPython 3.0.7 9999: A python library used to interact with Git repositories
 dev-python/PyMeeus 0.3.6 9999: Library of astronomical algorithms in Python
-dev-python/PythonQt 3.2 9999: A dynamic Python binding for the Qt framework
+dev-python/PythonQt 3.2 3.2-r1 9999: A dynamic Python binding for the Qt framework
 dev-python/adal 1.2.1 9999: Library for authentication in Azure Active Directory
 dev-python/anyconfig 0.9.10 9999: Generic access to configuration files in any formats
 dev-python/applicationinsights 0.10.0: Application Insights API surface
+dev-python/arrow 0.15.5 9999: Better dates and times for Python
 dev-python/aws-sam-translator 1.20.1 9999: A library to transform SAM templates into AWS CloudFormation templates
 dev-python/cerberus 1.3.1 9999: Lightweight and extensible data validation library for Python
 dev-python/click-completion 0.5.1 9999: Enhanced completion for bash, fish, zsh in Click
@@ -225,9 +226,9 @@ dev-python/django-environ 0.4.5 9999: An environment variables to configure Djan
 dev-python/django-filter 2.2.0 9999: Django application for filtering querysets
 dev-python/django-guardian 2.2.0 9999: An implementation of per object permissions for Django
 dev-python/django-jinja 2.4.1 9999: Jinja2 templating language integrated in Django
-dev-python/django-js-asset 1.1.0 1.2.2 9999: A script tag with additional attributes for django.forms.Media
+dev-python/django-js-asset 1.2.2 9999: A script tag with additional attributes for django.forms.Media
 dev-python/django-jsonfield 2.0.2 9999: A Django field to store validated JSON in your model
-dev-python/django-mptt 0.9.1 9999: Utilities for implementing Modified Preorder Tree Traversal
+dev-python/django-mptt 0.11.0 9999: Utilities for implementing Modified Preorder Tree Traversal
 dev-python/django-oauth-toolkit 1.2.0 9999: OAuth2 Provider for Django
 dev-python/django-pipeline 1.6.14 9999: An asset packaging library for Django
 dev-python/django-rest-framework 3.11.0 9999: Django REST framework
@@ -235,21 +236,21 @@ dev-python/django-rest-framework-camel-case 1.0_beta1 9999: Camel case JSON supp
 dev-python/django-rest-framework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
 dev-python/django-rest-swagger 2.2.0 9999: Swagger UI for Django REST Framework
 dev-python/django-rq 2.3.0 9999: An app that provides django integration for RQ (Redis Queue)
-dev-python/django-tables2 2.0.6 2.2.1 9999: Django application for creating HTML tables
+dev-python/django-tables2 2.2.1 9999: Django application for creating HTML tables
 dev-python/django-taggit 1.2.0 9999: Django application for simple tagging
 dev-python/django-taggit-serializer 0.1.7-r1 9999: Django Taggit Serializer Created for the Django REST Framework
 dev-python/django-timezone-field 4.0 9999: Django application for database and form fields for pytz objects
-dev-python/drf-yasg 1.14.0 1.16.0 9999: Yet another Swagger generator
+dev-python/drf-yasg 1.17.0 9999: Yet another Swagger generator
 dev-python/factory_boy 2.12.0 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.1 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/faker 4.0.0 9999: Python package that generates fake data
 dev-python/filetype 1.0.5 9999: Infer file type and MIME type of any file/buffer
 dev-python/fleep 1.0.1 9999: File format determination library for Python
-dev-python/flex 6.13.2 9999: Validation tooling for Swagger 2.0 specifications
+dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/forbiddenfruit 0.1.3 9999: Patch python built-in objects
 dev-python/fudge 1.1.1 9999: Replace real objects with fakes (mocks, stubs, etc) while testing
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
-dev-python/graphviz 0.10.1 9999: Simple Python interface for Graphviz
+dev-python/graphviz 0.13.2 9999: Simple Python interface for Graphviz
 dev-python/gssapi 1.6.1 9999: A Python interface to RFC 2743/2744
 dev-python/ifaddr 0.1.6 9999: Python Library to enumerate all network interfaces
 dev-python/itypes 1.1.0 9999: Simple immutable types for python
@@ -266,7 +267,7 @@ dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP p
 dev-python/outcome 1.0.1 9999: Capture the outcome of Python function calls
 dev-python/parameterized 0.7.0 9999: Parameterized testing with any Python test framework
 dev-python/pathspec 0.5.9 9999: A utility library for pattern matching of file paths
-dev-python/polemarch-ansible 1.1.0 9999: Wrapper for Ansible CLI
+dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/port-for 0.4 9999: An utility and python library for TCP ports management
 dev-python/purl 1.5 9999: Simple Python URL class
 dev-python/pymysql 0.9.3-r1 9999: Pure-Python MySQL Driver
@@ -277,7 +278,7 @@ dev-python/python-gilt 1.2.1 9999: A GIT layering tool
 dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
 dev-python/python-user-agents 2.1.0 9999: A library to identify devices by parsing user agent strings
 dev-python/pytimeparse 1.1.8 9999: A library to parse time from human readable string
-dev-python/pywinrm 0.3.0 0.4.1 9999: Python library for Windows Remote Management
+dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 1.1.1 1.5.1 9999: Python library to build pretty command line user prompts
 dev-python/random2 1.0.1-r2 9999: Python-2.7 random module ported to python-3
 dev-python/requests-credssp 1.1.1 9999: CredSSP authentication handler for Python Requests
@@ -297,8 +298,7 @@ dev-python/sphinx-autobuild 0.7.1 9999: Mermaid diagrams in sphinx powered docs
 dev-python/sphinxcontrib-mermaid 0.3.1 9999: Mermaid diagrams in sphinx powered docs
 dev-python/sphinxcontrib-openapi 0.6.0 9999: Sphinx extension to generate APIs docs from OpenAPI
 dev-python/swagger_spec_validator 2.4.3 9999: Python library that validates Swagger Specs
-dev-python/tablib 0.12.1-r1: A format-agnostic tabular dataset library written in Python
-dev-python/testinfra 3.0.6 3.3.0 9999: Testinfra test your infrastructures
+dev-python/testinfra 4.0.0 9999: Testinfra test your infrastructures
 dev-python/text-unidecode 1.3 9999: The most basic Text::Unidecode port
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/toml 0.9.2 9999: Python Library for Tom's Obvious, Minimal Language
@@ -327,9 +327,9 @@ dev-util/tickgit 0.0.8 9999: Manage your repository's TODOs as config in your co
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
 dev-util/yamllint 1.16.0 9999: A linter for YAML files
 dev-vcs/commitizen 1.16.2 9999: Python commitizen client tool
-dev-vcs/gitlint 0.10.0 9999: Git commit message linter
-dev-vcs/mercurial-extension_utils 1.3.7 9999: Mercurial Extension Utils
-dev-vcs/mercurial-keyring 1.2.1 9999: Mercurial Keyring Extension
+dev-vcs/gitlint 0.12.0 9999: Git commit message linter
+dev-vcs/mercurial-extension_utils 1.5.0 9999: Mercurial Extension Utils
+dev-vcs/mercurial-keyring 1.3.0 9999: Mercurial Keyring Extension
 media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
 media-gfx/colorpick 9999: Color picker and contrast checker
 media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
@@ -338,7 +338,7 @@ media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
 media-gfx/nomacs 9999: Qt-based image viewer
 media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
 media-gfx/qView 2.0 9999: Practical and minimal image viewer
-media-gfx/screencloud 1.4.0 9999: Screenshot capturing and sharing tool over various services
+media-gfx/screencloud 1.5.1 9999: Screenshot capturing and sharing tool over various services
 media-gfx/xgrabcolor 1.4.6: Qt-based basic color picker
 media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
@@ -397,8 +397,7 @@ sys-power/powerstat 0.02.20 0.02.21 9999: Laptop power measuring tool
 www-apps/LookingGlass 9999: A Python-backed Looking Glass
 www-apps/draw-io 10.1.2 10.5.2 12.1.2: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
-www-apps/netbox 2.4.7 2.5.8 2.5.10 2.5.12: IP address and data center infrastructure management tool
-www-apps/noc-tower 9999: NOCProject supervisor
+www-apps/netbox 2.7.6: IP address and data center infrastructure management tool
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for signing with your eID on the web
 www-servers/gitlab-gitaly 0.111.0 0.114.0: Gitaly is a Git RPC service for handling GitLab git calls
