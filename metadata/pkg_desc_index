@@ -4,7 +4,7 @@ app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and u
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.20.1 1.28.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.28.0 1.38.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/ibmcloud-bin 0.22.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
