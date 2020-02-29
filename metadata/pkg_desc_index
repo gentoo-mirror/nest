@@ -362,6 +362,7 @@ net-im/gitter-bin 4.1.0-r1: Chat and network platform
 net-im/slack-bin 4.1.1 4.3.2: Team collaboration tool
 net-im/viber-bin 12.0.0.7: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
+net-im/zoom-bin 3.5.359539.0224: Video conferencing and web conferencing service
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
