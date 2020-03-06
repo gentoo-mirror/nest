@@ -7,5 +7,5 @@ LICENSE=MIT
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	go-module	3a07ded6d4ec510a4d8c98cd1c2a07ab
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	go-module	2e23fcc4b7fb60746e74822d4ca3a669
 _md5_=6b5121e6105c92e7654a5b3609ae269b
