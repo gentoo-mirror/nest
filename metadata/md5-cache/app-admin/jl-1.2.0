@@ -8,5 +8,5 @@ LICENSE=ISC
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/koenbollen/jl/archive/v1.2.0.tar.gz -> jl-1.2.0.tar.gz https://github.com/docopt/docopt-go/archive/784ddc588536.tar.gz -> github.com-docopt-docopt-go-784ddc588536.tar.gz https://github.com/fatih/color/archive/v1.6.0.tar.gz -> github.com-fatih-color-v1.6.0.tar.gz https://github.com/mattn/go-colorable/archive/v0.1.2.tar.gz -> github.com-mattn-go-colorable-v0.1.2.tar.gz https://github.com/mattn/go-isatty/archive/v0.0.8.tar.gz -> github.com-mattn-go-isatty-v0.0.8.tar.gz https://github.com/tidwall/gjson/archive/v1.0.1.tar.gz -> github.com-tidwall-gjson-v1.0.1.tar.gz https://github.com/tidwall/match/archive/v1.0.0.tar.gz -> github.com-tidwall-match-v1.0.0.tar.gz https://github.com/golang/sys/archive/0c1ff786ef13.tar.gz -> github.com-golang-sys-0c1ff786ef13.tar.gz
-_eclasses_=go-module	9c89b9b23b308aef82637272a26781f7
+_eclasses_=go-module	fed1f8fd90b8957c6cb45f66536a3ee0
 _md5_=ccccd3bf0491b70db0e1d2104746fbb9
