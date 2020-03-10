@@ -10,5 +10,5 @@ RDEPEND=fish-completion? ( app-shells/fish ) vim? ( app-editors/vim ) tmux? ( ap
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/junegunn/fzf/archive/0.20.0.tar.gz -> fzf-0.20.0.tar.gz https://github.com/gdamore/encoding/archive/b23993cbb635.tar.gz -> github.com-gdamore-encoding-b23993cbb635.tar.gz https://github.com/gdamore/tcell/archive/0a0db94084df.tar.gz -> github.com-gdamore-tcell-0a0db94084df.tar.gz https://github.com/lucasb-eyer/go-colorful/archive/c900de9dbbc7.tar.gz -> github.com-lucasb-eyer-go-colorful-c900de9dbbc7.tar.gz https://github.com/mattn/go-isatty/archive/66b8e73f3f5c.tar.gz -> github.com-mattn-go-isatty-66b8e73f3f5c.tar.gz https://github.com/mattn/go-runewidth/archive/14207d285c6c.tar.gz -> github.com-mattn-go-runewidth-14207d285c6c.tar.gz https://github.com/mattn/go-shellwords/archive/v1.0.3.tar.gz -> github.com-mattn-go-shellwords-v1.0.3.tar.gz https://github.com/golang/crypto/archive/558b6879de74.tar.gz -> github.com-golang-crypto-558b6879de74.tar.gz https://github.com/golang/sys/archive/a5b02f93d862.tar.gz -> github.com-golang-sys-a5b02f93d862.tar.gz https://github.com/golang/text/archive/4ee4af566555.tar.gz -> github.com-golang-text-4ee4af566555.tar.gz
-_eclasses_=go-module	9bdff2035af4104401606fb5b9527c58
+_eclasses_=go-module	bee4f096a51be20ec65cc401979a6e0b
 _md5_=7035bcde93f1835cd98fff4a6d7fba98
