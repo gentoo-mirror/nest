@@ -4,7 +4,7 @@ app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and u
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.28.0 1.38.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.28.0 1.39.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/ibmcloud-bin 0.22.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
@@ -359,10 +359,10 @@ net-firewall/ipt_netflow 9999: Netflow iptables module
 net-firewall/ipt_ratelimit 0.2 9999: Ratelimit iptables module
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
-net-im/slack-bin 4.1.1 4.3.2: Team collaboration tool
+net-im/slack-bin 4.1.1 4.3.2-r1 4.3.2-r2 4.3.2-r3: Team collaboration tool
 net-im/viber-bin 12.0.0.7: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
-net-im/zoom-bin 3.5.359539.0224: Video conferencing and web conferencing service
+net-im/zoom-bin 3.5.359539.0224 3.5.361976.0301: Video conferencing and web conferencing service
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
