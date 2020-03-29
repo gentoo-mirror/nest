@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=app-arch/brotli:= lzo? ( dev-libs/lzo:2 ) sodium? ( dev-libs/libsodium:= )
+DESCRIPTION=Archival restoration tool for databases
+EAPI=7
+HOMEPAGE=https://github.com/wal-g/wal-g
+IUSE=lzo mongo mysql postgres redis sodium
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=app-arch/brotli:= lzo? ( dev-libs/lzo:2 ) sodium? ( dev-libs/libsodium:= )
+REQUIRED_USE=|| ( mongo mysql postgres redis )
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	go-module	cca12a5688562f107c14ffcf28195dd7
+_md5_=bb01f1fa2f0cea1ccd8b996a979d94d0

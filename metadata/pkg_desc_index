@@ -22,6 +22,7 @@ app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extrem
 app-backup/pgbackrest 2.0.7 2.0.9 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.3.4.0 9999: Client Server backup system
 app-backup/urbackup-server 2.3.8 9999: Client Server backup system
+app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 0.1.16: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
