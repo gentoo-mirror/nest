@@ -201,6 +201,8 @@ dev-python/PyMeeus 0.3.6 9999: Library of astronomical algorithms in Python
 dev-python/PythonQt 3.2 3.2-r1 9999: A dynamic Python binding for the Qt framework
 dev-python/adal 1.2.1 9999: Library for authentication in Azure Active Directory
 dev-python/anyconfig 0.9.10 9999: Generic access to configuration files in any formats
+dev-python/apispec 3.3.0 9999: A pluggable API specification generator
+dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.10.0: Application Insights API surface
 dev-python/arrow 0.15.5 9999: Better dates and times for Python
 dev-python/aws-sam-translator 1.20.1 9999: A library to transform SAM templates into AWS CloudFormation templates
@@ -214,6 +216,8 @@ dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human rea
 dev-python/crossplane 0.4.12 0.5.2 0.5.3 9999: Fast and reliable NGINX configuration parser
 dev-python/ctypescrypto 0.5 9999: File format determination library for Python
 dev-python/curio 0.9 9999: Coroutine-based library for concurrent Python systems programming
+dev-python/dataclasses 0.7 9999: A backport of the dataclasses module for Python 3.6
+dev-python/dataclasses-jsonschema 2.12.0 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
 dev-python/dateparser 0.7.2 9999: Date parsing library designed to parse dates from HTML pages
 dev-python/decli 0.5.0 0.5.1 9999: Minimal declarative cli tool
@@ -265,11 +269,13 @@ dev-python/msrest 0.6.11 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.3 9999: Python library for NETCONF clients
 dev-python/netaddr 0.7.19-r1 9999: Network address representation and manipulation library
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
+dev-python/openapi-spec-validator 0.2.8 9999: Python library that validates Swagger Specs
 dev-python/outcome 1.0.1 9999: Capture the outcome of Python function calls
 dev-python/parameterized 0.7.0 9999: Parameterized testing with any Python test framework
 dev-python/pathspec 0.5.9 9999: A utility library for pattern matching of file paths
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/port-for 0.4 9999: An utility and python library for TCP ports management
+dev-python/prance 0.18.2 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/purl 1.5 9999: Simple Python URL class
 dev-python/pymysql 0.9.3-r1 9999: Pure-Python MySQL Driver
 dev-python/pytest-django 3.8.0 9999: A Django plugin for py.test
@@ -282,6 +288,7 @@ dev-python/pytimeparse 1.1.8 9999: A library to parse time from human readable s
 dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 1.1.1 1.5.1 9999: Python library to build pretty command line user prompts
 dev-python/random2 1.0.1-r2 9999: Python-2.7 random module ported to python-3
+dev-python/reprint 9999: Binding variables and refreshing multi-line output in terminal
 dev-python/requests-credssp 1.1.1 9999: CredSSP authentication handler for Python Requests
 dev-python/requests-mock 1.7.0 9999: Mock out responses from the requests package
 dev-python/rq 1.2.2 9999: A library for creating and processing background jobs
@@ -322,7 +329,7 @@ dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
 dev-util/gh 0.5.5 9999: The GitHub CLI
 dev-util/gitlab-runner 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.5.4 7.0.6: HTTP and GraphQL client for developers
-dev-util/taskcat 0.8.32 0.8.42 9999: An OpenSource Cloudformation Deployment Framework
+dev-util/taskcat 0.9.17 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace-bin 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.8 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
