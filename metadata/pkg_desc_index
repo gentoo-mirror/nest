@@ -3,6 +3,7 @@ app-admin/aws-vault 4.7.1 9999: A vault for securely storing and accessing AWS c
 app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
+app-admin/container-service-extension 2.6.0 9999: Container Service Extension for vCloud Director
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.28.0 1.39.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
@@ -287,6 +288,7 @@ dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
 dev-python/python-user-agents 2.1.0 9999: A library to identify devices by parsing user agent strings
 dev-python/pytimeparse 1.1.8 9999: A library to parse time from human readable string
 dev-python/pyvcloud 22.0.1 9999: VMware vCloud Director Python SDK
+dev-python/pyvmomi 7.0 9999: VMware vSphere API Python Bindings
 dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 1.1.1 1.5.1 9999: Python library to build pretty command line user prompts
 dev-python/random2 1.0.1-r2 9999: Python-2.7 random module ported to python-3
@@ -323,6 +325,7 @@ dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/validators 0.14.2 9999: Python data validation library
 dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.0.0 9999: Find version of python package, installed via pip, setuptools, git
+dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.11.1 1.12.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.22 9999: Automated testing for Ansible roles
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
