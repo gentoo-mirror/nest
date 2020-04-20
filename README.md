@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 426](https://img.shields.io/badge/ebuild-426-orange.svg)](https://img.shields.io/badge/ebuild-426-orange.svg)
+[![Number of ebuilds: 430](https://img.shields.io/badge/ebuild-430-orange.svg)](https://img.shields.io/badge/ebuild-430-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -64,6 +64,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[tztail](https://github.com/thecasualcoder/tztail) | A log view in various timezones
 * app-admin/[userdbadm](https://nasauber.de/opensource/userdbadm) | Tool to manage (PAM) userdb files with crypted passwords
 * app-admin/[uwsgitop](https://github.com/unbit/uwsgitop) | uWSGI stats viewer
+* app-admin/[vcd-cli](https://github.com/vmware/vcd-cli) | Utility to check AWS resource limits and usage
 * app-admin/[yaml-vault](https://github.com/Jimdo/yaml-vault) | Utility to import/export data from HashiCorp Vault
 * app-backup/[hashget](https://gitlab.com/yaroslaff/hashget) | Deduplication tool for archiving data with extremely high ratio
 * app-backup/[pgbackrest](https://pgbackrest.org) | Reliable PostgreSQL Backup & Restore
@@ -331,6 +332,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[python-gilt](https://github.com/metacloud/gilt) | A GIT layering tool
 * dev-python/[python-openapi-codec](https://github.com/core-api/python-openapi-codec) | An OpenAPI codec for Core API
 * dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
+* dev-python/[pyvcloud](https://github.com/vmware/pyvcloud) | VMware vCloud Director Python SDK
 * dev-python/[pywinrm](https://github.com/diyan/pywinrm) | Python library for Windows Remote Management
 * dev-python/[PyMeeus](https://github.com/architest/pymeeus) | Library of astronomical algorithms in Python
 * dev-python/[PythonQt](https://mevislab.github.io/pythonqt) | A dynamic Python binding for the Qt framework
@@ -364,8 +366,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
 * dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
+* dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
 * dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
+* dev-python/[vcd-api-schemas-type](https://github.com/vmware/vcd-api-schemas) | VMware vCloud Director Python API Schemas Type
 * dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 * dev-python/[yattag](http://www.yattag.org) | Generate HTML or XML in a pythonic way
 * dev-util/[ansible-molecule](https://github.com/ansible/molecule) | Automated testing for Ansible roles
