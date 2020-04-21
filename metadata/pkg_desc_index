@@ -53,6 +53,7 @@ app-text/keening 0.2: A simple command line pastebin designed to be used togethe
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
+dev-db/mssql-cli 0.18.0 9999: CLI for SQL Server Database
 dev-db/odyssey 9999: Scalable PostgreSQL connection pooler
 dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
@@ -205,7 +206,7 @@ dev-python/adal 1.2.1 9999: Library for authentication in Azure Active Directory
 dev-python/anyconfig 0.9.10 9999: Generic access to configuration files in any formats
 dev-python/apispec 3.3.0 9999: A pluggable API specification generator
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
-dev-python/applicationinsights 0.10.0: Application Insights API surface
+dev-python/applicationinsights 0.11.9 9999: Application Insights SDK for Python
 dev-python/arrow 0.15.5 9999: Better dates and times for Python
 dev-python/aws-sam-translator 1.20.1 9999: A library to transform SAM templates into AWS CloudFormation templates
 dev-python/cerberus 1.3.1 9999: Lightweight and extensible data validation library for Python
