@@ -21,7 +21,7 @@ app-admin/uwsgitop 0.10 0.11 9999: uWSGI stats viewer
 app-admin/vcd-cli 23.0.0 9999: Utility to check AWS resource limits and usage
 app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Vault
 app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
-app-backup/pgbackrest 2.0.7 2.0.9 9999: Reliable PostgreSQL Backup & Restore
+app-backup/pgbackrest 2.0.9 2.26 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.3.4.0 9999: Client Server backup system
 app-backup/urbackup-server 2.3.8 9999: Client Server backup system
 app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
