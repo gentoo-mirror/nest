@@ -10,11 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A Django field that allows you to store validated JSON in your model.
-	It silently takes care of serialization, simply add field to your model.
+	Provides all the goodness of nose in your Django tests
 	</longdescription>
 	<upstream>
-		<remote-id type="github">dmkoch/django-jsonfield</remote-id>
-		<remote-id type="pypi">jsonfield</remote-id>
+		<remote-id type="github">jazzband/django-nose</remote-id>
+		<remote-id type="pypi">django-nose</remote-id>
 	</upstream>
 </pkgmetadata>

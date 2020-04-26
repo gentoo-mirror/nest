@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 434](https://img.shields.io/badge/ebuild-434-orange.svg)](https://img.shields.io/badge/ebuild-434-orange.svg)
+[![Number of ebuilds: 426](https://img.shields.io/badge/ebuild-426-orange.svg)](https://img.shields.io/badge/ebuild-426-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -69,7 +69,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[yaml-vault](https://github.com/Jimdo/yaml-vault) | Utility to import/export data from HashiCorp Vault
 * app-backup/[hashget](https://gitlab.com/yaroslaff/hashget) | Deduplication tool for archiving data with extremely high ratio
 * app-backup/[pgbackrest](https://pgbackrest.org) | Reliable PostgreSQL Backup & Restore
-* [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/zbackup.svg)](https://repology.org/metapackage/zbackup) app-backup/[zbackup](http://zbackup.org/) | A versatile deduplicating backup tool
+* [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/zbackup.svg)](https://repology.org/metapackage/zbackup) app-backup/[zbackup](https://github.com/zbackup/zbackup) | A versatile deduplicating backup tool
 * app-backup/[urbackup-client](https://urbackup.org) | Client Server backup system
 * app-backup/[urbackup-server](https://urbackup.org) | Client Server backup system
 * app-backup/[wal-g](https://github.com/wal-g/wal-g) | Archival restoration tool for databases
@@ -309,6 +309,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ifaddr](https://github.com/floyernick/fleep-py) | Python Library to enumerate all network interfaces
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
+* dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 * dev-python/[k5test](https://github.com/pythongssapi/k5test) | A library for setting up self-contained Kerberos 5 environments
 * dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
@@ -317,6 +318,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
 * dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 * dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
+* dev-python/[django-nose](https://github.com/jazzband/django-nose) | Django test runner using nose
 * dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 * dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | Python library that validates Swagger Specs
 * dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
