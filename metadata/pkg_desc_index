@@ -332,6 +332,7 @@ dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
 dev-util/gh 0.5.5 9999: The GitHub CLI
 dev-util/gitlab-runner 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.5.4 7.0.6: HTTP and GraphQL client for developers
+dev-util/ovftool 4.3.0.12320924: VMware Open Virtualization Format tool
 dev-util/taskcat 0.9.17 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace-bin 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.8 9999: Manage your repository's TODOs as config in your codebase
