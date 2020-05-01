@@ -207,7 +207,6 @@ dev-python/apispec 3.3.0 9999: A pluggable API specification generator
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.9 9999: Application Insights SDK for Python
 dev-python/arrow 0.15.5 9999: Better dates and times for Python
-dev-python/aws-sam-translator 1.20.1 9999: A library to transform SAM templates into AWS CloudFormation templates
 dev-python/cerberus 1.3.1 9999: Lightweight and extensible data validation library for Python
 dev-python/click-completion 0.5.1 9999: Enhanced completion for bash, fish, zsh in Click
 dev-python/convertdate 2.2.0 9999: Utils for converting between date formats and calculating holidays
