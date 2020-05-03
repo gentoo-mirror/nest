@@ -15,6 +15,18 @@ app-crypt/qesteidutil:crash-reporter - add support for submit crash information 
 app-crypt/qesteidutil:webcheck - add support for new version checking
 app-editors/qedit:aspell - Enable spellchecking using app-text/aspell
 app-emulation/looking-glass:host - Download Windows host application
+app-emulation/vmware-workstation:macos-guests - Support macOS guests
+app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally
+app-emulation/vmware-workstation:ovftool - Install Open Virtualization Format tool
+app-emulation/vmware-workstation:vix - Install VIX API to automate virtual machine operations
+app-emulation/vmware-workstation:vmware-tools-darwin - Install VMware Tools for OS X guests
+app-emulation/vmware-workstation:vmware-tools-linux - Install VMware Tools for Linux guests
+app-emulation/vmware-workstation:vmware-tools-linuxPreGlibc25 - Install VMware Tools for Linux (glibc older than 2.5) guests
+app-emulation/vmware-workstation:vmware-tools-netware - Install VMware Tools for Netware guests
+app-emulation/vmware-workstation:vmware-tools-solaris - Install VMware Tools for Solaris guests
+app-emulation/vmware-workstation:vmware-tools-winPre2k - Install VMware Tools for Windows (before 2000) guests
+app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools for Windows (after 2000, before Vista) guests
+app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
 app-misc/cheat:fish-completion - Enable fish completion support
