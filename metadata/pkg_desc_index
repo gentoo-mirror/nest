@@ -403,6 +403,7 @@ net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.6.1 2.6.3 2.6.4.1343 2.6.4.1344 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.4.0 1.6.0 9999: A remote GUI for transmission
 net-vpn/softether 4.08_p9449 4.17_beta9562 4.25_p9656 4.27_beta9668 9999: Multi-protocol VPN software
+sci-visualization/visidata 1.5.2 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail security sandbox
