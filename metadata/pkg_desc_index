@@ -280,6 +280,7 @@ dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/port-for 0.4 9999: An utility and python library for TCP ports management
 dev-python/prance 0.18.2 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/purl 1.5 9999: Simple Python URL class
+dev-python/pykickstart 3.16.11 9999: Python library for reading and writing kickstart files
 dev-python/pytest-django 3.8.0 9999: A Django plugin for py.test
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/python-crontab 2.4.0 9999: Crontab module for reading and writing crontab files
