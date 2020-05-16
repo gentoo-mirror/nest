@@ -326,7 +326,7 @@ dev-python/validators 0.14.2 9999: Python data validation library
 dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.0.0 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
-dev-python/yattag 1.11.1 1.12.2 9999: Generate HTML or XML in a pythonic way
+dev-python/yattag 1.13.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.22 9999: Automated testing for Ansible roles
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-python-lint 0.31.1 9999: AWS CloudFormation Linter
@@ -338,7 +338,7 @@ dev-util/gitlab-runner 11.9.1 9999: GitLab Runner
 dev-util/insomnia-bin 6.5.4 7.0.6: HTTP and GraphQL client for developers
 dev-util/ovftool 4.3.0.12320924 4.4.0.15722219: VMware Open Virtualization Format tool
 dev-util/packer 1.5.6 9999: A tool to create identical machine images for multiple platforms
-dev-util/taskcat 0.9.17 9999: An OpenSource Cloudformation Deployment Framework
+dev-util/taskcat 0.9.18 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace-bin 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.8 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
