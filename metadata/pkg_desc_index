@@ -401,6 +401,7 @@ net-misc/stargazer 2.408 2.409_rc4: Billing system for small home and office net
 net-misc/topola 5.35.06 5.36.07: Customer accounting system, services and statistics collection management
 net-misc/uredir 3.2 9999: UDP port redirector
 net-misc/virtualhere-usb-bin 9999: Share USB devices over the network
+net-misc/x11-ssh-askpass 1.2.4.1-r3 9999: X11-based passphrase dialog for use with OpenSSH
 net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker

@@ -1,0 +1,12 @@
+BDEPEND=app-text/rman x11-misc/imake >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install unpack
+DEPEND=virtual/ssh x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXt
+DESCRIPTION=X11-based passphrase dialog for use with OpenSSH
+EAPI=7
+HOMEPAGE=https://github.com/sigmavirus24/x11-ssh-askpass
+LICENSE=HPND
+PROPERTIES=live
+RDEPEND=virtual/ssh x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXt
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	797cda3549becfe50afdfa35192ca137	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=7a9817b61d9116a15f437d0f71d12c67
