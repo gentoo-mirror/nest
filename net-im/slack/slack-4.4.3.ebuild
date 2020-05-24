@@ -75,6 +75,9 @@ src_prepare() {
 			usr/share/applications/slack.desktop \
 			|| die "sed failed for slack.desktop"
 	fi
+
+	rm usr/lib/slack/LICENSE{,S-linux.json} \
+		|| die "rm licenses failed"
 }
 
 src_install() {
@@ -82,18 +85,8 @@ src_install() {
 	doicon -s 512 usr/share/pixmaps/slack.png
 	domenu usr/share/applications/slack.desktop
 
-	insinto /opt/slack
-	doins -r usr/lib/slack/.
-
-	# this really should be done a better way than trying to parse
-	# the QA_PREBUILT variable
-	local path
-	for path in ${QA_PREBUILT}; do
-		local -a paths=(${D}/${path})
-		for path in "${paths[@]}"; do
-			fperms +x "${path#${D}/}"
-		done
-	done
+	insinto /opt # wrt 720134
+	cp -a usr/lib/slack "${ED}"/opt || die "cp failed"
 
 	use suid && fperms u+s /opt/slack/chrome-sandbox # wrt 713094
 	dosym ../../opt/slack/slack usr/bin/slack
