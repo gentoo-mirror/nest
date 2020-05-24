@@ -50,7 +50,7 @@ app-misc/rmlint 2.9.0: Removes duplicates and other lint from your filesystem
 app-misc/xsv 0.13.0 9999: A fast CSV command line toolkit
 app-office/drawio-desktop-bin 13.0.1 13.0.3: Diagram drawing application built on web technology
 app-shells/fzf 0.20.0 9999: A command-line fuzzy finder
-app-shells/peco 0.5.4 0.5.5 0.5.7 9999: Simplistic interactive filtering tool
+app-shells/peco 0.5.7 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
