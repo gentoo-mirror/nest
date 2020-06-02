@@ -10,13 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A Django App that simplifies the task of turning sets of
-	data into HTML tables. It has native support for pagination
-	and sorting. It does for HTML tables what django.forms does
-	for HTML forms. e.g.
+	Utilities library used by Belledonne Communications softwares like
+	belle-sip, mediastreamer2 and liblinphone.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">jieter/django-tables2</remote-id>
-		<remote-id type="pypi">django-tables2</remote-id>
+		<remote-id type="github">BelledonneCommunications/bctoolbox</remote-id>
 	</upstream>
 </pkgmetadata>
