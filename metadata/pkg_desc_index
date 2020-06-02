@@ -296,6 +296,7 @@ dev-python/questionary 1.1.1 1.5.1 9999: Python library to build pretty command 
 dev-python/random2 1.0.1-r2 9999: Python-2.7 random module ported to python-3
 dev-python/reprint 9999: Binding variables and refreshing multi-line output in terminal
 dev-python/requests-credssp 1.1.1 9999: CredSSP authentication handler for Python Requests
+dev-python/route53-transfer 9999: Generic access to configuration files in any formats
 dev-python/rq 1.2.2 9999: A library for creating and processing background jobs
 dev-python/rstr 2.2.6 9999: Generate random strings in Python
 dev-python/ruamel-ordereddict 0.4.13 9999: An ordered dictionary with KIO/KVIO
@@ -328,6 +329,7 @@ dev-python/versionfinder 1.0.0 9999: Find version of python package, installed v
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.13.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.22 9999: Automated testing for Ansible roles
+dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-python-lint 0.31.1 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
@@ -381,6 +383,7 @@ net-im/slack 4.3.2-r3 4.4.2 4.4.3: Team collaboration tool
 net-im/viber-bin 12.0.0.7: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
 net-im/zoom-bin 5.0.399860.0429 5.0.408598.0517: Video conferencing and web conferencing service
+net-libs/bctoolbox 4.3.1 9999: Utilities library used by Belledonne Communications softwares
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
