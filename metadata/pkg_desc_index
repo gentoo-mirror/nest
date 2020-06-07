@@ -377,6 +377,7 @@ net-dns/ddns-route53 1.9.1 9999: Dynamic DNS for Amazon Route 53 on a time-based
 net-dns/flares 1.1.0: CloudFlare DNS backup tool
 net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
+net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt_netflow 9999: Netflow iptables module
 net-firewall/ipt_ratelimit 0.2 9999: Ratelimit iptables module
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
