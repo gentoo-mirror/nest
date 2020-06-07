@@ -1,4 +1,5 @@
 acct-group/vmware 0: System group: vmware
+acct-user/ddnsr53 0: System user: ddnsr53
 app-admin/ansible-lint 4.2.0 9999: Best practices checker for Ansible
 app-admin/aws-vault 4.7.1 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and usage
@@ -372,6 +373,7 @@ net-analyzer/netgauge 9999: Server software for testing internet bandwidth using
 net-analyzer/nuttcp 8.1.4: Network performance measurement tool
 net-analyzer/passivedns 1.2.0 9999: Network sniffer that logs all DNS server replies
 net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
+net-dns/ddns-route53 1.9.1 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
 net-dns/flares 1.1.0: CloudFlare DNS backup tool
 net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
@@ -388,6 +390,7 @@ net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/fiche 0.9 0.9.1 9999: Command line pastebin server
+net-misc/mpssh 1.3.3 9999: Mass parallel ssh
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
 net-misc/opendrop 0.10.2 9999: an Open Source AirDrop Implementation
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing

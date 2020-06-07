@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install postinst prepare test unpack
+DESCRIPTION=Dynamic DNS for Amazon Route 53 on a time-based schedule
+EAPI=7
+HOMEPAGE=https://github.com/crazy-max/ddns-route53
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=acct-user/ddnsr53
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	go-module	cca12a5688562f107c14ffcf28195dd7	multilib	0914eab919f4f11dd9e0407b92af4726	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_md5_=30a10fdb58ba2a94c4e33634dc2d934d
