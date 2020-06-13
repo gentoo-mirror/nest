@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=dev-db/sqlite:3
 SLOT=0
 SRC_URI=https://download.build2.org/0.11.0/build2-toolchain-0.11.0.tar.xz
-_eclasses_=multilib	0914eab919f4f11dd9e0407b92af4726	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_eclasses_=multilib	ba693a7065ee4edc78b3ea02a015bcad	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
 _md5_=38bc7cc86deb4a3ebbf81335dad916d3
