@@ -40,7 +40,7 @@ app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KV
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2: VMware kernel modules
 app-emulation/vmware-workstation 15.5.2.15785246: Emulate a complete PC without the performance overhead
-app-forensics/gitleaks 3.3.0 9999: Auditing git repository for secrets and keys
+app-forensics/gitleaks 4.3.1 9999: Auditing git repository for secrets and keys
 app-metrics/do-agent 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/android-file-transfer-linux 3.2 9999: Reliable MTP client with minimalistic UI
 app-misc/cheat 2.5.1 9999: Interactive cheatsheets on the command-line
