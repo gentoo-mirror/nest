@@ -274,6 +274,7 @@ dev-python/markdown2 2.3.7 9999: A fast and complete Python implementation of Ma
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
 dev-python/msrest 0.6.11 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.3 9999: Python library for NETCONF clients
+dev-python/netapp-ontap 9.7.2: A library for working with ONTAP's REST APIs simply in Python
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openapi-spec-validator 0.2.8 9999: Python library that validates Swagger Specs
 dev-python/outcome 1.0.1 9999: Capture the outcome of Python function calls
