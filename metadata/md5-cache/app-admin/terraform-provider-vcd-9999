@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Terraform VMware vCloud Director provider
+EAPI=7
+HOMEPAGE=https://www.terraform.io/docs/providers/vcd
+LICENSE=MPL-2.0
+PROPERTIES=live
+RDEPEND=app-admin/terraform
+RESTRICT=mirror test
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	go-module	45394825d9260b479aa1cf252ea58e01	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190
+_md5_=8dfed4c4040963ea2729b5b186cf27bc
