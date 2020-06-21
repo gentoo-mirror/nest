@@ -240,7 +240,6 @@ net-p2p/opentracker:persistence - Allow saving torrents and peers information on
 net-p2p/opentracker:restrict_stats - Restrict statistics to the tracker owner
 net-p2p/opentracker:spot_woodpeckers - Enable tracking of abusing peers
 net-p2p/opentracker:whitelist - Make use of a torrents white-list
-net-p2p/resilio-sync:pax_kernel - Use paxctl to mark binaries
 net-vpn/softether:bridge - Enable install of SoftEther VPN bridge
 net-vpn/softether:client - Enable install of SoftEther VPN client
 net-vpn/softether:cmd - Enable install of SoftEther VPN cmd
