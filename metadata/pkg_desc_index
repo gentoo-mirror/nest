@@ -35,6 +35,7 @@ app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
 app-crypt/acmebot 2.2.0 2.3.0 9999: ACME protocol automatic certitificate manager
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
+app-editors/micro 2.0.5 9999: A modern and intuitive terminal-based text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/visual-studio-code-bin 1.41.1 1.42.0: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha10 1_alpha11 1_alpha12 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
