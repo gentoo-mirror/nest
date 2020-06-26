@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Django application for database and form fields for pytz objects"
-HOMEPAGE="https://github.com/mfogel/django-timezone-field"
-SRC_URI="https://github.com/mfogel/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Django application for simple tagging"
+HOMEPAGE="https://github.com/alex/django-taggit"
+SRC_URI="https://github.com/alex/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="BSD-2"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"

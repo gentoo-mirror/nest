@@ -3,13 +3,12 @@
 
 EAPI=7
 
-DISTUTILS_USE_SETUPTOOLS=rdepend
-PYTHON_COMPAT=( pypy3 python3_{6..8} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="plugin for adding to the PYTHONPATH from command line or configs"
-HOMEPAGE="https://github.com/bigsassy/pytest-pythonpath"
+DESCRIPTION="Python data validation library"
+HOMEPAGE="https://github.com/kvesteri/validators"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
@@ -18,6 +17,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/decorator[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]"
+DEPEND="${RDEPEND}"
 
 distutils_enable_tests pytest
