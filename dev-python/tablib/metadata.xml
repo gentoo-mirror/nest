@@ -10,13 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Keyring provides utility functions for and a common interface to a range
-	of secure credential storage services.
-	Currently Keyring supports the following backends:
-	macOS/OSX Keychain, Windows credential store, Pass, Secret Service,
-	KDE Wallet, Encrypted File
+	Tablib is a format-agnostic tabular dataset library.
+	Output formats supported: Excel, JSON, YAML, Pandas, HTML, Jira,
+	TSV, ODS, CSV, DBF.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">99designs/keyring</remote-id>
+		<remote-id type="github">jazzband/tablib</remote-id>
+		<remote-id type="pypi">tablib</remote-id>
 	</upstream>
 </pkgmetadata>

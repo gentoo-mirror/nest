@@ -10,10 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	GitHub on the command line, brings pull requests, issues, and
-	other GitHub concepts to the terminal
+	A Python module that attempts to make it easier to generate HTML/XML
+	from a Python program in an intuitive, lightweight, customizable and
+	pythonic way.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">cli/cli</remote-id>
+		<remote-id type="github">tylerbakke/MarkupPy</remote-id>
+		<remote-id type="pypi">MarkupPy</remote-id>
 	</upstream>
 </pkgmetadata>
