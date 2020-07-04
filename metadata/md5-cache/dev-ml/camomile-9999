@@ -9,5 +9,5 @@ LICENSE=LGPL-2+
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:=
 SLOT=0/9999
-_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	opam	c053036d04fbcede5c53fe5752699eb5
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	opam	c053036d04fbcede5c53fe5752699eb5
 _md5_=0da789e542dba18bf1011a318baada85

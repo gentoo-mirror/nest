@@ -9,5 +9,5 @@ RDEPEND=app-accessibility/at-spi2-atk:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x3
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://update.code.visualstudio.com/1.42.0/linux-x64/stable -> visual-studio-code-bin-1.42.0-amd64.tar.gz
-_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multibuild	40fe59465edacd730c644ec2bc197809	multilib	2477ebe553d3e4d2c606191fe6c33602	multilib-build	dfda7934df092a96e439c05b4aeac519	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multibuild	b2c915190b051f55a23b9354b9849847	multilib	2477ebe553d3e4d2c606191fe6c33602	multilib-build	8ad5b5535b73a8971881f09277b939f4	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=efae4bdda7f98961d890bf851990b5ff
