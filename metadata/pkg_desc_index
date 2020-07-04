@@ -383,7 +383,7 @@ net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt_netflow 9999: Netflow iptables module
-net-firewall/ipt_ratelimit 0.2 9999: Ratelimit iptables module
+net-firewall/ipt_ratelimit 0.3.1 9999: Ratelimit iptables module
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
 net-im/slack 4.4.3: Team collaboration tool
