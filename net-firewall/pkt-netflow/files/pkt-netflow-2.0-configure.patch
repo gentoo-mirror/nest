@@ -1,8 +1,6 @@
-diff --git a/configure b/configure
-index 7a3417e..a2cd816 100755
---- a/configure
-+++ b/configure
-@@ -219,7 +219,6 @@ test "$IPTBIN" || IPTBIN=`which iptables`
+--- ../configure
++++ ../configure
+@@ -421,7 +421,6 @@
  iptables_find_version	#IPTVER
  iptables_try_pkgconfig	#try to configure from pkg-config
  iptables_find_src	#IPTSRC
