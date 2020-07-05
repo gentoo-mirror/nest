@@ -189,7 +189,7 @@ net-analyzer/goaccess:getline - Use GNU getline() to parse full line requests
 net-analyzer/goaccess:tokyocabinet - Enable Tokyo Cabinet's on-memory hash database backend
 net-analyzer/passivedns:json - Enable JSON support
 net-dns/inadyn-mt:sound - Enable sound support using
-net-firewall/ipt_netflow:pax_kernel - Apply patch needed for pax enabled kernels
+net-firewall/pkt-netflow:natevents - Netflow NAT translation events (NEL) support
 net-im/viber-bin:apulse - Use PulseAudio emulation for ALSA
 net-misc/redir:ftp - Support for FTP (File Transfer Protocol) redirection
 net-misc/redir:shaper - Support for traffic shaping
