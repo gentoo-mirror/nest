@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=install postinst test unpack
+DESCRIPTION=Command line tool for Amazon Route 53
+EAPI=7
+HOMEPAGE=https://github.com/barnybug/cli53
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	go-module	45394825d9260b479aa1cf252ea58e01
+_md5_=f5d4258decc70fc77c54c7ea8175c621
