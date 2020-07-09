@@ -377,6 +377,7 @@ net-analyzer/logswan 1.07 2.0.3 9999: Web log analyzer using probabilistic data 
 net-analyzer/netgauge 9999: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/nuttcp 8.1.4 8.2.2: Network performance measurement tool
 net-analyzer/passivedns 1.2.0 9999: Network sniffer that logs all DNS server replies
+net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
 net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
 net-dns/ddns-route53 1.9.1 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
 net-dns/flares 1.1.0: CloudFlare DNS backup tool
@@ -384,7 +385,6 @@ net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt-ratelimit 0.3.1 9999: Ratelimit iptables module
-net-firewall/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
 net-im/slack 4.4.3: Team collaboration tool
