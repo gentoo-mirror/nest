@@ -13,9 +13,6 @@
 	High performance NetFlow v5, v9, IPFIX flow data export module for Linux
 	kernel. Created to be useful for linux routers in high-throughput networks.
 	</longdescription>
-	<use>
-		<flag name="natevents">Netflow NAT translation events (NEL) support</flag>
-	</use>
 	<upstream>
 		<remote-id type="github">aabc/pkt-netflow</remote-id>
 	</upstream>
