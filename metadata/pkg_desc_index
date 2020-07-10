@@ -72,6 +72,7 @@ dev-db/pg_repack 1.4.4 9999: PostgreSQL extension for data reorganization
 dev-db/pgcenter 0.6.5 9999: Command-line admin tool for observing and troubleshooting Postgres
 dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
+dev-db/postgresql_anonymizer 0.6.0 9999: Anonymization & Data Masking for PostgreSQL
 dev-haskell/adjunctions 4.4: Adjunctions and representable functors
 dev-haskell/aeson 1.4.6.0: Fast JSON parsing and encoding
 dev-haskell/ansi-terminal 0.10.2: Simple ANSI terminal support, with Windows compatibility

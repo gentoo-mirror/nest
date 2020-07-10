@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
+DEPEND=>=dev-db/postgresql-9.5:=
+DESCRIPTION=Anonymization & Data Masking for PostgreSQL
+EAPI=7
+HOMEPAGE=https://gitlab.com/dalibo/postgresql_anonymizer
+LICENSE=POSTGRESQL
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_md5_=b334d52ceaeff3a52eb77b6187b75d2d
