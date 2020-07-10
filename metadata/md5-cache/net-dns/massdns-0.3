@@ -1,0 +1,13 @@
+BDEPEND=test? ( app-misc/jq )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=A high-performance DNS stub resolver
+EAPI=7
+HOMEPAGE=https://github.com/blechschmidt/massdns
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/blechschmidt/massdns/archive/v0.3.tar.gz -> massdns-0.3.tar.gz
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=75ca995cd049d1d00b5e27fae9542165

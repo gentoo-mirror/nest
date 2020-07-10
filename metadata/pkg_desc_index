@@ -381,8 +381,9 @@ net-analyzer/passivedns 1.2.0 9999: Network sniffer that logs all DNS server rep
 net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
 net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
 net-dns/ddns-route53 1.9.1 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
-net-dns/flares 1.1.0: CloudFlare DNS backup tool
+net-dns/flares 2.3.2 9999: CloudFlare DNS backup tool
 net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
+net-dns/massdns 0.3 9999: A high-performance DNS stub resolver
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt-ratelimit 0.3.1 9999: Ratelimit iptables module
