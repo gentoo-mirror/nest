@@ -7,26 +7,26 @@ EGIT_REPO_URI="https://github.com/BelledonneCommunications/${PN}.git"
 
 inherit cmake git-r3
 
-DESCRIPTION="BC Unit Test Framework"
-HOMEPAGE="https://github.com/BelledonneCommunications/bcunit"
+DESCRIPTION="SIP (RFC3261) implementation"
+HOMEPAGE="https://github.com/BelledonneCommunications/belle-sip"
 SRC_URI=""
 
-LICENSE="GPL-2"
-SLOT="0"
+LICENSE="GPL-3"
 KEYWORDS=""
-IUSE="doc examples ncurses static-libs test"
+SLOT="0"
+IUSE="static-libs test zeroconf"
 RESTRICT="test" # fails
 
-RDEPEND="ncurses? ( sys-libs/ncurses:0= )"
+RDEPEND="net-libs/bctoolbox[test?]
+	sys-libs/zlib:=
+	zeroconf? ( net-dns/avahi[mdnsresponder-compat] )"
 DEPEND="${RDEPEND}"
 
 src_configure() {
 	local mycmakeargs=(
-		-DENABLE_CURSES="$(usex ncurses)"
-		-DENABLE_DOC="$(usex doc)"
-		-DENABLE_EXAMPLES="$(usex examples)"
+		-DENABLE_MDNS="$(usex zeroconf)"
 		-DENABLE_STATIC="$(usex static-libs)"
-		-DENABLE_TEST="$(usex test)"
+		-DENABLE_TESTS="$(usex test)"
 	)
 
 	cmake_src_configure

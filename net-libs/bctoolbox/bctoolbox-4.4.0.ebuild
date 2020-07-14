@@ -3,16 +3,14 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://github.com/BelledonneCommunications/${PN}.git"
-
-inherit cmake git-r3
+inherit cmake
 
 DESCRIPTION="Utilities library used by Belledonne Communications softwares"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/bctoolbox"
-SRC_URI=""
+SRC_URI="https://github.com/BelledonneCommunications/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="ssl static-libs test"
 RESTRICT="!test? ( test )"

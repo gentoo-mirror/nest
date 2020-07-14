@@ -10,12 +10,9 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	BCUnit is a fork of the defunct project CUnit, with several fixes and
-	patches applied. CUnit is a Unit testing framework for C,
-	provides various interfaces to the framework.
+	BroadVoice is a family of Codecs created by Broadcom.
+	Broadcom provides both floating-point and fixed-point C open source code.
+	This is BroadVoice 16 kb/s version called BroadVoice16 (BV16) for
+	narrowband telephone-bandwidth speech.
 	</longdescription>
-	<upstream>
-		<remote-id type="gitlab">BC/public/bcunit</remote-id>
-		<remote-id type="github">BelledonneCommunications/bcunit</remote-id>
-	</upstream>
 </pkgmetadata>

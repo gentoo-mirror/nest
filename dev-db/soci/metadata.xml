@@ -10,12 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	BCUnit is a fork of the defunct project CUnit, with several fixes and
-	patches applied. CUnit is a Unit testing framework for C,
-	provides various interfaces to the framework.
+	A database access library for C++ that makes the illusion of
+	embedding SQL queries in the regular C++ code, staying entirely
+	within the Standard C++.
 	</longdescription>
 	<upstream>
-		<remote-id type="gitlab">BC/public/bcunit</remote-id>
-		<remote-id type="github">BelledonneCommunications/bcunit</remote-id>
+		<remote-id type="github">SOCI/soci</remote-id>
+		<remote-id type="sourceforge">soci</remote-id>
 	</upstream>
 </pkgmetadata>

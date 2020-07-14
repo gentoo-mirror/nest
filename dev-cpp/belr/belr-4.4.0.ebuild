@@ -5,26 +5,25 @@ EAPI=7
 
 inherit cmake
 
-DESCRIPTION="BC Unit Test Framework"
-HOMEPAGE="https://github.com/BelledonneCommunications/bcunit"
+DESCRIPTION="Language recognition library by Belledonne Communications"
+HOMEPAGE="https://gitlab.linphone.org/BC/public/belr"
 SRC_URI="https://github.com/BelledonneCommunications/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2"
-SLOT="0"
+LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc examples ncurses static-libs test"
-RESTRICT="test" # fails
+SLOT="0"
+IUSE="static-libs test tools"
+RESTRICT="!test? ( test )"
 
-RDEPEND="ncurses? ( sys-libs/ncurses:0= )"
+RDEPEND="net-libs/bctoolbox[test?]"
 DEPEND="${RDEPEND}"
+BDEPEND="virtual/libudev"
 
 src_configure() {
 	local mycmakeargs=(
-		-DENABLE_CURSES="$(usex ncurses)"
-		-DENABLE_DOC="$(usex doc)"
-		-DENABLE_EXAMPLES="$(usex examples)"
 		-DENABLE_STATIC="$(usex static-libs)"
-		-DENABLE_TEST="$(usex test)"
+		-DENABLE_TESTS="$(usex test)"
+		-DENABLE_TOOLS="$(usex tools)"
 	)
 
 	cmake_src_configure

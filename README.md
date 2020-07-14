@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 446](https://img.shields.io/badge/ebuild-446-orange.svg)](https://img.shields.io/badge/ebuild-446-orange.svg)
+[![Number of ebuilds: 458](https://img.shields.io/badge/ebuild-458-orange.svg)](https://img.shields.io/badge/ebuild-458-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -103,6 +103,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-shells/[fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/peco.svg)](https://repology.org/metapackage/peco) app-shells/[peco](https://github.com/peco/peco) | Simplistic interactive filtering tool
 * app-text/[keening](https://github.com/vehk/keening) | A simple command line pastebin designed to be used together with ssh
+* dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr) | Language recognition library by Belledonne Communications
 * dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend) | A compiler frontend for the W3C XML Schema definition language
 * dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl) | A collection of C++ libraries (successor of libcult)
 * dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
@@ -116,12 +117,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-db/[pgtune](https://github.com/andreif/pgtune) | A high-performance PostgreSQL tuning script
 * dev-db/[pipelinedb](https://www.pipelinedb.com/) | High-performance time-series aggregation for PostgreSQL
 * dev-db/[postgresql_anonymizer](https://gitlab.com/dalibo/postgresql_anonymizer) | Anonymization & Data Masking for PostgreSQL
-* dev-libs/[libcommuni](http://communi.github.io/) | A cross-platform IRC framework written with Qt
-* dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
-* dev-libs/[libdigidocpp](https://github.com/open-eid/libdigidocpp) | Library for handling digitally signed documents
-* [![Gentoo Bug](https://img.shields.io/badge/Bug-482946-red.svg)](https://bugs.gentoo.org/482946) dev-libs/[loki](http://loki-lib.sourceforge.net/) | C++ library of common design patterns and idioms
-* dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
-* dev-go/[keyring](https://github.com/99designs/keyring) | Library with uniform interface across a range of secure credential stores
+* dev-db/[soci](https://github.com/SOCI/soci) | Database access library for C++
 * dev-haskell/[adjunctions](https://github.com/ekmett/adjunctions) | Adjunctions and representable functors
 * dev-haskell/[aeson](https://github.com/bos/aeson) | Fast JSON parsing and encoding
 * dev-haskell/[ansi-terminal](https://github.com/feuerbach/ansi-terminal) | Simple ANSI terminal support, with Windows compatibility
@@ -210,6 +206,15 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[wl-pprint-annotated](https://github.com/minad/wl-pprint-annotated) | Pretty printer with annotations
 * dev-haskell/[x509](https://github.com/vincenthz/hs-certificate) | X509 reader and writer
 * dev-haskell/[x509-store](https://github.com/vincenthz/hs-certificate) | X.509 collection accessing and storing methods
+* dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
+* dev-libs/[belle-sip](https://github.com/BelledonneCommunications/belle-sip) | SIP (RFC3261) implementation
+* dev-libs/[libcommuni](http://communi.github.io/) | A cross-platform IRC framework written with Qt
+* dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
+* dev-libs/[libdigidocpp](https://github.com/open-eid/libdigidocpp) | Library for handling digitally signed documents
+* dev-libs/[liblinphone](https://gitlab.linphone.org/BC/public/liblinphone) | SIP library supporting voice/video calls and text messaging
+* dev-libs/[lime](https://gitlab.linphone.org/BC/public/lime) | C++ library implementing Open Whisper System Signal protocol
+* [![Gentoo Bug](https://img.shields.io/badge/Bug-482946-red.svg)](https://bugs.gentoo.org/482946) dev-libs/[loki](http://loki-lib.sourceforge.net/) | C++ library of common design patterns and idioms
+* dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
 * dev-lua/[lyaml](https://github.com/gvvaughan/lyaml) | LibYAML binding for Lua
 * dev-ml/[camlimages](http://gallium.inria.fr/camlimages) | An image manipulation library for ocaml
 * dev-ml/[camomile](https://github.com/yoriyuki/Camomile) | Camomile is a comprehensive Unicode library for ocaml
@@ -253,7 +258,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-ml/[ocaml-xmlplaylist](https://github.com/savonet/ocaml-xmlplaylist) | OCaml module to parse various RSS playlist formats
 * dev-ml/[xmlm](http://erratique.ch/software/xmlm) | Ocaml XML manipulation module
 * dev-php/[scrypt]() | A PHP wrapper fo the scrypt hashing algorithm
-* dev-python/[GitPython](https://github.com/gitpython-developers/GitPython) | A python library used to interact with Git repositories
 * dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
 * dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 * dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
@@ -284,6 +288,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms) | DRY Django forms
 * dev-python/[django-debug-toolbar](https://github.com/django-debug-toolbar/django-debug-toolbar) | A configurable set of panels that display debug information
 * dev-python/[django-environ](https://github.com/joke2k/django-environ) | An environment variables to configure Django
+* dev-python/[django-fake-model](https://github.com/erm0l0v/django-fake-model) | A library for creating fake models in the unit tests
 * dev-python/[django-filter](https://github.com/carltongibson/django-filter) | Django application for filtering querysets
 * dev-python/[django-guardian](https://github.com/django-guardian/django-guardian) | An implementation of per object permissions for Django
 * dev-python/[django-jsonfield](https://github.com/dmkoch/django-jsonfield) | A Django field to store validated JSON in your model
@@ -339,6 +344,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[prance](https://github.com/jfinkhaeuser/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 * dev-python/[purl](https://github.com/codeinthehole/purl) | Simple Python URL class
 * dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
+* dev-python/[pystache](https://github.com/defunkt/pystache) | Mustache templating system for Python
 * dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
 * dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 * dev-python/[pytimeparse](https://github.com/wroberts/pytimeparse) | A library to parse time from human readable string
@@ -424,7 +430,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-gfx/[pingo-bin](https://css-ig.net/pingo) | Fast web image optimizer
 * media-gfx/[screencloud](https://screencloud.net) | Screenshot capturing and sharing tool over various services
 * media-gfx/[xgrabcolor](http://hugo.pereira.free.fr/software/index.php) | Qt-based basic color picker
+* media-libs/[bcmatroska2](https://gitlab.linphone.org/BC/public/bcmatroska2) | Matroska media container support
+* media-libs/[bv16-floatingpoint](https://gitlab.linphone.org/BC/public/external/bv16-floatingpoint) | BroadVoice 16 kbs codec
 * media-libs/[libqpsd](https://github.com/roniemartinez/libqpsd) | PSD & PSB Plugin for Qt/C++
+* media-libs/[mediastreamer2](https://gitlab.linphone.org/BC/public/mediastreamer2) | Mediastreaming library for telephony application
 * media-libs/[qt-heif](https://github.com/jakar/qt-heif-image-plugin) | Qt plugin for HEIF images
 * media-libs/[shine](https://github.com/toots/shine) | Fixed-point mp3 encoding library
 * media-radio/[krudio](https://github.com/loast/krudio) | Radio tray for linux on QT
@@ -450,7 +459,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * net-im/[viber-bin](http://www.viber.com) | Free text and calls
 * net-im/[vk-messenger-bin](https://vk.com/messenger) | Simple and Easy App for Messaging on VK
 * net-im/[zoom-bin](https://zoom.us) | Video conferencing and web conferencing service
-* net-libs/[bctoolbox](https://github.com/BelledonneCommunications/bctoolbox) | Utilities library used by Belledonne Communications softwares
+* net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox) | Utilities library used by Belledonne Communications softwares
+* net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp) | Media Path Key Agreement for Unicast Secure RTP
+* net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp) | Open Real-time Transport Protocol (RTP, RFC3550) stack
 * net-misc/[comcast](https://github.com/tylertreat/Comcast) | Network problems simulator
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/dhcdrop.svg)](https://repology.org/metapackage/dhcdrop) net-misc/[dhcdrop](http://www.netpatch.ru/dhcdrop.html) | Effectively suppresses illegal DHCP servers on the LAN
 * net-misc/[dnsflood](https://github.com/hawell/dns-flood) | Use raw sockets to generate DNS flood attack
@@ -478,6 +489,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * net-p2p/[tremotesf](https://github.com/equeim/tremotesf2) | A remote GUI for transmission
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-214969-red.svg)](https://bugs.gentoo.org/214969) net-p2p/[opentracker](https://github.com/flygoast/opentracker) | High-performance bittorrent tracker
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/resilio-sync.svg)](https://repology.org/metapackage/resilio-sync) net-p2p/[resilio-sync](https://resilio.com) | Resilient, fast and scalable file synchronization tool
+* net-voip/[linphone-desktop](https://gitlab.linphone.org/BC/public/linphone-desktop) | A free VoIP and video softphone based on the SIP protocol
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-498844-red.svg)](https://bugs.gentoo.org/498844) net-vpn/[softether](http://www.softether.org/) | Multi-protocol VPN software
 * sci-visualization/[visidata](https://github.com/saulpw/visidata) | Terminal spreadsheet multitool for discovering and arranging data
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/ethq.svg)](https://repology.org/metapackage/ethq) sys-apps/[ethq](https://github.com/isc-projects/ethq) | Ethernet NIC Queue stats viewer
@@ -500,4 +512,3 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * x11-misc/[logkeys](https://github.com/kernc/logkeys) | A Linux keylogger
 * x11-misc/[openrazer](https://openrazer.github.io) | Linux drivers for the Razer devices
 * x11-misc/[RazerGenie](https://github.com/z3ntu/RazerGenie) | Razer devices configurator
-* dev-python/[django-fake-model](https://github.com/erm0l0v/django-fake-model) | A library for creating fake models in the unit tests

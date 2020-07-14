@@ -5,26 +5,26 @@ EAPI=7
 
 inherit cmake
 
-DESCRIPTION="BC Unit Test Framework"
-HOMEPAGE="https://github.com/BelledonneCommunications/bcunit"
+DESCRIPTION="Media Path Key Agreement for Unicast Secure RTP"
+HOMEPAGE="https://gitlab.linphone.org/BC/public/bzrtp"
 SRC_URI="https://github.com/BelledonneCommunications/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2"
-SLOT="0"
+LICENSE="GPL-3"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc examples ncurses static-libs test"
-RESTRICT="test" # fails
+SLOT="0"
+IUSE="sqlite static-libs test"
+RESTRICT="!test? ( test )"
 
-RDEPEND="ncurses? ( sys-libs/ncurses:0= )"
+RDEPEND="net-libs/bctoolbox[test?]
+	sqlite? ( dev-db/sqlite:3
+		dev-libs/libxml2:2 )"
 DEPEND="${RDEPEND}"
 
 src_configure() {
 	local mycmakeargs=(
-		-DENABLE_CURSES="$(usex ncurses)"
-		-DENABLE_DOC="$(usex doc)"
-		-DENABLE_EXAMPLES="$(usex examples)"
 		-DENABLE_STATIC="$(usex static-libs)"
-		-DENABLE_TEST="$(usex test)"
+		-DENABLE_TESTS="$(usex test)"
+		-DENABLE_ZIDCACHE="$(usex sqlite)"
 	)
 
 	cmake_src_configure

@@ -10,12 +10,15 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	BCUnit is a fork of the defunct project CUnit, with several fixes and
-	patches applied. CUnit is a Unit testing framework for C,
-	provides various interfaces to the framework.
+	Belr is Belledonne Communications' language recognition library,
+	written in C++11. It parses text inputs formatted according to
+	a language defined by an ABNF grammar, such as the protocols
+	standardized at IETF.
 	</longdescription>
+	<use>
+		<flag name="tools">Build tools</flag>
+	</use>
 	<upstream>
-		<remote-id type="gitlab">BC/public/bcunit</remote-id>
-		<remote-id type="github">BelledonneCommunications/bcunit</remote-id>
+		<remote-id type="github">BelledonneCommunications/belr</remote-id>
 	</upstream>
 </pkgmetadata>

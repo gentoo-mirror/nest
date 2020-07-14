@@ -3,10 +3,10 @@
 
 EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="Utilities library used by Belledonne Communications softwares"
-HOMEPAGE="https://github.com/BelledonneCommunications/bctoolbox"
+HOMEPAGE="https://gitlab.linphone.org/BC/public/bctoolbox"
 SRC_URI="https://github.com/BelledonneCommunications/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
@@ -17,8 +17,14 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="ssl? ( net-libs/mbedtls )"
 DEPEND="${RDEPEND}"
-BDEPEND="virtual/pkgconfig
-	test? ( dev-util/bcunit )"
+BDEPEND="test? ( dev-util/bcunit )"
+
+src_prepare() {
+	sed -i 's/CU_automated_enable_partial_junit/CU_automated_enable_junit_xml/' \
+		src/tester.c || die "sed failed for src/tester.c"
+
+	cmake_src_prepare
+}
 
 src_configure() {
 	local mycmakeargs=(
@@ -29,5 +35,5 @@ src_configure() {
 		-DENABLE_TESTS="$(usex test ON OFF)"
 	)
 
-	cmake-utils_src_configure
+	cmake_src_configure
 }

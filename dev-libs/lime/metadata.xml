@@ -10,12 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	BCUnit is a fork of the defunct project CUnit, with several fixes and
-	patches applied. CUnit is a Unit testing framework for C,
-	provides various interfaces to the framework.
+	An end-to-end encryption library for one-to-one and
+	group instant messaging, allowing users to exchange messages
+	privately and asynchronously. It uses modern ciphering curve X448 and
+	double ratchet algorithm for perfect forward secrecy.
 	</longdescription>
 	<upstream>
-		<remote-id type="gitlab">BC/public/bcunit</remote-id>
-		<remote-id type="github">BelledonneCommunications/bcunit</remote-id>
+		<remote-id type="github">BelledonneCommunications/lime</remote-id>
 	</upstream>
 </pkgmetadata>
