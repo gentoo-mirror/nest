@@ -1,14 +1,14 @@
 BDEPEND=dev-util/ninja dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=ncurses? ( sys-libs/ncurses:0= )
-DESCRIPTION=BC Unit Test Framework
+DEPEND=net-libs/bctoolbox[test?] sys-libs/zlib:= zeroconf? ( net-dns/avahi[mdnsresponder-compat] )
+DESCRIPTION=SIP (RFC3261) implementation
 EAPI=7
-HOMEPAGE=https://github.com/BelledonneCommunications/bcunit
-IUSE=doc examples ncurses static-libs test
-LICENSE=GPL-2
+HOMEPAGE=https://github.com/BelledonneCommunications/belle-sip
+IUSE=static-libs test zeroconf
+LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=ncurses? ( sys-libs/ncurses:0= )
+RDEPEND=net-libs/bctoolbox[test?] sys-libs/zlib:= zeroconf? ( net-dns/avahi[mdnsresponder-compat] )
 RESTRICT=test
 SLOT=0
 _eclasses_=cmake	19b0421555865baefd505831dd4303e3	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	8ec5b53812bce105ae7943930e4660f8	multilib	2477ebe553d3e4d2c606191fe6c33602	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
-_md5_=4579367eb80b5a0c73d9e7ffec34748f
+_md5_=6f67705598dfbf4305b6c96b623102de

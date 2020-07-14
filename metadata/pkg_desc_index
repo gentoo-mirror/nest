@@ -60,6 +60,7 @@ app-office/drawio-desktop-bin 13.0.1 13.0.3 13.3.5: Diagram drawing application 
 app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
 app-shells/peco 0.5.7 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
+dev-cpp/belr 4.4.0 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
@@ -73,6 +74,7 @@ dev-db/pgcenter 0.6.5 9999: Command-line admin tool for observing and troublesho
 dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 0.6.0 9999: Anonymization & Data Masking for PostgreSQL
+dev-db/soci 4.0.0 9999: Database access library for C++
 dev-haskell/adjunctions 4.4: Adjunctions and representable functors
 dev-haskell/aeson 1.4.6.0: Fast JSON parsing and encoding
 dev-haskell/ansi-terminal 0.10.2: Simple ANSI terminal support, with Windows compatibility
@@ -161,9 +163,13 @@ dev-haskell/websockets 0.12.7.0: Allows you to write WebSocket-capable servers
 dev-haskell/wl-pprint-annotated 0.1.0.1: Pretty printer with annotations
 dev-haskell/x509 1.7.5: X509 reader and writer
 dev-haskell/x509-store 1.6.7: X.509 collection accessing and storing methods
+dev-libs/belcard 4.4.0 9999: VCard standard format manipulation library
+dev-libs/belle-sip 4.4.0 9999: SIP (RFC3261) implementation
 dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
+dev-libs/liblinphone 4.4.0 9999: SIP library supporting voice/video calls and text messaging
+dev-libs/lime 4.4.0 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/loki 0.1.7: C++ library of common design patterns and idioms
 dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
 dev-lua/lyaml 6.1: LibYAML binding for Lua
@@ -209,7 +215,6 @@ dev-ml/ocaml-xmlplaylist 0.1.4 9999: OCaml module to parse various RSS playlist 
 dev-ml/ocamlnet 4.1.6 9999: Modules for OCaml application-level Internet protocols
 dev-ml/xmlm 1.3.0 9999: Ocaml XML manipulation module
 dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
-dev-python/GitPython 3.0.7 9999: A python library used to interact with Git repositories
 dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.3.6 9999: Library of astronomical algorithms in Python
 dev-python/PythonQt 3.2 3.2-r1 9999: A dynamic Python binding for the Qt framework
@@ -292,6 +297,7 @@ dev-python/port-for 0.4 9999: An utility and python library for TCP ports manage
 dev-python/prance 0.19.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/purl 1.5 9999: Simple Python URL class
 dev-python/pykickstart 3.16.11 9999: Python library for reading and writing kickstart files
+dev-python/pystache 0.5.4 9999: Mustache templating system for Python
 dev-python/pytest-django 3.8.0 3.9.0 9999: A Django plugin for py.test
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/python-crontab 2.4.0 9999: Crontab module for reading and writing crontab files
@@ -367,7 +373,10 @@ media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
 media-gfx/qView 2.0 9999: Practical and minimal image viewer
 media-gfx/screencloud 1.5.1 9999: Screenshot capturing and sharing tool over various services
 media-gfx/xgrabcolor 1.4.6: Qt-based basic color picker
+media-libs/bcmatroska2 0.23 9999: Matroska media container support
+media-libs/bv16-floatingpoint 1.2 9999: BroadVoice 16 kbs codec
 media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
+media-libs/mediastreamer2 4.4.0 9999: Mediastreaming library for telephony application
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999: Radio tray for linux on QT
@@ -393,7 +402,9 @@ net-im/slack 4.4.3: Team collaboration tool
 net-im/viber-bin 12.0.0.7: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
 net-im/zoom-bin 5.0.408598.0517 5.1.412382.0614: Video conferencing and web conferencing service
-net-libs/bctoolbox 4.3.1 9999: Utilities library used by Belledonne Communications softwares
+net-libs/bctoolbox 4.3.1 4.4.0 9999: Utilities library used by Belledonne Communications softwares
+net-libs/bzrtp 4.4.0 9999: Media Path Key Agreement for Unicast Secure RTP
+net-libs/ortp 4.4.0 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
@@ -421,6 +432,7 @@ net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.4.0 1.6.0 9999: A remote GUI for transmission
+net-voip/linphone-desktop 4.2.1 9999: A free VoIP and video softphone based on the SIP protocol
 net-vpn/softether 4.08_p9449 4.17_beta9562 4.25_p9656 4.27_beta9668 9999: Multi-protocol VPN software
 sci-visualization/visidata 1.5.2 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer
