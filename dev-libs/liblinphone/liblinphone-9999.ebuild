@@ -20,7 +20,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 RESTRICT="!test? ( test )"
 
 RDEPEND="dev-cpp/belr
-	dev-cpp/xsd
+	~dev-cpp/xsd-4.0.0
 	dev-db/sqlite:3
 	dev-db/soci
 	dev-libs/belcard
@@ -41,10 +41,10 @@ RDEPEND="dev-cpp/belr
 DEPEND="${RDEPEND}"
 BDEPEND="${PYTHON_DEPS}
 	app-doc/doxygen[dot]
+	dev-python/pystache[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
 	dev-vcs/git
-	doc? (  dev-python/pystache[${PYTHON_USEDEP}]
-		dev-python/six[${PYTHON_USEDEP}]
-		dev-python/sphinx[${PYTHON_USEDEP}] )"
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 src_configure() {
 	local mycmakeargs=(
