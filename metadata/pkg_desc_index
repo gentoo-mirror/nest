@@ -165,6 +165,7 @@ dev-haskell/x509 1.7.5: X509 reader and writer
 dev-haskell/x509-store 1.6.7: X.509 collection accessing and storing methods
 dev-libs/belcard 4.4.0 9999: VCard standard format manipulation library
 dev-libs/belle-sip 4.4.0 9999: SIP (RFC3261) implementation
+dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
 dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
@@ -172,6 +173,7 @@ dev-libs/liblinphone 4.4.0 9999: SIP library supporting voice/video calls and te
 dev-libs/lime 4.4.0 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/loki 0.1.7: C++ library of common design patterns and idioms
 dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
+dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
 dev-lua/lyaml 6.1: LibYAML binding for Lua
 dev-ml/camlimages 4.2.6 5.0.1: An image manipulation library for ocaml
 dev-ml/camomile 1.0.2 9999: Camomile is a comprehensive Unicode library for ocaml
@@ -433,6 +435,7 @@ net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.4.0 1.6.0 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.2.1 9999: A free VoIP and video softphone based on the SIP protocol
+net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/softether 4.08_p9449 4.17_beta9562 4.25_p9656 4.27_beta9668 9999: Multi-protocol VPN software
 sci-visualization/visidata 1.5.2 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer

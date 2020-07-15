@@ -88,6 +88,13 @@ dev-libs/libdigidocpp:utils - install command-line utility
 dev-libs/liblinphone:tools - Build tools
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c
+dev-libs/zrtpcpp:axo - Build Axolotl support
+dev-libs/zrtpcpp:ccrtp - Build GNU ccRTP client
+dev-libs/zrtpcpp:core - Build core client
+dev-libs/zrtpcpp:empty - Build empty (no cache) backend
+dev-libs/zrtpcpp:sdes - Build with SDES
+dev-libs/zrtpcpp:sqlcipher - Build SQLCipher backed for cache
+dev-libs/zrtpcpp:tivi - Build tivi client
 dev-ml/ocaml-alsa:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-alsa:profiling - Build support for profiling
 dev-ml/ocaml-ao:camlp4 - Enable camlp4 syntax extension
@@ -252,6 +259,9 @@ net-p2p/opentracker:persistence - Allow saving torrents and peers information on
 net-p2p/opentracker:restrict_stats - Restrict statistics to the tracker owner
 net-p2p/opentracker:spot_woodpeckers - Enable tracking of abusing peers
 net-p2p/opentracker:whitelist - Make use of a torrents white-list
+net-voip/twinkle:g729 - Support for ITU G729 Annex A/B speech codec via media-libs/bcg729
+net-voip/twinkle:ilbc - Support for iLBC de/encoding via dev-libs/ilbc-rfc3951
+net-voip/twinkle:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
 net-vpn/softether:bridge - Enable install of SoftEther VPN bridge
 net-vpn/softether:client - Enable install of SoftEther VPN client
 net-vpn/softether:cmd - Enable install of SoftEther VPN cmd

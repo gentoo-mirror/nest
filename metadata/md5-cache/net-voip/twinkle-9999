@@ -1,0 +1,13 @@
+BDEPEND=dev-qt/linguist-tools:5 sys-devel/bison sys-devel/flex dev-util/ninja dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
+DEPEND=dev-cpp/commoncpp2 dev-libs/libxml2:2 dev-libs/ucommon dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols2:5 dev-qt/qtwidgets:5 media-libs/libsndfile sys-libs/readline:= g729? ( media-libs/bcg729 ) gsm? ( media-sound/gsm ) ilbc? ( dev-libs/ilbc-rfc3951 ) speex? ( media-libs/speex media-libs/speexdsp ) zrtp? ( dev-libs/zrtpcpp ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Softphone for voice over IP and IM communication using SIP
+EAPI=7
+HOMEPAGE=https://github.com/LubosD/twinkle
+IUSE=alsa g729 gsm ilbc speex zrtp
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-cpp/commoncpp2 dev-libs/libxml2:2 dev-libs/ucommon dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols2:5 dev-qt/qtwidgets:5 media-libs/libsndfile sys-libs/readline:= g729? ( media-libs/bcg729 ) gsm? ( media-sound/gsm ) ilbc? ( dev-libs/ilbc-rfc3951 ) speex? ( media-libs/speex media-libs/speexdsp ) zrtp? ( dev-libs/zrtpcpp )
+SLOT=0
+_eclasses_=cmake	19b0421555865baefd505831dd4303e3	eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	git-r3	8ec5b53812bce105ae7943930e4660f8	multilib	2477ebe553d3e4d2c606191fe6c33602	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=5abe59d87046932e12b6639652b252f9
