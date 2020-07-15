@@ -1,0 +1,14 @@
+BDEPEND=dev-util/build dev-util/cli doc? ( app-doc/doxygen )
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/xerces-c dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib:= )
+DESCRIPTION=A cross-platform W3C XML Schema to C++ data binding compiler
+EAPI=7
+HOMEPAGE=https://www.codesynthesis.com/products/xsd
+IUSE=doc examples test zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/xerces-c dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib:= )
+SLOT=0
+SRC_URI=https://www.codesynthesis.com/download/xsd/4.0/xsd-4.0.0.tar.bz2
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=352e7774db6b12ca570753bad0b04b7b

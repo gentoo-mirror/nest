@@ -63,7 +63,7 @@ app-text/keening 0.2: A simple command line pastebin designed to be used togethe
 dev-cpp/belr 4.4.0 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
-dev-cpp/xsd 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
+dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/mssql-cli 0.18.0 9999: CLI for SQL Server Database
 dev-db/odyssey 9999: Scalable PostgreSQL connection pooler
 dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
