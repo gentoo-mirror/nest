@@ -418,6 +418,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[xxd](https://github.com/vim/vim) | Hexdump utility from vim
 * dev-util/[yamllint](https://github.com/adrienverge/yamllint) | A linter for YAML files
 * dev-vcs/[commitizen](https://github.com/Woile/commitizen) | Python commitizen client tool
+* dev-vcs/[gitaly](https://gitlab.com/gitlab-org/gitaly) | Git RPC service for handling GitLab git calls
 * dev-vcs/[gitlint](https://github.com/jorisroovers/gitlint) | Git commit message linter
 * dev-vcs/[mercurial-extension_utils](https://bitbucket.org/Mekk/mercurial-extension_utils) | Mercurial Extension Utils
 * dev-vcs/[mercurial-keyring](https://bitbucket.org/Mekk/mercurial_keyring) | Mercurial Keyring Extension
@@ -509,7 +510,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * www-apps/[netbox](https://github.com/netbox-community/netbox) | IP address and data center infrastructure management tool
 * www-apps/[webui-aria2](https://github.com/ziahamza/webui-aria2) | The worlds best and hottest interface to interact with aria2
 * www-plugins/[chrome-token-signing](https://github.com/open-eid/chrome-token-signing) | Native client and extension for signing with your eID on the web
-* www-servers/[gitlab-gitaly](https://gitlab.com/gitlab-org/gitaly) | Gitaly is a Git RPC service for handling GitLab git calls
 * www-servers/[gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse) | GitLab reverse proxy
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/libinput-gestures.svg)](https://repology.org/metapackage/libinput-gestures) x11-misc/[libinput-gestures](https://github.com/bulletmark/libinput-gestures) | Actions gestures on your touchpad using libinput
 * x11-misc/[logkeys](https://github.com/kernc/logkeys) | A Linux keylogger

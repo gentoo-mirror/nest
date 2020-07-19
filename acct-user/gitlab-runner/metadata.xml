@@ -9,14 +9,4 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
-	<longdescription lang="en">
-	GitLab Runner is the open source project that is used to run your
-	CI/CD jobs and send the results back to GitLab
-	</longdescription>
-	<use>
-		<flag name="docker">Add support for docker executors</flag>
-	</use>
-	<upstream>
-		<remote-id type="gitlab">gitlab-org/gitlab-runner</remote-id>
-	</upstream>
 </pkgmetadata>

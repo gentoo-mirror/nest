@@ -10,7 +10,9 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A fast Git RPC service for handling all git calls for Gitlab.
+	As of GitLab 11.5, almost all application code accesses Git repositories
+	through Gitaly (fast Git RPC service for handling all git calls for Gitlab)
+	instead of direct disk access.
 	</longdescription>
 	<upstream>
 		<remote-id type="gitlab">gitlab-org/gitaly</remote-id>
