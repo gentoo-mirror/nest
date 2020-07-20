@@ -241,23 +241,23 @@ net-misc/topola:base - Use the upstream provided base package
 net-misc/topola:licensed-bin - Use the upstream provided licensed binary package
 net-misc/topola:taremote - TopolA remote agent
 net-misc/topola:unlicensed-bin - Use the upstream provided unlicensed binary package
-net-misc/virtualhere-usb-bin:client - Install client
-net-misc/virtualhere-usb-bin:gui - Install GUI client
-net-misc/virtualhere-usb-bin:server - Install server
+net-misc/virtualhere-usb:client - Install client
+net-misc/virtualhere-usb:gui - Install GUI client
+net-misc/virtualhere-usb:server - Install server
 net-p2p/opentracker:blacklist - Make use of a torrents black-list
 net-p2p/opentracker:fullscrapes - Allow query a tracker for all tracked torrents
-net-p2p/opentracker:fullscrapes_modest - Enable limiting fullscrapes to only every 5 minutes per IP
-net-p2p/opentracker:gzip_always - Enforce gzip compressed full scrapes even if client did not request it
+net-p2p/opentracker:fullscrapes-modest - Enable limiting fullscrapes to only every 5 minutes per IP
+net-p2p/opentracker:gzip-always - Enforce gzip compressed full scrapes even if client did not request it
 net-p2p/opentracker:httpdebug - Enable human-readable http debug interface
-net-p2p/opentracker:ip_from_proxy - Accept source IP from proxy
-net-p2p/opentracker:ip_from_query - Accept source IP only from query (debugging purposes only)
-net-p2p/opentracker:live_sync - Allow synchronisation between several instances through multicast
-net-p2p/opentracker:live_sync_unicast - Allow synchronisation between several instances through unicast
-net-p2p/opentracker:log_networks_full - Add some subnet debugging features
-net-p2p/opentracker:log_numwant - Log amount of numwants
+net-p2p/opentracker:ip-from-proxy - Accept source IP from proxy
+net-p2p/opentracker:ip-from-query - Accept source IP only from query (debugging purposes only)
+net-p2p/opentracker:live-sync - Allow synchronisation between several instances through multicast
+net-p2p/opentracker:live-sync-unicast - Allow synchronisation between several instances through unicast
+net-p2p/opentracker:log-networks-full - Add some subnet debugging features
+net-p2p/opentracker:log-numwant - Log amount of numwants
 net-p2p/opentracker:persistence - Allow saving torrents and peers information on disk
-net-p2p/opentracker:restrict_stats - Restrict statistics to the tracker owner
-net-p2p/opentracker:spot_woodpeckers - Enable tracking of abusing peers
+net-p2p/opentracker:restrict-stats - Restrict statistics to the tracker owner
+net-p2p/opentracker:spot-woodpeckers - Enable tracking of abusing peers
 net-p2p/opentracker:whitelist - Make use of a torrents white-list
 net-voip/twinkle:g729 - Support for ITU G729 Annex A/B speech codec via media-libs/bcg729
 net-voip/twinkle:ilbc - Support for iLBC de/encoding via dev-libs/ilbc-rfc3951

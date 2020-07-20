@@ -1,12 +1,32 @@
 acct-group/ddnsr53 0: System group: ddnsr53
+acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
+acct-group/netgauge 0: System group: netgauge
+acct-group/opentracker 0: System group: opentracker
+acct-group/passivedns 0: System group: passivedns
+acct-group/redir 0: System group: redir
 acct-group/rslsync 0: System group: rslsync
+acct-group/samplicator 0: System group: samplicator
+acct-group/spoofer 0: System group: spoofer
+acct-group/ssmd 0: System group: ssmd
+acct-group/uredir 0: System group: uredir
+acct-group/vhusb 0: System group: vhusb
 acct-group/vmware 0: System group: vmware
 acct-user/ddnsr53 0: System user: ddnsr53
+acct-user/fiche 0: System user: fiche
 acct-user/gitlab-gitaly 0: System user: gitlab-gitaly
 acct-user/gitlab-runner 0: System user: gitlab-runner
 acct-user/gitlab-workhorse 0: System user: gitlab-workhorse
+acct-user/netgauge 0: System user: netgauge
+acct-user/opentracker 0: System user: opentracker
+acct-user/passivedns 0: System user: passivedns
+acct-user/redir 0: System user: redir
 acct-user/rslsync 0: System user: rslsync
+acct-user/samplicator 0: System user: samplicator
+acct-user/spoofer 0: System user: spoofer
+acct-user/ssmd 0: System user: ssmd
+acct-user/uredir 0: System user: uredir
+acct-user/vhusb 0: System user: vhusb
 app-admin/ansible-lint 4.2.0 9999: Best practices checker for Ansible
 app-admin/aws-vault 5.4.4 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and usage
@@ -390,15 +410,15 @@ media-radio/krudio 9999: Radio tray for linux on QT
 media-radio/liquidsoap 1.3.1 1.3.7 1.4.0_beta2 9999: A swiss-army knife for multimedia streaming, used for netradios and webtvs
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
 net-analyzer/goaccess 1.3 9999: A real-time web log analyzer and interactive viewer in a terminal
-net-analyzer/logswan 1.07 2.0.3 9999: Web log analyzer using probabilistic data structures
+net-analyzer/logswan 2.1.6 9999: Web log analyzer using probabilistic data structures
 net-analyzer/netgauge 9999: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/nuttcp 8.1.4 8.2.2: Network performance measurement tool
-net-analyzer/passivedns 1.2.0 9999: Network sniffer that logs all DNS server replies
+net-analyzer/passivedns 1.2.1 9999: Network sniffer that logs all DNS server replies
 net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
 net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
 net-dns/ddns-route53 1.9.1 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
 net-dns/flares 2.3.2 9999: CloudFlare DNS backup tool
-net-dns/inadyn-mt 02.28.06 02.28.10: A simple dynamic DNS client
+net-dns/inadyn-mt 02.28.10 9999: A simple dynamic DNS client
 net-dns/massdns 0.3 9999: A high-performance DNS stub resolver
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
@@ -415,30 +435,30 @@ net-libs/ortp 4.4.0 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
-net-misc/fiche 0.9 0.9.1 9999: Command line pastebin server
+net-misc/fiche 0.9.1 9999: Command line pastebin server
 net-misc/mpssh 1.3.3 9999: Mass parallel ssh
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
 net-misc/opendrop 0.10.2 9999: an Open Source AirDrop Implementation
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
 net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
 net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
-net-misc/redir 3.0 3.2 9999: TCP port redirector
+net-misc/redir 3.3 9999: TCP port redirector
 net-misc/rstatd 4.0.1: Client-server linux performance statistics
 net-misc/s5cmd 1.0.0 9999: Parallel S3 and local filesystem execution tool
 net-misc/samplicator 1.3.6 1.3.8_rc1 9999: UDP packets forwarder and duplicator
 net-misc/slowhttptest 1.7 9999: Application Layer DoS attack simulator
-net-misc/spoofer 1.3.2 1.4.2: A tool to assess of deployment of source address validation
+net-misc/spoofer 1.4.5: A tool to assess of deployment of source address validation
 net-misc/ssmd 9999: SNMP Switch Management Daemon
 net-misc/stargazer 2.408 2.409_rc4: Billing system for small home and office networks
 net-misc/topola 5.35.06 5.36.07: Customer accounting system, services and statistics collection management
-net-misc/uredir 3.2 9999: UDP port redirector
-net-misc/virtualhere-usb-bin 9999: Share USB devices over the network
+net-misc/uredir 3.3 9999: UDP port redirector
+net-misc/virtualhere-usb 9999: Share USB devices over the network
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
 net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable file synchronization tool
-net-p2p/tremotesf 1.4.0 1.6.0 9999: A remote GUI for transmission
+net-p2p/tremotesf 1.7.1 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.2.1 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/softether 4.08_p9449 4.17_beta9562 4.25_p9656 4.27_beta9668 9999: Multi-protocol VPN software

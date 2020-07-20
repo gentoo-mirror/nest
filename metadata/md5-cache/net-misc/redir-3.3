@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=configure install postinst
+DEPEND=tcpd? ( sys-apps/tcp-wrappers )
+DESCRIPTION=TCP port redirector
+EAPI=7
+HOMEPAGE=https://github.com/troglobit/redir
+IUSE=+ftp +shaper tcpd xinetd
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=acct-user/redir xinetd? ( sys-apps/xinetd ) virtual/tmpfiles
+SLOT=0
+SRC_URI=https://github.com/troglobit/redir/releases/download/v3.3/redir-3.3.tar.xz
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=7cf0f775482d58428b59e2721e35e815

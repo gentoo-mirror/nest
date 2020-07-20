@@ -1,13 +1,13 @@
-DEFINED_PHASES=install prepare setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
+DEFINED_PHASES=install prepare unpack
 DESCRIPTION=High-performance bittorrent tracker
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/flygoast/opentracker http://erdgeist.org/arts/software/opentracker/
-IUSE=blacklist debug +gzip gzip_always httpdebug ip_from_query ip_from_proxy ipv6 +fullscrapes fullscrapes_modest live_sync live_sync_unicast log_networks_full log_numwant persistence restrict_stats spot_woodpeckers syslog whitelist
+IUSE=blacklist debug +gzip gzip-always httpdebug ip-from-query ip-from-proxy ipv6 +fullscrapes fullscrapes-modest live-sync live-sync-unicast log-networks-full log-numwant persistence restrict-stats spot-woodpeckers syslog whitelist
 LICENSE=BEER-WARE
 PROPERTIES=live
-RDEPEND=dev-libs/libowfat gzip? ( sys-libs/zlib )
-REQUIRED_USE=blacklist? ( !whitelist ) gzip_always? ( gzip ) gzip? ( fullscrapes ) live_sync_unicast? ( live_sync ) persistence? ( !ipv6 )
+RDEPEND=acct-user/opentracker dev-libs/libowfat gzip? ( sys-libs/zlib )
+REQUIRED_USE=blacklist? ( !whitelist ) gzip-always? ( gzip ) gzip? ( fullscrapes ) live-sync-unicast? ( live-sync ) persistence? ( !ipv6 )
 SLOT=0
-_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	8ec5b53812bce105ae7943930e4660f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	user	7b7fc6ec5eb1c1eee55b0609f01e7362	user-info	a2abd4e2f4c3b9b06d64bf1329359a02	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=73e8e22ce629a528fd71470d849d1314
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	multilib	2477ebe553d3e4d2c606191fe6c33602	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=08aca2c9fb723948127c56e1d224f371
