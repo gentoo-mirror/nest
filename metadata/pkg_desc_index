@@ -1,6 +1,7 @@
 acct-group/ddnsr53 0: System group: ddnsr53
 acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
+acct-group/inadyn 0: System group: inadyn
 acct-group/netgauge 0: System group: netgauge
 acct-group/opentracker 0: System group: opentracker
 acct-group/passivedns 0: System group: passivedns
@@ -17,6 +18,7 @@ acct-user/fiche 0: System user: fiche
 acct-user/gitlab-gitaly 0: System user: gitlab-gitaly
 acct-user/gitlab-runner 0: System user: gitlab-runner
 acct-user/gitlab-workhorse 0: System user: gitlab-workhorse
+acct-user/inadyn 0: System user: inadyn
 acct-user/netgauge 0: System user: netgauge
 acct-user/opentracker 0: System user: opentracker
 acct-user/passivedns 0: System user: passivedns
