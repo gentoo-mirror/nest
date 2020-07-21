@@ -170,7 +170,6 @@ dev-util/cloud-utils:fat - Enable FAT support
 dev-util/cloud-utils:iso - Enable ISO9660 support
 dev-util/cloud-utils:qemu - Enable QEMU stuff
 dev-util/gitlab-runner:docker - Add support for docker executors
-dev-util/testmace-bin:pax_kernel - Triggers a paxmarking of the binary
 media-gfx/nomacs:heif - Build support for media-libs/libheif
 media-gfx/nomacs:opencv - Build support for media-libs/opencv
 media-gfx/nomacs:plugins - Build support for plugins
