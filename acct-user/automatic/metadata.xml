@@ -9,12 +9,4 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
-	<longdescription lang="en">
-	Backported, durable, and portable selectors designed to replace
-	the standard library selectors module
-	</longdescription>
-	<upstream>
-		<remote-id type="github">SethMichaelLarson/selectors2</remote-id>
-		<remote-id type="pypi">selectors2</remote-id>
-	</upstream>
 </pkgmetadata>

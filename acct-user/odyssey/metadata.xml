@@ -9,13 +9,4 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
-	<longdescription lang="en">
-	A modern powerful crossplatform tool for working with an API
-	and creating automated API tests
-	It is able to create requests and scenarios using variables,
-	authentication, autocomplete feature and syntax highlighting.
-	</longdescription>
-	<upstream>
-		<remote-id type="github">TestMace/TestMace-issues</remote-id>
-	</upstream>
 </pkgmetadata>
