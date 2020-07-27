@@ -436,7 +436,7 @@ net-firewall/ipt-ratelimit 0.3.1 9999: Ratelimit iptables module
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
 net-im/slack 4.4.3 4.7.0: Team collaboration tool
-net-im/viber-bin 12.0.0.7: Free text and calls
+net-im/viber 13.3.1.22: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
 net-im/zoom-bin 5.0.408598.0517 5.1.412382.0614: Video conferencing and web conferencing service
 net-libs/bctoolbox 4.3.1 4.4.0 9999: Utilities library used by Belledonne Communications softwares
