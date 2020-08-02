@@ -3,19 +3,18 @@
 
 EAPI=7
 
-MY_PN="${PN/-bin/}"
 MULTILIB_COMPAT=( abi_x86_64 )
 
 inherit desktop multilib-build pax-utils xdg
 
 DESCRIPTION="Powerful IDE to work with API"
 HOMEPAGE="https://testmace.com"
-SRC_URI="https://s3.amazonaws.com/testmacedownload/TestMace.AppImage"
+SRC_URI="https://download.testmace.com/TestMace.AppImage"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="+abi_x86_64"
 RESTRICT="bindist mirror"
 
 RDEPEND="app-accessibility/at-spi2-atk:2[${MULTILIB_USEDEP}]
@@ -81,7 +80,9 @@ src_install() {
 
 	insinto /opt/TestMace
 	doins -r squashfs-root/.
-	fperms +x /opt/TestMace/testmace
+	fperms -R +x /opt/TestMace/testmace /opt/TestMace/chrome-sandbox \
+		/opt/TestMace/libEGL.so /opt/TestMace/libGLESv2.so /opt/TestMace/libffmpeg.so \
+		/opt/TestMace/swiftshader/
 	dosym ../TestMace/testmace opt/bin/testmace
 
 	pax-mark -m "${ED}"/opt/TestMace/testmace

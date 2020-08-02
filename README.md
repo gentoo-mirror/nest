@@ -413,7 +413,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[ovftool](https://www.vmware.com/support/developer/ovf) | VMware Open Virtualization Format tool
 * dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
 * dev-util/[taskcat](https://github.com/aws-quickstart/taskcat) | An OpenSource Cloudformation Deployment Framework
-* dev-util/[testmace-bin](https://testmace.com) | Powerful IDE to work with API
+* dev-util/[testmace](https://testmace.com) | Powerful IDE to work with API
 * dev-util/[tickgit](https://github.com/augmentable-dev/tickgit) | Manage your repository's TODOs as config in your codebase
 * dev-util/[xxd](https://github.com/vim/vim) | Hexdump utility from vim
 * dev-util/[yamllint](https://github.com/adrienverge/yamllint) | A linter for YAML files
