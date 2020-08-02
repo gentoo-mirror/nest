@@ -81,7 +81,7 @@ app-emulation/vmware-workstation 15.5.2.15785246: Emulate a complete PC without 
 app-forensics/gitleaks 4.3.1 9999: Auditing git repository for secrets and keys
 app-metrics/do-agent 3.5.6 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
-app-misc/cheat 2.5.1 9999: Interactive cheatsheets on the command-line
+app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.4.4 9999: Interactive cryptocurrency monitor
 app-misc/deco 3.9.1: Demos Commander, a free Norton Commander clone
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
@@ -298,7 +298,7 @@ dev-python/django-taggit-serializer 0.1.7-r1 9999: Django Taggit Serializer Crea
 dev-python/django-timezone-field 4.0 9999: Django application for database and form fields for pytz objects
 dev-python/drf-yasg 1.17.1 9999: Yet another Swagger generator
 dev-python/factory_boy 2.12.0 9999: A fixtures replacement tool
-dev-python/fakeldap 0.6.1 9999: An implementation of a LDAPObject to fake a ldap server
+dev-python/fakeldap 0.6.2 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/faker 4.1.0 9999: Python package that generates fake data
 dev-python/filetype 1.0.5 9999: Infer file type and MIME type of any file/buffer
 dev-python/fleep 1.0.1 9999: File format determination library for Python

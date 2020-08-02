@@ -28,7 +28,6 @@ app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools
 app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
-app-misc/cheat:fish-completion - Enable fish completion support
 app-shells/fzf:fish-completion - Enable fish completion support
 app-shells/fzf:neovim - Install neovim plugin
 app-shells/fzf:tmux - Install TMUX extra tools
