@@ -388,7 +388,7 @@ dev-util/insomnia-bin 6.5.4 7.0.6: HTTP and GraphQL client for developers
 dev-util/ovftool 4.3.0.12320924 4.4.0.15722219: VMware Open Virtualization Format tool
 dev-util/packer 1.5.6 1.6.0 9999: A tool to create identical machine images for multiple platforms
 dev-util/taskcat 0.9.18 9999: An OpenSource Cloudformation Deployment Framework
-dev-util/testmace-bin 9999: Powerful IDE to work with API
+dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
 dev-util/yamllint 1.16.0 9999: A linter for YAML files
