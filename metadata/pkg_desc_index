@@ -1,3 +1,4 @@
+acct-group/aptly 0: System group: aptly
 acct-group/automatic 0: System group: automatic
 acct-group/ddnsr53 0: System group: ddnsr53
 acct-group/fiche 0: System group: fiche
@@ -16,6 +17,7 @@ acct-group/urbackup 0: System group: urbackup
 acct-group/uredir 0: System group: uredir
 acct-group/vhusb 0: System group: vhusb
 acct-group/vmware 0: System group: vmware
+acct-user/aptly 0: System user: aptly
 acct-user/automatic 0: System user: automatic
 acct-user/ddnsr53 0: System user: ddnsr53
 acct-user/fiche 0: System user: fiche
@@ -472,6 +474,7 @@ net-voip/linphone-desktop 4.2.1 9999: A free VoIP and video softphone based on t
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/softether 4.08_p9449 4.17_beta9562 4.25_p9656 4.27_beta9668 9999: Multi-protocol VPN software
 sci-visualization/visidata 1.5.2 9999: Terminal spreadsheet multitool for discovering and arranging data
+sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
 sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail security sandbox
