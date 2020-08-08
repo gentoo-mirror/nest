@@ -382,6 +382,8 @@ dev-python/yattag 1.13.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.22 9999: Automated testing for Ansible roles
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
+dev-util/cfn-guard 0.6.0_beta 9999: AWS CloudFormation Guard
+dev-util/cfn-guard-rulegen 0.6.0_beta 9999: AWS CloudFormation Guard Rule Generator
 dev-util/cfn-python-lint 0.31.1 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
 dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
