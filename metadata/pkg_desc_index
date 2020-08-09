@@ -380,6 +380,7 @@ dev-python/versionfinder 1.0.0 9999: Find version of python package, installed v
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.13.2 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 2.22 9999: Automated testing for Ansible roles
+dev-util/aws-config-rdk 0.7.10 9999: AWS Config Rules Development Kit
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-guard 0.6.0_beta 9999: AWS CloudFormation Guard
