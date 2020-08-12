@@ -159,6 +159,8 @@ dev-haskell/nats 1.1.2: Natural numbers
 dev-haskell/network-byte-order 0.1.2.0: Network byte order utilities
 dev-haskell/optparse-applicative 0.15.1.0: Utilities and combinators for parsing command line options
 dev-haskell/pipes 4.3.13: Compositional pipelines
+dev-haskell/postgresql-libpq 0.9.4.2: low-level binding to libpq
+dev-haskell/postgresql-simple 0.6.2: mid-level PostgreSQL client library
 dev-haskell/primitive 0.7.0.0: Primitive memory-related operations
 dev-haskell/profunctors 5.5.1: Profunctors
 dev-haskell/quickcheck 2.13.2: Automatic testing of Haskell programs
