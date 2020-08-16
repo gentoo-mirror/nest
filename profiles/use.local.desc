@@ -14,6 +14,7 @@ app-crypt/qesteidutil:crash-reporter - add support for submit crash information 
 app-crypt/qesteidutil:webcheck - add support for new version checking
 app-editors/qedit:aspell - Enable spellchecking using app-text/aspell
 app-emulation/looking-glass:host - Download Windows host application
+app-emulation/vmware-vmrc:standalone - Don't reuse files from VMware workstation install
 app-emulation/vmware-workstation:macos-guests - Support macOS guests
 app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally
 app-emulation/vmware-workstation:ovftool - Install Open Virtualization Format tool
