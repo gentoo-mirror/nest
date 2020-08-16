@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/fix-gnustack sys-libs/ncurses-compat:5 virtual/pkgconfig
+DEFINED_PHASES=install nofetch postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=VMware Remote Console
+EAPI=7
+HOMEPAGE=https://www.vmware.com/go/download-vmrc
+IUSE=standalone
+KEYWORDS=-* ~amd64
+LICENSE=vmware
+RDEPEND=app-emulation/vmware-workstation standalone? ( !app-emulation/vmware-workstation )
+RESTRICT=bindist fetch mirror
+SLOT=0
+SRC_URI=VMware-Remote-Console-11.2.0-16492666.x86_64.bundle
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multilib	2477ebe553d3e4d2c606191fe6c33602	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	systemd	71fd8d2065d102753fb9e4d20eaf3e9f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=eecba8cc604b09203100c684c28e41d5
