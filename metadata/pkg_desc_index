@@ -112,6 +112,7 @@ dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 0.6.0 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.0 9999: Database access library for C++
+dev-db/tableplus 0.1.62: Modern, native, and friendly GUI tool for relational databases
 dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 dev-haskell/clock 0.8: High-resolution clock functions
 dev-haskell/daemons 0.2.1 0.3.0: Daemons in Haskell made fun and easy

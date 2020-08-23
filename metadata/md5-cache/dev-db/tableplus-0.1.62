@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Modern, native, and friendly GUI tool for relational databases
+EAPI=7
+HOMEPAGE=https://tableplus.com
+KEYWORDS=-* ~amd64
+LICENSE=TablePlus
+RDEPEND=app-crypt/libsecret:0 app-crypt/mit-krb5:0 dev-libs/glib:2 dev-libs/json-glib:0 dev-libs/libgee:0.8 net-nds/openldap:0 x11-libs/cairo:0 x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3 x11-libs/gtksourceview:3.0 x11-libs/pango:0
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://deb.tableplus.com/debian/pool/main/t/tableplus/tableplus_0.1.62_amd64.deb
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multilib	2477ebe553d3e4d2c606191fe6c33602	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4
+_md5_=e47633d0dca8b2476718ac01fa33c24b
