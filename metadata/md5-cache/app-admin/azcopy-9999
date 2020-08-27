@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=A command-line utility to manage Azure Storage accounts
+EAPI=7
+HOMEPAGE=https://github.com/Azure/azure-storage-azcopy
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	go-module	45394825d9260b479aa1cf252ea58e01
+_md5_=b72fbf9bfb16d3938a35ce2e75e09ad2

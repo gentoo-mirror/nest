@@ -45,6 +45,7 @@ app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and u
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
+app-admin/azcopy 10.6.0 9999: A command-line utility to manage Azure Storage accounts
 app-admin/cli53 0.8.17 9999: Command line tool for Amazon Route 53
 app-admin/container-service-extension 2.6.0 9999: Container Service Extension for vCloud Director
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
