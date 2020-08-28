@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=HTTP and GraphQL client for developers
+EAPI=7
+HOMEPAGE=https://insomnia.rest
+IUSE=+abi_x86_64 appindicator abi_x86_64
+KEYWORDS=-* ~amd64
+LICENSE=MIT
+RDEPEND=app-accessibility/at-spi2-atk:2[abi_x86_64(-)?] dev-libs/atk:0[abi_x86_64(-)?] dev-libs/expat:0[abi_x86_64(-)?] dev-libs/glib:2[abi_x86_64(-)?] dev-libs/nspr:0[abi_x86_64(-)?] dev-libs/nss:0[abi_x86_64(-)?] media-libs/alsa-lib:0[abi_x86_64(-)?] media-libs/fontconfig:1.0[abi_x86_64(-)?] net-print/cups:0[abi_x86_64(-)?] sys-apps/dbus:0[abi_x86_64(-)?] x11-libs/cairo:0[abi_x86_64(-)?] x11-libs/gdk-pixbuf:2[abi_x86_64(-)?] x11-libs/gtk+:3[abi_x86_64(-)?] x11-libs/libX11:0[abi_x86_64(-)?] x11-libs/libxcb:0/1.12[abi_x86_64(-)?] x11-libs/libXcomposite:0[abi_x86_64(-)?] x11-libs/libXcursor:0[abi_x86_64(-)?] x11-libs/libXdamage:0[abi_x86_64(-)?] x11-libs/libXext:0[abi_x86_64(-)?] x11-libs/libXfixes:0[abi_x86_64(-)?] x11-libs/libXi:0[abi_x86_64(-)?] x11-libs/libXrandr:0[abi_x86_64(-)?] x11-libs/libXrender:0[abi_x86_64(-)?] x11-libs/libXScrnSaver:0[abi_x86_64(-)?] x11-libs/libXtst:0[abi_x86_64(-)?] x11-libs/pango:0[abi_x86_64(-)?] appindicator? ( dev-libs/libappindicator:3[abi_x86_64(-)?] )
+REQUIRED_USE=|| ( abi_x86_64 )
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://github.com/Kong/insomnia/releases/download/core@2020.3.3/Insomnia.Core-2020.3.3.deb
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multibuild	b2c915190b051f55a23b9354b9849847	multilib	2477ebe553d3e4d2c606191fe6c33602	multilib-build	8ad5b5535b73a8971881f09277b939f4	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=52c1ecb858e52b6b9383c640949dd2df

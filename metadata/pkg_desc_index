@@ -317,13 +317,13 @@ dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-guard 0.6.0_beta 9999: AWS CloudFormation Guard
 dev-util/cfn-guard-rulegen 0.6.0_beta 9999: AWS CloudFormation Guard Rule Generator
-dev-util/cfn-python-lint 0.31.1 0.34.1 9999: AWS CloudFormation Linter
-dev-util/cfn-template-flip 1.2.1 9999: AWS CloudFormation Template Flip
+dev-util/cfn-python-lint 0.34.1 0.35.0 9999: AWS CloudFormation Linter
+dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.31 9999: Utilities for interacting with a cloud
 dev-util/fossa-cli 1.0.10 9999: License and vulnerability analysis
 dev-util/gitlab-runner 13.1.1 9999: GitLab Runner
-dev-util/insomnia-bin 6.5.4 7.0.6: HTTP and GraphQL client for developers
+dev-util/insomnia-bin 2020.3.3: HTTP and GraphQL client for developers
 dev-util/ovftool 4.3.0.12320924 4.4.0.15722219: VMware Open Virtualization Format tool
 dev-util/packer 1.5.6 1.6.0 9999: A tool to create identical machine images for multiple platforms
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
@@ -331,7 +331,7 @@ dev-util/taskcat 0.9.18 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
-dev-util/yamllint 1.16.0 9999: A linter for YAML files
+dev-util/yamllint 1.24.2 9999: A linter for YAML files
 dev-vcs/commitizen 2.0.2 9999: Python commitizen client tool
 dev-vcs/gitaly 13.1.4 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.12.0 9999: Git commit message linter
