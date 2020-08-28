@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python library to generate nicely formatted trees, like the UNIX `tree`
-	command, which list contents of directories in a tree-like format.
+	Enhanced color support for <pkg>dev-python/click</pkg>
+	Colorization of help messages in Click with support of no-color.org
 	</longdescription>
 	<upstream>
-		<remote-id type="github">jml/tree-format</remote-id>
-		<remote-id type="pypi">tree-format</remote-id>
+		<remote-id type="github">click-contrib/click-help-colors</remote-id>
+		<remote-id type="pypi">click-help-colors</remote-id>
 	</upstream>
 </pkgmetadata>

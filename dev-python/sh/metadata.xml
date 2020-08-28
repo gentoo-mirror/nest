@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python library to generate nicely formatted trees, like the UNIX `tree`
-	command, which list contents of directories in a tree-like format.
+	A full-fledged subprocess replacement for Python 2.6 - 3.8, PyPy and
+	PyPy3 that allows you to call any program as if it were a function.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">jml/tree-format</remote-id>
-		<remote-id type="pypi">tree-format</remote-id>
+		<remote-id type="github">amoffat/sh</remote-id>
+		<remote-id type="pypi">sh</remote-id>
 	</upstream>
 </pkgmetadata>

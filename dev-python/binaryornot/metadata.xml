@@ -10,11 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python library to generate nicely formatted trees, like the UNIX `tree`
-	command, which list contents of directories in a tree-like format.
+	Ultra-lightweight pure Python package to guess whether a file is
+	binary or text, using a heuristic similar to Perl's pp_fttext and
+	its analysis by @eliben.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">jml/tree-format</remote-id>
-		<remote-id type="pypi">tree-format</remote-id>
+		<remote-id type="github">audreyr/binaryornot</remote-id>
+		<remote-id type="pypi">binaryornot</remote-id>
 	</upstream>
 </pkgmetadata>
