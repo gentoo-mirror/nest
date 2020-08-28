@@ -194,8 +194,10 @@ dev-python/apispec 3.3.0 9999: A pluggable API specification generator
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.9 9999: Application Insights SDK for Python
 dev-python/arrow 0.15.5 9999: Better dates and times for Python
+dev-python/binaryornot 0.4.4-r1 9999: Python package to guess whether a file is binary or text
 dev-python/cerberus 1.3.2 9999: Lightweight and extensible data validation library for Python
 dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
+dev-python/click-help-colors 0.8 9999: Colorization of help messages in Click
 dev-python/convertdate 2.2.0 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
@@ -270,7 +272,7 @@ dev-python/pystache 0.5.4 9999: Mustache templating system for Python
 dev-python/pytest-django 3.8.0 3.9.0 9999: A Django plugin for py.test
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/python-crontab 2.4.0 9999: Crontab module for reading and writing crontab files
-dev-python/python-gilt 1.2.1 9999: A GIT layering tool
+dev-python/python-gilt 1.2.1 1.2.2 9999: A GIT layering tool
 dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
 dev-python/python-user-agents 2.1.0 9999: A library to identify devices by parsing user agent strings
 dev-python/pytimeparse 1.1.8 9999: A library to parse time from human readable string
@@ -285,7 +287,9 @@ dev-python/ripe-atlas-sagan 1.3.0 9999: Official python wrapper around RIPE Atla
 dev-python/route53-transfer 9999: Generic access to configuration files in any formats
 dev-python/rq 1.2.2 9999: A library for creating and processing background jobs
 dev-python/rstr 2.2.6 9999: Generate random strings in Python
+dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
 dev-python/sentry-sdk 0.14.1 9999: Python client for Sentry
+dev-python/sh 1.13.1 9999: Python subprocess interface
 dev-python/shellingham 1.3.1 9999: Detects what shell the current Python executable is running in
 dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
 dev-python/slimit 0.8.2_beta1 9999: A JavaScript minifier written in Python
@@ -311,7 +315,7 @@ dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API S
 dev-python/versionfinder 1.0.0 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.13.2 9999: Generate HTML or XML in a pythonic way
-dev-util/ansible-molecule 2.22 9999: Automated testing for Ansible roles
+dev-util/ansible-molecule 3.0.8 9999: Automated testing for Ansible roles
 dev-util/aws-config-rdk 0.7.10 9999: AWS Config Rules Development Kit
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/build2 0.11.0: A cross-platform toolchain for building and packaging C++ code
