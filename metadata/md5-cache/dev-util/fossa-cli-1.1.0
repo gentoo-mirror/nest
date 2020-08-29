@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=License and vulnerability analysis
+EAPI=7
+HOMEPAGE=https://github.com/fossas/fossa-cli
+KEYWORDS=~amd64 ~x86
+LICENSE=MPL-2.0
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/fossas/fossa-cli/archive/v1.1.0.tar.gz -> fossa-cli-1.1.0.tar.gz
+_eclasses_=go-module	45394825d9260b479aa1cf252ea58e01
+_md5_=c0a3ee13a1d429f4252489bb0477b8f9

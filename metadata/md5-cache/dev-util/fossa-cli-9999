@@ -1,11 +1,11 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.10
-DEFINED_PHASES=compile install test unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=License and vulnerability analysis
 EAPI=7
 HOMEPAGE=https://github.com/fossas/fossa-cli
 LICENSE=MPL-2.0
 PROPERTIES=live
-RESTRICT=strip
+RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7
-_md5_=ef300a57f2d9347ba6149264c970ac69
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	go-module	45394825d9260b479aa1cf252ea58e01
+_md5_=b952540ac48c7f8ede90e436f76ec362
