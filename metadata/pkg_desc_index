@@ -431,7 +431,7 @@ www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/netbox 2.8.5: IP address and data center infrastructure management tool
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for signing with your eID on the web
-www-servers/gitlab-workhorse 8.37.0 9999: GitLab reverse proxy
+www-servers/gitlab-workhorse 8.37.0 8.43.0 9999: GitLab reverse proxy
 x11-misc/RazerGenie 0.8.1 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.48 2.51 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.1.1c 0.2.0 9999: A Linux keylogger
