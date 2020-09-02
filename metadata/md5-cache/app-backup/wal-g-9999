@@ -11,5 +11,5 @@ RDEPEND=app-arch/brotli:= lzo? ( dev-libs/lzo:2 ) sodium? ( dev-libs/libsodium:=
 REQUIRED_USE=|| ( mongo mysql postgres redis )
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	go-module	45394825d9260b479aa1cf252ea58e01
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	45394825d9260b479aa1cf252ea58e01
 _md5_=bb01f1fa2f0cea1ccd8b996a979d94d0
