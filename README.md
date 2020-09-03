@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 404](https://img.shields.io/badge/ebuild-404-orange.svg)](https://img.shields.io/badge/ebuild-404-orange.svg)
+[![Number of ebuilds: 407](https://img.shields.io/badge/ebuild-407-orange.svg)](https://img.shields.io/badge/ebuild-407-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -200,6 +200,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 * dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
 * dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
+* dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
 * dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
 * dev-python/[click-help-colors](https://github.com/click-contrib/click-help-colors) | Colorization of help messages in Click
 * dev-python/[convertdate](https://github.com/fitnr/convertdate) | Utils for converting between date formats and calculating holidays
@@ -241,6 +242,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[django-taggit-serializer](https://github.com/glemmaPaul/django-taggit-serializer) | Django Taggit Serializer Created for the Django REST Framework
 * dev-python/[django-timezone-field](https://github.com/mfogel/django-timezone-field) | Django application for database and form fields for pytz objects
 * dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
+* dev-python/[editdistance](https://github.com/roy-ht/editdistance) | Fast implementation of the edit distance(Levenshtein distance)
 * dev-python/[email-validator](https://github.com/JoshData/python-email-validator) | An email syntax and deliverability validation library
 * dev-python/[factory_boy](https://github.com/FactoryBoy/factory_boy) | A fixtures replacement tool
 * dev-python/[fakeldap](https://github.com/zulip/fakeldap) | An implementation of a LDAPObject to fake a ldap server
@@ -252,6 +254,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
 * dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 * dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
+* dev-python/[identify](https://github.com/chriskuehl/identify) | File identification library for Python
 * dev-python/[ifaddr](https://github.com/floyernick/fleep-py) | Python Library to enumerate all network interfaces
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
@@ -319,7 +322,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[testinfra](https://github.com/philpep/testinfra) | Testinfra test your infrastructures
 * dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
 * dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
-* dev-python/[toml](https://github.com/uiri/toml) | Python Library for Tom's Obvious, Minimal Language
 * dev-python/[tomlkit](https://github.com/sdispater/tomlkit) | Style-preserving TOML library for Python
 * dev-python/[tree-format](https://github.com/jml/tree-format) | Python library for printing trees on the console
 * dev-python/[trio](https://github.com/python-trio/trio) | Python library for async concurrency and I/O
@@ -358,6 +360,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-vcs/[gitlint](https://github.com/jorisroovers/gitlint) | Git commit message linter
 * dev-vcs/[mercurial-extension_utils](https://bitbucket.org/Mekk/mercurial-extension_utils) | Mercurial Extension Utils
 * dev-vcs/[mercurial-keyring](https://bitbucket.org/Mekk/mercurial_keyring) | Mercurial Keyring Extension
+* dev-vcs/[pre-commit](https://github.com/pre-commit/pre-commit) | A framework for multi-language pre-commit hooks
 * gnome-base/[dconf](https://wiki.gnome.org/Projects/dconf) | Simple low-level configuration system
 * media-gfx/[butteraugli](https://github.com/google/butteraugli) | A tool for measuring perceived differences between images
 * media-gfx/[colorpick](https://github.com/agateau/colorpick) | Color picker and contrast checker

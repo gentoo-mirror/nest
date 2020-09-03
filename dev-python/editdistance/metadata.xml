@@ -10,10 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python Library for Tom's Obvious, Minimal Language
+	Fast implementation of the edit distance (Levenshtein distance).
+	This library simply implements Levenshtein distance with C++ and Cython.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">uiri/toml</remote-id>
-		<remote-id type="pypi">toml</remote-id>
+		<remote-id type="github">roy-ht/editdistance</remote-id>
+		<remote-id type="pypi">editdistance</remote-id>
 	</upstream>
 </pkgmetadata>
