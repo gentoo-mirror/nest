@@ -4,6 +4,7 @@ acct-group/ddnsr53 0: System group: ddnsr53
 acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
 acct-group/inadyn 0: System group: inadyn
+acct-group/liquidsoap 0: System group: liquidsoap
 acct-group/netgauge 0: System group: netgauge
 acct-group/odyssey 0: System group: odyssey
 acct-group/opentracker 0: System group: opentracker
@@ -26,6 +27,7 @@ acct-user/gitlab-gitaly 0: System user: gitlab-gitaly
 acct-user/gitlab-runner 0: System user: gitlab-runner
 acct-user/gitlab-workhorse 0: System user: gitlab-workhorse
 acct-user/inadyn 0: System user: inadyn
+acct-user/liquidsoap 0: System user: liquidsoap
 acct-user/netgauge 0: System user: netgauge
 acct-user/odyssey 0: System user: odyssey
 acct-user/opentracker 0: System user: opentracker
@@ -146,6 +148,7 @@ dev-lua/lyaml 6.1: LibYAML binding for Lua
 dev-ml/camlimages 4.2.6 5.0.1: An image manipulation library for ocaml
 dev-ml/camomile 1.0.2 9999: Camomile is a comprehensive Unicode library for ocaml
 dev-ml/dune 1.11.1 9999: A composable build system for OCaml
+dev-ml/extlib 1.7.7 9999: Standard library extensions for O'Caml
 dev-ml/gd4o 1.0_beta1 9999: OCaml interface to the GD graphics library
 dev-ml/ocaml-alsa 0.2.3 9999: OCaml bindings to alsa-lib
 dev-ml/ocaml-ao 0.2.1 9999: OCaml bindings to libao
