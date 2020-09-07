@@ -10,12 +10,13 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	ansible-lint checks playbooks for practices and behaviour that
-	could potentially be improved. As a community backed project
-	ansible-lint supports only the last two major versions of Ansible.
+	Rich is a Python library for rich text and beautiful formatting
+	in the terminal. The Rich API makes it easy to add color and style
+	to terminal output. Rich can also render pretty tables, progress bars,
+	markdown, syntax highlighted source code, tracebacks, and more.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">ansible/ansible-lint</remote-id>
-		<remote-id type="pypi">ansible-lint</remote-id>
+		<remote-id type="github">willmcgugan/rich</remote-id>
+		<remote-id type="pypi">rich</remote-id>
 	</upstream>
 </pkgmetadata>
