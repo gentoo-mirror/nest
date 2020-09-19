@@ -10,6 +10,7 @@ acct-group/odyssey 0: System group: odyssey
 acct-group/opentracker 0: System group: opentracker
 acct-group/passivedns 0: System group: passivedns
 acct-group/redir 0: System group: redir
+acct-group/ripe-atlas 0: System group: ripe-atlas
 acct-group/rslsync 0: System group: rslsync
 acct-group/samplicator 0: System group: samplicator
 acct-group/spoofer 0: System group: spoofer
@@ -33,6 +34,7 @@ acct-user/odyssey 0: System user: odyssey
 acct-user/opentracker 0: System user: opentracker
 acct-user/passivedns 0: System user: passivedns
 acct-user/redir 0: System user: redir
+acct-user/ripe-atlas 0: System user: ripe-atlas
 acct-user/rslsync 0: System user: rslsync
 acct-user/samplicator 0: System user: samplicator
 acct-user/spoofer 0: System user: spoofer
@@ -376,6 +378,7 @@ net-analyzer/netgauge 9999: Server software for testing internet bandwidth using
 net-analyzer/nuttcp 8.1.4 8.2.2: Network performance measurement tool
 net-analyzer/passivedns 1.2.1 9999: Network sniffer that logs all DNS server replies
 net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
+net-analyzer/ripe-atlas-probe 5020: RIPE Atlas Software Probe
 net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
 net-dns/ddns-route53 1.9.1 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
 net-dns/flares 2.3.2 9999: CloudFlare DNS backup tool
