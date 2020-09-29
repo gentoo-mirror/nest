@@ -1,0 +1,14 @@
+BDEPEND=>=app-arch/rpm2targz-9.0.0.3g
+DEFINED_PHASES=install unpack
+DESCRIPTION=Advanced data mapping, conversion, and transformation tool
+EAPI=7
+HOMEPAGE=https://www.altova.com/mapforce
+IUSE=libressl
+KEYWORDS=~amd64
+LICENSE=Altova
+RDEPEND=acct-user/mapforce virtual/krb5 !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
+RESTRICT=bindist mirror strip
+SLOT=0
+SRC_URI=https://cdn.sw.altova.com/v2020r2sp1/multi-lingual/mapforceserveradv-2020rel2sp1-1.x86_64.rpm
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	estack	686eaab303305a908fd57b2fd7617800	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	rpm	760ff223c2c4299b68ea901e24c4cabd	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=960da9afac93e2dcf2cc90f11a920bfd
