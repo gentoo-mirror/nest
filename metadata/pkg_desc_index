@@ -129,7 +129,6 @@ dev-haskell/hspec-wai 0.9.0 0.10.1: Experimental Hspec support for testing WAI a
 dev-haskell/ini 0.4.1: Quick and easy configuration files in the INI format
 dev-haskell/integer-logarithms 1.0.3: Integer logarithms
 dev-haskell/integer-simple 0.1.1.1: Simple Integer library
-dev-haskell/postgresql-libpq 0.9.4.2: low-level binding to libpq
 dev-haskell/postgresql-simple 0.6.2: mid-level PostgreSQL client library
 dev-haskell/scotty 0.11.5 0.12: Haskell web framework
 dev-haskell/semigroups 0.18.5 0.19.1: Anything that associates
