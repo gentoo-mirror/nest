@@ -110,7 +110,7 @@ dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of l
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/mssql-cli 0.18.0 9999: CLI for SQL Server Database
-dev-db/odyssey 9999: Scalable PostgreSQL connection pooler
+dev-db/odyssey 1.1 9999: Scalable PostgreSQL connection pooler
 dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
 dev-db/pg_profile 9999: Postgres historic performance reports
@@ -339,7 +339,7 @@ dev-util/gitlab-runner 13.1.1 13.3.0 9999: GitLab Runner
 dev-util/hotspot 1.3.0 9999: Linux perf GUI for performance analysis
 dev-util/insomnia-bin 2020.3.3: HTTP and GraphQL client for developers
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
-dev-util/ovftool 4.3.0.12320924 4.4.0.15722219: VMware Open Virtualization Format tool
+dev-util/ovftool 4.3.0.12320924 4.4.0.15722219 4.4.0.16360108: VMware Open Virtualization Format tool
 dev-util/packer 1.5.6 1.6.0 1.6.2 9999: A tool to create identical machine images for multiple platforms
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.18 0.9.19 9999: An OpenSource Cloudformation Deployment Framework
@@ -436,7 +436,7 @@ sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail security sandbox
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
-sys-apps/psi-notify 1.0.1 9999: Minimalistic PSI notifier using libnotify
+sys-apps/psi-notify 1.0.1 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/swapspace 1.17 9999: A dynamic swap space manager
 sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 9999: Tool which monitors for inotify events and executes script
