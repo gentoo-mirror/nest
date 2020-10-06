@@ -54,6 +54,7 @@ app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utili
 app-admin/azcopy 10.6.0 9999: A command-line utility to manage Azure Storage accounts
 app-admin/cli53 0.8.17 9999: Command line tool for Amazon Route 53
 app-admin/container-service-extension 2.6.0 9999: Container Service Extension for vCloud Director
+app-admin/csp-reporter 9999: Content Security Policy logs parser
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.39.0 1.46.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
@@ -372,7 +373,7 @@ media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999: Radio tray for linux on QT
 media-radio/liquidsoap 1.3.1 1.3.7 1.4.0_beta2 9999: A swiss-army knife for multimedia streaming, used for netradios and webtvs
-media-sound/plexamp 3.1.1: Music focused client for Plex
+media-sound/plexamp 3.1.1 3.2.1: Music focused client for Plex
 media-sound/sayonara 1.5.1_p5 1.6.0_beta6 9999: Small, clear and fast Qt-based audio player
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
 net-analyzer/goaccess 1.3 9999: A real-time web log analyzer and interactive viewer in a terminal
