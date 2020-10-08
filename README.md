@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 417](https://img.shields.io/badge/ebuild-417-orange.svg)](https://img.shields.io/badge/ebuild-417-orange.svg)
+[![Number of ebuilds: 421](https://img.shields.io/badge/ebuild-421-orange.svg)](https://img.shields.io/badge/ebuild-421-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -111,7 +111,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend) | A compiler frontend for the W3C XML Schema definition language
 * dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl) | A collection of C++ libraries (successor of libcult)
 * dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
+* dev-db/[msodbcsql](https://docs.microsoft.com/en-us/sql/connect/odbc) | Microsoft ODBC Driver for SQL Server
 * dev-db/[mssql-cli](https://github.com/dbcli/mssql-cli) | CLI for SQL Server Database
+* dev-db/[mssql-scripter](https://github.com/microsoft/mssql-scripter) | CLI for scripting SQL Server Databases
+* dev-db/[mssql-tools](https://docs.microsoft.com/en-us/sql/tools) | Microsoft SQL Server Tools for Linux
 * dev-db/[pg_cron](https://github.com/citusdata/pg_cron) | Run periodic jobs in PostgreSQL
 * dev-db/[odyssey](https://github.com/yandex/odyssey) | Scalable PostgreSQL connection pooler
 * dev-db/[pg_page_verification](https://github.com/google/pg_page_verification) | Checksums verification on PostgreSQL data pages
@@ -121,6 +124,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-db/[pgtune](https://github.com/andreif/pgtune) | A high-performance PostgreSQL tuning script
 * dev-db/[pipelinedb](https://www.pipelinedb.com/) | High-performance time-series aggregation for PostgreSQL
 * dev-db/[postgresql_anonymizer](https://gitlab.com/dalibo/postgresql_anonymizer) | Anonymization & Data Masking for PostgreSQL
+* dev-db/[sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage) | Automates SQL Server database development tasks
 * dev-db/[soci](https://github.com/SOCI/soci) | Database access library for C++
 * dev-db/[tableplus](https://tableplus.com) | Modern, native, and friendly GUI tool for relational databases
 * dev-haskell/[ansi-wl-pprint](https://github.com/ekmett/ansi-wl-pprint) | The Wadler/Leijen Pretty Printer for colored ANSI terminal output
