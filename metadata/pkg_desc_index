@@ -1,6 +1,8 @@
 acct-group/altova 0: System group: altova
+acct-group/amazon 0: System group: amazon
 acct-group/aptly 0: System group: aptly
 acct-group/automatic 0: System group: automatic
+acct-group/cwagent 0: System group: cwagent
 acct-group/ddnsr53 0: System group: ddnsr53
 acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
@@ -21,8 +23,10 @@ acct-group/urbackup 0: System group: urbackup
 acct-group/uredir 0: System group: uredir
 acct-group/vhusb 0: System group: vhusb
 acct-group/vmware 0: System group: vmware
+acct-user/amazon 0: System user: amazon
 acct-user/aptly 0: System user: aptly
 acct-user/automatic 0: System user: automatic
+acct-user/cwagent 0: System user: cwagent
 acct-user/ddnsr53 0: System user: ddnsr53
 acct-user/fiche 0: System user: fiche
 acct-user/gitlab-gitaly 0: System user: gitlab-gitaly
@@ -93,6 +97,7 @@ app-emulation/vmware-modules 15.5.2: VMware kernel modules
 app-emulation/vmware-vmrc 11.2.0.16492666: VMware Remote Console
 app-emulation/vmware-workstation 15.5.2.15785246: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 4.3.1 9999: Auditing git repository for secrets and keys
+app-metrics/amazon-cloudwatch-agent 1.247345.36 9999: Amazon Cloudwatch Agent
 app-metrics/do-agent 3.6.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
