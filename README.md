@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 422](https://img.shields.io/badge/ebuild-422-orange.svg)](https://img.shields.io/badge/ebuild-422-orange.svg)
+[![Number of ebuilds: 426](https://img.shields.io/badge/ebuild-426-orange.svg)](https://img.shields.io/badge/ebuild-426-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -111,6 +111,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend) | A compiler frontend for the W3C XML Schema definition language
 * dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl) | A collection of C++ libraries (successor of libcult)
 * dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
+* dev-db/[dbcrossbar](http://www.dbcrossbar.org) | Copy tabular data between databases, CSV files and cloud storage
 * dev-db/[msodbcsql](https://docs.microsoft.com/en-us/sql/connect/odbc) | Microsoft ODBC Driver for SQL Server
 * dev-db/[mssql-cli](https://github.com/dbcli/mssql-cli) | CLI for SQL Server Database
 * dev-db/[mssql-scripter](https://github.com/microsoft/mssql-scripter) | CLI for scripting SQL Server Databases
@@ -124,6 +125,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-db/[pgtune](https://github.com/andreif/pgtune) | A high-performance PostgreSQL tuning script
 * dev-db/[pipelinedb](https://www.pipelinedb.com/) | High-performance time-series aggregation for PostgreSQL
 * dev-db/[postgresql_anonymizer](https://gitlab.com/dalibo/postgresql_anonymizer) | Anonymization & Data Masking for PostgreSQL
+* dev-db/[sqlbench](https://github.com/felixge/sqlbench) | Measures and compares execution time of one or more SQL queries
 * dev-db/[sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage) | Automates SQL Server database development tasks
 * dev-db/[soci](https://github.com/SOCI/soci) | Database access library for C++
 * dev-db/[tableplus](https://tableplus.com) | Modern, native, and friendly GUI tool for relational databases
@@ -343,9 +345,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[vsphere-guest-run](https://github.com/vmware/vsphere-guest-run) | Python library for guest operations
 * dev-python/[yattag](http://www.yattag.org) | Generate HTML or XML in a pythonic way
 * dev-util/[ansible-molecule](https://github.com/ansible/molecule) | Automated testing for Ansible roles
+* dev-util/[arctype](https://arctype.com) | SQL client for PostgreSQL and MySQL
 * dev-util/[aws-config-rdk](https://github.com/awslabs/aws-config-rdk) | AWS Config Rules Development Kit
 * dev-util/[azuredatastudio-bin](https://github.com/microsoft/azuredatastudio) | Data management tool to work with DW, Azure, SQL Server
 * dev-util/[bcunit](https://github.com/BelledonneCommunications/bcunit) | BC Unit Test Framework
+* dev-util/[beekeeper-studio-bin](https://www.beekeeperstudio.io) | SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 * dev-util/[cfn-guard](https://github.com/aws-cloudformation/cloudformation-guard) | AWS CloudFormation Guard
 * dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter
 * dev-util/[cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip) | AWS CloudFormation Template Flip
@@ -474,4 +478,3 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * x11-misc/[logkeys](https://github.com/kernc/logkeys) | A Linux keylogger
 * x11-misc/[openrazer](https://openrazer.github.io) | Linux drivers for the Razer devices
 * x11-misc/[RazerGenie](https://github.com/z3ntu/RazerGenie) | Razer devices configurator
-
