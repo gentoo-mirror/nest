@@ -115,6 +115,7 @@ dev-cpp/belr 4.4.0 9999: Language recognition library by Belledonne Communicatio
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
+dev-db/dbcrossbar 0.4.2_beta6 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/msodbcsql 17.6.1.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
@@ -129,6 +130,7 @@ dev-db/pgtune 9999: A high-performance PostgreSQL tuning script
 dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 0.6.0 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.0 9999: Database access library for C++
+dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more SQL queries
 dev-db/sqlpackage 15.0.4897.1: Automates SQL Server database development tasks
 dev-db/tableplus 0.1.62: Modern, native, and friendly GUI tool for relational databases
 dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
@@ -334,9 +336,11 @@ dev-python/versionfinder 1.0.0 9999: Find version of python package, installed v
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.13.2 1.14.0 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 3.0.8 9999: Automated testing for Ansible roles
+dev-util/arctype 0.7.27: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.7.10 0.7.11 9999: AWS Config Rules Development Kit
 dev-util/azuredatastudio-bin 1.22.0 1.22.1: Data management tool to work with DW, Azure, SQL Server
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
+dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/cfn-guard 0.6.0_beta 0.7.0_beta 9999: AWS CloudFormation Guard
 dev-util/cfn-python-lint 0.34.1 0.35.0 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
