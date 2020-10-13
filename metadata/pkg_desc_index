@@ -98,7 +98,7 @@ app-emulation/vmware-vmrc 11.2.0.16492666: VMware Remote Console
 app-emulation/vmware-workstation 15.5.2.15785246: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 4.3.1 9999: Auditing git repository for secrets and keys
 app-metrics/amazon-cloudwatch-agent 1.247345.36 9999: Amazon Cloudwatch Agent
-app-metrics/do-agent 3.6.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
+app-metrics/do-agent 3.6.0 3.7.1 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.4.4 9999: Interactive cryptocurrency monitor
