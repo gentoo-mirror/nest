@@ -114,6 +114,7 @@ app-text/keening 0.2: A simple command line pastebin designed to be used togethe
 dev-cpp/belr 4.4.0 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
+dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/dbcrossbar 0.4.2_beta6 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/msodbcsql 17.6.1.1: Microsoft ODBC Driver for SQL Server
@@ -457,6 +458,7 @@ sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 9999: Tool which monitors for inotify events and executes script
 sys-fs/xfs_undelete 1.3 9999: An undelete tool for the XFS filesystem
 sys-power/powerstat 0.02.23 0.02.24 9999: Laptop power measuring tool
+sys-process/falco-bin 0.26.1: Cloud-Native runtime security
 www-apps/LookingGlass 9999: A Python-backed Looking Glass
 www-apps/draw-io 13.3.5 13.6.0 13.7.9: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
