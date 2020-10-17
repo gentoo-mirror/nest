@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A tool that lets you quickly open, explore, summarize, and analyze
-	datasets in your computer’s terminal. VisiData works with CSV files,
-	Excel spreadsheets, SQL databases, and many other data sources.
+	A PostgreSQL extension that enables automatic and transparent fixing
+	of bloated tables with automatic shrinking, no extensive table locking,
+	and process works in the background.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">saulpw/visidata</remote-id>
-		<remote-id type="pypi">visidata</remote-id>
+		<remote-id type="github">cybertec-postgresql/pg_squeeze</remote-id>
 	</upstream>
 </pkgmetadata>
