@@ -53,6 +53,7 @@ app-admin/ansible-lint 4.3.4 9999: Best practices checker for Ansible
 app-admin/aws-vault 5.4.4 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
+app-admin/awsls 0.5.1 9999: A list command for AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/azcopy 10.6.0 9999: A command-line utility to manage Azure Storage accounts
@@ -90,7 +91,7 @@ app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
 app-editors/micro 2.0.5 9999: A modern and intuitive terminal-based text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/visual-studio-code-bin 1.47.3 1.48.2 1.50.0: Editor for building and debugging modern web and cloud applications
+app-editors/visual-studio-code-bin 1.47.3 1.48.2 1.50.1: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2: VMware kernel modules

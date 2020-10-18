@@ -1,0 +1,12 @@
+BDEPEND=test? ( app-admin/terraform ) >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=A list command for AWS resources
+EAPI=7
+HOMEPAGE=https://github.com/jckuester/awsls
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b
+_md5_=a84dfe5a0b85fd97babf428283e28c5c
