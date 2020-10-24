@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python implementation of Jean Meeus astronomical algorithms
-	described in the classical book "Astronomical Algorithms,
-	2nd Edition, Willmann-Bell Inc. (1998)" by Jean Meeus.
+	A Python package to convert accurately between Hijri and Gregorian
+	dates using the Umm al-Qura calendar of Saudi Arabia.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">architest/pymeeus</remote-id>
-		<remote-id type="pypi">PyMeeus</remote-id>
+		<remote-id type="github">dralshehri/hijri-converter</remote-id>
+		<remote-id type="pypi">hijri-converter</remote-id>
 	</upstream>
 </pkgmetadata>

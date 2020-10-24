@@ -7,13 +7,11 @@ PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-DESCRIPTION="Library of astronomical algorithms in Python"
-HOMEPAGE="https://github.com/architest/pymeeus"
+DESCRIPTION="Date Api that support Hijri Umalqurra calendar"
+HOMEPAGE="https://github.com/tytkal/python-hijiri-ummalqura"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-3 LGPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
-
-distutils_enable_tests pytest

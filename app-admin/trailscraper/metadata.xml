@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python implementation of Jean Meeus astronomical algorithms
-	described in the classical book "Astronomical Algorithms,
-	2nd Edition, Willmann-Bell Inc. (1998)" by Jean Meeus.
+	A command-line tool to get valuable information out of AWS CloudTrail
+	and a general purpose toolbox for working with IAM policies
 	</longdescription>
 	<upstream>
-		<remote-id type="github">architest/pymeeus</remote-id>
-		<remote-id type="pypi">PyMeeus</remote-id>
+		<remote-id type="github">flosell/trailscraper</remote-id>
+		<remote-id type="pypi">trailscraper</remote-id>
 	</upstream>
 </pkgmetadata>

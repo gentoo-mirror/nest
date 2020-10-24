@@ -10,12 +10,13 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python implementation of Jean Meeus astronomical algorithms
-	described in the classical book "Astronomical Algorithms,
-	2nd Edition, Willmann-Bell Inc. (1998)" by Jean Meeus.
+	Python Umalqurra Calender is an API that will give you the ability
+	to convert Gregorian to Hijri and hijri to Gregorian it will give
+	you the day name in arabic and english, and the month name in Hijri
+	arabic and Gregorian.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">architest/pymeeus</remote-id>
-		<remote-id type="pypi">PyMeeus</remote-id>
+		<remote-id type="github">tytkal/python-hijiri-ummalqura</remote-id>
+		<remote-id type="pypi">umalqurra</remote-id>
 	</upstream>
 </pkgmetadata>

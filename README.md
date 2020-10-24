@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 432](https://img.shields.io/badge/ebuild-432-orange.svg)](https://img.shields.io/badge/ebuild-432-orange.svg)
+[![Number of ebuilds: 437](https://img.shields.io/badge/ebuild-437-orange.svg)](https://img.shields.io/badge/ebuild-437-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -69,7 +69,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[reprepro](https://salsa.debian.org/brlink/reprepro) | A tool to handle local repositories of Debian packages
 * app-admin/[ripe-atlas-tools](https://github.com/RIPE-NCC/ripe-atlas-tools) | The official command-line client for RIPE Atlas
 * app-admin/[saw](https://github.com/TylerBrock/saw) | Fast, multi-purpose tool for AWS CloudWatch Logs
+* app-admin/[sinker](https://github.com/plexsystems/sinker) | Sync images from one container registry to another
 * app-admin/[terraform-provider-vcd](https://www.terraform.io/docs/providers/vcd) | Terraform VMware vCloud Director provider
+* app-admin/[trailscraper](https://github.com/flosell/trailscraper) | Command-line tool to get information out of AWS CloudTrail
 * app-admin/[tztail](https://github.com/thecasualcoder/tztail) | A log view in various timezones
 * app-admin/[userdbadm](https://nasauber.de/opensource/userdbadm) | Tool to manage (PAM) userdb files with crypted passwords
 * app-admin/[uwsgitop](https://github.com/unbit/uwsgitop) | uWSGI stats viewer
@@ -242,6 +244,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[django-jinja](https://github.com/niwinz/django-jinja) | Jinja2 templating language integrated in Django
 * dev-python/[django-js-asset](https://github.com/matthiask/django-js-asset) | A script tag with additional attributes for django.forms.Media
 * dev-python/[django-mptt](https://github.com/django-mptt/django-mptt) | Utilities for implementing Modified Preorder Tree Traversal
+* dev-python/[django-nose](https://github.com/jazzband/django-nose) | Django test runner using nose
 * dev-python/[django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) | OAuth2 Provider for Django
 * dev-python/[django-pipeline](https://github.com/jazzband/django-pipeline) | An asset packaging library for Django
 * dev-python/[django-rest-framework](https://django-rest-framework.org) | Django REST framework
@@ -266,9 +269,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
 * dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 * dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
+* dev-python/[hijri-converter](https://github.com/dralshehri/hijri-converter) | Hijri-Gregorian date converter
 * dev-python/[identify](https://github.com/chriskuehl/identify) | File identification library for Python
 * dev-python/[ifaddr](https://github.com/floyernick/fleep-py) | Python Library to enumerate all network interfaces
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
+* dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 * dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 * dev-python/[junit-xml](https://github.com/kyrus/python-junit-xml) | Generate HTML or XML in a pythonic way
@@ -281,7 +286,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 * dev-python/[netapp-ontap](https://devnet.netapp.com/restapi) | A library for working with ONTAP's REST APIs simply in Python
 * dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
-* dev-python/[django-nose](https://github.com/jazzband/django-nose) | Django test runner using nose
 * dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 * dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | Python library that validates Swagger Specs
 * dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
@@ -341,6 +345,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
 * dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
+* dev-python/[umalqurra](https://github.com/tytkal/python-hijiri-ummalqura) | Date Api that support Hijri Umalqurra calendar
 * dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
 * dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library

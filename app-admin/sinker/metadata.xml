@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python implementation of Jean Meeus astronomical algorithms
-	described in the classical book "Astronomical Algorithms,
-	2nd Edition, Willmann-Bell Inc. (1998)" by Jean Meeus.
+	sinker syncs container images from one registry to another.
+	This is useful in cases when you rely on images that exist in
+	a public container registry, but need to pull from a private registry.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">architest/pymeeus</remote-id>
-		<remote-id type="pypi">PyMeeus</remote-id>
+		<remote-id type="github">plexsystems/sinker</remote-id>
 	</upstream>
 </pkgmetadata>

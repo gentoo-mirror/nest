@@ -4,17 +4,15 @@
 EAPI=7
 
 PYTHON_COMPAT=( python3_{6..8} )
-EGIT_REPO_URI="https://github.com/architest/${PN}.git"
+EGIT_REPO_URI="https://github.com/tytkal/python-hijiri-ummalqura.git"
 
 inherit distutils-r1 git-r3
 
-DESCRIPTION="Library of astronomical algorithms in Python"
-HOMEPAGE="https://github.com/architest/pymeeus"
+DESCRIPTION="Date Api that support Hijri Umalqurra calendar"
+HOMEPAGE="https://github.com/tytkal/python-hijiri-ummalqura"
 SRC_URI=""
 
-LICENSE="GPL-3 LGPL-3"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
 IUSE=""
-
-distutils_enable_tests pytest

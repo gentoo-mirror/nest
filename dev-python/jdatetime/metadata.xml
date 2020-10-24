@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Python implementation of Jean Meeus astronomical algorithms
-	described in the classical book "Astronomical Algorithms,
-	2nd Edition, Willmann-Bell Inc. (1998)" by Jean Meeus.
+	jdatetime is Jalali implementation of Python's datetime module
+	Jalali calendar binding for Python based on Python's datetime module
 	</longdescription>
 	<upstream>
-		<remote-id type="github">architest/pymeeus</remote-id>
-		<remote-id type="pypi">PyMeeus</remote-id>
+		<remote-id type="github">slashmili/python-jalali</remote-id>
+		<remote-id type="pypi">jdatetime</remote-id>
 	</upstream>
 </pkgmetadata>
