@@ -3,33 +3,29 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://github.com/savonet/${PN}.git"
-EGIT_SUBMODULES=()
+inherit autotools findlib
 
-inherit autotools findlib git-r3
-
-DESCRIPTION="OCaml bindings to pulseaudio"
-HOMEPAGE="https://github.com/savonet/ocaml-pulseaudio"
-SRC_URI=""
+DESCRIPTION="OCaml bindings to libogg"
+HOMEPAGE="https://github.com/savonet/ocaml-ogg"
+SRC_URI="https://github.com/savonet/${PN}/releases/download/v${PV}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0/${PV}"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="+camlp4 debug +ocamlopt profiling"
 
 RDEPEND="dev-lang/ocaml:=[ocamlopt?]
-	media-sound/pulseaudio
+	media-libs/libogg
 	camlp4? ( dev-ml/camlp4:=[ocamlopt?] )"
 DEPEND="${RDEPEND}
 	dev-ml/findlib[ocamlopt?]
 	virtual/pkgconfig"
 
-DOCS=( CHANGES.md README )
+DOCS=( CHANGES README )
 
 src_prepare() {
 	default
 
-	m4/bootstrap || die "bootstrap failed"
 	sed -i 's/AC_CHECK_TOOL_STRICT/AC_CHECK_TOOL/g' m4/ocaml.m4 \
 		|| die "sed failed for m4/ocaml.m4"
 
