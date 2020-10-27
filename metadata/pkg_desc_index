@@ -167,6 +167,7 @@ dev-libs/loki 0.1.7: C++ library of common design patterns and idioms
 dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
 dev-lua/lyaml 6.1: LibYAML binding for Lua
+dev-ml/biniou 1.2.1 9999: Extensible binary data format, like JSON but faster
 dev-ml/camlimages 4.2.6 5.0.1: An image manipulation library for ocaml
 dev-ml/camomile 1.0.2 9999: Camomile is a comprehensive Unicode library for ocaml
 dev-ml/dune 1.11.1 9999: A composable build system for OCaml
@@ -209,6 +210,7 @@ dev-ml/ocaml-vorbis 0.7.0 0.7.1 9999: OCaml bindings to libvorbis
 dev-ml/ocaml-xmlplaylist 0.1.4 9999: OCaml module to parse various RSS playlist formats
 dev-ml/ocamlnet 4.1.6 9999: Modules for OCaml application-level Internet protocols
 dev-ml/xmlm 1.3.0 9999: Ocaml XML manipulation module
+dev-ml/yojson 1.7.0 9999: Low-level JSON parsing and pretty-printing library for OCaml
 dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.3.6 9999: Library of astronomical algorithms in Python
