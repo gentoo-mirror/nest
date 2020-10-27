@@ -1,13 +1,14 @@
-BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure install prepare unpack
-DEPEND=dev-lang/ocaml:=[ocamlopt?] virtual/ffmpeg dev-ml/findlib virtual/pkgconfig >=dev-ml/findlib-1.0.4-r1
+BDEPEND=dev-lang/ocaml:=[ocamlopt?] media-video/ffmpeg:= dev-ml/dune:= dev-ml/dune-configurator:= dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?]
 DESCRIPTION=OCaml bindings to ffmpeg
 EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-ffmpeg
-IUSE=+camlp4 debug +ocamlopt profiling
+IUSE=+ocamlopt
 LICENSE=LGPL-2.1
 PROPERTIES=live
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] virtual/ffmpeg
+RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-video/ffmpeg:= >=dev-lang/ocaml-4:=[ocamlopt?]
+RESTRICT=test
 SLOT=0/9999
-_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	findlib	17c71a5d96323df925f9f6db1215668a	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=c39bb81cdbb474cf6a76c42d7e204e46
+_eclasses_=dune	73a210262d124c8004f67ba1dd9ed873	git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=553d7680e0801d0a5cd54ebfdf86b90c

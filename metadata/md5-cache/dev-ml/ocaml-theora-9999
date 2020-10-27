@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/libtheora camlp4? ( dev-ml/camlp4:=[ocamlopt?] )
 SLOT=0/9999
 _eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	findlib	17c71a5d96323df925f9f6db1215668a	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=2411d710ee8828ed32b78b582c67d343
+_md5_=04e6457a4e9e2c3110a5805553731a3e
