@@ -21,6 +21,7 @@ acct-group/ssmd 0: System group: ssmd
 acct-group/swapspace 0: System group: swapspace
 acct-group/urbackup 0: System group: urbackup
 acct-group/uredir 0: System group: uredir
+acct-group/vector 0: System group: vector
 acct-group/vhusb 0: System group: vhusb
 acct-group/vmware 0: System group: vmware
 acct-user/amazon 0: System user: amazon
@@ -48,6 +49,7 @@ acct-user/ssmd 0: System user: ssmd
 acct-user/swapspace 0: System user: swapspace
 acct-user/urbackup 0: System user: urbackup
 acct-user/uredir 0: System user: uredir
+acct-user/vector 0: System user: vector
 acct-user/vhusb 0: System user: vhusb
 app-admin/ansible-lint 4.3.4 9999: Best practices checker for Ansible
 app-admin/aws-vault 5.4.4 9999: A vault for securely storing and accessing AWS credentials
@@ -80,6 +82,7 @@ app-admin/tztail 1.0.0 9999: A log view in various timezones
 app-admin/userdbadm 0.1 9999: Tool to manage (PAM) userdb files with crypted passwords
 app-admin/uwsgitop 0.10 0.11 9999: uWSGI stats viewer
 app-admin/vcd-cli 23.0.0 9999: Utility to check AWS resource limits and usage
+app-admin/vector-bin 0.10.0: High performance logs, metrics, and events router
 app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Vault
 app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
 app-backup/pgbackrest 2.0.9 2.26 9999: Reliable PostgreSQL Backup & Restore

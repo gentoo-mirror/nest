@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=High performance logs, metrics, and events router
+EAPI=7
+HOMEPAGE=https://github.com/timberio/vector
+KEYWORDS=~amd64
+LICENSE=MPL-2.0
+RDEPEND=acct-user/vector
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=https://github.com/timberio/vector/releases/download/v0.10.0/vector-amd64.deb
+_eclasses_=multilib	98584e405e2b0264d37e8f728327fed1	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	systemd	69be00334d73f9f50261554b94be0879	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4
+_md5_=13b7cfdc9ab0ff52609fe45354c17297
