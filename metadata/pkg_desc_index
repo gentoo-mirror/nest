@@ -356,7 +356,7 @@ dev-util/azuredatastudio-bin 1.22.0 1.22.1: Data management tool to work with DW
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/cfn-guard 0.6.0_beta 0.7.0_beta 9999: AWS CloudFormation Guard
-dev-util/cfn-python-lint 0.34.1 0.35.0 9999: AWS CloudFormation Linter
+dev-util/cfn-python-lint 0.34.1 0.35.0 0.39.0 9999: AWS CloudFormation Linter
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.31 9999: Utilities for interacting with a cloud
