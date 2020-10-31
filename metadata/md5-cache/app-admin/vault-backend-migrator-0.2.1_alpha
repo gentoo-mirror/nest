@@ -1,0 +1,12 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Tool to migrate data across vault clusters
+EAPI=7
+HOMEPAGE=https://github.com/adamdecaf/vault-backend-migrator
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD MIT MPL-2.0
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/adamdecaf/vault-backend-migrator/archive/0.2.1-dev.tar.gz -> vault-backend-migrator-0.2.1-dev.tar.gz
+_eclasses_=go-module	92660621959e7fab813173772987588b
+_md5_=e05c36e7f1fd2d1b3a3afe47351aad1d

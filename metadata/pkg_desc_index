@@ -81,6 +81,7 @@ app-admin/trailscraper 0.6.4 9999: Command-line tool to get information out of A
 app-admin/tztail 1.0.0 9999: A log view in various timezones
 app-admin/userdbadm 0.1 9999: Tool to manage (PAM) userdb files with crypted passwords
 app-admin/uwsgitop 0.10 0.11 9999: uWSGI stats viewer
+app-admin/vault-backend-migrator 0.2.1_alpha 9999: Tool to migrate data across vault clusters
 app-admin/vcd-cli 23.0.0 9999: Utility to check AWS resource limits and usage
 app-admin/vector-bin 0.10.0: High performance logs, metrics, and events router
 app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Vault
