@@ -367,7 +367,7 @@ dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/fossa-cli 1.1.0 9999: License and vulnerability analysis
 dev-util/gitlab-runner 13.1.1 13.3.0 9999: GitLab Runner
 dev-util/hotspot 1.3.0 9999: Linux perf GUI for performance analysis
-dev-util/insomnia-bin 2020.3.3: HTTP and GraphQL client for developers
+dev-util/insomnia-bin 2020.3.3 2020.4.2: HTTP and GraphQL client for developers
 dev-util/jwt_tool 1.3.4 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.3.0.12320924 4.4.0.15722219 4.4.0.16360108: VMware Open Virtualization Format tool
