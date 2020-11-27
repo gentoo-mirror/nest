@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 442](https://img.shields.io/badge/ebuild-442-orange.svg)](https://img.shields.io/badge/ebuild-442-orange.svg)
+[![Number of ebuilds: 446](https://img.shields.io/badge/ebuild-446-orange.svg)](https://img.shields.io/badge/ebuild-446-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -102,6 +102,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-metrics/[amazon-cloudwatch-agent](https://github.com/aws/amazon-cloudwatch-agent) | Amazon Cloudwatch Agent
 * app-metrics/[do-agent](https://github.com/digitalocean/do-agent) | DigitalOcean Agent for Enhanced Droplet Graphs
 * app-misc/[android-file-transfer-linux](https://whoozle.github.io/android-file-transfer-linux/) | Reliable MTP client with minimalistic UI
+* app-misc/[ccut](https://github.com/ColumPaget/ColumsCut) | A unix cut command with a couple of extra features
 * app-misc/[cheat](https://github.com/cheat/cheat) | Interactive cheatsheets on the command-line
 * app-misc/[cointop](https://github.com/miguelmota/cointop) | Interactive cryptocurrency monitor
 * app-misc/[deco](https://deco.sourceforge.net) | Demos Commander, a free Norton Commander clone
@@ -379,6 +380,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[mapforce-advanced](https://www.altova.com/mapforce) | Advanced data mapping, conversion, and transformation tool
 * dev-util/[ovftool](https://www.vmware.com/support/developer/ovf) | VMware Open Virtualization Format tool
 * dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
+* dev-util/[postman](https://www.postman.com) | Build, test, and document your APIs faster
 * dev-util/[swapusage](https://www.codesynthesis.com/hhoffstaette/swapusage) | Amount of swapped memory for running processes
 * dev-util/[taskcat](https://github.com/aws-quickstart/taskcat) | An OpenSource Cloudformation Deployment Framework
 * dev-util/[testmace](https://testmace.com) | Powerful IDE to work with API
@@ -415,6 +417,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-radio/[liquidsoap](http://liquidsoap.info) | A swiss-army knife for multimedia streaming, used for netradios and webtvs
 * net-analyzer/[bandwhich](https://github.com/imsnif/bandwhich) | Network utilization by process, connection and hostname
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/goaccess.svg)](https://repology.org/metapackage/goaccess) net-analyzer/[goaccess](https://goaccess.io) | A real-time web log analyzer and interactive viewer in a terminal
+* net-analyzer/[gping](https://github.com/orf/gping/releases) | Ping, but with a graph
 * net-analyzer/[logswan](https://github.com/fcambus/logswan) | Web log analyzer using probabilistic data structures
 * net-analyzer/[netgauge](http://www.ookla.com/) | Server software for testing internet bandwidth using speedtest.net
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/nuttcp.svg)](https://repology.org/metapackage/nuttcp) net-analyzer/[nuttcp](http://www.nuttcp.net) | Network performance measurement tool
@@ -477,6 +480,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * sys-apps/[firetools](https://firejail.wordpress.com) | Graphical user interface of Firajail security sandbox
 * sys-apps/[nocache](https://github.com/Feh/nocache) | Minimize caching effects for applications
 * sys-apps/[psi-notify](https://github.com/cdown/psi-notify) | Minimalistic PSI notifier using libnotify
+* sys-apps/[sampler](https://github.com/sqshq/sampler) | Visualization for any shell command
 * sys-apps/[swapspace](https://github.com/Tookmund/Swapspace) | A dynamic swap space manager
 * sys-cluster/[minishift-bin](https://github.com/minishift/minishift) | Single Node OpenShift Cluster
 * sys-fs/[adhocify](https://github.com/quitesimpleorg/adhocify) | Tool which monitors for inotify events and executes script
