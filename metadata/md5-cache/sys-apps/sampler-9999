@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=media-libs/alsa-lib
+DESCRIPTION=Visualization for any shell command
+EAPI=7
+HOMEPAGE=https://github.com/sqshq/sampler
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=media-libs/alsa-lib
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b
+_md5_=5271918982c93d8a969106b944ac03d5

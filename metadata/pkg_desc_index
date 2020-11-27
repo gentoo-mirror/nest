@@ -108,6 +108,7 @@ app-forensics/gitleaks 4.3.1 9999: Auditing git repository for secrets and keys
 app-metrics/amazon-cloudwatch-agent 1.247345.36 9999: Amazon Cloudwatch Agent
 app-metrics/do-agent 3.6.0 3.7.1 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
+app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.4.4 9999: Interactive cryptocurrency monitor
 app-misc/deco 3.9.1: Demos Commander, a free Norton Commander clone
@@ -371,6 +372,7 @@ dev-util/jwt_tool 1.3.4 9999: A toolkit for testing, tweaking and cracking JSON 
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.3.0.12320924 4.4.0.15722219 4.4.0.16360108: VMware Open Virtualization Format tool
 dev-util/packer 1.5.6 1.6.0 1.6.2 9999: A tool to create identical machine images for multiple platforms
+dev-util/postman 7.36.0: Build, test, and document your APIs faster
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.18 0.9.19 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
@@ -407,6 +409,7 @@ media-sound/plexamp 3.1.1 3.2.1: Music focused client for Plex
 media-sound/sayonara 1.5.1_p5 1.6.0_beta6 9999: Small, clear and fast Qt-based audio player
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
 net-analyzer/goaccess 1.3 9999: A real-time web log analyzer and interactive viewer in a terminal
+net-analyzer/gping 0.1.7 9999: Ping, but with a graph
 net-analyzer/logswan 2.1.6 9999: Web log analyzer using probabilistic data structures
 net-analyzer/netgauge 9999: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/nuttcp 8.1.4 8.2.2: Network performance measurement tool
@@ -469,6 +472,7 @@ sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail security sandbox
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
 sys-apps/psi-notify 1.0.1 1.2.1 9999: Minimalistic PSI notifier using libnotify
+sys-apps/sampler 1.1.0 9999: Visualization for any shell command
 sys-apps/swapspace 1.17 9999: A dynamic swap space manager
 sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 9999: Tool which monitors for inotify events and executes script
