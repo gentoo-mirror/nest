@@ -98,7 +98,7 @@ app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
 app-editors/micro 2.0.5 9999: A modern and intuitive terminal-based text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/visual-studio-code-bin 1.47.3 1.48.2 1.50.1: Editor for building and debugging modern web and cloud applications
+app-editors/visual-studio-code-bin 1.48.2 1.50.1 1.51.1: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.1 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.6f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.0.0f: VMware kernel modules
@@ -355,7 +355,7 @@ dev-python/yattag 1.13.2 1.14.0 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 3.0.8 9999: Automated testing for Ansible roles
 dev-util/arctype 0.7.27: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.7.10 0.7.11 9999: AWS Config Rules Development Kit
-dev-util/azuredatastudio-bin 1.22.0 1.22.1: Data management tool to work with DW, Azure, SQL Server
+dev-util/azuredatastudio-bin 1.22.0 1.22.1 1.24.0: Data management tool to work with DW, Azure, SQL Server
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/cfn-guard 0.6.0_beta 0.7.0_beta 9999: AWS CloudFormation Guard
