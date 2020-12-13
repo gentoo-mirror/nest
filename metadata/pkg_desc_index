@@ -388,6 +388,7 @@ dev-vcs/pre-commit 2.7.0 2.7.1 9999: A framework for multi-language pre-commit h
 gnome-base/dconf 0.29.1: Simple low-level configuration system
 media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
 media-gfx/colorpick 9999: Color picker and contrast checker
+media-gfx/depix 9999: A tool for recovering passwords from pixelized screenshots
 media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
 media-gfx/guetzli 1.0.1 9999: Perceptual JPEG encoder
 media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
