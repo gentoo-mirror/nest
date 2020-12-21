@@ -9,5 +9,5 @@ RDEPEND=acct-user/rslsync virtual/tmpfiles
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=amd64? ( http://download-cdn.resilio.com/2.7.1.1370/Debian/resilio-sync_2.7.1.1370-1_amd64.deb ) x86? ( http://download-cdn.resilio.com/2.7.1.1370/Debian/resilio-sync_2.7.1.1370-1_i386.deb )
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	systemd	69be00334d73f9f50261554b94be0879	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	systemd	69be00334d73f9f50261554b94be0879	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	45b49db67094fdafbb6a16a2299e894b
 _md5_=fc9fd09f20bd211bcdbc32a57fe7a5ec
