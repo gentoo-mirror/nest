@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Look up region and other information for any AWS IP address
+EAPI=7
+HOMEPAGE=https://github.com/sampointer/digaws
+LICENSE=GPL-3
+PROPERTIES=live
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b
+_md5_=f1dd651028bd323f8de0da98e34b4f47
