@@ -167,7 +167,6 @@ dev-haskell/websockets 0.12.7.0 0.12.7.1: Allows you to write WebSocket-capable 
 dev-libs/belcard 4.4.0 9999: VCard standard format manipulation library
 dev-libs/belle-sip 4.4.0 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
-dev-libs/libcommuni 3.5.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
 dev-libs/liblinphone 4.4.0 9999: SIP library supporting voice/video calls and text messaging
@@ -406,7 +405,6 @@ media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
 media-libs/mediastreamer2 4.4.0 9999: Mediastreaming library for telephony application
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
-media-radio/krudio 9999: Radio tray for linux on QT
 media-radio/liquidsoap 1.3.1 1.3.7 1.4.0_beta2 9999: A swiss-army knife for multimedia streaming, used for netradios and webtvs
 media-sound/mpz 1.0.1 9999: Music player for big local collections
 media-sound/plexamp 3.1.1 3.2.1: Music focused client for Plex
@@ -429,7 +427,6 @@ net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt-ratelimit 0.3.1 0.3.2 9999: Ratelimit iptables module
 net-ftp/weex 2.8.2 2.8.3 9999: A non-interactive FTP client for updating web pages
-net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
 net-im/slack 4.4.3 4.7.0 4.11.3: Team collaboration tool
 net-im/viber 13.3.1.22: Free text and calls
