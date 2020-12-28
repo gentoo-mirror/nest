@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?]
 RESTRICT=test
 SLOT=0/9999
-_eclasses_=findlib	2d5f502be83d6fc5f8372442a59856b6	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=findlib	df74899b0837d14d75b7e6bb42422b14	git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=8a3c9eaa81df6a77c4362de5e5e4e146
