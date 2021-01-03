@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile
 DEPEND=dev-libs/jansson
 DESCRIPTION=JSON parser designed for maximum convenience within the shell
-EAPI=6
+EAPI=7
 HOMEPAGE=http://kmkeen.com/jshon https://github.com/keenerd/jshon
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
@@ -9,4 +9,4 @@ RDEPEND=dev-libs/jansson
 SLOT=0
 SRC_URI=https://github.com/keenerd/jshon/archive/20131105.tar.gz -> jshon-20131105.tar.gz
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=a2d57bf5e6b3bf5b3bbc01f56a13ed8f
+_md5_=f9845b46715457d57fe0a195858bd296

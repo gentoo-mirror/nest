@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig test? ( dev-qt/qttest:5 ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install unpack
+DEPEND=dev-qt/qtcore:5 dev-qt/qtnetwork:5 qml? ( dev-qt/qtdeclarative:5 ) icu? ( dev-libs/icu:= ) uchardet? ( app-i18n/uchardet )
+DESCRIPTION=A cross-platform IRC framework written with Qt
+EAPI=7
+HOMEPAGE=http://communi.github.io
+IUSE=debug icu qml test uchardet
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtnetwork:5 qml? ( dev-qt/qtdeclarative:5 ) icu? ( dev-libs/icu:= ) uchardet? ( app-i18n/uchardet )
+REQUIRED_USE=?? ( icu uchardet )
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=9ce1b45067dea8609629e3453658c5d3

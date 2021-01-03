@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://sourceforge/pythonqt/pythonqt/PythonQt-3.2/PythonQt3.2.zip
 _eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	virtualx	7e60d3b10c791ab996f717bc1f30072f
-_md5_=612922c02ed8741acb5108420d3381e4
+_md5_=ab04d61b86cc195bb71e1ab47d98c833

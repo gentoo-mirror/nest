@@ -169,6 +169,7 @@ dev-haskell/websockets 0.12.7.0 0.12.7.1: Allows you to write WebSocket-capable 
 dev-libs/belcard 4.4.0 9999: VCard standard format manipulation library
 dev-libs/belle-sip 4.4.0 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
+dev-libs/libcommuni 3.6.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
 dev-libs/liblinphone 4.4.0 9999: SIP library supporting voice/video calls and text messaging
@@ -224,7 +225,7 @@ dev-ml/yojson 1.7.0 9999: Low-level JSON parsing and pretty-printing library for
 dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.3.6 9999: Library of astronomical algorithms in Python
-dev-python/PythonQt 3.2 3.2-r1 9999: A dynamic Python binding for the Qt framework
+dev-python/PythonQt 3.2-r1 9999: A dynamic Python binding for the Qt framework
 dev-python/adal 1.2.2 9999: Library for authentication in Azure Active Directory
 dev-python/anyconfig 0.9.10 9999: Generic access to configuration files in any formats
 dev-python/apispec 3.3.0 9999: A pluggable API specification generator
@@ -294,7 +295,7 @@ dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-ho
 dev-python/junit-xml 9999: Generate HTML or XML in a pythonic way
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
 dev-python/livereload 2.6.1 9999: Python LiveReload is an awesome tool for web developers
-dev-python/m9dicts 0.4.0: A dict-like object supports recursive merge operation
+dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
 dev-python/msrest 0.6.11 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.7 9999: Python library for NETCONF clients
@@ -432,6 +433,7 @@ net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt-ratelimit 0.3.1 0.3.2 9999: Ratelimit iptables module
 net-ftp/weex 2.8.2 2.8.3 9999: A non-interactive FTP client for updating web pages
+net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1: Chat and network platform
 net-im/slack 4.4.3 4.7.0 4.11.3: Team collaboration tool
 net-im/viber 13.3.1.22: Free text and calls
@@ -476,7 +478,7 @@ sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
 sys-apps/duf 0.3.1 9999: Disk Usage/Free Utility
 sys-apps/ethq 0.5.0 0.6.1 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
-sys-apps/firetools 0.9.50 0.9.58 9999: Graphical user interface of Firajail security sandbox
+sys-apps/firetools 0.9.58 0.9.62 9999: Graphical user interface of Firajail security sandbox
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
 sys-apps/psi-notify 1.0.1 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
