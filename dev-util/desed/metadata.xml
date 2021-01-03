@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	pgtune takes the wimpy default postgresql.conf and expands
-	the database server to be as powerful as the hardware it's
-	being deployed on
+	Desed is a command line tool with beautiful TUI that provides users
+	with comfortable interface and practical debugger, used to step
+	through complex sed scripts.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">andreif/pgtune</remote-id>
+		<remote-id type="github">SoptikHa2/desed</remote-id>
 	</upstream>
 </pkgmetadata>

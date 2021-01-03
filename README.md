@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 454](https://img.shields.io/badge/ebuild-454-orange.svg)](https://img.shields.io/badge/ebuild-454-orange.svg)
+[![Number of ebuilds: 457](https://img.shields.io/badge/ebuild-457-orange.svg)](https://img.shields.io/badge/ebuild-457-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -51,6 +51,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[awsls](https://github.com/jckuester/awsls) | A list command for AWS resources
 * app-admin/[awsometag](https://github.com/mhausenblas/awsometag) | Simple command-line snippet manager
 * app-admin/[awsudo](https://github.com/makethunder/awsudo) | A temporary credentials for AWS roles via sudo-like utility
+* app-admin/[awsume](https://github.com/trek10inc/awsume) | A utility for easily assuming AWS IAM roles from command line
 * app-admin/[aws-vault](https://github.com/99designs/aws-vault) | A vault for securely storing and accessing AWS credentials
 * app-admin/[azcopy](https://github.com/Azure/azure-storage-azcopy) | A command-line utility to manage Azure Storage accounts
 * app-admin/[cli53](https://github.com/barnybug/cli53) | Command line tool for Amazon Route 53
@@ -73,6 +74,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[saw](https://github.com/TylerBrock/saw) | Fast, multi-purpose tool for AWS CloudWatch Logs
 * app-admin/[sinker](https://github.com/plexsystems/sinker) | Sync images from one container registry to another
 * app-admin/[terraform-provider-vcd](https://www.terraform.io/docs/providers/vcd) | Terraform VMware vCloud Director provider
+* app-admin/[topngx](https://github.com/gsquire/topngx) | A top for NGINX
 * app-admin/[trailscraper](https://github.com/flosell/trailscraper) | Command-line tool to get information out of AWS CloudTrail
 * app-admin/[tztail](https://github.com/thecasualcoder/tztail) | A log view in various timezones
 * app-admin/[userdbadm](https://nasauber.de/opensource/userdbadm) | Tool to manage (PAM) userdb files with crypted passwords
@@ -80,6 +82,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[vault-backend-migrator](https://github.com/adamdecaf/vault-backend-migrator) | Tool to migrate data across vault clusters
 * app-admin/[vcd-cli](https://github.com/vmware/vcd-cli) | Utility to check AWS resource limits and usage
 * app-admin/[vector-bin](https://github.com/timberio/vector) | High performance logs, metrics, and events router
+* app-admin/[whatfiles](https://github.com/spieglt/whatfiles) | Log what files are accessed by any Linux process
 * app-admin/[yaml-vault](https://github.com/Jimdo/yaml-vault) | Utility to import/export data from HashiCorp Vault
 * app-backup/[hashget](https://gitlab.com/yaroslaff/hashget) | Deduplication tool for archiving data with extremely high ratio
 * app-backup/[pgbackrest](https://pgbackrest.org) | Reliable PostgreSQL Backup & Restore
@@ -135,7 +138,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-db/[pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) | A PostgreSQL extension for automatic bloat cleanup
 * dev-db/[pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) | Advanced scheduling for PostgreSQL
 * dev-db/[pgcenter](https://github.com/lesovsky/pgcenter) | Command-line admin tool for observing and troubleshooting Postgres
-* dev-db/[pgtune](https://github.com/andreif/pgtune) | A high-performance PostgreSQL tuning script
 * dev-db/[pipelinedb](https://www.pipelinedb.com/) | High-performance time-series aggregation for PostgreSQL
 * dev-db/[postgresql_anonymizer](https://gitlab.com/dalibo/postgresql_anonymizer) | Anonymization & Data Masking for PostgreSQL
 * dev-db/[sqlbench](https://github.com/felixge/sqlbench) | Measures and compares execution time of one or more SQL queries
@@ -375,6 +377,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[cli](https://www.codesynthesis.com/projects/cli) | Command Line Interface compiler for C++
 * dev-util/[cloud-utils](https://launchpad.net/cloud-utils) | Utilities for interacting with a cloud
 * dev-util/[cupt](https://github.com/jackyf/cupt) | Package manager for Debian
+* dev-util/[desed](https://github.com/SoptikHa2/desed) | Debugger for Sed
 * dev-util/[fossa-cli](https://github.com/fossas/fossa-cli) | License and vulnerability analysis
 * dev-util/[gh](https://github.com/cli/cli) | The GitHub CLI
 * dev-util/[gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner) | GitLab Runner

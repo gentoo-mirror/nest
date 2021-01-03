@@ -10,11 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	The aim for this project is to create the worlds best and hottest
-	interface to interact with aria2. Very simple to use, just download
-	and open index.html in any web browser.
+	Tool that helps you parse NGINX access logs and print various
+	statistics from them regardless of format.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">ziahamza/webui-aria2</remote-id>
+		<remote-id type="github">gsquire/topngx</remote-id>
 	</upstream>
 </pkgmetadata>
