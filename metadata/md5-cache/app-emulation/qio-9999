@@ -1,11 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=QEMU Init OpenRC
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/SpiderX/qio
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=!app-emulation/qemu-init-scripts app-emulation/qemu net-misc/socat
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=7425e57b03a0479a1063a63d700163a4
+_md5_=31180201a4456428c5fbcf71eec327d9

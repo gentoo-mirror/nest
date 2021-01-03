@@ -1,12 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst prerm setup unpack
-DEPEND=>=app-admin/webapp-config-1.50.15 >=dev-vcs/git-1.8.2.1[curl] >=app-admin/webapp-config-1.50.15
+DEPEND=>=app-admin/webapp-config-1.50.15
 DESCRIPTION=The worlds best and hottest interface to interact with aria2
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/ziahamza/webui-aria2
 IUSE=vhosts vhosts
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
+RDEPEND=>=app-admin/webapp-config-1.50.15
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	webapp	1d03df021d958f89f4cc78e289d0b116
-_md5_=e6a35f6119b3fa42f618a341fdbc9c69
+_md5_=11b4de4fc1efc6b5e2ed5911ac65ce3f

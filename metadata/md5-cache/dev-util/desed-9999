@@ -1,12 +1,11 @@
 BDEPEND=>=virtual/rust-1.37.0 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DESCRIPTION=AWS CloudFormation Guard
+DESCRIPTION=Debugger for Sed
 EAPI=7
-HOMEPAGE=https://github.com/aws-cloudformation/cloudformation-guard
+HOMEPAGE=https://github.com/SoptikHa2/desed
 IUSE=debug
-LICENSE=Apache-2.0 BSL-1.1 MIT MPL-2.0
+LICENSE=GPL-3
 PROPERTIES=live
-RESTRICT=mirror
 SLOT=0
 _eclasses_=cargo	7ffdd252643addc68abff0a08cca5306	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=6c406b9f60707ef4cf1cdd01d664e4b9
+_md5_=685080125b48221d9700a3a393f1b7b1
