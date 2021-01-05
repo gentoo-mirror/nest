@@ -8,5 +8,5 @@ LICENSE=Apache-2.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/digitalocean/do-agent/archive/3.6.0.tar.gz -> do-agent-3.6.0.tar.gz
-_eclasses_=go-module	92660621959e7fab813173772987588b	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=go-module	92660621959e7fab813173772987588b	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
 _md5_=b8aa1d62fd25a00f4aa630762054ba2c
