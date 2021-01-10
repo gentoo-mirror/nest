@@ -3,10 +3,10 @@
 
 EAPI=7
 
-PROJECTS="sgconv rlm_stg rscriptd sgauth sgconf sgconf_xml stargazer"
+PROJECTS="sgconv rscriptd sgauth sgconf sgconf_xml stargazer"
 
 STG_MODULES_AUTH="always-online internet-access freeradius"
-STG_MODULES_CAPTURE="ether netflow"
+STG_MODULES_CAPTURE="ether netflow nfqueue"
 STG_MODULES_CONFIG="sgconfig rpcconfig"
 STG_MODULES_OTHER="ping smux remote-script"
 STG_MODULES_STORE="files firebird mysql postgres"
@@ -17,6 +17,7 @@ MODULES=( [module-auth-always-online]="authorization\\/ao:mod_ao"
 	[module-auth-freeradius]="other\\/radius:mod_radius"
 	[module-capture-ether]="capture\\/ether_linux:mod_cap_ether"
 	[module-capture-netflow]="capture\\/cap_nf:mod_cap_nf"
+	[module-capture-nfqueue]="capture\\/nfqueue:mod_cap_nfqueue"
 	[module-config-sgconfig]="configuration\\/sgconfig:mod_sg"
 	[module-config-rpcconfig]="configuration\\/rpcconfig:mod_rpc"
 	[module-other-ping]="other\\/ping:mod_ping"
@@ -35,13 +36,13 @@ INIT=(	[module-store-files]="11d"
 	[module-store-postgres]="11d;s/need net/need net postgresql/"
 )
 
-MY_P="stg-${PV/_/-}"
+MY_P="stg-${PV}"
 
 inherit flag-o-matic toolchain-funcs
 
 DESCRIPTION="Billing system for small home and office networks"
 HOMEPAGE="http://stg.net.ua"
-SRC_URI="http://stg.codes/attachments/download/11/${MY_P}.tar.gz"
+SRC_URI="https://stg.net.ua/files/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -74,14 +75,14 @@ PATCHES=(
 	# Correct working directory, user and group and paths
 	"${FILESDIR}"/patches/stg-2.409-correct-paths.patch
 	# Correct target install-data for stargazer, rscriptd, sgauth, remove debug
-	"${FILESDIR}"/patches/stg-2.409-makefile.patch
+	"${FILESDIR}"/patches/stg-2.409-makefile-no-rlm.patch
 	# Remove make from script (for keeping symbols), add variable to Makefile.conf
-	"${FILESDIR}"/patches/stg-2.409-build.patch
+	"${FILESDIR}"/patches/stg-2.409-build-no-rlm.patch
 	# Remove static-libs if not needed
 	"${FILESDIR}"/patches/stg-2.408-static-libs.patch
 )
 
-IUSE="sgconv radius rscriptd sgauth sgconf sgconf-xml +stargazer debug"
+IUSE="sgconv rscriptd sgauth sgconf sgconf-xml +stargazer radius debug"
 
 for module in ${STG_MODULES_AUTH} ; do IUSE="${IUSE} module-auth-${module}" ; done
 for module in ${STG_MODULES_CAPTURE} ; do IUSE="${IUSE} module-capture-${module}" ; done
@@ -148,14 +149,16 @@ src_compile() {
 	# Build necessary libraries first
 	touch Makefile.conf
 	cd stglibs || die "cd to stglibs failed"
-	emake STG_LIBS="ia.lib srvconf.lib" CC="$(tc-getCC)" CXX="$(tc-getCXX)"
+	emake STG_LIBS="ia.lib srvconf.lib" CC="$(tc-getCC)" CXX="$(tc-getCXX)" \
+		AR="$(tc-getAR)" RANLIB="$(tc-getRANLIB)"
 
 	local i
 	for (( i = 0 ; i < ${#PROJECTS[@]} ; i++ )) ; do
 		if use "${USEFLAGS[$i]}" ; then
 			cd "${S}"/projects/"${PROJECTS[$i]}" \
 				|| die "cd to ${PROJECTS[$i]} failed"
-			emake CC="$(tc-getCC)" CXX="$(tc-getCXX)"
+			emake CC="$(tc-getCC)" CXX="$(tc-getCXX)" \
+				AR="$(tc-getAR)" RANLIB="$(tc-getRANLIB)"
 		fi
 	done
 }
@@ -180,11 +183,6 @@ src_install() {
 		insinto /etc/stargazer
 		doins "${S}"/projects/sgconv/sgconv.conf
 		doman "${FILESDIR}"/mans/sgconv.1
-	fi
-
-	if use radius ; then
-		cd "${S}"/projects/rlm_stg || die "cd to rlm_stg failed"
-		emake DESTDIR="${D}" PREFIX="${D}" install
 	fi
 
 	if use rscriptd ; then
@@ -352,6 +350,9 @@ pkg_postinst() {
 			einfo "* module-capture-netflow available.\\n"
 			einfo "For further use emerge any netflow sensor:\\n"
 			einfo "net-firewall/ipt_netflow or net-analyzer/softflowd.\\n"
+		fi
+		if use module-capture-nfqueue ; then
+			einfo "* module-capture-nfqueue available."
 		fi
 		if use module-config-sgconfig ; then
 			einfo "* module-config-sgconfig available."
