@@ -54,7 +54,6 @@ acct-user/vhusb 0: System user: vhusb
 app-admin/ansible-lint 4.3.4 9999: Best practices checker for Ansible
 app-admin/aws-vault 6.2.0 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and usage
-app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsls 0.8.1 9999: A list command for AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
@@ -62,7 +61,6 @@ app-admin/awsume 4.5.0 9999: A utility for easily assuming AWS IAM roles from co
 app-admin/azcopy 10.6.0 9999: A command-line utility to manage Azure Storage accounts
 app-admin/cli53 0.8.17 9999: Command line tool for Amazon Route 53
 app-admin/cloudman 0.1.5 9999: Textual user interface to manage ec2 instances
-app-admin/container-service-extension 2.6.0 9999: Container Service Extension for vCloud Director
 app-admin/csp-reporter 9999: Content Security Policy logs parser
 app-admin/digaws 0.1.1 9999: Look up region and other information for any AWS IP address
 app-admin/digg 0.1.3 9999: Look up region and other information for any Google IP address
@@ -90,7 +88,6 @@ app-admin/vcd-cli 23.0.0 9999: Utility to check AWS resource limits and usage
 app-admin/vector-bin 0.10.0: High performance logs, metrics, and events router
 app-admin/whatfiles 1.0 9999: Log what files are accessed by any Linux process
 app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Vault
-app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
 app-backup/pgbackrest 2.0.9 2.26 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.4.10 9999: Client Server backup system
 app-backup/urbackup-server 2.4.13 9999: Client Server backup system
@@ -98,7 +95,6 @@ app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 0.1.16: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
-app-crypt/acmebot 2.2.0 2.3.0 9999: ACME protocol automatic certitificate manager
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
 app-editors/micro 2.0.5 9999: A modern and intuitive terminal-based text editor
@@ -319,8 +315,6 @@ dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
 dev-python/python-user-agents 2.1.0 9999: A library to identify devices by parsing user agent strings
 dev-python/pytimeparse 1.1.8 9999: A library to parse time from human readable string
 dev-python/pyvcloud 22.0.1 9999: VMware vCloud Director Python SDK
-dev-python/pyvmomi 7.0 9999: VMware vSphere API Python Bindings
-dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 1.5.1 1.5.2 9999: Python library to build pretty command line user prompts
 dev-python/reprint 9999: Binding variables and refreshing multi-line output in terminal
 dev-python/requests-credssp 1.1.1 9999: CredSSP authentication handler for Python Requests
@@ -342,7 +336,6 @@ dev-python/sphinxcontrib-mermaid 0.4.0 9999: Mermaid diagrams in sphinx powered 
 dev-python/sphinxcontrib-openapi 0.6.0 9999: Sphinx extension to generate APIs docs from OpenAPI
 dev-python/swagger_spec_validator 2.4.3 2.7.3 9999: Python library that validates Swagger Specs
 dev-python/tablib 2.0.0 9999: Format-agnostic tabular dataset library
-dev-python/testinfra 4.0.0 9999: Testinfra test your infrastructures
 dev-python/text-unidecode 1.3 9999: The most basic Text::Unidecode port
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/tomlkit 0.5.8 0.7.0 9999: Style-preserving TOML library for Python
@@ -356,7 +349,6 @@ dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/validators 0.14.2 0.15.0 9999: Python data validation library
 dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.0.0 9999: Find version of python package, installed via pip, setuptools, git
-dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.13.2 1.14.0 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 3.0.8 9999: Automated testing for Ansible roles
 dev-util/arctype 0.7.27: SQL client for PostgreSQL and MySQL
@@ -389,8 +381,6 @@ dev-util/yamllint 1.24.2 9999: A linter for YAML files
 dev-vcs/commitizen 2.0.2 9999: Python commitizen client tool
 dev-vcs/gitaly 13.1.4 13.3.2 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.13.1 9999: Git commit message linter
-dev-vcs/mercurial-extension_utils 1.5.0 9999: Mercurial Extension Utils
-dev-vcs/mercurial-keyring 1.3.0 9999: Mercurial Keyring Extension
 dev-vcs/pre-commit 2.7.0 2.7.1 9999: A framework for multi-language pre-commit hooks
 gnome-base/dconf 0.29.1: Simple low-level configuration system
 media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
@@ -499,4 +489,3 @@ www-servers/gitlab-workhorse 8.37.0 8.43.0 9999: GitLab reverse proxy
 x11-misc/RazerGenie 0.8.1 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.48 2.51 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
-x11-misc/openrazer 2.5.0 2.7.0 9999: Linux drivers for the Razer devices
