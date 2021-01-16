@@ -93,7 +93,7 @@ app-backup/urbackup-client 2.4.10 9999: Client Server backup system
 app-backup/urbackup-server 2.4.13 9999: Client Server backup system
 app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
-app-crypt/acme-client 0.1.16: Secure Let's Encrypt client
+app-crypt/acme-client 1.1.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-editors/FeatherPad 0.9.4 9999: Lightweight Qt5 plain-text editor
@@ -283,7 +283,6 @@ dev-python/graphviz 0.13.2 9999: Simple Python interface for Graphviz
 dev-python/gssapi 1.6.1 9999: A Python interface to RFC 2743/2744
 dev-python/hijri-converter 2.1.1 9999: Hijri-Gregorian date converter
 dev-python/identify 1.4.30 9999: File identification library for Python
-dev-python/ifaddr 0.1.6 9999: Python Library to enumerate all network interfaces
 dev-python/itypes 1.1.0 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 3.6.2 9999: Jalali implementation of Python's datetime module
 dev-python/jsmin 2.2.2 9999: JavaScript minifier
@@ -402,9 +401,9 @@ media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999: Radio tray for linux on QT
 media-radio/liquidsoap 1.3.1 1.3.7 1.4.0_beta2 9999: A swiss-army knife for multimedia streaming, used for netradios and webtvs
-media-sound/mpz 1.0.1 9999: Music player for big local collections
-media-sound/plexamp 3.1.1 3.2.1: Music focused client for Plex
-media-sound/sayonara 1.5.1_p5 1.6.0_beta6 9999: Small, clear and fast Qt-based audio player
+media-sound/mpz 1.0.1 1.0.11 9999: Music player for big local collections
+media-sound/plexamp 3.2.1 3.4.0: Music focused client for Plex
+media-sound/sayonara 1.5.1_p5 1.6.0_beta6 1.6.0_beta7 9999: Small, clear and fast Qt-based audio player
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
 net-analyzer/goaccess 1.3 9999: A real-time web log analyzer and interactive viewer in a terminal
@@ -463,6 +462,7 @@ net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable fi
 net-p2p/tremotesf 1.7.1 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.2.1 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
+net-vpn/forticlient 6.4.0.0851: Fortinet VPN client
 net-vpn/softether 4.34_beta9744 4.34_p9745 9999: Multi-protocol VPN software
 sci-visualization/visidata 1.5.2 2.0.1 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
