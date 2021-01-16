@@ -91,7 +91,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-backup/[urbackup-server](https://urbackup.org) | Client Server backup system
 * app-backup/[wal-g](https://github.com/wal-g/wal-g) | Archival restoration tool for databases
 * app-crypt/[acmebot](https://github.com/plinss/acmebot) | ACME protocol automatic certitificate manager
-* app-crypt/[acme-client](https://github.com/kristapsdz/acme-client-portable) | Secure Let's Encrypt client
+* app-crypt/[acme-client](https://github.com/graywolf/acme-client-portable) | Secure Let's Encrypt client
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/acme.sh.svg)](https://repology.org/metapackage/acme.sh) app-crypt/[acme-sh](https://github.com/Neilpang/acme.sh) | An ACME Shell script
 * app-crypt/[qesteidutil](https://github.com/open-eid/qesteidutil) | Estonian ID card management desktop utility
 * app-editors/[qedit](http://hugo.pereira.free.fr/software/index.php) | Qt-based multi-purpose text editor
@@ -283,7 +283,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
 * dev-python/[hijri-converter](https://github.com/dralshehri/hijri-converter) | Hijri-Gregorian date converter
 * dev-python/[identify](https://github.com/chriskuehl/identify) | File identification library for Python
-* dev-python/[ifaddr](https://github.com/floyernick/fleep-py) | Python Library to enumerate all network interfaces
 * dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 * dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
@@ -419,7 +418,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-libs/[qt-heif](https://github.com/jakar/qt-heif-image-plugin) | Qt plugin for HEIF images
 * media-libs/[shine](https://github.com/toots/shine) | Fixed-point mp3 encoding library
 * media-sound/[mpz](https://olegantonyan.github.io/mpz) | Music player for big local collections
-* media-sound/[plexamp](https://plexamp.com/) | Music focused client for Plex
+* media-sound/[plexamp](https://plexamp.com) | Music focused client for Plex
 * media-sound/[sayonara](https://sayonara-player.com) | Small, clear and fast Qt-based audio player
 * media-radio/[krudio](https://github.com/loast/krudio) | Radio tray for linux on QT
 * media-radio/[liquidsoap](http://liquidsoap.info) | A swiss-army knife for multimedia streaming, used for netradios and webtvs
@@ -475,12 +474,13 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * net-misc/[websocat](https://github.com/vi/websocat) | Netcat, curl and socat for WebSockets
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/x11-ssh-askpass.svg)](https://repology.org/metapackage/x11-ssh-askpass) net-misc/[x11-ssh-askpass](https://github.com/sigmavirus24/x11-ssh-askpass) | X11-based passphrase dialog for use with OpenSSH
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/automatic.svg)](https://repology.org/metapackage/automatic) net-p2p/[automatic](https://github.com/1100101/Automatic) | RSS downloader for Tranmission
-* net-p2p/[gram-wallet-bin](https://https://wallet.ton.org) | TON Testnet Wallet
+* net-p2p/[gram-wallet-bin](https://wallet.ton.org) | TON Testnet Wallet
 * net-p2p/[tremotesf](https://github.com/equeim/tremotesf2) | A remote GUI for transmission
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-214969-red.svg)](https://bugs.gentoo.org/214969) net-p2p/[opentracker](https://github.com/flygoast/opentracker) | High-performance bittorrent tracker
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/resilio-sync.svg)](https://repology.org/metapackage/resilio-sync) net-p2p/[resilio-sync](https://resilio.com) | Resilient, fast and scalable file synchronization tool
 * net-voip/[linphone-desktop](https://gitlab.linphone.org/BC/public/linphone-desktop) | A free VoIP and video softphone based on the SIP protocol
 * net-voip/[twinkle](https://github.com/LubosD/twinkle) | Softphone for voice over IP and IM communication using SIP
+* net-vpn/[forticlient](https://www.forticlient.com) | Fortinet VPN client
 * [![Gentoo Bug](https://img.shields.io/badge/Bug-498844-red.svg)](https://bugs.gentoo.org/498844) net-vpn/[softether](http://www.softether.org) | Multi-protocol VPN software
 * sci-visualization/[visidata](https://github.com/saulpw/visidata) | Terminal spreadsheet multitool for discovering and arranging data
 * sys-apps/[aptly](https://github.com/aptly-dev/aptly) | A swiss army knife for Debian repository management

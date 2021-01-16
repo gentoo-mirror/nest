@@ -10,11 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A small Python library that allows you to find all the IP addresses
-	of the computer.
+	FortiClient for Linux protects Linux desktops and servers against
+	malware by leveraging real-time scanning and detecting vulnerabilities
+	before attackers can exploit them. FortiClient also utilizes Sandbox
+	threat intelligence to detect and block zero-day threats that have not
+	been seen before.
 	</longdescription>
-	<upstream>
-		<remote-id type="github">pydron/ifaddr</remote-id>
-		<remote-id type="pypi">ifaddr</remote-id>
-	</upstream>
 </pkgmetadata>
