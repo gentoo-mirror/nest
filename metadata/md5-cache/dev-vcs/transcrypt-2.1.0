@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-util/bats )
+DEFINED_PHASES=install test
+DESCRIPTION=Transparently encrypt files within a git repository
+EAPI=7
+HOMEPAGE=https://github.com/elasticdog/transcrypt
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-vcs/git || ( dev-libs/libressl dev-libs/openssl:0 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/elasticdog/transcrypt/archive/v2.1.0.tar.gz -> transcrypt-2.1.0.tar.gz
+_eclasses_=bash-completion-r1	be99724bde4274de21e581204e9d164a	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=dfea433d6a25752d66e58532e66ba84f
