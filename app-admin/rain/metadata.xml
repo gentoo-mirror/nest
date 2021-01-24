@@ -10,11 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A Python module for creating JUnit XML test result documents
-	that can be read by tools such as Jenkins
+	Rain is a command line tool for working with AWS CloudFormation templates
+	and stacks with interactive deployments, consistent formatting of
+	CloudFormation templates, combined logs for nested stacks with
+	sensible filtering and build new CloudFormation templates.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">kyrus/python-junit-xml</remote-id>
-		<remote-id type="pypi">junit-xml</remote-id>
+		<remote-id type="github">aws-cloudformation/rain</remote-id>
 	</upstream>
 </pkgmetadata>

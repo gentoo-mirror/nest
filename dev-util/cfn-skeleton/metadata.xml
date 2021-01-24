@@ -10,12 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Validate CloudFormation yaml/json templates against the CloudFormation
-	specification and additional checks. Includes checking valid values for
-	resource properties and best practices.
+	A command line tool and Go library that consumes the published
+	CloudFormation specification and generates skeleton CloudFormation
+	templates with mandatory and optional parameters of chosen resource
+	types pre-filled with placeholder values.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">awslabs/cfn-python-lint</remote-id>
-		<remote-id type="pypi">cfn-lint</remote-id>
+		<remote-id type="github">awslabs/aws-cloudformation-template-builder</remote-id>
 	</upstream>
 </pkgmetadata>

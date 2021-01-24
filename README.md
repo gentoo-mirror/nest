@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 458](https://img.shields.io/badge/ebuild-458-orange.svg)](https://img.shields.io/badge/ebuild-458-orange.svg)
+[![Number of ebuilds: 463](https://img.shields.io/badge/ebuild-463-orange.svg)](https://img.shields.io/badge/ebuild-463-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -68,6 +68,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[jl](https://github.com/koenbollen/jl) | A tool for working with structured JSON logging
 * app-admin/[kconfig-hardened-check](https://github.com/a13xp0p0v/kconfig-hardened-check) | A script to check the hardening options in the Linux kernel config
 * app-admin/[netutils-linux](https://github.com/strizhechenko/netutils-linux) | Suite of network stack performance tunning utilities
+* app-admin/[rain](https://github.com/aws-cloudformation/rain) | A development workflow tool for working with AWS CloudFormation
 * app-admin/[reach](https://github.com/99designs/aws-vault) | A vault for securely storing and accessing AWS credentials
 * app-admin/[reprepro](https://salsa.debian.org/brlink/reprepro) | A tool to handle local repositories of Debian packages
 * app-admin/[ripe-atlas-tools](https://github.com/RIPE-NCC/ripe-atlas-tools) | The official command-line client for RIPE Atlas
@@ -287,7 +288,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 * dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
-* dev-python/[junit-xml](https://github.com/kyrus/python-junit-xml) | Generate HTML or XML in a pythonic way
 * dev-python/[k5test](https://github.com/pythongssapi/k5test) | A library for setting up self-contained Kerberos 5 environments
 * dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
@@ -367,11 +367,13 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[ansible-molecule](https://github.com/ansible/molecule) | Automated testing for Ansible roles
 * dev-util/[arctype](https://arctype.com) | SQL client for PostgreSQL and MySQL
 * dev-util/[aws-config-rdk](https://github.com/awslabs/aws-config-rdk) | AWS Config Rules Development Kit
+* dev-util/[aws-config-rdklib](https://github.com/awslabs/aws-config-rdklib) | Rule Development Kit Library for AWS Config
 * dev-util/[azuredatastudio-bin](https://github.com/microsoft/azuredatastudio) | Data management tool to work with DW, Azure, SQL Server
 * dev-util/[bcunit](https://github.com/BelledonneCommunications/bcunit) | BC Unit Test Framework
 * dev-util/[beekeeper-studio-bin](https://www.beekeeperstudio.io) | SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+* dev-util/[cfn-format](https://github.com/awslabs/aws-cloudformation-template-formatter) | AWS CloudFormation Template Formatter
 * dev-util/[cfn-guard](https://github.com/aws-cloudformation/cloudformation-guard) | AWS CloudFormation Guard
-* dev-util/[cfn-python-lint](https://github.com/awslabs/cfn-python-lint) | AWS CloudFormation Linter
+* dev-util/[cfn-skeleton](https://github.com/awslabs/aws-cloudformation-template-builder) | AWS Cloudformation Template Builder
 * dev-util/[cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip) | AWS CloudFormation Template Flip
 * dev-util/[cli](https://www.codesynthesis.com/projects/cli) | Command Line Interface compiler for C++
 * dev-util/[cloud-utils](https://launchpad.net/cloud-utils) | Utilities for interacting with a cloud
@@ -393,12 +395,14 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[tickgit](https://github.com/augmentable-dev/tickgit) | Manage your repository's TODOs as config in your codebase
 * dev-util/[xxd](https://github.com/vim/vim) | Hexdump utility from vim
 * dev-util/[yamllint](https://github.com/adrienverge/yamllint) | A linter for YAML files
+* dev-vcs/[blackbox](https://github.com/StackExchange/blackbox) | Safely store secrets in Git/Mercurial/Subversion
 * dev-vcs/[commitizen](https://github.com/Woile/commitizen) | Python commitizen client tool
 * dev-vcs/[gitaly](https://gitlab.com/gitlab-org/gitaly) | Git RPC service for handling GitLab git calls
 * dev-vcs/[gitlint](https://github.com/jorisroovers/gitlint) | Git commit message linter
 * dev-vcs/[mercurial-extension_utils](https://bitbucket.org/Mekk/mercurial-extension_utils) | Mercurial Extension Utils
 * dev-vcs/[mercurial-keyring](https://bitbucket.org/Mekk/mercurial_keyring) | Mercurial Keyring Extension
 * dev-vcs/[pre-commit](https://github.com/pre-commit/pre-commit) | A framework for multi-language pre-commit hooks
+* dev-vcs/[transcrypt](https://github.com/elasticdog/transcrypt) | Transparently encrypt files within a git repository
 * gnome-base/[dconf](https://wiki.gnome.org/Projects/dconf) | Simple low-level configuration system
 * media-gfx/[butteraugli](https://github.com/google/butteraugli) | A tool for measuring perceived differences between images
 * media-gfx/[colorpick](https://github.com/agateau/colorpick) | Color picker and contrast checker
