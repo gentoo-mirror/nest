@@ -27,6 +27,8 @@ app-emulation/vmware-workstation:vmware-tools-solaris - Install VMware Tools for
 app-emulation/vmware-workstation:vmware-tools-winPre2k - Install VMware Tools for Windows (before 2000) guests
 app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools for Windows (after 2000, before Vista) guests
 app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests
+app-metrics/amazon-cloudwatch-agent:otel - Support Amazon Opentelemetry Collector
+app-metrics/aws-otel-collector:cwagent - Compatibility with CloudWatch agent
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
 app-shells/fzf:fish-completion - Enable fish completion support

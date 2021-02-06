@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=Amazon AWS Opentelemetry Collector
+EAPI=7
+HOMEPAGE=https://github.com/aws-observability/aws-otel-collector
+IUSE=cwagent
+LICENSE=Apache-2.0 BSD BSD-2 ISC MIT MPL-2.0
+PROPERTIES=live
+RDEPEND=acct-user/amazon acct-user/aoc cwagent? ( acct-user/cwagent ) virtual/tmpfiles
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	tmpfiles	6170dc7770585fb3f16efdee789a3218	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=3be509954a8ae5466a281c5a01adcb50
