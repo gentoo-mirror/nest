@@ -2,12 +2,11 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-command="/usr/bin/do-agent"
-command_args="${DOAGENT_OPTS}"
+command="/opt/aws/aws-otel-collector/bin/aws-otel-collector"
+command_args="${AOC_OPTS}"
 command_background="yes"
-command_user="${DOAGENT_USER:-nobody}:${DOAGENT_GROUP:-nogroup}"
-description="DigitalOcean Agent"
-name="DigitalOcean Agent"
+description="Amazon AWS Opentelemetry Collector"
+name="Amazon AWS Opentelemetry Collector"
 pidfile="/run/${RC_SVCNAME}.pid"
 
 depend() {
