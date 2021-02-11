@@ -67,7 +67,7 @@ app-admin/csp-reporter 9999: Content Security Policy logs parser
 app-admin/digaws 0.1.1 9999: Look up region and other information for any AWS IP address
 app-admin/digg 0.1.3 9999: Look up region and other information for any Google IP address
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.55.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.55.0 1.56.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/ibmcloud-bin 0.22.0 1.2.1: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
