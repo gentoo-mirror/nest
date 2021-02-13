@@ -237,6 +237,7 @@ dev-python/cerberus 1.3.2 9999: Lightweight and extensible data validation libra
 dev-python/cfgv 3.2.0 9999: Validate configuration and produce human readable error messages
 dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
 dev-python/click-help-colors 0.8 9999: Colorization of help messages in Click
+dev-python/colorpedia 1.2.2 9999: Command-line tool for looking up colors and palettes
 dev-python/convertdate 2.2.0 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
@@ -279,6 +280,7 @@ dev-python/factory_boy 2.12.0 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.2 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/faker 4.1.0 9999: Python package that generates fake data
 dev-python/filetype 1.0.5 9999: Infer file type and MIME type of any file/buffer
+dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
 dev-python/fleep 1.0.1 9999: File format determination library for Python
 dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/forbiddenfruit 0.1.3 9999: Patch python built-in objects
