@@ -397,6 +397,8 @@ dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/commitizen 2.0.2 9999: Python commitizen client tool
 dev-vcs/gitaly 13.1.4 13.3.2 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.13.1 9999: Git commit message linter
+dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
+dev-vcs/mercurial_keyring 1.3.2 9999: Mercurial Keyring Extension
 dev-vcs/pre-commit 2.7.0 2.7.1 9999: A framework for multi-language pre-commit hooks
 dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git repository
 gnome-base/dconf 0.29.1: Simple low-level configuration system
