@@ -512,3 +512,4 @@ www-servers/gitlab-workhorse 8.37.0 8.43.0 9999: GitLab reverse proxy
 x11-misc/RazerGenie 0.8.1 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.56 2.57 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
+x11-misc/openrazer 2.9.0 9999: Linux drivers for the Razer devices
