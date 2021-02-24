@@ -69,7 +69,7 @@ app-admin/csp-reporter 9999: Content Security Policy logs parser
 app-admin/digaws 0.1.1 9999: Look up region and other information for any AWS IP address
 app-admin/digg 0.1.3 9999: Look up region and other information for any Google IP address
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.55.0 1.56.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.55.0 1.56.0 1.57.0 9999: A command line tool for DigitalOcean services
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/ibmcloud-bin 0.22.0 1.2.1: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
@@ -135,6 +135,7 @@ dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of l
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
+dev-db/datanymizer 0.1.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.4.2_beta6 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/msodbcsql 17.6.1.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
