@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] alsa? ( dev-ml/ocaml-alsa:=[ocamlopt?] ) ao? ( dev-ml/ocaml-ao:=[ocamlopt?] ) camlp4? ( dev-ml/camlp4:=[ocamlopt?] ) ffmpeg? ( dev-ml/ocaml-ffmpeg:=[ocamlopt?] ) gstreamer? ( dev-ml/ocaml-gstreamer:=[ocamlopt?] ) mad? ( dev-ml/ocaml-mad:=[ocamlopt?] ) ogg? ( dev-ml/ocaml-ogg:=[ocamlopt?] ) pulseaudio? ( dev-ml/ocaml-pulseaudio:=[ocamlopt?] ) sdl? ( dev-ml/ocamlsdl:=[ocamlopt?] ) theora? ( dev-ml/ocaml-theora:=[ocamlopt?] )
 SLOT=0/0.4.0
 SRC_URI=https://github.com/savonet/ocaml-mm/releases/download/0.4.0/ocaml-mm-0.4.0.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	findlib	9674d5e3d151793fecab20e2bb73e6c6	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	findlib	3d3de4bef686774baeeabfa2b916631c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
 _md5_=1e2cc567965a0c9170eda4489bdf5974
