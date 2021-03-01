@@ -9,6 +9,7 @@ acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
 acct-group/inadyn 0: System group: inadyn
 acct-group/liquidsoap 0: System group: liquidsoap
+acct-group/msd 0: System group: msd
 acct-group/netgauge 0: System group: netgauge
 acct-group/odyssey 0: System group: odyssey
 acct-group/opentracker 0: System group: opentracker
@@ -38,6 +39,7 @@ acct-user/gitlab-workhorse 0: System user: gitlab-workhorse
 acct-user/inadyn 0: System user: inadyn
 acct-user/liquidsoap 0: System user: liquidsoap
 acct-user/mapforce 0: System user: mapforce
+acct-user/msd 0: System user: msd
 acct-user/netgauge 0: System user: netgauge
 acct-user/odyssey 0: System user: odyssey
 acct-user/opentracker 0: System user: opentracker
@@ -461,6 +463,7 @@ net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/fiche 0.9.1 9999: Command line pastebin server
 net-misc/mpssh 1.3.3 9999: Mass parallel ssh
+net-misc/msd 9999: Program for IP TV streaming on the network via HTTP
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
 net-misc/opendrop 0.10.2 9999: an Open Source AirDrop Implementation
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
