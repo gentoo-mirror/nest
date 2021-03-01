@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A lightweight Qt5 plain-text editor for Linux.
-	It is independent of any desktop environment and contains:
-	drag-and-drop support, X11 virtual desktop awareness, highlighting, etc.
+	lite is a lightweight text editor written mostly in Lua.
+	It aims to provide something practical, pretty, small and fast,
+	implemented as simply as possible.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">tsujan/FeatherPad</remote-id>
+		<remote-id type="github">rxi/lite</remote-id>
 	</upstream>
 </pkgmetadata>
