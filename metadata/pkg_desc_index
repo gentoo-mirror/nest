@@ -477,7 +477,7 @@ net-misc/slowhttptest 1.8.2 9999: Application Layer DoS attack simulator
 net-misc/spoofer 1.4.5: A tool to assess of deployment of source address validation
 net-misc/ssmd 9999: SNMP Switch Management Daemon
 net-misc/stargazer 2.408 2.409_rc4 2.409: Billing system for small home and office networks
-net-misc/topola 5.35.06 5.36.07: Customer accounting system, services and statistics collection management
+net-misc/topola 5.36.58: Customer accounting system, services and statistics collection management
 net-misc/uredir 3.3 9999: UDP port redirector
 net-misc/virtualhere-usb 9999: Share USB devices over the network
 net-misc/websocat 1.6.0 9999: Netcat, curl and socat for WebSockets

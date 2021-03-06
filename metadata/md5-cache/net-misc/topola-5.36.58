@@ -1,0 +1,14 @@
+DEFINED_PHASES=install nofetch postinst prepare unpack
+DESCRIPTION=Customer accounting system, services and statistics collection management
+EAPI=7
+HOMEPAGE=https://topola.unity.net
+IUSE=elibc_glibc base unlicensed-bin licensed-bin +taremote +xinetd
+KEYWORDS=~amd64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=acct-user/topola virtual/cron elibc_glibc? ( sys-libs/glibc:2.2 ) xinetd? ( sys-apps/xinetd )
+REQUIRED_USE=|| ( taremote base ) elibc_glibc unlicensed-bin? ( base elibc_glibc !licensed-bin ) licensed-bin? ( base elibc_glibc !unlicensed-bin )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=base? ( http://topola.unity.net/files/base/topola-base-5.36.07.bin ) unlicensed-bin? ( http://topola.unity.net/files/bin_unl/topola-bin_unl-5.36.58.bin ) licensed-bin? ( http://topola.unity.net/files/bin/topola-bin-5.36.58.bin ) taremote? ( http://topola.unity.net/files/taremote/topola-taremote_src-5.36.63.bin )
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	unpacker	45b49db67094fdafbb6a16a2299e894b	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
+_md5_=bc5dd6c4f076580349fd80f54c970d32
