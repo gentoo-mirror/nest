@@ -21,6 +21,7 @@ acct-group/samplicator 0: System group: samplicator
 acct-group/spoofer 0: System group: spoofer
 acct-group/ssmd 0: System group: ssmd
 acct-group/swapspace 0: System group: swapspace
+acct-group/topola 0: System group: topola
 acct-group/urbackup 0: System group: urbackup
 acct-group/uredir 0: System group: uredir
 acct-group/vector 0: System group: vector
@@ -51,6 +52,7 @@ acct-user/samplicator 0: System user: samplicator
 acct-user/spoofer 0: System user: spoofer
 acct-user/ssmd 0: System user: ssmd
 acct-user/swapspace 0: System user: swapspace
+acct-user/topola 0: System user: topola
 acct-user/urbackup 0: System user: urbackup
 acct-user/uredir 0: System user: uredir
 acct-user/vector 0: System user: vector
