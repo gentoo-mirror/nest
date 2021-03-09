@@ -7,8 +7,8 @@ EGIT_REPO_URI="https://github.com/sampointer/${PN}.git"
 
 inherit git-r3 go-module
 
-DESCRIPTION="Look up region and other information for any Google IP address"
-HOMEPAGE="https://github.com/sampointer/digg"
+DESCRIPTION="Look up region and other information for any Azure IP address"
+HOMEPAGE="https://github.com/sampointer/digaz"
 SRC_URI=""
 
 LICENSE="GPL-3"
@@ -32,5 +32,5 @@ src_test() {
 
 src_install() {
 	einstalldocs
-	dobin digg
+	dobin digaz
 }
