@@ -265,19 +265,19 @@ dev-python/decli 0.5.1 0.5.2 9999: Minimal declarative cli tool
 dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
 dev-python/django-celery-beat 1.6.0 9999: Celery Periodic Tasks for Django
 dev-python/django-configurations 2.2 2.2-r1 9999: A helper for organizing Django project settings
-dev-python/django-cors-headers 3.2.1 3.3.0 9999: Django application for Cross-Origin Resource Sharing (CORS)
-dev-python/django-crispy-forms 1.8.1 1.9.1 9999: DRY Django forms
+dev-python/django-cors-headers 3.7.0 9999: Django application for Cross-Origin Resource Sharing (CORS)
+dev-python/django-crispy-forms 1.11.1 9999: DRY Django forms
 dev-python/django-environ 0.4.5 9999: An environment variables to configure Django
 dev-python/django-fake-model 0.1.4 9999: A library for creating fake models in the unit tests
-dev-python/django-filter 2.2.0 2.3.0 9999: Django application for filtering querysets
-dev-python/django-guardian 2.2.0 2.3.0 9999: An implementation of per object permissions for Django
+dev-python/django-filter 2.4.0-r1 9999: Django application for filtering querysets
+dev-python/django-guardian 2.3.0 9999: Implementation of per object permissions for Django
 dev-python/django-jinja 2.4.1 2.6.0 9999: Jinja2 templating language integrated in Django
-dev-python/django-js-asset 1.2.2 9999: A script tag with additional attributes for django.forms.Media
-dev-python/django-mptt 0.11.0 9999: Utilities for implementing Modified Preorder Tree Traversal
+dev-python/django-js-asset 1.2.2-r1 9999: A script tag with additional attributes for django.forms.Media
+dev-python/django-mptt 0.12.0 9999: Utilities for implementing Modified Preorder Tree Traversal
 dev-python/django-nose 1.4.6 9999: Django test runner using nose
 dev-python/django-oauth-toolkit 1.2.0 1.3.2 9999: OAuth2 Provider for Django
 dev-python/django-pipeline 1.7.0 9999: An asset packaging library for Django
-dev-python/django-rest-framework 3.11.0 9999: Django REST framework
+dev-python/django-rest-framework 3.12.2 9999: Django REST framework
 dev-python/django-rest-framework-camel-case 1.0_beta1 9999: Camel case JSON support for Django REST framework
 dev-python/django-rest-framework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
 dev-python/django-rest-swagger 2.2.0 9999: Swagger UI for Django REST Framework
@@ -301,7 +301,7 @@ dev-python/graphviz 0.13.2 9999: Simple Python interface for Graphviz
 dev-python/gssapi 1.6.1 9999: A Python interface to RFC 2743/2744
 dev-python/hijri-converter 2.1.1 9999: Hijri-Gregorian date converter
 dev-python/identify 1.4.30 9999: File identification library for Python
-dev-python/itypes 1.1.0 1.2.0 9999: Simple immutable types for python
+dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 3.6.2 9999: Jalali implementation of Python's datetime module
 dev-python/jsmin 2.2.2 9999: JavaScript minifier
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
