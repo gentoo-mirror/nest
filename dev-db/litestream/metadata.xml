@@ -10,12 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A simple Python library for queueing jobs and processing them
-	in the background with workers. It is backed by Redis and it is
-	designed to have a low barrier to entry.
+	Litestream is a standalone streaming replication tool for SQLite.
+	It runs as a background process and safely replicates changes
+	incrementally to another file or S3. Litestream only communicates
+	with SQLite through the SQLite API so it will not corrupt your database.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">rq/rq</remote-id>
-		<remote-id type="pypi">rq</remote-id>
+		<remote-id type="github">benbjohnson/litestream</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 477](https://img.shields.io/badge/ebuild-477-orange.svg)](https://img.shields.io/badge/ebuild-477-orange.svg)
+[![Number of ebuilds: 481](https://img.shields.io/badge/ebuild-481-orange.svg)](https://img.shields.io/badge/ebuild-481-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -52,6 +52,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[awsometag](https://github.com/mhausenblas/awsometag) | Simple command-line snippet manager
 * app-admin/[awsudo](https://github.com/makethunder/awsudo) | A temporary credentials for AWS roles via sudo-like utility
 * app-admin/[awsume](https://github.com/trek10inc/awsume) | A utility for easily assuming AWS IAM roles from command line
+* app-admin/[awstaghelper](https://github.com/mpostument/awstaghelper) | AWS bulk tagging tool
 * app-admin/[aws-vault](https://github.com/99designs/aws-vault) | A vault for securely storing and accessing AWS credentials
 * app-admin/[azcopy](https://github.com/Azure/azure-storage-azcopy) | A command-line utility to manage Azure Storage accounts
 * app-admin/[cli53](https://github.com/barnybug/cli53) | Command line tool for Amazon Route 53
@@ -63,6 +64,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-admin/[digg](https://github.com/sampointer/digg) | Look up region and other information for any Google IP address
 * app-admin/[docker-pretty-ps](https://github.com/politeauthority/docker-pretty-ps) | docker ps in colored and long output
 * app-admin/[doctl](https://github.com/digitalocean/doctl) | A command line tool for DigitalOcean services
+* app-admin/[ebs-autoresize](https://github.com/mpostument/ebs-autoresize) | Automatically resize EBS
 * app-admin/[fselect](https://github.com/jhspetersson/fselect) | Find files with SQL-like queries
 * app-admin/[ibmcloud-bin](https://github.com/IBM-Cloud/ibm-cloud-cli-release) | IBM Cloud Developer Tools
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/qtpass.svg)](https://repology.org/metapackage/qtpass) app-admin/[qtpass](https://qtpass.org) | multi-platform GUI for pass, the standard unix password manager
@@ -132,6 +134,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
 * dev-db/[datanymizer](https://github.com/datanymizer/datanymizer) | Powerful database anonymizer with flexible rules
 * dev-db/[dbcrossbar](http://www.dbcrossbar.org) | Copy tabular data between databases, CSV files and cloud storage
+* dev-db/[litestream](https://github.com/benbjohnson/litestream) | Streaming S3 replication for SQLite
 * dev-db/[msodbcsql](https://docs.microsoft.com/en-us/sql/connect/odbc) | Microsoft ODBC Driver for SQL Server
 * dev-db/[mssql-cli](https://github.com/dbcli/mssql-cli) | CLI for SQL Server Database
 * dev-db/[mssql-scripter](https://github.com/microsoft/mssql-scripter) | CLI for scripting SQL Server Databases
@@ -334,7 +337,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[requests-mock](https://github.com/jamielennox/requests-mock) | Mock out responses from the requests package
 * dev-python/[reprint](https://github.com/Yinzo/reprint) | Binding variables and refreshing multi-line output in terminal
 * dev-python/[rich](https://github.com/willmcgugan/rich) | Validate configuration and produce human readable error messages
-* dev-python/[rq](https://github.com/rq/rq) | A library for creating and processing background jobs
 * dev-python/[ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 * dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 * dev-python/[route53-transfer](https://github.com/cosmin/route53-transfer) | Generic access to configuration files in any formats
@@ -488,6 +490,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * net-misc/[virtualhere-usb](https://virtualhere.com) | Share USB devices over the network
 * net-misc/[websocat](https://github.com/vi/websocat) | Netcat, curl and socat for WebSockets
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/x11-ssh-askpass.svg)](https://repology.org/metapackage/x11-ssh-askpass) net-misc/[x11-ssh-askpass](https://github.com/sigmavirus24/x11-ssh-askpass) | X11-based passphrase dialog for use with OpenSSH
+* net-misc/[wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/automatic.svg)](https://repology.org/metapackage/automatic) net-p2p/[automatic](https://github.com/1100101/Automatic) | RSS downloader for Tranmission
 * net-p2p/[gram-wallet-bin](https://wallet.ton.org) | TON Testnet Wallet
 * net-p2p/[tremotesf](https://github.com/equeim/tremotesf2) | A remote GUI for transmission
