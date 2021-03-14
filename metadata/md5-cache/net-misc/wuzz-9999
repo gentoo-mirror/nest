@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Interactive cli tool for HTTP inspection
+EAPI=7
+HOMEPAGE=https://github.com/asciimoo/wuzz
+LICENSE=AGPL-3 BSD BSD-2 MIT
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b
+_md5_=bb2a6b5556942a811c7f9afb5bdbd093

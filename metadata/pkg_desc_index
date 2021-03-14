@@ -63,6 +63,7 @@ app-admin/awslimitchecker 8.0.1 9999: Utility to check AWS resource limits and u
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsls 0.8.1 9999: A list command for AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
+app-admin/awstaghelper 0.17.1 9999: AWS bulk tagging tool
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/awsume 4.5.0 9999: A utility for easily assuming AWS IAM roles from command line
 app-admin/azcopy 10.6.0 9999: A command-line utility to manage Azure Storage accounts
@@ -75,6 +76,7 @@ app-admin/digaz 0.3.1 9999: Look up region and other information for any Azure I
 app-admin/digg 0.2.2 9999: Look up region and other information for any Google IP address
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.55.0 1.56.0 1.57.0 9999: A command line tool for DigitalOcean services
+app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/ibmcloud-bin 0.22.0 1.2.1: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
@@ -144,6 +146,7 @@ dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++1
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.1.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.4.2_beta6 9999: Copy tabular data between databases, CSV files and cloud storage
+dev-db/litestream 0.3.3 9999: Streaming S3 replication for SQLite
 dev-db/msodbcsql 17.6.1.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
@@ -340,7 +343,6 @@ dev-python/rich 6.0.0 9999: Validate configuration and produce human readable er
 dev-python/ripe-atlas-cousteau 1.4.2 9999: Official python wrapper around RIPE Atlas API
 dev-python/ripe-atlas-sagan 1.3.0 9999: Official python wrapper around RIPE Atlas API
 dev-python/route53-transfer 9999: Generic access to configuration files in any formats
-dev-python/rq 1.2.2 9999: A library for creating and processing background jobs
 dev-python/rstr 2.2.6: Generate random strings in Python
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
 dev-python/sentry-sdk 0.14.1 9999: Python client for Sentry
@@ -485,6 +487,7 @@ net-misc/topola 5.36.58: Customer accounting system, services and statistics col
 net-misc/uredir 3.3 9999: UDP port redirector
 net-misc/virtualhere-usb 9999: Share USB devices over the network
 net-misc/websocat 1.6.0 9999: Netcat, curl and socat for WebSockets
+net-misc/wuzz 0.5.0 9999: Interactive cli tool for HTTP inspection
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
 net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
