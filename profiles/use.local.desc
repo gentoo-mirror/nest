@@ -127,6 +127,7 @@ dev-ml/ocamlnet:httpd - Enables net-httpd web server component
 dev-ml/ocamlnet:zip - Enables netzip support to read/write gzip data using object channels
 dev-python/PythonQt:extensions - Install extensions
 dev-python/ctypescrypto:gost - Enable gost algorithm
+dev-python/drf-yasg:validation - Enable swagger spec validation
 dev-python/tablib:xls - Support for xls
 dev-python/tablib:yaml - Support for yaml
 dev-util/cloud-utils:fat - Enable FAT support
