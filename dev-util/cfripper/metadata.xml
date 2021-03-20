@@ -10,11 +10,13 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	This is a tiny package whose only purpose is to let you detect
-	which async library your code is running under.
+	CFRipper is a Library and CLI security analyzer for AWS CloudFormation
+	templates. You can use CFRipper to prevent deploying insecure AWS
+	resources into your Cloud environment. You can write your own compliance
+	checks by adding new custom plugins.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">python-trio/sniffio</remote-id>
-		<remote-id type="pypi">sniffio</remote-id>
+		<remote-id type="github">Skyscanner/cfripper</remote-id>
+		<remote-id type="pypi">cfripper</remote-id>
 	</upstream>
 </pkgmetadata>
