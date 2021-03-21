@@ -4,11 +4,12 @@ DEPEND=!libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) nls
 DESCRIPTION=A non-interactive FTP client for updating web pages
 EAPI=7
 HOMEPAGE=https://sourceforge.net/projects/weex
+INHERIT=autotools
 IUSE=debug libressl nls
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=!libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) nls? ( virtual/libintl )
 SLOT=0
 SRC_URI=mirror://sourceforge/weex/weex_2.8.2.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b
 _md5_=7b12d933423697965d61ea3f1bb32c82

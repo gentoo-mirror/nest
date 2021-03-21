@@ -4,11 +4,12 @@ DEPEND=dev-libs/libnl:3 net-libs/libpcap sys-libs/readline:= bfd? ( sys-libs/bin
 DESCRIPTION=Monitor for dropped network packets
 EAPI=7
 HOMEPAGE=https://github.com/nhorman/dropwatch
+INHERIT=autotools linux-info
 IUSE=bfd kernel_linux
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-libs/libnl:3 net-libs/libpcap sys-libs/readline:= bfd? ( sys-libs/binutils-libs:= )
 SLOT=0
 SRC_URI=https://github.com/nhorman/dropwatch/archive/v1.5.3.tar.gz -> dropwatch-1.5.3.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	linux-info	c90a203b1c14cfa77bd3e37a0e96c955
 _md5_=90d1bbfad8e0addbee4ed34c3d818c9d

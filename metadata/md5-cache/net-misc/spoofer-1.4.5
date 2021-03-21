@@ -4,11 +4,12 @@ DEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= )
 DESCRIPTION=A tool to assess of deployment of source address validation
 EAPI=7
 HOMEPAGE=https://spoofer.caida.org
+INHERIT=autotools desktop systemd tmpfiles
 IUSE=libressl qt5
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=dev-libs/protobuf-c:= net-libs/libpcap !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) acct-user/spoofer net-analyzer/traceroute virtual/tmpfiles
 SLOT=0
 SRC_URI=https://www.caida.org/projects/spoofer/downloads/spoofer-1.4.5.tar.gz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	desktop	c0d27bf73aa08ca05b663dbd31fbef28	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	tmpfiles	dc8e4917d734a019caa04ad3b8db560b	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	desktop	c0d27bf73aa08ca05b663dbd31fbef28	systemd	74b223e42834adf09a2d21fe5fe13741	tmpfiles	dc8e4917d734a019caa04ad3b8db560b
 _md5_=22638b7ec6d572cc84d1b64e843590e2

@@ -4,10 +4,11 @@ DEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/libv
 DESCRIPTION=OCaml bindings to libvorbis
 EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-vorbis
+INHERIT=autotools findlib git-r3
 IUSE=+camlp4 debug +ocamlopt profiling
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/libvorbis camlp4? ( dev-ml/camlp4:=[ocamlopt?] )
 SLOT=0/9999
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	findlib	3d3de4bef686774baeeabfa2b916631c	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	findlib	3d3de4bef686774baeeabfa2b916631c	git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=00453256767388381481b46cdedec3d5
