@@ -66,7 +66,7 @@ app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
 app-admin/awstaghelper 0.17.1 9999: AWS bulk tagging tool
 app-admin/awsudo 9999: A temporary credentials for AWS roles via sudo-like utility
 app-admin/awsume 4.5.0 9999: A utility for easily assuming AWS IAM roles from command line
-app-admin/azcopy 10.6.0 9999: A command-line utility to manage Azure Storage accounts
+app-admin/azcopy 10.9.0 9999: A command-line utility to manage Azure Storage accounts
 app-admin/cli53 0.8.17 9999: Command line tool for Amazon Route 53
 app-admin/cloudman 0.1.5 9999: Textual user interface to manage ec2 instances
 app-admin/container-service-extension 2.6.0 3.0.1 9999: Container Service Extension for vCloud Director
