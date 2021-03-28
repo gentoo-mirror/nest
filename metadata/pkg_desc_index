@@ -185,6 +185,7 @@ dev-libs/belcard 4.4.0 9999: VCard standard format manipulation library
 dev-libs/belle-sip 4.4.0 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
 dev-libs/libcommuni 3.6.0 9999: A cross-platform IRC framework written with Qt
+dev-libs/libdict 1.0.1 9999: C library of key-value data structures
 dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
 dev-libs/liblinphone 4.4.0 9999: SIP library supporting voice/video calls and text messaging
@@ -468,6 +469,7 @@ net-im/zoom-bin 5.0.408598.0517 5.1.412382.0614: Video conferencing and web conf
 net-libs/bctoolbox 4.3.1 4.4.0 9999: Utilities library used by Belledonne Communications softwares
 net-libs/bzrtp 4.4.0 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 4.4.0 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
+net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
