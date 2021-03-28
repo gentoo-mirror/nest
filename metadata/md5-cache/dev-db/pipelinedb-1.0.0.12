@@ -4,6 +4,7 @@ DEPEND=dev-db/postgresql:* net-libs/zeromq:0=
 DESCRIPTION=High-performance time-series aggregation for PostgreSQL
 EAPI=7
 HOMEPAGE=https://www.pipelinedb.com/ https://github.com/pipelinedb/pipelinedb
+INHERIT=python-any-r1
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
@@ -11,5 +12,5 @@ RDEPEND=dev-db/postgresql:* net-libs/zeromq:0=
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/pipelinedb/pipelinedb/archive/1.0.0-12.tar.gz -> pipelinedb-1.0.0-12.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	0a79a9b53fce4525f438f8ea9695fb88	python-utils-r1	2dc8e06a3429719b43e9140f7292a425	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	543b53e4d003ebd889082f4673e52af5	python-any-r1	690a993463cd2ebcde40ccdf1bd9ba98
 _md5_=3cbee3206558b3e6886b0c08eb1048fc
