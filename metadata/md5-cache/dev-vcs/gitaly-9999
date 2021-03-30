@@ -4,10 +4,11 @@ DEPEND=dev-ruby/bundler:=
 DESCRIPTION=Git RPC service for handling GitLab git calls
 EAPI=7
 HOMEPAGE=https://gitlab.com/gitlab-org/gitaly
+INHERIT=git-r3 go-module systemd tmpfiles
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=acct-user/gitlab-gitaly app-admin/logrotate virtual/tmpfiles
 RESTRICT=mirror network-sandbox test
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	tmpfiles	dc8e4917d734a019caa04ad3b8db560b	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6	tmpfiles	dc8e4917d734a019caa04ad3b8db560b
 _md5_=5f7e2afdbdb8e691ed17f00b2f485adf

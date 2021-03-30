@@ -4,6 +4,7 @@ DEPEND=sys-libs/ncurses:0= sys-libs/readline:0= sys-libs/zlib !libressl? ( dev-l
 DESCRIPTION=Multi-protocol VPN software
 EAPI=7
 HOMEPAGE=http://www.softether.org
+INHERIT=systemd toolchain-funcs
 IUSE=bridge +client cmd debug libressl server
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
@@ -11,5 +12,5 @@ RDEPEND=sys-libs/ncurses:0= sys-libs/readline:0= sys-libs/zlib !libressl? ( dev-
 REQUIRED_USE=|| ( bridge client cmd server )
 SLOT=0
 SRC_URI=http://www.softether-download.com/files/softether/v4.34-9745-rtm-2020.04.05-tree/Source_Code/softether-src-v4.34-9745-rtm.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
 _md5_=eea240dad82b648cf523b6610ddedf9b

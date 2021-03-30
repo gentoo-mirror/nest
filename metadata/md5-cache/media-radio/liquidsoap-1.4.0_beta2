@@ -12,5 +12,5 @@ RDEPEND=acct-user/liquidsoap app-admin/logrotate dev-lang/ocaml:=[ocamlopt?] >=d
 REQUIRED_USE=flac? ( ogg ) lastfm? ( xml ) opus? ( ogg ) speex? ( ogg ) theora? ( ogg ) vorbis? ( ogg )
 SLOT=0
 SRC_URI=https://github.com/savonet/liquidsoap/archive/1.4.0-beta2.tar.gz -> liquidsoap-1.4.0-beta2.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	bash-completion-r1	be99724bde4274de21e581204e9d164a	findlib	3d3de4bef686774baeeabfa2b916631c	systemd	74b223e42834adf09a2d21fe5fe13741	tmpfiles	dc8e4917d734a019caa04ad3b8db560b
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	bash-completion-r1	be99724bde4274de21e581204e9d164a	findlib	3d3de4bef686774baeeabfa2b916631c	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6	tmpfiles	dc8e4917d734a019caa04ad3b8db560b
 _md5_=a3052f10bea7e1efc72aff0cc91ee3f1
