@@ -4,10 +4,11 @@ DEPEND=app-arch/lz4:= dev-db/postgresql:=[icu,ssl] dev-lang/perl:0= dev-libs/lib
 DESCRIPTION=Reliable PostgreSQL Backup & Restore
 EAPI=7
 HOMEPAGE=https://pgbackrest.org https://github.com/pgbackrest/pgbackrest
+INHERIT=git-r3
 IUSE=libressl
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=app-arch/lz4:= dev-db/postgresql:=[icu,ssl] dev-lang/perl:0= dev-libs/libxml2:2 sys-libs/zlib:= !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=14c7e87e918bc4e6de9f3c1318409ddc

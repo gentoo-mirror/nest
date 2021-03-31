@@ -4,11 +4,12 @@ DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?]
 DESCRIPTION=OCaml bindings to libmad
 EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-mad
+INHERIT=dune
 IUSE=+ocamlopt
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/libmad >=dev-lang/ocaml-4:=[ocamlopt?]
 SLOT=0/0.5.0
 SRC_URI=https://github.com/savonet/ocaml-mad/archive/v0.5.0/ocaml-mad-0.5.0.tar.gz
-_eclasses_=dune	46e13a2340ab32b2ad8ae98b653695ea
+_eclasses_=dune	3cafc471b3e2c22dfa1c289440929c5b
 _md5_=5de81fa7d5c22f5ad38d2d1d834e930a

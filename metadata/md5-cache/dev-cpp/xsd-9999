@@ -4,10 +4,11 @@ DEPEND=dev-libs/xerces-c dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/lib
 DESCRIPTION=A cross-platform W3C XML Schema to C++ data binding compiler
 EAPI=7
 HOMEPAGE=https://www.codesynthesis.com/products/xsd
+INHERIT=git-r3 toolchain-funcs
 IUSE=doc examples test zlib
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-libs/xerces-c dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib:= )
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=3824e51dc51b9ca354dfa39de3d1eac4

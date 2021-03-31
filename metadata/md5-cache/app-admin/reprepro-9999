@@ -4,10 +4,11 @@ DEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( ap
 DESCRIPTION=A tool to handle local repositories of Debian packages
 EAPI=7
 HOMEPAGE=https://salsa.debian.org/brlink/reprepro
+INHERIT=git-r3
 IUSE=archive bzip2 gpg lzma
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=6600e4a59044f34a1a823a2d7d3e244c

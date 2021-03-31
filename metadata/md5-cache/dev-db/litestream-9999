@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=go-module	92660621959e7fab813173772987588b	git-r3	3e7ec3d6619213460c85e2aa48398441	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
+_eclasses_=go-module	92660621959e7fab813173772987588b	git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
 _md5_=bb01295c1ff3a27dab5dd8838695bcb6

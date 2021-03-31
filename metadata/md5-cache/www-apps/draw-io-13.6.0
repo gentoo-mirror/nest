@@ -3,11 +3,12 @@ DEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
 DESCRIPTION=Online diagramming web application
 EAPI=7
 HOMEPAGE=https://github.com/jgraph/drawio
+INHERIT=webapp
 IUSE=vhosts vhosts
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=>=app-admin/webapp-config-1.50.15 >=app-admin/webapp-config-1.50.15
 SLOT=0
 SRC_URI=https://github.com/jgraph/drawio/archive/v13.6.0.tar.gz -> draw-io-13.6.0.tar.gz
-_eclasses_=webapp	1d03df021d958f89f4cc78e289d0b116
+_eclasses_=webapp	990ad6a000cf18d1ef87117e8c7b0a54
 _md5_=c3fd54cd3187185b73072de2587a1a65

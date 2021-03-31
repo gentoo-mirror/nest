@@ -4,11 +4,12 @@ DEPEND=dev-ml/findlib dev-ml/topkg:= >=dev-lang/ocaml-4:=
 DESCRIPTION=Ocaml XML manipulation module
 EAPI=7
 HOMEPAGE=http://erratique.ch/software/xmlm https://github.com/dbuenzli/xmlm
+INHERIT=git-r3 opam
 IUSE=test
 LICENSE=ISC
 PROPERTIES=live
 RDEPEND=>=dev-lang/ocaml-4:=
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	opam	b2f22dc6e8db7cf1649d72fd9ee5a986
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	opam	b961a62d9389bc7b60bcadb0c851459b
 _md5_=877b15ff6d982cf9a3b8f3f5040d5a53

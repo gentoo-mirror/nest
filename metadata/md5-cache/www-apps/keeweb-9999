@@ -4,10 +4,11 @@ DEPEND=>=app-admin/webapp-config-1.50.15
 DESCRIPTION=Cross-platform password manager compatible with KeePass
 EAPI=7
 HOMEPAGE=https://github.com/keeweb/keeweb
+INHERIT=git-r3 webapp
 IUSE=vhosts vhosts
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=app-admin/webapp-config-1.50.15
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	webapp	1d03df021d958f89f4cc78e289d0b116
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	webapp	990ad6a000cf18d1ef87117e8c7b0a54
 _md5_=bef38104f235d909269d5c402d07ee25

@@ -4,10 +4,11 @@ DEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:=
 DESCRIPTION=Camomile is a comprehensive Unicode library for ocaml
 EAPI=7
 HOMEPAGE=https://github.com/yoriyuki/Camomile
+INHERIT=git-r3 opam
 IUSE=+ocamlopt
 LICENSE=LGPL-2+
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:=
 SLOT=0/9999
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	opam	b2f22dc6e8db7cf1649d72fd9ee5a986
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	opam	b961a62d9389bc7b60bcadb0c851459b
 _md5_=0da789e542dba18bf1011a318baada85

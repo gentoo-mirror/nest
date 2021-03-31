@@ -4,11 +4,12 @@ DEPEND=kernel_linux? ( sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:=
 DESCRIPTION=VMware kernel modules
 EAPI=7
 HOMEPAGE=https://github.com/mkubecek/vmware-host-modules
+INHERIT=linux-info linux-mod udev
 IUSE=kernel_linux kernel_linux kernel_linux dist-kernel
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=acct-group/vmware kernel_linux? ( sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:= ) )
 SLOT=4.14
 SRC_URI=https://github.com/mkubecek/vmware-host-modules/archive/w16.0.0-k4.14.tar.gz -> vmware-modules-16.0.0-4.14.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	linux-mod	6eea2d40e8514773bec08ae1be26800b	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	udev	452708c3f55cf6e918b045adb949a9e6	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	linux-info	30ded7f9adbdd03d3e848cdd74f6c395	edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	linux-mod	2356a95549dd8cb503f063d05e88c0c8	udev	452708c3f55cf6e918b045adb949a9e6
 _md5_=847dc78e5751e29ad6e3457d95c11588

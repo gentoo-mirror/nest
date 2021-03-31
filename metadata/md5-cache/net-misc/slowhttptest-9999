@@ -4,10 +4,11 @@ DEPEND=libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= )
 DESCRIPTION=Application Layer DoS attack simulator
 EAPI=7
 HOMEPAGE=https://github.com/shekyan/slowhttptest
+INHERIT=git-r3
 IUSE=libressl
 LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=libressl? ( dev-libs/libressl ) !libressl? ( dev-libs/openssl:0= )
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=d878865dce21affcdf995f037f9d380e
