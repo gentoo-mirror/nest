@@ -4,6 +4,7 @@ DEPEND=media-libs/alsa-lib
 DESCRIPTION=Visualization for any shell command
 EAPI=7
 HOMEPAGE=https://github.com/sqshq/sampler
+INHERIT=go-module
 KEYWORDS=~amd64 ~arm64
 LICENSE=GPL-3
 RDEPEND=media-libs/alsa-lib

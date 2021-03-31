@@ -4,6 +4,7 @@ DEPEND=app-arch/brotli:= lzo? ( dev-libs/lzo:2 ) sodium? ( dev-libs/libsodium:= 
 DESCRIPTION=Archival restoration tool for databases
 EAPI=7
 HOMEPAGE=https://github.com/wal-g/wal-g
+INHERIT=go-module
 IUSE=lzo mongo mysql postgres redis sodium
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0

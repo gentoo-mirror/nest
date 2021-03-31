@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Parallel S3 and local filesystem execution tool
 EAPI=7
 HOMEPAGE=https://github.com/peak/s5cmd
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RESTRICT=strip

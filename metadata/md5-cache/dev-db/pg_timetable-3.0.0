@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Advanced scheduling for PostgreSQL
 EAPI=7
 HOMEPAGE=https://github.com/cybertec-postgresql/pg_timetable
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=POSTGRESQL
 RESTRICT=test

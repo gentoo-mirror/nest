@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Tool to migrate data across vault clusters
 EAPI=7
 HOMEPAGE=https://github.com/adamdecaf/vault-backend-migrator
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD MIT MPL-2.0
 RESTRICT=strip

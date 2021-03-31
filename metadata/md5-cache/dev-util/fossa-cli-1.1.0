@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=License and vulnerability analysis
 EAPI=7
 HOMEPAGE=https://github.com/fossas/fossa-cli
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MPL-2.0
 RESTRICT=test

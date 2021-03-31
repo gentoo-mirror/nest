@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Measures and compares execution time of one or more SQL queries
 EAPI=7
 HOMEPAGE=https://github.com/felixge/sqlbench
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RESTRICT=test

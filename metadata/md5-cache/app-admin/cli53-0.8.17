@@ -3,6 +3,7 @@ DEFINED_PHASES=install postinst test unpack
 DESCRIPTION=Command line tool for Amazon Route 53
 EAPI=7
 HOMEPAGE=https://github.com/barnybug/cli53
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RESTRICT=strip

@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=A tool for working with structured JSON logging
 EAPI=7
 HOMEPAGE=https://github.com/koenbollen/jl
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=ISC
 RESTRICT=strip

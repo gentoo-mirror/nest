@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Interactive cli tool for HTTP inspection
 EAPI=7
 HOMEPAGE=https://github.com/asciimoo/wuzz
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=AGPL-3 BSD BSD-2 MIT
 RESTRICT=strip

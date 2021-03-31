@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Automatically resize EBS
 EAPI=7
 HOMEPAGE=https://github.com/mpostument/ebs-autoresize
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0 BSD BSD-2 MIT MPL-2.0
 RESTRICT=strip

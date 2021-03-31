@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst unpack
 DESCRIPTION=Terraform VMware vCloud Director provider
 EAPI=7
 HOMEPAGE=https://www.terraform.io/docs/providers/vcd
+INHERIT=go-module readme.gentoo-r1
 KEYWORDS=~amd64
 LICENSE=MPL-2.0
 RDEPEND=app-admin/terraform

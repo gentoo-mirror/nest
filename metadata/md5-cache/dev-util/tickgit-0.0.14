@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Manage your repository's TODOs as config in your codebase
 EAPI=7
 HOMEPAGE=https://github.com/augmentable-dev/tickgit
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RESTRICT=strip

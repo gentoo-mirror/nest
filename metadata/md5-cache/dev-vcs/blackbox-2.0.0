@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=Safely store secrets in Git/Mercurial/Subversion
 EAPI=7
 HOMEPAGE=https://github.com/StackExchange/blackbox
+INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=app-crypt/gnupg dev-vcs/git

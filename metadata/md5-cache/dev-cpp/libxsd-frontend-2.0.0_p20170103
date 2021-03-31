@@ -4,10 +4,11 @@ DEPEND=dev-cpp/libcutl dev-libs/boost:=[threads] dev-libs/xerces-c
 DESCRIPTION=A compiler frontend for the W3C XML Schema definition language
 EAPI=7
 HOMEPAGE=https://www.codesynthesis.com/projects/libxsd-frontend
+INHERIT=toolchain-funcs vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-cpp/libcutl dev-libs/boost:=[threads] dev-libs/xerces-c
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/libxsd-frontend/libxsd-frontend/snapshot/7c69e80.tar.gz -> libxsd-frontend-2.0.0_p20170103.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=79569ccf87c923adaaa8e03beab157f2
