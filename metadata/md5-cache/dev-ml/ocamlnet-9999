@@ -10,5 +10,5 @@ LICENSE=ZLIB GPL-2+
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] gtk? ( dev-ml/lablgtk:2 ) kerberos? ( virtual/krb5 ) pcre? ( dev-ml/pcre-ocaml:= ) tk? ( dev-ml/labltk:= ) ssl? ( net-libs/gnutls:= ) zip? ( dev-ml/camlzip:= )
 SLOT=0/9999
-_eclasses_=findlib	3d3de4bef686774baeeabfa2b916631c	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=findlib	197b318e28cee28e11c2b474328b50dd	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=d78bfa2c98eaf9756c1926bee19fc3a4

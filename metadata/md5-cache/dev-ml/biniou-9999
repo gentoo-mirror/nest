@@ -10,5 +10,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/easy-format:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?]
 SLOT=0/9999
-_eclasses_=dune	3cafc471b3e2c22dfa1c289440929c5b	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=dune	2d138ae1c0f7d4624876ad486529731f	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=cf53d9f01dc95f22110ed6d9419881b7
