@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install postinst prepare test unpack
+DESCRIPTION=Argo Tunnel client
+EAPI=7
+HOMEPAGE=https://github.com/cloudflare/cloudflared
+INHERIT=git-r3 go-module systemd
+LICENSE=Cloudflare
+PROPERTIES=live
+RDEPEND=acct-user/cloudflared
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	92660621959e7fab813173772987588b	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
+_md5_=739db3cc3e9b422fe4a13edbdfd5e451
