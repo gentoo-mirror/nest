@@ -1,16 +1,17 @@
-BDEPEND=app-arch/unzip virtual/pkgconfig test? ( dev-qt/qttest:5 ) >=dev-vcs/git-1.8.2.1[curl] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
-DEFINED_PHASES=configure install prepare setup test unpack
+BDEPEND=app-arch/unzip virtual/pkgconfig test? ( dev-qt/qttest:5 ) test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=configure install prepare setup test
 DEPEND=python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 webkit? ( dev-qt/qtwebkit:5 ) ) dev-qt/qtxml:5 doc? ( app-doc/doxygen )
 DESCRIPTION=A dynamic Python binding for the Qt framework
 EAPI=7
 HOMEPAGE=https://mevislab.github.io/pythonqt
-INHERIT=git-r3 qmake-utils python-single-r1 virtualx
+INHERIT=qmake-utils python-single-r1 virtualx
 IUSE=debug doc examples +extensions test webkit python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 test
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
-PROPERTIES=live
 RDEPEND=python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 webkit? ( dev-qt/qtwebkit:5 ) )
 REQUIRED_USE=webkit? ( extensions ) ^^ ( python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	python-utils-r1	3ea803de86891185c7b1db2c0b5bc8c8	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	virtualx	d828f8a6cfc731f2683d0967d3f2f95a
-_md5_=e2f2aa87d366a176d0d281b70bb10c11
+SRC_URI=mirror://sourceforge/pythonqt/pythonqt/PythonQt-3.2/PythonQt3.2.zip
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	python-utils-r1	3ea803de86891185c7b1db2c0b5bc8c8	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	virtualx	d828f8a6cfc731f2683d0967d3f2f95a
+_md5_=b862ab1479d4faf13cf950c03275e575
