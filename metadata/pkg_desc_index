@@ -382,7 +382,7 @@ dev-util/ansible-molecule 3.0.8 9999: Automated testing for Ansible roles
 dev-util/arctype 0.8.2: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.7.11 0.7.12 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
-dev-util/azuredatastudio-bin 1.22.0 1.22.1 1.24.0: Data management tool to work with DW, Azure, SQL Server
+dev-util/azuredatastudio-bin 1.22.1 1.24.0 1.28.0: Data management tool to work with DW, Azure, SQL Server
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
