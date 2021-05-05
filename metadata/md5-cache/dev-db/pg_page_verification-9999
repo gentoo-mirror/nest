@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=dev-db/postgresql:*
+DEPEND=<dev-db/postgresql-12:*
 DESCRIPTION=Checksums verification on PostgreSQL data pages
 EAPI=7
 HOMEPAGE=https://github.com/google/pg_page_verification
@@ -9,4 +9,4 @@ LICENSE=google
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
-_md5_=69dde5ca631558c660362ac1f14fbc3e
+_md5_=f1616aae95c3873c3e4b92f6c0f9da35

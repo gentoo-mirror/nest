@@ -12,4 +12,4 @@ RDEPEND=client? ( dev-db/postgresql:*[static-libs?] )
 REQUIRED_USE=debug? ( client ) client? ( static-libs )
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=29aad8b5ce415e924265ca1f0e1d09a6
+_md5_=43a4ce1790f8309fd447139b552f6ca0

@@ -124,7 +124,7 @@ app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.6f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.0.0f: VMware kernel modules
 app-emulation/vmware-vmrc 11.2.0.16492666: VMware Remote Console
 app-emulation/vmware-workstation 15.5.2.15785246: Emulate a complete PC without the performance overhead
-app-forensics/gitleaks 4.3.1 9999: Auditing git repository for secrets and keys
+app-forensics/gitleaks 7.4.1 9999: Auditing git repository for secrets and keys
 app-metrics/amazon-cloudwatch-agent 1.247345.36 1.247347.3 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
 app-metrics/do-agent 3.7.1 3.9.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
@@ -147,27 +147,27 @@ dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of l
 dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
-dev-db/datanymizer 0.1.0 9999: Powerful database anonymizer with flexible rules
-dev-db/dbcrossbar 0.4.2_beta6 9999: Copy tabular data between databases, CSV files and cloud storage
-dev-db/litestream 0.3.3 9999: Streaming S3 replication for SQLite
-dev-db/msodbcsql 17.6.1.1: Microsoft ODBC Driver for SQL Server
+dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
+dev-db/dbcrossbar 0.4.2_beta11 9999: Copy tabular data between databases, CSV files and cloud storage
+dev-db/litestream 0.3.4 9999: Streaming S3 replication for SQLite
+dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
-dev-db/mssql-tools 17.6.1.1: Microsoft SQL Server Tools for Linux
+dev-db/mssql-tools 17.7.1.1: Microsoft SQL Server Tools for Linux
 dev-db/odyssey 1.1 9999: Scalable PostgreSQL connection pooler
-dev-db/pg_cron 1.1.4 9999: Run periodic jobs in PostgreSQL
+dev-db/pg_cron 1.3.1 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
-dev-db/pg_profile 9999: Postgres historic performance reports
-dev-db/pg_repack 1.4.4 9999: PostgreSQL extension for data reorganization
-dev-db/pg_squeeze 1.3.0 9999: A PostgreSQL extension for automatic bloat cleanup
+dev-db/pg_profile 0.3.2 9999: Postgres historic performance reports
+dev-db/pg_repack 1.4.6 9999: PostgreSQL extension for data reorganization
+dev-db/pg_squeeze 1.3.1 9999: A PostgreSQL extension for automatic bloat cleanup
 dev-db/pg_timetable 3.0.0 9999: Advanced scheduling for PostgreSQL
-dev-db/pgcenter 0.6.5 9999: Command-line admin tool for observing and troubleshooting Postgres
-dev-db/pipelinedb 1.0.0.7 1.0.0.12 9999: High-performance time-series aggregation for PostgreSQL
-dev-db/postgresql_anonymizer 0.6.0 0.7.1 9999: Anonymization & Data Masking for PostgreSQL
-dev-db/soci 4.0.0 9999: Database access library for C++
+dev-db/pgcenter 0.8.0 9999: Command-line admin tool for observing and troubleshooting Postgres
+dev-db/pipelinedb 1.0.0.13 9999: High-performance time-series aggregation for PostgreSQL
+dev-db/postgresql_anonymizer 0.7.1 0.8.1 9999: Anonymization & Data Masking for PostgreSQL
+dev-db/soci 4.0.0 4.0.2 9999: Database access library for C++
 dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more SQL queries
-dev-db/sqlpackage 15.0.4897.1: Automates SQL Server database development tasks
-dev-db/tableplus 0.1.62: Modern, native, and friendly GUI tool for relational databases
+dev-db/sqlpackage 15.0.5084.2: Automates SQL Server database development tasks
+dev-db/tableplus 0.1.84: Modern, native, and friendly GUI tool for relational databases
 dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 dev-haskell/clock 0.8: High-resolution clock functions
 dev-haskell/daemons 0.2.1 0.3.0: Daemons in Haskell made fun and easy
@@ -248,7 +248,7 @@ dev-python/adal 1.2.2 9999: Library for authentication in Azure Active Directory
 dev-python/anyconfig 0.9.10 9999: Generic access to configuration files in any formats
 dev-python/apispec 3.3.0 9999: A pluggable API specification generator
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
-dev-python/applicationinsights 0.11.9 9999: Application Insights SDK for Python
+dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aws-lambda-powertools 1.9.1 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/binaryornot 0.4.4-r1 9999: Python package to guess whether a file is binary or text
 dev-python/cerberus 1.3.2 9999: Lightweight and extensible data validation library for Python
@@ -379,7 +379,7 @@ dev-python/versionfinder 1.0.0 9999: Find version of python package, installed v
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.14.0 9999: Generate HTML or XML in a pythonic way
 dev-util/ansible-molecule 3.0.8 9999: Automated testing for Ansible roles
-dev-util/arctype 0.8.2: SQL client for PostgreSQL and MySQL
+dev-util/arctype 0.8.8: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.7.11 0.7.12 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
 dev-util/azuredatastudio-bin 1.22.1 1.24.0 1.28.0: Data management tool to work with DW, Azure, SQL Server
