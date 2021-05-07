@@ -37,6 +37,30 @@ app-shells/fzf:tmux - Install TMUX extra tools
 app-shells/fzf:vim - Install vim plugin
 dev-cpp/belr:tools - Build tools
 dev-db/pg_repack:client - Build CLI client
+dev-db/usql:athena - Enable support for AWS Athena
+dev-db/usql:avatica - Enable support for Apache Avatica
+dev-db/usql:bigquery - Enable support for Google BigQuery
+dev-db/usql:cassandra - Enable support for Cassandra
+dev-db/usql:clickhouse - Enable support for ClickHouse
+dev-db/usql:cosmos - Enable support for Azure Cosmos
+dev-db/usql:couchbase - Enable support for Couchbase
+dev-db/usql:csvq - Enable support for CSVQ
+dev-db/usql:genji - Enable support for Genji
+dev-db/usql:h2 - Enable support for Apache H2
+dev-db/usql:hdb - Enable support for SAP HANA
+dev-db/usql:hive - Enable support for Apache Hive
+dev-db/usql:ignite - Enable support for Apache Ignite
+dev-db/usql:impala - Enable support for Apache Impala
+dev-db/usql:maxcompute - Enable support for Alibaba MaxCompute
+dev-db/usql:netezza - Enable support for IBM Netezza
+dev-db/usql:presto - Enable support for Presto
+dev-db/usql:ql - Enable support for Cznic QL
+dev-db/usql:snowflake - Enable support for Snowflake
+dev-db/usql:spanner - Enable support for Google Spanner
+dev-db/usql:tds - Enable support for SAP ASE
+dev-db/usql:trino - Enable support for Trino
+dev-db/usql:vertica - Enable support for Vertica
+dev-db/usql:voltdb - Enable support for VoltDB
 dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
 dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers

@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Universal command-line interface for SQL databases
+EAPI=7
+HOMEPAGE=https://github.com/xo/usql
+INHERIT=git-r3 go-module
+IUSE=athena avatica bigquery cassandra clickhouse cosmos couchbase csvq firebird genji h2 hdb hive ignite impala maxcompute +mssql +mysql netezza +oracle +postgres presto ql snowflake spanner +sqlite tds trino vertica voltdb
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	92660621959e7fab813173772987588b
+_md5_=91ab837962e8e2b42a1a58f7737cef01
