@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 495](https://img.shields.io/badge/ebuild-495-orange.svg)](https://img.shields.io/badge/ebuild-495-orange.svg)
+[![Number of ebuilds: 508](https://img.shields.io/badge/ebuild-508-orange.svg)](https://img.shields.io/badge/ebuild-508-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -137,6 +137,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
 * dev-db/[datanymizer](https://github.com/datanymizer/datanymizer) | Powerful database anonymizer with flexible rules
 * dev-db/[dbcrossbar](http://www.dbcrossbar.org) | Copy tabular data between databases, CSV files and cloud storage
+* dev-db/[dbgate-bin](https://github.com/dbgate/dbgate) | Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 * dev-db/[litestream](https://github.com/benbjohnson/litestream) | Streaming S3 replication for SQLite
 * dev-db/[msodbcsql](https://docs.microsoft.com/en-us/sql/connect/odbc) | Microsoft ODBC Driver for SQL Server
 * dev-db/[mssql-cli](https://github.com/dbcli/mssql-cli) | CLI for SQL Server Database
@@ -238,11 +239,13 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[apispec-webframeworks](https://github.com/marshmallow-code/apispec-webframeworks) | Web framework plugins for apispec
 * dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 * dev-python/[aws-lambda-powertools](https://github.com/awslabs/aws-lambda-powertools-python) | A suite of Python utilities for AWS Lambda functions
+* dev-python/[beautifulsoup4](https://www.crummy.com/software/BeautifulSoup) | Option groups missing in Click
 * dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
 * dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
 * dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
 * dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
 * dev-python/[click-help-colors](https://github.com/click-contrib/click-help-colors) | Colorization of help messages in Click
+* dev-python/[click-option-group](https://github.com/click-contrib/click-option-group) | Option groups missing in Click
 * dev-python/[colorpedia](https://github.com/joowani/colorpedia) | Command-line tool for looking up colors and palettes
 * dev-python/[convertdate](https://github.com/fitnr/convertdate) | Utils for converting between date formats and calculating holidays
 * dev-python/[coreapi](https://github.com/core-api/python-client) | Python client library for Core API
@@ -257,6 +260,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[datadiff](https://sourceforge.net/projects/datadiff) | A library for diffs of python data structures
 * dev-python/[dateparser](https://github.com/scrapinghub/dateparser) | Date parsing library designed to parse dates from HTML pages
 * dev-python/[decli](https://github.com/Woile/decli) | Minimal declarative cli tool
+* dev-python/[deep_merge](https://github.com/halfak/deep_merge) | A simple utility for merging python dictionaries
 * dev-python/[delegator-py](https://github.com/kennethreitz/delegator.py) | Simple library for dealing with subprocesses
 * dev-python/[django-celery-beat](https://github.com/celery/django-celery-beat) | Celery Periodic Tasks for Django
 * dev-python/[django-configurations](https://github.com/jazzband/django-configurations) | A helper for organizing Django project settings
@@ -283,6 +287,8 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[django-taggit](https://github.com/alex/django-taggit) | Django application for simple tagging
 * dev-python/[django-taggit-serializer](https://github.com/glemmaPaul/django-taggit-serializer) | Django Taggit Serializer Created for the Django REST Framework
 * dev-python/[django-timezone-field](https://github.com/mfogel/django-timezone-field) | Django application for database and form fields for pytz objects
+* dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
+* dev-python/[dpath](https://github.com/akesterson/dpath-python) | A python module that will check for package updates
 * dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
 * dev-python/[editdistance](https://github.com/roy-ht/editdistance) | Fast implementation of the edit distance(Levenshtein distance)
 * dev-python/[email-validator](https://github.com/JoshData/python-email-validator) | An email syntax and deliverability validation library
@@ -304,6 +310,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 * dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 * dev-python/[k5test](https://github.com/pythongssapi/k5test) | A library for setting up self-contained Kerberos 5 environments
+* dev-python/[lark-parser](https://github.com/lark-parser/lark) | A modern general-purpose parsing library for Python
 * dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 * dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 * dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
@@ -352,6 +359,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ruamel-ordereddict](https://bitbucket.org/ruamel/ordereddict) | An ordered dictionary with KIO/KVIO
 * dev-python/[ruamel-std-pathlib](https://bitbucket.org/ruamel/std.pathlib) | Ruamel enhancements to pathlib and pathlib2
 * dev-python/[ruamel-yaml](https://bitbucket.org/ruamel/yaml) | YAML parser/emitter that supports roundtrip comment preservation
+* dev-python/[schema](https://github.com/keleshev/schema) | Simple data validation library
 * dev-python/[selinux](https://github.com/pycontribs/selinux) | Pure-python selinux shim module for use in virtualenvs
 * dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | Python client for Sentry
 * dev-python/[sh](https://github.com/amoffat/shellingham) | Python subprocess interface
@@ -375,6 +383,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 * dev-python/[umalqurra](https://github.com/tytkal/python-hijiri-ummalqura) | Date Api that support Hijri Umalqurra calendar
 * dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
+* dev-python/[update_checker](https://github.com/bboe/update_checker) | A python module that will check for package updates
 * dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
 * dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
 * dev-python/[vcd-api-schemas-type](https://github.com/vmware/vcd-api-schemas) | VMware vCloud Director Python API Schemas Type
@@ -393,8 +402,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[cfn-skeleton](https://github.com/awslabs/aws-cloudformation-template-builder) | AWS Cloudformation Template Builder
 * dev-util/[cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip) | AWS CloudFormation Template Flip
 * dev-util/[cfripper](https://github.com/Skyscanner/cfripper) | Analysing CloudFormation templates for security compliance
+* dev-util/[checkov](https://github.com/bridgecrewio/checkov) | Static code analysis tool for infrastructure-as-code
 * dev-util/[cli](https://www.codesynthesis.com/projects/cli) | Command Line Interface compiler for C++
 * dev-util/[cloud-utils](https://launchpad.net/cloud-utils) | Utilities for interacting with a cloud
+* dev-util/[cloudsplaining](https://github.com/salesforce/cloudsplaining) | AWS IAM Security Assessment tool
 * dev-util/[cupt](https://github.com/jackyf/cupt) | Package manager for Debian
 * dev-util/[desed](https://github.com/SoptikHa2/desed) | Debugger for Sed
 * dev-util/[dropwatch](https://github.com/nhorman/dropwatch) | Monitor for dropped network packets
@@ -407,7 +418,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[mapforce-advanced](https://www.altova.com/mapforce) | Advanced data mapping, conversion, and transformation tool
 * dev-util/[ovftool](https://www.vmware.com/support/developer/ovf) | VMware Open Virtualization Format tool
 * dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
+* dev-util/[policy_sentry](https://github.com/salesforce/policy_sentry) | AWS IAM Least Privilege Policy Generator
 * dev-util/[postman](https://www.postman.com) | Build, test, and document your APIs faster
+* dev-util/[python-hcl2](https://github.com/amplify-education/python-hcl2) | A parser for HCL2 written in Python
 * dev-util/[swapusage](https://www.codesynthesis.com/hhoffstaette/swapusage) | Amount of swapped memory for running processes
 * dev-util/[taskcat](https://github.com/aws-quickstart/taskcat) | An OpenSource Cloudformation Deployment Framework
 * dev-util/[testmace](https://testmace.com) | Powerful IDE to work with API

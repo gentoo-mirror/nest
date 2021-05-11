@@ -10,13 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	OCaml interface for Linux's filesystem monitoring interface
+	Cloudsplaining is an AWS IAM Security Assessment tool
+	that identifies violations of least privilege and
+	generates a risk-prioritized HTML report.
 	</longdescription>
-	<use>
-		<flag name="lwt">Enable <pkg>dev-ml/lwt</pkg> bindings for asynchronous API</flag>
-		<flag name="profiling">Enable ocaml profile flag support</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">savonet/ocaml-inotify</remote-id>
+		<remote-id type="github">salesforce/cloudsplaining</remote-id>
+		<remote-id type="pypi">cloudsplaining</remote-id>
 	</upstream>
 </pkgmetadata>
