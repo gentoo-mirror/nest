@@ -105,12 +105,12 @@ app-admin/vector-bin 0.10.0: High performance logs, metrics, and events router
 app-admin/whatfiles 1.0 9999: Log what files are accessed by any Linux process
 app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Vault
 app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
-app-backup/pgbackrest 2.0.9 2.26 9999: Reliable PostgreSQL Backup & Restore
+app-backup/pgbackrest 2.33 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.4.10 9999: Client Server backup system
 app-backup/urbackup-server 2.4.13 9999: Client Server backup system
 app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
-app-crypt/acme-client 1.1.0 9999: Secure Let's Encrypt client
+app-crypt/acme-client 1.2.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
 app-crypt/acmebot 2.6.0 9999: ACME protocol automatic certitificate manager
 app-crypt/age 1.0.0_rc1 9999: Simple, modern and secure encryption tool
@@ -151,6 +151,7 @@ dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++1
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.4.2_beta11 9999: Copy tabular data between databases, CSV files and cloud storage
+dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/litestream 0.3.4 9999: Streaming S3 replication for SQLite
 dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
@@ -192,7 +193,7 @@ dev-libs/belle-sip 4.4.0 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
 dev-libs/libcommuni 3.6.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdict 1.0.1 9999: C library of key-value data structures
-dev-libs/libdigidoc 3.10.4 9999: DigiDoc digital signature library
+dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.0: Library for handling digitally signed documents
 dev-libs/liblinphone 4.4.0 9999: SIP library supporting voice/video calls and text messaging
 dev-libs/lime 4.4.0 9999: C++ library implementing Open Whisper System Signal protocol
@@ -253,11 +254,13 @@ dev-python/apispec 3.3.0 9999: A pluggable API specification generator
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aws-lambda-powertools 1.9.1 9999: A suite of Python utilities for AWS Lambda functions
+dev-python/beautifulsoup4 4.9.3: Option groups missing in Click
 dev-python/binaryornot 0.4.4-r1 9999: Python package to guess whether a file is binary or text
 dev-python/cerberus 1.3.2 9999: Lightweight and extensible data validation library for Python
 dev-python/cfgv 3.2.0 9999: Validate configuration and produce human readable error messages
 dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
 dev-python/click-help-colors 0.8 9999: Colorization of help messages in Click
+dev-python/click-option-group 0.5.2 9999: Option groups missing in Click
 dev-python/colorpedia 1.2.2 9999: Command-line tool for looking up colors and palettes
 dev-python/convertdate 2.3.1 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
@@ -271,6 +274,7 @@ dev-python/dataclasses-jsonschema 2.14.1 9999: JSON schema generation from datac
 dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.0.0 9999: Date parsing library designed to parse dates from HTML pages
 dev-python/decli 0.5.2 9999: Minimal declarative cli tool
+dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
 dev-python/django-celery-beat 1.6.0 9999: Celery Periodic Tasks for Django
 dev-python/django-configurations 2.2 2.2-r1 9999: A helper for organizing Django project settings
@@ -295,6 +299,8 @@ dev-python/django-tables2 2.3.4 9999: Django application for creating HTML table
 dev-python/django-taggit 1.3.0 9999: Django application for simple tagging
 dev-python/django-taggit-serializer 0.1.7-r1 9999: Django Taggit Serializer Created for the Django REST Framework
 dev-python/django-timezone-field 4.1 9999: Django application for database and form fields for pytz objects
+dev-python/dockerfile-parse 1.1.0 9999: Python library for parsing Dockerfile files
+dev-python/dpath 1.5.0 2.0.1 9999: A python module that will check for package updates
 dev-python/drf-yasg 1.20.0 9999: Yet another Swagger generator
 dev-python/editdistance 0.5.3 9999: Fast implementation of the edit distance(Levenshtein distance)
 dev-python/factory_boy 3.2.0 9999: A fixtures replacement tool
@@ -315,6 +321,7 @@ dev-python/jdatetime 3.6.2 9999: Jalali implementation of Python's datetime modu
 dev-python/jsmin 2.2.2 9999: JavaScript minifier
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
+dev-python/lark-parser 0.10.0 9999: A modern general-purpose parsing library for Python
 dev-python/livereload 2.6.1 9999: Python LiveReload is an awesome tool for web developers
 dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
@@ -353,6 +360,7 @@ dev-python/ripe-atlas-cousteau 1.4.2 9999: Official python wrapper around RIPE A
 dev-python/ripe-atlas-sagan 1.3.0 9999: Official python wrapper around RIPE Atlas API
 dev-python/route53-transfer 9999: Generic access to configuration files in any formats
 dev-python/rstr 2.2.6: Generate random strings in Python
+dev-python/schema 0.7.4 9999: Simple data validation library
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
 dev-python/sentry-sdk 0.14.1 9999: Python client for Sentry
 dev-python/sh 1.13.1 9999: Python subprocess interface
@@ -375,6 +383,7 @@ dev-python/ua-parser 0.10.0 9999: A python implementation of the UA Parser
 dev-python/ukpostcodeparser 1.1.2 9999: UK postcode parser library
 dev-python/umalqurra 0.2 9999: Date Api that support Hijri Umalqurra calendar
 dev-python/unittest-xml-reporting 3.0.2 9999: unittest-based test runner with Ant/JUnit like XML reporting
+dev-python/update_checker 0.18.0 9999: A python module that will check for package updates
 dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/validators 0.14.2 0.15.0 9999: Python data validation library
 dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API Schemas Type
@@ -393,8 +402,10 @@ dev-util/cfn-guard 1.0.0 9999: AWS CloudFormation Guard
 dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.0 9999: Analysing CloudFormation templates for security compliance
+dev-util/checkov 2.0.117 2.0.132 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.31 9999: Utilities for interacting with a cloud
+dev-util/cloudsplaining 0.4.2 9999: AWS IAM Security Assessment tool
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.0 9999: Debugger for Sed
 dev-util/dropwatch 1.5.3 9999: Monitor for dropped network packets
@@ -406,7 +417,9 @@ dev-util/jwt_tool 1.3.4 9999: A toolkit for testing, tweaking and cracking JSON 
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.3.0.12320924 4.4.0.15722219 4.4.0.16360108: VMware Open Virtualization Format tool
 dev-util/packer 1.5.6 1.6.0 1.6.2 9999: A tool to create identical machine images for multiple platforms
+dev-util/policy_sentry 0.11.10 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 7.36.0: Build, test, and document your APIs faster
+dev-util/python-hcl2 0.3.18 9999: A parser for HCL2 written in Python
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
@@ -466,7 +479,7 @@ net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt-ratelimit 0.3.1 0.3.2 9999: Ratelimit iptables module
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
-net-ftp/weex 2.8.2 2.8.3 9999: A non-interactive FTP client for updating web pages
+net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1 5.0.1: Chat and network platform
 net-im/slack 4.11.3 4.13.0: Team collaboration tool
@@ -494,7 +507,7 @@ net-misc/s5cmd 1.0.0 9999: Parallel S3 and local filesystem execution tool
 net-misc/samplicator 1.3.6 1.3.8_rc1 9999: UDP packets forwarder and duplicator
 net-misc/slowhttptest 1.8.2 9999: Application Layer DoS attack simulator
 net-misc/sping 9999: Split ping, shows direction the loss or latency is on
-net-misc/spoofer 1.4.5: A tool to assess of deployment of source address validation
+net-misc/spoofer 1.4.7: A tool to assess of deployment of source address validation
 net-misc/ssmd 9999: SNMP Switch Management Daemon
 net-misc/stargazer 2.408 2.409_rc4 2.409: Billing system for small home and office networks
 net-misc/topola 5.36.58: Customer accounting system, services and statistics collection management

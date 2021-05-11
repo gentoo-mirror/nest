@@ -108,8 +108,6 @@ dev-ml/ocaml-gavl:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-gavl:profiling - Build support for profiling
 dev-ml/ocaml-gstreamer:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-gstreamer:profiling - Build support for profiling
-dev-ml/ocaml-inotify:lwt - Enable dev-ml/lwt bindings for asynchronous API
-dev-ml/ocaml-inotify:profiling - Enable ocaml profile flag support
 dev-ml/ocaml-ladspa:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-ladspa:profiling - Build support for profiling
 dev-ml/ocaml-lame:camlp4 - Enable camlp4 syntax extension
