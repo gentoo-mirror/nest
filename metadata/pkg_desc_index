@@ -202,7 +202,7 @@ dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
 dev-lua/lyaml 6.1: LibYAML binding for Lua
 dev-ml/biniou 1.2.1 9999: Extensible binary data format, like JSON but faster
-dev-ml/camlimages 4.2.6 5.0.1: An image manipulation library for ocaml
+dev-ml/camlimages 5.0.4: An image manipulation library for ocaml
 dev-ml/camomile 1.0.2 9999: Camomile is a comprehensive Unicode library for ocaml
 dev-ml/dune 1.11.1 9999: A composable build system for OCaml
 dev-ml/extlib 1.7.7 9999: Standard library extensions for O'Caml
@@ -255,12 +255,16 @@ dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aws-lambda-powertools 1.9.1 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/beautifulsoup4 4.9.3: Option groups missing in Click
+dev-python/billiard 3.6.4.0 9999: Multiprocessing Pool Extensions
 dev-python/binaryornot 0.4.4-r1 9999: Python package to guess whether a file is binary or text
+dev-python/celery 5.0.5 9999: Asynchronous task job queue based on distributed message passing
 dev-python/cerberus 1.3.2 9999: Lightweight and extensible data validation library for Python
 dev-python/cfgv 3.2.0 9999: Validate configuration and produce human readable error messages
 dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
+dev-python/click-didyoumean 0.0.3 9999: Enable git-like did-you-mean feature in click
 dev-python/click-help-colors 0.8 9999: Colorization of help messages in Click
 dev-python/click-option-group 0.5.2 9999: Option groups missing in Click
+dev-python/click-repl 0.1.6 9999: Subcommand REPL for click apps
 dev-python/colorpedia 1.2.2 9999: Command-line tool for looking up colors and palettes
 dev-python/convertdate 2.3.1 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
@@ -341,6 +345,7 @@ dev-python/pycfmodel 0.8.3 9999: A python model for Cloud Formation scripts
 dev-python/pydash 4.9.3 9999: The kitchen sink of Python functional utility libraries
 dev-python/pykickstart 3.16.11 9999: Python library for reading and writing kickstart files
 dev-python/pystache 0.5.4 9999: Mustache templating system for Python
+dev-python/pytest-celery 0.0.0 9999: Subcommand REPL for click apps
 dev-python/pytest-django 3.8.0 3.9.0 9999: A Django plugin for py.test
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/pytest-trio 0.7.0 9999: Python library for async concurrency and I/O
