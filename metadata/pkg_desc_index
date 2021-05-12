@@ -254,7 +254,6 @@ dev-python/apispec 3.3.0 9999: A pluggable API specification generator
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aws-lambda-powertools 1.9.1 9999: A suite of Python utilities for AWS Lambda functions
-dev-python/beautifulsoup4 4.9.3: Option groups missing in Click
 dev-python/billiard 3.6.4.0 9999: Multiprocessing Pool Extensions
 dev-python/binaryornot 0.4.4-r1 9999: Python package to guess whether a file is binary or text
 dev-python/celery 5.0.5 9999: Asynchronous task job queue based on distributed message passing
