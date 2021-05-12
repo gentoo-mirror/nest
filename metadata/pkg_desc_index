@@ -467,6 +467,7 @@ media-sound/sayonara 1.5.1_p5 1.6.0_beta6 1.6.0_beta7 9999: Small, clear and fas
 media-video/haruna 0.5.0 0.6.0 0.6.1 9999: Video player built with Qt/QML on top of libmpv
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
+net-analyzer/dnsdiag 2.0.1 9999: DNS Measurement, Troubleshooting and Security Auditing Toolset
 net-analyzer/goaccess 1.3 9999: A real-time web log analyzer and interactive viewer in a terminal
 net-analyzer/gping 0.1.7 9999: Ping, but with a graph
 net-analyzer/logswan 2.1.6 9999: Web log analyzer using probabilistic data structures
@@ -474,6 +475,7 @@ net-analyzer/netgauge 9999: Server software for testing internet bandwidth using
 net-analyzer/nuttcp 8.2.2: Network performance measurement tool
 net-analyzer/passivedns 1.2.1 9999: Network sniffer that logs all DNS server replies
 net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
+net-analyzer/python-cymruwhois 1.6 9999: Python client for the whois.cymru.com service
 net-analyzer/ripe-atlas-probe 5020: RIPE Atlas Software Probe
 net-analyzer/smtpping 1.1.3 9999: Simple, portable tool for measuring SMTP server delay
 net-analyzer/sx 0.1.0 9999: Fast, modern, easy-to-use network scanner
