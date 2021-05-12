@@ -9,12 +9,4 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
-	<longdescription lang="en">
-	An ACME protocol client with full protocol implementation,
-	written purely in Shell (Unix shell) language with support of
-	ACME v1 and ACME v2.
-	</longdescription>
-	<upstream>
-		<remote-id type="github">acmesh-official/acme.sh</remote-id>
-	</upstream>
 </pkgmetadata>
