@@ -10,10 +10,14 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An image processing library with basic functions for image
-	processing and loading/saving various image file formats
+	billiard is a fork of the Python 2.7 multiprocessing package.
+	The multiprocessing package itself is a renamed and updated version
+	of R Oudkerk's pyprocessing package. This standalone variant draws
+	its fixes/improvements from python-trunk and provides additional
+	bug fixes and improvements.
 	</longdescription>
 	<upstream>
-		<remote-id type="gitlab">camlspotter/camlimages</remote-id>
+		<remote-id type="github">celery/billiard</remote-id>
+		<remote-id type="pypi">billiard</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -10,10 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An image processing library with basic functions for image
-	processing and loading/saving various image file formats
+	This package enables a git-like did-you-mean feature for another
+	python module — <pkg>dev-python/click</pkg> with possibility
+	to use it via specific class or CommandCollection.
 	</longdescription>
 	<upstream>
-		<remote-id type="gitlab">camlspotter/camlimages</remote-id>
+		<remote-id type="github">click-contrib/click-didyoumean</remote-id>
+		<remote-id type="pypi">click-didyoumean</remote-id>
 	</upstream>
 </pkgmetadata>

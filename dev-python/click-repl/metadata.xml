@@ -10,10 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An image processing library with basic functions for image
-	processing and loading/saving various image file formats
+	This package provides a subcommand REPL for another
+	python module — <pkg>dev-python/click</pkg> with possibilities
+	of tab-completion, parent context is reused, etc.
 	</longdescription>
 	<upstream>
-		<remote-id type="gitlab">camlspotter/camlimages</remote-id>
+		<remote-id type="github">click-contrib/click-repl</remote-id>
+		<remote-id type="pypi">click-repl</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -10,10 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An image processing library with basic functions for image
-	processing and loading/saving various image file formats
+	This package provides a shim plugin for pytest framework
+	to enable celery.contrib.pytest for celery python module
 	</longdescription>
 	<upstream>
-		<remote-id type="gitlab">camlspotter/camlimages</remote-id>
+		<remote-id type="github">celery/pytest-celery</remote-id>
+		<remote-id type="pypi">pytest-celery</remote-id>
 	</upstream>
 </pkgmetadata>

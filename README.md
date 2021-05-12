@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 508](https://img.shields.io/badge/ebuild-508-orange.svg)](https://img.shields.io/badge/ebuild-508-orange.svg)
+[![Number of ebuilds: 512](https://img.shields.io/badge/ebuild-512-orange.svg)](https://img.shields.io/badge/ebuild-512-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -188,7 +188,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-libs/[zrtpcpp](https://github.com/wernerd/ZRTPCPP) | VCard standard format manipulation library
 * dev-lua/[lyaml](https://github.com/gvvaughan/lyaml) | LibYAML binding for Lua
 * dev-ml/[biniou](https://github.com/ocaml-community/biniou) | Extensible binary data format, like JSON but faster
-* dev-ml/[camlimages](http://gallium.inria.fr/camlimages) | An image manipulation library for ocaml
+* dev-ml/[camlimages](https://gitlab.com/camlspotter/camlimages) | An image manipulation library for ocaml
 * dev-ml/[camomile](https://github.com/yoriyuki/Camomile) | Camomile is a comprehensive Unicode library for ocaml
 * dev-ml/[dune](https://github.com/ocaml/dune) | A composable build system for OCaml
 * dev-ml/[extlib](https://github.com/ygrek/ocaml-extlib) | Standard library extensions for O'Caml
@@ -240,12 +240,16 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 * dev-python/[aws-lambda-powertools](https://github.com/awslabs/aws-lambda-powertools-python) | A suite of Python utilities for AWS Lambda functions
 * dev-python/[beautifulsoup4](https://www.crummy.com/software/BeautifulSoup) | Option groups missing in Click
+* dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 * dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
+* dev-python/[celery](https://github.com/celery/celery) | Asynchronous task job queue based on distributed message passing
 * dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
 * dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
 * dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
+* dev-python/[click-didyoumean](https://github.com/click-contrib/click-didyoumean) | Enable git-like did-you-mean feature in click
 * dev-python/[click-help-colors](https://github.com/click-contrib/click-help-colors) | Colorization of help messages in Click
 * dev-python/[click-option-group](https://github.com/click-contrib/click-option-group) | Option groups missing in Click
+* dev-python/[click-repl](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
 * dev-python/[colorpedia](https://github.com/joowani/colorpedia) | Command-line tool for looking up colors and palettes
 * dev-python/[convertdate](https://github.com/fitnr/convertdate) | Utils for converting between date formats and calculating holidays
 * dev-python/[coreapi](https://github.com/core-api/python-client) | Python client library for Core API
@@ -332,6 +336,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[pydash](https://github.com/dgilland/pydash) | The kitchen sink of Python functional utility libraries
 * dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
 * dev-python/[pystache](https://github.com/defunkt/pystache) | Mustache templating system for Python
+* dev-python/[pytest-celery](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
 * dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
 * dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 * dev-python/[pytest-trio](https://github.com/python-trio/pytest-trio) | Python library for async concurrency and I/O
