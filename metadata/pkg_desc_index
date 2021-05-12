@@ -21,6 +21,7 @@ acct-group/rslsync 0: System group: rslsync
 acct-group/samplicator 0: System group: samplicator
 acct-group/spoofer 0: System group: spoofer
 acct-group/ssmd 0: System group: ssmd
+acct-group/stg 0: System group: stg
 acct-group/swapspace 0: System group: swapspace
 acct-group/topola 0: System group: topola
 acct-group/urbackup 0: System group: urbackup
@@ -53,6 +54,7 @@ acct-user/rslsync 0: System user: rslsync
 acct-user/samplicator 0: System user: samplicator
 acct-user/spoofer 0: System user: spoofer
 acct-user/ssmd 0: System user: ssmd
+acct-user/stg 0: System user: stg
 acct-user/swapspace 0: System user: swapspace
 acct-user/topola 0: System user: topola
 acct-user/urbackup 0: System user: urbackup
@@ -111,7 +113,7 @@ app-backup/urbackup-server 2.4.13 9999: Client Server backup system
 app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 1.2.0 9999: Secure Let's Encrypt client
-app-crypt/acme-sh 2.8.3 2.8.5 9999: An ACME Shell script
+app-crypt/acme-sh 2.8.9 9999: An ACME Shell script
 app-crypt/acmebot 2.6.0 9999: ACME protocol automatic certitificate manager
 app-crypt/age 1.0.0_rc1 9999: Simple, modern and secure encryption tool
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
