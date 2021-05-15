@@ -247,6 +247,8 @@ net-p2p/opentracker:spot-woodpeckers - Enable tracking of abusing peers
 net-p2p/opentracker:whitelist - Make use of a torrents white-list
 net-voip/twinkle:g729 - Support for ITU G729 Annex A/B speech codec via media-libs/bcg729
 net-voip/twinkle:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
+net-vpn/innernet-bin:client - Install client
+net-vpn/innernet-bin:server - Install server
 net-vpn/softether:bridge - Enable install of SoftEther VPN bridge
 net-vpn/softether:client - Enable install of SoftEther VPN client
 net-vpn/softether:cmd - Enable install of SoftEther VPN cmd
