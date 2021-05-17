@@ -451,7 +451,7 @@ media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
 media-gfx/nomacs 9999: Qt-based image viewer
 media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
 media-gfx/qView 2.0 9999: Practical and minimal image viewer
-media-gfx/screencloud 1.5.1 9999: Screenshot capturing and sharing tool over various services
+media-gfx/screencloud 1.5.3 9999: Screenshot capturing and sharing tool over various services
 media-gfx/xgrabcolor 1.4.6: Qt-based basic color picker
 media-libs/bcmatroska2 0.23 9999: Matroska media container support
 media-libs/bv16-floatingpoint 1.2 9999: BroadVoice 16 kbs codec
