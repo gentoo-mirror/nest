@@ -1,3 +1,4 @@
+acct-group/adguardhome 0: System group: adguardhome
 acct-group/altova 0: System group: altova
 acct-group/amazon 0: System group: amazon
 acct-group/aoc 0: System group: aoc
@@ -29,6 +30,7 @@ acct-group/uredir 0: System group: uredir
 acct-group/vector 0: System group: vector
 acct-group/vhusb 0: System group: vhusb
 acct-group/vmware 0: System group: vmware
+acct-user/adguardhome 0: System user: adguardhome
 acct-user/amazon 1: System user: amazon
 acct-user/aoc 0: System user: aoc
 acct-user/aptly 0: System user: aptly
@@ -500,6 +502,7 @@ net-im/zoom-bin 5.0.408598.0517 5.1.412382.0614: Video conferencing and web conf
 net-libs/bctoolbox 4.3.1 4.4.0 9999: Utilities library used by Belledonne Communications softwares
 net-libs/bzrtp 4.4.0 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 4.4.0 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
+net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
