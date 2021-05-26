@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=app-admin/terraform
 RESTRICT=mirror test
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	92660621959e7fab813173772987588b	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	bf028003684a8b018e4de9e3c272ed33	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190
 _md5_=8dfed4c4040963ea2729b5b186cf27bc

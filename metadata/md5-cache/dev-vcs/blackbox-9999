@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=app-crypt/gnupg dev-vcs/git
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	92660621959e7fab813173772987588b
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	bf028003684a8b018e4de9e3c272ed33
 _md5_=8592e86771522387452e554236eb084d

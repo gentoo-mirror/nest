@@ -8,5 +8,5 @@ LICENSE=BSD
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	92660621959e7fab813173772987588b
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	go-module	bf028003684a8b018e4de9e3c272ed33
 _md5_=37e1ba09f6656046d761c6fa2270b58f
