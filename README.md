@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 520](https://img.shields.io/badge/ebuild-520-orange.svg)](https://img.shields.io/badge/ebuild-520-orange.svg)
+[![Number of ebuilds: 528](https://img.shields.io/badge/ebuild-528-orange.svg)](https://img.shields.io/badge/ebuild-528-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -162,11 +162,15 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[clock](https://github.com/corsis/clock) | High-resolution clock functions
 * dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
 * dev-haskell/[glob](http://iki.fi/matti.niemenmaa/glob) | Globbing library
+* dev-haskell/[hspec-megaparsec](https://github.com/mrkkrp/hspec-megaparsec) | Utility functions for testing Megaparsec parsers with Hspec
 * dev-haskell/[hspec-wai](https://github.com/hspec/hspec-wai) | Experimental Hspec support for testing WAI applications
+* dev-haskell/[http-client](https://github.com/snoyberg/http-client) | An HTTP client engine
 * dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
 * dev-haskell/[integer-logarithms](https://github.com/Bodigrim/integer-logarithms) | Integer logarithms
 * dev-haskell/[integer-simple](http://hackage.haskell.org/package/integer-simple) | Simple Integer library
+* dev-haskell/[modern-uri](https://github.com/mrkkrp/modern-uri) | Modern library for working with URIs
 * dev-haskell/[postgresql-simple](https://github.com/phadej/postgresql-simple) | mid-level PostgreSQL client library
+* dev-haskell/[req](https://github.com/mrkkrp/req) | Easy-to-use, type-safe, expandable, high-level HTTP client library
 * dev-haskell/[scotty](https://github.com/scotty-web/scotty) | Haskell web framework
 * dev-haskell/[scrypt](https://github.com/informatikr/scrypt) | Stronger password hashing via sequential memory-hard functions
 * dev-haskell/[semigroups](https://github.com/ekmett/semigroups) | Anything that associates
@@ -268,6 +272,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[decli](https://github.com/Woile/decli) | Minimal declarative cli tool
 * dev-python/[deep_merge](https://github.com/halfak/deep_merge) | A simple utility for merging python dictionaries
 * dev-python/[delegator-py](https://github.com/kennethreitz/delegator.py) | Simple library for dealing with subprocesses
+* dev-python/[dj-database-url](https://github.com/kennethreitz/dj-database-url) | URL bases database backend configuration in Django
+* dev-python/[dj-email-url](https://github.com/migonzalvar/dj-email-url) | URL based email backend configuration in Django
+* dev-python/[dj-search-url](https://github.com/dstufft/dj-search-url) | Environment based search backend configuration in Django
+* dev-python/[django-cache-url](https://github.com/epicserve/django-cache-url) | URL based cache backend configuration in Django
 * dev-python/[django-celery-beat](https://github.com/celery/django-celery-beat) | Celery Periodic Tasks for Django
 * dev-python/[django-configurations](https://github.com/jazzband/django-configurations) | A helper for organizing Django project settings
 * dev-python/[django-cors-headers](https://github.com/ottoyiu/django-cors-headers) | Django application for Cross-Origin Resource Sharing (CORS)
@@ -362,7 +370,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 * dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 * dev-python/[route53-transfer](https://github.com/cosmin/route53-transfer) | Generic access to configuration files in any formats
-* dev-python/[rstr](http://bitbucket.org/leapfrogdevelopment/rstr) | Generate random strings in Python
+* dev-python/[rstr](https://pypi.org/project/rstr) | Generate random strings in Python
 * dev-python/[ruamel-ordereddict](https://bitbucket.org/ruamel/ordereddict) | An ordered dictionary with KIO/KVIO
 * dev-python/[ruamel-std-pathlib](https://bitbucket.org/ruamel/std.pathlib) | Ruamel enhancements to pathlib and pathlib2
 * dev-python/[ruamel-yaml](https://bitbucket.org/ruamel/yaml) | YAML parser/emitter that supports roundtrip comment preservation
