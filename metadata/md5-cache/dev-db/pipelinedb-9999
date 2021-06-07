@@ -1,4 +1,4 @@
-BDEPEND=test? ( || ( ( dev-lang/python:3.9 dev-python/psycopg:2[python_targets_python3_9(-),-python_single_target_python3_9(-)] dev-python/pytest[python_targets_python3_9(-),-python_single_target_python3_9(-)] ) ( dev-lang/python:3.8 dev-python/psycopg:2[python_targets_python3_8(-),-python_single_target_python3_8(-)] dev-python/pytest[python_targets_python3_8(-),-python_single_target_python3_8(-)] ) ) ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( || ( ( dev-lang/python:3.10 dev-python/psycopg:2[python_targets_python3_10(-),-python_single_target_python3_10(-)] dev-python/pytest[python_targets_python3_10(-),-python_single_target_python3_10(-)] ) ( dev-lang/python:3.9 dev-python/psycopg:2[python_targets_python3_9(-),-python_single_target_python3_9(-)] dev-python/pytest[python_targets_python3_9(-),-python_single_target_python3_9(-)] ) ( dev-lang/python:3.8 dev-python/psycopg:2[python_targets_python3_8(-),-python_single_target_python3_8(-)] dev-python/pytest[python_targets_python3_8(-),-python_single_target_python3_8(-)] ) ) ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile prepare setup unpack
 DEPEND=<dev-db/postgresql-12:* net-libs/zeromq:0=
 DESCRIPTION=High-performance time-series aggregation for PostgreSQL
@@ -12,4 +12,4 @@ RDEPEND=<dev-db/postgresql-12:* net-libs/zeromq:0=
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-any-r1	17241a11501065ff3651350040875aa9
-_md5_=801cebd82888f8a7dfdd5cb6e8156e8b
+_md5_=d29c714aa1367a823834c05aee64f914

@@ -61,7 +61,11 @@ dev-db/usql:tds - Enable support for SAP ASE
 dev-db/usql:trino - Enable support for Trino
 dev-db/usql:vertica - Enable support for Vertica
 dev-db/usql:voltdb - Enable support for VoltDB
+dev-haskell/hspec-megaparsec:dev - Enable development settings
+dev-haskell/http-client:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
+dev-haskell/modern-uri:dev - Enable development settings
+dev-haskell/req:dev - Enable development settings
 dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
