@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/xerces-c dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib:= )
 SLOT=0
 SRC_URI=https://www.codesynthesis.com/download/xsd/4.0/xsd-4.0.0.tar.bz2
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479
+_eclasses_=toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b
 _md5_=352e7774db6b12ca570753bad0b04b7b
