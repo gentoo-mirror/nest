@@ -1,9 +1,9 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6..8} )
+PYTHON_COMPAT=( python3_{8..10} )
 EGIT_REPO_URI="https://github.com/kmike/${PN}.git"
 
 inherit distutils-r1 git-r3
@@ -15,23 +15,16 @@ SRC_URI=""
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE="test"
 
 RDEPEND="dev-python/urllib3[${PYTHON_USEDEP}]"
 BDEPEND="test? ( dev-python/mock[${PYTHON_USEDEP}] )"
 
+distutils_enable_tests pytest
+
 python_prepare_all() {
-	sed -i '/import urllib2/s/urllib2/urllib/' port_for/_download_ranges.py \
-		|| die "sed failed for _download_ranges.py"
+	# Remove coverage
+	sed -i '/addopts/s|--cov src/port_for --cov tests ||' setup.cfg \
+		|| die "sed failed for setup.cfg"
 
 	distutils-r1_python_prepare_all
-}
-
-python_test() {
-	"${PYTHON}" -m unittest discover -v || die "tests failed with ${EPYTHON}"
-}
-
-python_install_all() {
-	distutils-r1_python_install_all
-	find "${D}" -name 'tests.*' -delete || die "tests removing failed"
 }
