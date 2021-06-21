@@ -9,5 +9,5 @@ LICENSE=HPND
 PROPERTIES=live
 RDEPEND=virtual/ssh x11-libs/libICE x11-libs/libSM x11-libs/libX11 x11-libs/libXt
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	7a9551c9a6680454019664620505375a	multilib	6f710a580aea2e8c7f5be70f8912ad43
 _md5_=7a9817b61d9116a15f437d0f71d12c67
