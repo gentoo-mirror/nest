@@ -13,5 +13,5 @@ REQUIRED_USE=webkit? ( extensions ) ^^ ( python_single_target_python3_8 python_s
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://sourceforge/pythonqt/pythonqt/PythonQt-3.2/PythonQt3.2.zip
-_eclasses_=toolchain-funcs	e867df3870e8ff04a5b94f925be8b06a	multilib	f8d35c2432bb32c4f1e779c4287b31ec	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	virtualx	0a780e1ab49c75da33a78ede35ab8f9c
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	virtualx	0a780e1ab49c75da33a78ede35ab8f9c
 _md5_=b4a28ac65ff64431b3da2410b18ae8e3

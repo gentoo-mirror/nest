@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/libmad >=dev-lang/ocaml-4:=[ocamlopt?]
 SLOT=0/9999
-_eclasses_=dune	2d138ae1c0f7d4624876ad486529731f	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=dune	2d138ae1c0f7d4624876ad486529731f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=34746625afcb3097d6f65b314d4c4e7d

@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/biniou:=[ocamlopt?] dev-ml/easy-format:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?]
 RESTRICT=test
 SLOT=0/9999
-_eclasses_=dune	2d138ae1c0f7d4624876ad486529731f	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=dune	2d138ae1c0f7d4624876ad486529731f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=16ea9e4b6d1c8bc741f0be5178faba9e
