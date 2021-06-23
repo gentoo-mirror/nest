@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare setup unpack
-DEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_8? ( dev-python/pillow[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/pillow[python_targets_python3_9(-)] )
+DEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10] ) python_single_target_python3_8? ( dev-python/pillow[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/pillow[python_targets_python3_9(-)] ) python_single_target_python3_10? ( dev-python/pillow[python_targets_python3_10(-)] )
 DESCRIPTION=A tool for recovering passwords from pixelized screenshots
 EAPI=7
 HOMEPAGE=https://github.com/beurtschipper/Depix
 INHERIT=git-r3 python-single-r1
-IUSE=python_single_target_python3_8 python_single_target_python3_9
+IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
 LICENSE=CC-BY-4.0
 PROPERTIES=live
-RDEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_8? ( dev-python/pillow[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/pillow[python_targets_python3_9(-)] )
-REQUIRED_USE=^^ ( python_single_target_python3_8 python_single_target_python3_9 )
+RDEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10] ) python_single_target_python3_8? ( dev-python/pillow[python_targets_python3_8(-)] ) python_single_target_python3_9? ( dev-python/pillow[python_targets_python3_9(-)] ) python_single_target_python3_10? ( dev-python/pillow[python_targets_python3_10(-)] )
+REQUIRED_USE=^^ ( python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10 )
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	e867df3870e8ff04a5b94f925be8b06a	multilib	f8d35c2432bb32c4f1e779c4287b31ec	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
-_md5_=1a1bc640136bddd13a201789a4a50c69
+_md5_=2fa29c69cb4b7f07b61a6225c345253d
