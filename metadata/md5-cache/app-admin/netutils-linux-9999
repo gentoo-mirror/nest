@@ -1,15 +1,15 @@
-BDEPEND=python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-python/colorama[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/configargparse[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/prettytable[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pygments[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pyyaml[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/six[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/unittest-or-fail[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-python/colorama[python_targets_python3_8(-)?] dev-python/configargparse[python_targets_python3_8(-)?] dev-python/prettytable[python_targets_python3_8(-)?] dev-python/pygments[python_targets_python3_8(-)?] dev-python/pyyaml[python_targets_python3_8(-)?] dev-python/six[python_targets_python3_8(-)?]
 DESCRIPTION=Suite of network stack performance tunning utilities
 EAPI=7
 HOMEPAGE=https://github.com/strizhechenko/netutils-linux
 INHERIT=distutils-r1 git-r3
-IUSE=python_targets_python3_8
+IUSE=test python_targets_python3_8 python_targets_python3_9 python_targets_python3_10
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-python/colorama[python_targets_python3_8(-)?] dev-python/configargparse[python_targets_python3_8(-)?] dev-python/prettytable[python_targets_python3_8(-)?] dev-python/pygments[python_targets_python3_8(-)?] dev-python/pyyaml[python_targets_python3_8(-)?] dev-python/six[python_targets_python3_8(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?]
-REQUIRED_USE=|| ( python_targets_python3_8 )
+RDEPEND=dev-python/colorama[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/configargparse[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/prettytable[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pygments[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/pyyaml[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/six[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?]
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	977ed3240c7c676eb18a277e65663c1c	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	ab5cf7189d651fc1d8a4a8184a54cb52	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=cfe6dfc7bf7c3f8e724748bf687b2fc0
+_md5_=c02f2eb1c91ebd3ea47849d50cdaf7ce

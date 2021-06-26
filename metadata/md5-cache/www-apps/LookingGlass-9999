@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst prerm setup unpack
-DEPEND=dev-python/flask[python_targets_python3_8(-)?] dev-python/jinja[python_targets_python3_8(-)?] dev-python/markupsafe[python_targets_python3_8(-)?] dev-python/werkzeug[python_targets_python3_8(-)?] dev-python/itsdangerous[python_targets_python3_8(-)?] dev-python/sh[python_targets_python3_8(-)?] >=app-admin/webapp-config-1.50.15
+DEPEND=dev-python/flask[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/jinja[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/markupsafe[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/werkzeug[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/itsdangerous[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/sh[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=app-admin/webapp-config-1.50.15
 DESCRIPTION=A Python-backed Looking Glass
 EAPI=7
 HOMEPAGE=https://github.com/ramnode/LookingGlass
 INHERIT=git-r3 python-r1 webapp
-IUSE=vhosts python_targets_python3_8 vhosts
+IUSE=vhosts python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 vhosts
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-python/flask[python_targets_python3_8(-)?] dev-python/jinja[python_targets_python3_8(-)?] dev-python/markupsafe[python_targets_python3_8(-)?] dev-python/werkzeug[python_targets_python3_8(-)?] dev-python/itsdangerous[python_targets_python3_8(-)?] dev-python/sh[python_targets_python3_8(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?] >=app-admin/webapp-config-1.54-r2 net-analyzer/mtr net-analyzer/traceroute net-dns/bind-tools >=app-admin/webapp-config-1.50.15
-REQUIRED_USE=|| ( python_targets_python3_8 )
+RDEPEND=dev-python/flask[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/jinja[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/markupsafe[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/werkzeug[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/itsdangerous[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] dev-python/sh[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?,python_targets_python3_10(-)?] >=app-admin/webapp-config-1.54-r2 net-analyzer/mtr net-analyzer/traceroute net-dns/bind-tools >=app-admin/webapp-config-1.50.15
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 python_targets_python3_10 )
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	977ed3240c7c676eb18a277e65663c1c	python-r1	e20b80360497e6215aed0dd4ca7d6bad	webapp	cd327e73cdb307ceb80dcca6b8ad8b52
-_md5_=05a9cc4b1eae3427d7ee57d6d8f0301f
+_md5_=9b946c99babf9e3e63700b6ae9815ecd
