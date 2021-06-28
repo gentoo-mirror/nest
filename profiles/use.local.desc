@@ -192,6 +192,7 @@ media-radio/liquidsoap:profiling - Build support for profiling
 media-radio/liquidsoap:shine - Support for fixed-point mp3 encoding
 media-radio/liquidsoap:shout - Stream to Shoutcast and Icecast
 media-radio/liquidsoap:soundtouch - media-libs/libsoundtouch effects.
+media-sound/spotifyd:rodio - Enable rodio backend
 net-analyzer/goaccess:btree - Enable Tokyo Cabinet's on-disk B+ Tree database backend
 net-analyzer/goaccess:geoipv2 - Enable support for GeoIP2 through dev-libs/libmaxminddb
 net-analyzer/goaccess:getline - Use GNU getline() to parse full line requests
