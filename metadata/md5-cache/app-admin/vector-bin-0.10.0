@@ -10,5 +10,5 @@ RDEPEND=acct-user/vector
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://github.com/timberio/vector/releases/download/v0.10.0/vector-amd64.deb
-_eclasses_=pax-utils	74cd9920d64148719fb62c462935c1b5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	systemd	bd82a2f06f5594b2ed0889539a4f9a9f	unpacker	2eeba54233fa41bdb15dcddcb63fba3a
+_eclasses_=pax-utils	74cd9920d64148719fb62c462935c1b5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	systemd	c846b9e02ac8293bfc9ca38a195c2a18	unpacker	2eeba54233fa41bdb15dcddcb63fba3a
 _md5_=13b7cfdc9ab0ff52609fe45354c17297
