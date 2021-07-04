@@ -113,7 +113,7 @@ app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extrem
 app-backup/pgbackrest 2.33 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.4.10 9999: Client Server backup system
 app-backup/urbackup-server 2.4.13 9999: Client Server backup system
-app-backup/wal-g 0.2.15 9999: Archival restoration tool for databases
+app-backup/wal-g 1.0 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 1.2.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.9 9999: An ACME Shell script
@@ -168,7 +168,7 @@ dev-db/pg_profile 0.3.2 9999: Postgres historic performance reports
 dev-db/pg_repack 1.4.6 9999: PostgreSQL extension for data reorganization
 dev-db/pg_squeeze 1.3.1 9999: A PostgreSQL extension for automatic bloat cleanup
 dev-db/pg_timetable 3.0.0 9999: Advanced scheduling for PostgreSQL
-dev-db/pgcenter 0.8.0 9999: Command-line admin tool for observing and troubleshooting Postgres
+dev-db/pgcenter 0.9.1 9999: Command-line admin tool for observing and troubleshooting Postgres
 dev-db/pipelinedb 1.0.0.13 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 0.7.1 0.8.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.0 4.0.2 9999: Database access library for C++
