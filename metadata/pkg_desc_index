@@ -65,6 +65,7 @@ acct-user/uredir 0: System user: uredir
 acct-user/vector 0: System user: vector
 acct-user/vhusb 0: System user: vhusb
 app-admin/aws-vault 6.2.0 9999: A vault for securely storing and accessing AWS credentials
+app-admin/awsdtc 1.0.4 9999: AWS Data Transfer Cost Explorer
 app-admin/awslimitchecker 8.0.1 11.0.0 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsls 0.8.1 9999: A list command for AWS resources
@@ -141,6 +142,7 @@ app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience withi
 app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane DSL
 app-misc/pet 0.3.6-r1 9999: Simple command-line snippet manager
 app-misc/rmlint 2.10.1: Removes duplicates and other lint from your filesystem
+app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
 app-office/drawio-desktop-bin 13.9.8 14.6.13: Diagram drawing application built on web technology
 app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
@@ -271,6 +273,7 @@ dev-python/click-help-colors 0.9-r1 9999: Colorization of help messages in Click
 dev-python/click-option-group 0.5.3 9999: Option groups missing in Click
 dev-python/click-repl 0.2.0 9999: Subcommand REPL for click apps
 dev-python/colorpedia 1.2.3 9999: Command-line tool for looking up colors and palettes
+dev-python/configparser 5.0.2 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.3.1 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
@@ -335,6 +338,7 @@ dev-python/netapp-ontap 9.8.0: A library for working with ONTAP's REST APIs simp
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openapi-spec-validator 0.3.1 9999: Python library that validates Swagger Specs
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
+dev-python/oyaml 1.0 9999: Ordered YAML
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
 dev-python/prance 0.21.2 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
@@ -420,6 +424,7 @@ dev-util/packer 1.5.6 1.6.0 1.6.2 9999: A tool to create identical machine image
 dev-util/policy_sentry 0.11.10 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 7.36.0: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.18 9999: A parser for HCL2 written in Python
+dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API

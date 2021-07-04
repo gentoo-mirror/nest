@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Finds most often fields in a stream of records
+EAPI=7
+HOMEPAGE=https://github.com/timbray/topfew
+INHERIT=git-r3 go-module
+LICENSE=GPL-3
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	bf028003684a8b018e4de9e3c272ed33
+_md5_=083567101cfda23eabd1da3a63cfe5bd
