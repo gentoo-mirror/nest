@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 517](https://img.shields.io/badge/ebuild-517-orange.svg)](https://img.shields.io/badge/ebuild-517-orange.svg)
+[![Number of ebuilds: 522](https://img.shields.io/badge/ebuild-522-orange.svg)](https://img.shields.io/badge/ebuild-522-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -45,7 +45,7 @@ Afterwards, simply run `emerge --sync`, and Portage should seamlessly make all o
 
 This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for projects:
 
-* app-admin/[ansible-lint](https://github.com/ansible/ansible-lint) | Best practices checker for Ansible
+* app-admin/[awsdtc](https://github.com/c1982/awsdtc) | AWS Data Transfer Cost Explorer
 * app-admin/[awslimitchecker](https://github.com/jantman/awslimitchecker) | Utility to check AWS resource limits and usage
 * app-admin/[awslog](https://github.com/jaksi/awslog) | History and changes of configuration versions of AWS resources
 * app-admin/[awsls](https://github.com/jckuester/awsls) | A list command for AWS resources
@@ -124,6 +124,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * app-misc/[jsqry-cli2-bin](https://github.com/jsqry/jsqry-cli2) | CLI tool (similar to jq) to query JSON using sane DSL
 * [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/pet.svg)](https://repology.org/metapackage/pet) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
 * app-misc/[rmlint](https://rmlint.rtfd.org) | Removes duplicates and other lint from your filesystem
+* app-misc/[topfew](https://github.com/timbray/topfew) | Finds most often fields in a stream of records
 * app-misc/[up](https://github.com/akavel/up) | Tool for writing Linux pipes with instant live preview
 * app-misc/[xsv](https://github.com/BurntSushi/xsv) | A fast CSV command line toolkit
 * app-office/[drawio-desktop-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
@@ -259,6 +260,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[click-option-group](https://github.com/click-contrib/click-option-group) | Option groups missing in Click
 * dev-python/[click-repl](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
 * dev-python/[colorpedia](https://github.com/joowani/colorpedia) | Command-line tool for looking up colors and palettes
+* dev-python/[configparser](https://github.com/jaraco/configparser) | Backport of configparser from Python 3
 * dev-python/[convertdate](https://github.com/fitnr/convertdate) | Utils for converting between date formats and calculating holidays
 * dev-python/[coreapi](https://github.com/core-api/python-client) | Python client library for Core API
 * dev-python/[coreschema](https://github.com/core-api/python-coreschema) | Python CoreSchema
@@ -339,6 +341,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 * dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | Python library that validates Swagger Specs
 * dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
+* dev-python/[oyaml](https://github.com/wimglenn/oyaml) | Ordered YAML
 * dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 * dev-python/[pathspec](https://github.com/cpburnz/python-path-specification) | A utility library for pattern matching of file paths
 * dev-python/[polemarch-ansible](https://gitlab.com/vstconsulting/polemarch-ansible) | Wrapper for Ansible CLI
@@ -446,6 +449,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[policy_sentry](https://github.com/salesforce/policy_sentry) | AWS IAM Least Privilege Policy Generator
 * dev-util/[postman](https://www.postman.com) | Build, test, and document your APIs faster
 * dev-util/[python-hcl2](https://github.com/amplify-education/python-hcl2) | A parser for HCL2 written in Python
+* dev-util/[sqlfluff](https://github.com/sqlfluff/sqlfluff) | A SQL linter and auto-formatter
 * dev-util/[swapusage](https://www.codesynthesis.com/hhoffstaette/swapusage) | Amount of swapped memory for running processes
 * dev-util/[taskcat](https://github.com/aws-quickstart/taskcat) | An OpenSource Cloudformation Deployment Framework
 * dev-util/[testmace](https://testmace.com) | Powerful IDE to work with API
