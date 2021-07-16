@@ -123,7 +123,7 @@ app-editors/FeatherPad 0.17.2 9999: Lightweight Qt5 plain-text editor
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/micro 2.0.8 9999: A modern and intuitive terminal-based text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/visual-studio-code-bin 1.53.1 1.55.0: Editor for building and debugging modern web and cloud applications
+app-editors/visual-studio-code-bin 1.55.0 1.58.2: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.6f 15.5.7a 15.5.7b 15.5.7c 15.5.7d 15.5.7e 15.5.7f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.0.0f 16.1.0a 16.1.0b 16.1.0c 16.1.0d 16.1.0e 16.1.0f 16.1.1a 16.1.1b 16.1.1c 16.1.1d 16.1.1e 16.1.1f 16.1.2a 16.1.2b 16.1.2c 16.1.2d 16.1.2e 16.1.2f: VMware kernel modules
