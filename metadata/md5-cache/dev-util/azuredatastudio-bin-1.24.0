@@ -11,5 +11,5 @@ RDEPEND=app-accessibility/at-spi2-atk:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x3
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://azuredatastudio-update.azurewebsites.net/1.24.0/linux-x64/stable -> azuredatastudio-bin-1.24.0-x64.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	bash-completion-r1	d3a60385655d9b402be765a6de333245	desktop	c0d27bf73aa08ca05b663dbd31fbef28	multibuild	05a584848db4901c97fcd94ae7cc3a97	multilib-build	effd4508d5e8209273d82d8f67ee93a0	optfeature	cc13a38ea4d26565e83ef21d58bcd4ab	pax-utils	74cd9920d64148719fb62c462935c1b5	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	bash-completion-r1	d3a60385655d9b402be765a6de333245	desktop	c0d27bf73aa08ca05b663dbd31fbef28	multibuild	05a584848db4901c97fcd94ae7cc3a97	multilib-build	effd4508d5e8209273d82d8f67ee93a0	optfeature	cc13a38ea4d26565e83ef21d58bcd4ab	pax-utils	fce6ad998516159787b92e8043167889	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
 _md5_=f16a3333b0033d3e0629e9269cebd8e8
