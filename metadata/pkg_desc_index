@@ -440,6 +440,7 @@ dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
 dev-vcs/mercurial_keyring 1.4.1 9999: Mercurial Keyring Extension
 dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git repository
 gnome-base/dconf 0.29.1: Simple low-level configuration system
+kde-misc/qCheckGMail 1.3.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
 media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
 media-gfx/colorpick 9999: Color picker and contrast checker
 media-gfx/depix 9999: A tool for recovering passwords from pixelized screenshots
