@@ -1,6 +1,6 @@
 BDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/easy-format:=[ocamlopt?] dev-ml/dune:= dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
-DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?]
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=Extensible binary data format, like JSON but faster
 EAPI=7
 HOMEPAGE=https://github.com/ocaml-community/biniou
@@ -8,7 +8,7 @@ INHERIT=dune git-r3
 IUSE=+ocamlopt
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/easy-format:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?]
+RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/easy-format:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=dune	2d138ae1c0f7d4624876ad486529731f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=dune	eefe841059d4f6d649fc9a121683e311	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=cf53d9f01dc95f22110ed6d9419881b7
