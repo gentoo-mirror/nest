@@ -98,6 +98,7 @@ app-admin/rhit 1.3.2 9999: A nginx log explorer
 app-admin/ripe-atlas-tools 2.3.0 9999: The official command-line client for RIPE Atlas
 app-admin/saw 0.2.2: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/sinker 0.14.0 9999: Sync images from one container registry to another
+app-admin/sops 3.7.1 9999: Simple and flexible tool for managing secrets
 app-admin/terraform-provider-vcd 2.8.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.3.1 9999: A top for NGINX
 app-admin/trailscraper 0.6.4 9999: Command-line tool to get information out of AWS CloudTrail
@@ -135,6 +136,7 @@ app-metrics/do-agent 3.7.1 3.9.0 9999: DigitalOcean Agent for Enhanced Droplet G
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.4.4 9999: Interactive cryptocurrency monitor
+app-misc/cryptr-bin 0.4.0: Diagram drawing application built on web technology
 app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
 app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane DSL
