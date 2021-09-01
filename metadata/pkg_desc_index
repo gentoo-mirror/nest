@@ -86,7 +86,7 @@ app-admin/doctl 1.55.0 1.56.0 1.57.0 9999: A command line tool for DigitalOcean 
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/grex 1.2.0 9999: A CLI tool for generating regular expressions
-app-admin/ibmcloud-bin 0.22.0 1.2.1: IBM Cloud Developer Tools
+app-admin/ibmcloud-bin 2.0.3: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
 app-admin/kconfig-hardened-check 0.5.9 9999: A script to check the hardening options in the Linux kernel config
 app-admin/netutils-linux 2.7.9-r1 9999: Suite of network stack performance tunning utilities
