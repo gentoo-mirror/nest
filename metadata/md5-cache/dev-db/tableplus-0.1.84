@@ -9,5 +9,5 @@ RDEPEND=app-crypt/libsecret:0 app-crypt/mit-krb5:0 dev-libs/glib:2 dev-libs/json
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://deb.tableplus.com/debian/pool/main/t/tableplus/tableplus_0.1.84_amd64.deb
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	pax-utils	fce6ad998516159787b92e8043167889	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	unpacker	2eeba54233fa41bdb15dcddcb63fba3a
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	pax-utils	fce6ad998516159787b92e8043167889	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	unpacker	928e1f35ef78ba9fc2b214e29c2b55a4
 _md5_=c2f729cd150910674926a0e7b2d06f3e
