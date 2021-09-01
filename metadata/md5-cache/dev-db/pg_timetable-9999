@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
-DEFINED_PHASES=compile install postinst test unpack
+DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Advanced scheduling for PostgreSQL
 EAPI=7
 HOMEPAGE=https://github.com/cybertec-postgresql/pg_timetable
@@ -8,5 +8,5 @@ LICENSE=POSTGRESQL
 PROPERTIES=live
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	236ecaf8d66b4f4c8d98f6f868defed5
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	66ced1f8651b6b35c0262d39e015fe24
 _md5_=791096bdb80e2261fccf15a3b76de1cf
