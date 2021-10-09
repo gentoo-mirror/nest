@@ -20,6 +20,7 @@ acct-group/redir 0: System group: redir
 acct-group/ripe-atlas 0: System group: ripe-atlas
 acct-group/rslsync 0: System group: rslsync
 acct-group/samplicator 0: System group: samplicator
+acct-group/semaphore 0: System group: semaphore
 acct-group/spoofer 0: System group: spoofer
 acct-group/ssmd 0: System group: ssmd
 acct-group/stg 0: System group: stg
@@ -55,6 +56,7 @@ acct-user/redir 0: System user: redir
 acct-user/ripe-atlas 0: System user: ripe-atlas
 acct-user/rslsync 0: System user: rslsync
 acct-user/samplicator 0: System user: samplicator
+acct-user/semaphore 0: System user: semaphore
 acct-user/spoofer 0: System user: spoofer
 acct-user/ssmd 0: System user: ssmd
 acct-user/stg 0: System user: stg
@@ -97,6 +99,7 @@ app-admin/reprepro 5.1.1 5.3.0 9999: A tool to handle local repositories of Debi
 app-admin/rhit 1.3.2 9999: A nginx log explorer
 app-admin/ripe-atlas-tools 2.3.0 9999: The official command-line client for RIPE Atlas
 app-admin/saw 0.2.2: Fast, multi-purpose tool for AWS CloudWatch Logs
+app-admin/semaphore-bin 2.7.22: Modern UI for Ansible
 app-admin/sinker 0.14.0 9999: Sync images from one container registry to another
 app-admin/sops 3.7.1 9999: Simple and flexible tool for managing secrets
 app-admin/terraform-provider-vcd 2.8.0 9999: Terraform VMware vCloud Director provider
@@ -118,7 +121,7 @@ app-backup/wal-g 1.0 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 1.2.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.9 9999: An ACME Shell script
-app-crypt/acmebot 2.6.0 9999: ACME protocol automatic certitificate manager
+app-crypt/acmebot 2.7.4 9999: ACME protocol automatic certitificate manager
 app-editors/FeatherPad 0.17.2 9999: Lightweight Qt5 plain-text editor
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/micro 2.0.8 9999: A modern and intuitive terminal-based text editor
@@ -342,6 +345,7 @@ dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
 dev-python/prance 0.21.2 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/purl 1.6 9999: Simple Python URL class
+dev-python/py3dns 3.2.1 9999: Python 3 DNS library
 dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
 dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libraries
 dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
