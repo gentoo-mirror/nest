@@ -154,7 +154,7 @@ dev-cpp/belr 4.4.0 9999: Language recognition library by Belledonne Communicatio
 dev-cpp/libcutl 1.11.0_p20210806 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20211005 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
-dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
+dev-cpp/xsd 4.0.0_p20210722 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.4.2_beta11 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
@@ -407,7 +407,7 @@ dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
 dev-util/checkov 2.0.214 9999: Static code analysis tool for infrastructure-as-code
-dev-util/cli 1.2.0_pre20211007 9999: Command Line Interface compiler for C++
+dev-util/cli 1.2.0_pre20210722 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.4.3 9999: AWS IAM Security Assessment tool
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
