@@ -3,17 +3,17 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://git.codesynthesis.com/${PN}/${PN}.git"
+inherit multiprocessing toolchain-funcs vcs-snapshot
 
-inherit git-r3 multiprocessing toolchain-funcs
+MY_PV="8653eff"
 
 DESCRIPTION="A collection of C++ libraries (successor of libcult)"
 HOMEPAGE="https://www.codesynthesis.com/projects/libcutl"
-SRC_URI=""
+SRC_URI="https://git.codesynthesis.com/cgit/${PN}/${PN}/snapshot/${MY_PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="static-libs"
 
 BDEPEND="dev-util/build2"
