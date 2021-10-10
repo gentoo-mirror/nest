@@ -151,8 +151,8 @@ app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
 app-shells/peco 0.5.8 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
 dev-cpp/belr 4.4.0 9999: Language recognition library by Belledonne Communications
-dev-cpp/libcutl 1.11.0_beta6 9999: A collection of C++ libraries (successor of libcult)
-dev-cpp/libxsd-frontend 2.0.0_p20170103: A compiler frontend for the W3C XML Schema definition language
+dev-cpp/libcutl 1.11.0_p20210806 9999: A collection of C++ libraries (successor of libcult)
+dev-cpp/libxsd-frontend 2.0.0_p20211005 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0 4.1.0_alpha11 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
@@ -258,7 +258,7 @@ dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-php/spx 0.4.0 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.3.13 0.5.11 9999: Library of astronomical algorithms in Python
-dev-python/PythonQt 3.2-r2 9999: A dynamic Python binding for the Qt framework
+dev-python/PythonQt 3.2-r3 9999: A dynamic Python binding for the Qt framework
 dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
 dev-python/ahocorasick 1.4.1 9999: Python module implementing Aho-Corasick algorithm
 dev-python/anyconfig 0.11.0 9999: Generic access to configuration files in any formats
@@ -407,7 +407,7 @@ dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
 dev-util/checkov 2.0.214 9999: Static code analysis tool for infrastructure-as-code
-dev-util/cli 1.2.0_pre20190704: Command Line Interface compiler for C++
+dev-util/cli 1.2.0_pre20211007 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.4.3 9999: AWS IAM Security Assessment tool
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
