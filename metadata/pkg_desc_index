@@ -84,7 +84,7 @@ app-admin/digaws 0.3.1 9999: Look up region and other information for any AWS IP
 app-admin/digaz 0.3.1 9999: Look up region and other information for any Azure IP address
 app-admin/digg 0.2.2 9999: Look up region and other information for any Google IP address
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.55.0 1.56.0 1.57.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.56.0 1.57.0 1.65.0 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/grex 1.2.0 9999: A CLI tool for generating regular expressions
@@ -427,7 +427,7 @@ dev-util/insomnia-bin 2020.4.2 2021.4.1: HTTP and GraphQL client for developers
 dev-util/jwt_tool 2.2.1 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187: VMware Open Virtualization Format tool
-dev-util/packer 1.5.6 1.6.0 1.6.2 9999: A tool to create identical machine images for multiple platforms
+dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
 dev-util/policy_sentry 0.11.10 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 7.36.0: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.18 9999: A parser for HCL2 written in Python
