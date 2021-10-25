@@ -168,7 +168,7 @@ dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
 dev-db/mssql-tools 17.7.1.1: Microsoft SQL Server Tools for Linux
 dev-db/odyssey 1.1 9999: Scalable PostgreSQL connection pooler
-dev-db/pg_cron 1.3.1 9999: Run periodic jobs in PostgreSQL
+dev-db/pg_cron 1.3.1 1.4.1 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
 dev-db/pg_profile 0.3.2 9999: Postgres historic performance reports
 dev-db/pg_repack 1.4.6 9999: PostgreSQL extension for data reorganization
@@ -500,7 +500,7 @@ net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 4.1.0-r1 5.0.1: Chat and network platform
 net-im/slack 4.11.3 4.13.0: Team collaboration tool
-net-im/viber 13.3.1.22: Free text and calls
+net-im/viber 16.1.0.37: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
 net-im/zoom-bin 5.0.408598.0517 5.1.412382.0614: Video conferencing and web conferencing service
 net-libs/bctoolbox 4.3.1 4.4.0 9999: Utilities library used by Belledonne Communications softwares
