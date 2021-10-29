@@ -195,6 +195,9 @@ media-radio/liquidsoap:profiling - Build support for profiling
 media-radio/liquidsoap:shine - Support for fixed-point mp3 encoding
 media-radio/liquidsoap:shout - Stream to Shoutcast and Icecast
 media-radio/liquidsoap:soundtouch - media-libs/libsoundtouch effects.
+media-sound/ncspot:cover - Enable drawing of the album art
+media-sound/ncspot:rodio - Enable rodio backend
+media-sound/ncspot:termion - Enable termion backend
 media-sound/spotifyd:rodio - Enable rodio backend
 net-analyzer/goaccess:btree - Enable Tokyo Cabinet's on-disk B+ Tree database backend
 net-analyzer/goaccess:geoipv2 - Enable support for GeoIP2 through dev-libs/libmaxminddb
