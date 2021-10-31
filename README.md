@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 533](https://img.shields.io/badge/ebuild-533-orange.svg)](https://img.shields.io/badge/ebuild-533-orange.svg)
+[![Number of ebuilds: 588](https://img.shields.io/badge/ebuild-588-orange.svg)](https://img.shields.io/badge/ebuild-588-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -163,26 +163,81 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-db/[soci](https://github.com/SOCI/soci) | Database access library for C++
 * dev-db/[tableplus](https://tableplus.com) | Modern, native, and friendly GUI tool for relational databases
 * dev-db/[usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases
+* dev-haskell/[ChasingBottoms](https://hackage.haskell.org/package/ChasingBottoms) | For testing partial and infinite values
+* dev-haskell/[OneTuple](https://github.com/haskellari/OneTuple) | Singleton Tuple
+* dev-haskell/[Ranged-sets](https://github.com/PaulJohnson/Ranged-sets) | Ranged sets for Haskell
 * dev-haskell/[ansi-wl-pprint](https://github.com/ekmett/ansi-wl-pprint) | The Wadler/Leijen Pretty Printer for colored ANSI terminal output
+* dev-haskell/[base-prelude](https://github.com/nikita-volkov/base-prelude) | The most complete prelude formed only from the base package
+* dev-haskell/[base64-bytestring](https://github.com/haskell/base64-bytestring) | Fast base64 encoding and decoding for Haskell
+* dev-haskell/[binary-parser](https://github.com/nikita-volkov/binary-parser) | A highly-efficient but limited parser API for bytestrings
+* dev-haskell/[bytestring-strict-builder](https://github.com/nikita-volkov/bytestring-strict-builder) | An efficient strict bytestring builder
+* dev-haskell/[bytestring-tree-builder](https://github.com/nikita-volkov/bytestring-tree-builder) | A ByteString builder implementation based on the binary tree
 * dev-haskell/[clock](https://github.com/corsis/clock) | High-resolution clock functions
+* dev-haskell/[concise](https://github.com/frasertweedale/hs-concise) | Utilities for Control.Lens.Cons
+* dev-haskell/[configurator-pg](https://github.com/robx/configurator-pg) | Reduced parser for configurator-ng config files
+* dev-haskell/[conversion](https://github.com/nikita-volkov/conversion) | Universal converter between values of different types
+* dev-haskell/[conversion-bytestring](https://github.com/nikita-volkov/conversion-bytestring) | Conversion instances for the bytestring library
+* dev-haskell/[conversion-text](https://github.com/nikita-volkov/conversion-text) | Conversion instances for the text library
 * dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
-* dev-haskell/[glob](http://iki.fi/matti.niemenmaa/glob) | Globbing library
+* dev-haskell/[data-bword](https://github.com/mvv/data-bword) | Extra operations on binary words of fixed length
+* dev-haskell/[data-checked](https://github.com/mvv/data-checked) | Type-indexed runtime-checked properties for Haskell
+* dev-haskell/[data-dword](https://github.com/mvv/data-dword) | Stick two binary words together to get a bigger one
+* dev-haskell/[data-serializer](https://github.com/mvv/data-serializer) | Common API for Haskell serialization libraries
+* dev-haskell/[data-textual](https://github.com/mvv/data-textual) | Human-friendly textual representations for Haskell
+* dev-haskell/[deferred-folds](https://github.com/metrix-ai/deferred-folds) | Abstractions over deferred folds
+* dev-haskell/[expiring-cache-map](https://github.com/elblake/expiring-cache-map) | General purpose simple caching
+* dev-haskell/[hasql](https://github.com/nikita-volkov/hasql) | An efficient PostgreSQL driver with a flexible mapping API
+* dev-haskell/[hasql-dynamic-statements](https://github.com/nikita-volkov/hasql-dynamic-statements) | Dynamic statements for Hasql
+* dev-haskell/[hasql-implicits](https://github.com/nikita-volkov/hasql-implicits) | Implicit definitions for Hasql
+* dev-haskell/[hasql-notifications](https://github.com/diogob/hasql-notifications) | PostgreSQL Asynchronous notification
+* dev-haskell/[hasql-pool](https://github.com/nikita-volkov/hasql-pool) | A pool of connections for Hasql
+* dev-haskell/[hasql-transaction](https://github.com/nikita-volkov/hasql-transaction) | Abstraction over transactions for Hasql
+* dev-haskell/[heredoc](http://hackage.haskell.org/package/heredoc) | multi-line string / here document using QuasiQuotes
+* dev-haskell/[hspec-expectations-lifted](https://github.com/hspec/hspec-expectations-lifted) | A version of hspec-expectations generalized to MonadIO
 * dev-haskell/[hspec-megaparsec](https://github.com/mrkkrp/hspec-megaparsec) | Utility functions for testing Megaparsec parsers with Hspec
 * dev-haskell/[hspec-wai](https://github.com/hspec/hspec-wai) | Experimental Hspec support for testing WAI applications
+* dev-haskell/[hspec-wai-json](https://github.com/hspec/hspec-wai) | Testing JSON APIs with hspec-wai
 * dev-haskell/[http-client](https://github.com/snoyberg/http-client) | An HTTP client engine
+* dev-haskell/[http-media](https://github.com/zmthy/http-media) | Processing HTTP Content-Type and Accept headers
+* dev-haskell/[indexed-profunctors](https://github.com/well-typed/optics) | Utilities for indexed profunctors
+* dev-haskell/[indexed-traversable-instances](https://github.com/haskellari/indexed-traversable) | More instances of FunctorWithIndex, FoldableWithIndex
 * dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
+* dev-haskell/[insert-ordered-containers](https://github.com/phadej/insert-ordered-containers) | Associative containers retating insertion order for traversals
 * dev-haskell/[integer-logarithms](https://github.com/Bodigrim/integer-logarithms) | Integer logarithms
 * dev-haskell/[integer-simple](http://hackage.haskell.org/package/integer-simple) | Simple Integer library
+* dev-haskell/[interpolatedstring-perl6](https://github.com/audreyt/interpolatedstring-perl6) | QuasiQuoter for Perl6 style multi-line interpolated
+* dev-haskell/[jose](https://github.com/frasertweedale/hs-jose) | Haskell JOSE and JWT library
+* dev-haskell/[json-ast](https://github.com/nikita-volkov/json-ast) | Universal JSON AST datastructure
+* dev-haskell/[loch-th](https://github.com/liskin/loch-th) | Support for precise error locations in source files
 * dev-haskell/[modern-uri](https://github.com/mrkkrp/modern-uri) | Modern library for working with URIs
-* dev-haskell/[postgresql-simple](https://github.com/phadej/postgresql-simple) | mid-level PostgreSQL client library
+* dev-haskell/[monad-time](https://github.com/scrive/monad-time) | Type class for monads which carry the notion of the current time
+* dev-haskell/[network-ip](https://github.com/mvv/network-ip) | Internet Protocol data structures
+* dev-haskell/[optics-core](https://github.com/well-typed/optics) | Optics as an abstract interface
+* dev-haskell/[optics-extra](https://github.com/well-typed/optics) | Extra utilities and instances for optics-core
+* dev-haskell/[optics-th](https://github.com/well-typed/optics) | Optics as an abstract interface
+* dev-haskell/[placeholders](https://github.com/ahammar/placeholders) | Placeholders for use while developing Haskell code
+* dev-haskell/[postgresql-binary](https://github.com/nikita-volkov/postgresql-binary) | Encoders and decoders for the PostgreSQL's binary format
+* dev-haskell/[protolude](https://github.com/protolude/protolude) | A sensible starting Prelude template
+* dev-haskell/[ptr](https://github.com/nikita-volkov/ptr) | Abstractions for operations on pointers
+* dev-haskell/[rebase](https://github.com/nikita-volkov/rebase) | A more progressive alternative to the 'base' package
 * dev-haskell/[req](https://github.com/mrkkrp/req) | Easy-to-use, type-safe, expandable, high-level HTTP client library
+* dev-haskell/[rerebase](https://github.com/nikita-volkov/rerebase) | Reexports from 'base' with a bunch of other standard libraries
 * dev-haskell/[scotty](https://github.com/scotty-web/scotty) | Haskell web framework
 * dev-haskell/[scrypt](https://github.com/informatikr/scrypt) | Stronger password hashing via sequential memory-hard functions
+* dev-haskell/[selective](https://github.com/snowleopard/selective) | Selective applicative functors
 * dev-haskell/[semigroups](https://github.com/ekmett/semigroups) | Anything that associates
+* dev-haskell/[swagger2](https://github.com/GetShopTV/swagger2) | Swagger 2.0 data model
+* dev-haskell/[tasty-hspec](https://github.com/mitchellwrosen/tasty-hspec) | Hspec support for the Tasty test framework
+* dev-haskell/[text-builder](https://github.com/nikita-volkov/text-builder) | An efficient strict text builder
+* dev-haskell/[text-latin1](https://github.com/mvv/text-latin1) | Latin-1 (including ASCII) utility functions for Haskell
+* dev-haskell/[text-printer](https://github.com/mvv/text-printer) | Abstract interace for Haskell text builders/printers
 * dev-haskell/[tz](https://github.com/nilcons/haskell-tz) | Library for time zone conversions
+* dev-haskell/[type-hint](https://github.com/mvv/type-hint) | Haskell library for helping type inference by using proxy values
 * dev-haskell/[tzdata](https://github.com/nilcons/haskell-tzdata) | Distribution of the standard time zone database
+* dev-haskell/[unordered-containers](https://github.com/haskell-unordered-containers/unordered-containers) | Efficient hashing-based container types
 * dev-haskell/[websockets](http://jaspervdj.be/websockets) | Allows you to write WebSocket-capable servers
 * dev-haskell/[wai-cors](https://github.com/larskuhtz/wai-cors) | Cross-Origin resource sharing (CORS) for Wai
+* dev-haskell/[wai-middleware-static](https://github.com/scotty-web/wai-middleware-static) | WAI middleware that serves requests to static files
 * dev-haskell/[wai-websockets](https://github.com/yesodweb/wai) | Provide a bridge between WAI and the websockets package
 * dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
 * dev-libs/[belle-sip](https://github.com/BelledonneCommunications/belle-sip) | SIP (RFC3261) implementation
