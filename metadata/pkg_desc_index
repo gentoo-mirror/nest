@@ -182,25 +182,80 @@ dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more 
 dev-db/sqlpackage 15.0.5084.2: Automates SQL Server database development tasks
 dev-db/tableplus 0.1.84: Modern, native, and friendly GUI tool for relational databases
 dev-db/usql 0.9.0 9999: Universal command-line interface for SQL databases
+dev-haskell/ChasingBottoms 1.3.1.10: For testing partial and infinite values
+dev-haskell/OneTuple 0.3: Singleton Tuple
+dev-haskell/Ranged-sets 0.4.0: Ranged sets for Haskell
 dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
+dev-haskell/base-prelude 1.4: The most complete prelude formed only from the base package
+dev-haskell/base64-bytestring 1.2.1.0: Fast base64 encoding and decoding for Haskell
+dev-haskell/binary-parser 0.5.7: A highly-efficient but limited parser API for bytestrings
+dev-haskell/bytestring-strict-builder 0.4.5.4: An efficient strict bytestring builder
+dev-haskell/bytestring-tree-builder 0.2.7.5: A ByteString builder implementation based on the binary tree
 dev-haskell/clock 0.8: High-resolution clock functions
+dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
+dev-haskell/configurator-pg 0.2.5: Reduced parser for configurator-ng config files
+dev-haskell/conversion 1.2.1: Universal converter between values of different types
+dev-haskell/conversion-bytestring 1.0.1: Conversion instances for the bytestring library
+dev-haskell/conversion-text 1.0.1: Conversion instances for the text library
 dev-haskell/daemons 0.2.1 0.3.0: Daemons in Haskell made fun and easy
-dev-haskell/glob 0.10.0 0.10.1: Globbing library
+dev-haskell/data-bword 0.1.0.1: Extra operations on binary words of fixed length
+dev-haskell/data-checked 0.3: Type-indexed runtime-checked properties for Haskell
+dev-haskell/data-dword 0.3.2: Stick two binary words together to get a bigger one
+dev-haskell/data-serializer 0.3.5: Common API for Haskell serialization libraries
+dev-haskell/data-textual 0.3.0.3: Human-friendly textual representations for Haskell
+dev-haskell/deferred-folds 0.9.17: Abstractions over deferred folds
+dev-haskell/expiring-cache-map 0.0.6.1: General purpose simple caching
+dev-haskell/hasql 1.4.5.2: An efficient PostgreSQL driver with a flexible mapping API
+dev-haskell/hasql-dynamic-statements 0.3.1: Dynamic statements for Hasql
+dev-haskell/hasql-implicits 0.1.0.2: Implicit definitions for Hasql
+dev-haskell/hasql-notifications 0.2.0.0: PostgreSQL Asynchronous notification
+dev-haskell/hasql-pool 0.5.2: A pool of connections for Hasql
+dev-haskell/hasql-transaction 1.0.1: Abstraction over transactions for Hasql
+dev-haskell/heredoc 0.2.0.0: multi-line string / here document using QuasiQuotes
+dev-haskell/hspec-expectations-lifted 0.10.0: A version of hspec-expectations generalized to MonadIO
 dev-haskell/hspec-megaparsec 2.2.0: Utility functions for testing Megaparsec parsers with Hspec
 dev-haskell/hspec-wai 0.9.0 0.10.1: Experimental Hspec support for testing WAI applications
+dev-haskell/hspec-wai-json 0.11.0: Testing JSON APIs with hspec-wai
 dev-haskell/http-client 0.7.8: An HTTP client engine
+dev-haskell/http-media 0.8.0.0: Processing HTTP Content-Type and Accept headers
+dev-haskell/indexed-profunctors 0.1.1: Utilities for indexed profunctors
+dev-haskell/indexed-traversable-instances 0.1.1: More instances of FunctorWithIndex, FoldableWithIndex
 dev-haskell/ini 0.4.1: Quick and easy configuration files in the INI format
+dev-haskell/insert-ordered-containers 0.2.5: Associative containers retating insertion order for traversals
 dev-haskell/integer-logarithms 1.0.3: Integer logarithms
 dev-haskell/integer-simple 0.1.1.1: Simple Integer library
+dev-haskell/interpolatedstring-perl6 1.0.2: QuasiQuoter for Perl6 style multi-line interpolated
+dev-haskell/jose 0.8.5.1: Haskell JOSE and JWT library
+dev-haskell/json-ast 0.3.1: Universal JSON AST datastructure
+dev-haskell/loch-th 0.2.2: Support for precise error locations in source files
 dev-haskell/modern-uri 0.3.4.1: Modern library for working with URIs
-dev-haskell/postgresql-simple 0.6.2: mid-level PostgreSQL client library
+dev-haskell/monad-time 0.3.1.0: Type class for monads which carry the notion of the current time
+dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
+dev-haskell/optics-core 0.4: Optics as an abstract interface
+dev-haskell/optics-extra 0.4: Extra utilities and instances for optics-core
+dev-haskell/optics-th 0.3.0.2: Optics as an abstract interface
+dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
+dev-haskell/postgresql-binary 0.12.3.3: Encoders and decoders for the PostgreSQL's binary format
+dev-haskell/protolude 0.3.0: A sensible starting Prelude template
+dev-haskell/ptr 0.16.8.1: Abstractions for operations on pointers
+dev-haskell/rebase 1.13.0.1: A more progressive alternative to the 'base' package
 dev-haskell/req 3.9.1: Easy-to-use, type-safe, expandable, high-level HTTP client library
+dev-haskell/rerebase 1.13.0.1: Reexports from 'base' with a bunch of other standard libraries
 dev-haskell/scotty 0.11.5 0.12 0.12-r1: Haskell web framework
 dev-haskell/scrypt 0.5.0: Stronger password hashing via sequential memory-hard functions
-dev-haskell/semigroups 0.18.5 0.19.1: Anything that associates
+dev-haskell/selective 0.4.2: Selective applicative functors
+dev-haskell/semigroups 0.19.1: Anything that associates
+dev-haskell/swagger2 2.6: Swagger 2.0 data model
+dev-haskell/tasty-hspec 1.2: Hspec support for the Tasty test framework
+dev-haskell/text-builder 0.6.6.3: An efficient strict text builder
+dev-haskell/text-latin1 0.3.1: Latin-1 (including ASCII) utility functions for Haskell
+dev-haskell/text-printer 0.5.0.1: Abstract interace for Haskell text builders/printers
+dev-haskell/type-hint 0.1: Haskell library for helping type inference by using proxy values
 dev-haskell/tz 0.1.3.3 0.1.3.4: Library for time zone conversions
 dev-haskell/tzdata 0.1.20190911.0: Distribution of the standard time zone database
+dev-haskell/unordered-containers 0.2.14.0: Efficient hashing-based container types
 dev-haskell/wai-cors 0.2.7: Cross-Origin resource sharing (CORS) for Wai
+dev-haskell/wai-middleware-static 0.9.0: WAI middleware that serves requests to static files
 dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
 dev-haskell/websockets 0.12.7.0 0.12.7.1: Allows you to write WebSocket-capable servers
 dev-libs/belcard 4.4.0 9999: VCard standard format manipulation library

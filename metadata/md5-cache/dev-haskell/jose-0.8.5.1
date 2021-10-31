@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/pem:=[profile?] dev-haskell/tasty:=[profile?] dev-haskell/tasty-hspec:=[profile?] dev-haskell/tasty-quickcheck:=[profile?] )
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] >=dev-haskell/base64-bytestring-1.2.1.0:=[profile?] dev-haskell/concise:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/monad-time:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/quickcheck-instances:=[profile?] dev-haskell/safe:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/x509:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell JOSE and JWT library
+EAPI=8
+HOMEPAGE=https://github.com/frasertweedale/hs-jose
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] >=dev-haskell/base64-bytestring-1.2.1.0:=[profile?] dev-haskell/concise:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/monad-time:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/quickcheck-instances:=[profile?] dev-haskell/safe:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/x509:=[profile?] dev-lang/ghc:=
+RESTRICT=!test? ( test )
+SLOT=0/0.8.5.1
+SRC_URI=https://hackage.haskell.org/package/jose-0.8.5.1/jose-0.8.5.1.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ghc-package	6344fef4405bc9a6cca6a0a39eee4a32	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	haskell-cabal	45a8f7d7c2ff5551cbe5eb57c264861d
+_md5_=b5de47c440def05990bbb5d66fdc5f30

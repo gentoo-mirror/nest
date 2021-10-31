@@ -1,0 +1,17 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] )
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/base-prelude:=[profile?] dev-haskell/hasql:=[profile?] dev-haskell/resource-pool:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A pool of connections for Hasql
+EAPI=8
+HOMEPAGE=https://github.com/nikita-volkov/hasql-pool
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-haskell/base-prelude:=[profile?] dev-haskell/hasql:=[profile?] dev-haskell/resource-pool:=[profile?] dev-lang/ghc:=
+RESTRICT=test !test? ( test )
+SLOT=0/0.5.2
+SRC_URI=https://hackage.haskell.org/package/hasql-pool-0.5.2/hasql-pool-0.5.2.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ghc-package	6344fef4405bc9a6cca6a0a39eee4a32	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	haskell-cabal	45a8f7d7c2ff5551cbe5eb57c264861d
+_md5_=48732ffdbec4ad05bc431f8b114ee592
