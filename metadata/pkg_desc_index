@@ -16,6 +16,7 @@ acct-group/netgauge 0: System group: netgauge
 acct-group/odyssey 0: System group: odyssey
 acct-group/opentracker 0: System group: opentracker
 acct-group/passivedns 0: System group: passivedns
+acct-group/postgrest 0: System group: postgrest
 acct-group/redir 0: System group: redir
 acct-group/ripe-atlas 0: System group: ripe-atlas
 acct-group/rslsync 0: System group: rslsync
@@ -52,6 +53,7 @@ acct-user/netgauge 0: System user: netgauge
 acct-user/odyssey 0: System user: odyssey
 acct-user/opentracker 0: System user: opentracker
 acct-user/passivedns 0: System user: passivedns
+acct-user/postgrest 0: System user: postgrest
 acct-user/redir 0: System user: redir
 acct-user/ripe-atlas 0: System user: ripe-atlas
 acct-user/rslsync 0: System user: rslsync
@@ -577,6 +579,7 @@ net-misc/msd 9999: Program for IP TV streaming on the network via HTTP
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
 net-misc/opendrop 0.13.0 9999: an Open Source AirDrop Implementation
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
+net-misc/postgrest 8.0.0: REST API for any Postgres database
 net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
 net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
 net-misc/redir 3.3 9999: TCP port redirector
