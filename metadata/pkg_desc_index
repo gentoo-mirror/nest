@@ -90,7 +90,7 @@ app-admin/doctl 1.56.0 1.57.0 1.65.0 9999: A command line tool for DigitalOcean 
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/grex 1.2.0 9999: A CLI tool for generating regular expressions
-app-admin/ibmcloud-bin 2.0.3: IBM Cloud Developer Tools
+app-admin/ibmcloud-bin 2.0.3 2.2.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
 app-admin/kconfig-hardened-check 0.5.9 9999: A script to check the hardening options in the Linux kernel config
 app-admin/netutils-linux 2.7.9-r1 9999: Suite of network stack performance tunning utilities
@@ -120,7 +120,7 @@ app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extrem
 app-backup/pgbackrest 2.33 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.4.10 9999: Client Server backup system
 app-backup/urbackup-server 2.4.13 9999: Client Server backup system
-app-backup/wal-g 1.0 9999: Archival restoration tool for databases
+app-backup/wal-g 1.0 1.1 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 1.2.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 2.8.9 9999: An ACME Shell script
@@ -176,7 +176,7 @@ dev-db/pg_profile 0.3.2 9999: Postgres historic performance reports
 dev-db/pg_repack 1.4.6 9999: PostgreSQL extension for data reorganization
 dev-db/pg_squeeze 1.3.1 9999: A PostgreSQL extension for automatic bloat cleanup
 dev-db/pg_timetable 3.0.0 9999: Advanced scheduling for PostgreSQL
-dev-db/pgcenter 0.9.1 9999: Command-line admin tool for observing and troubleshooting Postgres
+dev-db/pgcenter 0.9.1 0.9.2 9999: Command-line admin tool for observing and troubleshooting Postgres
 dev-db/pipelinedb 1.0.0.13 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 0.7.1 0.8.1 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.0 4.0.2 9999: Database access library for C++
@@ -336,7 +336,7 @@ dev-python/click-help-colors 0.9-r1 9999: Colorization of help messages in Click
 dev-python/click-option-group 0.5.3 9999: Option groups missing in Click
 dev-python/click-repl 0.2.0 9999: Subcommand REPL for click apps
 dev-python/colorpedia 1.2.3 9999: Command-line tool for looking up colors and palettes
-dev-python/configparser 5.0.2 9999: Backport of configparser from Python 3
+dev-python/configparser 5.0.2 5.1.0 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.3.1 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
@@ -446,6 +446,7 @@ dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/tomlkit 0.7.2-r1 9999: Style-preserving TOML library for Python
 dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
 dev-python/trio 0.18.0 9999: Python library for async concurrency and I/O
+dev-python/types-chardet 4.0.1 9999: Collection of library stubs for Python, with static types
 dev-python/ua-parser 0.10.0 9999: A python implementation of the UA Parser
 dev-python/ukpostcodeparser 1.1.2 9999: UK postcode parser library
 dev-python/umalqurra 0.2 9999: Date Api that support Hijri Umalqurra calendar
@@ -456,10 +457,10 @@ dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API S
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.14.0 9999: Generate HTML or XML in a pythonic way
-dev-util/arctype 0.9.4: SQL client for PostgreSQL and MySQL
+dev-util/arctype 0.9.25: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
-dev-util/azuredatastudio-bin 1.22.1 1.24.0 1.28.0: Data management tool to work with DW, Azure, SQL Server
+dev-util/azuredatastudio-bin 1.24.0 1.28.0 1.33.1: Data management tool to work with DW, Azure, SQL Server
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
@@ -545,7 +546,7 @@ net-analyzer/ripe-atlas-probe 5020: RIPE Atlas Software Probe
 net-analyzer/smtpping 1.1.3 9999: Simple, portable tool for measuring SMTP server delay
 net-analyzer/sx 0.3.0 9999: Fast, modern, easy-to-use network scanner
 net-analyzer/wtraf-bin 0.3.1: SNMP traffic monitor in realtime
-net-dns/ddns-route53 2.6.1 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
+net-dns/ddns-route53 2.6.1 2.7.0 9999: Dynamic DNS for Amazon Route 53 on a time-based schedule
 net-dns/flares 2.3.2 9999: CloudFlare DNS backup tool
 net-dns/inadyn-mt 02.28.10 9999: A simple dynamic DNS client
 net-dns/massdns 0.3 9999: A high-performance DNS stub resolver
@@ -566,7 +567,7 @@ net-libs/bzrtp 4.4.0 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 4.4.0 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
 net-misc/amazon-workspaces-bin 3.1.9.1245: Amazon Workspace Client
-net-misc/awscurl 0.23 9999: Make signed requests to AWS API
+net-misc/awscurl 0.23 0.24 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
