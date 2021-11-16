@@ -182,7 +182,7 @@ dev-db/postgresql_anonymizer 0.7.1 0.8.1 9999: Anonymization & Data Masking for 
 dev-db/soci 4.0.0 4.0.2 9999: Database access library for C++
 dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more SQL queries
 dev-db/sqlpackage 15.0.5084.2: Automates SQL Server database development tasks
-dev-db/tableplus 0.1.84: Modern, native, and friendly GUI tool for relational databases
+dev-db/tableplus 0.1.84 0.1.176: Modern, native, and friendly GUI tool for relational databases
 dev-db/usql 0.9.0 9999: Universal command-line interface for SQL databases
 dev-haskell/ChasingBottoms 1.3.1.10: For testing partial and infinite values
 dev-haskell/OneTuple 0.3: Singleton Tuple
