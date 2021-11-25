@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 590](https://img.shields.io/badge/ebuild-590-orange.svg)](https://img.shields.io/badge/ebuild-590-orange.svg)
+[![Number of ebuilds: 594](https://img.shields.io/badge/ebuild-594-orange.svg)](https://img.shields.io/badge/ebuild-594-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -301,6 +301,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
 * dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 * dev-python/[ahocorasick](https://github.com/WojciechMula/pyahocorasick) | Python module implementing Aho-Corasick algorithm
+* dev-python/[aiomultiprocess](https://github.com/omnilib/aiomultiprocess) | asyncio version of the standard multiprocessing module
 * dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
 * dev-python/[apispec](https://github.com/marshmallow-code/apispec) | A pluggable API specification generator
 * dev-python/[apispec-webframeworks](https://github.com/marshmallow-code/apispec-webframeworks) | Web framework plugins for apispec
@@ -328,6 +329,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[crossplane](https://github.com/nginxinc/crossplane) | Fast and reliable NGINX configuration parser
 * dev-python/[ctypescrypto](https://github.com/vbwagner/ctypescrypto) | File format determination library for Python
 * dev-python/[curio](https://github.com/dabeaz/curio) | Coroutine-based library for concurrent Python systems programming
+* dev-python/[cyclonedx-python-lib](https://github.com/CycloneDX/cyclonedx-python-lib) | Python library for generating CycloneDX SBOMs
 * dev-python/[dataclasses](https://github.com/ericvsmith/dataclasses) | A backport of the dataclasses module for Python 3.6
 * dev-python/[dataclasses-jsonschema](https://github.com/s-knibbs/dataclasses-jsonschema) | JSON schema generation from dataclasses
 * dev-python/[datadiff](https://sourceforge.net/projects/datadiff) | A library for diffs of python data structures
@@ -401,9 +403,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | Python library that validates Swagger Specs
 * dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
 * dev-python/[oyaml](https://github.com/wimglenn/oyaml) | Ordered YAML
+* dev-python/[packageurl](https://github.com/package-url/packageurl-python) | Python implementation of the package url spec
 * dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 * dev-python/[pathspec](https://github.com/cpburnz/python-path-specification) | A utility library for pattern matching of file paths
 * dev-python/[polemarch-ansible](https://gitlab.com/vstconsulting/polemarch-ansible) | Wrapper for Ansible CLI
+* dev-python/[policyuniverse](https://github.com/Netflix-Skunkworks/policyuniverse) | Parse and Process AWS IAM Policies, Statements, ARNs
 * dev-python/[port-for](https://github.com/kmike/port-for) | An utility and python library for TCP ports management
 * dev-python/[prance](https://github.com/jfinkhaeuser/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 * dev-python/[purl](https://github.com/codeinthehole/purl) | Simple Python URL class
