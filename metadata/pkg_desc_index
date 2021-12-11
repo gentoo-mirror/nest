@@ -148,7 +148,7 @@ app-misc/cryptr-bin 0.4.0: Diagram drawing application built on web technology
 app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
 app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane DSL
-app-misc/pet 0.3.6-r1 9999: Simple command-line snippet manager
+app-misc/pet 0.3.6-r1 0.4.0 9999: Simple command-line snippet manager
 app-misc/rmlint 2.10.1: Removes duplicates and other lint from your filesystem
 app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
