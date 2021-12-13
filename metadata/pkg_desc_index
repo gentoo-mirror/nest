@@ -238,6 +238,9 @@ dev-haskell/optics-extra 0.4: Extra utilities and instances for optics-core
 dev-haskell/optics-th 0.3.0.2: Optics as an abstract interface
 dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
 dev-haskell/postgresql-binary 0.12.3.3: Encoders and decoders for the PostgreSQL's binary format
+dev-haskell/pretty-simple 4.0.0.0: Haskell data types that have a Show instance
+dev-haskell/prettyprinter 1.7.1: A modern, easy to use, well-documented, extensible pretty-printer
+dev-haskell/prettyprinter-ansi-terminal 1.1.3: ANSI terminal backend for prettyprinter package
 dev-haskell/protolude 0.3.0: A sensible starting Prelude template
 dev-haskell/ptr 0.16.8.1: Abstractions for operations on pointers
 dev-haskell/rebase 1.13.0.1: A more progressive alternative to the 'base' package
@@ -584,7 +587,7 @@ net-misc/msd 9999: Program for IP TV streaming on the network via HTTP
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
 net-misc/opendrop 0.13.0 9999: an Open Source AirDrop Implementation
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
-net-misc/postgrest 8.0.0: REST API for any Postgres database
+net-misc/postgrest 8.0.0 9.0.0: REST API for any Postgres database
 net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
 net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
 net-misc/redir 3.3 9999: TCP port redirector
