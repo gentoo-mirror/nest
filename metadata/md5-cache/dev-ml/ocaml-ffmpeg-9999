@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-video/ffmpeg:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=test
 SLOT=0/9999
-_eclasses_=dune	a0084192fdb9ca5fa2c89584f757b3b2	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=dune	05294776066d7a3a47116e184dfd8ab9	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=553d7680e0801d0a5cd54ebfdf86b90c
