@@ -133,7 +133,7 @@ app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/visual-studio-code-bin 1.55.0 1.58.2: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
-app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.6f 15.5.7a 15.5.7b 15.5.7c 15.5.7d 15.5.7e 15.5.7f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.0.0f 16.1.0a 16.1.0b 16.1.0c 16.1.0d 16.1.0e 16.1.0f 16.1.1a 16.1.1b 16.1.1c 16.1.1d 16.1.1e 16.1.1f 16.1.2a 16.1.2b 16.1.2c 16.1.2d 16.1.2e 16.1.2f: VMware kernel modules
+app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.7a 15.5.7b 15.5.7c 15.5.7d 15.5.7e 15.5.7f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.1.0a 16.1.0b 16.1.0c 16.1.0d 16.1.0e 16.1.1a 16.1.1b 16.1.1c 16.1.1d 16.1.1e 16.1.2a 16.1.2b 16.1.2c 16.1.2d 16.1.2e 16.1.2f 16.2.0a 16.2.0b 16.2.0c 16.2.0d 16.2.0e 16.2.0f 16.2.1a 16.2.1b 16.2.1c 16.2.1d 16.2.1e 16.2.1f: VMware kernel modules
 app-emulation/vmware-vmrc 11.2.0.16492666: VMware Remote Console
 app-emulation/vmware-workstation 16.1.2.17966106: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 7.4.1 9999: Auditing git repository for secrets and keys
@@ -478,7 +478,7 @@ dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security co
 dev-util/checkov 2.0.605 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0_pre20210722 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
-dev-util/cloudsplaining 0.4.7 9999: AWS IAM Security Assessment tool
+dev-util/cloudsplaining 0.4.7 0.4.9 9999: AWS IAM Security Assessment tool
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.0 9999: Debugger for Sed
@@ -493,9 +493,9 @@ dev-util/jwt_tool 2.2.1 9999: A toolkit for testing, tweaking and cracking JSON 
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187: VMware Open Virtualization Format tool
 dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
-dev-util/policy_sentry 0.11.10 0.11.18 9999: AWS IAM Least Privilege Policy Generator
+dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 7.36.0: Build, test, and document your APIs faster
-dev-util/python-hcl2 0.3.24 9999: A parser for HCL2 written in Python
+dev-util/python-hcl2 0.3.24 0.3.28 9999: A parser for HCL2 written in Python
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
@@ -574,7 +574,7 @@ net-libs/bzrtp 4.4.0 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 4.4.0 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
 net-misc/amazon-workspaces-bin 3.1.9.1245: Amazon Workspace Client
-net-misc/awscurl 0.23 0.24 9999: Make signed requests to AWS API
+net-misc/awscurl 0.24 0.26 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1 9999: Network problems simulator
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
