@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst prerm setup unpack
-DEPEND=>=app-admin/webapp-config-1.50.15
+DEPEND=app-admin/webapp-config
 DESCRIPTION=Cross-platform password manager compatible with KeePass
 EAPI=7
 HOMEPAGE=https://github.com/keeweb/keeweb
@@ -8,7 +8,7 @@ INHERIT=git-r3 webapp
 IUSE=vhosts vhosts
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=>=app-admin/webapp-config-1.50.15
+RDEPEND=app-admin/webapp-config
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	webapp	cd327e73cdb307ceb80dcca6b8ad8b52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	webapp	60f2eb31dec733d05e8114cc078ebc33
 _md5_=bef38104f235d909269d5c402d07ee25
