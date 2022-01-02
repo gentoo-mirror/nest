@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-frontend zlib? ( sys-libs/zlib:= )
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/xsd/xsd/snapshot/4a6e690.tar.gz -> xsd-4.0.0_p20210722.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=538424898493aaed3aada0510b61800c
