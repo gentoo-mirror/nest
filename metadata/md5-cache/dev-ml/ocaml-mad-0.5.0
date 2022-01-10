@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/libmad >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/0.5.0
 SRC_URI=https://github.com/savonet/ocaml-mad/archive/v0.5.0/ocaml-mad-0.5.0.tar.gz
-_eclasses_=dune	dce723780ea5cdf2d76da678d3bd9cea
+_eclasses_=dune	45f8b4ed9487a03522a647f3f33cb404
 _md5_=5de81fa7d5c22f5ad38d2d1d834e930a
