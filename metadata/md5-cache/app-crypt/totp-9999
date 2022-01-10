@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Time-Based One-Time Password Code Generator
+EAPI=8
+HOMEPAGE=https://github.com/arcanericky/totp
+INHERIT=git-r3 go-module
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	82631624a3653e595cf9c18164a8c500
+_md5_=c62b124aaba150b871b4872c15543707
