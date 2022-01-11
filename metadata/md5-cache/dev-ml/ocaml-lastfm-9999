@@ -5,10 +5,10 @@ DESCRIPTION=OCaml interface for Lastfm
 EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-lastfm
 INHERIT=autotools findlib git-r3
-IUSE=+camlp4 debug +ocamlopt profiling ocamlopt
+IUSE=+camlp4 debug +ocamlopt profiling +ocamlopt
 LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/ocamlnet:=[ocamlopt?] dev-ml/ocaml-xmlplaylist:=[ocamlopt?] dev-ml/pcre-ocaml:=[ocamlopt?] camlp4? ( dev-ml/camlp4:=[ocamlopt?] ) dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/9999
-_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf	findlib	1470b3b78030acb2c8fcd04414f4c611	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf	findlib	e6df6108c2d753998b1206f4d5ea4a2d	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=4ae7bb8e92aff3a86d42e4b9be5b1f65
