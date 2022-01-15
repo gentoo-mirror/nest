@@ -632,9 +632,11 @@ net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable fi
 net-p2p/tremotesf 1.7.1 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.2.1 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
+net-vpn/awsvpnclient 1.0.3: AWS VPN Client
 net-vpn/cloudflared 2021.4.0 9999: Argo Tunnel client
 net-vpn/forticlient 6.4.0.0851: Fortinet VPN client
 net-vpn/innernet-bin 1.2.0 1.3.0_beta4: WireGuard based private network system
+net-vpn/openvpn-aws 2.5.2: Patched OpenVPN with SAML support for AWS Client VPN
 net-vpn/softether 4.34_beta9744 4.34_p9745 9999: Multi-protocol VPN software
 sci-visualization/visidata 2.4 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management

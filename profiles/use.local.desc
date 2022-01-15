@@ -262,6 +262,12 @@ net-voip/twinkle:g729 - Support for ITU G729 Annex A/B speech codec via media-li
 net-voip/twinkle:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
 net-vpn/innernet-bin:client - Install client
 net-vpn/innernet-bin:server - Install server
+net-vpn/openvpn-aws:down-root - Enable the down-root plugin
+net-vpn/openvpn-aws:iproute2 - Enabled iproute2 support instead of net-tools
+net-vpn/openvpn-aws:mbedtls - Use mbed TLS as the backend crypto library
+net-vpn/openvpn-aws:openssl - Use OpenSSL as the backend crypto library
+net-vpn/openvpn-aws:pkcs11 - Enable PKCS#11 smartcard support
+net-vpn/openvpn-aws:plugins - Enable the OpenVPN plugin system
 net-vpn/softether:bridge - Enable install of SoftEther VPN bridge
 net-vpn/softether:client - Enable install of SoftEther VPN client
 net-vpn/softether:cmd - Enable install of SoftEther VPN cmd
