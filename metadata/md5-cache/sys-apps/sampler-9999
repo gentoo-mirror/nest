@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=media-libs/alsa-lib
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	82631624a3653e595cf9c18164a8c500
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	6be3eb7a42e4cecb88f18356a783ee35
 _md5_=5271918982c93d8a969106b944ac03d5
