@@ -1,0 +1,15 @@
+BDEPEND=dev-qt/linguist-tools:5 virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=configure install postinst prepare test unpack
+DEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 x11-libs/libnotify
+DESCRIPTION=Qt GUI Frontend for FFmpeg
+EAPI=7
+HOMEPAGE=https://github.com/qwinff/qwinff
+INHERIT=desktop git-r3 qmake-utils optfeature virtualx
+IUSE=libnotify test
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 x11-libs/libnotify media-video/ffmpeg:0=
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1	optfeature	30ce9dec2b8943338c9b015bd32bac6a	virtualx	fa024aa649b6bd544144bf94893d402c
+_md5_=a5428af05ad28da2cb95ff8397c45205

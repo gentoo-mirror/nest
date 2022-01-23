@@ -558,6 +558,7 @@ media-sound/sayonara 1.5.1_p5 1.6.0_beta6 1.6.0_beta7 9999: Small, clear and fas
 media-sound/spotify-qt 3.6 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.2 9999: A spotify daemon
 media-video/haruna 0.5.0 0.6.0 0.6.1 9999: Video player built with Qt/QML on top of libmpv
+media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
 net-analyzer/dnsdiag 2.0.2 9999: DNS Measurement, Troubleshooting and Security Auditing Toolset
