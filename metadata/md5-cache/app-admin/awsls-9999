@@ -1,4 +1,4 @@
-BDEPEND=test? ( app-admin/terraform ) >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
+BDEPEND=test? ( app-admin/terraform ) >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=A list command for AWS resources
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	6be3eb7a42e4cecb88f18356a783ee35
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	a5549ce5cf5b836fcc14e388fe516f90
 _md5_=798d03b77890c0fec67be4a752c278ca
