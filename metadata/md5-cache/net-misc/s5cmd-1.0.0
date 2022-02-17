@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/peak/s5cmd/archive/v1.0.0.tar.gz -> s5cmd-1.0.0.tar.gz
-_eclasses_=go-module	a5549ce5cf5b836fcc14e388fe516f90
+_eclasses_=go-module	f3dd5985e24373b2ff6fab6ac109d9aa
 _md5_=1f9165e394784ec7e8b59c984fe3204e
