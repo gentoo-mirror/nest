@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=fish-completion? ( app-shells/fish ) vim? ( app-editors/vim ) tmux? ( app-misc/tmux )
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	647607f6215b4dcaba913a2ca6586407
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	ea6b447321803e690cb8d3e006fd01a3
 _md5_=295210fd893e097db18cff0773434a72
