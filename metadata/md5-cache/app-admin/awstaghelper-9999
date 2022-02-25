@@ -8,5 +8,5 @@ LICENSE=Apache-2.0 BSD BSD-2 MIT MPL-2.0
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	ea6b447321803e690cb8d3e006fd01a3
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	11f18b20461f1739e17be1fd5e5f5974
 _md5_=65863ece21ae0bcbd0bf11a70c0c0d6e
