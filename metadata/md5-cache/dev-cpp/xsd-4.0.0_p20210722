@@ -2,7 +2,7 @@ BDEPEND=dev-util/build2 dev-util/cli doc? ( app-doc/doxygen )
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-frontend zlib? ( sys-libs/zlib:= )
 DESCRIPTION=A cross-platform W3C XML Schema to C++ data binding compiler
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.codesynthesis.com/products/xsd
 INHERIT=multiprocessing toolchain-funcs vcs-snapshot
 IUSE=doc examples zlib
@@ -12,4 +12,4 @@ RDEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-fronte
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/xsd/xsd/snapshot/4a6e690.tar.gz -> xsd-4.0.0_p20210722.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	vcs-snapshot	19dc666868420457132a7514d4621476
-_md5_=538424898493aaed3aada0510b61800c
+_md5_=652291c108bf9ce11ee5906db901a809

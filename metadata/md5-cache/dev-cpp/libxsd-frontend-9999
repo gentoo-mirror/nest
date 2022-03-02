@@ -2,7 +2,7 @@ BDEPEND=dev-util/build2 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=dev-cpp/libcutl dev-libs/boost:= dev-libs/xerces-c
 DESCRIPTION=A compiler frontend for the W3C XML Schema definition language
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.codesynthesis.com/projects/libxsd-frontend
 INHERIT=git-r3 multiprocessing toolchain-funcs
 IUSE=static-libs
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-cpp/libcutl dev-libs/boost:= dev-libs/xerces-c
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784
-_md5_=0bafc0aad218e596343b8d616ec151da
+_md5_=981afdf66bf9d8e0f5a3b0c363281b7f
