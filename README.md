@@ -244,7 +244,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-haskell/[wai-middleware-static](https://github.com/scotty-web/wai-middleware-static) | WAI middleware that serves requests to static files
 * dev-haskell/[wai-websockets](https://github.com/yesodweb/wai) | Provide a bridge between WAI and the websockets package
 * dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
-* dev-libs/[belle-sip](https://github.com/BelledonneCommunications/belle-sip) | SIP (RFC3261) implementation
+* dev-libs/[belle-sip](https://gitlab.linphone.org/BC/public/belle-sip) | SIP (RFC3261) implementation
 * dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp) | GNU ccRTP - Implementation of the IETF real-time transport protocol
 * dev-libs/[libcommuni](http://communi.github.io) | A cross-platform IRC framework written with Qt
 * dev-libs/[libdict](https://github.com/rtbrick/libdict) | C library of key-value data structures
@@ -421,7 +421,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
 * dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
 * dev-python/[pyspnego](https://github.com/jborean93/pyspnego) | Python SPNEGO authentication library
-* dev-python/[pystache](https://github.com/defunkt/pystache) | Mustache templating system for Python
+* dev-python/[pystache](https://github.com/sarnold/pystache) | Mustache templating system for Python
 * dev-python/[pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | py.test fixture for benchmarking code
 * dev-python/[pytest-celery](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
 * dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
@@ -489,7 +489,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-util/[aws-config-rdk](https://github.com/awslabs/aws-config-rdk) | AWS Config Rules Development Kit
 * dev-util/[aws-config-rdklib](https://github.com/awslabs/aws-config-rdklib) | Rule Development Kit Library for AWS Config
 * dev-util/[azuredatastudio-bin](https://github.com/microsoft/azuredatastudio) | Data management tool to work with DW, Azure, SQL Server
-* dev-util/[bcunit](https://github.com/BelledonneCommunications/bcunit) | BC Unit Test Framework
+* dev-util/[bcunit](https://gitlab.linphone.org/BC/public/bcunit) | BC Unit Test Framework
 * dev-util/[beekeeper-studio-bin](https://www.beekeeperstudio.io) | SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 * dev-util/[cfn-format](https://github.com/awslabs/aws-cloudformation-template-formatter) | AWS CloudFormation Template Formatter
 * dev-util/[cfn-guard](https://github.com/aws-cloudformation/cloudformation-guard) | AWS CloudFormation Guard
