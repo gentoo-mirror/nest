@@ -1,15 +1,15 @@
-BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure prepare unpack
-DEPEND=sys-libs/ncurses:0=[unicode?] geoip? ( !geoipv2? ( dev-libs/geoip ) geoipv2? ( dev-libs/libmaxminddb:0= ) ) !tokyocabinet? ( dev-libs/glib:2 ) tokyocabinet? ( dev-db/tokyocabinet[bzip2?,zlib?] btree? ( bzip2? ( app-arch/bzip2 ) zlib? ( sys-libs/zlib ) ) ) ssl? ( dev-libs/openssl:0= )
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
+DEFINED_PHASES=configure install postinst prepare unpack
+DEPEND=acct-user/goaccess sys-libs/ncurses:=[unicode(+)?] geoip? ( !geoipv2? ( dev-libs/geoip ) geoipv2? ( dev-libs/libmaxminddb:0= ) ) ssl? ( dev-libs/openssl:0= )
 DESCRIPTION=A real-time web log analyzer and interactive viewer in a terminal
-EAPI=7
+EAPI=8
 HOMEPAGE=https://goaccess.io
-INHERIT=autotools git-r3
-IUSE=btree bzip2 debug geoip geoipv2 getline tokyocabinet ssl unicode zlib
+INHERIT=autotools git-r3 systemd tmpfiles
+IUSE=debug geoip geoipv2 getline ssl unicode
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=sys-libs/ncurses:0=[unicode?] geoip? ( !geoipv2? ( dev-libs/geoip ) geoipv2? ( dev-libs/libmaxminddb:0= ) ) !tokyocabinet? ( dev-libs/glib:2 ) tokyocabinet? ( dev-db/tokyocabinet[bzip2?,zlib?] btree? ( bzip2? ( app-arch/bzip2 ) zlib? ( sys-libs/zlib ) ) ) ssl? ( dev-libs/openssl:0= )
-REQUIRED_USE=btree? ( tokyocabinet ) bzip2? ( btree ) geoipv2? ( geoip ) zlib? ( btree )
+RDEPEND=acct-user/goaccess sys-libs/ncurses:=[unicode(+)?] geoip? ( !geoipv2? ( dev-libs/geoip ) geoipv2? ( dev-libs/libmaxminddb:0= ) ) ssl? ( dev-libs/openssl:0= ) virtual/tmpfiles
+REQUIRED_USE=geoipv2? ( geoip )
 SLOT=0
-_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6cc26735fa9dd59e8c62880beda05b6e	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=cfbbc67fc9735b1e879b616ecaf13cba
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6cc26735fa9dd59e8c62880beda05b6e	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	systemd	2736b403a83f194b59b767f3b344c2c1	tmpfiles	11d91b11caf3bbb725c7d9eba90335c8
+_md5_=4091a6af2cc4dd63c4f90fa0c9282bf5
