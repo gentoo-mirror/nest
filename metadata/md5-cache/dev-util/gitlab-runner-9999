@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip virtual/pkgconfig
 DEFINED_PHASES=compile install postinst test unpack
 DESCRIPTION=GitLab Runner
-EAPI=7
+EAPI=8
 HOMEPAGE=https://gitlab.com/gitlab-org/gitlab-runner
 INHERIT=git-r3 go-module readme.gentoo-r1 systemd tmpfiles
 IUSE=docker
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=acct-user/gitlab-runner docker? ( app-emulation/docker ) virtual/tmpfiles
-RESTRICT=mirror
+RDEPEND=acct-user/gitlab-runner docker? ( app-containers/docker ) virtual/tmpfiles
+RESTRICT=mirror strip
 SLOT=0
 SRC_URI=docker? ( amd64? ( https://gitlab-runner-downloads.s3.amazonaws.com/v13.1.1/helper-images/prebuilt-x86_64.tar.xz ) )
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	11f18b20461f1739e17be1fd5e5f5974	readme.gentoo-r1	eebd0164fe61f4f7b64a683e83fdceb1	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1	tmpfiles	11d91b11caf3bbb725c7d9eba90335c8
-_md5_=5a282a4c975ec0c2b5fdc2cec30781e0
+_md5_=216327829a7d1a8a448522f4edd348ab
