@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	fedd31a4ac0c90b47cab73a0daaeb721
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	303cacc3ebca821e6951b61aac9376ec
 _md5_=91ab837962e8e2b42a1a58f7737cef01
