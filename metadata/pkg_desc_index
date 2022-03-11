@@ -361,27 +361,21 @@ dev-python/dj-search-url 0.1 9999: Environment based search backend configuratio
 dev-python/django-cache-url 3.2.3 9999: URL based cache backend configuration in Django
 dev-python/django-celery-beat 2.2.0 9999: Celery Periodic Tasks for Django
 dev-python/django-configurations 2.2-r1 9999: A helper for organizing Django project settings
-dev-python/django-cors-headers 3.7.0-r1 9999: Django application for Cross-Origin Resource Sharing (CORS)
-dev-python/django-crispy-forms 1.12.0 9999: DRY Django forms
+dev-python/django-crispy-forms 1.14.0 9999: DRY Django forms
 dev-python/django-environ 0.4.5 9999: An environment variables to configure Django
 dev-python/django-fake-model 0.1.4 9999: A library for creating fake models in the unit tests
-dev-python/django-filter 2.4.0-r1 21.1 9999: Django application for filtering querysets
+dev-python/django-graphiql-debug-toolbar 0.2.0 9999: Django Debug Toolbar for GraphiQL IDE
 dev-python/django-guardian 2.4.0 9999: Implementation of per object permissions for Django
 dev-python/django-jinja 2.8.0 9999: Jinja2 templating language integrated in Django
 dev-python/django-js-asset 1.2.2-r1 9999: A script tag with additional attributes for django.forms.Media
-dev-python/django-mptt 0.12.0 9999: Utilities for implementing Modified Preorder Tree Traversal
 dev-python/django-nose 1.4.7 9999: Django test runner using nose
-dev-python/django-oauth-toolkit 1.5.0 9999: OAuth2 Provider for Django
+dev-python/django-oauth-toolkit 1.7.0 9999: OAuth2 Provider for Django
+dev-python/django-pglocks 1.0.4 9999: PostgreSQL locking context managers and functions for Django
 dev-python/django-pipeline 2.0.6 9999: An asset packaging library for Django
-dev-python/django-rest-framework 3.12.4 9999: Django REST framework
-dev-python/django-rest-framework-camel-case 1.2.0 9999: Camel case JSON support for Django REST framework
+dev-python/django-rest-framework-camel-case 1.3.0 9999: Camel case JSON support for Django REST framework
 dev-python/django-rest-framework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
 dev-python/django-rest-swagger 2.2.0 9999: Swagger UI for Django REST Framework
-dev-python/django-rq 2.4.1-r1 9999: An app that provides django integration for RQ (Redis Queue)
 dev-python/django-tables2 2.4.1 9999: Django application for creating HTML tables
-dev-python/django-taggit 1.4.0 1.5.1-r1 9999: Django application for simple tagging
-dev-python/django-taggit-serializer 0.1.7-r1 9999: Django Taggit Serializer Created for the Django REST Framework
-dev-python/django-timezone-field 4.1.2 9999: Django application for database and form fields for pytz objects
 dev-python/dockerfile-parse 1.2.0 9999: Python library for parsing Dockerfile files
 dev-python/dpath 1.5.0 2.0.1 9999: A python module that will check for package updates
 dev-python/drf-yasg 1.20.0-r1 9999: Yet another Swagger generator
@@ -392,6 +386,10 @@ dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
 dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
+dev-python/graphene 3.0.0 9999: GraphQL framework for Python
+dev-python/graphene-django 2.15.0 9999: A Django integration for Graphene
+dev-python/graphql-core 3.1.7 3.2.0 9999: Python port of GraphQL.js
+dev-python/graphql-relay 3.1.5 9999: A library to help construct a graphql-py server supporting react-relay
 dev-python/hijri-converter 2.1.1 2.1.2 9999: Hijri-Gregorian date converter
 dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 3.6.2 9999: Jalali implementation of Python's datetime module
@@ -399,6 +397,7 @@ dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-ho
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
 dev-python/lark-parser 0.10.0 9999: A modern general-purpose parsing library for Python
 dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
+dev-python/markdown-include 0.6.0 9999: Provides the inclusion of the contents of other Markdown documents
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.12 9999: Python library for NETCONF clients
@@ -412,6 +411,7 @@ dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.4.0.20210819 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
 dev-python/prance 0.21.2 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
+dev-python/promise 2.3.0 9999: Python port of GraphQL.js
 dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 3.2.1 9999: Python 3 DNS library
 dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
@@ -423,6 +423,7 @@ dev-python/pystache 0.6.0 9999: Mustache templating system for Python
 dev-python/pytest-benchmark 3.4.1 9999: py.test fixture for benchmarking code
 dev-python/pytest-celery 0.0.0 9999: Subcommand REPL for click apps
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
+dev-python/pytest-random-order 1.0.4 9999: pytest plugin to randomise the order of tests
 dev-python/pytest-trio 0.7.0 9999: Python library for async concurrency and I/O
 dev-python/python-crontab 2.5.1 9999: Crontab module for reading and writing crontab files
 dev-python/python-gilt 1.2.2 9999: A GIT layering tool
@@ -443,12 +444,14 @@ dev-python/schema 0.7.4 9999: Simple data validation library
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
 dev-python/shellingham 1.3.1 9999: Detects what shell the current Python executable is running in
 dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
+dev-python/social-auth-app-django 5.0.0 9999: Python Social Auth - Application - Django
+dev-python/social-auth-core 4.2.0 9999: Python Social Auth - Core
 dev-python/sphinx-autobuild 2021.3.14 9999: Autorebuild documentation on change
 dev-python/sphinxcontrib-httpdomain 1.7.0 9999: Documenting RESTful HTTP APIs
 dev-python/sphinxcontrib-mermaid 0.7 9999: Mermaid diagrams in sphinx powered docs
 dev-python/sphinxcontrib-openapi 0.7.0 9999: Sphinx extension to generate APIs docs from OpenAPI
 dev-python/swagger_spec_validator 2.7.3 9999: Python library that validates Swagger Specs
-dev-python/tablib 3.0.0-r1 9999: Format-agnostic tabular dataset library
+dev-python/tablib 3.2.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/tomlkit 0.7.2-r1 9999: Style-preserving TOML library for Python
 dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
@@ -660,7 +663,7 @@ sys-process/nq 0.3.1 9999: Unix command line queue utility
 www-apps/LookingGlass 9999: A Python-backed Looking Glass
 www-apps/draw-io 14.7.6 14.9.7: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
-www-apps/netbox 2.11.7: IP address and data center infrastructure management tool
+www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for signing with your eID on the web
 www-plugins/vdhcoapp-bin 1.6.1: Companion application for Video DownloadHelper browser add-on
