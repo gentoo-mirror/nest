@@ -9,6 +9,7 @@ acct-group/cwagent 0: System group: cwagent
 acct-group/ddnsr53 0: System group: ddnsr53
 acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
+acct-group/goaccess 0: System group: goaccess
 acct-group/inadyn 0: System group: inadyn
 acct-group/liquidsoap 0: System group: liquidsoap
 acct-group/msd 0: System group: msd
@@ -45,6 +46,7 @@ acct-user/fiche 0: System user: fiche
 acct-user/gitlab-gitaly 0: System user: gitlab-gitaly
 acct-user/gitlab-runner 0: System user: gitlab-runner
 acct-user/gitlab-workhorse 0: System user: gitlab-workhorse
+acct-user/goaccess 0: System user: goaccess
 acct-user/inadyn 0: System user: inadyn
 acct-user/liquidsoap 0: System user: liquidsoap
 acct-user/mapforce 0: System user: mapforce
@@ -332,10 +334,10 @@ dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aspectlib 1.5.2 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/billiard 3.6.4.0 9999: Multiprocessing Pool Extensions
-dev-python/celery 5.0.5 5.1.0 9999: Asynchronous task job queue based on distributed message passing
+dev-python/celery 5.2.3 9999: Asynchronous task job queue based on distributed message passing
 dev-python/cerberus 1.3.4 9999: Lightweight and extensible data validation library for Python
 dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
-dev-python/click-didyoumean 0.0.3 9999: Enable git-like did-you-mean feature in click
+dev-python/click-didyoumean 0.3.0 9999: Enable git-like did-you-mean feature in click
 dev-python/click-help-colors 0.9-r1 9999: Colorization of help messages in Click
 dev-python/click-option-group 0.5.3 9999: Option groups missing in Click
 dev-python/click-repl 0.2.0 9999: Subcommand REPL for click apps
@@ -359,7 +361,7 @@ dev-python/dj-database-url 0.5.0 9999: URL bases database backend configuration 
 dev-python/dj-email-url 1.0.2 9999: URL based email backend configuration in Django
 dev-python/dj-search-url 0.1 9999: Environment based search backend configuration in Django
 dev-python/django-cache-url 3.2.3 9999: URL based cache backend configuration in Django
-dev-python/django-celery-beat 2.2.0 9999: Celery Periodic Tasks for Django
+dev-python/django-celery-beat 2.2.1 9999: Celery Periodic Tasks for Django
 dev-python/django-configurations 2.2-r1 9999: A helper for organizing Django project settings
 dev-python/django-crispy-forms 1.14.0 9999: DRY Django forms
 dev-python/django-environ 0.4.5 9999: An environment variables to configure Django
@@ -380,7 +382,7 @@ dev-python/dockerfile-parse 1.2.0 9999: Python library for parsing Dockerfile fi
 dev-python/dpath 1.5.0 2.0.1 9999: A python module that will check for package updates
 dev-python/drf-yasg 1.20.0-r1 9999: Yet another Swagger generator
 dev-python/editdistance 0.5.3 9999: Fast implementation of the edit distance(Levenshtein distance)
-dev-python/factory_boy 3.2.0 9999: A fixtures replacement tool
+dev-python/factory_boy 3.2.1 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.2 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
 dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
@@ -425,7 +427,7 @@ dev-python/pytest-celery 0.0.0 9999: Subcommand REPL for click apps
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/pytest-random-order 1.0.4 9999: pytest plugin to randomise the order of tests
 dev-python/pytest-trio 0.7.0 9999: Python library for async concurrency and I/O
-dev-python/python-crontab 2.5.1 9999: Crontab module for reading and writing crontab files
+dev-python/python-crontab 2.6.0 9999: Crontab module for reading and writing crontab files
 dev-python/python-gilt 1.2.2 9999: A GIT layering tool
 dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
 dev-python/python-user-agents 2.2.0 9999: A library to identify devices by parsing user agent strings
@@ -450,7 +452,7 @@ dev-python/sphinx-autobuild 2021.3.14 9999: Autorebuild documentation on change
 dev-python/sphinxcontrib-httpdomain 1.7.0 9999: Documenting RESTful HTTP APIs
 dev-python/sphinxcontrib-mermaid 0.7 9999: Mermaid diagrams in sphinx powered docs
 dev-python/sphinxcontrib-openapi 0.7.0 9999: Sphinx extension to generate APIs docs from OpenAPI
-dev-python/swagger_spec_validator 2.7.3 9999: Python library that validates Swagger Specs
+dev-python/swagger_spec_validator 2.7.4 9999: Python library that validates Swagger Specs
 dev-python/tablib 3.2.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/tomlkit 0.7.2-r1 9999: Style-preserving TOML library for Python
