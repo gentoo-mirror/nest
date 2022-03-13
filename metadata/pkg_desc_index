@@ -96,7 +96,7 @@ app-admin/ibmcloud-bin 2.0.3 2.2.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
 app-admin/kconfig-hardened-check 0.5.9 9999: A script to check the hardening options in the Linux kernel config
 app-admin/netutils-linux 2.7.9-r1 9999: Suite of network stack performance tunning utilities
-app-admin/qtpass 1.3.2 1.3.2-r2 9999: multi-platform GUI for pass, the standard unix password manager
+app-admin/qtpass 1.3.2-r2 9999: multi-platform GUI for pass, the standard unix password manager
 app-admin/rain 1.2.0 9999: A development workflow tool for working with AWS CloudFormation
 app-admin/reach 0.1.0 9999: A vault for securely storing and accessing AWS credentials
 app-admin/reprepro 5.1.1 5.3.0 9999: A tool to handle local repositories of Debian packages
@@ -133,12 +133,11 @@ app-editors/FeatherPad 0.17.2 9999: Lightweight Qt5 plain-text editor
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/micro 2.0.8 9999: A modern and intuitive terminal-based text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/visual-studio-code-bin 1.55.0 1.58.2: Editor for building and debugging modern web and cloud applications
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.7a 15.5.7b 15.5.7c 15.5.7d 15.5.7e 15.5.7f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.1.0a 16.1.0b 16.1.0c 16.1.0d 16.1.0e 16.1.1a 16.1.1b 16.1.1c 16.1.1d 16.1.1e 16.1.2a 16.1.2b 16.1.2c 16.1.2d 16.1.2e 16.1.2f 16.2.0a 16.2.0b 16.2.0c 16.2.0d 16.2.0e 16.2.0f 16.2.1a 16.2.1b 16.2.1c 16.2.1d 16.2.1e 16.2.1f: VMware kernel modules
 app-emulation/vmware-vmrc 11.2.0.16492666 12.0.0.17287072 12.0.1.18113358: VMware Remote Console
-app-emulation/vmware-workstation 16.1.2.17966106 16.2.1.18811642: Emulate a complete PC without the performance overhead
+app-emulation/vmware-workstation 16.2.1.18811642: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 7.4.1 9999: Auditing git repository for secrets and keys
 app-metrics/amazon-cloudwatch-agent 1.247345.36 1.247347.3 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
@@ -291,14 +290,14 @@ dev-ml/ocaml-dssi 0.1.2 9999: OCaml bindings to dssi
 dev-ml/ocaml-dtools 0.3.3 0.4.1 9999: OCaml daemon tools library
 dev-ml/ocaml-duppy 0.6.0 0.8.0 9999: OCaml advanced scheduler
 dev-ml/ocaml-faad 0.3.3 0.4.0 9999: OCaml bindings to faad2
-dev-ml/ocaml-fdkaac 0.2.1 0.3.0 9999: OCaml bindings to fdk-aac
+dev-ml/ocaml-fdkaac 0.3.2 9999: OCaml bindings to fdk-aac
 dev-ml/ocaml-ffmpeg 0.1.2 0.2.1 0.4.3 9999: OCaml bindings to ffmpeg
 dev-ml/ocaml-flac 0.1.2 0.1.5 9999: OCaml bindings to flac
 dev-ml/ocaml-frei0r 0.1.1 9999: OCaml bindings to frei0r plugins
 dev-ml/ocaml-gavl 0.1.6 9999: OCaml bindings to Gavl video manipulation library
 dev-ml/ocaml-gstreamer 0.2.3 0.3.0 9999: OCaml bindings to gstreamer
 dev-ml/ocaml-ladspa 0.1.5 9999: OCaml bindings to LADSPA plugins
-dev-ml/ocaml-lame 0.3.3 9999: OCaml bindings to lame
+dev-ml/ocaml-lame 0.3.5 9999: OCaml bindings to lame
 dev-ml/ocaml-lastfm 0.3.1 0.3.2 9999: OCaml interface for Lastfm
 dev-ml/ocaml-lo 0.1.1 0.1.2 9999: OCaml bindings to liblo
 dev-ml/ocaml-mad 0.4.5 0.4.6 0.5.0 9999: OCaml bindings to libmad
@@ -317,7 +316,6 @@ dev-ml/ocaml-taglib 0.3.3 0.3.6 9999: OCaml bindings to taglib
 dev-ml/ocaml-theora 0.3.1 9999: OCaml bindings to libtheora
 dev-ml/ocaml-vorbis 0.7.0 0.7.1 9999: OCaml bindings to libvorbis
 dev-ml/ocaml-xmlplaylist 0.1.4 9999: OCaml module to parse various RSS playlist formats
-dev-ml/ocamlnet 4.1.6 9999: Modules for OCaml application-level Internet protocols
 dev-ml/xmlm 1.3.0 9999: Ocaml XML manipulation module
 dev-ml/yojson 1.7.0 9999: Low-level JSON parsing and pretty-printing library for OCaml
 dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm

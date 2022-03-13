@@ -103,8 +103,6 @@ dev-ml/ocaml-duppy:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-duppy:profiling - Build support for profiling
 dev-ml/ocaml-faad:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-faad:profiling - Build support for profiling
-dev-ml/ocaml-fdkaac:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-fdkaac:profiling - Build support for profiling
 dev-ml/ocaml-ffmpeg:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-ffmpeg:profiling - Build support for profiling
 dev-ml/ocaml-flac:camlp4 - Enable camlp4 syntax extension
@@ -117,8 +115,6 @@ dev-ml/ocaml-gstreamer:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-gstreamer:profiling - Build support for profiling
 dev-ml/ocaml-ladspa:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-ladspa:profiling - Build support for profiling
-dev-ml/ocaml-lame:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-lame:profiling - Build support for profiling
 dev-ml/ocaml-lastfm:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-lastfm:profiling - Build support for profiling
 dev-ml/ocaml-lo:camlp4 - Enable camlp4 syntax extension
@@ -152,8 +148,6 @@ dev-ml/ocaml-vorbis:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-vorbis:profiling - Build support for profiling
 dev-ml/ocaml-xmlplaylist:camlp4 - Enable camlp4 syntax extension
 dev-ml/ocaml-xmlplaylist:profiling - Build support for profiling
-dev-ml/ocamlnet:httpd - Enables net-httpd web server component
-dev-ml/ocamlnet:zip - Enables netzip support to read/write gzip data using object channels
 dev-python/PythonQt:extensions - Install extensions
 dev-python/drf-yasg:validation - Enable swagger spec validation
 dev-python/tablib:xls - Support for xls
