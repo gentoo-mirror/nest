@@ -278,7 +278,6 @@ dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
 dev-ml/biniou 1.2.1 9999: Extensible binary data format, like JSON but faster
 dev-ml/camlimages 5.0.4: An image manipulation library for ocaml
-dev-ml/camomile 1.0.2 9999: Camomile is a comprehensive Unicode library for ocaml
 dev-ml/dune 1.11.1 9999: A composable build system for OCaml
 dev-ml/extlib 1.7.7 9999: Standard library extensions for O'Caml
 dev-ml/gd4o 1.0_beta1 9999: OCaml interface to the GD graphics library
