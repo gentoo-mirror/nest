@@ -1,6 +1,6 @@
 DEFINED_PHASES=install nofetch postinst prepare unpack
 DESCRIPTION=Customer accounting system, services and statistics collection management
-EAPI=7
+EAPI=8
 HOMEPAGE=https://topola.unity.net
 INHERIT=toolchain-funcs unpacker user-info
 IUSE=elibc_glibc base unlicensed-bin licensed-bin +taremote +xinetd
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=base? ( http://topola.unity.net/files/base/topola-base-5.36.07.bin ) unlicensed-bin? ( http://topola.unity.net/files/bin_unl/topola-bin_unl-5.36.58.bin ) licensed-bin? ( http://topola.unity.net/files/bin/topola-bin-5.36.58.bin ) taremote? ( http://topola.unity.net/files/taremote/topola-taremote_src-5.36.63.bin )
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	unpacker	2e16b7d5aafeda049669c53c05ce03c9	user-info	df8c432bdcb3cdcef6c8250f0ab9e4ea
-_md5_=bc5dd6c4f076580349fd80f54c970d32
+_md5_=68c15f51f22a0a13bd5a1a3ad0e0cb76

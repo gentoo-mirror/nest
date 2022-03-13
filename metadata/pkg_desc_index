@@ -120,8 +120,8 @@ app-admin/yaml-vault 1.1.1 9999: Utility to import/export data from HashiCorp Va
 app-backup/clickhouse-backup 1.0.0 9999: Tool for easy ClickHouse backup and restore
 app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
 app-backup/pgbackrest 2.33 9999: Reliable PostgreSQL Backup & Restore
-app-backup/urbackup-client 2.4.10 9999: Client Server backup system
-app-backup/urbackup-server 2.4.13 9999: Client Server backup system
+app-backup/urbackup-client 2.4.11 9999: Client Server backup system
+app-backup/urbackup-server 2.4.15 9999: Client Server backup system
 app-backup/wal-g 1.0 1.1 9999: Archival restoration tool for databases
 app-backup/zbackup 1.4.4 9999: A versatile deduplicating backup tool
 app-crypt/acme-client 1.2.0 9999: Secure Let's Encrypt client

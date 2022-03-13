@@ -4,7 +4,6 @@
 
 app-admin/reprepro:archive - Enable archive support using app-arch/libarchive
 app-admin/reprepro:gpg - Enable gpgme support using app-crypt/gpgme
-app-backup/urbackup-server:cryptopp - Enables encrypted transfers and thus internet backups
 app-backup/urbackup-server:fuse - Enables mounting VHD containers via FUSE
 app-backup/wal-g:fdb - Enable FoundationDB support
 app-backup/wal-g:mongo - Enable MongoDB support
