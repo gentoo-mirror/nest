@@ -105,7 +105,7 @@ app-admin/ripe-atlas-tools 2.3.0 9999: The official command-line client for RIPE
 app-admin/saw 0.2.2: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/semaphore-bin 2.7.22: Modern UI for Ansible
 app-admin/sinker 0.14.0 9999: Sync images from one container registry to another
-app-admin/sops 3.7.1 9999: Simple and flexible tool for managing secrets
+app-admin/sops 3.7.2 9999: Simple and flexible tool for managing secrets
 app-admin/terraform-provider-vcd 2.8.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.3.1 9999: A top for NGINX
 app-admin/trailscraper 0.6.4 9999: Command-line tool to get information out of AWS CloudTrail
@@ -276,10 +276,7 @@ dev-libs/lime 5.0.70 9999: C++ library implementing Open Whisper System Signal p
 dev-libs/loki 0.1.7: C++ library of common design patterns and idioms
 dev-libs/xml-security-c 2.0.2 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
-dev-ml/biniou 1.2.1 9999: Extensible binary data format, like JSON but faster
 dev-ml/camlimages 5.0.4: An image manipulation library for ocaml
-dev-ml/dune 1.11.1 9999: A composable build system for OCaml
-dev-ml/extlib 1.7.7 9999: Standard library extensions for O'Caml
 dev-ml/gd4o 1.0_beta1 9999: OCaml interface to the GD graphics library
 dev-ml/ocaml-alsa 0.2.3 0.3.0 9999: OCaml bindings to alsa-lib
 dev-ml/ocaml-ao 0.2.1 9999: OCaml bindings to libao
@@ -316,7 +313,6 @@ dev-ml/ocaml-theora 0.3.1 9999: OCaml bindings to libtheora
 dev-ml/ocaml-vorbis 0.7.0 0.7.1 9999: OCaml bindings to libvorbis
 dev-ml/ocaml-xmlplaylist 0.1.4 9999: OCaml module to parse various RSS playlist formats
 dev-ml/xmlm 1.3.0 9999: Ocaml XML manipulation module
-dev-ml/yojson 1.7.0 9999: Low-level JSON parsing and pretty-printing library for OCaml
 dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-php/spx 0.4.0 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-python/MarkupPy 1.14: An HTML/XML generator
