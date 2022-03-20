@@ -1,7 +1,7 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit dune
 
@@ -14,8 +14,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64 ~ppc ~x86"
 IUSE="exif gif gtk jpeg +ocamlopt png postscript tiff truetype X xpm"
 
-RDEPEND="dev-lang/ocaml:=[ocamlopt?]
-	exif? ( media-libs/libexif )
+RDEPEND="exif? ( media-libs/libexif )
 	gif? ( media-libs/giflib:0= )
 	gtk? ( dev-ml/lablgtk:2= )
 	jpeg? ( virtual/jpeg:= )
@@ -26,7 +25,8 @@ RDEPEND="dev-lang/ocaml:=[ocamlopt?]
 	xpm? ( x11-libs/libXpm )
 	X? ( x11-apps/rgb )
 	sys-libs/zlib:="
-DEPEND="${DEPEND}
+DEPEND="${RDEPEND}
 	dev-ml/stdio:="
-BDEPEND="dev-ml/dune-configurator:=
+BDEPEND="dev-ml/cppo:0=
+	dev-ml/dune-configurator:=
 	virtual/pkgconfig"

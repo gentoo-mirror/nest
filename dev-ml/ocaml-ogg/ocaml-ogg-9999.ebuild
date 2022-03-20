@@ -1,48 +1,22 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
+DUNE_PKG_NAME="ogg"
 EGIT_REPO_URI="https://github.com/savonet/${PN}.git"
 
-inherit autotools findlib git-r3
+inherit dune git-r3
 
 DESCRIPTION="OCaml bindings to libogg"
 HOMEPAGE="https://github.com/savonet/ocaml-ogg"
 SRC_URI=""
 
-LICENSE="LGPL-2.1"
+LICENSE="GPL-2"
 SLOT="0/${PV}"
 KEYWORDS=""
-IUSE="+camlp4 debug +ocamlopt profiling"
+IUSE="+ocamlopt"
 
-RDEPEND="dev-lang/ocaml:=[ocamlopt?]
-	media-libs/libogg
-	camlp4? ( dev-ml/camlp4:=[ocamlopt?] )"
-DEPEND="${RDEPEND}
-	dev-ml/findlib[ocamlopt?]
+RDEPEND="media-libs/libogg"
+BDEPEND="dev-ml/dune-configurator:0=
 	virtual/pkgconfig"
-
-DOCS=( CHANGES README.md )
-
-src_prepare() {
-	default
-
-	m4/bootstrap || die "bootstrap failed"
-	sed -i 's/AC_CHECK_TOOL_STRICT/AC_CHECK_TOOL/g' m4/ocaml.m4 \
-		|| die "sed failed for m4/ocaml.m4"
-
-	AT_M4DIR="m4" eautoreconf
-}
-
-src_configure() {
-	econf "$(use_enable camlp4)" \
-		"$(use_enable debug debugging)" \
-		"$(use_enable ocamlopt nativecode)" \
-		"$(use_enable profiling)"
-}
-
-src_install() {
-	einstalldocs
-	findlib_src_install
-}

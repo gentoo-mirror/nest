@@ -1,10 +1,11 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
+DUNE_PKG_NAME="ffmpeg-avcodec ffmpeg-avdevice ffmpeg-avfilter ffmpeg-av
+	ffmpeg-avutil ffmpeg ffmpeg-swresample ffmpeg-swscale"
 EGIT_REPO_URI="https://github.com/savonet/${PN}.git"
-EGIT_SUBMODULES=()
 
 inherit dune git-r3
 
@@ -16,17 +17,7 @@ LICENSE="LGPL-2.1"
 SLOT="0/${PV}"
 KEYWORDS=""
 IUSE="+ocamlopt"
-RESTRICT="test" # fails
 
-RDEPEND="dev-lang/ocaml:=[ocamlopt?]
-	media-video/ffmpeg:="
-BDEPEND="${RDEPEND}
-	dev-ml/dune:=
-	dev-ml/dune-configurator:="
-
-DOCS=( CHANGES README.md )
-
-src_install() {
-	dune_src_install ffmpeg-avcodec ffmpeg-avdevice ffmpeg-avfilter \
-		ffmpeg-av ffmpeg-avutil ffmpeg ffmpeg-swresample ffmpeg-swscale
-}
+RDEPEND="media-video/ffmpeg:="
+BDEPEND="dev-ml/dune-configurator:=
+	virtual/pkgconfig"

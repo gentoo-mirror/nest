@@ -1,11 +1,12 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
+DUNE_PKG_NAME="dtools"
 EGIT_REPO_URI="https://github.com/savonet/${PN}.git"
 
-inherit autotools findlib git-r3
+inherit dune git-r3
 
 DESCRIPTION="OCaml daemon tools library"
 HOMEPAGE="https://github.com/savonet/ocaml-dtools"
@@ -14,33 +15,6 @@ SRC_URI=""
 LICENSE="GPL-2"
 SLOT="0/${PV}"
 KEYWORDS=""
-IUSE="+camlp4 debug +ocamlopt profiling syslog"
+IUSE="+ocamlopt syslog"
 
-RDEPEND="dev-lang/ocaml:=[ocamlopt?]
-	camlp4? ( dev-ml/camlp4:= )
-	syslog? ( dev-ml/ocaml-syslog:= )"
-DEPEND="${RDEPEND}
-	dev-ml/findlib"
-
-DOCS=( CHANGES README )
-
-src_prepare() {
-	default
-
-	sed -i 's/AC_CHECK_TOOL_STRICT/AC_CHECK_TOOL/g' m4/ocaml.m4 \
-		|| die "Failed editing m4/ocaml.m4!"
-	AT_M4DIR="m4" eautoreconf
-}
-
-src_configure() {
-	econf "$(use_enable camlp4)" \
-		"$(use_enable debug debugging)" \
-		"$(use_enable ocamlopt nativecode)" \
-		"$(use_enable profiling)" \
-		"$(use_enable syslog)"
-}
-
-src_install() {
-	findlib_src_install
-	einstalldocs
-}
+RDEPEND="syslog? ( dev-ml/ocaml-syslog:= )"

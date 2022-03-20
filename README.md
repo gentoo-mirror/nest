@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 611](https://img.shields.io/badge/ebuild-611-orange.svg)](https://img.shields.io/badge/ebuild-611-orange.svg)
+[![Number of ebuilds: 621](https://img.shields.io/badge/ebuild-621-orange.svg)](https://img.shields.io/badge/ebuild-621-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac3fe79fe5e64bf0b8a78dd0c63b7d8d)](https://www.codacy.com/app/SpiderX/portage-overlay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -255,7 +255,9 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-libs/[zrtpcpp](https://github.com/wernerd/ZRTPCPP) | VCard standard format manipulation library
 * dev-lua/[lyaml](https://github.com/gvvaughan/lyaml) | LibYAML binding for Lua
 * dev-ml/[camlimages](https://gitlab.com/camlspotter/camlimages) | An image manipulation library for ocaml
+* dev-ml/[camomile](https://github.com/yoriyuki/Camomile) | A Unicode library for OCaml
 * dev-ml/[gd4o](https://github.com/savonet/gd4o) | OCaml interface to the GD graphics library
+* dev-ml/[memtrace](https://github.com/janestreet/memtrace) | Streaming client for OCaml's Memprof
 * dev-ml/[ocaml-alsa](https://github.com/savonet/ocaml-alsa) | OCaml bindings to alsa-lib
 * dev-ml/[ocaml-ao](https://github.com/savonet/ocaml-ao) | OCaml bindings to libao
 * dev-ml/[ocaml-bjack](https://github.com/savonet/ocaml-bjack) | OCaml blocking JACK API
@@ -270,28 +272,34 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * dev-ml/[ocaml-frei0r](https://github.com/savonet/ocaml-frei0r) | OCaml bindings to frei0r plugins
 * dev-ml/[ocaml-gavl](https://github.com/savonet/ocaml-gavl) | OCaml bindings to Gavl video manipulation library
 * dev-ml/[ocaml-gstreamer](https://github.com/savonet/ocaml-gstreamer) | OCaml bindings to gstreamer
-* dev-ml/[ocaml-inotify](https://github.com/whitequark/ocaml-inotify) | OCaml bindings to inotify
+* dev-ml/[ocaml-inotify](https://github.com/whitequark/ocaml-inotify) | OCaml bindings for inotify
 * dev-ml/[ocaml-ladspa](https://github.com/savonet/ocaml-ladspa) | OCaml bindings to LADSPA plugins
 * dev-ml/[ocaml-lame](https://github.com/savonet/ocaml-lame) | OCaml bindings to lame
 * dev-ml/[ocaml-lastfm](https://github.com/savonet/ocaml-lastfm) | OCaml interface for Lastfm
+* dev-ml/[ocaml-lilv](https://github.com/savonet/ocaml-lilv) | OCaml bindings to lilv
 * dev-ml/[ocaml-lo](https://github.com/savonet/ocaml-lo) | OCaml bindings to liblo
 * dev-ml/[ocaml-mad](https://github.com/savonet/ocaml-mad) | OCaml bindings to libmad
-* dev-ml/[ocaml-magic](https://sourceforge.net/projects/ocaml-magic) | OCaml bindings to libmagic
+* dev-ml/[ocaml-magic](https://github.com/Chris00/ocaml-magic) | OCaml bindings to libmagic
+* dev-ml/[ocaml-mem_usage](https://github.com/savonet/ocaml-mem_usage) | Cross-platform memory usage information
 * dev-ml/[ocaml-mm](https://github.com/savonet/ocaml-mm) | OCaml multimedia library
 * dev-ml/[ocaml-ogg](https://github.com/savonet/ocaml-ogg) | OCaml bindings to libogg
 * dev-ml/[ocaml-opus](https://github.com/savonet/ocaml-opus) | OCaml bindings to opus
 * dev-ml/[ocaml-portaudio](https://github.com/savonet/ocaml-portaudio) | OCaml bindings to portaudio
+* dev-ml/[ocaml-posix](https://github.com/savonet/ocaml-posix) | OCaml bindings for posix sockets
 * dev-ml/[ocaml-pulseaudio](https://github.com/savonet/ocaml-pulseaudio) | OCaml bindings to pulseaudio
 * dev-ml/[ocaml-samplerate](https://github.com/savonet/ocaml-samplerate) | OCaml bindings to libsamplerate
 * dev-ml/[ocaml-shine](https://github.com/savonet/ocaml-shine) | OCaml bindings to libshine
 * dev-ml/[ocaml-soundtouch](https://github.com/savonet/ocaml-soundtouch) | OCaml bindings to libsoundtouch
 * dev-ml/[ocaml-speex](https://github.com/savonet/ocaml-speex) | OCaml bindings to speex
-* dev-ml/[ocaml-syslog](http://opam.ocaml.org/packages/syslog) | OCaml syslog client functions
+* dev-ml/[ocaml-srt](https://github.com/savonet/ocaml-srt) | OCaml bindings for Secure, Reliable, Transport protocol library
+* dev-ml/[ocaml-syslog](https://github.com/geneanet/ocaml-syslog) | OCaml syslog client functions
 * dev-ml/[ocaml-taglib](https://github.com/savonet/ocaml-taglib) | OCaml bindings to taglib
 * dev-ml/[ocaml-theora](https://github.com/savonet/ocaml-theora) | OCaml bindings to libtheora
+* dev-ml/[ocaml-unix-errno](https://github.com/xapi-project/ocaml-unix-errno) | Unix errno types, maps, and support for OCaml
 * dev-ml/[ocaml-vorbis](https://github.com/savonet/ocaml-vorbis) | OCaml bindings to libvorbis
 * dev-ml/[ocaml-xmlplaylist](https://github.com/savonet/ocaml-xmlplaylist) | OCaml module to parse various RSS playlist formats
-* dev-ml/[xmlm](http://erratique.ch/software/xmlm) | Ocaml XML manipulation module
+* dev-ml/[tsdl](https://github.com/dbuenzli/tsdl) | Thin bindings to SDL for OCaml
+* dev-ml/[xmlm](https://github.com/dbuenzli/xmlm) | Ocaml XML manipulation module
 * dev-php/[scrypt]() | A PHP wrapper fo the scrypt hashing algorithm
 * dev-php/[spx](https://github.com/NoiseByNorthwest/php-spx) | A PHP wrapper fo the scrypt hashing algorithm
 * dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
@@ -575,7 +583,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 * media-sound/[spotifyd](https://github.com/Spotifyd/spotifyd) | A spotify daemon
 * media-sound/[spotify-qt](https://github.com/kraxarn/spotify-qt) | Lightweight Spotify client using Qt
 * media-radio/[krudio](https://github.com/loast/krudio) | Radio tray for linux on QT
-* media-radio/[liquidsoap](http://liquidsoap.info) | A swiss-army knife for multimedia streaming, used for netradios and webtvs
+* media-radio/[liquidsoap](https://github.com/savonet/liquidsoap) | A swiss-army knife for multimedia streaming, used for netradios
 * media-video/[haruna](https://github.com/g-fb/haruna) | Video player built with Qt/QML on top of libmpv
 * media-video/[qwinff](https://github.com/qwinff/qwinff) | Qt GUI Frontend for FFmpeg
 * media-video/[rtsp-simple-server](https://github.com/aler9/rtsp-simple-server) | RTSP server and RTSP proxy to read, publish and proxy media stream
