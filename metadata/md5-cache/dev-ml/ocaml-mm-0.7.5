@@ -1,0 +1,15 @@
+BDEPEND=dev-ml/dune-configurator:0= dev-ml/dune dev-lang/ocaml
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=OCaml multimedia library
+EAPI=8
+HOMEPAGE=https://github.com/savonet/ocaml-mm
+INHERIT=dune
+IUSE=alsa ao ffmpeg gstreamer mad +ocamlopt ogg oss pulseaudio sdl theora v4l
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=alsa? ( dev-ml/ocaml-alsa:=[ocamlopt?] ) ao? ( dev-ml/ocaml-ao:=[ocamlopt?] ) ffmpeg? ( dev-ml/ocaml-ffmpeg:=[ocamlopt?] ) gstreamer? ( dev-ml/ocaml-gstreamer:=[ocamlopt?] ) mad? ( dev-ml/ocaml-mad:=[ocamlopt?] ) ogg? ( dev-ml/ocaml-ogg:=[ocamlopt?] ) pulseaudio? ( dev-ml/ocaml-pulseaudio:=[ocamlopt?] ) sdl? ( dev-ml/ocamlsdl:=[ocamlopt?] ) theora? ( dev-ml/ocaml-theora:=[ocamlopt?] ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0/0.7.5
+SRC_URI=https://github.com/savonet/ocaml-mm/archive/v0.7.5/ocaml-mm-0.7.5.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	dune	2ef529836d2d3100bfd771a77fcffdf8
+_md5_=59ff0ab793f02334a3fcdb5a27e9985d

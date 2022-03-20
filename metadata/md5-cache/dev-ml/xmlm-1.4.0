@@ -1,0 +1,16 @@
+BDEPEND=dev-ml/topkg:= dev-ml/opam-installer dev-lang/ocaml
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4:=
+DESCRIPTION=Ocaml XML manipulation module
+EAPI=7
+HOMEPAGE=https://github.com/dbuenzli/xmlm
+INHERIT=opam
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=>=dev-lang/ocaml-4:=
+RESTRICT=!test? ( test )
+SLOT=0/1.4.0
+SRC_URI=https://github.com/dbuenzli/xmlm/archive/v1.4.0/xmlm-1.4.0.tar.gz
+_eclasses_=opam	bb6e97cce1eab4343c4db2c51acf1349
+_md5_=a6dea0af84e1dc43e4329dd6719a89be

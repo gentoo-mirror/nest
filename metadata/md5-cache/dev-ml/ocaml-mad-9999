@@ -1,14 +1,14 @@
-BDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/libmad dev-ml/dune:= dev-ml/dune-configurator:=[ocamlopt?] dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-ml/dune-configurator:= virtual/pkgconfig dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
 DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=OCaml bindings to libmad
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/savonet/ocaml-mad
 INHERIT=dune git-r3
 IUSE=+ocamlopt
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/libmad >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RDEPEND=media-libs/libmad >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	dune	2ef529836d2d3100bfd771a77fcffdf8	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=34746625afcb3097d6f65b314d4c4e7d
+_md5_=04f2b2888d2f6c21005748102b21c088

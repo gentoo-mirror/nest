@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install prepare test
-DEPEND=dev-ml/findlib[ocamlopt?] >=dev-ml/findlib-1.0.4-r1
+DEPEND=>=dev-ml/findlib-1.0.4-r1
 DESCRIPTION=OCaml interface to the GD graphics library
 EAPI=7
 HOMEPAGE=https://github.com/savonet/gd4o
 INHERIT=findlib toolchain-funcs
-IUSE=+ocamlopt +ocamlopt
+IUSE=+ocamlopt
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/gd[jpeg,png] media-libs/freetype:2 media-libs/libpng:0= sys-libs/zlib:= virtual/jpeg:0 dev-lang/ocaml:=[ocamlopt?]
+RDEPEND=media-libs/gd[jpeg,png] media-libs/freetype:2 media-libs/libpng:0= sys-libs/zlib:= virtual/jpeg:0 dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/1.0_beta1
 SRC_URI=https://api.github.com/repos/savonet/gd4o/tarball/5097a27 -> gd4o-1.0_beta1.tar.gz
 _eclasses_=findlib	e6df6108c2d753998b1206f4d5ea4a2d	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784
-_md5_=5cde22760de1fb594d98b9a0b857e9aa
+_md5_=ee24d405fe1aadad6aa38340768b1b5e

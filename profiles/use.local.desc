@@ -87,67 +87,6 @@ dev-libs/zrtpcpp:empty - Build empty (no cache) backend
 dev-libs/zrtpcpp:sdes - Build with SDES
 dev-libs/zrtpcpp:sqlcipher - Build SQLCipher backed for cache
 dev-libs/zrtpcpp:tivi - Build tivi client
-dev-ml/ocaml-alsa:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-alsa:profiling - Build support for profiling
-dev-ml/ocaml-ao:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-ao:profiling - Build support for profiling
-dev-ml/ocaml-bjack:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-bjack:profiling - Build support for profiling
-dev-ml/ocaml-cry:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-cry:profiling - Build support for profiling
-dev-ml/ocaml-dssi:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-dssi:profiling - Build support for profiling
-dev-ml/ocaml-dtools:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-dtools:profiling - Build support for profiling
-dev-ml/ocaml-duppy:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-duppy:profiling - Build support for profiling
-dev-ml/ocaml-faad:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-faad:profiling - Build support for profiling
-dev-ml/ocaml-ffmpeg:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-ffmpeg:profiling - Build support for profiling
-dev-ml/ocaml-flac:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-flac:profiling - Build support for profiling
-dev-ml/ocaml-frei0r:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-frei0r:profiling - Build support for profiling
-dev-ml/ocaml-gavl:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-gavl:profiling - Build support for profiling
-dev-ml/ocaml-gstreamer:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-gstreamer:profiling - Build support for profiling
-dev-ml/ocaml-ladspa:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-ladspa:profiling - Build support for profiling
-dev-ml/ocaml-lastfm:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-lastfm:profiling - Build support for profiling
-dev-ml/ocaml-lo:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-lo:profiling - Build support for profiling
-dev-ml/ocaml-mad:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-mad:profiling - Build support for profiling
-dev-ml/ocaml-mm:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-mm:profiling - Build support for profiling
-dev-ml/ocaml-ogg:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-ogg:profiling - Build support for profiling
-dev-ml/ocaml-opus:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-opus:profiling - Build support for profiling
-dev-ml/ocaml-portaudio:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-portaudio:profiling - Build support for profiling
-dev-ml/ocaml-pulseaudio:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-pulseaudio:profiling - Build support for profiling
-dev-ml/ocaml-samplerate:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-samplerate:profiling - Build support for profiling
-dev-ml/ocaml-shine:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-shine:profiling - Build support for profiling
-dev-ml/ocaml-soundtouch:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-soundtouch:profiling - Build support for profiling
-dev-ml/ocaml-speex:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-speex:profiling - Build support for profiling
-dev-ml/ocaml-syslog:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-taglib:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-taglib:profiling - Build support for profiling
-dev-ml/ocaml-theora:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-theora:profiling - Build support for profiling
-dev-ml/ocaml-vorbis:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-vorbis:profiling - Build support for profiling
-dev-ml/ocaml-xmlplaylist:camlp4 - Enable camlp4 syntax extension
-dev-ml/ocaml-xmlplaylist:profiling - Build support for profiling
 dev-python/PythonQt:extensions - Install extensions
 dev-python/drf-yasg:validation - Enable swagger spec validation
 dev-python/tablib:xls - Support for xls
@@ -173,24 +112,25 @@ media-libs/mediastreamer2:tools - Build tools
 media-libs/mediastreamer2:vpx - Support for VPX codec via media-libs/libvpx
 media-libs/mediastreamer2:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
 media-radio/liquidsoap:camlimages - Support for image manipulation library
-media-radio/liquidsoap:camlp4 - Enable camlp4 syntax extension
 media-radio/liquidsoap:dssi - Support for DSSI sound synthesis
 media-radio/liquidsoap:faad - media-libs/faad2 decoding
 media-radio/liquidsoap:fdk - media-libs/fdk-aac decoding
 media-radio/liquidsoap:frei0r - Support for media-plugins/frei0r-plugins
-media-radio/liquidsoap:gavl - media-libs/gavl video conversion
 media-radio/liquidsoap:graphics - Support for graphics in streams
-media-radio/liquidsoap:gui - Enable gui support
 media-radio/liquidsoap:json - Data import and export through json.
 media-radio/liquidsoap:ladspa - Support for Audio Developer's Simple Plugin API
 media-radio/liquidsoap:lastfm - Support for lastfm audioscrobbling and the like
+media-radio/liquidsoap:lilv - Support for LV2 audio plugins
+media-radio/liquidsoap:lo - Support for Lightweight Open Sound Control
 media-radio/liquidsoap:magic - Enable filetype auto-detection
+media-radio/liquidsoap:memtrace - Enable client for OCaml Memprof
+media-radio/liquidsoap:memusage - Enable gathering statistics on memory usage
 media-radio/liquidsoap:opus - Support for Opus audio codec
 media-radio/liquidsoap:osc - Support for Lightweight OSC implementation
-media-radio/liquidsoap:profiling - Build support for profiling
 media-radio/liquidsoap:shine - Support for fixed-point mp3 encoding
 media-radio/liquidsoap:shout - Stream to Shoutcast and Icecast
-media-radio/liquidsoap:soundtouch - media-libs/libsoundtouch effects.
+media-radio/liquidsoap:soundtouch - media-libs/libsoundtouch effects
+media-radio/liquidsoap:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
 media-sound/ncspot:cover - Enable drawing of the album art
 media-sound/ncspot:rodio - Enable rodio backend
 media-sound/ncspot:termion - Enable termion backend

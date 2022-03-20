@@ -1,6 +1,6 @@
 BDEPEND=dev-ml/dune-configurator:0= dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
-DEPEND=media-sound/lame >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=OCaml bindings to lame
 EAPI=8
 HOMEPAGE=https://github.com/savonet/ocaml-lame
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=media-sound/lame >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	dune	2ef529836d2d3100bfd771a77fcffdf8	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=c42c02d5dc2c16d9255da011bbc89def
+_md5_=0dd3f6f0738f8e65dee3ec94ae05594b

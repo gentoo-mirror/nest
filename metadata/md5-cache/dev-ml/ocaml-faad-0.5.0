@@ -1,0 +1,15 @@
+BDEPEND=dev-ml/dune dev-lang/ocaml
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=OCaml bindings to faad2
+EAPI=8
+HOMEPAGE=https://github.com/savonet/ocaml-faad
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/faad2 >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0/0.5.0
+SRC_URI=https://github.com/savonet/ocaml-faad/archive/v0.5.0/ocaml-faad-0.5.0.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	dune	2ef529836d2d3100bfd771a77fcffdf8
+_md5_=93f4204e9d790f4c53558dd96b81e804

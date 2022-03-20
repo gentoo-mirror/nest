@@ -1,15 +1,15 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=install prepare
-DEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/findlib[ocamlopt?] >=dev-ml/findlib-1.0.4-r1
+DEPEND=>=dev-ml/findlib-1.0.4-r1
 DESCRIPTION=OCaml bindings to libmagic
 EAPI=7
-HOMEPAGE=https://sourceforge.net/projects/ocaml-magic
+HOMEPAGE=https://github.com/Chris00/ocaml-magic
 INHERIT=autotools findlib
-IUSE=+ocamlopt +ocamlopt
+IUSE=+ocamlopt
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-lang/ocaml:=[ocamlopt?]
+RDEPEND=dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/0.7.3
 SRC_URI=mirror://sourceforge/ocaml-magic/ocaml-magic-0.7.3.tar.gz
 _eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6cc26735fa9dd59e8c62880beda05b6e	findlib	e6df6108c2d753998b1206f4d5ea4a2d
-_md5_=f4f2393fcde26a1e8307fbd07fd00431
+_md5_=aba199d2285dd19ad7cf68ba95053788

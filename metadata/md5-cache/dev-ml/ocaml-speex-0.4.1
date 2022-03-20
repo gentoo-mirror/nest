@@ -1,0 +1,15 @@
+BDEPEND=dev-ml/dune-configurator:0= virtual/pkgconfig dev-ml/dune dev-lang/ocaml
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=OCaml bindings to speex
+EAPI=8
+HOMEPAGE=https://github.com/savonet/ocaml-speex
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/speex >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0/0.4.1
+SRC_URI=https://github.com/savonet/ocaml-speex/archive/v0.4.1/ocaml-speex-0.4.1.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	dune	2ef529836d2d3100bfd771a77fcffdf8
+_md5_=6bf3914a92f0624e0713fdda042d7d2b

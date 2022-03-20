@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare test unpack
-DEPEND=dev-ml/findlib[ocamlopt?] >=dev-ml/findlib-1.0.4-r1
+DEPEND=>=dev-ml/findlib-1.0.4-r1
 DESCRIPTION=OCaml interface to the GD graphics library
 EAPI=7
 HOMEPAGE=https://github.com/savonet/gd4o
 INHERIT=findlib git-r3 toolchain-funcs
-IUSE=+ocamlopt +ocamlopt
+IUSE=+ocamlopt
 LICENSE=LGPL-2.1
 PROPERTIES=live
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] media-libs/gd[jpeg,png] media-libs/freetype:2 media-libs/libpng:0= sys-libs/zlib:= virtual/jpeg:0 dev-lang/ocaml:=[ocamlopt?]
+RDEPEND=media-libs/gd[jpeg,png] media-libs/freetype:2 media-libs/libpng:0= sys-libs/zlib:= virtual/jpeg:0 dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/9999
 _eclasses_=findlib	e6df6108c2d753998b1206f4d5ea4a2d	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784
-_md5_=272eb079f660c39945c592514af5d00e
+_md5_=392c24df2a2aff7915be5ec136d4ce67

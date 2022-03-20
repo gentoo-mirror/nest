@@ -1,0 +1,15 @@
+BDEPEND=dev-ml/dune-configurator:0= virtual/pkgconfig dev-ml/dune dev-lang/ocaml
+DEFINED_PHASES=compile install test
+DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DESCRIPTION=OCaml bindings to frei0r plugins
+EAPI=8
+HOMEPAGE=https://github.com/savonet/ocaml-frei0r
+INHERIT=dune
+IUSE=+ocamlopt
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=media-plugins/frei0r-plugins >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+SLOT=0/0.1.2
+SRC_URI=https://github.com/savonet/ocaml-frei0r/archive/v0.1.2/ocaml-frei0r-0.1.2.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	dune	2ef529836d2d3100bfd771a77fcffdf8
+_md5_=257c54d21692dbb8f56b6a83121c4b99
