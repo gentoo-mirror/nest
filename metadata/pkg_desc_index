@@ -471,7 +471,7 @@ dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API S
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.14.0 9999: Generate HTML or XML in a pythonic way
-dev-util/arctype 0.9.25: SQL client for PostgreSQL and MySQL
+dev-util/arctype 0.9.54.6573: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
 dev-util/azuredatastudio-bin 1.24.0 1.28.0 1.33.1: Data management tool to work with DW, Azure, SQL Server
