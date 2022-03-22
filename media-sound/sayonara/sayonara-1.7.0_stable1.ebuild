@@ -3,17 +3,19 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://gitlab.com/luciocarreras/sayonara-player.git"
+inherit cmake xdg
 
-inherit cmake git-r3 xdg
+MY_PN="${PN}-player"
+MY_PV="${PV/_/-}"
+MY_P="${MY_PN}-${MY_PV}"
 
 DESCRIPTION="Small, clear and fast Qt-based audio player"
 HOMEPAGE="https://sayonara-player.com"
-SRC_URI=""
+SRC_URI="https://gitlab.com/luciocarreras/${MY_PN}/-/archive/${MY_PV}/${MY_P}.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
 RDEPEND="dev-qt/qtcore:5
@@ -31,7 +33,7 @@ RDEPEND="dev-qt/qtcore:5
 	media-libs/gst-plugins-base:1.0
 	media-libs/gst-plugins-good:1.0
 	media-plugins/gst-plugins-soundtouch:1.0
-	media-libs/libmtp:0=
+	media-libs/libmtp
 	sys-libs/zlib:0="
 DEPEND="${RDEPEND}
 	dev-qt/qtsvg:5
@@ -39,6 +41,8 @@ DEPEND="${RDEPEND}
 BDEPEND="dev-qt/linguist-tools:5
 	virtual/pkgconfig
 	doc? ( app-doc/doxygen )"
+
+S="${WORKDIR}/${MY_P}"
 
 src_prepare() {
 	# wrt 709450
