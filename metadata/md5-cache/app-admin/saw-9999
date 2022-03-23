@@ -1,12 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip
 DEFINED_PHASES=compile install test unpack
-DESCRIPTION=Utility to import/export data from HashiCorp Vault
+DESCRIPTION=Fast, multi-purpose tool for AWS CloudWatch Logs
 EAPI=8
-HOMEPAGE=https://github.com/Jimdo/yaml-vault
+HOMEPAGE=https://github.com/TylerBrock/saw
 INHERIT=git-r3 go-module
-LICENSE=Apache-2.0
+LICENSE=MIT
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	95694c3c8800655c04b1e681bd66fc72
-_md5_=123010a870f8fcfcb4258500570cdc87
+_md5_=0bc830894d9cc4c6191b5280a292c5e0

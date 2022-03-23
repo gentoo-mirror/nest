@@ -1,13 +1,12 @@
-BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install
 DEPEND=app-arch/lz4:= >=dev-db/postgresql-10:=[icu,ssl] dev-lang/perl:0= dev-libs/libxml2:2 dev-libs/openssl:0= sys-libs/zlib:=
 DESCRIPTION=Reliable PostgreSQL Backup & Restore
 EAPI=8
 HOMEPAGE=https://pgbackrest.org https://github.com/pgbackrest/pgbackrest
-INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-PROPERTIES=live
 RDEPEND=app-arch/lz4:= >=dev-db/postgresql-10:=[icu,ssl] dev-lang/perl:0= dev-libs/libxml2:2 dev-libs/openssl:0= sys-libs/zlib:=
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=d18c7659a1c074f9febbba3f5a0ce9d6
+SRC_URI=https://github.com/pgbackrest/pgbackrest/archive/release/2.38.tar.gz -> pgbackrest-2.38.tar.gz
+_md5_=36b1485075575f007685746657d7b2c0
