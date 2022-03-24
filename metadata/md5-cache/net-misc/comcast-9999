@@ -8,5 +8,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	golang-base	d5b6a1d72a3e93ee380d44eb9a5ba614
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	golang-base	9f0e420ab37bc55a318d74bab3aae891
 _md5_=e6773267561ecddd6ac3e8e8b63e2444

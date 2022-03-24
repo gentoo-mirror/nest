@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ocaml-4:=
 RESTRICT=!test? ( test )
 SLOT=0/1.4.0
 SRC_URI=https://github.com/dbuenzli/xmlm/archive/v1.4.0/xmlm-1.4.0.tar.gz
-_eclasses_=opam	bb6e97cce1eab4343c4db2c51acf1349
+_eclasses_=opam	dc11e376d9abc263ca618c5741206216
 _md5_=a6dea0af84e1dc43e4329dd6719a89be
