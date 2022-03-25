@@ -13,5 +13,5 @@ REQUIRED_USE=?? ( icu uchardet )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/communi/libcommuni/archive/v3.6.0.tar.gz -> libcommuni-3.6.0.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	qmake-utils	f5eb2f69fffe94292aaaf802fb21c8d1
 _md5_=03fce22b3a9d65f8a7120ff79ba5623e

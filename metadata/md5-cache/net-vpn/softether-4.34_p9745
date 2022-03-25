@@ -12,5 +12,5 @@ RDEPEND=dev-libs/openssl:0= sys-libs/ncurses:0= sys-libs/readline:0= sys-libs/zl
 REQUIRED_USE=|| ( bridge client cmd server )
 SLOT=0
 SRC_URI=http://www.softether-download.com/files/softether/v4.34-9745-rtm-2020.04.05-tree/Source_Code/softether-src-v4.34-9745-rtm.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
 _md5_=fec4a8c8f7d8b167cd9350e23edf7c72
