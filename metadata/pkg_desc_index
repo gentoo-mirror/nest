@@ -139,9 +139,9 @@ app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5
 app-emulation/vmware-vmrc 11.2.0.16492666 12.0.0.17287072 12.0.1.18113358: VMware Remote Console
 app-emulation/vmware-workstation 16.2.1.18811642 16.2.3.19376536: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 7.4.1 9999: Auditing git repository for secrets and keys
-app-metrics/amazon-cloudwatch-agent 1.247345.36 1.247347.3 9999: Amazon Cloudwatch Agent
+app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
-app-metrics/do-agent 3.7.1 3.9.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
+app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
@@ -150,7 +150,7 @@ app-misc/cryptr-bin 0.4.0: Diagram drawing application built on web technology
 app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
 app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane DSL
-app-misc/pet 0.3.6-r1 0.4.0 9999: Simple command-line snippet manager
+app-misc/pet 0.4.0 9999: Simple command-line snippet manager
 app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
 app-office/drawio-desktop-bin 14.6.13 14.9.6: Diagram drawing application built on web technology
@@ -611,6 +611,7 @@ net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuration
 net-misc/ec2-instance-connect-cli 1.0.2 9999: Python client for accessing EC2 instances via EC2 Instance Connect
 net-misc/fiche 0.9.1 9999: Command line pastebin server
+net-misc/kcat 1.7.0 9999: Generic command line non-JVM Apache Kafka producer and consumer
 net-misc/mpssh 1.3.3 9999: Mass parallel ssh
 net-misc/msd 9999: Program for IP TV streaming on the network via HTTP
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
