@@ -2,7 +2,7 @@ BDEPEND=dev-haskell/cabal:=[profile?] test? ( >=dev-haskell/quickcheck-2.10:2=[p
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/nats-1.1.2:=[profile?] dev-lang/ghc:= !integer-gmp? ( dev-haskell/integer-simple:=[profile?] ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Integer logarithms
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/Bodigrim/integer-logarithms
 INHERIT=haskell-cabal
 IUSE=+integer-gmp doc hscolour profile test
@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/nats-1.1.2:=[profile?] dev-lang/ghc:= !integer-gmp? ( dev-
 RESTRICT=!test? ( test )
 SLOT=0/1.0.3
 SRC_URI=https://hackage.haskell.org/package/integer-logarithms-1.0.3/integer-logarithms-1.0.3.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ghc-package	6344fef4405bc9a6cca6a0a39eee4a32	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	haskell-cabal	ebeaf198ca6bf70c43b10488b7cdcdcf
-_md5_=43dc21036abd5e800ab2fc232b288cf6
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ghc-package	6344fef4405bc9a6cca6a0a39eee4a32	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	haskell-cabal	ebeaf198ca6bf70c43b10488b7cdcdcf
+_md5_=489c550963ef6b11c4f0c9b8e5dd7d0f

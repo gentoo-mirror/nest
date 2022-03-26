@@ -1,0 +1,15 @@
+BDEPEND=dev-cpp/xsd virtual/pkgconfig || ( app-editors/vim-core dev-util/xxdi ) doc? ( app-doc/doxygen ) test? ( dev-libs/boost:= ) dev-util/ninja >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-libs/libdigidoc dev-libs/opensc dev-libs/openssl:0= dev-libs/xalan-c dev-libs/xerces-c dev-libs/xml-security-c sys-libs/zlib:0=[minizip] java? ( virtual/jre:= ) pdf? ( virtual/podofo-build ) java? ( dev-lang/swig ) virtual/libiconv
+DESCRIPTION=Library for handling digitally signed documents
+EAPI=8
+HOMEPAGE=https://github.com/open-eid/libdigidocpp https://id.ee
+INHERIT=cmake git-r3
+IUSE=doc java pdf test +utils
+LICENSE=BSD GPL-2 MIT OASIS-Open W3C ZLIB
+PROPERTIES=live
+RDEPEND=dev-libs/libdigidoc dev-libs/opensc dev-libs/openssl:0= dev-libs/xalan-c dev-libs/xerces-c dev-libs/xml-security-c sys-libs/zlib:0=[minizip] java? ( virtual/jre:= ) pdf? ( virtual/podofo-build )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	3c38df051095289667b6f09ebd0cc149	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=dc91bdc6b2da4b2882503f652b1cdeaf
