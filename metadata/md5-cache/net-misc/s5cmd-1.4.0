@@ -1,13 +1,13 @@
 BDEPEND=>=dev-lang/go-1.16 app-arch/unzip
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Parallel S3 and local filesystem execution tool
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/peak/s5cmd
 INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/peak/s5cmd/archive/v1.0.0.tar.gz -> s5cmd-1.0.0.tar.gz
+SRC_URI=https://github.com/peak/s5cmd/archive/v1.4.0.tar.gz -> s5cmd-1.4.0.tar.gz
 _eclasses_=go-module	3b47b6e0e18257d2abb17663c575fc36
-_md5_=1f9165e394784ec7e8b59c984fe3204e
+_md5_=6922839f2caf1fe6b837c64e33ec604f

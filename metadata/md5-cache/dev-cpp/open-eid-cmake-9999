@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Open Electronic Identity CMake modules
+EAPI=8
+HOMEPAGE=https://github.com/open-eid/cmake http://id.ee
+INHERIT=git-r3
+LICENSE=LGPL-2.1
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=7bd7d9a30217b13569b88c08b88758c6

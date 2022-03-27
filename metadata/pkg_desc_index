@@ -160,6 +160,7 @@ app-text/keening 0.2: A simple command line pastebin designed to be used togethe
 dev-cpp/belr 5.1.3 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_p20210806 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20211005 9999: A compiler frontend for the W3C XML Schema definition language
+dev-cpp/open-eid-cmake 9999 23022022: Open Electronic Identity CMake modules
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0_p20210722 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
@@ -406,14 +407,15 @@ dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.12 9999: Python library for NETCONF clients
 dev-python/netapp-ontap 9.8.0: A library for working with ONTAP's REST APIs simply in Python
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
-dev-python/openapi-spec-validator 0.3.1 9999: Python library that validates Swagger Specs
+dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Python
+dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
 dev-python/packageurl 0.9.6 9999: Python implementation of the package url spec
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.4.0.20210819 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
-dev-python/prance 0.21.2 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
+dev-python/prance 0.21.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/promise 2.3.0 9999: Python port of GraphQL.js
 dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 3.2.1 9999: Python 3 DNS library
@@ -440,7 +442,7 @@ dev-python/questionary 1.9.0 9999: Python library to build pretty command line u
 dev-python/reprint 0.6.0 9999: Binding variables and refreshing multi-line output in terminal
 dev-python/requests-credssp 1.2.0-r1 9999: CredSSP authentication handler for Python Requests
 dev-python/ripe-atlas-cousteau 1.4.2 9999: Official python wrapper around RIPE Atlas API
-dev-python/ripe-atlas-sagan 1.3.1 9999: Official python wrapper around RIPE Atlas API
+dev-python/ripe-atlas-sagan 1.3.1 9999: A parsing library for RIPE Atlas measurement results
 dev-python/route53-transfer 9999 20180830: Generic access to configuration files in any formats
 dev-python/rstr 2.2.6: Generate random strings in Python
 dev-python/schema 0.7.4 9999: Simple data validation library
@@ -542,7 +544,7 @@ media-gfx/colorpick 9999: Color picker and contrast checker
 media-gfx/depix 9999: A tool for recovering passwords from pixelized screenshots
 media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
 media-gfx/guetzli 1.0.1 9999: Perceptual JPEG encoder
-media-gfx/lsix 9999: Image viewer for terminal that use sixel graphics
+media-gfx/lsix 1.8 9999: Image viewer for terminal that use sixel graphics
 media-gfx/nomacs 9999: Qt-based image viewer
 media-gfx/pineapple-pictures 0.5.3 9999: A homebrew lightweight image viewer
 media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
@@ -592,7 +594,7 @@ net-firewall/xt_dns 1.5 9999: Netfilter extension to match various DNS atributes
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
-net-im/gitter-bin 4.1.0-r1 5.0.1: Chat and network platform
+net-im/gitter-bin 5.0.1: Chat and network platform
 net-im/slack 4.11.3 4.13.0: Team collaboration tool
 net-im/viber 16.1.0.37: Free text and calls
 net-im/vk-messenger-bin 9999: Simple and Easy App for Messaging on VK
@@ -604,7 +606,7 @@ net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS serve
 net-misc/amazon-workspaces-bin 4.0.6.2177: Amazon Workspace Client
 net-misc/awscurl 0.24 0.26 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
-net-misc/comcast 1.0.1 9999: Network problems simulator
+net-misc/comcast 1.0.1_p1 9999: Network problems simulator
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuration
@@ -621,7 +623,7 @@ net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
 net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
 net-misc/redir 3.3 9999: TCP port redirector
 net-misc/rstatd 4.0.1: Client-server linux performance statistics
-net-misc/s5cmd 1.0.0 9999: Parallel S3 and local filesystem execution tool
+net-misc/s5cmd 1.4.0 9999: Parallel S3 and local filesystem execution tool
 net-misc/samplicator 1.3.6 1.3.8_rc1 9999: UDP packets forwarder and duplicator
 net-misc/slowhttptest 1.8.2 9999: Application Layer DoS attack simulator
 net-misc/sping 9999: Split ping, shows direction the loss or latency is on
@@ -638,7 +640,7 @@ net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable file synchronization tool
-net-p2p/tremotesf 1.7.1 9999: A remote GUI for transmission
+net-p2p/tremotesf 1.11.3 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.3.2 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/awsvpnclient 1.0.3: AWS VPN Client
