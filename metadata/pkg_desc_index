@@ -513,7 +513,7 @@ dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
 dev-util/yamllint 1.26.1 9999: A linter for YAML files
 dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/commitizen 2.17.10 9999: Python commitizen client tool
-dev-vcs/gitaly 13.1.4 13.3.2 9999: Git RPC service for handling GitLab git calls
+dev-vcs/gitaly 13.3.2 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.15.1 9999: Git commit message linter
 dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
 dev-vcs/mercurial_keyring 1.4.1 9999: Mercurial Keyring Extension
@@ -673,7 +673,7 @@ www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for signing with your eID on the web
 www-plugins/vdhcoapp-bin 1.6.1: Companion application for Video DownloadHelper browser add-on
-www-servers/gitlab-workhorse 8.37.0 8.43.0 9999: GitLab reverse proxy
+www-servers/gitlab-workhorse 8.43.0 9999: GitLab reverse proxy
 x11-misc/RazerGenie 0.8.1 0.9.0 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.67 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
