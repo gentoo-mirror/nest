@@ -566,7 +566,7 @@ media-sound/plexamp 4.1.0: Music focused client for Plex
 media-sound/sayonara 1.7.0_p3 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.8 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.3 9999: A spotify daemon
-media-video/haruna 0.5.0 0.6.0 0.6.1 9999: Video player built with Qt/QML on top of libmpv
+media-video/haruna 0.7.3 9999: Video player built with Qt/QML on top of libmpv
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
