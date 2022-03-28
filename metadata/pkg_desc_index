@@ -440,7 +440,6 @@ dev-python/pyvmomi 7.0.2 9999: VMware vSphere API Python Bindings
 dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 1.9.0 9999: Python library to build pretty command line user prompts
 dev-python/reprint 0.6.0 9999: Binding variables and refreshing multi-line output in terminal
-dev-python/requests-credssp 1.2.0-r1 9999: CredSSP authentication handler for Python Requests
 dev-python/ripe-atlas-cousteau 1.4.2 9999: Official python wrapper around RIPE Atlas API
 dev-python/ripe-atlas-sagan 1.3.1 9999: A parsing library for RIPE Atlas measurement results
 dev-python/route53-transfer 9999 20180830: Generic access to configuration files in any formats
