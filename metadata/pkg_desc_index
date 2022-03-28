@@ -653,7 +653,7 @@ sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
 sys-apps/duf 0.3.1 9999: Disk Usage/Free Utility
 sys-apps/ethq 0.6.1 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
-sys-apps/firetools 0.9.58 0.9.62 9999: Graphical user interface of Firajail security sandbox
+sys-apps/firetools 0.9.64 9999: Graphical user interface of Firajail security sandbox
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
 sys-apps/psi-notify 1.0.1 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
