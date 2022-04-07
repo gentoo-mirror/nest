@@ -10,7 +10,6 @@ app-backup/wal-g:mongo - Enable MongoDB support
 app-backup/wal-g:redis - Enable Redis support
 app-backup/wal-g:sodium - Use dev-libs/libsodium
 app-backup/zbackup:tartool - Install tartool utility
-app-crypt/qesteidutil:crash-reporter - add support for submit crash information to the upstream
 app-crypt/qesteidutil:webcheck - add support for new version checking
 app-editors/qedit:aspell - Enable spellchecking using app-text/aspell
 app-emulation/looking-glass:host - Download Windows host application

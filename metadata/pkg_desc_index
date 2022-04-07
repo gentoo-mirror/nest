@@ -509,7 +509,6 @@ dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
-dev-util/yamllint 1.26.1 9999: A linter for YAML files
 dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/commitizen 2.17.10 9999: Python commitizen client tool
 dev-vcs/gitaly 13.3.2 9999: Git RPC service for handling GitLab git calls

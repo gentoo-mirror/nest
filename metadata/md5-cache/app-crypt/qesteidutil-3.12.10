@@ -5,7 +5,7 @@ DESCRIPTION=Estonian ID card management desktop utility
 EAPI=8
 HOMEPAGE=https://github.com/open-eid/qesteidutil https://id.ee/
 INHERIT=cmake readme.gentoo-r1
-IUSE=crash-reporter +webcheck
+IUSE=+webcheck
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=dev-libs/openssl:0= dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtnetwork:5 dev-qt/qtsingleapplication sys-apps/pcsc-lite
@@ -13,4 +13,4 @@ REQUIRED_USE=webcheck
 SLOT=0
 SRC_URI=https://github.com/open-eid/qesteidutil/releases/download/v3.12.10/qesteidutil-3.12.10.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	fef481272d4a8e136a7d8a0fb1329384	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	3c38df051095289667b6f09ebd0cc149	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
-_md5_=18bf653aaef9e2cc426dd44c9373e8ae
+_md5_=fb3489fd13dfa53bfad520d8599c4724
