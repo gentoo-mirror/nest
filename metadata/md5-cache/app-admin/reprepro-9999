@@ -2,7 +2,7 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure unpack
 DEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
 DESCRIPTION=A tool to handle local repositories of Debian packages
-EAPI=7
+EAPI=8
 HOMEPAGE=https://salsa.debian.org/brlink/reprepro
 INHERIT=git-r3
 IUSE=archive bzip2 gpg lzma
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=6600e4a59044f34a1a823a2d7d3e244c
+_md5_=0a7721c9c30602bff09af82fa0c4df9e

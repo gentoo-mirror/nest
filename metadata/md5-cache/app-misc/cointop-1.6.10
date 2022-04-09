@@ -2,7 +2,7 @@ BDEPEND=>=dev-lang/go-1.16 app-arch/unzip
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Interactive cryptocurrency monitor
 EAPI=8
-HOMEPAGE=https://github.com/miguelmota/cointop
+HOMEPAGE=https://github.com/cointop-sh/cointop
 INHERIT=go-module
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
@@ -10,4 +10,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/cointop-sh/cointop/archive/v1.6.10.tar.gz -> cointop-1.6.10.tar.gz
 _eclasses_=go-module	3b47b6e0e18257d2abb17663c575fc36
-_md5_=d67ed569888aee17561f4c6ce6c89518
+_md5_=ffaf6720c61cd452e606f5278bb4fa24

@@ -3,7 +3,7 @@ DEFINED_PHASES=configure install prepare
 DEPEND=acct-user/urbackup app-arch/zstd:= dev-db/sqlite:3 dev-libs/crypto++:0= dev-libs/icu:0= sys-libs/zlib:0= X? ( x11-libs/wxGTK:3.0-gtk3[X] )
 DESCRIPTION=Client Server backup system
 EAPI=8
-HOMEPAGE=https://urbackup.org
+HOMEPAGE=https://www.urbackup.org/
 INHERIT=autotools systemd wxwidgets
 IUSE=debug hardened nls X
 KEYWORDS=~amd64 ~x86
@@ -12,4 +12,4 @@ RDEPEND=acct-user/urbackup app-arch/zstd:= dev-db/sqlite:3 dev-libs/crypto++:0= 
 SLOT=0
 SRC_URI=https://hndl.urbackup.org/Client/2.4.11/urbackup-client-2.4.11.tar.gz
 _eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	ed3ef2014ee93d24bde80f0c0ea9732e	systemd	2736b403a83f194b59b767f3b344c2c1	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	wxwidgets	c09e9b94378cadaf6ef86ec1534c0fd6
-_md5_=48577b535a9f9305eab38357fdf0b6f3
+_md5_=228a0337ae27bdc2f995eb5c6e80829a
