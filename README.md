@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 621](https://img.shields.io/badge/ebuild-621-orange.svg)](https://img.shields.io/badge/ebuild-621-orange.svg)
+[![Number of ebuilds: 620](https://img.shields.io/badge/ebuild-620-orange.svg)](https://img.shields.io/badge/ebuild-620-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01c60be97b884ea78bba7c232a4d8ca8)](https://www.codacy.com/gh/SpiderX/portage-overlay/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -8,6 +8,7 @@
 [![gentoo overlay](https://img.shields.io/badge/gentoo-overlay-yellow)](https://github.com/gentoo-mirror/nest)
 [![pkgcheck](https://github.com/SpiderX/portage-overlay/actions/workflows/pkgcheck.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/pkgcheck.yml)
 [![shellcheck](https://github.com/SpiderX/portage-overlay/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/shellcheck.yml)
+[![remark-lint](https://github.com/SpiderX/portage-overlay/actions/workflows/remark-lint.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/remark-lint.yml)
 
 ## How to use this overlay
 
@@ -76,26 +77,26 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-admin/[semaphore-bin](https://github.com/ansible-semaphore/semaphore) | Modern UI for Ansible
 *   app-admin/[sinker](https://github.com/plexsystems/sinker) | Sync images from one container registry to another
 *   app-admin/[sops](https://github.com/mozilla/sops) | Simple and flexible tool for managing secrets
-*   app-admin/[terraform-provider-vcd](https://www.terraform.io/docs/providers/vcd) | Terraform VMware vCloud Director provider
+*   app-admin/[terraform-provider-vcd](https://registry.terraform.io/providers/vmware/vcd/latest/docs) | Terraform VMware vCloud Director provider
 *   app-admin/[topngx](https://github.com/gsquire/topngx) | A top for NGINX
 *   app-admin/[trailscraper](https://github.com/flosell/trailscraper) | Command-line tool to get information out of AWS CloudTrail
 *   app-admin/[tztail](https://github.com/thecasualcoder/tztail) | A log view in various timezones
-*   app-admin/[userdbadm](https://nasauber.de/opensource/userdbadm) | Tool to manage (PAM) userdb files with crypted passwords
-*   app-admin/[uwsgitop](https://github.com/unbit/uwsgitop) | uWSGI stats viewer
+*   app-admin/[userdbadm](https://nasauber.de/opensource/userdbadm/) | Tool to manage (PAM) userdb files with crypted passwords
+*   app-admin/[uwsgitop](https://github.com/xrmx/uwsgitop) | uWSGI stats viewer
 *   app-admin/[vault-backend-migrator](https://github.com/adamdecaf/vault-backend-migrator) | Tool to migrate data across vault clusters
 *   app-admin/[vcd-cli](https://github.com/vmware/vcd-cli) | Utility to check AWS resource limits and usage
-*   app-admin/[vector-bin](https://github.com/timberio/vector) | High performance logs, metrics, and events router
+*   app-admin/[vector-bin](https://github.com/vectordotdev/vector) | High performance logs, metrics, and events router
 *   app-admin/[whatfiles](https://github.com/spieglt/whatfiles) | Log what files are accessed by any Linux process
 *   app-admin/[yaml-vault](https://github.com/Jimdo/yaml-vault) | Utility to import/export data from HashiCorp Vault
 *   app-backup/[clickhouse-backup](https://github.com/AlexAkulov/clickhouse-backup) | Tool for easy ClickHouse backup and restore
 *   app-backup/[hashget](https://github.com/yaroslaff/hashget) | Deduplication tool for archiving data with extremely high ratio
 *   app-backup/[pgbackrest](https://pgbackrest.org) | Reliable PostgreSQL Backup & Restore
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/zbackup.svg)](https://repology.org/metapackage/zbackup) app-backup/[zbackup](https://github.com/zbackup/zbackup) | A versatile deduplicating backup tool
-*   app-backup/[urbackup-client](https://urbackup.org) | Client Server backup system
-*   app-backup/[urbackup-server](https://urbackup.org) | Client Server backup system
+*   app-backup/[urbackup-client](https://www.urbackup.org/) | Client Server backup system
+*   app-backup/[urbackup-server](https://www.urbackup.org/) | Client Server backup system
 *   app-backup/[wal-g](https://github.com/wal-g/wal-g) | Archival restoration tool for databases
 *   app-crypt/[acmebot](https://github.com/plinss/acmebot) | ACME protocol automatic certitificate manager
-*   app-crypt/[acme-client](https://github.com/graywolf/acme-client-portable) | Secure Let's Encrypt client
+*   app-crypt/[acme-client](https://git.sr.ht/~graywolf/acme-client-portable) | Secure Let's Encrypt client
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/acme.sh.svg)](https://repology.org/metapackage/acme.sh) app-crypt/[acme-sh](https://github.com/acmesh-official/acme.sh) | An ACME Shell script
 *   app-crypt/[age](https://github.com/FiloSottile/age) | Simple, modern and secure encryption tool
 *   app-crypt/[qesteidutil](https://github.com/open-eid/qesteidutil) | Estonian ID card management desktop utility
@@ -118,7 +119,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-misc/[cheat](https://github.com/cheat/cheat) | Interactive cheatsheets on the command-line
 *   app-misc/[cointop](https://github.com/cointop-sh/cointop) | Interactive cryptocurrency monitor
 *   app-misc/[cryptr-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
-*   app-misc/[deco](https://deco.sourceforge.net) | Demos Commander, a free Norton Commander clone
+*   app-misc/[deco](https://sourceforge.net/projects/deco/) | Demos Commander, a free Norton Commander clone
 *   app-misc/[jshon](http://kmkeen.com/jshon) | JSON parser designed for maximum convenience within the shell
 *   app-misc/[jsqry-cli2-bin](https://github.com/jsqry/jsqry-cli2) | CLI tool (similar to jq) to query JSON using sane DSL
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/pet.svg)](https://repology.org/metapackage/pet) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
@@ -530,7 +531,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-vcs/[mercurial_keyring](https://foss.heptapod.net/mercurial/mercurial_keyring) | Mercurial Keyring Extension
 *   dev-vcs/[pre-commit](https://github.com/pre-commit/pre-commit) | A framework for multi-language pre-commit hooks
 *   dev-vcs/[transcrypt](https://github.com/elasticdog/transcrypt) | Transparently encrypt files within a git repository
-*   gnome-base/[dconf](https://wiki.gnome.org/Projects/dconf) | Simple low-level configuration system
 *   kde-misc/[applet-latte-analogclock](https://github.com/psifidotos/applet-latte-analogclock) | Analog clock applet that respects Latte items size
 *   kde-misc/[applet-latte-separator](https://github.com/psifidotos/applet-latte-separator) | Plasma 5 applet that acts as a separator between applets
 *   kde-misc/[applet-latte-sidebar-button](https://github.com/psifidotos/applet-latte-sidebar-button) | Plasma 5 applet to show and hide Latte Sidebars
