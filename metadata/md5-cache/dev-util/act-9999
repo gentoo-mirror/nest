@@ -1,0 +1,14 @@
+BDEPEND=test? ( app-containers/docker ) >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Run your GitHub Actions locally
+EAPI=8
+HOMEPAGE=https://github.com/nektos/act
+INHERIT=git-r3 go-module
+IUSE=test
+LICENSE=MIT
+PROPERTIES=test_network live
+RDEPEND=app-containers/docker-cli
+RESTRICT=test strip
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	go-module	3b47b6e0e18257d2abb17663c575fc36
+_md5_=ffaa57cd4885b427d14a5f2d0a21f046
