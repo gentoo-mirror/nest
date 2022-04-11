@@ -5,9 +5,9 @@ on:
     branches:
       - master
     paths-ignore:
-      - '*.md'
-      - '*.yml'
-      - '*.xml'
+      - '**.md'
+      - '**.yml'
+      - '**.xml'
       - 'Manifest'
       - '.cz'
       - '.gitignore'
@@ -15,9 +15,9 @@ on:
     branches:
       - master
     paths-ignore:
-      - '*.md'
-      - '*.yml'
-      - '*.xml'
+      - '**.md'
+      - '**.yml'
+      - '**.xml'
       - 'Manifest'
       - '.cz'
       - '.gitignore'
@@ -65,7 +65,7 @@ jobs:
         with:
           cond: ${{ steps.changed-files-specific.outputs.any_changed == 'true' }}
           if_true: "--keywords=-RedundantVersion"
-          if_false: "--net --keywords=-RedundantVersion"
+          if_false: "--keywords=-RedundantVersion"
       - name: Run pkgcheck
         uses: pkgcore/pkgcheck-action@v1
         with:

@@ -10,11 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Jshon loads json text from stdin, performs actions, then displays
-	the last action on stdout. Some of the options output json,
-	others output plain text meta information.
+	This package provides an utility that allows to run GitHub Actions locally,
+	by detemining the set of actions that need to be run from .github/workflows/.
+	It uses the Docker API to either pull or build the necessary images,
+	as defined in your workflow files and finally determines the execution path.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">keenerd/jshon</remote-id>
+		<remote-id type="github">nektos/act</remote-id>
 	</upstream>
 </pkgmetadata>
