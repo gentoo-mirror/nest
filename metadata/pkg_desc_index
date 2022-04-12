@@ -153,7 +153,7 @@ app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane
 app-misc/pet 0.4.0 9999: Simple command-line snippet manager
 app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
-app-office/drawio-desktop-bin 17.2.4: Diagram drawing application built on web technology
+app-office/drawio-desktop-bin 17.4.2: Diagram drawing application built on web technology
 app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
 app-shells/peco 0.5.8 9999: Simplistic interactive filtering tool
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
