@@ -1,7 +1,7 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 EGIT_REPO_URI="https://github.com/muesli/${PN}.git"
 
@@ -11,10 +11,9 @@ DESCRIPTION="Disk Usage/Free Utility"
 HOMEPAGE="https://github.com/muesli/duf"
 SRC_URI=""
 
-LICENSE="BSD MIT"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
 
 src_unpack() {
 	git-r3_src_unpack
@@ -22,10 +21,18 @@ src_unpack() {
 }
 
 src_compile() {
-	go build || die "build failed"
+	COMMIT="$(git rev-parse --short HEAD)"
+	LDFLAGS="-s -w -X main.Version=${PV} -X main.CommitSHA=${COMMIT}"
+
+	go build -ldflags "${LDFLAGS}" -trimpath || die "build failed"
+}
+
+src_test() {
+	go test -work ./... || die "test failed"
 }
 
 src_install() {
 	einstalldocs
 	dobin duf
+	doman duf.1
 }

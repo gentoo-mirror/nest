@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 621](https://img.shields.io/badge/ebuild-621-orange.svg)](https://img.shields.io/badge/ebuild-621-orange.svg)
+[![Number of ebuilds: 629](https://img.shields.io/badge/ebuild-629-orange.svg)](https://img.shields.io/badge/ebuild-629-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01c60be97b884ea78bba7c232a4d8ca8)](https://www.codacy.com/gh/SpiderX/portage-overlay/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
@@ -95,6 +95,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-backup/[urbackup-client](https://www.urbackup.org/) | Client Server backup system
 *   app-backup/[urbackup-server](https://www.urbackup.org/) | Client Server backup system
 *   app-backup/[wal-g](https://github.com/wal-g/wal-g) | Archival restoration tool for databases
+*   app-containers/[lazydocker](https://github.com/jesseduffield/lazydocker) | Lazier way to manage everything docker
 *   app-crypt/[acmebot](https://github.com/plinss/acmebot) | ACME protocol automatic certitificate manager
 *   app-crypt/[acme-client](https://git.sr.ht/~graywolf/acme-client-portable) | Secure Let's Encrypt client
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/acme.sh.svg)](https://repology.org/metapackage/acme.sh) app-crypt/[acme-sh](https://github.com/acmesh-official/acme.sh) | An ACME Shell script
@@ -114,12 +115,15 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-metrics/[amazon-cloudwatch-agent](https://github.com/aws/amazon-cloudwatch-agent) | Amazon Cloudwatch Agent
 *   app-metrics/[aws-otel-collector](https://github.com/aws-observability/aws-otel-collector) | Amazon AWS Opentelemetry Collector
 *   app-metrics/[do-agent](https://github.com/digitalocean/do-agent) | DigitalOcean Agent for Enhanced Droplet Graphs
+*   app-misc/[ag](https://github.com/ggreer/the_silver_searcher) | A code-searching tool with a focus on speed
 *   app-misc/[android-file-transfer-linux](https://whoozle.github.io/android-file-transfer-linux/) | Reliable MTP client with minimalistic UI
 *   app-misc/[ccut](https://github.com/ColumPaget/ColumsCut) | A unix cut command with a couple of extra features
 *   app-misc/[cheat](https://github.com/cheat/cheat) | Interactive cheatsheets on the command-line
 *   app-misc/[cointop](https://github.com/cointop-sh/cointop) | Interactive cryptocurrency monitor
 *   app-misc/[cryptr-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
 *   app-misc/[deco](https://sourceforge.net/projects/deco/) | Demos Commander, a free Norton Commander clone
+*   app-misc/[fq](https://github.com/wader/fq) | Command-line JSON processor for binary data
+*   app-misc/[gron](https://github.com/tomnomnom/gron) | Make JSON greppable
 *   app-misc/[jshon](http://kmkeen.com/jshon/) | JSON parser designed for maximum convenience within the shell
 *   app-misc/[jsqry-cli2-bin](https://github.com/jsqry/jsqry-cli2) | CLI tool (similar to jq) to query JSON using sane DSL
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/pet.svg)](https://repology.org/metapackage/pet) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
@@ -512,6 +516,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-util/[hotspot](https://github.com/KDAB/hotspot) | Linux perf GUI for performance analysis
 *   dev-util/[insomnia-bin](https://insomnia.rest) | HTTP and GraphQL client for developers
 *   dev-util/[jwt_tool](https://github.com/ticarpi/jwt_tool) | A toolkit for testing, tweaking and cracking JSON Web Tokens
+*   dev-util/[lazygit](https://github.com/jesseduffield/lazygit) | Simple terminal UI for git commands
 *   dev-util/[mapforce-advanced](https://www.altova.com/mapforce) | Advanced data mapping, conversion, and transformation tool
 *   dev-util/[ovftool](https://www.vmware.com/support/developer/ovf) | VMware Open Virtualization Format tool
 *   dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
@@ -622,6 +627,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   net-misc/[awscurl](https://github.com/okigan/awscurl) | Make signed requests to AWS API
 *   net-misc/[bngblaster](https://github.com/rtbrick/bngblaster) | A tool to simulate thousands of PPPoE or IPoE subscribers
 *   net-misc/[comcast](https://github.com/tylertreat/Comcast) | Network problems simulator
+*   net-misc/[curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/dhcdrop.svg)](https://repology.org/metapackage/dhcdrop) net-misc/[dhcdrop](http://www.netpatch.ru/dhcdrop.html) | Effectively suppresses illegal DHCP servers on the LAN
 *   net-misc/[dnsflood](https://github.com/hawell/dns-flood) | Use raw sockets to generate DNS flood attack
 *   net-misc/[ec2-instance-connect](https://github.com/aws/aws-ec2-instance-connect-config) | AWS EC2 Instance Connect Configuration
@@ -667,7 +673,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   [![Gentoo Bug](https://img.shields.io/badge/Bug-498844-red.svg)](https://bugs.gentoo.org/498844) net-vpn/[softether](http://www.softether.org) | Multi-protocol VPN software
 *   sci-visualization/[visidata](https://github.com/saulpw/visidata) | Terminal spreadsheet multitool for discovering and arranging data
 *   sys-apps/[aptly](https://github.com/aptly-dev/aptly) | A swiss army knife for Debian repository management
-*   sys-apps/[duf](https://github.com/muesli/duf) | Disk Usage/Free Utility
+*   sys-apps/[direnv](https://github.com/direnv/direnv) | Environment variable manager for shell
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/ethq.svg)](https://repology.org/metapackage/ethq) sys-apps/[ethq](https://github.com/isc-projects/ethq) | Ethernet NIC Queue stats viewer
 *   sys-apps/[evhz](https://git.sr.ht/~iank/evhz) | Mouse refresh rate under evdev
 *   sys-apps/[firetools](https://firejail.wordpress.com) | Graphical user interface of Firajail security sandbox
@@ -677,9 +683,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   sys-apps/[swapspace](https://github.com/Tookmund/Swapspace) | A dynamic swap space manager
 *   sys-cluster/[minishift-bin](https://github.com/minishift/minishift) | Single Node OpenShift Cluster
 *   sys-fs/[adhocify](https://github.com/quitesimpleorg/adhocify) | Tool which monitors for inotify events and executes script
+*   sys-fs/[duf](https://github.com/muesli/duf) | Disk Usage/Free Utility
 *   sys-fs/[xfs_undelete](https://github.com/ianka/xfs_undelete) | An undelete tool for the XFS filesystem
 *   sys-power/[freqtop](https://github.com/stolk/freqtop) | Monitor for the CPU Frequency Scaling under Linux
 *   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/powerstat.svg)](https://repology.org/metapackage/powerstat) sys-power/[powerstat](https://launchpad.net/ubuntu/+source/powerstat) | Laptop power measuring tool
+*   sys-process/[btop](https://github.com/aristocratos/btop) | A monitor of resources
 *   sys-process/[falco-bin](https://falco.org) | Cloud-Native runtime security
 *   sys-process/[nq](https://github.com/leahneukirchen/nq) | Unix command line queue utility
 *   www-apps/[draw-io](https://github.com/jgraph/drawio) | Online diagramming web application

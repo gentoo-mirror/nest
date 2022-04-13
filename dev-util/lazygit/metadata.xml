@@ -10,14 +10,13 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Simple Disk Usage/Free Utility with capabilities fo :
-	User-friendly, colorful output
-	Adjusts to your terminal's width
-	Sort the results according to your needs
-	Groups and filters devices
-	Can conveniently output JSON
+	lazygit is a CLI tool to handle git repositories, written in Go with
+	the gocui library. You can add files easily, resolve merge conflicts,
+	checkout recent branches easily, scroll through logs/diffs of
+	branches/commits.stash, push/pull quickly, squash down and rename
+	commits in CLI.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">muesli/duf</remote-id>
+		<remote-id type="github">jesseduffield/lazygit</remote-id>
 	</upstream>
 </pkgmetadata>

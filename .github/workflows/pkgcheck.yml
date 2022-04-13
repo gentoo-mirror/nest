@@ -55,10 +55,13 @@ jobs:
             dev-vcs/gitaly/*.ebuild
             app-metrics/amazon-cloudwatch-agent/*.ebuild
             app-metrics/aws-otel-collector/*.ebuild
+            app-misc/fq/*.ebuild
+            app-misc/gron/*.ebuild
             app-misc/pet/*.ebuild
             dev-util/packer/*.ebuild
             dev-util/tickgit/*.ebuild
             net-analyzer/sx/*.ebuild
+            net-misc/curlie/*.ebuild
             net-misc/wuzz/*.ebuild
             sys-apps/aptly/*.ebuild
             www-servers/gitlab-workhorse/*.ebuild
