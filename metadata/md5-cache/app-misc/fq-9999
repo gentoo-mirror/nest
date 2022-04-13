@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Command-line JSON processor for binary data
+EAPI=8
+HOMEPAGE=https://github.com/wader/fq
+INHERIT=git-r3 go-module
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	go-module	3b47b6e0e18257d2abb17663c575fc36
+_md5_=08a1247602564f5077a4959686e69424

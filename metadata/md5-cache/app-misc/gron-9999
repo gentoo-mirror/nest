@@ -1,12 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip
-DEFINED_PHASES=compile install unpack
-DESCRIPTION=Disk Usage/Free Utility
-EAPI=7
-HOMEPAGE=https://github.com/muesli/duf
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Make JSON greppable
+EAPI=8
+HOMEPAGE=https://github.com/tomnomnom/gron
 INHERIT=git-r3 go-module
-LICENSE=BSD MIT
+LICENSE=MIT
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	go-module	3b47b6e0e18257d2abb17663c575fc36
-_md5_=ab9fb1130967cda86e4c9338facd16a4
+_md5_=f70f3cab59de9bd266b62d6a99e35645
