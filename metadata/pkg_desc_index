@@ -160,6 +160,7 @@ app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
 app-office/drawio-desktop-bin 17.4.2: Diagram drawing application built on web technology
 app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
 app-shells/peco 0.5.8 9999: Simplistic interactive filtering tool
+app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
 dev-cpp/belr 5.1.3 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_p20210806 9999: A collection of C++ libraries (successor of libcult)
@@ -643,6 +644,7 @@ net-misc/virtualhere-usb 9999: Share USB devices over the network
 net-misc/websocat 1.6.0 9999: Netcat, curl and socat for WebSockets
 net-misc/wuzz 0.5.0 9999: Interactive cli tool for HTTP inspection
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
+net-misc/xh 0.15.0 9999: Friendly and fast tool for sending HTTP requests
 net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
