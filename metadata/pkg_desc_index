@@ -660,13 +660,17 @@ net-vpn/openvpn-aws 2.5.2: Patched OpenVPN with SAML support for AWS Client VPN
 net-vpn/softether 4.34_beta9744 4.34_p9745 9999: Multi-protocol VPN software
 sci-visualization/visidata 2.4 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
+sys-apps/choose 1.3.3 9999: Fast alternative to cut and awk
 sys-apps/direnv 2.31.0 9999: Environment variable manager for shell
+sys-apps/dust 0.8.0 9999: More intuitive version of du
 sys-apps/ethq 0.6.1 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.64 9999: Graphical user interface of Firajail security sandbox
+sys-apps/jless 0.8.0 9999: Command-line JSON viewer
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
 sys-apps/psi-notify 1.0.1 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
+sys-apps/sd 0.7.6 9999: An intuitive find and replace tool
 sys-apps/swapspace 1.17 9999: A dynamic swap space manager
 sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 1.1 9999: Tool which monitors for inotify events and executes script
