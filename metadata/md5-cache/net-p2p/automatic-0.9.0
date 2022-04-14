@@ -1,14 +1,16 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 virtual/pkgconfig
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 virtual/pkgconfig
 DEFINED_PHASES=install postinst prepare
 DEPEND=acct-user/automatic dev-libs/libxml2:2 dev-libs/libpcre:3 net-misc/curl
 DESCRIPTION=RSS downloader for Tranmission
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/1100101/Automatic
 INHERIT=autotools readme.gentoo-r1 systemd
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
+PROPERTIES=test_network
 RDEPEND=acct-user/automatic dev-libs/libxml2:2 dev-libs/libpcre:3 net-misc/curl
+RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/1100101/Automatic/archive/v0.8.3.tar.gz -> automatic-0.8.3.tar.gz
+SRC_URI=https://github.com/1100101/Automatic/archive/v0.9.0.tar.gz -> automatic-0.9.0.tar.gz
 _eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	a7813cfab8862ac10bcf3e01efb3f5c4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=2976ef7a624c252d2a31c3bf7c62c2f7
+_md5_=01d95335e6b20e35ff2e84e5c3b3d732

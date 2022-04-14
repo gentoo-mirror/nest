@@ -645,7 +645,7 @@ net-misc/websocat 1.6.0 9999: Netcat, curl and socat for WebSockets
 net-misc/wuzz 0.5.0 9999: Interactive cli tool for HTTP inspection
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
 net-misc/xh 0.15.0 9999: Friendly and fast tool for sending HTTP requests
-net-p2p/automatic 0.8.3 9999: RSS downloader for Tranmission
+net-p2p/automatic 0.9.0 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable file synchronization tool
