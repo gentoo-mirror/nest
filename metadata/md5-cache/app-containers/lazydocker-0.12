@@ -10,5 +10,5 @@ PROPERTIES=test_network
 RESTRICT=test strip
 SLOT=0
 SRC_URI=https://github.com/jesseduffield/lazydocker/archive/v0.12.tar.gz -> lazydocker-0.12.tar.gz
-_eclasses_=go-module	3b47b6e0e18257d2abb17663c575fc36
+_eclasses_=go-module	a13d34fe4e2996720e1ca6c53b9ea95a
 _md5_=cc348e70a1ad19386b9e5c845e7d8178
