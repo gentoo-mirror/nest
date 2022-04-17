@@ -477,6 +477,7 @@ dev-python/versionfinder 1.1.1 9999: Find version of python package, installed v
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/yattag 1.14.0 9999: Generate HTML or XML in a pythonic way
 dev-util/act 0.2.26 9999: Run your GitHub Actions locally
+dev-util/actionlint 1.6.12 9999: Static checker for GitHub Actions workflow files
 dev-util/arctype 0.9.54.6573: SQL client for PostgreSQL and MySQL
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
