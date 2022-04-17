@@ -690,6 +690,6 @@ www-plugins/chrome-token-signing 1.0.7 9999: Native client and extension for sig
 www-plugins/vdhcoapp-bin 1.6.1: Companion application for Video DownloadHelper browser add-on
 www-servers/gitlab-workhorse 8.43.0 9999: GitLab reverse proxy
 x11-misc/RazerGenie 0.8.1 0.9.0 9999: Razer devices configurator
-x11-misc/libinput-gestures 2.67 9999: Actions gestures on your touchpad using libinput
+x11-misc/libinput-gestures 2.72 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
 x11-misc/openrazer 3.0.1 9999: Linux drivers for the Razer devices
