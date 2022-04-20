@@ -621,6 +621,7 @@ net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuratio
 net-misc/ec2-instance-connect-cli 1.0.2 9999: Python client for accessing EC2 instances via EC2 Instance Connect
 net-misc/fiche 0.9.1 9999: Command line pastebin server
 net-misc/kcat 1.7.0 9999: Generic command line non-JVM Apache Kafka producer and consumer
+net-misc/lychee 0.9.0 9999: Fast, async, stream-based link checker
 net-misc/mpssh 1.3.3 9999: Mass parallel ssh
 net-misc/msd 9999: Program for IP TV streaming on the network via HTTP
 net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
