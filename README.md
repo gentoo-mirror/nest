@@ -2,7 +2,7 @@
 
 [![Number of ebuilds: 637](https://img.shields.io/badge/ebuild-637-orange.svg)](https://img.shields.io/badge/ebuild-637-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/projects/2323)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01c60be97b884ea78bba7c232a4d8ca8)](https://www.codacy.com/gh/SpiderX/portage-overlay/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
 [![gentoo qa-reports](https://img.shields.io/badge/gentoo-QA%20report-6E56AF)](https://qa-reports.gentoo.org/output/repos/nest.html)
 [![gentoo overlay](https://img.shields.io/badge/gentoo-overlay-yellow)](https://github.com/gentoo-mirror/nest)
@@ -26,13 +26,13 @@ eselect repository enable nest
 layman -fa nest
 ```
 
-For manual install, through [local overlays](https://wiki.gentoo.org/wiki/Overlay/Local_overlay), you should add this in `/etc/portage/repos.conf/nest.conf`:
+For manual install, through [local overlay](https://wiki.gentoo.org/wiki/Creating_an_ebuild_repository), you should add this in `/etc/portage/repos.conf/nest.conf`:
 
 ```console
 [nest]
-location = /usr/local/portage/nest
+location = /var/db/repos/nest
 sync-type = git
-sync-uri = https://github.com/spiderx/portage-overlay.git
+sync-uri = https://github.com/gentoo-mirror/nest.git
 priority=9999
 ```
 
@@ -40,7 +40,7 @@ Afterwards, simply run `emerge --sync`, and Portage should seamlessly make all o
 
 ## List of Ebuilds
 
-This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for projects:
+This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds for projects:
 
 *   app-admin/[awsdtc](https://github.com/c1982/awsdtc) | AWS Data Transfer Cost Explorer
 *   app-admin/[awslimitchecker](https://github.com/jantman/awslimitchecker) | Utility to check AWS resource limits and usage
@@ -65,7 +65,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-admin/[fselect](https://github.com/jhspetersson/fselect) | Find files with SQL-like queries
 *   app-admin/[grex](https://github.com/pemistahl/grex) | A CLI tool for generating regular expressions
 *   app-admin/[ibmcloud-bin](https://github.com/IBM-Cloud/ibm-cloud-cli-release) | IBM Cloud Developer Tools
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/qtpass.svg)](https://repology.org/metapackage/qtpass) app-admin/[qtpass](https://qtpass.org) | multi-platform GUI for pass, the standard unix password manager
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/qtpass.svg?header=)](https://repology.org/project/qtpass/versions) app-admin/[qtpass](https://qtpass.org) | multi-platform GUI for pass, the standard unix password manager
 *   app-admin/[jl](https://github.com/koenbollen/jl) | A tool for working with structured JSON logging
 *   app-admin/[kconfig-hardened-check](https://github.com/a13xp0p0v/kconfig-hardened-check) | A script to check the hardening options in the Linux kernel config
 *   app-admin/[netutils-linux](https://github.com/strizhechenko/netutils-linux) | Suite of network stack performance tunning utilities
@@ -92,14 +92,14 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-backup/[clickhouse-backup](https://github.com/AlexAkulov/clickhouse-backup) | Tool for easy ClickHouse backup and restore
 *   app-backup/[hashget](https://github.com/yaroslaff/hashget) | Deduplication tool for archiving data with extremely high ratio
 *   app-backup/[pgbackrest](https://pgbackrest.org) | Reliable PostgreSQL Backup & Restore
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/zbackup.svg)](https://repology.org/metapackage/zbackup) app-backup/[zbackup](https://github.com/zbackup/zbackup) | A versatile deduplicating backup tool
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/zbackup.svg?header=)](https://repology.org/project/zbackup/versions) app-backup/[zbackup](https://github.com/zbackup/zbackup) | A versatile deduplicating backup tool
 *   app-backup/[urbackup-client](https://www.urbackup.org/) | Client Server backup system
 *   app-backup/[urbackup-server](https://www.urbackup.org/) | Client Server backup system
 *   app-backup/[wal-g](https://github.com/wal-g/wal-g) | Archival restoration tool for databases
 *   app-containers/[lazydocker](https://github.com/jesseduffield/lazydocker) | Lazier way to manage everything docker
 *   app-crypt/[acmebot](https://github.com/plinss/acmebot) | ACME protocol automatic certitificate manager
 *   app-crypt/[acme-client](https://git.sr.ht/~graywolf/acme-client-portable) | Secure Let's Encrypt client
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/acme.sh.svg)](https://repology.org/metapackage/acme.sh) app-crypt/[acme-sh](https://github.com/acmesh-official/acme.sh) | An ACME Shell script
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/acme.sh.svg?header=)](https://repology.org/project/acme.sh/versions) app-crypt/[acme-sh](https://github.com/acmesh-official/acme.sh) | An ACME Shell script
 *   app-crypt/[age](https://github.com/FiloSottile/age) | Simple, modern and secure encryption tool
 *   app-crypt/[qesteidutil](https://github.com/open-eid/qesteidutil) | Estonian ID card management desktop utility
 *   app-crypt/[totp](https://github.com/arcanericky/totp) | Time-Based One-Time Password Code Generator
@@ -107,11 +107,11 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-editors/[FeatherPad](https://github.com/tsujan/FeatherPad) | Lightweight Qt5 plain-text editor
 *   app-editors/[lite](https://github.com/rxi/lite) | A lightweight text editor written in Lua
 *   app-editors/[micro](https://github.com/zyedidia/micro) | A modern and intuitive terminal-based text editor
-*   app-emulation/[looking-glass](https://looking-glass.hostfission.com) | A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
+*   app-emulation/[looking-glass](https://looking-glass.io) | A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 *   app-emulation/[qio](https://github.com/SpiderX/qio) | QEMU Init OpenRC
 *   app-emulation/[vmware-modules](https://github.com/mkubecek/vmware-host-modules) | VMware kernel modules
-*   app-emulation/[vmware-vmrc](https://www.vmware.com/go/download-vmrc) | VMware Remote Console
-*   app-emulation/[vmware-workstation](http://www.vmware.com/products/workstation) | Emulate a complete PC without the performance overhead
+*   app-emulation/[vmware-vmrc](https://docs.vmware.com/en/VMware-Remote-Console/index.html) | VMware Remote Console
+*   app-emulation/[vmware-workstation](https://www.vmware.com/products/workstation-pro.html) | Emulate a complete PC without the performance overhead
 *   app-forensics/[gitleaks](https://github.com/zricethezav/gitleaks) | Auditing git repository for secrets and keys
 *   app-metrics/[amazon-cloudwatch-agent](https://github.com/aws/amazon-cloudwatch-agent) | Amazon Cloudwatch Agent
 *   app-metrics/[aws-otel-collector](https://github.com/aws-observability/aws-otel-collector) | Amazon AWS Opentelemetry Collector
@@ -127,29 +127,29 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   app-misc/[gron](https://github.com/tomnomnom/gron) | Make JSON greppable
 *   app-misc/[jshon](http://kmkeen.com/jshon/) | JSON parser designed for maximum convenience within the shell
 *   app-misc/[jsqry-cli2-bin](https://github.com/jsqry/jsqry-cli2) | CLI tool (similar to jq) to query JSON using sane DSL
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/pet.svg)](https://repology.org/metapackage/pet) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/pet.svg?header=)](https://repology.org/project/pet/versions) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
 *   app-misc/[topfew](https://github.com/timbray/topfew) | Finds most often fields in a stream of records
 *   app-misc/[up](https://github.com/akavel/up) | Tool for writing Linux pipes with instant live preview
 *   app-misc/[xsv](https://github.com/BurntSushi/xsv) | A fast CSV command line toolkit
 *   app-office/[drawio-desktop-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
 *   app-shells/[fzf](https://github.com/junegunn/fzf) | A command-line fuzzy finder
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/peco.svg)](https://repology.org/metapackage/peco) app-shells/[peco](https://github.com/peco/peco) | Simplistic interactive filtering tool
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/peco.svg?header=)](https://repology.org/project/peco/versions) app-shells/[peco](https://github.com/peco/peco) | Simplistic interactive filtering tool
 *   app-shells/[zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command with supports of all major shells
-*   app-text/[keening](https://github.com/vehk/keening) | A simple command line pastebin designed to be used together with ssh
+*   app-text/[keening](https://github.com/SpiderX/keening) | A simple command line pastebin designed to be used together with ssh
 *   dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr) | Language recognition library by Belledonne Communications
-*   dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend) | A compiler frontend for the W3C XML Schema definition language
-*   dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl) | A collection of C++ libraries (successor of libcult)
+*   dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend/) | A compiler frontend for the W3C XML Schema definition language
+*   dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl/) | A collection of C++ libraries (successor of libcult)
 *   dev-cpp/[open-eid-cmake](https://github.com/open-eid/cmake) | Open Electronic Identity CMake modules
 *   dev-cpp/[string-view-lite](https://github.com/martinmoene/string-view-lite) | A single-file header-only version of a C++17-like string_view
-*   dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd) | A cross-platform W3C XML Schema to C++ data binding compiler
+*   dev-cpp/[xsd](https://www.codesynthesis.com/products/xsd/) | A cross-platform W3C XML Schema to C++ data binding compiler
 *   dev-db/[datanymizer](https://github.com/datanymizer/datanymizer) | Powerful database anonymizer with flexible rules
-*   dev-db/[dbcrossbar](http://www.dbcrossbar.org) | Copy tabular data between databases, CSV files and cloud storage
+*   dev-db/[dbcrossbar](https://www.dbcrossbar.org) | Copy tabular data between databases, CSV files and cloud storage
 *   dev-db/[dbgate-bin](https://github.com/dbgate/dbgate) | Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 *   dev-db/[litestream](https://github.com/benbjohnson/litestream) | Streaming S3 replication for SQLite
-*   dev-db/[msodbcsql](https://docs.microsoft.com/en-us/sql/connect/odbc) | Microsoft ODBC Driver for SQL Server
+*   dev-db/[msodbcsql](https://docs.microsoft.com/en-us/sql/connect/odbc/microsoft-odbc-driver-for-sql-server?view=sql-server-ver15) | Microsoft ODBC Driver for SQL Server
 *   dev-db/[mssql-cli](https://github.com/dbcli/mssql-cli) | CLI for SQL Server Database
 *   dev-db/[mssql-scripter](https://github.com/microsoft/mssql-scripter) | CLI for scripting SQL Server Databases
-*   dev-db/[mssql-tools](https://docs.microsoft.com/en-us/sql/tools) | Microsoft SQL Server Tools for Linux
+*   dev-db/[mssql-tools](https://docs.microsoft.com/en-us/sql/tools/overview-sql-tools?view=sql-server-ver15) | Microsoft SQL Server Tools for Linux
 *   dev-db/[pg_cron](https://github.com/citusdata/pg_cron) | Run periodic jobs in PostgreSQL
 *   dev-db/[odyssey](https://github.com/yandex/odyssey) | Scalable PostgreSQL connection pooler
 *   dev-db/[pg_page_verification](https://github.com/google/pg_page_verification) | Checksums verification on PostgreSQL data pages
@@ -158,10 +158,10 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-db/[pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) | A PostgreSQL extension for automatic bloat cleanup
 *   dev-db/[pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) | Advanced scheduling for PostgreSQL
 *   dev-db/[pgcenter](https://github.com/lesovsky/pgcenter) | Command-line admin tool for observing and troubleshooting Postgres
-*   dev-db/[pipelinedb](https://www.pipelinedb.com/) | High-performance time-series aggregation for PostgreSQL
+*   dev-db/[pipelinedb](https://github.com/pipelinedb/pipelinedb) | High-performance time-series aggregation for PostgreSQL
 *   dev-db/[postgresql_anonymizer](https://gitlab.com/dalibo/postgresql_anonymizer) | Anonymization & Data Masking for PostgreSQL
 *   dev-db/[sqlbench](https://github.com/felixge/sqlbench) | Measures and compares execution time of one or more SQL queries
-*   dev-db/[sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage) | Automates SQL Server database development tasks
+*   dev-db/[sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage?view=sql-server-ver15) | Automates SQL Server database development tasks
 *   dev-db/[soci](https://github.com/SOCI/soci) | Database access library for C++
 *   dev-db/[tableplus](https://tableplus.com) | Modern, native, and friendly GUI tool for relational databases
 *   dev-db/[usql](https://github.com/xo/usql) | Universal command-line interface for SQL databases
@@ -194,7 +194,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-haskell/[hasql-notifications](https://github.com/diogob/hasql-notifications) | PostgreSQL Asynchronous notification
 *   dev-haskell/[hasql-pool](https://github.com/nikita-volkov/hasql-pool) | A pool of connections for Hasql
 *   dev-haskell/[hasql-transaction](https://github.com/nikita-volkov/hasql-transaction) | Abstraction over transactions for Hasql
-*   dev-haskell/[heredoc](http://hackage.haskell.org/package/heredoc) | multi-line string / here document using QuasiQuotes
+*   dev-haskell/[heredoc](https://hackage.haskell.org/package/heredoc) | multi-line string / here document using QuasiQuotes
 *   dev-haskell/[hspec-expectations-lifted](https://github.com/hspec/hspec-expectations-lifted) | A version of hspec-expectations generalized to MonadIO
 *   dev-haskell/[hspec-megaparsec](https://github.com/mrkkrp/hspec-megaparsec) | Utility functions for testing Megaparsec parsers with Hspec
 *   dev-haskell/[hspec-wai](https://github.com/hspec/hspec-wai) | Experimental Hspec support for testing WAI applications
@@ -206,7 +206,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-haskell/[ini](https://github.com/chrisdone/ini) | Quick and easy configuration files in the INI format
 *   dev-haskell/[insert-ordered-containers](https://github.com/phadej/insert-ordered-containers) | Associative containers retating insertion order for traversals
 *   dev-haskell/[integer-logarithms](https://github.com/Bodigrim/integer-logarithms) | Integer logarithms
-*   dev-haskell/[integer-simple](http://hackage.haskell.org/package/integer-simple) | Simple Integer library
+*   dev-haskell/[integer-simple](https://hackage.haskell.org/package/integer-simple) | Simple Integer library
 *   dev-haskell/[interpolatedstring-perl6](https://github.com/audreyt/interpolatedstring-perl6) | QuasiQuoter for Perl6 style multi-line interpolated
 *   dev-haskell/[jose](https://github.com/frasertweedale/hs-jose) | Haskell JOSE and JWT library
 *   dev-haskell/[json-ast](https://github.com/nikita-volkov/json-ast) | Universal JSON AST datastructure
@@ -240,14 +240,14 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-haskell/[type-hint](https://github.com/mvv/type-hint) | Haskell library for helping type inference by using proxy values
 *   dev-haskell/[tzdata](https://github.com/nilcons/haskell-tzdata) | Distribution of the standard time zone database
 *   dev-haskell/[unordered-containers](https://github.com/haskell-unordered-containers/unordered-containers) | Efficient hashing-based container types
-*   dev-haskell/[websockets](http://jaspervdj.be/websockets) | Allows you to write WebSocket-capable servers
+*   dev-haskell/[websockets](https://jaspervdj.be/websockets/) | Allows you to write WebSocket-capable servers
 *   dev-haskell/[wai-cors](https://github.com/larskuhtz/wai-cors) | Cross-Origin resource sharing (CORS) for Wai
 *   dev-haskell/[wai-middleware-static](https://github.com/scotty-web/wai-middleware-static) | WAI middleware that serves requests to static files
 *   dev-haskell/[wai-websockets](https://github.com/yesodweb/wai) | Provide a bridge between WAI and the websockets package
 *   dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
 *   dev-libs/[belle-sip](https://gitlab.linphone.org/BC/public/belle-sip) | SIP (RFC3261) implementation
-*   dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp) | GNU ccRTP - Implementation of the IETF real-time transport protocol
-*   dev-libs/[libcommuni](http://communi.github.io) | A cross-platform IRC framework written with Qt
+*   dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp/) | GNU ccRTP - Implementation of the IETF real-time transport protocol
+*   dev-libs/[libcommuni](https://communi.github.io) | A cross-platform IRC framework written with Qt
 *   dev-libs/[libdict](https://github.com/rtbrick/libdict) | C library of key-value data structures
 *   dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
 *   dev-libs/[libdigidocpp](https://github.com/open-eid/libdigidocpp) | Library for handling digitally signed documents
@@ -314,7 +314,6 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 *   dev-python/[aspectlib](https://github.com/ionelmc/python-aspectlib) | Aspect-oriented programming, monkey-patch and decorators library
 *   dev-python/[aws-lambda-powertools](https://github.com/awslabs/aws-lambda-powertools-python) | A suite of Python utilities for AWS Lambda functions
-*   dev-python/[beautifulsoup4](https://www.crummy.com/software/BeautifulSoup) | Option groups missing in Click
 *   dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 *   dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
 *   dev-python/[celery](https://github.com/celery/celery) | Asynchronous task job queue based on distributed message passing
@@ -338,7 +337,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[cyclonedx-python-lib](https://github.com/CycloneDX/cyclonedx-python-lib) | Python library for generating CycloneDX SBOMs
 *   dev-python/[dataclasses](https://github.com/ericvsmith/dataclasses) | A backport of the dataclasses module for Python 3.6
 *   dev-python/[dataclasses-jsonschema](https://github.com/s-knibbs/dataclasses-jsonschema) | JSON schema generation from dataclasses
-*   dev-python/[datadiff](https://sourceforge.net/projects/datadiff) | A library for diffs of python data structures
+*   dev-python/[datadiff](https://sourceforge.net/projects/datadiff/) | A library for diffs of python data structures
 *   dev-python/[dateparser](https://github.com/scrapinghub/dateparser) | Date parsing library designed to parse dates from HTML pages
 *   dev-python/[decli](https://github.com/Woile/decli) | Minimal declarative cli tool
 *   dev-python/[deep_merge](https://github.com/halfak/deep_merge) | A simple utility for merging python dictionaries
@@ -364,7 +363,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[django-pglocks](https://github.com/Xof/django-pglocks) | PostgreSQL locking context managers and functions for Django
 *   dev-python/[django-rest-framework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
 *   dev-python/[django-rest-framework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
-*   dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger) | Swagger UI for Django REST Framework
+*   dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger/) | Swagger UI for Django REST Framework
 *   dev-python/[django-tables2](https://github.com/jieter/django-tables2) | Django application for creating HTML tables
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
 *   dev-python/[dpath](https://github.com/akesterson/dpath-python) | A python module that will check for package updates
@@ -402,7 +401,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 *   dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
-*   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi) | A library for working with ONTAP's REST APIs simply in Python
+*   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
 *   dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 *   dev-python/[openapi-schema-validator](https://github.com/p1c2u/openapi-schema-validator) | OpenAPI schema validation for Python
@@ -441,7 +440,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[pyvmomi](https://github.com/vmware/pyvmomi) | VMware vSphere API Python Bindings
 *   dev-python/[pywinrm](https://github.com/diyan/pywinrm) | Python library for Windows Remote Management
 *   dev-python/[PyMeeus](https://github.com/architest/pymeeus) | Library of astronomical algorithms in Python
-*   dev-python/[PythonQt](https://mevislab.github.io/pythonqt) | A dynamic Python binding for the Qt framework
+*   dev-python/[PythonQt](https://mevislab.github.io/pythonqt/) | A dynamic Python binding for the Qt framework
 *   dev-python/[questionary](https://github.com/tmbo/questionary) | Python library to build pretty command line user prompts
 *   dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
 *   dev-python/[requests-mock](https://github.com/jamielennox/requests-mock) | Mock out responses from the requests package
@@ -450,17 +449,12 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 *   dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-sagan) | A parsing library for RIPE Atlas measurement results
 *   dev-python/[route53-transfer](https://github.com/cosmin/route53-transfer) | Generic access to configuration files in any formats
-*   dev-python/[rstr](https://pypi.org/project/rstr) | Generate random strings in Python
-*   dev-python/[ruamel-ordereddict](https://bitbucket.org/ruamel/ordereddict) | An ordered dictionary with KIO/KVIO
-*   dev-python/[ruamel-std-pathlib](https://bitbucket.org/ruamel/std.pathlib) | Ruamel enhancements to pathlib and pathlib2
-*   dev-python/[ruamel-yaml](https://bitbucket.org/ruamel/yaml) | YAML parser/emitter that supports roundtrip comment preservation
+*   dev-python/[rstr](https://pypi.org/project/rstr/) | Generate random strings in Python
 *   dev-python/[schema](https://github.com/keleshev/schema) | Simple data validation library
 *   dev-python/[selinux](https://github.com/pycontribs/selinux) | Pure-python selinux shim module for use in virtualenvs
 *   dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | Python client for Sentry
-*   dev-python/[sh](https://github.com/amoffat/shellingham) | Python subprocess interface
 *   dev-python/[shellingham](https://github.com/sarugaku/shellingham) | Detects what shell the current Python executable is running in
 *   dev-python/[shouldbe](https://github.com/directxman12/should_be) | A Python Assertions Helper
-*   dev-python/[slimit](https://slimit.readthedocs.io/en/latest) | A JavaScript minifier written in Python
 *   dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
 *   dev-python/[social-auth-core](https://github.com/python-social-auth/social-core) | Python Social Auth - Core
 *   dev-python/[social-auth-app-django](https://github.com/python-social-auth/social-app-django) | Python Social Auth - Application - Django
@@ -488,7 +482,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-python/[vcd-api-schemas-type](https://github.com/vmware/vcd-api-schemas) | VMware vCloud Director Python API Schemas Type
 *   dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 *   dev-python/[vsphere-guest-run](https://github.com/vmware/vsphere-guest-run) | Python library for guest operations
-*   dev-python/[yattag](http://www.yattag.org) | Generate HTML or XML in a pythonic way
+*   dev-python/[yattag](https://www.yattag.org) | Generate HTML or XML in a pythonic way
 *   dev-util/[act](https://github.com/nektos/act) | Run your GitHub Actions locally
 *   dev-util/[actionlint](https://github.com/rhysd/actionlint) | Static checker for GitHub Actions workflow files
 *   dev-util/[ansible-molecule](https://github.com/ansible/molecule) | Automated testing for Ansible roles
@@ -504,7 +498,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-util/[cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip) | AWS CloudFormation Template Flip
 *   dev-util/[cfripper](https://github.com/Skyscanner/cfripper) | Analysing CloudFormation templates for security compliance
 *   dev-util/[checkov](https://github.com/bridgecrewio/checkov) | Static code analysis tool for infrastructure-as-code
-*   dev-util/[cli](https://www.codesynthesis.com/projects/cli) | Command Line Interface compiler for C++
+*   dev-util/[cli](https://www.codesynthesis.com/projects/cli/) | Command Line Interface compiler for C++
 *   dev-util/[cloud-utils](https://launchpad.net/cloud-utils) | Utilities for interacting with a cloud
 *   dev-util/[cloudsplaining](https://github.com/salesforce/cloudsplaining) | AWS IAM Security Assessment tool
 *   dev-util/[css-html-js-minify](https://github.com/juancarlospaco/css-html-js-minify) | StandAlone Async cross-platform Minifier for the Web
@@ -521,13 +515,13 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   dev-util/[jwt_tool](https://github.com/ticarpi/jwt_tool) | A toolkit for testing, tweaking and cracking JSON Web Tokens
 *   dev-util/[lazygit](https://github.com/jesseduffield/lazygit) | Simple terminal UI for git commands
 *   dev-util/[mapforce-advanced](https://www.altova.com/mapforce) | Advanced data mapping, conversion, and transformation tool
-*   dev-util/[ovftool](https://www.vmware.com/support/developer/ovf) | VMware Open Virtualization Format tool
+*   dev-util/[ovftool](https://developer.vmware.com/tools) | VMware Open Virtualization Format tool
 *   dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
 *   dev-util/[policy_sentry](https://github.com/salesforce/policy_sentry) | AWS IAM Least Privilege Policy Generator
 *   dev-util/[postman](https://www.postman.com) | Build, test, and document your APIs faster
 *   dev-util/[python-hcl2](https://github.com/amplify-education/python-hcl2) | A parser for HCL2 written in Python
 *   dev-util/[sqlfluff](https://github.com/sqlfluff/sqlfluff) | A SQL linter and auto-formatter
-*   dev-util/[swapusage](https://www.codesynthesis.com/hhoffstaette/swapusage) | Amount of swapped memory for running processes
+*   dev-util/[swapusage](https://github.com/hhoffstaette/swapusage) | Amount of swapped memory for running processes
 *   dev-util/[taskcat](https://github.com/aws-quickstart/taskcat) | An OpenSource Cloudformation Deployment Framework
 *   dev-util/[testmace](https://testmace.com) | Powerful IDE to work with API
 *   dev-util/[tickgit](https://github.com/augmentable-dev/tickgit) | Manage your repository's TODOs as config in your codebase
@@ -567,7 +561,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   media-gfx/[guetzli](https://github.com/google/guetzli) | Perceptual JPEG encoder
 *   media-gfx/[lsix](https://github.com/hackerb9/lsix) | Image viewer for terminal that use sixel graphics
 *   media-gfx/[nomacs](https://nomacs.org) | Qt-based image viewer
-*   media-gfx/[qView](https://interversehq.com/qview) | Practical and minimal image viewer
+*   media-gfx/[qView](https://interversehq.com/qview/) | Practical and minimal image viewer
 *   media-gfx/[pineapple-pictures](https://github.com/BLumia/pineapple-pictures) | A homebrew lightweight image viewer
 *   media-gfx/[pingo-bin](https://css-ig.net/pingo) | Fast web image optimizer
 *   media-gfx/[screencloud](https://screencloud.net) | Screenshot capturing and sharing tool over various services
@@ -580,7 +574,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   media-libs/[shine](https://github.com/toots/shine) | Fixed-point mp3 encoding library
 *   media-libs/[QtApng](https://github.com/Skycoder42/QtApng) | An apng image plugin for Qt to support animated PNGs
 *   media-sound/[finetune](https://flavio.tordini.org/finetune) | Automatic music tagger
-*   media-sound/[mpz](https://olegantonyan.github.io/mpz) | Music player for big local collections
+*   media-sound/[mpz](https://mpz-player.org) | Music player for big local collections
 *   media-sound/[musique](https://github.com/flaviotordini/musique) | A finely crafted music player
 *   media-sound/[ncspot](https://github.com/hrkfdn/ncspot) | ncurses Spotify client
 *   media-sound/[plexamp](https://plexamp.com) | Music focused client for Plex
@@ -594,32 +588,32 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   media-video/[rtsp-simple-server](https://github.com/aler9/rtsp-simple-server) | RTSP server and RTSP proxy to read, publish and proxy media stream
 *   net-analyzer/[bandwhich](https://github.com/imsnif/bandwhich) | Network utilization by process, connection and hostname
 *   net-analyzer/[dnsdiag](https://github.com/farrokhi/dnsdiag) | DNS Measurement, Troubleshooting and Security Auditing Toolset
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/goaccess.svg)](https://repology.org/metapackage/goaccess) net-analyzer/[goaccess](https://goaccess.io) | A real-time web log analyzer and interactive viewer in a terminal
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/goaccess.svg?header=)](https://repology.org/project/goaccess/versions) net-analyzer/[goaccess](https://goaccess.io) | A real-time web log analyzer and interactive viewer in a terminal
 *   net-analyzer/[gping](https://github.com/orf/gping) | Ping, but with a graph
 *   net-analyzer/[logswan](https://github.com/fcambus/logswan) | Web log analyzer using probabilistic data structures
-*   net-analyzer/[netgauge](http://www.ookla.com/) | Server software for testing internet bandwidth using speedtest.net
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/nuttcp.svg)](https://repology.org/metapackage/nuttcp) net-analyzer/[nuttcp](http://www.nuttcp.net) | Network performance measurement tool
+*   net-analyzer/[netgauge](https://www.ookla.com) | Server software for testing internet bandwidth using speedtest.net
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/nuttcp.svg?header=)](https://repology.org/project/nuttcp/versions) net-analyzer/[nuttcp](https://www.nuttcp.net) | Network performance measurement tool
 *   net-analyzer/[passivedns](https://github.com/gamelinux/passivedns) | Network sniffer that logs all DNS server replies
 *   net-analyzer/[pkt-netflow](https://github.com/aabc/pkt-netflow) | NetFlow v5, v9, IPFIX flow data exporter
 *   net-analyzer/[python-cymruwhois](https://github.com/JustinAzoff/python-cymruwhois) | Python client for the whois.cymru.com service
 *   net-analyzer/[ripe-atlas-probe](https://github.com/RIPE-NCC/ripe-atlas-software-probe) | RIPE Atlas Software Probe
 *   net-analyzer/[smtpping](https://github.com/halon/smtpping) | Simple, portable tool for measuring SMTP server delay
 *   net-analyzer/[sx](https://github.com/v-byte-cpu/sx) | Fast, modern, easy-to-use network scanner
-*   net-analyzer/[wtraf-bin](https://wtraf.sourceforge.net/) | SNMP traffic monitor in realtime
+*   net-analyzer/[wtraf-bin](https://sourceforge.net/projects/wtraf/) | SNMP traffic monitor in realtime
 *   net-dns/[ddns-route53](https://github.com/crazy-max/ddns-route53) | Dynamic DNS for Amazon Route 53 on a time-based schedule
 *   net-dns/[r53ddns](https://github.com/coord-e/r53ddns) | Updates A record in Route53 with current global IP
 *   net-dns/[flares](https://github.com/lfaoro/flares) | CloudFlare DNS backup tool
-*   net-dns/[inadyn-mt](http://inadyn-mt.sourceforge.net/) | A simple dynamic DNS client
+*   net-dns/[inadyn-mt](https://sourceforge.net/projects/inadyn-mt/) | A simple dynamic DNS client
 *   net-dns/[massdns](https://github.com/blechschmidt/massdns) | A high-performance DNS stub resolver
 *   net-dns/[nsping](https://github.com/vovcat/nsping) | Measure reachability and latency of DNS nameservers
 *   net-firewall/[ipt-ratelimit](https://github.com/aabc/ipt-ratelimit) | Ratelimit iptables module
 *   net-firewall/[xt_dns](https://github.com/oskar456/xt_dns) | Netfilter extension to match various DNS atributes
 *   net-firewall/[xt_nat](https://github.com/andrsharaev/xt_NAT) | Full Cone NAT module for Linux iptables
-*   net-ftp/[weex](https://sourceforge.net/projects/weex) | A non-interactive FTP client for updating web pages
+*   net-ftp/[weex](https://sourceforge.net/projects/weex/) | A non-interactive FTP client for updating web pages
 *   net-im/[communi-desktop](https://github.com/communi/communi-desktop) | A cross-platform IRC framework written with Qt
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/gitter.svg)](https://repology.org/metapackage/gitter) net-im/[gitter-bin](https://www.gitter.im) | Chat and network platform
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/slack.svg)](https://repology.org/metapackage/slack) net-im/[slack](https://www.slack.com) | Team collaboration tool
-*   net-im/[viber](http://www.viber.com) | Free text and calls
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/gitter.svg?header=)](https://repology.org/project/gitter/versions) net-im/[gitter-bin](https://gitter.im) | Chat and network platform
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/slack.svg?header=)](https://repology.org/project/slack/versions) net-im/[slack](https://slack.com) | Team collaboration tool
+*   net-im/[viber](https://www.viber.com/en/) | Free text and calls
 *   net-im/[vk-messenger-bin](https://vk.com/messenger) | Simple and Easy App for Messaging on VK
 *   net-im/[zoom-bin](https://zoom.us) | Video conferencing and web conferencing service
 *   net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox) | Utilities library used by Belledonne Communications softwares
@@ -631,18 +625,18 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   net-misc/[bngblaster](https://github.com/rtbrick/bngblaster) | A tool to simulate thousands of PPPoE or IPoE subscribers
 *   net-misc/[comcast](https://github.com/tylertreat/Comcast) | Network problems simulator
 *   net-misc/[curlie](https://github.com/rs/curlie) | The power of curl, the ease of use of httpie
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/dhcdrop.svg)](https://repology.org/metapackage/dhcdrop) net-misc/[dhcdrop](http://www.netpatch.ru/dhcdrop.html) | Effectively suppresses illegal DHCP servers on the LAN
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/dhcdrop.svg?header=)](https://repology.org/project/dhcdrop/versions) net-misc/[dhcdrop](http://www.netpatch.ru/devel/dhcdrop/) | Effectively suppresses illegal DHCP servers on the LAN
 *   net-misc/[dnsflood](https://github.com/hawell/dns-flood) | Use raw sockets to generate DNS flood attack
 *   net-misc/[ec2-instance-connect](https://github.com/aws/aws-ec2-instance-connect-config) | AWS EC2 Instance Connect Configuration
 *   net-misc/[ec2-instance-connect-cli](https://github.com/aws/aws-ec2-instance-connect-cli) | Python client for accessing EC2 instances via EC2 Instance Connect
-*   [![Gentoo Bug](https://img.shields.io/badge/Bug-536148-red.svg)](https://bugs.gentoo.org/536148) net-misc/[fiche](https://github.com/solusipse/fiche) | Command line pastebin server
+*   [![Gentoo Bug](https://img.shields.io/badge/Bug-536148-red.svg)](https://bugs.gentoo.org/show_bug.cgi?id=536148) net-misc/[fiche](https://github.com/solusipse/fiche) | Command line pastebin server
 *   net-misc/[kcat](https://github.com/edenhill/kcat) | Generic command line non-JVM Apache Kafka producer and consumer
 *   net-misc/[lychee](https://github.com/lycheeverse/lychee) | Fast, async, stream-based link checker
 *   net-misc/[mpssh](https://github.com/ndenev/mpssh) | Mass parallel ssh
 *   net-misc/[ngrok-bin](https://ngrok.com/) | Secure introspected tunnels to localhost
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/pingu.svg)](https://repology.org/metapackage/pingu) net-misc/[pingu](https://github.com/ncopa/pingu) | Policy routing daemon with failover and load-balancing
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/pingu.svg?header=)](https://repology.org/project/pingu/versions) net-misc/[pingu](https://github.com/ncopa/pingu) | Policy routing daemon with failover and load-balancing
 *   net-misc/[qfreerdp](https://github.com/zrax/qfreerdp) | Qt launcher GUI for XFreeRDP
-*   net-misc/[qia](http://stg.codes) | Authorization tool for Stargazer Billing System written in Qt
+*   net-misc/[qia](https://stg.codes) | Authorization tool for Stargazer Billing System written in Qt
 *   net-misc/[msd](https://github.com/rozhuk-im/msd) | Program for IP TV streaming on the network via HTTP
 *   net-misc/[ntripserver](https://github.com/nunojpg/ntripserver) | Ntrip Version 2.0 Command Line Server
 *   net-misc/[opendrop](https://github.com/seemoo-lab/opendrop) | an Open Source AirDrop Implementation
@@ -650,37 +644,37 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   net-misc/[redir](https://github.com/troglobit/redir) | TCP port redirector
 *   net-misc/[rstatd](http://rstatd.sourceforge.net/) | Client-server linux performance statistics
 *   net-misc/[s5cmd](https://github.com/peak/s5cmd) | Parallel S3 and local filesystem execution tool
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/samplicator.svg)](https://repology.org/metapackage/samplicator) net-misc/[samplicator](https://github.com/sleinen/samplicator) | UDP packets forwarder and duplicator
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/samplicator.svg?header=)](https://repology.org/project/samplicator/versions) net-misc/[samplicator](https://github.com/sleinen/samplicator) | UDP packets forwarder and duplicator
 *   net-misc/[slowhttptest](https://github.com/shekyan/slowhttptest) | Application Layer DoS attack simulator
 *   net-misc/[sping](https://github.com/benjojo/sping) | Split ping, shows direction the loss or latency is on
-*   net-misc/[spoofer](https://spoofer.caida.org) | A tool to assess of deployment of source address validation
-*   net-misc/[ssmd](http://stg.codes/projects/ssmd) | SNMP Switch Management Daemon
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/stargazer.svg)](https://repology.org/metapackage/stargazer) net-misc/[stargazer](http://stg.net.ua) | Billing system for small home and office networks
+*   net-misc/[spoofer](https://www.caida.org/projects/spoofer/) | A tool to assess of deployment of source address validation
+*   net-misc/[ssmd](https://stg.codes/projects/ssmd) | SNMP Switch Management Daemon
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/stargazer.svg?header=)](https://repology.org/project/stargazer/versions) net-misc/[stargazer](https://stg.net.ua) | Billing system for small home and office networks
 *   net-misc/[topola](https://topola.unity.net) | Customer accounting system, services and statistics collection management
 *   net-misc/[uredir](https://github.com/troglobit/uredir) | UDP port redirector
 *   net-misc/[virtualhere-usb](https://virtualhere.com) | Share USB devices over the network
 *   net-misc/[websocat](https://github.com/vi/websocat) | Netcat, curl and socat for WebSockets
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/x11-ssh-askpass.svg)](https://repology.org/metapackage/x11-ssh-askpass) net-misc/[x11-ssh-askpass](https://github.com/sigmavirus24/x11-ssh-askpass) | X11-based passphrase dialog for use with OpenSSH
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/x11-ssh-askpass.svg?header=)](https://repology.org/project/x11-ssh-askpass/versions) net-misc/[x11-ssh-askpass](https://github.com/sigmavirus24/x11-ssh-askpass) | X11-based passphrase dialog for use with OpenSSH
 *   net-misc/[xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests
 *   net-misc/[wuzz](https://github.com/asciimoo/wuzz) | Interactive cli tool for HTTP inspection
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/automatic.svg)](https://repology.org/metapackage/automatic) net-p2p/[automatic](https://github.com/1100101/Automatic) | RSS downloader for Tranmission
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/automatic.svg?header=)](https://repology.org/project/automatic/versions) net-p2p/[automatic](https://github.com/1100101/Automatic) | RSS downloader for Tranmission
 *   net-p2p/[gram-wallet-bin](https://wallet.ton.org) | TON Testnet Wallet
 *   net-p2p/[tremotesf](https://github.com/equeim/tremotesf2) | A remote GUI for transmission
-*   [![Gentoo Bug](https://img.shields.io/badge/Bug-214969-red.svg)](https://bugs.gentoo.org/214969) net-p2p/[opentracker](https://github.com/flygoast/opentracker) | High-performance bittorrent tracker
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/resilio-sync.svg)](https://repology.org/metapackage/resilio-sync) net-p2p/[resilio-sync](https://resilio.com) | Resilient, fast and scalable file synchronization tool
+*   [![Gentoo Bug](https://img.shields.io/badge/Bug-214969-red.svg)](https://bugs.gentoo.org/show_bug.cgi?id=214969) net-p2p/[opentracker](https://github.com/flygoast/opentracker) | High-performance bittorrent tracker
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/resilio-sync.svg?header=)](https://repology.org/project/resilio-sync/versions) net-p2p/[resilio-sync](https://www.resilio.com) | Resilient, fast and scalable file synchronization tool
 *   net-voip/[linphone-desktop](https://gitlab.linphone.org/BC/public/linphone-desktop) | A free VoIP and video softphone based on the SIP protocol
 *   net-voip/[twinkle](https://github.com/LubosD/twinkle) | Softphone for voice over IP and IM communication using SIP
-*   net-vpn/[awsvpnclient](https://aws.amazon.com/vpn) | AWS VPN Client
+*   net-vpn/[awsvpnclient](https://aws.amazon.com/vpn/) | AWS VPN Client
 *   net-vpn/[cloudflared](https://github.com/cloudflare/cloudflared) | Argo Tunnel client
 *   net-vpn/[innernet-bin](https://github.com/tonarino/innernet) | WireGuard based private network system
-*   net-vpn/[forticlient](https://www.forticlient.com) | Fortinet VPN client
+*   net-vpn/[forticlient](https://www.fortinet.com/products/endpoint-security/forticlient) | Fortinet VPN client
 *   net-vpn/[openvpn-aws](https://openvpn.net) | Patched OpenVPN with SAML support for AWS Client VPN
-*   [![Gentoo Bug](https://img.shields.io/badge/Bug-498844-red.svg)](https://bugs.gentoo.org/498844) net-vpn/[softether](http://www.softether.org) | Multi-protocol VPN software
+*   [![Gentoo Bug](https://img.shields.io/badge/Bug-498844-red.svg)](https://bugs.gentoo.org/show_bug.cgi?id=498844) net-vpn/[softether](https://www.softether.org) | Multi-protocol VPN software
 *   sci-visualization/[visidata](https://github.com/saulpw/visidata) | Terminal spreadsheet multitool for discovering and arranging data
 *   sys-apps/[aptly](https://github.com/aptly-dev/aptly) | A swiss army knife for Debian repository management
 *   sys-apps/[choose](https://github.com/theryangeary/choose) | Fast alternative to cut and awk
 *   sys-apps/[direnv](https://github.com/direnv/direnv) | Environment variable manager for shell
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/ethq.svg)](https://repology.org/metapackage/ethq) sys-apps/[ethq](https://github.com/isc-projects/ethq) | Ethernet NIC Queue stats viewer
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/ethq.svg?header=)](https://repology.org/project/ethq/versions) sys-apps/[ethq](https://github.com/isc-projects/ethq) | Ethernet NIC Queue stats viewer
 *   sys-apps/[dust](https://github.com/bootandy/dust) | More intuitive version of du
 *   sys-apps/[evhz](https://git.sr.ht/~iank/evhz) | Mouse refresh rate under evdev
 *   sys-apps/[firetools](https://firejail.wordpress.com) | Graphical user interface of Firajail security sandbox
@@ -695,7 +689,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   sys-fs/[duf](https://github.com/muesli/duf) | Disk Usage/Free Utility
 *   sys-fs/[xfs_undelete](https://github.com/ianka/xfs_undelete) | An undelete tool for the XFS filesystem
 *   sys-power/[freqtop](https://github.com/stolk/freqtop) | Monitor for the CPU Frequency Scaling under Linux
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/powerstat.svg)](https://repology.org/metapackage/powerstat) sys-power/[powerstat](https://launchpad.net/ubuntu/+source/powerstat) | Laptop power measuring tool
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/powerstat.svg?header=)](https://repology.org/project/powerstat/versions) sys-power/[powerstat](https://launchpad.net/ubuntu/+source/powerstat) | Laptop power measuring tool
 *   sys-process/[btop](https://github.com/aristocratos/btop) | A monitor of resources
 *   sys-process/[falco-bin](https://falco.org) | Cloud-Native runtime security
 *   sys-process/[nq](https://github.com/leahneukirchen/nq) | Unix command line queue utility
@@ -707,7 +701,7 @@ This overlay consists of an [Gentoo Portage](http://www.gentoo.org/) ebuilds for
 *   www-plugins/[chrome-token-signing](https://github.com/open-eid/chrome-token-signing) | Native client and extension for signing with your eID on the web
 *   www-plugins/[vdhcoapp-bin](https://github.com/mi-g/vdhcoapp) | Companion application for Video DownloadHelper browser add-on
 *   www-servers/[gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse) | GitLab reverse proxy
-*   [![Gentoo package](https://repology.org/badge/version-only-for-repo/gentoo/libinput-gestures.svg)](https://repology.org/metapackage/libinput-gestures) x11-misc/[libinput-gestures](https://github.com/bulletmark/libinput-gestures) | Actions gestures on your touchpad using libinput
+*   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/libinput-gestures.svg?header=)](https://repology.org/project/libinput-gestures/versions) x11-misc/[libinput-gestures](https://github.com/bulletmark/libinput-gestures) | Actions gestures on your touchpad using libinput
 *   x11-misc/[logkeys](https://github.com/kernc/logkeys) | A Linux keylogger
 *   x11-misc/[openrazer](https://openrazer.github.io) | Linux drivers for the Razer devices
 *   x11-misc/[RazerGenie](https://github.com/z3ntu/RazerGenie) | Razer devices configurator
