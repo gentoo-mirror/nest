@@ -1,6 +1,7 @@
 name: repoman
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -46,8 +47,6 @@ jobs:
       matrix:
         ebuild: ${{ fromJson(needs.list-ebuild.outputs.matrix) }}
     steps:
-      - name: Workaround permissions (CVE-2022-24765)
-        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - name: Checkout code
         uses: actions/checkout@v3
         with:
