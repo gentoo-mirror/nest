@@ -2,8 +2,8 @@ BDEPEND=test? ( || ( ( >=dev-lang/python-3.10.0_p1-r1:3.10 dev-python/psycopg:2[
 DEFINED_PHASES=compile prepare setup
 DEPEND=<dev-db/postgresql-12:* net-libs/zeromq:0=
 DESCRIPTION=High-performance time-series aggregation for PostgreSQL
-EAPI=7
-HOMEPAGE=https://www.pipelinedb.com/ https://github.com/pipelinedb/pipelinedb
+EAPI=8
+HOMEPAGE=https://github.com/pipelinedb/pipelinedb
 INHERIT=python-any-r1
 IUSE=test
 KEYWORDS=~amd64 ~x86
@@ -12,5 +12,5 @@ RDEPEND=<dev-db/postgresql-12:* net-libs/zeromq:0=
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/pipelinedb/pipelinedb/archive/1.0.0-13.tar.gz -> pipelinedb-1.0.0-13.tar.gz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	777767a09e8cd6db1d4cebe8400bc974	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd
-_md5_=51667c1e22d347fcaec859d660836f46
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	777767a09e8cd6db1d4cebe8400bc974	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd
+_md5_=9c1b9d127746193c80401a4f9effca6b

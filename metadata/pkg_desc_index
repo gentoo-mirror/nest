@@ -161,7 +161,7 @@ app-office/drawio-desktop-bin 17.4.2: Diagram drawing application built on web t
 app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
 app-shells/peco 0.5.8 9999: Simplistic interactive filtering tool
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
-app-text/keening 0.2: A simple command line pastebin designed to be used together with ssh
+app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
 dev-cpp/belr 5.1.3 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_p20210806 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20211005 9999: A compiler frontend for the W3C XML Schema definition language
@@ -169,7 +169,7 @@ dev-cpp/open-eid-cmake 9999 23022022: Open Electronic Identity CMake modules
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0_p20210722 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
-dev-db/dbcrossbar 0.4.2_beta11 9999: Copy tabular data between databases, CSV files and cloud storage
+dev-db/dbcrossbar 0.5.0_beta4 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/litestream 0.3.4 9999: Streaming S3 replication for SQLite
 dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
@@ -410,7 +410,7 @@ dev-python/markdown-include 0.6.0 9999: Provides the inclusion of the contents o
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.12 9999: Python library for NETCONF clients
-dev-python/netapp-ontap 9.8.0: A library for working with ONTAP's REST APIs simply in Python
+dev-python/netapp-ontap 9.10.1.0: A library for working with ONTAP's REST APIs simply in Python
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Python
 dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
@@ -451,7 +451,7 @@ dev-python/route53-transfer 9999 20180830: Generic access to configuration files
 dev-python/rstr 2.2.6: Generate random strings in Python
 dev-python/schema 0.7.4 9999: Simple data validation library
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
-dev-python/shellingham 1.3.1 9999: Detects what shell the current Python executable is running in
+dev-python/shellingham 1.4.0 9999: Detects what shell the current Python executable is running in
 dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
 dev-python/social-auth-app-django 5.0.0 9999: Python Social Auth - Application - Django
 dev-python/social-auth-core 4.2.0 9999: Python Social Auth - Core
@@ -639,7 +639,7 @@ net-misc/slowhttptest 1.8.2 9999: Application Layer DoS attack simulator
 net-misc/sping 9999: Split ping, shows direction the loss or latency is on
 net-misc/spoofer 1.4.7: A tool to assess of deployment of source address validation
 net-misc/ssmd 9999: SNMP Switch Management Daemon
-net-misc/stargazer 2.408 2.409_rc4 2.409: Billing system for small home and office networks
+net-misc/stargazer 2.409_rc4 2.409: Billing system for small home and office networks
 net-misc/topola 5.36.58: Customer accounting system, services and statistics collection management
 net-misc/uredir 3.3 9999: UDP port redirector
 net-misc/virtualhere-usb 9999: Share USB devices over the network

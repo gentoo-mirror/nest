@@ -1,8 +1,8 @@
 DEFINED_PHASES=compile configure install postinst prepare
 DEPEND=module-config-rpcconfig? ( dev-libs/expat dev-libs/xmlrpc-c[abyss,cxx] ) module-config-sgconfig? ( dev-libs/expat ) module-store-firebird? ( dev-db/firebird ) module-store-mysql? ( dev-db/mysql-connector-c:0= ) module-store-postgres? ( dev-db/postgresql:= ) sgconf? ( dev-libs/expat ) sgconf-xml? ( dev-libs/expat ) module-auth-freeradius? ( dev-libs/yajl ) radius? ( dev-libs/yajl dev-libs/boost:0= net-dialup/freeradius )
 DESCRIPTION=Billing system for small home and office networks
-EAPI=7
-HOMEPAGE=http://stg.net.ua
+EAPI=8
+HOMEPAGE=https://stg.net.ua
 INHERIT=flag-o-matic toolchain-funcs
 IUSE=sgconv rscriptd sgauth sgconf sgconf-xml +stargazer radius debug module-auth-always-online module-auth-internet-access module-auth-freeradius module-capture-ether module-capture-netflow module-capture-nfqueue module-config-sgconfig module-config-rpcconfig module-other-ping module-other-smux module-other-remote-script +module-store-files module-store-firebird module-store-mysql module-store-postgres
 KEYWORDS=~amd64 ~x86
@@ -11,5 +11,5 @@ RDEPEND=acct-user/stg
 REQUIRED_USE=stargazer? ( ^^ ( module-store-files module-store-firebird module-store-mysql module-store-postgres ) )
 SLOT=0
 SRC_URI=https://stg.net.ua/files/stg-2.409.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	flag-o-matic	a500d7cc40da3de38c361e889153bdf7
-_md5_=45dbd6d3c785b17b969b85a24f3f2ffe
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	flag-o-matic	a500d7cc40da3de38c361e889153bdf7
+_md5_=05a160e133e0a82abcb47946b71d8f4b

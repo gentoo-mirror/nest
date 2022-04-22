@@ -2,8 +2,8 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
 DEFINED_PHASES=compile install postinst unpack
 DEPEND=dev-libs/boost:0= dev-libs/openssl:0= net-misc/curl
 DESCRIPTION=SNMP Switch Management Daemon
-EAPI=7
-HOMEPAGE=http://stg.codes/projects/ssmd
+EAPI=8
+HOMEPAGE=https://stg.codes/projects/ssmd
 INHERIT=git-r3 systemd toolchain-funcs
 IUSE=debug
 LICENSE=GPL-2
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/boost:0= dev-libs/openssl:0= net-misc/curl acct-user/ssmd
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=9405be55ec991a8db06cc8277271a6f6
+_md5_=f8d6b01390c3427de8a0d5ea1abd8a6c

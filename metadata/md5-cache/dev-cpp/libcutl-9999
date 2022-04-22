@@ -2,11 +2,11 @@ BDEPEND=dev-util/build2 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DESCRIPTION=A collection of C++ libraries (successor of libcult)
 EAPI=8
-HOMEPAGE=https://www.codesynthesis.com/projects/libcutl
+HOMEPAGE=https://www.codesynthesis.com/projects/libcutl/
 INHERIT=git-r3 multiprocessing toolchain-funcs
 IUSE=static-libs
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b
-_md5_=157625533e3147413ec5c9e1e08aee73
+_md5_=9049eb8dc006a29d3de303abefef0fcd

@@ -2,8 +2,8 @@ BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/hunit:=[profile?] >=de
 DEFINED_PHASES=compile configure install postinst postrm setup test
 DEPEND=>=dev-haskell/async-2.2:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/bytestring-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/clock-0.8:=[profile?] dev-haskell/entropy:=[profile?] dev-haskell/network:=[profile?] dev-haskell/random:=[profile?] dev-haskell/sha:=[profile?] dev-haskell/streaming-commons:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.0.1:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Allows you to write WebSocket-capable servers
-EAPI=7
-HOMEPAGE=http://jaspervdj.be/websockets
+EAPI=8
+HOMEPAGE=https://jaspervdj.be/websockets/
 INHERIT=haskell-cabal linux-info
 IUSE=doc hscolour profile test
 KEYWORDS=~amd64 ~x86
@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.2:=[profile?] dev-haskell/attoparsec:=[profile?] d
 RESTRICT=!test? ( test )
 SLOT=0/0.12.7.0
 SRC_URI=https://hackage.haskell.org/package/websockets-0.12.7.0/websockets-0.12.7.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ghc-package	6344fef4405bc9a6cca6a0a39eee4a32	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	haskell-cabal	ebeaf198ca6bf70c43b10488b7cdcdcf	linux-info	3cfb791b045bfb6773a6d0f2d80ce9fd
-_md5_=4cf0fc22b20861d882dcd02dad118230
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ghc-package	6344fef4405bc9a6cca6a0a39eee4a32	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	haskell-cabal	ebeaf198ca6bf70c43b10488b7cdcdcf	linux-info	3cfb791b045bfb6773a6d0f2d80ce9fd
+_md5_=9c12b63ede0980ba430905da9c3a438d

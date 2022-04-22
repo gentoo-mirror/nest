@@ -2,8 +2,8 @@ BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=compile install prepare
 DEPEND=dev-libs/openssl:0= sys-libs/ncurses:0= sys-libs/readline:0= sys-libs/zlib:0=
 DESCRIPTION=Multi-protocol VPN software
-EAPI=7
-HOMEPAGE=http://www.softether.org
+EAPI=8
+HOMEPAGE=https://www.softether.org
 INHERIT=systemd toolchain-funcs
 IUSE=bridge +client cmd debug server
 KEYWORDS=~amd64 ~x86
@@ -11,6 +11,6 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/openssl:0= sys-libs/ncurses:0= sys-libs/readline:0= sys-libs/zlib:0=
 REQUIRED_USE=|| ( bridge client cmd server )
 SLOT=0
-SRC_URI=http://www.softether-download.com/files/softether/v4.34-9744-beta-2020.03.20-tree/Source_Code/softether-src-v4.34-9744-beta.tar.gz
+SRC_URI=https://www.softether-download.com/files/softether/v4.34-9744-beta-2020.03.20-tree/Source_Code/softether-src-v4.34-9744-beta.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=0d053224bd488bf4d2d234aefa1e368f
+_md5_=71e07564a62bf71cbc875db89bc9afd6
