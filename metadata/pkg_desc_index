@@ -670,7 +670,7 @@ sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.64 9999: Graphical user interface of Firajail security sandbox
 sys-apps/jless 0.8.0 9999: Command-line JSON viewer
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
-sys-apps/psi-notify 1.0.1 1.2.1 9999: Minimalistic PSI notifier using libnotify
+sys-apps/psi-notify 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
 sys-apps/sd 0.7.6 9999: An intuitive find and replace tool
 sys-apps/swapspace 1.17 9999: A dynamic swap space manager
