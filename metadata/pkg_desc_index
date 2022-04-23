@@ -140,6 +140,7 @@ app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5
 app-emulation/vmware-vmrc 11.2.0.16492666 12.0.0.17287072 12.0.1.18113358: VMware Remote Console
 app-emulation/vmware-workstation 16.2.1.18811642 16.2.3.19376536: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 7.4.1 9999: Auditing git repository for secrets and keys
+app-forensics/whispers 2.0.5 9999: Identify hardcoded secrets in static structured text
 app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
 app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
@@ -402,9 +403,11 @@ dev-python/graphql-relay 3.1.5 9999: A library to help construct a graphql-py se
 dev-python/hijri-converter 2.1.1 2.1.2 9999: Hijri-Gregorian date converter
 dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 3.6.2 9999: Jalali implementation of Python's datetime module
+dev-python/jproperties 2.1.1 9999: Java Property file parser and writer for Python
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
 dev-python/lark-parser 0.10.0 9999: A modern general-purpose parsing library for Python
+dev-python/luhn 0.2.0 9999: Generate and verify Luhn check digits
 dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
 dev-python/markdown-include 0.6.0 9999: Provides the inclusion of the contents of other Markdown documents
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
