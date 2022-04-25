@@ -6,9 +6,8 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/01c60be97b884ea78bba7c232a4d8ca8)](https://www.codacy.com/gh/SpiderX/portage-overlay/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SpiderX/portage-overlay&amp;utm_campaign=Badge_Grade)
 [![gentoo qa-reports](https://img.shields.io/badge/gentoo-QA%20report-6E56AF)](https://qa-reports.gentoo.org/output/repos/nest.html)
 [![gentoo overlay](https://img.shields.io/badge/gentoo-overlay-yellow)](https://github.com/gentoo-mirror/nest)
-[![pkgcheck](https://github.com/SpiderX/portage-overlay/actions/workflows/pkgcheck.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/pkgcheck.yml)
-[![repoman](https://github.com/SpiderX/portage-overlay/actions/workflows/repoman.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/repoman.yml)
-[![shellcheck](https://github.com/SpiderX/portage-overlay/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/shellcheck.yml)
+[![linters](https://github.com/SpiderX/portage-overlay/actions/workflows/linters.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/linters.yml)
+[![sasts](https://github.com/SpiderX/portage-overlay/actions/workflows/sasts.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/sasts.yml)
 [![docs](https://github.com/SpiderX/portage-overlay/actions/workflows/docs.yml/badge.svg)](https://github.com/SpiderX/portage-overlay/actions/workflows/docs.yml)
 
 ## How to use this overlay
@@ -530,7 +529,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[tickgit](https://github.com/augmentable-dev/tickgit) | Manage your repository's TODOs as config in your codebase
 *   dev-util/[xxd](https://github.com/vim/vim) | Hexdump utility from vim
 *   dev-vcs/[blackbox](https://github.com/StackExchange/blackbox) | Safely store secrets in Git/Mercurial/Subversion
-*   dev-vcs/[commitizen](https://github.com/Woile/commitizen) | Python commitizen client tool
+*   dev-vcs/[commitizen](https://github.com/commitizen-tools/commitizen) | Python commitizen client tool
 *   dev-vcs/[gitaly](https://gitlab.com/gitlab-org/gitaly) | Git RPC service for handling GitLab git calls
 *   dev-vcs/[gitlint](https://github.com/jorisroovers/gitlint) | Git commit message linter
 *   dev-vcs/[mercurial-extension_utils](https://foss.heptapod.net/mercurial/mercurial-extension_utils) | Mercurial Extension Utils
