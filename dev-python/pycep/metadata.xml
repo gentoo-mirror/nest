@@ -10,14 +10,12 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Lark is a parsing toolkit for Python, built with
-	a focus on ergonomics, performance and modularity.
-	Lark can parse all context-free languages. To put it simply,
-	it means that it is capable of parsing almost any programming
-	language out there, and to some degree most natural languages too.
+	This package provides a parser for Azure Bicep (a declarative language
+	for describing and deploying Azure resources) files leveraging
+	<pkg>dev-python/lark</pkg>.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">lark-parser/lark</remote-id>
-		<remote-id type="pypi">lark-parser</remote-id>
+		<remote-id type="github">gruebel/pycep</remote-id>
+		<remote-id type="pypi">pycep-parser</remote-id>
 	</upstream>
 </pkgmetadata>

@@ -4,16 +4,16 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-EGIT_REPO_URI="https://github.com/bboe/packageurl-python.git"
 PYTHON_COMPAT=( python3_{8..10} )
+EGIT_REPO_URI="https://github.com/assertpy/${PN}.git"
 
 inherit distutils-r1 git-r3
 
-DESCRIPTION="Python implementation of the package url spec"
-HOMEPAGE="https://github.com/package-url/packageurl-python"
+DESCRIPTION="Assertion library for unit testing"
+HOMEPAGE="https://github.com/assertpy/assertpy"
 SRC_URI=""
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS=""
 
