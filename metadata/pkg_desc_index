@@ -406,7 +406,7 @@ dev-python/jdatetime 3.6.2 9999: Jalali implementation of Python's datetime modu
 dev-python/jproperties 2.1.1 9999: Java Property file parser and writer for Python
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
-dev-python/lark-parser 0.10.0 9999: A modern general-purpose parsing library for Python
+dev-python/lark 0.10.0 9999: A modern general-purpose parsing library for Python
 dev-python/luhn 0.2.0 9999: Generate and verify Luhn check digits
 dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
 dev-python/markdown-include 0.6.0 9999: Provides the inclusion of the contents of other Markdown documents
@@ -513,7 +513,7 @@ dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187: VMware Open Virtu
 dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
 dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 7.36.0: Build, test, and document your APIs faster
-dev-util/python-hcl2 0.3.24 0.3.28 9999: A parser for HCL2 written in Python
+dev-util/python-hcl2 0.3.39 9999: A parser for HCL2 written in Python
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
