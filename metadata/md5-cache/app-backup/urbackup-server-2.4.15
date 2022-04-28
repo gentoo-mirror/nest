@@ -11,5 +11,5 @@ LICENSE=AGPL-3+
 RDEPEND=acct-user/urbackup app-arch/zstd:0= dev-db/lmdb:0= dev-db/sqlite:3 dev-lang/lua:5.4 dev-libs/crypto++:0= curl? ( net-misc/curl ) fuse? ( sys-fs/fuse:0 ) zlib? ( sys-libs/zlib:0= ) app-admin/logrotate
 SLOT=0
 SRC_URI=https://hndl.urbackup.org/Server/2.4.15/urbackup-server-2.4.15.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9724194ab651ce63fd9bc06e4e1410b4	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	systemd	2736b403a83f194b59b767f3b344c2c1
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	f6f9415937fb35f6464179e64b6765e7	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	systemd	2736b403a83f194b59b767f3b344c2c1
 _md5_=116d2119ecbd39980abca611efa7cdaf
