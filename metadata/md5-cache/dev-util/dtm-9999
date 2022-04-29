@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 app-arch/unzip
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Distributed transaction framework
+EAPI=8
+HOMEPAGE=https://github.com/dtm-labs/dtm
+INHERIT=git-r3 go-module
+LICENSE=BSD
+PROPERTIES=live
+RESTRICT=test strip
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	go-module	a13d34fe4e2996720e1ca6c53b9ea95a
+_md5_=24050ba6cc9156d97114b2443a2c70ec
