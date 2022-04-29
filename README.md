@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 642](https://img.shields.io/badge/ebuild-642-orange.svg)](https://img.shields.io/badge/ebuild-642-orange.svg)
+[![Number of ebuilds: 663](https://img.shields.io/badge/ebuild-663-orange.svg)](https://img.shields.io/badge/ebuild-663-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -309,6 +309,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 *   dev-python/[ahocorasick](https://github.com/WojciechMula/pyahocorasick) | Python module implementing Aho-Corasick algorithm
 *   dev-python/[aiomultiprocess](https://github.com/omnilib/aiomultiprocess) | asyncio version of the standard multiprocessing module
+*   dev-python/[annoy](https://github.com/spotify/annoy) | Approximate Nearest Neighbors in C++/Python
 *   dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
 *   dev-python/[apispec](https://github.com/marshmallow-code/apispec) | A pluggable API specification generator
 *   dev-python/[apispec-webframeworks](https://github.com/marshmallow-code/apispec-webframeworks) | Web framework plugins for apispec
@@ -316,6 +317,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[aspectlib](https://github.com/ionelmc/python-aspectlib) | Aspect-oriented programming, monkey-patch and decorators library
 *   dev-python/[assertpy](https://github.com/assertpy/assertpy) | Assertion library for unit testing
 *   dev-python/[aws-lambda-powertools](https://github.com/awslabs/aws-lambda-powertools-python) | A suite of Python utilities for AWS Lambda functions
+*   dev-python/[azure-common](https://github.com/Azure/azure-python-devtools) | Microsoft Azure Client Common Library for Python
+*   dev-python/[azure-core](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Core Library for Python
+*   dev-python/[azure-storage-blob](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Storage Blobs Library for Python
 *   dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 *   dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
 *   dev-python/[celery](https://github.com/celery/celery) | Asynchronous task job queue based on distributed message passing
@@ -381,12 +385,23 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[fleep](https://github.com/floyernick/fleep-py) | File format determination library for Python
 *   dev-python/[flex](https://github.com/pipermerriam/flex) | Validation tooling for Swagger 2.0 specifications
 *   dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
+*   dev-python/[gensim](https://github.com/RaRe-Technologies/gensim) | Topic Modelling for Humans
 *   dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
+*   dev-python/[google-crc32c](https://github.com/googleapis/python-crc32c) | Hardware-based implementation of the CRC32C hashing algorithm
+*   dev-python/[google-cloud-iam](https://github.com/googleapis/python-iam) | Google Cloud IAM API client library
+*   dev-python/[google-cloud-core](https://github.com/googleapis/python-cloud-core) | Google Cloud API client core library
+*   dev-python/[google-cloud-kms](https://github.com/googleapis/python-kms) | Google Cloud KMS API client library
+*   dev-python/[google-cloud-pubsub](https://github.com/googleapis/python-pubsub) | Google Cloud Pub/Sub API client library
+*   dev-python/[google-cloud-storage](https://github.com/googleapis/python-storage) | Google Cloud Storage API client library
+*   dev-python/[google-cloud-testutils](https://github.com/googleapis/python-test-utils) | Google Cloud Storage API client library
+*   dev-python/[google-resumable-media](https://github.com/googleapis/google-resumable-media-python) | Utilities for Google Media Downloads and Resumable Uploads
 *   dev-python/[graphene](https://github.com/graphql-python/graphene) | GraphQL framework for Python
 *   dev-python/[graphene-django](https://github.com/graphql-python/graphene-django) | A Django integration for Graphene
 *   dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 *   dev-python/[graphql-core](https://github.com/graphql-python/graphql-core) | Python port of GraphQL.js
 *   dev-python/[graphql-relay](https://github.com/graphql-python/graphql-relay-py) | A library to help construct a graphql-py server supporting react-relay
+*   dev-python/[grpc-google-iam-v1](https://github.com/googleapis/python-grpc-google-iam-v1) | Google GRPC IAM API client library
+*   dev-python/[grpcio-status](https://grpc.io) | Status proto mapping for gRPC
 *   dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
 *   dev-python/[hijri-converter](https://github.com/dralshehri/hijri-converter) | Hijri-Gregorian date converter
 *   dev-python/[identify](https://github.com/pre-commit/identify) | File identification library for Python
@@ -407,6 +422,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 *   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
 *   dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
+*   dev-python/[nmslib](https://github.com/nmslib/nmslib) | Non-Metric Space Library
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 *   dev-python/[openapi-schema-validator](https://github.com/p1c2u/openapi-schema-validator) | OpenAPI schema validation for Python
 *   dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | OpenAPI Spec validator
@@ -425,6 +441,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pycep](https://github.com/gruebel/pycep) | A Python based Bicep parser
 *   dev-python/[pycfmodel](https://github.com/Skyscanner/pycfmodel) | A python model for Cloud Formation scripts
 *   dev-python/[pydash](https://github.com/dgilland/pydash) | The kitchen sink of Python functional utility libraries
+*   dev-python/[pyemd](https://github.com/wmayner/pyemd) | Fast EMD for Python
 *   dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
 *   dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
 *   dev-python/[pyspnego](https://github.com/jborean93/pyspnego) | Python SPNEGO authentication library
@@ -456,10 +473,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[route53-transfer](https://github.com/cosmin/route53-transfer) | Generic access to configuration files in any formats
 *   dev-python/[rstr](https://pypi.org/project/rstr/) | Generate random strings in Python
 *   dev-python/[schema](https://github.com/keleshev/schema) | Simple data validation library
+*   dev-python/[scikit-learn](https://github.com/scikit-learn/scikit-learn) | Machine learning in Python
 *   dev-python/[selinux](https://github.com/pycontribs/selinux) | Pure-python selinux shim module for use in virtualenvs
 *   dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | Python client for Sentry
 *   dev-python/[shellingham](https://github.com/sarugaku/shellingham) | Detects what shell the current Python executable is running in
 *   dev-python/[shouldbe](https://github.com/directxman12/should_be) | A Python Assertions Helper
+*   dev-python/[smart_open](https://github.com/RaRe-Technologies/smart_open) | Utils for streaming large files
 *   dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
 *   dev-python/[social-auth-core](https://github.com/python-social-auth/social-core) | Python Social Auth - Core
 *   dev-python/[social-auth-app-django](https://github.com/python-social-auth/social-app-django) | Python Social Auth - Application - Django
@@ -511,6 +530,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[desed](https://github.com/SoptikHa2/desed) | Debugger for Sed
 *   dev-util/[detect-secrets](https://github.com/Yelp/detect-secrets) | An enterprise friendly way of detecting and preventing secrets
 *   dev-util/[dropwatch](https://github.com/nhorman/dropwatch) | Monitor for dropped network packets
+*   dev-util/[dtm](https://github.com/dtm-labs/dtm) | Distributed transaction framework
+*   dev-util/[duplicate-code-detection-tool](https://github.com/platisd/duplicate-code-detection-tool) | A tool to detect similarities between files within a repository
 *   dev-util/[fossa-cli](https://github.com/fossas/fossa-cli) | License and vulnerability analysis
 *   dev-util/[gibberish-detector](https://github.com/domanchi/gibberish-detector) | Train a model, and detect gibberish strings with it
 *   dev-util/[gh](https://github.com/cli/cli) | The GitHub CLI
