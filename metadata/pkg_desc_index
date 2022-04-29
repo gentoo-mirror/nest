@@ -488,7 +488,6 @@ dev-python/tablib 3.2.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/tomlkit 0.7.2-r1 9999: Style-preserving TOML library for Python
 dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
-dev-python/trio 0.18.0 9999: Python library for async concurrency and I/O
 dev-python/types-chardet 4.0.1 9999: Collection of library stubs for Python, with static types
 dev-python/ua-parser 0.10.0 9999: A python implementation of the UA Parser
 dev-python/ukpostcodeparser 1.1.2 9999: UK postcode parser library
