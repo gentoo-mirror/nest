@@ -4,11 +4,11 @@
 
 MP=${RC_SVCNAME#*.}
 
-command="/usr/bin/ntripserver"
-command_args="${NTRIP_OPTS} -m ${MOUNTPOINT_D:-$MP} -D ${MOUNTPOINT_S:-$MP} ${CONFIG}"
+command="/usr/bin/ntriprelay"
+command_args="${NTRIP_OPTS} -M ${MOUNTPOINT_S:-$MP} -m ${MOUNTPOINT_D:-$MP} ${CONFIG}"
 command_background="yes"
-description="Ntrip Command Line Server"
-name="Ntrip Command Line Server (${MOUNTPOINT_D:-$MP})"
+description="NTRIP Relay"
+name="NTRIP Relay (${MOUNTPOINT_S:-$MP})"
 pidfile="/run/${RC_SVCNAME}.pid"
 
 depend() {
