@@ -133,7 +133,7 @@ app-crypt/totp 1.0.8 9999: Time-Based One-Time Password Code Generator
 app-editors/FeatherPad 1.2.0 9999: Lightweight Qt5 plain-text editor
 app-editors/NotepadNext 0.5.1 9999: A cross-platform reimplementation of Notepad++
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
-app-editors/micro 2.0.8 9999: A modern and intuitive terminal-based text editor
+app-editors/micro 2.0.10 9999: A modern and intuitive terminal-based text editor
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
