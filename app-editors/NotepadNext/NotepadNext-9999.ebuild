@@ -3,33 +3,27 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/tsujan/${PN}.git"
+EGIT_REPO_URI="https://github.com/dail8859/${PN}.git"
 
 inherit git-r3 qmake-utils xdg
 
-DESCRIPTION="Lightweight Qt5 plain-text editor"
-HOMEPAGE="https://github.com/tsujan/FeatherPad"
+DESCRIPTION="A cross-platform reimplementation of Notepad++"
+HOMEPAGE="https://github.com/dail8859/NotepadNext"
 SRC_URI=""
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="X"
 
-RDEPEND="app-text/hunspell:=
-	dev-qt/qtcore:5
-	dev-qt/qtdbus:5
+RDEPEND="dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5
 	dev-qt/qtprintsupport:5
 	dev-qt/qtwidgets:5
-	X? ( dev-qt/qtx11extras:5 )"
-DEPEND="${RDEPEND}
-	dev-qt/qtsvg:5"
-BDEPEND="dev-qt/linguist-tools:5"
+	dev-qt/qtx11extras:5"
 
 src_configure() {
-	eqmake5 WITHOUT_X11="$(usex X NO YES)"
+	eqmake5 src/NotepadNext.pro
 }
 
 src_install() {
