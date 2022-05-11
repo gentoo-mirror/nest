@@ -1,7 +1,7 @@
 BDEPEND=>=dev-lang/go-1.16 app-arch/unzip >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
 DEFINED_PHASES=compile install test unpack
-DESCRIPTION=Streaming S3 replication for SQLite
-EAPI=7
+DESCRIPTION=Streaming replication for SQLite
+EAPI=8
 HOMEPAGE=https://github.com/benbjohnson/litestream
 INHERIT=go-module git-r3 systemd
 LICENSE=Apache-2.0
@@ -9,4 +9,4 @@ PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=go-module	a13d34fe4e2996720e1ca6c53b9ea95a	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=7562d9683a4f4b2a3d4fc23abe473338
+_md5_=8582abf5e81a5654f3abeeeee7ccfa9c
