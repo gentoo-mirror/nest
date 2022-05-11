@@ -118,7 +118,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-metrics/[amazon-cloudwatch-agent](https://github.com/aws/amazon-cloudwatch-agent) | Amazon Cloudwatch Agent
 *   app-metrics/[aws-otel-collector](https://github.com/aws-observability/aws-otel-collector) | Amazon AWS Opentelemetry Collector
 *   app-metrics/[do-agent](https://github.com/digitalocean/do-agent) | DigitalOcean Agent for Enhanced Droplet Graphs
-*   app-metrics/[nginx-amplify-agent](https://amplify.nginx.com) | System and NGINX metric collection
+*   app-metrics/[nginx-amplify-agent](https://amplify.nginx.com/login) | System and NGINX metric collection
 *   app-misc/[ag](https://github.com/ggreer/the_silver_searcher) | A code-searching tool with a focus on speed
 *   app-misc/[android-file-transfer-linux](https://whoozle.github.io/android-file-transfer-linux/) | Reliable MTP client with minimalistic UI
 *   app-misc/[ccut](https://github.com/ColumPaget/ColumsCut) | A unix cut command with a couple of extra features
@@ -386,7 +386,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[fire](https://github.com/google/python-fire) | Library for automatically generating CLI from object
 *   dev-python/[fleep](https://github.com/floyernick/fleep-py) | File format determination library for Python
 *   dev-python/[flex](https://github.com/pipermerriam/flex) | Validation tooling for Swagger 2.0 specifications
-*   dev-python/[flup](https://www.saddi.com/software/flup) | Random assortment of WSGI servers
+*   dev-python/[flup](https://www.saddi.com/software/flup/) | Random assortment of WSGI servers
 *   dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
 *   dev-python/[gensim](https://github.com/RaRe-Technologies/gensim) | Topic Modelling for Humans
 *   dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
@@ -642,7 +642,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/gitter.svg?header=)](https://repology.org/project/gitter/versions) net-im/[gitter-bin](https://gitter.im) | Chat and network platform
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/slack.svg?header=)](https://repology.org/project/slack/versions) net-im/[slack](https://slack.com) | Team collaboration tool
 *   net-im/[viber](https://www.viber.com/en/) | Free text and calls
-*   net-im/[vk-messenger-bin](https://vk.com/messenger) | Simple and Easy App for Messaging on VK
 *   net-im/[zoom-bin](https://zoom.us) | Video conferencing and web conferencing service
 *   net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox) | Utilities library used by Belledonne Communications softwares
 *   net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp) | Media Path Key Agreement for Unicast Secure RTP
