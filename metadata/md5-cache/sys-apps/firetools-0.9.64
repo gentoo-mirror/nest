@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 || ( sys-apps/firejail sys-apps/firejail-lts ) x11-terms/xterm
 SLOT=0
 SRC_URI=https://github.com/netblue30/firetools/archive/0.9.64.tar.gz -> firetools-0.9.64.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b
 _md5_=45bdd0f9ecb8e70b45da58f7819031cf
