@@ -12,5 +12,5 @@ LICENSE=GPL-3
 RDEPEND=app-text/hunspell:= dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtprintsupport:5 dev-qt/qtwidgets:5 X? ( dev-qt/qtx11extras:5 )
 SLOT=0
 SRC_URI=https://github.com/tsujan/FeatherPad/archive/V1.2.0.tar.gz -> FeatherPad-1.2.0.tar.gz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	qmake-utils	59420c906278d16deaaa629f9d115707	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	qmake-utils	59420c906278d16deaaa629f9d115707	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
 _md5_=9ef048e4de2872777d16ae543831a8e1

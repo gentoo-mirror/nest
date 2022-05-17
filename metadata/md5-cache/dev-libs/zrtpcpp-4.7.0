@@ -12,5 +12,5 @@ RDEPEND=dev-libs/ccrtp sqlcipher? ( dev-db/sqlcipher )
 REQUIRED_USE=^^ ( ccrtp core tivi ) empty? ( !sqlite !sqlcipher ) sqlite? ( !sqlcipher ) ccrtp? ( !axo !sdes ) tivi? ( sdes sqlcipher )
 SLOT=0
 SRC_URI=https://github.com/wernerd/zrtpcpp/archive/4.7.0.tar.gz -> zrtpcpp-4.7.0.tar.gz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	90e2b29417d53718328f3a95227137a0
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a500d7cc40da3de38c361e889153bdf7	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	90e2b29417d53718328f3a95227137a0
 _md5_=706b6de23a67c0cc111f9c367cf7db32

@@ -9,5 +9,5 @@ LICENSE=all-rights-reserved
 RDEPEND=acct-user/netgauge
 SLOT=0
 SRC_URI=x86? ( https://install.speedtest.net/ooklaserver/stable/OoklaServer-linux32.tgz ) amd64? ( https://install.speedtest.net/ooklaserver/stable/OoklaServer-linux64.tgz )
-_eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
+_eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	systemd	2736b403a83f194b59b767f3b344c2c1
 _md5_=85be883ac6213e55c3e2f4a1dae652d0

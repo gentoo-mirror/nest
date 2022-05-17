@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=dev-libs/libcommuni dev-qt/qtdbus:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 gnome? ( dev-libs/glib:2 dev-qt/qtx11extras:5 )
 SLOT=0
 SRC_URI=https://github.com/communi/communi-desktop/archive/v3.5.0.tar.gz -> communi-desktop-3.5.0.tar.gz https://github.com/communi/communi-shared/archive/v3.5.0.tar.gz -> communi-shared-3.5.0.tar.gz
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	qmake-utils	59420c906278d16deaaa629f9d115707
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	qmake-utils	59420c906278d16deaaa629f9d115707
 _md5_=b6605ad3647ea3ea999dd61128c42c51
