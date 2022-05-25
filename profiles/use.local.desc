@@ -194,6 +194,7 @@ net-voip/twinkle:g729 - Support for ITU G729 Annex A/B speech codec via media-li
 net-voip/twinkle:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
 net-vpn/innernet-bin:client - Install client
 net-vpn/innernet-bin:server - Install server
+net-vpn/openiked:apparmor - Enable AppArmor support
 net-vpn/openvpn-aws:down-root - Enable the down-root plugin
 net-vpn/openvpn-aws:iproute2 - Enabled iproute2 support instead of net-tools
 net-vpn/openvpn-aws:mbedtls - Use mbed TLS as the backend crypto library
