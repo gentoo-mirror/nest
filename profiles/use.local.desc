@@ -140,6 +140,8 @@ net-analyzer/passivedns:json - Enable JSON support
 net-dns/inadyn-mt:sound - Enable sound support using
 net-im/viber:apulse - Use PulseAudio emulation for ALSA
 net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
+net-misc/inverting-proxy:agent - Enable install of agent
+net-misc/inverting-proxy:server - Enable install of server
 net-misc/kcat:avro - Enable avro serialization/deserialization support
 net-misc/kcat:json - Enable json support
 net-misc/redir:ftp - Support for FTP (File Transfer Protocol) redirection
