@@ -119,7 +119,7 @@ app-admin/whatfiles 1.0 9999: Log what files are accessed by any Linux process
 app-admin/yaml-vault 1.1.1_p1 9999: Utility to import/export data from HashiCorp Vault
 app-backup/clickhouse-backup 1.0.0 9999: Tool for easy ClickHouse backup and restore
 app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
-app-backup/pgbackrest 2.38 9999: Reliable PostgreSQL Backup & Restore
+app-backup/pgbackrest 2.39 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.4.11 9999: Client Server backup system
 app-backup/urbackup-server 2.4.15 9999: Client Server backup system
 app-backup/wal-g 1.0 1.1 9999: Archival restoration tool for databases
@@ -181,6 +181,7 @@ dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
 dev-db/mssql-tools 17.7.1.1: Microsoft SQL Server Tools for Linux
 dev-db/odyssey 1.1 9999: Scalable PostgreSQL connection pooler
 dev-db/pg_cron 1.3.1 1.4.1 9999: Run periodic jobs in PostgreSQL
+dev-db/pg_hint_plan 1.3.6 1.3.7 1.3.7-r1 1.3.7-r2 1.4.0 9999: Manually force decisions in execution plans of PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
 dev-db/pg_profile 0.3.2 9999: Postgres historic performance reports
 dev-db/pg_repack 1.4.6 9999: PostgreSQL extension for data reorganization

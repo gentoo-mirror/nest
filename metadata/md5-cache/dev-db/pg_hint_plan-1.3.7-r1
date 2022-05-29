@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DEPEND=dev-db/postgresql:*
+DESCRIPTION=Manually force decisions in execution plans of PostgreSQL
+EAPI=8
+HOMEPAGE=https://github.com/ossc-db/pg_hint_plan
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+SLOT=12
+SRC_URI=https://github.com/ossc-db/pg_hint_plan/archive/REL12_1_3_7.tar.gz -> pg_hint_plan-REL12_1_3_7.tar.gz
+_md5_=6b08e23e28e6ad24fe8adf04fbe9e296

@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=app-arch/lz4:= >=dev-db/postgresql-10:=[icu,ssl] dev-lang/perl:0= dev-libs/libxml2:2 dev-libs/openssl:0= sys-libs/zlib:=
 SLOT=0
-SRC_URI=https://github.com/pgbackrest/pgbackrest/archive/release/2.38.tar.gz -> pgbackrest-2.38.tar.gz
+SRC_URI=https://github.com/pgbackrest/pgbackrest/archive/release/2.39.tar.gz -> pgbackrest-2.39.tar.gz
 _md5_=36b1485075575f007685746657d7b2c0
