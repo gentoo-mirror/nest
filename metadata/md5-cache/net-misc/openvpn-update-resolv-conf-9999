@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Updates DNS settings are pushed by the OpenVPN server
+EAPI=8
+HOMEPAGE=https://github.com/alfredopalhares/openvpn-update-resolv-conf
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=net-dns/openresolv net-vpn/openvpn
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=de6f4fc04aea4ad9d94d7005bad76d5c

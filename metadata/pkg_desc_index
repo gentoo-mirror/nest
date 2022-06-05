@@ -656,6 +656,7 @@ net-misc/ngrok-bin 9999: Secure introspected tunnels to localhost
 net-misc/ntriprelay 2.0.0 9999: NTRIP Relay
 net-misc/ntripserver 1.51 9999: Ntrip Version 2.0 Command Line Server
 net-misc/opendrop 0.13.0 9999: an Open Source AirDrop Implementation
+net-misc/openvpn-update-resolv-conf 9999 25032022: Updates DNS settings are pushed by the OpenVPN server
 net-misc/pingu 1.5 9999: Policy routing daemon with failover and load-balancing
 net-misc/postgrest 8.0.0 9.0.0: REST API for any Postgres database
 net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
