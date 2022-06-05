@@ -1,10 +1,12 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install postinst
 DESCRIPTION=Updates DNS settings are pushed by the OpenVPN server
 EAPI=8
 HOMEPAGE=https://github.com/alfredopalhares/openvpn-update-resolv-conf
+INHERIT=readme.gentoo-r1 tmpfiles
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=net-dns/openresolv net-vpn/openvpn
+RDEPEND=net-dns/openresolv net-vpn/openvpn virtual/tmpfiles
 SLOT=0
 SRC_URI=https://api.github.com/repos/alfredopalhares/openvpn-update-resolv-conf/tarball/2485e9d -> openvpn-update-resolv-conf-25032022.tar.gz
-_md5_=360bf6c88d13675cd4f1ec71b6bf79d5
+_eclasses_=readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
+_md5_=0c9a7bcdf4a2f346b25b239ae04ca2ba
