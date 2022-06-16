@@ -160,7 +160,7 @@ app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane
 app-misc/pet 0.4.0 9999: Simple command-line snippet manager
 app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
-app-office/drawio-desktop-bin 17.4.2: Diagram drawing application built on web technology
+app-office/drawio-desktop-bin 19.0.3: Diagram drawing application built on web technology
 app-shells/fzf 0.21.1 9999: A command-line fuzzy finder
 app-shells/peco 0.5.8 9999: Simplistic interactive filtering tool
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
@@ -715,7 +715,7 @@ sys-process/btop 1.2.5 9999: A monitor of resources
 sys-process/falco-bin 0.26.1: Cloud-Native runtime security
 sys-process/nq 0.3.1 9999: Unix command line queue utility
 www-apps/LookingGlass 9999: A Python-backed Looking Glass
-www-apps/draw-io 17.4.0: Online diagramming web application
+www-apps/draw-io 20.0.1: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
