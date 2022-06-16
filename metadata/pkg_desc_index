@@ -644,6 +644,7 @@ net-misc/comcast 1.0.1_p1 9999: Network problems simulator
 net-misc/curlie 1.6.9 9999: The power of curl, the ease of use of httpie
 net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
+net-misc/droplet-agent 1.2.3 9999: DigitalOcean Droplet Agent
 net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuration
 net-misc/ec2-instance-connect-cli 1.0.2 9999: Python client for accessing EC2 instances via EC2 Instance Connect
 net-misc/fiche 0.9.1 9999: Command line pastebin server
