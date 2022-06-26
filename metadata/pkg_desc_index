@@ -84,6 +84,7 @@ app-admin/cli53 0.8.17 9999: Command line tool for Amazon Route 53
 app-admin/cloudman 0.1.7 9999: Textual user interface to manage ec2 instances
 app-admin/container-service-extension 3.0.2 9999: Container Service Extension for vCloud Director
 app-admin/csp-reporter 9999: Content Security Policy logs parser
+app-admin/cw 4.1.1 9999: Tail AWS CloudWatch Logs from your terminal
 app-admin/digaws 0.3.1 9999: Look up region and other information for any AWS IP address
 app-admin/digaz 0.3.1 9999: Look up region and other information for any Azure IP address
 app-admin/digg 0.2.2 9999: Look up region and other information for any Google IP address
