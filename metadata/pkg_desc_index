@@ -92,6 +92,7 @@ app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.77.0 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
+app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
 app-admin/grex 1.2.0 9999: A CLI tool for generating regular expressions
 app-admin/ibmcloud-bin 2.0.3 2.2.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
