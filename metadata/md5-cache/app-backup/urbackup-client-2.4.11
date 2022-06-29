@@ -11,5 +11,5 @@ LICENSE=AGPL-3+
 RDEPEND=acct-user/urbackup app-arch/zstd:= dev-db/sqlite:3 dev-libs/crypto++:0= dev-libs/icu:0= sys-libs/zlib:0= X? ( x11-libs/wxGTK:3.0-gtk3[X] )
 SLOT=0
 SRC_URI=https://hndl.urbackup.org/Client/2.4.11/urbackup-client-2.4.11.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710	systemd	2736b403a83f194b59b767f3b344c2c1	flag-o-matic	a3abd6002fafb3022597be6b8d01f88b	wxwidgets	c09e9b94378cadaf6ef86ec1534c0fd6
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	2fd69a56a527d12409ba43c733b7ac8f	systemd	2736b403a83f194b59b767f3b344c2c1	flag-o-matic	a3abd6002fafb3022597be6b8d01f88b	wxwidgets	c09e9b94378cadaf6ef86ec1534c0fd6
 _md5_=228a0337ae27bdc2f995eb5c6e80829a
