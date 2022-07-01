@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=>=dev-ml/findlib-1.0.4-r1
+DEPEND=>=dev-ml/findlib-1.0.4-r1[ocamlopt?]
 DESCRIPTION=OCaml bindings to Gavl video manipulation library
 EAPI=7
 HOMEPAGE=https://github.com/savonet/ocaml-gavl
@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/gavl dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/9999
-_eclasses_=findlib	e6df6108c2d753998b1206f4d5ea4a2d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=findlib	6afd368dc89c3b53f6686e5752caf50d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=c5212b670b64e374cd4dcf2261eff678
