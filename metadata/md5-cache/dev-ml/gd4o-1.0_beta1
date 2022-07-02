@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 RDEPEND=media-libs/gd[jpeg,png] media-libs/freetype:2 media-libs/libpng:0= sys-libs/zlib:= virtual/jpeg:0 dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/1.0_beta1
 SRC_URI=https://api.github.com/repos/savonet/gd4o/tarball/5097a27 -> gd4o-1.0_beta1.tar.gz
-_eclasses_=findlib	6afd368dc89c3b53f6686e5752caf50d	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85
+_eclasses_=findlib	d8fa93cf137156660d0b72144b1e31d9	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85
 _md5_=ee24d405fe1aadad6aa38340768b1b5e
