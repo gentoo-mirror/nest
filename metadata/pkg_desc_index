@@ -340,7 +340,7 @@ dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.3.13 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/PythonQt 3.2-r3 9999: A dynamic Python binding for the Qt framework
 dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
-dev-python/ahocorasick 1.4.1 9999: Python module implementing Aho-Corasick algorithm
+dev-python/ahocorasick 1.4.4 9999: Python module implementing Aho-Corasick algorithm
 dev-python/aiomultiprocess 0.9.0 9999: asyncio version of the standard multiprocessing module
 dev-python/annoy 1.17.0 9999: Approximate Nearest Neighbors in C++/Python
 dev-python/anyconfig 0.11.0 9999: Generic access to configuration files in any formats
@@ -369,7 +369,7 @@ dev-python/crayons 0.4.0 9999: Text UI colors
 dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.7 9999: Fast and reliable NGINX configuration parser
 dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems programming
-dev-python/cyclonedx-python-lib 0.11.1 9999: Python library for generating CycloneDX SBOMs
+dev-python/cyclonedx-python-lib 2.6.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.14.1 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.0.0 9999: Date parsing library designed to parse dates from HTML pages
@@ -443,15 +443,15 @@ dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Py
 dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
-dev-python/packageurl 0.9.9 9999: Python implementation of the package url spec
+dev-python/packageurl 0.10.0 9999: Python implementation of the package url spec
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
-dev-python/policyuniverse 1.4.0.20210819 9999: Parse and Process AWS IAM Policies, Statements, ARNs
+dev-python/policyuniverse 1.5.0.20220613 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
 dev-python/prance 0.21.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/promise 2.3.0 9999: Python port of GraphQL.js
 dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 3.2.1 9999: Python 3 DNS library
-dev-python/pycep 0.3.4 9999: A Python based Bicep parser
+dev-python/pycep 0.3.7 9999: A Python based Bicep parser
 dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
 dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libraries
 dev-python/pyemd 0.5.1 9999: Fast EMD for Python
@@ -478,7 +478,7 @@ dev-python/ripe-atlas-cousteau 1.4.2 9999: Official python wrapper around RIPE A
 dev-python/ripe-atlas-sagan 1.3.1 9999: A parsing library for RIPE Atlas measurement results
 dev-python/route53-transfer 9999 20180830: Generic access to configuration files in any formats
 dev-python/rstr 3.1.0 9999: Generate random strings in Python
-dev-python/schema 0.7.4 9999: Simple data validation library
+dev-python/schema 0.7.5 9999: Simple data validation library
 dev-python/scikit-learn 1.0.2 9999: Machine learning in Python
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
 dev-python/shellingham 1.4.0 9999: Detects what shell the current Python executable is running in
@@ -518,14 +518,14 @@ dev-util/cfn-guard 1.0.0 2.0.1 9999: AWS CloudFormation Guard
 dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
-dev-util/checkov 2.0.1085 9999: Static code analysis tool for infrastructure-as-code
+dev-util/checkov 2.1.27 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0_pre20210722 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.5.0 9999: AWS IAM Security Assessment tool
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.0 9999: Debugger for Sed
-dev-util/detect-secrets 1.1.0 9999: An enterprise friendly way of detecting and preventing secrets
+dev-util/detect-secrets 1.2.0 9999: An enterprise friendly way of detecting and preventing secrets
 dev-util/dropwatch 1.5.3 9999: Monitor for dropped network packets
 dev-util/dtm 1.13.3 9999: Distributed transaction framework
 dev-util/duplicate-code-detection-tool 1.1.0 9999: A tool to detect similarities between files within a repository
@@ -541,7 +541,7 @@ dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187: VMware Open Virtu
 dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
 dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 7.36.0: Build, test, and document your APIs faster
-dev-util/python-hcl2 0.3.39 9999: A parser for HCL2 written in Python
+dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
