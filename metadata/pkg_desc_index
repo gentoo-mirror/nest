@@ -72,7 +72,7 @@ acct-user/vector 0: System user: vector
 acct-user/vhusb 0: System user: vhusb
 app-admin/aws-vault 6.6.0 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awsdtc 1.0.4 9999: AWS Data Transfer Cost Explorer
-app-admin/awslimitchecker 8.0.1 11.0.0 9999: Utility to check AWS resource limits and usage
+app-admin/awslimitchecker 12.0.0 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsls 0.8.1 9999: A list command for AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
