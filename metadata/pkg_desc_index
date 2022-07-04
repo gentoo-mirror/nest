@@ -370,7 +370,7 @@ dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human rea
 dev-python/crossplane 0.5.7 9999: Fast and reliable NGINX configuration parser
 dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems programming
 dev-python/cyclonedx-python-lib 2.6.0 9999: Python library for generating CycloneDX SBOMs
-dev-python/dataclasses-jsonschema 2.14.1 9999: JSON schema generation from dataclasses
+dev-python/dataclasses-jsonschema 2.15.1 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.0.0 9999: Date parsing library designed to parse dates from HTML pages
 dev-python/decli 0.5.2 9999: Minimal declarative cli tool
@@ -544,7 +544,7 @@ dev-util/postman 7.36.0: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
-dev-util/taskcat 0.9.23 9999: An OpenSource Cloudformation Deployment Framework
+dev-util/taskcat 0.9.30 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
