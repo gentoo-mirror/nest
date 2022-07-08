@@ -540,7 +540,7 @@ dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and trans
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187: VMware Open Virtualization Format tool
 dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
 dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
-dev-util/postman 7.36.0: Build, test, and document your APIs faster
+dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
