@@ -338,7 +338,7 @@ dev-php/scrypt 1.4.2 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-php/spx 0.4.12 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.3.13 0.5.11 9999: Library of astronomical algorithms in Python
-dev-python/PythonQt 3.2-r3 9999: A dynamic Python binding for the Qt framework
+dev-python/PythonQt 3.2-r4 9999: A dynamic Python binding for the Qt framework
 dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
 dev-python/ahocorasick 1.4.4 9999: Python module implementing Aho-Corasick algorithm
 dev-python/aiomultiprocess 0.9.0 9999: asyncio version of the standard multiprocessing module
