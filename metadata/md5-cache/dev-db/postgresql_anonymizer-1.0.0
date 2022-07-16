@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.16 app-arch/unzip
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-db/postgresql:=
+DESCRIPTION=Anonymization & Data Masking for PostgreSQL
+EAPI=8
+HOMEPAGE=https://gitlab.com/dalibo/postgresql_anonymizer
+INHERIT=go-module
+KEYWORDS=~amd64 ~x86
+LICENSE=POSTGRESQL
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://gitlab.com/dalibo/postgresql_anonymizer/-/archive/1.0.0/postgresql_anonymizer-1.0.0.tar.gz
+_eclasses_=go-module	a13d34fe4e2996720e1ca6c53b9ea95a
+_md5_=193a993dfd70d6194446e176660be5f7

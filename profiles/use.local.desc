@@ -6,9 +6,11 @@ app-admin/reprepro:archive - Enable archive support using app-arch/libarchive
 app-admin/reprepro:gpg - Enable gpgme support using app-crypt/gpgme
 app-backup/urbackup-server:fuse - Enables mounting VHD containers via FUSE
 app-backup/wal-g:fdb - Enable FoundationDB support
+app-backup/wal-g:gp - Enable GreenplumDB support
 app-backup/wal-g:mongo - Enable MongoDB support
 app-backup/wal-g:redis - Enable Redis support
 app-backup/wal-g:sodium - Use dev-libs/libsodium
+app-backup/wal-g:sqlserver - Enable MSSQL support
 app-backup/zbackup:tartool - Install tartool utility
 app-crypt/qesteidutil:webcheck - add support for new version checking
 app-editors/qedit:aspell - Enable spellchecking using app-text/aspell
