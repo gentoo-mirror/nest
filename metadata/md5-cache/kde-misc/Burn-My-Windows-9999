@@ -1,0 +1,15 @@
+BDEPEND=dev-lang/perl:0= >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5 >=kde-frameworks/extra-cmake-modules-5.82.0:5 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
+DEPEND=dev-qt/qtcore:5
+DESCRIPTION=Disintegrate your windows with style
+EAPI=8
+HOMEPAGE=https://github.com/Schneegans/Burn-My-Windows
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=ecm edo git-r3
+IUSE=debug
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=>=kde-plasma/kwin-5.25:5 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+SLOT=5
+_eclasses_=toolchain-funcs	3484f775017f532a8d1ae02c65defe13	multilib	4fbbbc98f236f1b43acd99476bc3cd85	flag-o-matic	a3abd6002fafb3022597be6b8d01f88b	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	cmake	44afbf15c35884f7c840470f1cf05d0d	virtualx	975d49ff3b3f451efe7a95f230532135	xdg	6024fbc93167fad782e2032933654857	ecm	542fb4c59adc3702f566140a9bdf49f8	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=af60d16f47e956be5cc8c6e7675821d0
