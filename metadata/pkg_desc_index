@@ -174,7 +174,7 @@ dev-cpp/libxsd-frontend 2.0.0_p20211005 9999: A compiler frontend for the W3C XM
 dev-cpp/open-eid-cmake 9999 23022022: Open Electronic Identity CMake modules
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.0.0_p20210722 9999: A cross-platform W3C XML Schema to C++ data binding compiler
-dev-db/datanymizer 0.2.0 9999: Powerful database anonymizer with flexible rules
+dev-db/datanymizer 0.5.1 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.0_beta4 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
