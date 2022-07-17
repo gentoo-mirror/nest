@@ -34,7 +34,7 @@ src_prepare() {
 	# do not install static, fix libdir
 	sed -i  -e "/DESTINATION/s| lib| $(get_libdir)|" \
 		-e "/TARGETS \${ly_lib_static}/d" CMakeLists.txt \
-		|| die "sed failed"
+		|| die "sed failed for CMakeLists.txt"
 
 	cmake_src_prepare
 }
@@ -49,4 +49,16 @@ src_configure() {
 
 src_test() {
 	edo "${S}"_build/libyuv_unittest
+}
+
+src_install() {
+	cmake_src_install
+
+	insinto /usr/"$(get_libdir)"/pkgconfig
+	newins - libyuv.pc < <(sed -e "/Version/s|%%VERSION%%|${PV}|" \
+				-e "/libdir/s|%%LIBDIR%%|"$(get_libdir)"|" \
+				"${FILESDIR}"/libyuv.pc \
+				|| die "sed failed for libyuv.pc.in" )
+	insinto /usr/"$(get_libdir)"/cmake
+	doins "${FILESDIR}"/libyuv-config.cmake
 }
