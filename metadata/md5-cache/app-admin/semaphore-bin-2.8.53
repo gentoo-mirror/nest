@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=acct-user/semaphore
 SLOT=0
 SRC_URI=https://github.com/ansible-semaphore/semaphore/archive/v2.8.53.tar.gz -> semaphore-2.8.53.tar.gz https://github.com/ansible-semaphore/semaphore/releases/download/v2.8.53/semaphore_2.8.53_linux_amd64.tar.gz
-_eclasses_=toolchain-funcs	3484f775017f532a8d1ae02c65defe13	multilib	4fbbbc98f236f1b43acd99476bc3cd85	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	systemd	2736b403a83f194b59b767f3b344c2c1
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	systemd	2736b403a83f194b59b767f3b344c2c1
 _md5_=789ff0a1fd95a1a35d4da4f3e4589f78
