@@ -575,6 +575,7 @@ kde-misc/paneltransparencybutton 0.2.0 9999: Enable/disable transparency for spe
 kde-misc/plasma-applet-eventcalendar 75 9999: Plasmoid for a calendar and agenda with weather
 kde-misc/plasma-applet-favoriteFolders 9999 20210412: Plasma 5 widget for quick access to favorite folders
 kde-misc/plasma-power-monitor 0.1 9999: Plasma widget to monitor the power consumption of your battery
+kde-misc/plasmoid-wunderground-extended 0.7.1 9999: KDE5 Plasma Weather Widget
 kde-misc/pminhibition 9999 20210108: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 1.3.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
 media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
