@@ -519,7 +519,7 @@ dev-util/cfn-guard 1.0.0 2.0.1 9999: AWS CloudFormation Guard
 dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
-dev-util/checkov 2.1.27 9999: Static code analysis tool for infrastructure-as-code
+dev-util/checkov 2.1.68 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0_pre20210722 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.5.0 9999: AWS IAM Security Assessment tool
