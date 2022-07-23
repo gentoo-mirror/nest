@@ -1,4 +1,4 @@
-BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/pem:=[profile?] dev-haskell/tasty:=[profile?] dev-haskell/tasty-hspec:=[profile?] dev-haskell/tasty-quickcheck:=[profile?] )
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/pem:=[profile?] dev-haskell/tasty:=[profile?] dev-haskell/tasty-hspec:=[profile?] dev-haskell/tasty-quickcheck:=[profile?] ) app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] >=dev-haskell/base64-bytestring-1.2.1.0:=[profile?] dev-haskell/concise:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/lens:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/monad-time:=[profile?] dev-haskell/mtl:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/quickcheck-instances:=[profile?] dev-haskell/safe:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/text:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/x509:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Haskell JOSE and JWT library
@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/attoparsec:=[profile?] >=dev-h
 RESTRICT=!test? ( test )
 SLOT=0/0.8.5.1
 SRC_URI=https://hackage.haskell.org/package/jose-0.8.5.1/jose-0.8.5.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	81cdafdd21e27dfc13f0f7b4947fa145
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	bd6d32a0289c486284bc0cdc06a639a6
 _md5_=b5de47c440def05990bbb5d66fdc5f30

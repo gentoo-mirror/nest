@@ -1,4 +1,4 @@
-BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/hspec-expectations-lifted:=[profile?] dev-haskell/hspec-wai:=[profile?] dev-haskell/mockery:=[profile?] dev-haskell/scotty:=[profile?] dev-haskell/wai-extra:=[profile?] )
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/hspec-expectations-lifted:=[profile?] dev-haskell/hspec-wai:=[profile?] dev-haskell/mockery:=[profile?] dev-haskell/scotty:=[profile?] dev-haskell/wai-extra:=[profile?] ) app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/cryptonite:=[profile?] dev-haskell/expiring-cache-map:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/mime-types:=[profile?] dev-haskell/old-locale:=[profile?] dev-haskell/text:=[profile?] dev-haskell/wai:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=WAI middleware that serves requests to static files
@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/cryptonite:=[profile?] dev-haskell/expiring-cache-map:=[prof
 RESTRICT=!test? ( test )
 SLOT=0/0.9.0
 SRC_URI=https://hackage.haskell.org/package/wai-middleware-static-0.9.0/wai-middleware-static-0.9.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	81cdafdd21e27dfc13f0f7b4947fa145
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	bd6d32a0289c486284bc0cdc06a639a6
 _md5_=4d94b082aa17e58a4341d26d12c866e1

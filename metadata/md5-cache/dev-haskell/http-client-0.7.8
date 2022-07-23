@@ -1,5 +1,5 @@
-BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/async:= dev-haskell/hspec:= dev-haskell/monad-control:= dev-haskell/streaming-commons:= dev-haskell/zlib:= !network-uri? ( dev-haskell/network-uri:= ) )
-DEFINED_PHASES=compile configure install postinst postrm setup test
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/async:= dev-haskell/hspec:= dev-haskell/monad-control:= dev-haskell/streaming-commons:= dev-haskell/zlib:= !network-uri? ( dev-haskell/network-uri:= ) ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/cookie:=[profile?] dev-haskell/exceptions:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/iproute:=[profile?] dev-haskell/memory:=[profile?] dev-haskell/mime-types:=[profile?] dev-haskell/random:=[profile?] dev-haskell/stm:=[profile?] dev-haskell/streaming-commons:=[profile?] dev-haskell/text:=[profile?] dev-lang/ghc:= network-uri? ( >=dev-haskell/network-2.6:=[profile?] >=dev-haskell/network-uri-2.6:=[profile?] ) !network-uri? ( >=dev-haskell/network-2.4:=[profile?] <dev-haskell/network-2.6:=[profile?] ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=An HTTP client engine
 EAPI=7
@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[pro
 RESTRICT=test
 SLOT=0/0.7.8
 SRC_URI=https://hackage.haskell.org/package/http-client-0.7.8/http-client-0.7.8.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	81cdafdd21e27dfc13f0f7b4947fa145
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	bd6d32a0289c486284bc0cdc06a639a6
 _md5_=4344db21c451e99f578ba27315c8915e

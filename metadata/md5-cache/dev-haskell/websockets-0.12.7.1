@@ -1,5 +1,5 @@
-BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/hunit:=[profile?] >=dev-haskell/quickcheck-2.7:=[profile?] dev-haskell/test-framework:=[profile?] dev-haskell/test-framework-hunit:=[profile?] dev-haskell/test-framework-quickcheck2:=[profile?] )
-DEFINED_PHASES=compile configure install postinst postrm setup test
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/hunit:=[profile?] >=dev-haskell/quickcheck-2.7:=[profile?] dev-haskell/test-framework:=[profile?] dev-haskell/test-framework-hunit:=[profile?] dev-haskell/test-framework-quickcheck2:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=>=dev-haskell/async-2.2:=[profile?] dev-haskell/attoparsec:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/bytestring-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] >=dev-haskell/clock-0.8:=[profile?] dev-haskell/entropy:=[profile?] dev-haskell/network:=[profile?] dev-haskell/random:=[profile?] dev-haskell/sha:=[profile?] dev-haskell/streaming-commons:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.0.1:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Allows you to write WebSocket-capable servers
 EAPI=8
@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/async-2.2:=[profile?] dev-haskell/attoparsec:=[profile?] d
 RESTRICT=!test? ( test )
 SLOT=0/0.12.7.1
 SRC_URI=https://hackage.haskell.org/package/websockets-0.12.7.1/websockets-0.12.7.1.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	81cdafdd21e27dfc13f0f7b4947fa145	linux-info	dcbf4f67bc38bee48e9d69a4344e8059
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	bd6d32a0289c486284bc0cdc06a639a6	linux-info	dcbf4f67bc38bee48e9d69a4344e8059
 _md5_=9c12b63ede0980ba430905da9c3a438d
