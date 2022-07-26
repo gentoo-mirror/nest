@@ -545,7 +545,7 @@ dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
-dev-util/taskcat 0.9.30 9999: An OpenSource Cloudformation Deployment Framework
+dev-util/taskcat 0.9.31 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
