@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=>=dev-lang/ocaml-4:=
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	opam	dc11e376d9abc263ca618c5741206216
+_eclasses_=opam	42c5d48985d3f77484fe405cfc69356d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
 _md5_=6fe5739400350da331fd62a74b9198f9
