@@ -543,6 +543,7 @@ dev-util/packer 1.7.6 9999: A tool to create identical machine images for multip
 dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
+dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.31 9999: An OpenSource Cloudformation Deployment Framework
