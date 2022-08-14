@@ -509,6 +509,7 @@ dev-python/yattag 1.14.0 9999: Generate HTML or XML in a pythonic way
 dev-util/act 0.2.29 9999: Run your GitHub Actions locally
 dev-util/actionlint 1.6.15 9999: Static checker for GitHub Actions workflow files
 dev-util/arctype 0.9.54.6573: SQL client for PostgreSQL and MySQL
+dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
 dev-util/azuredatastudio-bin 1.33.1 1.37.0: Data management tool to work with DW, Azure, SQL Server
