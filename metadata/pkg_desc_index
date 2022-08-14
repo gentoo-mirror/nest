@@ -452,6 +452,7 @@ dev-python/prance 0.21.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/promise 2.3.0 9999: Python port of GraphQL.js
 dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 3.2.1 9999: Python 3 DNS library
+dev-python/pybeam 0.7 9999: Python module to parse Erlang BEAM files
 dev-python/pycep 0.3.7 9999: A Python based Bicep parser
 dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
 dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libraries
@@ -544,6 +545,7 @@ dev-util/packer 1.7.6 9999: A tool to create identical machine images for multip
 dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
+dev-util/rpmlint 2.3.0 9999: Tool for checking common errors in RPM packages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
 dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
