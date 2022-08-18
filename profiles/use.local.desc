@@ -32,10 +32,6 @@ app-metrics/amazon-cloudwatch-agent:otel - Support Amazon Opentelemetry Collecto
 app-metrics/aws-otel-collector:cwagent - Compatibility with CloudWatch agent
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
-app-shells/fzf:fish-completion - Enable fish completion support
-app-shells/fzf:neovim - Install neovim plugin
-app-shells/fzf:tmux - Install TMUX extra tools
-app-shells/fzf:vim - Install vim plugin
 dev-cpp/belr:tools - Build tools
 dev-db/pg_repack:client - Build CLI client
 dev-db/usql:athena - Enable support for AWS Athena
