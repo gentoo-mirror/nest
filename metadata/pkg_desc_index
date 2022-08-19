@@ -89,7 +89,7 @@ app-admin/digaws 0.3.1 9999: Look up region and other information for any AWS IP
 app-admin/digaz 0.3.1 9999: Look up region and other information for any Azure IP address
 app-admin/digg 0.2.2 9999: Look up region and other information for any Google IP address
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.77.0 1.78.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.78.0 1.79.0 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
