@@ -691,7 +691,7 @@ net-misc/xh 0.15.0 9999: Friendly and fast tool for sending HTTP requests
 net-p2p/automatic 0.9.0 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
-net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 9999: Resilient, fast and scalable file synchronization tool
+net-p2p/resilio-sync 2.6.4.1344 2.7.1.1370 2.7.3.1381 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.11.3 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.3.2 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
