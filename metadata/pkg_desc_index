@@ -528,7 +528,7 @@ dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.0 9999: Debugger for Sed
 dev-util/detect-secrets 1.2.0 9999: An enterprise friendly way of detecting and preventing secrets
-dev-util/dropwatch 1.5.3 9999: Monitor for dropped network packets
+dev-util/dropwatch 1.5.4 9999: Monitor for dropped network packets
 dev-util/dtm 1.13.3 9999: Distributed transaction framework
 dev-util/duplicate-code-detection-tool 1.1.0 9999: A tool to detect similarities between files within a repository
 dev-util/fossa-cli 1.1.0 9999: License and vulnerability analysis
