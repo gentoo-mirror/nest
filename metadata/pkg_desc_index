@@ -652,7 +652,7 @@ net-misc/awscurl 0.24 0.26 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1_p1 9999: Network problems simulator
 net-misc/curlie 1.6.9 9999: The power of curl, the ease of use of httpie
-net-misc/dhcdrop 0.5-r1: Effectively suppresses illegal DHCP servers on the LAN
+net-misc/dhcdrop 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/droplet-agent 1.2.3 9999: DigitalOcean Droplet Agent
 net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuration
