@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A Python package to convert accurately between Hijri and Gregorian
-	dates using the Umm al-Qura calendar of Saudi Arabia.
+	fastText is a library for efficient learning of word representations
+	and sentence classification created by Facebook's AI Research (FAIR) lab.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">mhalshehri/hijri-converter</remote-id>
-		<remote-id type="pypi">hijri-converter</remote-id>
+		<remote-id type="github">facebookresearch/fastText</remote-id>
+		<remote-id type="pypi">fasttext</remote-id>
 	</upstream>
 </pkgmetadata>

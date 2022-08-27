@@ -5,23 +5,18 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..11} )
-EGIT_REPO_URI="https://github.com/kennethreitz/${PN}.git"
+EGIT_REPO_URI="https://github.com/Mimino666/${PN}.git"
 
 inherit distutils-r1 git-r3
 
-DESCRIPTION="Text UI colors"
-HOMEPAGE="https://github.com/kennethreitz/crayons"
+DESCRIPTION="Language detection library ported from Google"
+HOMEPAGE="https://github.com/Mimino666/langdetect"
 SRC_URI=""
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS=""
 
-RDEPEND="dev-python/colorama[${PYTHON_USEDEP}]"
-DEPEND="${RDEPEND}"
+RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
 
 distutils_enable_tests unittest
-
-python_test() {
-	esetup.py test
-}

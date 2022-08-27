@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A Python package to convert accurately between Hijri and Gregorian
-	dates using the Umm al-Qura calendar of Saudi Arabia.
+	This package provides a port of Google's language-detection library
+	(version from 03/03/2014) to Python.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">mhalshehri/hijri-converter</remote-id>
-		<remote-id type="pypi">hijri-converter</remote-id>
+		<remote-id type="github">Mimino666/langdetect</remote-id>
+		<remote-id type="pypi">langdetect</remote-id>
 	</upstream>
 </pkgmetadata>

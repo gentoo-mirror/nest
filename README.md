@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 679](https://img.shields.io/badge/ebuild-679-orange.svg)](https://img.shields.io/badge/ebuild-679-orange.svg)
+[![Number of ebuilds: 681](https://img.shields.io/badge/ebuild-681-orange.svg)](https://img.shields.io/badge/ebuild-681-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -253,6 +253,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
 *   dev-libs/[belle-sip](https://gitlab.linphone.org/BC/public/belle-sip) | SIP (RFC3261) implementation
 *   dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp/) | GNU ccRTP - Implementation of the IETF real-time transport protocol
+*   dev-libs/[fastText](https://github.com/facebookresearch/fastText) | Library for fast text representation and classification
 *   dev-libs/[libcommuni](https://communi.github.io) | A cross-platform IRC framework written with Qt
 *   dev-libs/[libdict](https://github.com/rtbrick/libdict) | C library of key-value data structures
 *   dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
@@ -410,7 +411,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[grpc-google-iam-v1](https://github.com/googleapis/python-grpc-google-iam-v1) | Google GRPC IAM API client library
 *   dev-python/[grpcio-status](https://grpc.io) | Status proto mapping for gRPC
 *   dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
-*   dev-python/[hijri-converter](https://github.com/dralshehri/hijri-converter) | Hijri-Gregorian date converter
+*   dev-python/[hijri-converter](https://github.com/mhalshehri/hijri-converter) | Hijri-Gregorian date converter
 *   dev-python/[identify](https://github.com/pre-commit/identify) | File identification library for Python
 *   dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 *   dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
@@ -419,6 +420,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 *   dev-python/[jsonpath-ng](https://github.com/h2non/jsonpath-ng) | Python JSONPath Next-Generation
 *   dev-python/[k5test](https://github.com/pythongssapi/k5test) | A library for setting up self-contained Kerberos 5 environments
+*   dev-python/[langdetect](https://github.com/Mimino666/langdetect) | Language detection library ported from Google
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 *   dev-python/[luhn](https://github.com/mmcloughlin/luhn) | Generate and verify Luhn check digits
 *   dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
