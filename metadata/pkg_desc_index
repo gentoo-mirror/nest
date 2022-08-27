@@ -424,7 +424,7 @@ dev-python/graphql-core 3.1.7 3.2.0 9999: Python port of GraphQL.js
 dev-python/graphql-relay 3.1.5 9999: A library to help construct a graphql-py server supporting react-relay
 dev-python/grpc-google-iam-v1 0.12.4 9999: Google GRPC IAM API client library
 dev-python/grpcio-status 1.44.0 9999: Status proto mapping for gRPC
-dev-python/hijri-converter 9999: Hijri-Gregorian date converter
+dev-python/hijri-converter 2.2.4 9999: Hijri-Gregorian date converter
 dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 4.1.0 9999: Jalali implementation of Python's datetime module
 dev-python/jproperties 2.1.1 9999: Java Property file parser and writer for Python
