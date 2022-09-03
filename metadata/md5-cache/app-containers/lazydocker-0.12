@@ -1,4 +1,4 @@
-BDEPEND=>=dev-lang/go-1.16 app-arch/unzip
+BDEPEND=>=dev-lang/go-1.18 app-arch/unzip
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Lazier way to manage everything docker
 EAPI=8
@@ -10,5 +10,5 @@ PROPERTIES=test_network
 RESTRICT=test strip
 SLOT=0
 SRC_URI=https://github.com/jesseduffield/lazydocker/archive/v0.12.tar.gz -> lazydocker-0.12.tar.gz
-_eclasses_=go-module	a13d34fe4e2996720e1ca6c53b9ea95a
+_eclasses_=go-module	05668e36c51c78c9681fdf4aefa0abec
 _md5_=cc348e70a1ad19386b9e5c845e7d8178
