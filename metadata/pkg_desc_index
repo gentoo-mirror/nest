@@ -201,6 +201,7 @@ dev-haskell/ChasingBottoms 1.3.1.10: For testing partial and infinite values
 dev-haskell/OneTuple 0.3: Singleton Tuple
 dev-haskell/Ranged-sets 0.4.0: Ranged sets for Haskell
 dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
+dev-haskell/authenticate-oauth 1.7: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/base-prelude 1.4: The most complete prelude formed only from the base package
 dev-haskell/base64-bytestring 1.2.1.0: Fast base64 encoding and decoding for Haskell
 dev-haskell/binary-parser 0.5.7: A highly-efficient but limited parser API for bytestrings
@@ -237,6 +238,7 @@ dev-haskell/indexed-profunctors 0.1.1: Utilities for indexed profunctors
 dev-haskell/indexed-traversable-instances 0.1.1: More instances of FunctorWithIndex, FoldableWithIndex
 dev-haskell/ini 0.4.1: Quick and easy configuration files in the INI format
 dev-haskell/insert-ordered-containers 0.2.5: Associative containers retating insertion order for traversals
+dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
 dev-haskell/integer-logarithms 1.0.3: Integer logarithms
 dev-haskell/integer-simple 0.1.1.1: Simple Integer library
 dev-haskell/interpolatedstring-perl6 1.0.2: QuasiQuoter for Perl6 style multi-line interpolated
@@ -249,8 +251,11 @@ dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
 dev-haskell/optics-core 0.4: Optics as an abstract interface
 dev-haskell/optics-extra 0.4: Extra utilities and instances for optics-core
 dev-haskell/optics-th 0.3.0.2: Optics as an abstract interface
+dev-haskell/pipes 4.3.16: Compositional pipelines
 dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
 dev-haskell/postgresql-binary 0.12.3.3: Encoders and decoders for the PostgreSQL's binary format
+dev-haskell/postgresql-libpq 0.9.4.3: low-level binding to libpq
+dev-haskell/postgresql-simple 0.6.4: Mid-Level PostgreSQL client library
 dev-haskell/pretty-simple 4.0.0.0: Haskell data types that have a Show instance
 dev-haskell/prettyprinter 1.7.1: A modern, easy to use, well-documented, extensible pretty-printer
 dev-haskell/prettyprinter-ansi-terminal 1.1.3: ANSI terminal backend for prettyprinter package
