@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/quickcheck:=[profile?] dev-haskell/test-framework:=[profile?] dev-haskell/test-framework-quickcheck2:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/bifunctors:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/profunctors:=[profile?] dev-haskell/semigroupoids:=[profile?] dev-haskell/semigroups:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=An either monad transformer
+EAPI=8
+HOMEPAGE=https://github.com/ekmett/either
+INHERIT=haskell-cabal
+IUSE=test doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/bifunctors:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/profunctors:=[profile?] dev-haskell/semigroupoids:=[profile?] dev-haskell/semigroups:=[profile?] dev-lang/ghc:=
+RESTRICT=!test? ( test )
+SLOT=0/5.0.2
+SRC_URI=https://hackage.haskell.org/package/either-5.0.2/either-5.0.2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	haskell-cabal	c5f549dab9d92296696971aef569d951
+_md5_=b735057f34c03a83b00034e3bd7fb062

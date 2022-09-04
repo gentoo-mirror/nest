@@ -220,7 +220,9 @@ dev-haskell/data-dword 0.3.2: Stick two binary words together to get a bigger on
 dev-haskell/data-serializer 0.3.5: Common API for Haskell serialization libraries
 dev-haskell/data-textual 0.3.0.3: Human-friendly textual representations for Haskell
 dev-haskell/deferred-folds 0.9.17: Abstractions over deferred folds
+dev-haskell/either 5.0.2: An either monad transformer
 dev-haskell/expiring-cache-map 0.0.6.1: General purpose simple caching
+dev-haskell/filelock 0.1.1.5: Portable interface to file locking
 dev-haskell/hasql 1.4.5.2: An efficient PostgreSQL driver with a flexible mapping API
 dev-haskell/hasql-dynamic-statements 0.3.1: Dynamic statements for Hasql
 dev-haskell/hasql-implicits 0.1.0.2: Implicit definitions for Hasql
@@ -245,6 +247,7 @@ dev-haskell/interpolatedstring-perl6 1.0.2: QuasiQuoter for Perl6 style multi-li
 dev-haskell/jose 0.8.5.1: Haskell JOSE and JWT library
 dev-haskell/json-ast 0.3.1: Universal JSON AST datastructure
 dev-haskell/loch-th 0.2.2: Support for precise error locations in source files
+dev-haskell/mime-mail 0.5.1: Compose MIME email messages
 dev-haskell/modern-uri 0.3.4.1: Modern library for working with URIs
 dev-haskell/monad-time 0.3.1.0: Type class for monads which carry the notion of the current time
 dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
