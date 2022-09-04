@@ -267,7 +267,7 @@ dev-haskell/ptr 0.16.8.1: Abstractions for operations on pointers
 dev-haskell/rebase 1.13.0.1: A more progressive alternative to the 'base' package
 dev-haskell/req 3.9.1: Easy-to-use, type-safe, expandable, high-level HTTP client library
 dev-haskell/rerebase 1.13.0.1: Reexports from 'base' with a bunch of other standard libraries
-dev-haskell/scotty 0.11.5 0.12 0.12-r1: Haskell web framework
+dev-haskell/scotty 0.12: Haskell web framework
 dev-haskell/scrypt 0.5.0: Stronger password hashing via sequential memory-hard functions
 dev-haskell/selective 0.4.2: Selective applicative functors
 dev-haskell/semigroups 0.19.1: Anything that associates
