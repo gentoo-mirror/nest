@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 686](https://img.shields.io/badge/ebuild-686-orange.svg)](https://img.shields.io/badge/ebuild-686-orange.svg)
+[![Number of ebuilds: 689](https://img.shields.io/badge/ebuild-689-orange.svg)](https://img.shields.io/badge/ebuild-689-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -194,7 +194,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[data-serializer](https://github.com/mvv/data-serializer) | Common API for Haskell serialization libraries
 *   dev-haskell/[data-textual](https://github.com/mvv/data-textual) | Human-friendly textual representations for Haskell
 *   dev-haskell/[deferred-folds](https://github.com/metrix-ai/deferred-folds) | Abstractions over deferred folds
+*   dev-haskell/[either](https://github.com/ekmett/either) | An either monad transformer
 *   dev-haskell/[expiring-cache-map](https://github.com/elblake/expiring-cache-map) | General purpose simple caching
+*   dev-haskell/[filelock](https://github.com/takano-akio/filelock) | Portable interface to file locking
 *   dev-haskell/[hasql](https://github.com/nikita-volkov/hasql) | An efficient PostgreSQL driver with a flexible mapping API
 *   dev-haskell/[hasql-dynamic-statements](https://github.com/nikita-volkov/hasql-dynamic-statements) | Dynamic statements for Hasql
 *   dev-haskell/[hasql-implicits](https://github.com/nikita-volkov/hasql-implicits) | Implicit definitions for Hasql
@@ -219,6 +221,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[jose](https://github.com/frasertweedale/hs-jose) | Haskell JOSE and JWT library
 *   dev-haskell/[json-ast](https://github.com/nikita-volkov/json-ast) | Universal JSON AST datastructure
 *   dev-haskell/[loch-th](https://github.com/liskin/loch-th) | Support for precise error locations in source files
+*   dev-haskell/[mime-mail](https://github.com/snoyberg/mime-mail) | Compose MIME email messages
 *   dev-haskell/[modern-uri](https://github.com/mrkkrp/modern-uri) | Modern library for working with URIs
 *   dev-haskell/[monad-time](https://github.com/scrive/monad-time) | Type class for monads which carry the notion of the current time
 *   dev-haskell/[network-ip](https://github.com/mvv/network-ip) | Internet Protocol data structures
