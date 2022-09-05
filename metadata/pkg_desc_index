@@ -203,6 +203,7 @@ dev-haskell/Ranged-sets 0.4.0: Ranged sets for Haskell
 dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 dev-haskell/authenticate-oauth 1.7: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/base-prelude 1.4: The most complete prelude formed only from the base package
+dev-haskell/base-unicode-symbols 0.2.4.2: Unicode alternatives for common functions and operators
 dev-haskell/base64-bytestring 1.2.1.0: Fast base64 encoding and decoding for Haskell
 dev-haskell/binary-parser 0.5.7: A highly-efficient but limited parser API for bytestrings
 dev-haskell/bytestring-strict-builder 0.4.5.4: An efficient strict bytestring builder
@@ -213,6 +214,7 @@ dev-haskell/configurator-pg 0.2.5: Reduced parser for configurator-ng config fil
 dev-haskell/conversion 1.2.1: Universal converter between values of different types
 dev-haskell/conversion-bytestring 1.0.1: Conversion instances for the bytestring library
 dev-haskell/conversion-text 1.0.1: Conversion instances for the text library
+dev-haskell/crypto-pubkey-types 0.4.3: Generic cryptography Public keys algorithm types
 dev-haskell/daemons 0.2.1 0.3.0: Daemons in Haskell made fun and easy
 dev-haskell/data-bword 0.1.0.1: Extra operations on binary words of fixed length
 dev-haskell/data-checked 0.3: Type-indexed runtime-checked properties for Haskell
@@ -220,6 +222,7 @@ dev-haskell/data-dword 0.3.2: Stick two binary words together to get a bigger on
 dev-haskell/data-serializer 0.3.5: Common API for Haskell serialization libraries
 dev-haskell/data-textual 0.3.0.3: Human-friendly textual representations for Haskell
 dev-haskell/deferred-folds 0.9.17: Abstractions over deferred folds
+dev-haskell/drbg 0.5.5: Deterministic random bit generator (aka PRNG)
 dev-haskell/either 5.0.2: An either monad transformer
 dev-haskell/expiring-cache-map 0.0.6.1: General purpose simple caching
 dev-haskell/filelock 0.1.1.5: Portable interface to file locking
@@ -247,6 +250,7 @@ dev-haskell/interpolatedstring-perl6 1.0.2: QuasiQuoter for Perl6 style multi-li
 dev-haskell/jose 0.8.5.1: Haskell JOSE and JWT library
 dev-haskell/json-ast 0.3.1: Universal JSON AST datastructure
 dev-haskell/loch-th 0.2.2: Support for precise error locations in source files
+dev-haskell/megaparsec 9.2.2: Monadic parser combinators
 dev-haskell/mime-mail 0.5.1: Compose MIME email messages
 dev-haskell/modern-uri 0.3.4.1: Modern library for working with URIs
 dev-haskell/monad-time 0.3.1.0: Type class for monads which carry the notion of the current time
@@ -268,6 +272,7 @@ dev-haskell/ptr 0.16.8.1: Abstractions for operations on pointers
 dev-haskell/rebase 1.13.0.1: A more progressive alternative to the 'base' package
 dev-haskell/req 3.12.0: Easy-to-use, type-safe, expandable, high-level HTTP client library
 dev-haskell/rerebase 1.13.0.1: Reexports from 'base' with a bunch of other standard libraries
+dev-haskell/rsa 2.4.1: Implementation of RSA, using the padding schemes of PKCS#1 v2.1
 dev-haskell/scotty 0.12: Haskell web framework
 dev-haskell/scrypt 0.5.0: Stronger password hashing via sequential memory-hard functions
 dev-haskell/selective 0.4.2: Selective applicative functors

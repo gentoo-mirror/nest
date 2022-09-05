@@ -61,6 +61,7 @@ dev-db/usql:voltdb - Enable support for VoltDB
 dev-haskell/hspec-megaparsec:dev - Enable development settings
 dev-haskell/http-client:network-uri - Get Network.URI from the network-uri package.
 dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
+dev-haskell/megaparsec:dev - Enable development settings
 dev-haskell/modern-uri:dev - Enable development settings
 dev-haskell/optics-core:explicit-generic-labels - Enable generics-based labels
 dev-haskell/parser-combinators:dev - Enable development settings
