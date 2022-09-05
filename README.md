@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 689](https://img.shields.io/badge/ebuild-689-orange.svg)](https://img.shields.io/badge/ebuild-689-orange.svg)
+[![Number of ebuilds: 694](https://img.shields.io/badge/ebuild-694-orange.svg)](https://img.shields.io/badge/ebuild-694-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -177,6 +177,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[ansi-wl-pprint](https://github.com/ekmett/ansi-wl-pprint) | The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 *   dev-haskell/[authenticate-oauth](https://github.com/yesodweb/authenticate) | Library to authenticate with OAuth for Haskell web applications
 *   dev-haskell/[base-prelude](https://github.com/nikita-volkov/base-prelude) | The most complete prelude formed only from the base package
+*   dev-haskell/[base-unicode-symbols](https://github.com/roelvandijk/base-unicode-symbols) | Unicode alternatives for common functions and operators
 *   dev-haskell/[base64-bytestring](https://github.com/haskell/base64-bytestring) | Fast base64 encoding and decoding for Haskell
 *   dev-haskell/[binary-parser](https://github.com/nikita-volkov/binary-parser) | A highly-efficient but limited parser API for bytestrings
 *   dev-haskell/[bytestring-strict-builder](https://github.com/nikita-volkov/bytestring-strict-builder) | An efficient strict bytestring builder
@@ -187,6 +188,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[conversion](https://github.com/nikita-volkov/conversion) | Universal converter between values of different types
 *   dev-haskell/[conversion-bytestring](https://github.com/nikita-volkov/conversion-bytestring) | Conversion instances for the bytestring library
 *   dev-haskell/[conversion-text](https://github.com/nikita-volkov/conversion-text) | Conversion instances for the text library
+*   dev-haskell/[crypto-pubkey-types](https://github.com/vincenthz/hs-crypto-pubkey-types) | Generic cryptography Public keys algorithm types
 *   dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
 *   dev-haskell/[data-bword](https://github.com/mvv/data-bword) | Extra operations on binary words of fixed length
 *   dev-haskell/[data-checked](https://github.com/mvv/data-checked) | Type-indexed runtime-checked properties for Haskell
@@ -194,6 +196,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[data-serializer](https://github.com/mvv/data-serializer) | Common API for Haskell serialization libraries
 *   dev-haskell/[data-textual](https://github.com/mvv/data-textual) | Human-friendly textual representations for Haskell
 *   dev-haskell/[deferred-folds](https://github.com/metrix-ai/deferred-folds) | Abstractions over deferred folds
+*   dev-haskell/[drbg](https://github.com/TomMD/DRBG) | Deterministic random bit generator (aka PRNG)
 *   dev-haskell/[either](https://github.com/ekmett/either) | An either monad transformer
 *   dev-haskell/[expiring-cache-map](https://github.com/elblake/expiring-cache-map) | General purpose simple caching
 *   dev-haskell/[filelock](https://github.com/takano-akio/filelock) | Portable interface to file locking
@@ -221,6 +224,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[jose](https://github.com/frasertweedale/hs-jose) | Haskell JOSE and JWT library
 *   dev-haskell/[json-ast](https://github.com/nikita-volkov/json-ast) | Universal JSON AST datastructure
 *   dev-haskell/[loch-th](https://github.com/liskin/loch-th) | Support for precise error locations in source files
+*   dev-haskell/[megaparsec](https://github.com/mrkkrp/megaparsec) | Monadic parser combinators
 *   dev-haskell/[mime-mail](https://github.com/snoyberg/mime-mail) | Compose MIME email messages
 *   dev-haskell/[modern-uri](https://github.com/mrkkrp/modern-uri) | Modern library for working with URIs
 *   dev-haskell/[monad-time](https://github.com/scrive/monad-time) | Type class for monads which carry the notion of the current time
@@ -242,6 +246,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[rebase](https://github.com/nikita-volkov/rebase) | A more progressive alternative to the 'base' package
 *   dev-haskell/[req](https://github.com/mrkkrp/req) | Easy-to-use, type-safe, expandable, high-level HTTP client library
 *   dev-haskell/[rerebase](https://github.com/nikita-volkov/rerebase) | Reexports from 'base' with a bunch of other standard libraries
+*   dev-haskell/[rsa](https://github.com/GaloisInc/RSA) | Implementation of RSA, using the padding schemes of PKCS#1 v2.1
 *   dev-haskell/[scotty](https://github.com/scotty-web/scotty) | Haskell web framework
 *   dev-haskell/[scrypt](https://github.com/informatikr/scrypt) | Stronger password hashing via sequential memory-hard functions
 *   dev-haskell/[selective](https://github.com/snowleopard/selective) | Selective applicative functors
