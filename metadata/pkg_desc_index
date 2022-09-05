@@ -254,6 +254,7 @@ dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
 dev-haskell/optics-core 0.4: Optics as an abstract interface
 dev-haskell/optics-extra 0.4: Extra utilities and instances for optics-core
 dev-haskell/optics-th 0.3.0.2: Optics as an abstract interface
+dev-haskell/parser-combinators 1.3.0: Lightweight package providing commonly useful parser combinators
 dev-haskell/pipes 4.3.16: Compositional pipelines
 dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
 dev-haskell/postgresql-binary 0.12.3.3: Encoders and decoders for the PostgreSQL's binary format

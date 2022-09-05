@@ -63,6 +63,7 @@ dev-haskell/http-client:network-uri - Get Network.URI from the network-uri packa
 dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
 dev-haskell/modern-uri:dev - Enable development settings
 dev-haskell/optics-core:explicit-generic-labels - Enable generics-based labels
+dev-haskell/parser-combinators:dev - Enable development settings
 dev-haskell/pretty-simple:buildexample - Build program showing how to use the pPrint function
 dev-haskell/pretty-simple:buildexe - Build program that pretty-prints anything from stdin
 dev-haskell/req:dev - Enable development settings
