@@ -10,5 +10,5 @@ RDEPEND=acct-user/vector
 RESTRICT=bindist mirror
 SLOT=0
 SRC_URI=https://github.com/vectordotdev/vector/releases/download/v0.23.0/vector_0.23.0-1_amd64.deb
-_eclasses_=pax-utils	91d47e5d20627c717aa878b9167c62a8	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1	unpacker	697382d119fd3d195f110b7979184285
+_eclasses_=pax-utils	91d47e5d20627c717aa878b9167c62a8	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	51227d3864ab15087e784b5d0db3270c
 _md5_=59b827262ecc071316b9b670f55fba69
