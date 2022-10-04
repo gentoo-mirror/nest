@@ -10,5 +10,5 @@ LICENSE=Apache-2.0 BSD MIT MPL-2.0
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
-_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	go-module	b088539f282ed242c23f38fa65472184	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	go-module	b088539f282ed242c23f38fa65472184	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
 _md5_=3c03b2f7bee549dfc0f774b35d58e85f
