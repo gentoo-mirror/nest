@@ -362,6 +362,7 @@ dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aspectlib 1.5.2 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/assertpy 1.1 9999: Assertion library for unit testing
+dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/azure-common 1.1.28 9999: Microsoft Azure Client Common Library for Python
 dev-python/azure-core 1.23.1 9999: Microsoft Azure Core Library for Python
 dev-python/azure-storage-blob 12.11.0 9999: Microsoft Azure Storage Blobs Library for Python
@@ -493,6 +494,7 @@ dev-python/reprint 0.6.0 9999: Binding variables and refreshing multi-line outpu
 dev-python/ripe-atlas-cousteau 1.4.2 9999: Official python wrapper around RIPE Atlas API
 dev-python/ripe-atlas-sagan 1.3.1 9999: A parsing library for RIPE Atlas measurement results
 dev-python/route53-transfer 9999 20180830: Generic access to configuration files in any formats
+dev-python/rstr 3.1.0 9999: Generate random strings in Python
 dev-python/schema 0.7.5 9999: Simple data validation library
 dev-python/scikit-learn 1.0.2 9999: Machine learning in Python
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
