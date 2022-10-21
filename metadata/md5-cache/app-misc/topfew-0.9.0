@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/timbray/topfew/archive/0.9.0.tar.gz -> topfew-0.9.0.tar.gz
-_eclasses_=go-module	b088539f282ed242c23f38fa65472184
+_eclasses_=go-module	15312495dc4fd84f8c37bbe228ea2abd
 _md5_=e3ffa09bcdc68c14ee7faa58c4fd8913

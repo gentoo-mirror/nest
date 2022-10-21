@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/cointop-sh/cointop/archive/v1.6.10.tar.gz -> cointop-1.6.10.tar.gz
-_eclasses_=go-module	b088539f282ed242c23f38fa65472184
+_eclasses_=go-module	15312495dc4fd84f8c37bbe228ea2abd
 _md5_=ffaf6720c61cd452e606f5278bb4fa24
