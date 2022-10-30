@@ -140,6 +140,7 @@ app-editors/micro 2.0.10 9999: A modern and intuitive terminal-based text editor
 app-editors/notes 2.0.0 9999: Note taking application, write down your thoughts
 app-editors/obsidian 1.0.3: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
+app-editors/typora 1.4.7: A minimal markdown editor and reader
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 15.5.2 15.5.6a 15.5.6b 15.5.6c 15.5.6d 15.5.6e 15.5.7a 15.5.7b 15.5.7c 15.5.7d 15.5.7e 15.5.7f 16.0.0a 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.1.0a 16.1.0b 16.1.0c 16.1.0d 16.1.0e 16.1.1a 16.1.1b 16.1.1c 16.1.1d 16.1.1e 16.1.2a 16.1.2b 16.1.2c 16.1.2d 16.1.2e 16.1.2f 16.2.0a 16.2.0b 16.2.0c 16.2.0d 16.2.0e 16.2.0f 16.2.0g 16.2.1a 16.2.1b 16.2.1c 16.2.1d 16.2.1e 16.2.1f 16.2.1g 16.2.3a 16.2.3b 16.2.3c 16.2.3d 16.2.3e 16.2.3f 16.2.3g 16.2.3h 16.2.4a 16.2.4b 16.2.4c 16.2.4d 16.2.4e 16.2.4f 16.2.4g 16.2.4h: VMware kernel modules
