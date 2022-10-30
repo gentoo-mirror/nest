@@ -166,6 +166,7 @@ app-office/drawio-desktop-bin 19.0.3: Diagram drawing application built on web t
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
+app-text/marktext 0.17.1: A simple and elegant open-source markdown editor
 app-text/notes 2.0.0 9999: Note taking application, write down your thoughts
 app-text/obsidian 1.0.0: A knowledge base of plain text Markdown files
 dev-cpp/belr 5.1.3 9999: Language recognition library by Belledonne Communications
