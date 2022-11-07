@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-ml/ocaml-ctypes:=[ocamlopt?] media-libs/libsdl2 >=dev-lang/ocaml-4:=
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=opam	42c5d48985d3f77484fe405cfc69356d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=opam	42c5d48985d3f77484fe405cfc69356d	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=cb3ab32180b065cf4b883924edbbc70d
