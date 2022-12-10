@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/libmad >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	c8f275f00adf2380fe0a57d8a249885c	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	db0ce2a301411f44e4ee90e5c591ada0	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=04f2b2888d2f6c21005748102b21c088

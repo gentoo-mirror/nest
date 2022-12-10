@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/1.0.2
 SRC_URI=https://github.com/yoriyuki/camomile/archive/1.0.2/Camomile-1.0.2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	c8f275f00adf2380fe0a57d8a249885c
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	db0ce2a301411f44e4ee90e5c591ada0
 _md5_=1691e3efe93d8d95537d9c8b6e0e9821

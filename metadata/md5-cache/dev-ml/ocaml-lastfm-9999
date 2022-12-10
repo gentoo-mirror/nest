@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=dev-ml/ocamlnet:=[ocamlopt?] dev-ml/ocaml-xmlplaylist:=[ocamlopt?] dev-ml/pcre-ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	c8f275f00adf2380fe0a57d8a249885c	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	db0ce2a301411f44e4ee90e5c591ada0	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=7909026583dd6e453ec0870e150a879c
