@@ -1,4 +1,4 @@
-BDEPEND=dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-lang/ocaml dev-ml/dune >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
 DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=OCaml daemon tools library
@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=syslog? ( dev-ml/ocaml-syslog:= ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	db0ce2a301411f44e4ee90e5c591ada0	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	05e1ecac420bb190bc7f981fdd670d96	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=bdaf61d498524c4021614cea318c6f41

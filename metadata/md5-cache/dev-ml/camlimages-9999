@@ -1,4 +1,4 @@
-BDEPEND=dev-ml/cppo:0= dev-ml/dune-configurator:= virtual/pkgconfig dev-ml/dune dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-ml/cppo:0= dev-ml/dune-configurator:= virtual/pkgconfig dev-lang/ocaml dev-ml/dune >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
 DEPEND=exif? ( media-libs/libexif ) gif? ( media-libs/giflib:0= ) gtk? ( dev-ml/lablgtk:2= ) jpeg? ( virtual/jpeg:= ) tiff? ( media-libs/tiff ) png? ( media-libs/libpng:= ) postscript? ( app-text/ghostscript-gpl ) truetype? ( media-libs/freetype:2 ) xpm? ( x11-libs/libXpm ) X? ( x11-apps/rgb ) sys-libs/zlib:= dev-ml/stdio:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=An image manipulation library for ocaml
@@ -10,5 +10,5 @@ LICENSE=GPL-2-with-linking-exception
 PROPERTIES=live
 RDEPEND=exif? ( media-libs/libexif ) gif? ( media-libs/giflib:0= ) gtk? ( dev-ml/lablgtk:2= ) jpeg? ( virtual/jpeg:= ) tiff? ( media-libs/tiff ) png? ( media-libs/libpng:= ) postscript? ( app-text/ghostscript-gpl ) truetype? ( media-libs/freetype:2 ) xpm? ( x11-libs/libXpm ) X? ( x11-apps/rgb ) sys-libs/zlib:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	db0ce2a301411f44e4ee90e5c591ada0	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	05e1ecac420bb190bc7f981fdd670d96	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=207cf4ca4db1cb169315f85f05e68cfa
