@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Ubiquiti EdgeOS image from a system tarball
+EAPI=8
+HOMEPAGE=https://github.com/sowbug/mkeosimg
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/sowbug/mkeosimg/archive/c96fff2323ab4b76ae0c48a601cc90098b61374c.tar.gz -> mkeosimg-19122022.gh.tar.gz
+_md5_=414cfb8f0cc49b7db641afe3749d602c
