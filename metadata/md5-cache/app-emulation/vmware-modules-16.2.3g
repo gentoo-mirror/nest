@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=acct-group/vmware kernel_linux? ( sys-apps/kmod[tools] dist-kernel? ( virtual/dist-kernel:= ) )
 SLOT=5.16
 SRC_URI=https://github.com/mkubecek/vmware-host-modules/archive/w16.2.3-k5.16.tar.gz -> vmware-modules-16.2.3-5.16.tar.gz
-_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	linux-info	7e4d48a3c6c8ebdaa9f7f9e7d2991e22	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	linux-mod	6ae66f4d491ffb4390c547e768159fce	udev	eec0bbab06977f1cfc5597269c1fa152
+_eclasses_=toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	linux-info	7e4d48a3c6c8ebdaa9f7f9e7d2991e22	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	linux-mod	6ae66f4d491ffb4390c547e768159fce	udev	eec0bbab06977f1cfc5597269c1fa152
 _md5_=a42b853f8ec6fd1c8412e14228a086f5
