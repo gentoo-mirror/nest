@@ -9,5 +9,5 @@ LICENSE=BSD MIT MPL-2.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/adamdecaf/vault-backend-migrator/archive/0.2.1-dev.tar.gz -> vault-backend-migrator-0.2.1-dev.tar.gz
-_eclasses_=go-module	fdf8c78611f9efa20d26b955399a44c7
+_eclasses_=go-module	75029f071ebc843223233ab1b0a2d4a5
 _md5_=e05c36e7f1fd2d1b3a3afe47351aad1d
