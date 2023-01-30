@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	optfeature	1a2157392a869265b2afcb63a26c12ac	virtualx	644887c82aefdf12001489391fca4f02	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	optfeature	1a2157392a869265b2afcb63a26c12ac	virtualx	644887c82aefdf12001489391fca4f02	xdg-utils	ac0e315a3688929e34ac75b139e7349a	xdg	6024fbc93167fad782e2032933654857
 _md5_=b525142db79a3505ef94bc164302c08f
