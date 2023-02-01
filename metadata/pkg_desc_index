@@ -575,7 +575,7 @@ dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your c
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
 dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/commitizen 2.24.0 9999: Python commitizen client tool
-dev-vcs/gitaly 13.3.2 9999: Git RPC service for handling GitLab git calls
+dev-vcs/gitaly 13.12.15 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.17.0 9999: Git commit message linter
 dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
 dev-vcs/mercurial_keyring 1.4.1 9999: Mercurial Keyring Extension
