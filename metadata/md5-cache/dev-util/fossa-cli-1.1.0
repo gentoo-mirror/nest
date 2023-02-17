@@ -9,5 +9,5 @@ LICENSE=MPL-2.0
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/fossas/fossa-cli/archive/v1.1.0.tar.gz -> fossa-cli-1.1.0.tar.gz
-_eclasses_=go-module	75029f071ebc843223233ab1b0a2d4a5
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	go-module	01650d8433daaaf046d2a287306c28cd
 _md5_=c0a3ee13a1d429f4252489bb0477b8f9
