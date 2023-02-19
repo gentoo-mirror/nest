@@ -11,5 +11,5 @@ RDEPEND=acct-user/stg
 REQUIRED_USE=stargazer? ( ^^ ( module-store-files module-store-firebird module-store-mysql module-store-postgres ) )
 SLOT=0
 SRC_URI=https://stg.codes/attachments/download/11/stg-2.409-rc4.tar.gz
-_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395
+_eclasses_=toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395
 _md5_=fc9e81af3d820398f7295d1af5e958ca
