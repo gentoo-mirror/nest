@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=|| ( dev-lang/ruby:2.7 dev-lang/ruby:3.0 dev-lang/ruby:3.1 ) virtual/rubygems acct-group/gitlab acct-user/gitlab-gitaly virtual/tmpfiles
 RESTRICT=mirror test strip
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	go-module	01650d8433daaaf046d2a287306c28cd	ruby-utils	97c8e15d89dc6537e36cddedf413ed22	ruby-single	b9b5d136d97bf37058132e4231da02fa	toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	go-module	f2c9bcab49079a176b3ae061c94bb344	ruby-utils	97c8e15d89dc6537e36cddedf413ed22	ruby-single	b9b5d136d97bf37058132e4231da02fa	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
 _md5_=2dcc1cc83937d690c932a2fbc6d1d42d

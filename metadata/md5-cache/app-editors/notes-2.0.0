@@ -12,5 +12,5 @@ RDEPEND=dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=https://github.com/nuttyartist/notes/archive/v2.0.0.tar.gz -> notes-2.0.0.tar.gz https://api.github.com/repos/alex-spataru/QSimpleUpdater/tarball/14c1bef -> notes-2.0.0-qsu.tar.gz https://api.github.com/repos/b00f/qautostart/tarball/efdb2e5 -> notes-2.0.0-qas.tar.gz https://api.github.com/repos/pbek/qmarkdowntextedit/tarball/b85b0f1 -> notes-2.0.0-qmd.tar.gz
-_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	virtualx	644887c82aefdf12001489391fca4f02
+_eclasses_=desktop	7eb20ad915a0a318176d51bc2508ff5c	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	virtualx	644887c82aefdf12001489391fca4f02
 _md5_=2a409e852078397f2ef7edfd02bd87c1
