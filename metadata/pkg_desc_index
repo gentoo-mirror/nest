@@ -668,7 +668,7 @@ net-libs/bctoolbox 5.1.3 9999: Utilities library used by Belledonne Communicatio
 net-libs/bzrtp 5.1.3 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.1.3 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
-net-misc/amazon-workspaces-bin 4.0.6.2177: Amazon Workspace Client
+net-misc/amazon-workspaces-bin 4.5.0.2006: Amazon Workspace Client
 net-misc/awscurl 0.24 0.26 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1_p1 9999: Network problems simulator
