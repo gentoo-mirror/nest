@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/belcard dev-libs/jsoncpp:0= dev-libs/liblinphone dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtdbus:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols:5 dev-qt/qtquickcontrols2:5[widgets] dev-qt/qtsvg:5 dev-qt/qtwidgets:5 media-libs/mediastreamer2[zrtp,jpeg] net-libs/bctoolbox net-libs/ortp
 RESTRICT=test
 SLOT=0
-_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	git-r3	2347f8fe2d392b2a091191f94be37e6f	xdg	6024fbc93167fad782e2032933654857
+_eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	b2e109b7341cd993b8bdfcc60652a14d	git-r3	2347f8fe2d392b2a091191f94be37e6f	xdg	6024fbc93167fad782e2032933654857
 _md5_=4fa36121f2346dcfc00f81c22b6808e5
