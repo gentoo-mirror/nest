@@ -13,5 +13,5 @@ RDEPEND=acct-user/postgrest dev-haskell/aeson:=[profile?] dev-haskell/ansi-wl-pp
 RESTRICT=test !test? ( test )
 SLOT=0/8.0.0
 SRC_URI=https://hackage.haskell.org/package/postgrest-8.0.0/postgrest-8.0.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	05d8a4fa4d20422c724fc38b4b9f15c0	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	haskell-cabal	ac56c62fdcc7d2fedefe4e04ed40e1a7	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=c9237895975fe9cc565bf3a998c010da

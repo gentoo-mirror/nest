@@ -7,5 +7,5 @@ INHERIT=git-r3 linux-info toolchain-funcs
 LICENSE=ISC
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	linux-info	4b552625ebd741dfd2ac08637fd2436e
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	linux-info	ecb03306c95c6ccc55852c98abcfcc64
 _md5_=e2453bf9632bc9a628a995c22c2a8b40
