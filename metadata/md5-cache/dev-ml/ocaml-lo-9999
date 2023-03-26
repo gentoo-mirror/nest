@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=media-libs/liblo >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	77dc707d5b61b8d0b0fe46cefbdfec3a	git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=79fb057f3e6e4fe520b5a57db9e7b838

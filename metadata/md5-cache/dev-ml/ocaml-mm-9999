@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=alsa? ( dev-ml/ocaml-alsa:=[ocamlopt?] ) ao? ( dev-ml/ocaml-ao:=[ocamlopt?] ) ffmpeg? ( dev-ml/ocaml-ffmpeg:=[ocamlopt?] ) gstreamer? ( dev-ml/ocaml-gstreamer:=[ocamlopt?] ) mad? ( dev-ml/ocaml-mad:=[ocamlopt?] ) ogg? ( dev-ml/ocaml-ogg:=[ocamlopt?] ) pulseaudio? ( dev-ml/ocaml-pulseaudio:=[ocamlopt?] ) sdl? ( dev-ml/ocamlsdl:=[ocamlopt?] ) theora? ( dev-ml/ocaml-theora:=[ocamlopt?] ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	77dc707d5b61b8d0b0fe46cefbdfec3a	git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=aab3f7a777c09755d3cf3f6c8cbc4485

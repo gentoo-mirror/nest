@@ -8,5 +8,5 @@ LICENSE=BSD
 PROPERTIES=live
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=14e241bfae398636e088c2a746f95629

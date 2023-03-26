@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=|| ( app-admin/pass app-admin/gopass ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 net-misc/x11-ssh-askpass
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
-_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	c57c50c922e121043788de0b40ada60a	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	virtualx	ab0d5fcb35ad650a57b516e6f4c467e7
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	27e13c09a4c7e4c78ac812f74727e676	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	qmake-utils	59420c906278d16deaaa629f9d115707	virtualx	817571665ee28575da44ee08135089e5
 _md5_=9b8f9b106620bb2a6e436180a7549917

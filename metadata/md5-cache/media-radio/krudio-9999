@@ -9,5 +9,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtmultimedia:5[gstreamer] dev-qt/qtsql:5 dev-qt/qtwidgets:5 media-plugins/gst-plugins-meta:1.0[aac,http,mp3,mpeg,ogg,vorbis]
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=472a12521a3ab1fb310bdecf3207af18

@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=client? ( dev-db/postgresql:*[static-libs?] )
 REQUIRED_USE=debug? ( client ) client? ( static-libs )
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=c9c5c0bdd8581ce92f2ef6c917ff3b2e

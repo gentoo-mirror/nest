@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=>=dev-lang/tcl-8.6:0= dev-tcltk/tcllib sys-fs/xfsprogs
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=544ed848e15fbfbf7e08c6ff17796655
