@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=|| ( ( dev-lang/ruby:3.0 virtual/rubygems[ruby_targets_ruby30(-)] ) ( dev-lang/ruby:2.7 virtual/rubygems[ruby_targets_ruby27(-)] ) ( dev-lang/ruby:3.1 virtual/rubygems[ruby_targets_ruby31(-)] ) ) acct-group/gitlab acct-user/gitlab-gitaly virtual/tmpfiles
 RESTRICT=mirror test strip
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	go-module	f9700c7efec1fd4955363169e9930c1c	ruby-utils	2412b1152083f1e866ae6df229d51d30	ruby-single	291cec9036393ebb5b11a4199edce193	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	d1408425c7c4a7669b9b17735404b693	go-module	9c75e51a48520b2f01471c1f91762882	ruby-utils	2412b1152083f1e866ae6df229d51d30	ruby-single	291cec9036393ebb5b11a4199edce193	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
 _md5_=2dcc1cc83937d690c932a2fbc6d1d42d
