@@ -583,7 +583,7 @@ dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git reposito
 kde-misc/Burn-My-Windows 30 9999: Disintegrate your windows with style
 kde-misc/Tiled-Quicklaunch 9999 20211017: Plasma Menu Widget for KDE
 kde-misc/applet-latte-analogclock 0.2.0 9999: Analog clock applet that respects Latte items size
-kde-misc/applet-latte-separator 0.1.1 9999: Plasma 5 applet that acts as a separator between applets
+kde-misc/applet-latte-separator 0.1.2 9999: Plasma 5 applet that acts as a separator between applets
 kde-misc/applet-latte-sidebar-button 0.2.1 9999: Plasma 5 applet to show and hide Latte Sidebars
 kde-misc/applet-latte-spacer 0.3.0 9999: Plasma 5 applet that acts as a spacer between applets
 kde-misc/applet-window-appmenu 0.7.1 9999: Plasma 5 applet in order to show window appmenu in your panels
