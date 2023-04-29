@@ -580,7 +580,7 @@ dev-vcs/gitlint 0.17.0 9999: Git commit message linter
 dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
 dev-vcs/mercurial_keyring 1.4.1 9999: Mercurial Keyring Extension
 dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git repository
-kde-misc/Burn-My-Windows 21 9999: Disintegrate your windows with style
+kde-misc/Burn-My-Windows 30 9999: Disintegrate your windows with style
 kde-misc/Tiled-Quicklaunch 9999 20211017: Plasma Menu Widget for KDE
 kde-misc/applet-latte-analogclock 0.2.0 9999: Analog clock applet that respects Latte items size
 kde-misc/applet-latte-separator 0.1.1 9999: Plasma 5 applet that acts as a separator between applets
