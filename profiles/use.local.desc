@@ -86,8 +86,8 @@ dev-libs/zrtpcpp:empty - Build empty (no cache) backend
 dev-libs/zrtpcpp:sdes - Build with SDES
 dev-libs/zrtpcpp:sqlcipher - Build SQLCipher backed for cache
 dev-libs/zrtpcpp:tivi - Build tivi client
-dev-python/PythonQt:extensions - Install extensions
 dev-python/drf-yasg:validation - Enable swagger spec validation
+dev-python/pythonqt:extensions - Install extensions
 dev-python/tablib:xls - Support for xls
 dev-python/tablib:yaml - Support for yaml
 dev-util/cloud-utils:fat - Enable FAT support

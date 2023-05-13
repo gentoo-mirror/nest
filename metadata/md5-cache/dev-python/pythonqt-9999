@@ -1,17 +1,16 @@
-BDEPEND=app-arch/unzip virtual/pkgconfig test? ( dev-qt/qttest:5 ) test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
-DEFINED_PHASES=configure install prepare setup test
+BDEPEND=app-arch/unzip virtual/pkgconfig test? ( dev-qt/qttest:5 ) >=dev-vcs/git-1.8.2.1[curl] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=configure install prepare setup test unpack
 DEPEND=python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 ) dev-qt/qtxml:5 doc? ( app-doc/doxygen )
 DESCRIPTION=A dynamic Python binding for the Qt framework
 EAPI=8
 HOMEPAGE=https://mevislab.github.io/pythonqt/
-INHERIT=qmake-utils python-single-r1 virtualx
+INHERIT=git-r3 qmake-utils python-single-r1 virtualx
 IUSE=debug doc examples +extensions test python_single_target_python3_10 python_single_target_python3_11 test
-KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
+PROPERTIES=live
 RDEPEND=python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 )
 REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
-SRC_URI=mirror://sourceforge/pythonqt/pythonqt/PythonQt-3.2/PythonQt3.2.zip
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	qmake-utils	59420c906278d16deaaa629f9d115707	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-single-r1	75118e916668a74c660a13b0ecb22562	virtualx	817571665ee28575da44ee08135089e5
-_md5_=37b3770996039ea0bc70371c1517028d
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	qmake-utils	59420c906278d16deaaa629f9d115707	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-single-r1	75118e916668a74c660a13b0ecb22562	virtualx	817571665ee28575da44ee08135089e5
+_md5_=3c983bab99843d5afe28729b5bdae497
