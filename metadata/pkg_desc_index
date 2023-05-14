@@ -602,14 +602,13 @@ kde-misc/plasma-power-monitor 0.2 9999: Plasma widget to monitor the power consu
 kde-misc/plasmoid-wunderground-extended 0.7.1 9999: KDE5 Plasma Weather Widget
 kde-misc/pminhibition 1.5 9999: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 2.2.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
-media-gfx/butteraugli 9999: A tool for measuring perceived differences between images
-media-gfx/colorpick 9999: Color picker and contrast checker
-media-gfx/depix 9999: A tool for recovering passwords from pixelized screenshots
-media-gfx/dssim 2.10.0 9999: Image similarity comparison simulating human perception
+media-gfx/butteraugli 9999 20032019: A tool for measuring perceived differences between images
+media-gfx/colorpick 9999 12042023: Color picker and contrast checker
+media-gfx/depix 9999 16062022: A tool for recovering passwords from pixelized screenshots
+media-gfx/dssim 3.2.3 9999: Image similarity comparison simulating human perception
 media-gfx/guetzli 1.0.1 9999: Perceptual JPEG encoder
 media-gfx/lsix 1.8 9999: Image viewer for terminal that use sixel graphics
-media-gfx/nomacs 9999: Qt-based image viewer
-media-gfx/pineapple-pictures 0.5.3 9999: A homebrew lightweight image viewer
+media-gfx/pineapple-pictures 0.6.9 9999: A homebrew lightweight image viewer
 media-gfx/pingo-bin 0.99_beta52 0.99_beta63: Fast web image optimizer
 media-gfx/qView 5.0 9999: Practical and minimal image viewer
 media-gfx/screencloud 1.5.3 9999: Screenshot capturing and sharing tool over various services

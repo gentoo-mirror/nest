@@ -2,7 +2,7 @@ BDEPEND=virtual/pkgconfig test? ( media-libs/libjpeg-turbo media-libs/netpbm[png
 DEFINED_PHASES=compile install prepare test unpack
 DEPEND=media-libs/libpng:0=
 DESCRIPTION=Perceptual JPEG encoder
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/google/guetzli
 INHERIT=git-r3 toolchain-funcs
 IUSE=debug test
@@ -12,4 +12,4 @@ RDEPEND=media-libs/libpng:0=
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1
-_md5_=392bf72facabb94e2f999905502be39a
+_md5_=d8deaf0082c597fbdd4b10b77b20c09c
