@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 698](https://img.shields.io/badge/ebuild-698-orange.svg)](https://img.shields.io/badge/ebuild-698-orange.svg)
+[![Number of ebuilds: 697](https://img.shields.io/badge/ebuild-697-orange.svg)](https://img.shields.io/badge/ebuild-697-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -618,7 +618,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   media-gfx/[dssim](https://github.com/kornelski/dssim) | Image similarity comparison simulating human perception
 *   media-gfx/[guetzli](https://github.com/google/guetzli) | Perceptual JPEG encoder
 *   media-gfx/[lsix](https://github.com/hackerb9/lsix) | Image viewer for terminal that use sixel graphics
-*   media-gfx/[nomacs](https://nomacs.org) | Qt-based image viewer
 *   media-gfx/[qView](https://interversehq.com/qview/) | Practical and minimal image viewer
 *   media-gfx/[pineapple-pictures](https://github.com/BLumia/pineapple-pictures) | A homebrew lightweight image viewer
 *   media-gfx/[pingo-bin](https://css-ig.net/pingo) | Fast web image optimizer
