@@ -621,15 +621,14 @@ media-libs/libyuv 0.0.1822 9999: Library for freeswitch yuv graphics manipulatio
 media-libs/mediastreamer2 5.1.3 9999: Mediastreaming library for telephony application
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
-media-radio/krudio 9999: Radio tray for linux on QT
+media-radio/krudio 9999 21082019: Radio tray for linux on QT
 media-radio/liquidsoap 2.0.3 9999: A swiss-army knife for multimedia streaming, used for netradios
 media-sound/finetune 2.2.1: Automatic music tagger
-media-sound/mpz 1.0.19 9999: Music player for big local collections
+media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.10.1 9999: A finely crafted music player
-media-sound/ncspot 0.11.0 9999: ncurses Spotify client
 media-sound/plexamp 4.1.0: Music focused client for Plex
-media-sound/sayonara 1.7.0_p3 9999: Small, clear and fast Qt-based audio player
-media-sound/spotify-qt 3.8 9999: Lightweight Spotify client using Qt
+media-sound/sayonara 1.7.0_p3 1.8.0_beta1 9999: Small, clear and fast Qt-based audio player
+media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.3 9999: A spotify daemon
 media-video/haruna 0.10.2 9999: Video player built with Qt/QML on top of libmpv
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
