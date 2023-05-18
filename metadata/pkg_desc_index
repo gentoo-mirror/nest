@@ -533,7 +533,7 @@ dev-util/arctype 0.9.80.9495: SQL client for PostgreSQL and MySQL
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
-dev-util/azuredatastudio-bin 1.33.1 1.37.0: Data management tool to work with DW, Azure, SQL Server
+dev-util/azuredatastudio-bin 1.43.0: Data management tool to work with DW, Azure, SQL Server
 dev-util/bcunit 3.0.2 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
