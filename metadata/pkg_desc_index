@@ -25,6 +25,7 @@ acct-group/samplicator 0: System group: samplicator
 acct-group/semaphore 0: System group: semaphore
 acct-group/spoofer 0: System group: spoofer
 acct-group/ssmd 0: System group: ssmd
+acct-group/step 0: System group: step
 acct-group/stg 0: System group: stg
 acct-group/swapspace 0: System group: swapspace
 acct-group/topola 0: System group: topola
@@ -63,6 +64,7 @@ acct-user/samplicator 0: System user: samplicator
 acct-user/semaphore 0: System user: semaphore
 acct-user/spoofer 0: System user: spoofer
 acct-user/ssmd 0: System user: ssmd
+acct-user/step 0: System user: step
 acct-user/stg 0: System user: stg
 acct-user/swapspace 0: System user: swapspace
 acct-user/topola 0: System user: topola
@@ -132,6 +134,8 @@ app-crypt/acme-client 1.3.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 3.0.2 9999: An ACME Shell script
 app-crypt/acmebot 2.7.4 9999: ACME protocol automatic certitificate manager
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
+app-crypt/step-ca 0.24.2 9999: A private certificate authority and ACME server
+app-crypt/step-cli 0.24.4 9999: A zero trust swiss army knife for working with X509
 app-crypt/totp 1.0.8 9999: Time-Based One-Time Password Code Generator
 app-editors/FeatherPad 1.2.0 9999: Lightweight Qt5 plain-text editor
 app-editors/NotepadNext 0.5.1 9999: A cross-platform reimplementation of Notepad++
