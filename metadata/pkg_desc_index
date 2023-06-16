@@ -720,7 +720,7 @@ net-voip/linphone-desktop 4.3.2 9999: A free VoIP and video softphone based on t
 net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/awsvpnclient 1.0.3: AWS VPN Client
 net-vpn/cloudflared 2021.4.0 9999: Argo Tunnel client
-net-vpn/forticlient 6.4.0.0851: Fortinet VPN client
+net-vpn/forticlient 7.0.8.0292: Fortinet VPN client
 net-vpn/innernet-bin 1.2.0 1.3.0_beta4: WireGuard based private network system
 net-vpn/openiked 7.1 9999: Internet Key Exchange version 2 (IKEv2) daemon
 net-vpn/openvpn-aws 2.5.2: Patched OpenVPN with SAML support for AWS Client VPN
