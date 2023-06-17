@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test unpack
+DESCRIPTION=A simple serial device I/O tool
+EAPI=8
+HOMEPAGE=https://github.com/tio/tio
+INHERIT=bash-completion-r1 git-r3 meson
+LICENSE=GPL-2+
+PROPERTIES=live
+RDEPEND=dev-libs/inih
+SLOT=0
+_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	git-r3	27e13c09a4c7e4c78ac812f74727e676	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	python-utils-r1	ba15b8b81f30ca448294d759a9f7902c	meson	18d046bdb14e1bdb22cce6e5d953e364
+_md5_=b76bd40e5f3ac51e447788615af1858f
