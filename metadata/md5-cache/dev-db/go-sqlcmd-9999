@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.18 app-arch/unzip
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=CLI for SQL Server and Azure SQL
+EAPI=8
+HOMEPAGE=https://github.com/microsoft/go-sqlcmd
+INHERIT=git-r3 go-module
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=test strip
+SLOT=0
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
+_md5_=eed85dd07bf80540624685d438c1c3e3

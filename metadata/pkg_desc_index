@@ -184,6 +184,7 @@ dev-cpp/xsd 4.0.0_p20210722 9999: A cross-platform W3C XML Schema to C++ data bi
 dev-db/datanymizer 0.5.1 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.0_beta4 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
+dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
 dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
