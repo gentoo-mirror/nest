@@ -10,14 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	An entirely open source driver and user-space daemon that allows
-	you to manage your Razer peripherals on GNU/Linux.
+	A library that adds Qt wrapper around the D-Bus API from
+	OpenRazer (щpen source driver and user-space daemon to control
+	Razer devices)
 	</longdescription>
-	<use>
-		<flag name="client">Enable OpenRazor client</flag>
-		<flag name="daemon">Enable OpenRazor daemon</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">openrazer/openrazer</remote-id>
+		<remote-id type="github">z3ntu/libopenrazer</remote-id>
 	</upstream>
 </pkgmetadata>

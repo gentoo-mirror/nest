@@ -280,6 +280,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
 *   dev-libs/[libdigidocpp](https://github.com/open-eid/libdigidocpp) | Library for handling digitally signed documents
 *   dev-libs/[liblinphone](https://gitlab.linphone.org/BC/public/liblinphone) | SIP library supporting voice/video calls and text messaging
+*   dev-libs/[libopenrazer](https://github.com/z3ntu/libopenrazer) | Qt wrapper around the D-Bus API from OpenRazer
 *   dev-libs/[lime](https://gitlab.linphone.org/BC/public/lime) | C++ library implementing Open Whisper System Signal protocol
 *   dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
 *   dev-libs/[zrtpcpp](https://github.com/wernerd/ZRTPCPP) | VCard standard format manipulation library
@@ -768,5 +769,4 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   www-servers/[gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse) | GitLab reverse proxy
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/libinput-gestures.svg?header=)](https://repology.org/project/libinput-gestures/versions) x11-misc/[libinput-gestures](https://github.com/bulletmark/libinput-gestures) | Actions gestures on your touchpad using libinput
 *   x11-misc/[logkeys](https://github.com/kernc/logkeys) | A Linux keylogger
-*   x11-misc/[openrazer](https://openrazer.github.io) | Linux drivers for the Razer devices
 *   x11-misc/[RazerGenie](https://github.com/z3ntu/RazerGenie) | Razer devices configurator
