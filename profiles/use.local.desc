@@ -205,8 +205,4 @@ net-vpn/softether:server - Enable install of SoftEther VPN server
 www-plugins/chrome-token-signing:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:firefox - Install plugin for www-client/firefox
 www-plugins/chrome-token-signing:vivaldi - Install plugin for www-client/vivaldi
-x11-misc/RazerGenie:experimental - Enable experimental features
-x11-misc/RazerGenie:matrix - Enable matrix discovery feature
 x11-misc/libinput-gestures:experimental - avoid producing zombie processes
-x11-misc/openrazer:client - Enable OpenRazor client
-x11-misc/openrazer:daemon - Enable OpenRazor daemon
