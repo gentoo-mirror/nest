@@ -366,7 +366,7 @@ dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
 dev-python/ahocorasick 1.4.4 9999: Python module implementing Aho-Corasick algorithm
 dev-python/aiomultiprocess 0.9.0 9999: asyncio version of the standard multiprocessing module
 dev-python/annoy 1.17.0 9999: Approximate Nearest Neighbors in C++/Python
-dev-python/anyconfig 0.11.0 9999: Generic access to configuration files in any formats
+dev-python/anyconfig 0.13.0 9999: Generic access to configuration files in any formats
 dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aspectlib 1.5.2 9999: Aspect-oriented programming, monkey-patch and decorators library
@@ -392,7 +392,7 @@ dev-python/crayons 0.4.0 9999: Text UI colors
 dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.7 9999: Fast and reliable NGINX configuration parser
 dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems programming
-dev-python/cyclonedx-python-lib 2.6.0 9999: Python library for generating CycloneDX SBOMs
+dev-python/cyclonedx-python-lib 4.0.1 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.15.1 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.0.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.1.1 9999: Date parsing library designed to parse dates from HTML pages
@@ -468,7 +468,7 @@ dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Py
 dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
-dev-python/packageurl 0.10.0 9999: Python implementation of the package url spec
+dev-python/packageurl 0.11.1 9999: Python implementation of the package url spec
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.5.0.20220613 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
@@ -508,6 +508,7 @@ dev-python/rstr 3.1.0 9999: Generate random strings in Python
 dev-python/schema 0.7.5 9999: Simple data validation library
 dev-python/scikit-learn 1.0.2 9999: Machine learning in Python
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
+dev-python/serializable 0.12.0 9999: Serialize and deserialize Python objects to and from JSON and XML
 dev-python/shellingham 1.4.0 9999: Detects what shell the current Python executable is running in
 dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
 dev-python/smart_open 6.0.0 9999: Utils for streaming large files
@@ -571,9 +572,9 @@ dev-util/packer 1.7.6 9999: A tool to create identical machine images for multip
 dev-util/policy_sentry 0.11.18 0.11.19 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/python-hcl2 0.3.44 9999: A parser for HCL2 written in Python
-dev-util/rpmlint 2.3.0 9999: Tool for checking common errors in RPM packages
+dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
-dev-util/sqlfluff 0.6.0 9999: A SQL linter and auto-formatter
+dev-util/sqlfluff 2.1.1 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.32 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
