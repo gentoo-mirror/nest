@@ -11,5 +11,5 @@ RDEPEND=|| ( ( dev-lang/ruby:3.1 virtual/rubygems[ruby_targets_ruby31(-)] ) ( de
 RESTRICT=mirror test strip
 SLOT=0
 SRC_URI=https://gitlab.com/gitlab-org/gitaly/-/archive/v13.12.15/gitaly-v13.12.15.tar.bz2 https://files.icw.tools/distfiles/gitaly/gitaly-13.12.15-deps.tar.xz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22	ruby-utils	e06533c14f2bbca05b01fb6b0506e83a	ruby-single	e045ee439d34b230e588900a87a11904	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22	ruby-utils	69e7140043885477733c347fee4a981a	ruby-single	e045ee439d34b230e588900a87a11904	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
 _md5_=80bf99380ed8265646ca945fbe5c8062
