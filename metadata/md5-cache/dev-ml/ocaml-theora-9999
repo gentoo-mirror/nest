@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/libtheora >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	97f7f638070d17e4c2b6542589bb4575
 _md5_=3be31c9c5e8303e39e3ef969e2b2275f
