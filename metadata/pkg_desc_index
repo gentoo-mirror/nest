@@ -174,6 +174,7 @@ app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
 app-office/drawio-desktop-bin 19.0.3: Diagram drawing application built on web technology
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
+app-text/confget 5.1.1: Read variables from INI-style configuration files
 app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
 dev-cpp/belr 5.1.3 9999: Language recognition library by Belledonne Communications
 dev-cpp/libcutl 1.11.0_p20210806 9999: A collection of C++ libraries (successor of libcult)
