@@ -1,0 +1,11 @@
+BDEPEND=media-gfx/inkscape x11-apps/xcursorgen >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Vimix-cursors for linux desktop
+EAPI=8
+HOMEPAGE=https://github.com/vinceliuice/Vimix-cursors
+INHERIT=git-r3
+LICENSE=GPL-3
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=354b7680d763b1e3bbca7c6857cc272f
