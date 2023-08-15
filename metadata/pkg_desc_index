@@ -766,3 +766,4 @@ x11-misc/RazerGenie 1.0.0 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.74 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
 x11-themes/Vimix-cursors 2020.02.24 9999: Vimix-cursors for linux desktop
+x11-themes/WhiteSur-icon-theme 2023.07.03 9999: comes in both light and dark variants

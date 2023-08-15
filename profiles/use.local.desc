@@ -206,3 +206,16 @@ www-plugins/chrome-token-signing:chromium - Install plugin for www-client/chromi
 www-plugins/chrome-token-signing:firefox - Install plugin for www-client/firefox
 www-plugins/chrome-token-signing:vivaldi - Install plugin for www-client/vivaldi
 x11-misc/libinput-gestures:experimental - avoid producing zombie processes
+x11-themes/WhiteSur-icon-theme:all - Install all colors
+x11-themes/WhiteSur-icon-theme:alternative - Install alternative icons for software center and file-manager
+x11-themes/WhiteSur-icon-theme:black - Install black panel icons version
+x11-themes/WhiteSur-icon-theme:bold - Install bold panel icons version
+x11-themes/WhiteSur-icon-theme:default - Install blue (default) color
+x11-themes/WhiteSur-icon-theme:green - Install green color
+x11-themes/WhiteSur-icon-theme:grey - Install grey color
+x11-themes/WhiteSur-icon-theme:nord - Install nord color
+x11-themes/WhiteSur-icon-theme:orange - Install orange color
+x11-themes/WhiteSur-icon-theme:pink - Install pink color
+x11-themes/WhiteSur-icon-theme:purple - Install purple color
+x11-themes/WhiteSur-icon-theme:red - Install red color
+x11-themes/WhiteSur-icon-theme:yellow - Install yellow color
