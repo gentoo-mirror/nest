@@ -171,7 +171,7 @@ app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane
 app-misc/pet 0.4.0 9999: Simple command-line snippet manager
 app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
-app-office/drawio-desktop-bin 19.0.3: Diagram drawing application built on web technology
+app-office/drawio-desktop-bin 21.6.8: Diagram drawing application built on web technology
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/confget 5.1.1: Read variables from INI-style configuration files
@@ -638,7 +638,7 @@ media-sound/plexamp 4.1.0: Music focused client for Plex
 media-sound/sayonara 1.7.0_p3 1.8.0_beta1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon
-media-video/haruna 0.10.2 9999: Video player built with Qt/QML on top of libmpv
+media-video/haruna 0.12.0 9999: Video player built with Qt/QML on top of libmpv
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
