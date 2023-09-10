@@ -32,12 +32,12 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v37.5.2
+        uses: tj-actions/changed-files@v39.0.1
         with:
           since_last_remote_commit: true
           files: |
@@ -55,7 +55,7 @@ jobs:
         ebuild: ${{ fromJson(needs.list-ebuild.outputs.matrix) }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Define exclutions
@@ -97,7 +97,7 @@ jobs:
         ebuild: ${{ fromJson(needs.list-ebuild.outputs.matrix) }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Define shellcheck path
@@ -129,19 +129,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v37.5.2
+        uses: tj-actions/changed-files@v39.0.1
         with:
           since_last_remote_commit: true
           files: |
             **/*.ebuild
       - name: Get specific changed files
         id: changed-files-specific
-        uses: tj-actions/changed-files@v37.5.2
+        uses: tj-actions/changed-files@v39.0.1
         with:
           since_last_remote_commit: true
           files: |
