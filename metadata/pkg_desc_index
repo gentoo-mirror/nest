@@ -522,7 +522,7 @@ dev-python/sphinxcontrib-mermaid 0.7 9999: Mermaid diagrams in sphinx powered do
 dev-python/sphinxcontrib-openapi 0.7.0 9999: Sphinx extension to generate APIs docs from OpenAPI
 dev-python/ssh2-python 1.0.0 9999: Super fast SSH2 protocol library, Python bindings for libssh2
 dev-python/swagger_spec_validator 2.7.4 9999: Python library that validates Swagger Specs
-dev-python/tablib 3.2.0 9999: Format-agnostic tabular dataset library
+dev-python/tablib 3.4.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
 dev-python/types-chardet 4.0.1 9999: Collection of library stubs for Python, with static types
@@ -637,7 +637,7 @@ media-radio/liquidsoap 2.0.3 9999: A swiss-army knife for multimedia streaming, 
 media-sound/finetune 2.2.1: Automatic music tagger
 media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.10.1 9999: A finely crafted music player
-media-sound/plexamp 4.1.0: Music focused client for Plex
+media-sound/plexamp 4.7.4: Music focused client for Plex
 media-sound/sayonara 1.7.0_p3 1.8.0_beta1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon

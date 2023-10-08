@@ -1,15 +1,15 @@
-BDEPEND=dev-python/setuptools_scm[python_targets_python3_10(-)?] test? ( dev-python/MarkupPy[python_targets_python3_10(-)?] dev-python/odfpy[python_targets_python3_10(-)?] dev-python/openpyxl[python_targets_python3_10(-)?] dev-python/pandas[python_targets_python3_10(-)?] dev-python/pyyaml[python_targets_python3_10(-)?] dev-python/tabulate[python_targets_python3_10(-)?] dev-python/xlrd[python_targets_python3_10(-)?] dev-python/xlwt[python_targets_python3_10(-)?] ) test? ( xls? ( dev-python/xlrd[python_targets_python3_10(-)?] dev-python/xlwt[python_targets_python3_10(-)?] ) yaml? ( dev-python/pyyaml[python_targets_python3_10(-)?] ) >=dev-python/pytest-7.3.1[python_targets_python3_10(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-python/setuptools-scm[python_targets_python3_10(-)?,python_targets_python3_11(-)?] test? ( dev-python/MarkupPy[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/odfpy[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/openpyxl[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pandas[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pyyaml[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/tabulate[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/xlrd[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/xlwt[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) test? ( xls? ( dev-python/xlrd[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/xlwt[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) yaml? ( dev-python/pyyaml[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) >=dev-python/pytest-7.3.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst prepare test unpack
 DESCRIPTION=Format-agnostic tabular dataset library
 EAPI=8
 HOMEPAGE=https://github.com/jazzband/tablib
 INHERIT=distutils-r1 git-r3 optfeature
-IUSE=xls yaml test python_targets_python3_10
+IUSE=xls yaml test python_targets_python3_10 python_targets_python3_11
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=xls? ( dev-python/xlrd[python_targets_python3_10(-)?] dev-python/xlwt[python_targets_python3_10(-)?] ) yaml? ( dev-python/pyyaml[python_targets_python3_10(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 )
-REQUIRED_USE=|| ( python_targets_python3_10 )
+RDEPEND=xls? ( dev-python/xlrd[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/xlwt[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) yaml? ( dev-python/pyyaml[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e5cc383ea8420f92fe3737be790021dc	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	12aa0037eb004139215ff04894d52b28	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	24344aec2be39c69d9f279b5415298ce	git-r3	2358a7b20091609e24bd3a83b3ac5991	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
-_md5_=66bb5d9ba7532fcdb6b198dda2af90ef
+_md5_=2b07c49d40228b7200f033f62dc49a7d
