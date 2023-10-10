@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DESCRIPTION=Bypass Paywalls browser extension
+EAPI=8
+HOMEPAGE=https://github.com/iamadamdev/bypass-paywalls-chrome
+INHERIT=git-r3
+IUSE=+chrome chromium
+LICENSE=all-rights-reserved
+PROPERTIES=live
+REQUIRED_USE=|| ( chrome chromium )
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=87f6686cd2e6a1a8ae4e793666e58eb4

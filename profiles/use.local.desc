@@ -202,6 +202,8 @@ net-vpn/softether:bridge - Enable install of SoftEther VPN bridge
 net-vpn/softether:client - Enable install of SoftEther VPN client
 net-vpn/softether:cmd - Enable install of SoftEther VPN cmd
 net-vpn/softether:server - Enable install of SoftEther VPN server
+www-plugins/bypass-paywalls:chrome - Install plugin for www-client/google-chrome
+www-plugins/bypass-paywalls:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:firefox - Install plugin for www-client/firefox
 www-plugins/chrome-token-signing:vivaldi - Install plugin for www-client/vivaldi
