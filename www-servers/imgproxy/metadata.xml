@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	vdhcoapp is an application providing the Video DownloadHelper browser add-on
-	with file writing API features that are not available from the browser,
-	temporary file name generation, launching default application on a data file,
-	a build of the ffmpeg video converter
+	imgproxy is a fast and secure standalone server for resizing and
+	converting remote images on the fly, and it's well-equipped to handle
+	a large amount of image resizing.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aclap-dev/vdhcoapp</remote-id>
+		<remote-id type="github">imgproxy/imgproxy</remote-id>
 	</upstream>
 </pkgmetadata>
