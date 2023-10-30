@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.18 app-arch/unzip
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Server for resizing and converting remote images
+EAPI=8
+HOMEPAGE=https://github.com/imgproxy/imgproxy
+INHERIT=git-r3 go-module
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=media-libs/vips:0=
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
+_md5_=eb80d8da30cc59540b370c8e13ee9519
