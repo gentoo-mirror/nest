@@ -634,6 +634,7 @@ media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999 21082019: Radio tray for linux on QT
 media-radio/liquidsoap 2.0.3 9999: A swiss-army knife for multimedia streaming, used for netradios
+media-sound/cozy 1.2.1 9999: Modern audiobook player
 media-sound/finetune 2.2.1: Automatic music tagger
 media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.10.1 9999: A finely crafted music player
