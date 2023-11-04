@@ -10,5 +10,5 @@ LICENSE=POSTGRESQL
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://gitlab.com/dalibo/postgresql_anonymizer/-/archive/1.0.0/postgresql_anonymizer-1.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
 _md5_=193a993dfd70d6194446e176660be5f7
