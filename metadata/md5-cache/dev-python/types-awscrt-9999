@@ -1,15 +1,14 @@
-BDEPEND=test? ( >=dev-python/pytest-7.3.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) >=dev-python/gpep517-15[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-python/poetry-core-1.6.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DESCRIPTION=Hijri-Gregorian date converter
+DESCRIPTION=Type annotations and code completion for awscrt
 EAPI=8
-HOMEPAGE=https://github.com/mhalshehri/hijri-converter
+HOMEPAGE=https://github.com/youtype/types-awscrt
 INHERIT=distutils-r1 git-r3
-IUSE=test python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
+IUSE=python_targets_python3_10 python_targets_python3_11 python_targets_python3_12
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
-RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	baa4d385108ac87993edac956a916a36	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	python-utils-r1	f6221c2f55e5e832be9919fe1711f33b	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	d05609532b134be7c4ae2514f4c7d06e	git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=1b0295f83d5fa6d423cb15491c85bdc2
+_md5_=40de0f9c7329b6ecf6165b12fc3e904a
