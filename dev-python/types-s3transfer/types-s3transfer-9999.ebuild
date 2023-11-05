@@ -3,14 +3,14 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{9..12} )
-EGIT_REPO_URI="https://github.com/tytkal/python-hijiri-ummalqura.git"
+EGIT_REPO_URI="https://github.com/youtype/${PN}.git"
 
 inherit distutils-r1 git-r3
 
-DESCRIPTION="Date Api that support Hijri Umalqurra calendar"
-HOMEPAGE="https://github.com/tytkal/python-hijiri-ummalqura"
+DESCRIPTION="Type annotations and code completion for s3transfer"
+HOMEPAGE="https://github.com/youtype/types-s3transfer"
 SRC_URI=""
 
 LICENSE="MIT"

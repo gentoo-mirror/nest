@@ -3,13 +3,13 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{9..12} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Date Api that support Hijri Umalqurra calendar"
-HOMEPAGE="https://github.com/tytkal/python-hijiri-ummalqura"
+DESCRIPTION="Type annotations and code completion for awscrt"
+HOMEPAGE="https://github.com/youtype/types-awscrt"
 
 LICENSE="MIT"
 SLOT="0"

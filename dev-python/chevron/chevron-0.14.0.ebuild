@@ -8,13 +8,9 @@ PYTHON_COMPAT=( python3_{9..12} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Language detection library ported from Google"
-HOMEPAGE="https://github.com/Mimino666/langdetect"
+DESCRIPTION="Mustache templating language renderer"
+HOMEPAGE="https://github.com/noahmorrison/chevron"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
-RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
-
-distutils_enable_tests unittest

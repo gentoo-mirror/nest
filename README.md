@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 712](https://img.shields.io/badge/ebuild-712-orange.svg)](https://img.shields.io/badge/ebuild-712-orange.svg)
+[![Number of ebuilds: 719](https://img.shields.io/badge/ebuild-719-orange.svg)](https://img.shields.io/badge/ebuild-719-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -43,6 +43,7 @@ Afterwards, simply run `emerge --sync`, and Portage should seamlessly make all o
 This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds for projects:
 
 *   app-admin/[awsdtc](https://github.com/c1982/awsdtc) | AWS Data Transfer Cost Explorer
+*   app-admin/[aws-sam-cli](https://github.com/aws/aws-sam-cli) | CLI tool to manage Serverless applications using AWS SAM
 *   app-admin/[awslimitchecker](https://github.com/jantman/awslimitchecker) | Utility to check AWS resource limits and usage
 *   app-admin/[awslog](https://github.com/jaksi/awslog) | History and changes of configuration versions of AWS resources
 *   app-admin/[awsls](https://github.com/jckuester/awsls) | A list command for AWS resources
@@ -346,14 +347,18 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 *   dev-python/[aspectlib](https://github.com/ionelmc/python-aspectlib) | Aspect-oriented programming, monkey-patch and decorators library
 *   dev-python/[assertpy](https://github.com/assertpy/assertpy) | Assertion library for unit testing
+*   dev-python/[aws-lambda-builders](https://github.com/aws/aws-lambda-builders) | Python library to manage AWS Lambda functions
 *   dev-python/[aws-lambda-powertools](https://github.com/awslabs/aws-lambda-powertools-python) | A suite of Python utilities for AWS Lambda functions
 *   dev-python/[azure-common](https://github.com/Azure/azure-python-devtools) | Microsoft Azure Client Common Library for Python
 *   dev-python/[azure-core](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Core Library for Python
 *   dev-python/[azure-storage-blob](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Storage Blobs Library for Python
 *   dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 *   dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
+*   dev-python/[boto3-stubs](https://github.com/youtype/mypy_boto3_builder) | Type annotations for boto3
+*   dev-python/[botocore-stubs](https://github.com/youtype/botocore-stubs) | Type annotations and code completion for botocore
 *   dev-python/[celery](https://github.com/celery/celery) | Asynchronous task job queue based on distributed message passing
 *   dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
+*   dev-python/[chevron](https://github.com/noahmorrison/chevron) | Mustache templating language renderer
 *   dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
 *   dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
 *   dev-python/[click-didyoumean](https://github.com/click-contrib/click-didyoumean) | Enable git-like did-you-mean feature in click
@@ -528,7 +533,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
 *   dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
 *   dev-python/[tree-format](https://github.com/jml/tree-format) | Python library for printing trees on the console
+*   dev-python/[types-awscrt](https://github.com/youtype/types-awscrt) | Type annotations and code completion for awscrt
 *   dev-python/[types-chardet](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types
+*   dev-python/[types-s3transfer](https://github.com/youtype/types-s3transfer) | Type annotations and code completion for s3transfer
 *   dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
 *   dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
 *   dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
