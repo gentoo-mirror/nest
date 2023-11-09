@@ -673,7 +673,7 @@ net-dns/inadyn-mt 02.28.10 9999: A simple dynamic DNS client
 net-dns/massdns 0.3 9999: A high-performance DNS stub resolver
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
 net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
-net-firewall/ipt-ratelimit 0.3.1 0.3.2 9999: Ratelimit iptables module
+net-firewall/ipt-ratelimit 9999 20042022: Ratelimit iptables module
 net-firewall/xt_dns 1.5 9999: Netfilter extension to match various DNS atributes
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
