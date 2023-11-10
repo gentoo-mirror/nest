@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/gavl dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/9999
-_eclasses_=findlib	cc1c14904708a0a28bcb256b342a808c	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=findlib	cc1c14904708a0a28bcb256b342a808c	git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=c5212b670b64e374cd4dcf2261eff678
