@@ -1,15 +1,15 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst prerm setup unpack
+DEFINED_PHASES=install postinst prerm setup
 DEPEND=dev-python/flask[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/jinja[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/markupsafe[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/werkzeug[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/itsdangerous[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/sh[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] app-admin/webapp-config
 DESCRIPTION=A Python-backed Looking Glass
 EAPI=8
 HOMEPAGE=https://github.com/ramnode/LookingGlass
-INHERIT=git-r3 python-r1 webapp
+INHERIT=python-r1 webapp
 IUSE=vhosts python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 vhosts
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-PROPERTIES=live
 RDEPEND=dev-python/flask[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/jinja[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/markupsafe[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/werkzeug[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/itsdangerous[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] dev-python/sh[python_targets_python3_10(-)?,python_targets_python3_11(-)?,python_targets_python3_12(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) app-admin/webapp-config net-analyzer/mtr net-analyzer/traceroute net-dns/bind-tools app-admin/webapp-config
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 )
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	30999b80ec1fe0b4af340ae819375346	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	webapp	de2d3d345b44597c10d7104a7bcdf7b2
-_md5_=2c597ab75c21137455ac79ca5b17574a
+SRC_URI=https://github.com/ramnode/LookingGlass/archive/a1db4790cb3bbd9ed95b3773208e50f8003488f8.tar.gz -> LookingGlass-25032019.gh.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	30999b80ec1fe0b4af340ae819375346	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	webapp	de2d3d345b44597c10d7104a7bcdf7b2
+_md5_=45ce0d4a43412ed5634f64c208ef761f
