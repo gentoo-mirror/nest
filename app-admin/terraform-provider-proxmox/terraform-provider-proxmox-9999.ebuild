@@ -3,12 +3,12 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/vmware/${PN}.git"
+EGIT_REPO_URI="https://github.com/bpg/${PN}.git"
 
 inherit git-r3 go-module readme.gentoo-r1
 
-DESCRIPTION="Terraform VMware vCloud Director provider"
-HOMEPAGE="https://registry.terraform.io/providers/vmware/vcd/latest/docs"
+DESCRIPTION="Terraform Provider for Proxmox"
+HOMEPAGE="https://registry.terraform.io/providers/bpg/proxmox/latest/docs"
 SRC_URI=""
 
 LICENSE="MPL-2.0"
@@ -18,10 +18,10 @@ RESTRICT="mirror test"
 
 RDEPEND="app-admin/terraform"
 
-DOCS=( {CHANGELOG,README,TROUBLESHOOTING}.md )
+DOCS=( {CHANGELOG,README}.md )
 
 DOC_CONTENTS="You should create a symlink to\\n
-/usr/share/terraform-provider-vcd/terraform-provider-vcd\\n
+/usr/share/terraform-provider-proxmox/terraform-provider-proxmox\\n
 in ~/.terraform.d/plugins\\n"
 
 src_unpack() {
@@ -30,15 +30,13 @@ src_unpack() {
 }
 
 src_compile() {
-	LDFLAGS="-X github.com/vmware/terraform-provider-vcd/v3/vcd.BuildVersion=${PV}"
-
-	ego build -ldflags "${LDFLAGS}"
+	ego build
 }
 
 src_install() {
 	einstalldocs
-	exeinto usr/share/terraform-provider-vcd
-	doexe terraform-provider-vcd
+	exeinto usr/share/terraform-provider-proxmox
+	doexe terraform-provider-proxmox
 	readme.gentoo_create_doc
 }
 
