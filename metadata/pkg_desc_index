@@ -111,7 +111,8 @@ app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/semaphore-bin 2.8.53: Modern UI for Ansible
 app-admin/sinker 0.14.0 9999: Sync images from one container registry to another
 app-admin/sops 3.7.2 9999: Simple and flexible tool for managing secrets
-app-admin/terraform-provider-vcd 3.5.1 9999: Terraform VMware vCloud Director provider
+app-admin/terraform-provider-proxmox 0.38.0 9999: Terraform Provider for Proxmox
+app-admin/terraform-provider-vcd 3.10.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.3.1 9999: A top for NGINX
 app-admin/trailscraper 0.6.4 9999: Command-line tool to get information out of AWS CloudTrail
 app-admin/tztail 1.0.0 9999: A log view in various timezones
@@ -391,7 +392,7 @@ dev-python/click-help-colors 0.9-r1 9999: Colorization of help messages in Click
 dev-python/click-option-group 0.5.3 9999: Option groups missing in Click
 dev-python/click-repl 0.2.0 9999: Subcommand REPL for click apps
 dev-python/colorpedia 1.2.3 9999: Command-line tool for looking up colors and palettes
-dev-python/configparser 5.0.2 5.1.0 9999: Backport of configparser from Python 3
+dev-python/configparser 6.0.0 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.4.0 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema

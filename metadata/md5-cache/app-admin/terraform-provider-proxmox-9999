@@ -1,8 +1,8 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.18 app-arch/unzip
 DEFINED_PHASES=compile install postinst unpack
-DESCRIPTION=Terraform VMware vCloud Director provider
+DESCRIPTION=Terraform Provider for Proxmox
 EAPI=8
-HOMEPAGE=https://registry.terraform.io/providers/vmware/vcd/latest/docs
+HOMEPAGE=https://registry.terraform.io/providers/bpg/proxmox/latest/docs
 INHERIT=git-r3 go-module readme.gentoo-r1
 LICENSE=MPL-2.0
 PROPERTIES=live
@@ -10,4 +10,4 @@ RDEPEND=app-admin/terraform
 RESTRICT=mirror test strip
 SLOT=0
 _eclasses_=git-r3	5133e393e8717a3a093660f990801dc1	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3
-_md5_=ebbed0d2bbfed8f72e2de7baaa8d6756
+_md5_=a28bef0ebc2353074dd444497b4aa93a
