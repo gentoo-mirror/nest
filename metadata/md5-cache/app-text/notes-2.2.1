@@ -1,0 +1,16 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols:5 dev-qt/qtsql:5 dev-qt/qtwidgets:5 test? ( dev-qt/qttest:5 )
+DESCRIPTION=Note taking application, write down your thoughts
+EAPI=8
+HOMEPAGE=https://github.com/nuttyartist/notes
+INHERIT=cmake edo
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MPL-2.0
+RDEPEND=dev-qt/qtconcurrent:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols:5 dev-qt/qtsql:5 dev-qt/qtwidgets:5
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/nuttyartist/notes/archive/v2.2.1.tar.gz -> notes-2.2.1.tar.gz https://github.com/alex-spataru/QSimpleUpdater/archive/14c1bef71d26c915eeaa05c988c55bdad98e1d75.tar.gz -> notes-2.2.1-qsu.tar.gz https://github.com/b00f/qautostart/archive/efdb2e5a25e5646390f8658e3321f6e9a4c3561a.tar.gz -> notes-2.2.1-qas.tar.gz https://github.com/pbek/qmarkdowntextedit/archive/c6420c537e219a7b7685f2bbe5e0862af631d91c.tar.gz -> notes-2.2.1-qmd.tar.gz
+_eclasses_=toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	6b3c606c5de2531072ffd36eca06a5a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	0f2e0c197fad0312f3c4765c9cf36271	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3
+_md5_=005e0f46347415f31997d04f92d2c934
