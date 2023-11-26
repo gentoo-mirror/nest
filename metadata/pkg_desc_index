@@ -620,7 +620,7 @@ kde-misc/plasma-applet-eventcalendar 76 9999: Plasmoid for a calendar and agenda
 kde-misc/plasma-applet-favoriteFolders 9999 20210412: Plasma 5 widget for quick access to favorite folders
 kde-misc/plasma-power-monitor 0.2 9999: Plasma widget to monitor the power consumption of your battery
 kde-misc/plasmoid-wunderground-extended 0.7.1 9999: KDE5 Plasma Weather Widget
-kde-misc/pminhibition 1.5 9999: Plasma applet shows information about power management inhibition
+kde-misc/pminhibition 1.8 9999: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 2.2.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
 media-gfx/butteraugli 9999 20032019: A tool for measuring perceived differences between images
 media-gfx/colorpick 9999 12042023: Color picker and contrast checker
