@@ -479,7 +479,7 @@ dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
 dev-python/packageurl 0.11.1 9999: Python implementation of the package url spec
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
-dev-python/policyuniverse 1.5.0.20220613 9999: Parse and Process AWS IAM Policies, Statements, ARNs
+dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
 dev-python/prance 0.21.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/promise 2.3.0 9999: Python port of GraphQL.js
