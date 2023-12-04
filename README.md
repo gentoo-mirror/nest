@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 719](https://img.shields.io/badge/ebuild-719-orange.svg)](https://img.shields.io/badge/ebuild-719-orange.svg)
+[![Number of ebuilds: 724](https://img.shields.io/badge/ebuild-724-orange.svg)](https://img.shields.io/badge/ebuild-724-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -354,6 +354,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[azure-common](https://github.com/Azure/azure-python-devtools) | Microsoft Azure Client Common Library for Python
 *   dev-python/[azure-core](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Core Library for Python
 *   dev-python/[azure-storage-blob](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Storage Blobs Library for Python
+*   dev-python/[bc-detect-secrets](https://github.com/bridgecrewio/detect-secrets) | A fork of enterprise friendly way of detecting and preventing secrets
+*   dev-python/[bc-jsonpath-ng](https://github.com/bridgecrewio/jsonpath-ng) | Python JSONPath Next-Generation
+*   dev-python/[bc-python-hcl2](https://github.com/bridgecrewio/python-hcl2) | A fork of parser for HCL2 written in Python
 *   dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 *   dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
 *   dev-python/[boto3-stubs](https://github.com/youtype/mypy_boto3_builder) | Type annotations for boto3
@@ -410,7 +413,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger/) | Swagger UI for Django REST Framework
 *   dev-python/[django-tables2](https://github.com/jieter/django-tables2) | Django application for creating HTML tables
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
-*   dev-python/[dpath](https://github.com/akesterson/dpath-python) | A python module that will check for package updates
+*   dev-python/[dpath](https://github.com/dpath-maintainers/dpath-python) | A python module that will check for package updates
 *   dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
 *   dev-python/[editdistance](https://github.com/roy-ht/editdistance) | Fast implementation of the edit distance(Levenshtein distance)
 *   dev-python/[editdistance-s](https://github.com/asottile/editdistance-s) | Fast implementation of edit (Levenshtein) distance
@@ -444,6 +447,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
 *   dev-python/[hijri-converter](https://github.com/mhalshehri/hijri-converter) | Hijri-Gregorian date converter
 *   dev-python/[identify](https://github.com/pre-commit/identify) | File identification library for Python
+*   dev-python/[igraph](https://github.com/igraph/python-igraph) | Python interface for igraph
 *   dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 *   dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
 *   dev-python/[jproperties](https://github.com/Tblue/python-jproperties) | Java Property file parser and writer for Python
@@ -464,6 +468,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
 *   dev-python/[nmslib](https://github.com/nmslib/nmslib) | Non-Metric Space Library
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
+*   dev-python/[openai](https://github.com/openai/openai-python) | The official Python library for the OpenAI API
 *   dev-python/[openapi-schema-validator](https://github.com/p1c2u/openapi-schema-validator) | OpenAPI schema validation for Python
 *   dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | OpenAPI Spec validator
 *   dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
@@ -508,6 +513,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
 *   dev-python/[requests-mock](https://github.com/jamielennox/requests-mock) | Mock out responses from the requests package
 *   dev-python/[reprint](https://github.com/Yinzo/reprint) | Binding variables and refreshing multi-line output in terminal
+*   dev-python/[respx](https://github.com/lundberg/respx) | Mock HTTPX with request patterns and response side effects
 *   dev-python/[rich](https://github.com/willmcgugan/rich) | Validate configuration and produce human readable error messages
 *   dev-python/[ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 *   dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-sagan) | A parsing library for RIPE Atlas measurement results
@@ -543,7 +549,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 *   dev-python/[umalqurra](https://github.com/tytkal/python-hijiri-ummalqura) | Date Api that support Hijri Umalqurra calendar
 *   dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
-*   dev-python/[update_checker](https://github.com/bboe/update_checker) | A python module that will check for package updates
+*   dev-python/[update-checker](https://github.com/bboe/update_checker) | A python module that will check for package updates
 *   dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
 *   dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
 *   dev-python/[vcd-api-schemas-type](https://github.com/vmware/vcd-api-schemas) | VMware vCloud Director Python API Schemas Type
@@ -587,9 +593,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[mapforce-advanced](https://www.altova.com/mapforce) | Advanced data mapping, conversion, and transformation tool
 *   dev-util/[ovftool](https://developer.vmware.com/tools) | VMware Open Virtualization Format tool
 *   dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
-*   dev-util/[policy_sentry](https://github.com/salesforce/policy_sentry) | AWS IAM Least Privilege Policy Generator
+*   dev-util/[policy-sentry](https://github.com/salesforce/policy_sentry) | AWS IAM Least Privilege Policy Generator
 *   dev-util/[postman](https://www.postman.com) | Build, test, and document your APIs faster
-*   dev-util/[python-hcl2](https://github.com/amplify-education/python-hcl2) | A parser for HCL2 written in Python
 *   dev-util/[rpmlint](https://github.com/rpm-software-management/rpmlint) | Tool for checking common errors in RPM packages
 *   dev-util/[shfmt](https://github.com/mvdan/sh) | A shell parser, formatter, and interpreter with bash support
 *   dev-util/[sqlfluff](https://github.com/sqlfluff/sqlfluff) | A SQL linter and auto-formatter
