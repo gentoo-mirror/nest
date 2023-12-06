@@ -475,6 +475,8 @@ dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django 
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.12 9999: Python library for NETCONF clients
 dev-python/netapp-ontap 9.10.1.0: A library for working with ONTAP's REST APIs simply in Python
+dev-python/nltk 3.8.1 9999: Topic Modelling for Humans
+dev-python/nltk-data 20230202: Data files for NLTK
 dev-python/nmslib 2.1.1 9999: Non-Metric Space Library
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openai 1.3.7 9999: The official Python library for the OpenAI API
