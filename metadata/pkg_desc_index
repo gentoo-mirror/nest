@@ -79,7 +79,7 @@ app-admin/awslimitchecker 12.0.0 9999: Utility to check AWS resource limits and 
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsls 0.11.0 9999: A list command for AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
-app-admin/awstaghelper 0.17.1 9999: AWS bulk tagging tool
+app-admin/awstaghelper 0.19.0 9999: AWS bulk tagging tool
 app-admin/awsudo 9999 20180718: A temporary credentials for AWS roles via sudo-like utility
 app-admin/awsume 4.5.3 9999: A utility for easily assuming AWS IAM roles from command line
 app-admin/azcopy 10.16.0 9999: A command-line utility to manage Azure Storage accounts
