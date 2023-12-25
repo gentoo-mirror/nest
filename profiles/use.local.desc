@@ -72,10 +72,12 @@ dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
 dev-libs/belcard:tools - Build tools
+dev-libs/belle-sip:tunnel - Enable tunnel support
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
 dev-libs/libdigidoc:utils - install command-line utility
 dev-libs/libdigidocpp:utils - install command-line utility
+dev-libs/liblinphone:qrcode - Support for qrcodes using media-libs/zxing-cpp
 dev-libs/liblinphone:tools - Build tools
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c
@@ -98,6 +100,7 @@ dev-util/gitlab-runner:docker - Add support for docker executors
 kde-misc/plasmoid-wunderground-extended:plasma-nm - Add support for kde-plasma/plasma-nm
 kde-misc/qCheckGMail:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 kde-misc/qCheckGMail:libsecret - Support locking of keyring via app-crypt/libsecret
+media-libs/mediastreamer2:av1 - Support for AV1 via media-libs/dav1d
 media-libs/mediastreamer2:bv16 - Support for BroadVoice 16 kbs codec via media-libs/bv16-floatingpoint
 media-libs/mediastreamer2:g726 - Support for SpanDSP codec via media-libs/spandsp
 media-libs/mediastreamer2:g729 - Support for ITU G729 Annex A/B speech codec via media-libs/bcg729
@@ -107,6 +110,7 @@ media-libs/mediastreamer2:resample - Enable resampling capability
 media-libs/mediastreamer2:srtp - Support for Secure Real-time Transport Protocol (SRTP) via net-libs/libsrtp
 media-libs/mediastreamer2:tools - Build tools
 media-libs/mediastreamer2:vpx - Support for VPX codec via media-libs/libvpx
+media-libs/mediastreamer2:yuv - Support for YUV scaling via media-libs/libyuv
 media-libs/mediastreamer2:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
 media-radio/liquidsoap:camlimages - Support for image manipulation library
 media-radio/liquidsoap:dssi - Support for DSSI sound synthesis

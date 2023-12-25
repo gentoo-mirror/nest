@@ -1,15 +1,15 @@
-BDEPEND=dev-util/build2
-DEFINED_PHASES=compile configure install prepare test unpack
+BDEPEND=>=dev-util/build2-0.16
+DEFINED_PHASES=compile configure install test unpack
 DEPEND=dev-cpp/libcutl
 DESCRIPTION=Command Line Interface compiler for C++
 EAPI=8
 HOMEPAGE=https://www.codesynthesis.com/projects/cli/
 INHERIT=multiprocessing toolchain-funcs vcs-snapshot
-IUSE=static-libs
+IUSE=doc static-libs
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-cpp/libcutl
 SLOT=0
-SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/a54c695.tar.gz -> cli-1.2.0_pre20210722.tar.gz
+SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/81f2bef.tar.gz -> cli-1.2.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
-_md5_=9e3bb4087909a56f3d7cedfef6be0c9a
+_md5_=a1ebdb6462fc10d30c824efa46bfc608

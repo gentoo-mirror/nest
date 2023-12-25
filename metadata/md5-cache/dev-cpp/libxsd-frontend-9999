@@ -1,4 +1,4 @@
-BDEPEND=dev-util/build2 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-util/build2-0.16 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=dev-cpp/libcutl dev-libs/boost:= dev-libs/xerces-c
 DESCRIPTION=A compiler frontend for the W3C XML Schema definition language
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-cpp/libcutl dev-libs/boost:= dev-libs/xerces-c
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=d40ca71da4a071798a4080d25240fd3a
+_md5_=9493b0073c892abef9128d7fd5744147

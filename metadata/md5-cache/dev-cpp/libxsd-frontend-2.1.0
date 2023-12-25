@@ -1,0 +1,15 @@
+BDEPEND=>=dev-util/build2-0.16
+DEFINED_PHASES=compile configure install test
+DEPEND=dev-cpp/libcutl dev-libs/boost:= dev-libs/xerces-c
+DESCRIPTION=A compiler frontend for the W3C XML Schema definition language
+EAPI=8
+HOMEPAGE=https://www.codesynthesis.com/projects/libxsd-frontend/
+INHERIT=multiprocessing toolchain-funcs
+IUSE=static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-cpp/libcutl dev-libs/boost:= dev-libs/xerces-c
+SLOT=0
+SRC_URI=https://www.codesynthesis.com/download/xsd/4.2/libxsd-frontend-2.1.0.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=5fa9b10537814a5b8af93722dee3c8a4

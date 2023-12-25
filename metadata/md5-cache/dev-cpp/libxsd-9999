@@ -1,14 +1,13 @@
-BDEPEND=>=dev-util/build2-0.16 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-util/build2-0.16 doc? ( app-doc/doxygen ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=dev-cpp/libcutl
-DESCRIPTION=Command Line Interface compiler for C++
+DESCRIPTION=A cross-platform W3C XML Schema to C++ data binding compiler library
 EAPI=8
-HOMEPAGE=https://www.codesynthesis.com/projects/cli/
+HOMEPAGE=https://www.codesynthesis.com/products/xsd/
 INHERIT=git-r3 multiprocessing toolchain-funcs
-IUSE=doc static-libs
-LICENSE=MIT
+IUSE=doc test
+LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=dev-cpp/libcutl
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=7bc0730d6b9414689d1ea7f786eb6955
+_md5_=bd75369ed08c0890c41ad0e1cebcfa44
