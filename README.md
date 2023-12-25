@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 725](https://img.shields.io/badge/ebuild-725-orange.svg)](https://img.shields.io/badge/ebuild-725-orange.svg)
+[![Number of ebuilds: 726](https://img.shields.io/badge/ebuild-726-orange.svg)](https://img.shields.io/badge/ebuild-726-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -153,6 +153,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-text/[keening](https://github.com/SpiderX/keening) | A simple command line pastebin designed to be used together with ssh
 *   app-text/[notes](https://github.com/nuttyartist/notes) | Note taking application, write down your thoughts
 *   dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr) | Language recognition library by Belledonne Communications
+*   dev-cpp/[libxsd](https://www.codesynthesis.com/products/xsd/) | A cross-platform W3C XML Schema to C++ data binding compiler library
 *   dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend/) | A compiler frontend for the W3C XML Schema definition language
 *   dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl/) | A collection of C++ libraries (successor of libcult)
 *   dev-cpp/[open-eid-cmake](https://github.com/open-eid/cmake) | Open Electronic Identity CMake modules
@@ -493,7 +494,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
 *   dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
 *   dev-python/[pyspnego](https://github.com/jborean93/pyspnego) | Python SPNEGO authentication library
-*   dev-python/[pystache](https://github.com/sarnold/pystache) | Mustache templating system for Python
+*   dev-python/[pystache](https://github.com/PennyDreadfulMTG/pystache) | Mustache templating system for Python
 *   dev-python/[pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | py.test fixture for benchmarking code
 *   dev-python/[pytest-celery](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
 *   dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test

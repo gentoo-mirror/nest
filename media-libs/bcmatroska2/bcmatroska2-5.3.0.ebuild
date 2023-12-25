@@ -3,14 +3,14 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://gitlab.linphone.org/BC/public/${PN}.git"
-
-inherit cmake git-r3
+inherit cmake
 
 DESCRIPTION="Matroska media container support"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/bcmatroska2"
+SRC_URI="https://gitlab.linphone.org/BC/public/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
 LICENSE="GPL-3"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 IUSE="debug"
 

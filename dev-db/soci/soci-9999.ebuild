@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,10 +9,8 @@ inherit cmake git-r3
 
 DESCRIPTION="Database access library for C++"
 HOMEPAGE="https://github.com/SOCI/soci"
-SRC_URI=""
 
 LICENSE="BSD-1"
-KEYWORDS=""
 SLOT="0"
 IUSE="firebird mysql odbc oracle postgres sqlite static-libs test"
 RESTRICT="!test? ( test )"

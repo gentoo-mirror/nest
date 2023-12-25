@@ -3,33 +3,30 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://git.codesynthesis.com/${PN}/${PN}.git"
+inherit multiprocessing toolchain-funcs
 
-inherit git-r3 multiprocessing toolchain-funcs
-
-DESCRIPTION="A compiler frontend for the W3C XML Schema definition language"
-HOMEPAGE="https://www.codesynthesis.com/projects/libxsd-frontend/"
+DESCRIPTION="A cross-platform W3C XML Schema to C++ data binding compiler library"
+HOMEPAGE="https://www.codesynthesis.com/products/xsd/"
+SRC_URI="https://www.codesynthesis.com/download/xsd/${PV%.*}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="static-libs"
+KEYWORDS="~amd64 ~x86"
+IUSE="doc test"
+RESTRICT="!test? ( test )"
 
-RDEPEND="dev-cpp/libcutl
-	dev-libs/boost:=
-	dev-libs/xerces-c"
-DEPEND="${RDEPEND}"
-BDEPEND=">=dev-util/build2-0.16"
+BDEPEND=">=dev-util/build2-0.16
+	doc? ( app-doc/doxygen )"
 
 src_configure() {
 	local myconfigargs=(
 		config.bin.ar="$(tc-getAR)"
-		config.bin.lib="$(usex static-libs both shared)"
 		config.bin.ranlib="$(tc-getRANLIB)"
 		config.cxx="$(tc-getCXX)"
 		config.cxx.coptions="${CXXFLAGS}"
 		config.cxx.loptions="${LDFLAGS}"
 		config.install.doc="data_root/share/doc/${PF}"
-		config.install.filter="manifest@false"
+		config.install.filter="manifest@false PACKAGE-README.md@false"
 		config.install.legal="${T}"
 		config.install.lib="exec_root/$(get_libdir)"
 	)

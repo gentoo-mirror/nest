@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,14 +9,12 @@ inherit cmake git-r3
 
 DESCRIPTION="SIP (RFC3261) implementation"
 HOMEPAGE="https://gitlab.linphone.org/BC/public/belle-sip"
-SRC_URI=""
 
 LICENSE="GPL-3"
-KEYWORDS=""
 SLOT="0"
-IUSE="static-libs test zeroconf"
+IUSE="test tunnel zeroconf"
+RESTRICT="test"
 PROPERTIES="test_network"
-RESTRICT="!test? ( test )"
 
 RDEPEND="net-libs/bctoolbox[test?]
 	sys-libs/zlib:=
@@ -27,8 +25,9 @@ BDEPEND="virtual/pkgconfig"
 src_configure() {
 	local mycmakeargs=(
 		-DENABLE_MDNS="$(usex zeroconf)"
-		-DENABLE_STATIC="$(usex static-libs)"
-		-DENABLE_TESTS="$(usex test)"
+		-DENABLE_STRICT=NO
+		-DENABLE_TUNNEL="$(usex tunnel)"
+		-DENABLE_UNIT_TESTS="$(usex test)"
 	)
 
 	cmake_src_configure
@@ -36,7 +35,7 @@ src_configure() {
 
 src_test() {
 	# no cmake_src_test since it supports in source build only
-	"${S}"_build/tester/belle_sip_tester \
+	"${S}"_build/tester/belle-sip-tester \
 		--resource-dir "${S}"/tester/ \
 		|| die "tests failed"
 }
