@@ -181,6 +181,7 @@ app-text/confget 5.1.1: Read variables from INI-style configuration files
 app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
 app-text/notes 2.2.1 9999: Note taking application, write down your thoughts
 dev-cpp/belr 5.3.1 9999: Language recognition library by Belledonne Communications
+dev-cpp/jsoncpp 1.9.5: CMake files for C++ JSON reader and writer
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler library
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
@@ -313,7 +314,7 @@ dev-libs/libcommuni 3.6.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdict 1.0.1 9999: C library of key-value data structures
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.8 9999: Library for handling digitally signed documents
-dev-libs/liblinphone 5.2.112 9999: SIP library supporting voice/video calls and text messaging
+dev-libs/liblinphone 5.3.5 9999: SIP library supporting voice/video calls and text messaging
 dev-libs/libopenrazer 0.1.0 9999: Qt wrapper around the D-Bus API from OpenRazer
 dev-libs/lime 5.3.1 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
@@ -645,7 +646,7 @@ media-libs/bcmatroska2 5.3.0 9999: Matroska media container support
 media-libs/bv16-floatingpoint 2.1 9999: BroadVoice 16 kbs codec
 media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
 media-libs/libyuv 0.0.1872 9999: Library for freeswitch yuv graphics manipulation
-media-libs/mediastreamer2 5.3.1 9999: Mediastreaming library for telephony application
+media-libs/mediastreamer2 5.3.4 9999: Mediastreaming library for telephony application
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999 21082019: Radio tray for linux on QT

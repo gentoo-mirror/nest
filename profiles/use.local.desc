@@ -77,6 +77,7 @@ dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
 dev-libs/libdigidoc:utils - install command-line utility
 dev-libs/libdigidocpp:utils - install command-line utility
+dev-libs/liblinphone:lime - Support for LIMEv2 and X3DH encryption protocol
 dev-libs/liblinphone:qrcode - Support for qrcodes using media-libs/zxing-cpp
 dev-libs/liblinphone:tools - Build tools
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
