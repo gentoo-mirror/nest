@@ -138,7 +138,6 @@ app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/step-ca 0.24.2 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.24.4 9999: A zero trust swiss army knife for working with X509
 app-crypt/totp 1.0.8 9999: Time-Based One-Time Password Code Generator
-app-crypt/tpm2-openssl 1.1.1 9999: OpenSSL Provider for TPM2 integration
 app-editors/FeatherPad 1.2.0 9999: Lightweight Qt5 plain-text editor
 app-editors/NotepadNext 0.5.1 9999: A cross-platform reimplementation of Notepad++
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
@@ -695,7 +694,7 @@ net-libs/bctoolbox 5.3.1 9999: Utilities library used by Belledonne Communicatio
 net-libs/bzrtp 5.3.1 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.3.1 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
 net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
-net-misc/amazon-workspaces-bin 4.5.0.2006: Amazon Workspace Client
+net-misc/amazon-workspaces-bin 2023.2.4580 2023.2.4623: Amazon Workspace Client
 net-misc/awscurl 0.32 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1_p1 9999: Network problems simulator
