@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.16 dev-util/cli doc? ( app-doc/doxygen )
+BDEPEND=>=dev-util/build2-0.16 dev-util/cli doc? ( app-text/doxygen )
 DEFINED_PHASES=compile configure install test
 DEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-frontend zlib? ( sys-libs/zlib:= )
 DESCRIPTION=A cross-platform W3C XML Schema to C++ data binding compiler
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://www.codesynthesis.com/download/xsd/4.2/xsd-4.2.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=068c6ee3c6de2660cd7fae5b13e5a949
+_md5_=e8d7fc02fcef21dcabab50f99156f0e0

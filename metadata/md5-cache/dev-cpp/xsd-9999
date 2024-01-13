@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.16 dev-util/cli doc? ( app-doc/doxygen ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-util/build2-0.16 dev-util/cli doc? ( app-text/doxygen ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-frontend zlib? ( sys-libs/zlib:= )
 DESCRIPTION=A cross-platform W3C XML Schema to C++ data binding compiler
@@ -12,4 +12,4 @@ RDEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-fronte
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=9d02a378c86a54edbd14c55deb3f4604
+_md5_=028daa99a59968fb5241c4d600152977

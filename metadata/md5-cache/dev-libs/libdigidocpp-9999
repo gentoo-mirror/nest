@@ -1,4 +1,4 @@
-BDEPEND=dev-cpp/xsd virtual/pkgconfig || ( app-editors/vim-core dev-util/xxdi ) doc? ( app-doc/doxygen ) test? ( dev-libs/boost:= ) app-alternatives/ninja >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-cpp/xsd virtual/pkgconfig || ( app-editors/vim-core dev-util/xxdi ) doc? ( app-text/doxygen ) test? ( dev-libs/boost:= ) app-alternatives/ninja >=dev-util/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-libs/libdigidoc dev-libs/opensc dev-libs/openssl:0= dev-libs/xalan-c dev-libs/xerces-c dev-libs/xml-security-c sys-libs/zlib:0=[minizip] java? ( virtual/jre:= ) pdf? ( virtual/podofo-build ) java? ( dev-lang/swig ) virtual/libiconv
 DESCRIPTION=Library for handling digitally signed documents
@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libdigidoc dev-libs/opensc dev-libs/openssl:0= dev-libs/xalan-c
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	b7ccad6f1800c4ea58dbbdafb0b1b5e0	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=dc91bdc6b2da4b2882503f652b1cdeaf
+_md5_=0a47a06542bfbb1862c7cf5195f98c47
