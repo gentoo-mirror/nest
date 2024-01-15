@@ -1,4 +1,4 @@
-BDEPEND=dev-ruby/bundler:2 dev-util/cmake virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.20:= app-arch/unzip virtual/pkgconfig
+BDEPEND=dev-ruby/bundler:2 dev-build/cmake virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.20:= app-arch/unzip virtual/pkgconfig
 DEFINED_PHASES=install postinst prepare setup unpack
 DEPEND=dev-libs/gmp:= dev-libs/icu:= dev-libs/libffi:= dev-libs/libgpg-error dev-libs/libpcre2:= dev-libs/libxml2:2 dev-libs/libxslt sys-libs/libxcrypt:=
 DESCRIPTION=Git RPC service for handling GitLab git calls
@@ -11,4 +11,4 @@ RDEPEND=|| ( ( dev-lang/ruby:3.1 virtual/rubygems[ruby_targets_ruby31(-)] ) ) ac
 RESTRICT=mirror test strip
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-env	96e1747610bbb2f5c5d3fb16f0f3a83a	go-module	09ccb1fdea4f1f3f718e27b756636097	ruby-utils	820207a5d3f0e2e31c28080f131f2037	ruby-single	e045ee439d34b230e588900a87a11904	systemd	c8b03e8df84486aa991d4396686e8942	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
-_md5_=2dcc1cc83937d690c932a2fbc6d1d42d
+_md5_=4f591ec2f37838f73961824c8b3baaf2
