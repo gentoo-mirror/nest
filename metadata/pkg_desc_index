@@ -781,7 +781,7 @@ www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/bypass-paywalls 1.8.1 9999: Bypass Paywalls browser extension
 www-plugins/chrome-token-signing 1.1.5 9999: Native client and extension for signing with your eID on the web
-www-plugins/vdhcoapp-bin 2.0.5: Companion application for Video DownloadHelper browser add-on
+www-plugins/vdhcoapp-bin 2.0.14: Companion application for Video DownloadHelper browser add-on
 www-servers/gitlab-workhorse 8.43.0 9999: GitLab reverse proxy
 www-servers/imgproxy 3.20.0 9999: Server for resizing and converting remote images
 x11-misc/RazerGenie 1.0.0 9999: Razer devices configurator
