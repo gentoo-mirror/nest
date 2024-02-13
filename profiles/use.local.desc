@@ -4,6 +4,7 @@
 
 app-admin/reprepro:archive - Enable archive support using app-arch/libarchive
 app-admin/reprepro:gpg - Enable gpgme support using app-crypt/gpgme
+app-admin/spotinfo:embed-data-files - Embed data files in binary
 app-backup/urbackup-server:fuse - Enables mounting VHD containers via FUSE
 app-backup/wal-g:fdb - Enable FoundationDB support
 app-backup/wal-g:gp - Enable GreenplumDB support
