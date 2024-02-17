@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 726](https://img.shields.io/badge/ebuild-726-orange.svg)](https://img.shields.io/badge/ebuild-726-orange.svg)
+[![Number of ebuilds: 729](https://img.shields.io/badge/ebuild-729-orange.svg)](https://img.shields.io/badge/ebuild-729-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -154,6 +154,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-text/[notes](https://github.com/nuttyartist/notes) | Note taking application, write down your thoughts
 *   dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr) | Language recognition library by Belledonne Communications
 *   dev-cpp/[jsoncpp](https://github.com/open-source-parsers/jsoncpp) | CMake files for C++ JSON reader and writer
+*   dev-cpp/[libodb](https://codesynthesis.com/products/odb/) | Common ODB runtime library
+*   dev-cpp/[libodb-sqlite](https://codesynthesis.com/products/odb/) | Common ODB runtime library
 *   dev-cpp/[libxsd](https://www.codesynthesis.com/products/xsd/) | A cross-platform W3C XML Schema to C++ data binding compiler library
 *   dev-cpp/[libxsd-frontend](https://www.codesynthesis.com/projects/libxsd-frontend/) | A compiler frontend for the W3C XML Schema definition language
 *   dev-cpp/[libcutl](https://www.codesynthesis.com/projects/libcutl/) | A collection of C++ libraries (successor of libcult)
@@ -568,6 +570,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[aws-config-rdklib](https://github.com/awslabs/aws-config-rdklib) | Rule Development Kit Library for AWS Config
 *   dev-util/[bcunit](https://gitlab.linphone.org/BC/public/bcunit) | BC Unit Test Framework
 *   dev-util/[beekeeper-studio-bin](https://www.beekeeperstudio.io) | SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+*   dev-util/[build2](https://build2.org) | Cross-platform toolchain for building and packaging C++ code
 *   dev-util/[cfn-format](https://github.com/awslabs/aws-cloudformation-template-formatter) | AWS CloudFormation Template Formatter
 *   dev-util/[cfn-guard](https://github.com/aws-cloudformation/cloudformation-guard) | AWS CloudFormation Guard
 *   dev-util/[cfn-skeleton](https://github.com/awslabs/aws-cloudformation-template-builder) | AWS Cloudformation Template Builder
