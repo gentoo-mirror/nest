@@ -183,6 +183,8 @@ app-text/notes 2.2.1 9999: Note taking application, write down your thoughts
 dev-cpp/belr 5.3.1 9999: Language recognition library by Belledonne Communications
 dev-cpp/jsoncpp 1.9.5: CMake files for C++ JSON reader and writer
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
+dev-cpp/libodb 2.5.0_beta25: Common ODB runtime library
+dev-cpp/libodb-sqlite 2.5.0_beta25: Common ODB runtime library
 dev-cpp/libxsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler library
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/open-eid-cmake 9999 23022022: Open Electronic Identity CMake modules
@@ -562,6 +564,7 @@ dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
 dev-util/bcunit 5.3.0 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 1.0.0 2.0.1 9999: AWS CloudFormation Guard
 dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
