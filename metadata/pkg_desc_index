@@ -556,8 +556,7 @@ dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
-dev-util/act 0.2.33 9999: Run your GitHub Actions locally
-dev-util/actionlint 1.6.15 9999: Static checker for GitHub Actions workflow files
+dev-util/actionlint 1.6.26 9999: Static checker for GitHub Actions workflow files
 dev-util/arctype 0.9.80.9495: SQL client for PostgreSQL and MySQL
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
