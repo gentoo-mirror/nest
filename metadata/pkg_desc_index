@@ -145,7 +145,7 @@ app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/marktext 0.17.1: A simple and elegant open-source markdown editor
 app-editors/micro 2.0.10 9999: A modern and intuitive terminal-based text editor
 app-editors/notes 2.0.0 9999: Note taking application, write down your thoughts
-app-editors/obsidian 1.4.16: A knowledge base of plain text Markdown files
+app-editors/obsidian 1.5.8: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/typora 1.4.7: A minimal markdown editor and reader
 app-emulation/looking-glass 1_alpha12 1_beta2 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
