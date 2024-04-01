@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/faad2 >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=09b5e95bf3a0dd07a505dafdd46fd3a1
