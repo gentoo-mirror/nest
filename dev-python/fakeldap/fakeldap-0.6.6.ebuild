@@ -4,17 +4,15 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
 PYTHON_COMPAT=( python3_{10..12} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A simple library for mocking certain Django behavior"
-HOMEPAGE="https://github.com/dcramer/mock-django"
+DESCRIPTION="An implementation of a LDAPObject to fake a ldap server"
+HOMEPAGE="https://github.com/zulip/fakeldap"
 
-LICENSE="Apache-2.0"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="dev-python/django[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]"
+DEPEND="dev-python/python-ldap[${PYTHON_USEDEP}]"

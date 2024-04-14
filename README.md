@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 731](https://img.shields.io/badge/ebuild-731-orange.svg)](https://img.shields.io/badge/ebuild-731-orange.svg)
+[![Number of ebuilds: 730](https://img.shields.io/badge/ebuild-730-orange.svg)](https://img.shields.io/badge/ebuild-730-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -409,7 +409,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[django-jsonfield](https://github.com/dmkoch/django-jsonfield) | A Django field to store validated JSON in your model
 *   dev-python/[django-jinja](https://github.com/niwinz/django-jinja) | Jinja2 templating language integrated in Django
 *   dev-python/[django-js-asset](https://github.com/matthiask/django-js-asset) | A script tag with additional attributes for django.forms.Media
-*   dev-python/[django-nose](https://github.com/jazzband/django-nose) | Django test runner using nose
 *   dev-python/[django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) | OAuth2 Provider for Django
 *   dev-python/[django-pipeline](https://github.com/jazzband/django-pipeline) | An asset packaging library for Django
 *   dev-python/[django-pglocks](https://github.com/Xof/django-pglocks) | PostgreSQL locking context managers and functions for Django
@@ -682,7 +681,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/nuttcp.svg?header=)](https://repology.org/project/nuttcp/versions) net-analyzer/[nuttcp](https://www.nuttcp.net) | Network performance measurement tool
 *   net-analyzer/[passivedns](https://github.com/gamelinux/passivedns) | Network sniffer that logs all DNS server replies
 *   net-analyzer/[pkt-netflow](https://github.com/aabc/pkt-netflow) | NetFlow v5, v9, IPFIX flow data exporter
-*   net-analyzer/[python-cymruwhois](https://github.com/JustinAzoff/python-cymruwhois) | Python client for the whois.cymru.com service
+*   net-analyzer/[cymruwhois](https://github.com/JustinAzoff/python-cymruwhois) | Python client for the whois.cymru.com service
 *   net-analyzer/[ripe-atlas-probe](https://github.com/RIPE-NCC/ripe-atlas-software-probe) | RIPE Atlas Software Probe
 *   net-analyzer/[smtpping](https://github.com/halon/smtpping) | Simple, portable tool for measuring SMTP server delay
 *   net-analyzer/[sx](https://github.com/v-byte-cpu/sx) | Fast, modern, easy-to-use network scanner
