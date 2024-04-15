@@ -447,6 +447,7 @@ dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
 dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/flup 1.0.3: Random assortment of WSGI servers
 dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
+dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gensim 4.3.2 9999: Topic Modelling for Humans
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
 dev-python/google-cloud-core 2.3.3 9999: Google Cloud API client core library
