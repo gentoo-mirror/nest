@@ -195,6 +195,7 @@ dev-db/dbcrossbar 0.5.0_beta4 9999: Copy tabular data between databases, CSV fil
 dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
+dev-db/mongodb-compass 1.43.0: The MongoDB GUI
 dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
