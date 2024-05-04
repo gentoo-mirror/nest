@@ -692,7 +692,7 @@ net-firewall/xt_dns 1.5 9999: Netfilter extension to match various DNS atributes
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
-net-im/gitter-bin 5.0.1-r1: Chat and network platform
+net-im/gitter-bin 5.0.1-r2: Chat and network platform
 net-im/slack 4.27.156 4.28.182: Team collaboration tool
 net-im/viber 21.8.0.11: Free text and calls
 net-im/zoom-bin 5.8.3.145: Video conferencing and web conferencing service
