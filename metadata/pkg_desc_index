@@ -101,7 +101,7 @@ app-admin/ibmcloud-bin 2.10.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
 app-admin/mkeosimg 9999 19122022: Ubiquiti EdgeOS image from a system tarball
 app-admin/netutils-linux 2.7.9 9999: Suite of network stack performance tunning utilities
-app-admin/qtpass 1.3.2-r2 9999: multi-platform GUI for pass, the standard unix password manager
+app-admin/qtpass 1.4.0 9999: Multi-platform GUI for pass, the standard unix password manager
 app-admin/rain 1.2.0 9999: A development workflow tool for working with AWS CloudFormation
 app-admin/reach 0.2.0 9999: A static network verification tool for AWS
 app-admin/reprepro 5.3.0 9999: A tool to handle local repositories of Debian packages
