@@ -10,5 +10,5 @@ LICENSE=GPL-2-with-linking-exception
 PROPERTIES=live
 RDEPEND=exif? ( media-libs/libexif ) gif? ( media-libs/giflib:0= ) gtk? ( dev-ml/lablgtk:2= ) jpeg? ( virtual/jpeg:= ) tiff? ( media-libs/tiff ) png? ( media-libs/libpng:= ) postscript? ( app-text/ghostscript-gpl ) truetype? ( media-libs/freetype:2 ) xpm? ( x11-libs/libXpm ) X? ( x11-apps/rgb ) sys-libs/zlib:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	fbb2889c81f3a05910c1524db69425c1
+_eclasses_=edo	f75ee9179825c4cb6679eb3094d7a779	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	beddc7cde467b2e48afc78a87d042c01	git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=207cf4ca4db1cb169315f85f05e68cfa
