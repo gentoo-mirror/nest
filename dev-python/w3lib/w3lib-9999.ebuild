@@ -5,14 +5,14 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{10..12} )
-EGIT_REPO_URI="https://github.com/architest/${PN}.git"
+EGIT_REPO_URI="https://github.com/scrapy/${PN}.git"
 
 inherit distutils-r1 git-r3
 
-DESCRIPTION="Library of astronomical algorithms in Python"
-HOMEPAGE="https://github.com/architest/pymeeus"
+DESCRIPTION="Library of web-related functions"
+HOMEPAGE="https://github.com/scrapy/w3lib"
 
-LICENSE="GPL-3 LGPL-3"
+LICENSE="BSD"
 SLOT="0"
 
 distutils_enable_tests pytest
