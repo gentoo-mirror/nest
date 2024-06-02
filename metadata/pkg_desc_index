@@ -72,7 +72,7 @@ acct-user/urbackup 0: System user: urbackup
 acct-user/uredir 0: System user: uredir
 acct-user/vector 0: System user: vector
 acct-user/vhusb 0: System user: vhusb
-app-admin/aws-sam-cli 1.100.0 9999: CLI tool to manage Serverless applications using AWS SAM
+app-admin/aws-sam-cli 1.118.0 9999: CLI tool to manage Serverless applications using AWS SAM
 app-admin/aws-vault 6.6.0 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awsdtc 1.0.4 9999: AWS Data Transfer Cost Explorer
 app-admin/awslimitchecker 12.0.0 9999: Utility to check AWS resource limits and usage
@@ -382,7 +382,7 @@ dev-python/apispec-webframeworks 0.5.2 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aspectlib 1.5.2 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/assertpy 1.1 9999: Assertion library for unit testing
-dev-python/aws-lambda-builders 1.40.0 9999: Python library to manage AWS Lambda functions
+dev-python/aws-lambda-builders 1.50.0 9999: Python library to manage AWS Lambda functions
 dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/azure-common 1.1.28 9999: Microsoft Azure Client Common Library for Python
 dev-python/azure-core 1.29.5 9999: Microsoft Azure Core Library for Python
@@ -413,7 +413,7 @@ dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems
 dev-python/cyclonedx-python-lib 5.2.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.2.0 9999: A library for diffs of python data structures
-dev-python/dateparser 1.1.8 9999: Date parsing library designed to parse dates from HTML pages
+dev-python/dateparser 1.2.0 9999: Date parsing library designed to parse dates from HTML pages
 dev-python/decli 0.6.0 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
@@ -465,7 +465,8 @@ dev-python/graphql-core 3.1.7 3.2.0 9999: Python port of GraphQL.js
 dev-python/graphql-relay 3.1.5 9999: A library to help construct a graphql-py server supporting react-relay
 dev-python/grpc-google-iam-v1 0.12.7 9999: Google GRPC IAM API client library
 dev-python/grpcio-status 1.59.3 9999: Status proto mapping for gRPC
-dev-python/hijri-converter 2.3.0 9999: Hijri-Gregorian date converter
+dev-python/hijri-converter 2.3.1: Hijri-Gregorian date converter
+dev-python/hijridate 2.5.0 9999: Hijri-Gregorian date converter
 dev-python/igraph 0.10.4 9999: Python interface for igraph
 dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 4.1.1 9999: Jalali implementation of Python's datetime module
@@ -491,6 +492,7 @@ dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
 dev-python/packageurl 0.11.1 9999: Python implementation of the package url spec
+dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
@@ -558,6 +560,7 @@ dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/vcd-api-schemas-type 9.1.2_pre10: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
+dev-python/w3lib 2.1.2 9999: Library of web-related functions
 dev-util/actionlint 1.6.26 9999: Static checker for GitHub Actions workflow files
 dev-util/arctype 0.9.80.9495: SQL client for PostgreSQL and MySQL
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
