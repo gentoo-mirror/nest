@@ -715,7 +715,7 @@ net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuratio
 net-misc/ec2-instance-connect-cli 1.0.2 9999: Python client for accessing EC2 instances via EC2 Instance Connect
 net-misc/fiche 0.9.1 9999: Command line pastebin server
 net-misc/inverting-proxy 9999: Reverse proxy that inverts the direction of traffic
-net-misc/kafkactl 3.1.0 9999: A command-line interface for interaction with Apache Kafka
+net-misc/kafkactl 5.0.6 9999: A command-line interface for interaction with Apache Kafka
 net-misc/kcat 1.7.0 9999: Generic command line non-JVM Apache Kafka producer and consumer
 net-misc/kcl 0.13.0 9999: Your one stop shop to do anything with Kafka
 net-misc/lychee 0.9.0 9999: Fast, async, stream-based link checker
