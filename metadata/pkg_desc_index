@@ -94,7 +94,6 @@ app-admin/digg 0.2.2 9999: Look up region and other information for any Google I
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.78.0 1.79.0 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
-app-admin/fselect 0.6.6 9999: Find files with SQL-like queries
 app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
 app-admin/grex 1.4.0 9999: A CLI tool for generating regular expressions
 app-admin/ibmcloud-bin 2.10.0: IBM Cloud Developer Tools
@@ -105,7 +104,6 @@ app-admin/qtpass 1.4.0 9999: Multi-platform GUI for pass, the standard unix pass
 app-admin/rain 1.2.0 9999: A development workflow tool for working with AWS CloudFormation
 app-admin/reach 0.2.0 9999: A static network verification tool for AWS
 app-admin/reprepro 5.3.0 9999: A tool to handle local repositories of Debian packages
-app-admin/rhit 1.3.2 9999: A nginx log explorer
 app-admin/ripe-atlas-tools 3.1.1 9999: The official command-line client for RIPE Atlas
 app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/semaphore-bin 2.8.53: Modern UI for Ansible
@@ -116,7 +114,6 @@ app-admin/terraform-provider-proxmox 0.42.0 9999: Terraform Provider for Proxmox
 app-admin/terraform-provider-vcd 3.10.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.3.1 9999: A top for NGINX
 app-admin/trailscraper 0.6.4 9999: Command-line tool to get information out of AWS CloudTrail
-app-admin/tztail 1.0.0 9999: A log view in various timezones
 app-admin/userdbadm 0.1 9999: Tool to manage (PAM) userdb files with crypted passwords
 app-admin/uwsgitop 0.11 9999: uWSGI stats viewer
 app-admin/vault-backend-migrator 0.2.1_alpha 9999: Tool to migrate data across vault clusters
@@ -570,7 +567,6 @@ dev-util/bcunit 5.3.0 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
-dev-util/cfn-guard 1.0.0 2.0.1 9999: AWS CloudFormation Guard
 dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
@@ -580,7 +576,6 @@ dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.6.2 9999: AWS IAM Security Assessment tool
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
-dev-util/desed 1.2.0 9999: Debugger for Sed
 dev-util/detect-secrets 1.4.0 9999: An enterprise friendly way of detecting and preventing secrets
 dev-util/dropwatch 1.5.4 9999: Monitor for dropped network packets
 dev-util/dtm 1.13.3 9999: Distributed transaction framework
@@ -669,11 +664,9 @@ media-video/ffmpeg-compat 58: Compatibility package for ffmpeg to provide versio
 media-video/haruna 0.12.2 9999: Video player built with Qt/QML on top of libmpv
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
-net-analyzer/bandwhich 0.7.0 9999: Network utilization by process, connection and hostname
 net-analyzer/cymruwhois 1.6 9999: Python client for the whois.cymru.com service
 net-analyzer/dnsdiag 2.1.0 9999: DNS Measurement, Troubleshooting and Security Auditing Toolset
 net-analyzer/goaccess 1.9.3 9999: A real-time web log analyzer and interactive viewer in a terminal
-net-analyzer/gping 0.1.7 9999: Ping, but with a graph
 net-analyzer/logswan 2.1.6 9999: Web log analyzer using probabilistic data structures
 net-analyzer/netgauge 9999: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/nuttcp 8.2.2: Network performance measurement tool
@@ -689,7 +682,6 @@ net-dns/flares 2.3.2 9999: CloudFlare DNS backup tool
 net-dns/inadyn-mt 02.28.10 9999: A simple dynamic DNS client
 net-dns/massdns 0.3 9999: A high-performance DNS stub resolver
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
-net-dns/r53ddns 1.0.0 9999: Updates A record in Route53 with current global IP
 net-firewall/ipt-ratelimit 9999 20042022: Ratelimit iptables module
 net-firewall/xt_dns 1.5 9999: Netfilter extension to match various DNS atributes
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
@@ -742,7 +734,6 @@ net-misc/stargazer 2.409_rc4 2.409: Billing system for small home and office net
 net-misc/topola 5.36.58: Customer accounting system, services and statistics collection management
 net-misc/uredir 3.3 9999: UDP port redirector
 net-misc/virtualhere-usb 9999: Share USB devices over the network
-net-misc/websocat 1.6.0 9999: Netcat, curl and socat for WebSockets
 net-misc/wuzz 0.5.0 9999: Interactive cli tool for HTTP inspection
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
 net-misc/xh 0.15.0 9999: Friendly and fast tool for sending HTTP requests
