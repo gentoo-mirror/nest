@@ -568,6 +568,7 @@ dev-util/bcunit 5.3.0 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
+dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
 dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
@@ -577,6 +578,7 @@ dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.6.2 9999: AWS IAM Security Assessment tool
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
+dev-util/desed 1.2.1 9999: Debugger for Sed
 dev-util/detect-secrets 1.4.0 9999: An enterprise friendly way of detecting and preventing secrets
 dev-util/dropwatch 1.5.4 9999: Monitor for dropped network packets
 dev-util/dtm 1.13.3 9999: Distributed transaction framework
@@ -735,6 +737,7 @@ net-misc/stargazer 2.409_rc4 2.409: Billing system for small home and office net
 net-misc/topola 5.36.58: Customer accounting system, services and statistics collection management
 net-misc/uredir 3.3 9999: UDP port redirector
 net-misc/virtualhere-usb 9999: Share USB devices over the network
+net-misc/websocat 1.13.0 9999: Netcat, curl and socat for WebSockets
 net-misc/wuzz 0.5.0 9999: Interactive cli tool for HTTP inspection
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
 net-misc/xh 0.15.0 9999: Friendly and fast tool for sending HTTP requests
