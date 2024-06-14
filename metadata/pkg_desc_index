@@ -84,7 +84,6 @@ app-admin/awsudo 9999 20180718: A temporary credentials for AWS roles via sudo-l
 app-admin/awsume 4.5.3 9999: A utility for easily assuming AWS IAM roles from command line
 app-admin/azcopy 10.16.0 9999: A command-line utility to manage Azure Storage accounts
 app-admin/cli53 0.8.18 9999: Command line tool for Amazon Route 53
-app-admin/cloudman 0.1.7 9999: Textual user interface to manage ec2 instances
 app-admin/container-service-extension 3.0.2 9999: Container Service Extension for vCloud Director
 app-admin/csp-reporter 9999 20171023: Content Security Policy logs parser
 app-admin/cw 4.1.1 9999: Tail AWS CloudWatch Logs from your terminal
@@ -94,8 +93,9 @@ app-admin/digg 0.2.2 9999: Look up region and other information for any Google I
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.78.0 1.79.0 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
+app-admin/fselect 0.8.6 9999: Find files with SQL-like queries
 app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
-app-admin/grex 1.4.0 9999: A CLI tool for generating regular expressions
+app-admin/grex 1.4.5 9999: A CLI tool for generating regular expressions
 app-admin/ibmcloud-bin 2.10.0: IBM Cloud Developer Tools
 app-admin/jl 1.2.0 9999: A tool for working with structured JSON logging
 app-admin/mkeosimg 9999 19122022: Ubiquiti EdgeOS image from a system tarball
@@ -189,8 +189,8 @@ dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema d
 dev-cpp/open-eid-cmake 9999 23022022: Open Electronic Identity CMake modules
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler
-dev-db/datanymizer 0.5.1 9999: Powerful database anonymizer with flexible rules
-dev-db/dbcrossbar 0.5.0_beta4 9999: Copy tabular data between databases, CSV files and cloud storage
+dev-db/datanymizer 0.6.0 9999: Powerful database anonymizer with flexible rules
+dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
