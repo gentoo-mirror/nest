@@ -391,6 +391,7 @@ dev-python/bc-python-hcl2 0.4.1 9999: A fork of parser for HCL2 written in Pytho
 dev-python/billiard 3.6.4.0 9999: Multiprocessing Pool Extensions
 dev-python/boto3-stubs 1.28.78 9999: Type annotations for boto3
 dev-python/botocore-stubs 1.31.78 9999: Type annotations and code completion for botocore
+dev-python/cached-property 1.5.2 9999: A cached-property for decorating methods in classes
 dev-python/celery 5.2.3 9999: Asynchronous task job queue based on distributed message passing
 dev-python/cerberus 1.3.4 9999: Lightweight and extensible data validation library for Python
 dev-python/chevron 0.14.0 9999: Mustache templating language renderer
