@@ -4,16 +4,17 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 PYTHON_COMPAT=( python3_{10..12} )
-EGIT_REPO_URI="https://github.com/googleapis/python-${PN}.git"
 
-inherit distutils-r1 git-r3
+inherit distutils-r1 pypi
 
 DESCRIPTION="Google GRPC IAM API client library"
 HOMEPAGE="https://github.com/googleapis/python-grpc-google-iam-v1"
 
 LICENSE="Apache-2.0"
 SLOT="0"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="dev-python/googleapis-common-protos[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]

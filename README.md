@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 732](https://img.shields.io/badge/ebuild-732-orange.svg)](https://img.shields.io/badge/ebuild-732-orange.svg)
+[![Number of ebuilds: 733](https://img.shields.io/badge/ebuild-733-orange.svg)](https://img.shields.io/badge/ebuild-733-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -436,7 +436,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[flup](https://www.saddi.com/software/flup/) | Random assortment of WSGI servers
 *   dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
 *   dev-python/[future](https://github.com/PythonCharmers/python-future) | Easy, clean, reliable Python 2/3 compatibility
-*   dev-python/[gensim](https://github.com/RaRe-Technologies/gensim) | Topic Modelling for Humans
+*   dev-python/[gensim](https://github.com/piskvorky/gensim) | Topic Modelling for Humans
 *   dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
 *   dev-python/[google-crc32c](https://github.com/googleapis/python-crc32c) | Hardware-based implementation of the CRC32C hashing algorithm
 *   dev-python/[google-cloud-iam](https://github.com/googleapis/python-iam) | Google Cloud IAM API client library
@@ -452,6 +452,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[graphql-core](https://github.com/graphql-python/graphql-core) | Python port of GraphQL.js
 *   dev-python/[graphql-relay](https://github.com/graphql-python/graphql-relay-py) | A library to help construct a graphql-py server supporting react-relay
 *   dev-python/[grpc-google-iam-v1](https://github.com/googleapis/python-grpc-google-iam-v1) | Google GRPC IAM API client library
+*   dev-python/[grpcio](https://grpc.io) | High-performance RPC framework (python libraries)
 *   dev-python/[grpcio-status](https://grpc.io) | Status proto mapping for gRPC
 *   dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
 *   dev-python/[hijridate](https://github.com/mhalshehri/hijri-converter) | Hijri-Gregorian date converter
@@ -539,7 +540,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[serializable](https://github.com/madpah/serializable) | Serialize and deserialize Python objects to and from JSON and XML
 *   dev-python/[shellingham](https://github.com/sarugaku/shellingham) | Detects what shell the current Python executable is running in
 *   dev-python/[shouldbe](https://github.com/directxman12/should_be) | A Python Assertions Helper
-*   dev-python/[smart-open](https://github.com/RaRe-Technologies/smart_open) | Utils for streaming large files
+*   dev-python/[smart-open](https://github.com/piskvorky/smart_open) | Utils for streaming large files
 *   dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
 *   dev-python/[social-auth-core](https://github.com/python-social-auth/social-core) | Python Social Auth - Core
 *   dev-python/[social-auth-app-django](https://github.com/python-social-auth/social-app-django) | Python Social Auth - Application - Django
