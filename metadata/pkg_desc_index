@@ -413,7 +413,7 @@ dev-python/cyclonedx-python-lib 5.2.0 9999: Python library for generating Cyclon
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.2.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.2.0 9999: Date parsing library designed to parse dates from HTML pages
-dev-python/decli 0.6.0 9999: Minimal declarative cli tool
+dev-python/decli 0.6.2 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
 dev-python/diagrams 0.21.1 9999: Diagram as Code for prototyping cloud system architectures
@@ -522,7 +522,7 @@ dev-python/pytimeparse 1.1.8-r1 9999: A library to parse time from human readabl
 dev-python/pyvcloud 23.0.1 9999: VMware vCloud Director Python SDK
 dev-python/pyvmomi 7.0.2 9999: VMware vSphere API Python Bindings
 dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
-dev-python/questionary 1.10.0 9999: Python library to build pretty command line user prompts
+dev-python/questionary 2.0.1 9999: Python library to build pretty command line user prompts
 dev-python/reprint 0.6.0 9999: Binding variables and refreshing multi-line output in terminal
 dev-python/respx 0.20.2 9999: Mock HTTPX with request patterns and response side effects
 dev-python/ripe-atlas-cousteau 2.0.0 9999: Official python wrapper around RIPE Atlas API
@@ -605,7 +605,7 @@ dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
 dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
-dev-vcs/commitizen 3.2.2 9999: Python commitizen client tool
+dev-vcs/commitizen 3.27.0 9999: Python commitizen client tool
 dev-vcs/gitaly 13.12.15 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.19.1 9999: Git commit message linter
 dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
