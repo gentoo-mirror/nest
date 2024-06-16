@@ -1,17 +1,17 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
-DEPEND=dev-libs/quazip:0= dev-python/pythonqt[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,extensions] dev-qt/qtmultimedia:5[widgets] dev-qt/qtconcurrent:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5
+DEPEND=dev-libs/quazip:0= dev-python/pythonqt[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,extensions] dev-qt/qtmultimedia:5[widgets] dev-qt/qtconcurrent:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5
 DESCRIPTION=Screenshot capturing and sharing tool over various services
 EAPI=8
 HOMEPAGE=https://screencloud.net
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=cmake python-single-r1 xdg
-IUSE=python_single_target_python3_10 python_single_target_python3_11
+IUSE=python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=dev-libs/quazip:0= dev-python/pythonqt[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,extensions] dev-qt/qtmultimedia:5[widgets] dev-qt/qtconcurrent:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5 python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) dev-libs/openssl:0=
-REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
+RDEPEND=dev-libs/quazip:0= dev-python/pythonqt[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,extensions] dev-qt/qtmultimedia:5[widgets] dev-qt/qtconcurrent:5 dev-qt/qtnetwork:5 dev-qt/qtsvg:5 dev-qt/qtwidgets:5 dev-qt/qtx11extras:5 dev-qt/qtxml:5 python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-libs/openssl:0=
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
 SLOT=0
 SRC_URI=https://github.com/olav-st/screencloud/archive/v1.5.3.tar.gz -> screencloud-1.5.3.gh.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	d309b9713dfc18e754cba88d3ba69653	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	baea6080dd821f5562d715887954c9d3	cmake	c7c9a62d6232cac66d4ea32d575c3e7c	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	python-single-r1	75118e916668a74c660a13b0ecb22562	xdg	4a14c5c24f121e7da66e5aab4a168c6e
-_md5_=610c05204ec1673c445a6049c1de2942
+_md5_=445912b619ee37abf32765b0553ccfc2
