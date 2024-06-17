@@ -416,7 +416,7 @@ dev-python/dateparser 1.2.0 9999: Date parsing library designed to parse dates f
 dev-python/decli 0.6.2 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
-dev-python/diagrams 0.21.1 9999: Diagram as Code for prototyping cloud system architectures
+dev-python/diagrams 0.23.4 9999: Diagram as Code for prototyping cloud system architectures
 dev-python/dj-database-url 0.5.0 9999: URL bases database backend configuration in Django
 dev-python/dj-email-url 1.0.2 9999: URL based email backend configuration in Django
 dev-python/dj-search-url 0.1 9999: Environment based search backend configuration in Django
