@@ -153,7 +153,7 @@ app-emulation/vmware-modules 16.0.0b 16.0.0c 16.0.0d 16.0.0e 16.1.0b 16.1.0c 16.
 app-emulation/vmware-vmrc 11.2.0.16492666 12.0.0.17287072 12.0.1.18113358 12.0.4.21740317: VMware Remote Console
 app-emulation/vmware-workstation 17.0.2.21581411: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 8.10.3 9999: Auditing git repository for secrets and keys
-app-forensics/whispers 2.1.0 9999: Identify hardcoded secrets in static structured text
+app-forensics/whispers 2.3.0 9999: Identify hardcoded secrets in static structured text
 app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
 app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
@@ -407,7 +407,7 @@ dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
 dev-python/crayons 0.4.0 9999: Text UI colors
 dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human readable strings
-dev-python/crossplane 0.5.7 9999: Fast and reliable NGINX configuration parser
+dev-python/crossplane 0.5.8 9999: Fast and reliable NGINX configuration parser
 dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems programming
 dev-python/cyclonedx-python-lib 5.2.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
@@ -441,6 +441,7 @@ dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile fi
 dev-python/dpath 2.1.6 9999: A python module that will check for package updates
 dev-python/drf-yasg 1.20.0-r1 9999: Yet another Swagger generator
 dev-python/editdistance 0.5.3 9999: Fast implementation of the edit distance(Levenshtein distance)
+dev-python/face 22.0.0 9999: Straightforward CLI parsing and dispatching microframework
 dev-python/factory_boy 3.2.1 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.6 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
@@ -450,6 +451,7 @@ dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gensim 4.3.2 9999: Topic Modelling for Humans
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
+dev-python/glom 23.5.0 9999: A declarative object transformer for conglomerating nested data
 dev-python/google-cloud-core 2.4.1 9999: Google Cloud API client core library
 dev-python/google-cloud-iam 2.15.0 9999: Google Cloud IAM API client library
 dev-python/google-cloud-kms 2.23.0 9999: Google Cloud KMS API client library
@@ -511,6 +513,7 @@ dev-python/pyspnego 0.1.6 9999: Python SPNEGO authentication library
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
 dev-python/pytest-benchmark 3.4.1 9999: py.test fixture for benchmarking code
 dev-python/pytest-celery 0.0.0 9999: Subcommand REPL for click apps
+dev-python/pytest-datadir-ng 1.1.1 9999: Fixtures for pytest to retrieve test resources from filesystem
 dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/pytest-random-order 1.0.4 9999: pytest plugin to randomise the order of tests
 dev-python/pytest-trio 0.7.0 9999: Python library for async concurrency and I/O
@@ -598,6 +601,7 @@ dev-util/packer 1.7.6 9999: A tool to create identical machine images for multip
 dev-util/policy-sentry 0.12.10 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
+dev-util/semgrep 1.75.0 9999: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
 dev-util/sqlfluff 2.1.1 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
