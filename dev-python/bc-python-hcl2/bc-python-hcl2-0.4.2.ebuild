@@ -4,18 +4,19 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-DISTUTILS_EXT=1
-PYPI_PN="py${PN}"
 PYPI_NO_NORMALIZE=1
-PYTHON_COMPAT=( python3_{9..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module implementing Aho-Corasick algorithm"
-HOMEPAGE="https://github.com/WojciechMula/pyahocorasick"
+DESCRIPTION="A fork of parser for HCL2 written in Python"
+HOMEPAGE="https://github.com/bridgecrewio/python-hcl2"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
+RESTRICT="test" # no tests
+
+RDEPEND="dev-python/lark[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -4,20 +4,18 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_EXT=1
+PYPI_PN="py${PN}"
 PYPI_NO_NORMALIZE=1
 PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python JSONPath Next-Generation"
-HOMEPAGE="https://github.com/bridgecrewio/jsonpath-ng"
+DESCRIPTION="Python module implementing Aho-Corasick algorithm"
+HOMEPAGE="https://github.com/WojciechMula/pyahocorasick"
 
-LICENSE="Apache-2.0"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="test"
-
-RDEPEND="dev-python/ply[${PYTHON_USEDEP}]"
-BDEPEND="test? ( dev-python/oslotest[${PYTHON_USEDEP}] )"
 
 distutils_enable_tests pytest

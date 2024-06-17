@@ -1,24 +1,22 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{9..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1 optfeature
 
-MY_PN="detect-secrets"
-
-DESCRIPTION="A fork of enterprise friendly way of detecting and preventing secrets"
-HOMEPAGE="https://github.com/bridgecrewio/detect-secrets"
-SRC_URI="https://github.com/bridgecrewio/${MY_PN}/archive/${PV}.tar.gz -> ${P}.gh.tar.gz"
+DESCRIPTION="An enterprise friendly way of detecting and preventing secrets"
+HOMEPAGE="https://github.com/Yelp/detect-secrets"
+SRC_URI="https://github.com/Yelp/${PN}/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="!dev-util/detect-secrets[${PYTHON_USEDEP}]
+RDEPEND="!dev-python/bc-detect-secrets[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 BDEPEND="test? ( dev-vcs/git
@@ -26,8 +24,6 @@ BDEPEND="test? ( dev-vcs/git
 		dev-python/responses[${PYTHON_USEDEP}]
 		dev-python/unidiff[${PYTHON_USEDEP}]
 		dev-util/gibberish-detector[${PYTHON_USEDEP}] )"
-
-S="${WORKDIR}/${MY_PN}-${PV}"
 
 distutils_enable_tests pytest
 
@@ -39,8 +35,15 @@ EPYTEST_DESELECT=(
 	tests/core/baseline_test.py::TestCreate::test_basic_usage
 	tests/core/scan_test.py::TestGetFilesToScan::test_handles_each_path_separately
 	tests/core/scan_test.py::TestGetFilesToScan::test_handles_multiple_directories
-	test_diff/test_diff.py::TestDiff::test_scan_secret_diff
-	test_diff/test_diff.py::TestDiff::test_scan_secret_diff_add_or_remove
+	# AttributeError: 'TestAWSKeyDetector' object has no attribute 'example_key'
+	tests/plugins/aws_key_test.py::TestAWSKeyDetector::test_verify_no_secret
+	tests/plugins/aws_key_test.py::TestAWSKeyDetector::test_verify_valid_secret
+	tests/plugins/aws_key_test.py::TestAWSKeyDetector::test_verify_invalid_secret
+	tests/plugins/aws_key_test.py::TestAWSKeyDetector::test_verify_keep_trying_until_found_something
+	# AttributeError: 'TestAnalyzeLine' object has no attribute 'filename'
+	tests/plugins/base_test.py::TestAnalyzeLine::test_potential_secret_constructed_correctly
+	tests/plugins/base_test.py::TestAnalyzeLine::test_no_verification_call_if_verification_filter_is_disabled
+	tests/plugins/base_test.py::TestAnalyzeLine::test_handle_verify_exception_gracefully
 )
 
 python_prepare_all() {
