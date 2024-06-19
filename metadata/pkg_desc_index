@@ -107,13 +107,13 @@ app-admin/rhit 2.0.1 9999: A nginx log explorer
 app-admin/ripe-atlas-tools 3.1.1 9999: The official command-line client for RIPE Atlas
 app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/semaphore-bin 2.8.53: Modern UI for Ansible
-app-admin/sinker 0.14.0 9999: Sync images from one container registry to another
+app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
 app-admin/sops 3.7.2 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
 app-admin/terraform-provider-proxmox 0.42.0 9999: Terraform Provider for Proxmox
 app-admin/terraform-provider-vcd 3.10.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.4.0 9999: A top for NGINX
-app-admin/trailscraper 0.6.4 9999: Command-line tool to get information out of AWS CloudTrail
+app-admin/trailscraper 0.8.1 9999: Command-line tool to get information out of AWS CloudTrail
 app-admin/tztail 1.2.0 9999: A log view in various timezones
 app-admin/userdbadm 0.1 9999: Tool to manage (PAM) userdb files with crypted passwords
 app-admin/uwsgitop 0.11 9999: uWSGI stats viewer

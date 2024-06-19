@@ -1,11 +1,11 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install prepare unpack
 DESCRIPTION=Log what files are accessed by any Linux process
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/spieglt/whatfiles
 INHERIT=git-r3 toolchain-funcs
 LICENSE=GPL-3
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=56864bf40feda0b8f6f72c84d8e83325
+_md5_=48457e2be897c5372dc0ea4ce7f61018
