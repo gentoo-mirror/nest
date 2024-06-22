@@ -82,6 +82,7 @@ app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
 app-admin/awstaghelper 0.19.0 9999: AWS bulk tagging tool
 app-admin/awsume 4.5.3 9999: A utility for easily assuming AWS IAM roles from command line
 app-admin/azcopy 10.16.0 9999: A command-line utility to manage Azure Storage accounts
+app-admin/cfn-policy-validator 0.0.33 9999: IAM Policy Validator for AWS CloudFormation
 app-admin/cli53 0.8.18 9999: Command line tool for Amazon Route 53
 app-admin/container-service-extension 3.0.5 9999: Container Service Extension for vCloud Director
 app-admin/csp-reporter 9999 20171023: Content Security Policy logs parser
