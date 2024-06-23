@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=app-admin/webapp-config
+DESCRIPTION=Single-file PHP file manager
+EAPI=8
+HOMEPAGE=https://github.com/prasathmani/tinyfilemanager
+INHERIT=git-r3 webapp
+IUSE=vhosts
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-lang/php[fileinfo,iconv,session,unicode,zip] app-admin/webapp-config
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	webapp	de2d3d345b44597c10d7104a7bcdf7b2
+_md5_=bc9bdcef3a91bc16b787e95a591f1c34

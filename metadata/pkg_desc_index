@@ -792,6 +792,7 @@ www-apps/adminerevo 4.8.4 9999: Database management in a single PHP file
 www-apps/draw-io 20.0.1: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
+www-apps/tinyfilemanager 2.5.3 9999: Single-file PHP file manager
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/bypass-paywalls 1.8.1 9999: Bypass Paywalls browser extension
 www-plugins/chrome-token-signing 1.1.5 9999: Native client and extension for signing with your eID on the web
