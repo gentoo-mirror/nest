@@ -788,6 +788,7 @@ sys-process/btop 1.2.5 9999: A monitor of resources
 sys-process/falco-bin 0.26.1: Cloud-Native runtime security
 sys-process/nq 0.3.1 9999: Unix command line queue utility
 www-apps/LookingGlass 9999 25032019: A Python-backed Looking Glass
+www-apps/adminerevo 4.8.4 9999: Database management in a single PHP file
 www-apps/draw-io 20.0.1: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/netbox 3.1.8: IP address and data center infrastructure management tool

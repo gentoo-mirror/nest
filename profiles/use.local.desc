@@ -266,6 +266,83 @@ net-vpn/softether:bridge - Enable install of SoftEther VPN bridge
 net-vpn/softether:client - Enable install of SoftEther VPN client
 net-vpn/softether:cmd - Enable install of SoftEther VPN cmd
 net-vpn/softether:server - Enable install of SoftEther VPN server
+www-apps/adminerevo:adminer-js - Plugin. Enable auto-detection and inclusion of adminer.js, like adminer.css
+www-apps/adminerevo:brade - Design. CSS style
+www-apps/adminerevo:bueltge - Design. CSS style
+www-apps/adminerevo:clickhouse - Plugin driver for ClickHouse
+www-apps/adminerevo:cvicebni-ubor - Design. CSS style
+www-apps/adminerevo:database-hide - Plugin. Hide some databases from the interface - just to improve design, not a security plugin
+www-apps/adminerevo:design - Install custom design CSS style
+www-apps/adminerevo:designs - Plugin. Allow switching designs
+www-apps/adminerevo:dracula - Design. CSS style
+www-apps/adminerevo:dump-alter - Plugin. Exports one database so that it can be synced with other database
+www-apps/adminerevo:dump-bz2 - Plugin. Dump to Bzip2 format
+www-apps/adminerevo:dump-date - Plugin. Include current date and time in export filename
+www-apps/adminerevo:dump-json - Plugin. Dump to JSON format
+www-apps/adminerevo:dump-php - Plugin. Dump to PHP format
+www-apps/adminerevo:dump-xml - Plugin. Dump to XML format
+www-apps/adminerevo:dump-zip - Plugin. Dump to ZIP format
+www-apps/adminerevo:edit-calendar - Plugin. Display jQuery UI Timepicker for each date and datetime field
+www-apps/adminerevo:edit-foreign - Plugin. Select foreign key in edit form
+www-apps/adminerevo:edit-textarea - Plugin. Use textarea for char and varchar
+www-apps/adminerevo:editor - Install AdminerEvo Editor
+www-apps/adminerevo:elasticsearch - Plugin driver for Elasticsearch
+www-apps/adminerevo:email-table - Plugin. Get e-mail subject and message from database (Adminer Editor)
+www-apps/adminerevo:enum-option - Plugin. Use select-option for enum
+www-apps/adminerevo:enum-types - Plugin. Use select-option for enum edit instead of regular input text on enum type in PostgreSQL
+www-apps/adminerevo:esterka - Design. CSS style
+www-apps/adminerevo:file-upload - Plugin. Edit fields ending with _path by input type="file" and link to the uploaded files from select
+www-apps/adminerevo:flat - Design. CSS style
+www-apps/adminerevo:foreign-system - Plugin. Link system tables (in mysql and information_schema databases) by foreign keys
+www-apps/adminerevo:frames - Plugin. Allow using Adminer inside a frame
+www-apps/adminerevo:galkaev - Design. CSS style
+www-apps/adminerevo:haeckel - Design. CSS style
+www-apps/adminerevo:hever - Design. CSS style
+www-apps/adminerevo:hydra - Design. CSS style
+www-apps/adminerevo:import-from-dir - Plugin. Import SQL files from a directory
+www-apps/adminerevo:json-column - Plugin. Display JSON values as table in edit
+www-apps/adminerevo:jukin - Design. CSS style
+www-apps/adminerevo:kahi - Design. CSS style
+www-apps/adminerevo:konya - Design. CSS style
+www-apps/adminerevo:login-external - Plugin. Enables use of saved credentials for accessing a database
+www-apps/adminerevo:login-ip - Plugin. Check IP address and allow empty password
+www-apps/adminerevo:login-otp - Plugin. Require One Time Password at login
+www-apps/adminerevo:login-password-less - Plugin. Enable login without password
+www-apps/adminerevo:login-servers - Plugin. Display constant list of servers in login form
+www-apps/adminerevo:login-ssl - Plugin. Connect to MySQL using SSL
+www-apps/adminerevo:login-table - Plugin. Authenticate a user from the login table
+www-apps/adminerevo:lucas-sandery - Design. CSS style
+www-apps/adminerevo:mancave - Design. CSS style
+www-apps/adminerevo:mancave-hever - Design. CSS style
+www-apps/adminerevo:master-slave - Plugin. Execute writes on master and reads on slave
+www-apps/adminerevo:mongodb - Plugin driver for MongoDB
+www-apps/adminerevo:mvt - Design. CSS style
+www-apps/adminerevo:nette - Design. CSS style
+www-apps/adminerevo:ng9 - Design. CSS style
+www-apps/adminerevo:nicu - Design. CSS style
+www-apps/adminerevo:pappu687 - Design. CSS style
+www-apps/adminerevo:paranoiq - Design. CSS style
+www-apps/adminerevo:pdo - Enable the PHP Data Objects extension
+www-apps/adminerevo:pepa-linha - Design. CSS style
+www-apps/adminerevo:pepa-linha-dark - Design. CSS style
+www-apps/adminerevo:pilot - Design. CSS style
+www-apps/adminerevo:plugin - Required to run any plugin
+www-apps/adminerevo:pokorny - Design. CSS style
+www-apps/adminerevo:pretty-json-column - Pretty print JSON values in edit
+www-apps/adminerevo:price - Design. CSS style
+www-apps/adminerevo:rmsoft - Design. CSS style
+www-apps/adminerevo:rmsoft-blue - Design. CSS style
+www-apps/adminerevo:simpledb - Plugin driver for SimpleDB
+www-apps/adminerevo:slugify - Plugin. Prefill field containing _slug with slugified value of a previous field (JavaScript)
+www-apps/adminerevo:sql-log - Plugin. Log all queries to SQL file
+www-apps/adminerevo:struct-comments - Plugin. Show comments of sql structure in more places (mainly where you edit things)
+www-apps/adminerevo:table-indexes-structure - Plugin. Expanded table indexes structure output
+www-apps/adminerevo:table-structure - Plugin. Expanded table structure output
+www-apps/adminerevo:tables-filter - Plugin. Filter names in tables list
+www-apps/adminerevo:tinymce - Plugin. Edit all fields containing _html by HTML editor TinyMCE and display the HTML in select
+www-apps/adminerevo:translation - Plugin. Translate all table and field comments, enum and set values from the translation table
+www-apps/adminerevo:version-noverify - Plugin. Disable version checker
+www-apps/adminerevo:wymeditor - Plugin. Edit all fields containing _html by HTML editor WYMeditor and display the HTML in select
 www-plugins/bypass-paywalls:chrome - Install plugin for www-client/google-chrome
 www-plugins/bypass-paywalls:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:chromium - Install plugin for www-client/chromium
