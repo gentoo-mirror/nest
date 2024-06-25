@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/async:=[profile?] >=dev-haskell/hspec-2:=[profile?] dev-haskell/hspec-wai:=[profile?] dev-haskell/lifted-base:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/base-compat-batteries:=[profile?] dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/data-default-class:=[profile?] dev-haskell/exceptions:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/nats:=[profile?] dev-haskell/network:=[profile?] dev-haskell/regex-compat:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers:=[profile?] dev-haskell/transformers-base:=[profile?] dev-haskell/transformers-compat:=[profile?] dev-haskell/wai:=[profile?] dev-haskell/wai-extra:=[profile?] dev-haskell/warp:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell web framework
+EAPI=8
+HOMEPAGE=https://github.com/scotty-web/scotty
+INHERIT=haskell-cabal
+IUSE=test doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/base-compat-batteries:=[profile?] dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/data-default-class:=[profile?] dev-haskell/exceptions:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/nats:=[profile?] dev-haskell/network:=[profile?] dev-haskell/regex-compat:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers:=[profile?] dev-haskell/transformers-base:=[profile?] dev-haskell/transformers-compat:=[profile?] dev-haskell/wai:=[profile?] dev-haskell/wai-extra:=[profile?] dev-haskell/warp:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.12.1
+SRC_URI=https://hackage.haskell.org/package/scotty-0.12.1/scotty-0.12.1.tar.gz https://hackage.haskell.org/package/scotty-0.12.1/revision/2.cabal -> scotty-0.12.1-rev2.cabal
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=7dd85c1145d93c664269c90ac1c5ed97
