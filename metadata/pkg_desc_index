@@ -110,7 +110,7 @@ app-admin/ripe-atlas-tools 3.1.1 9999: The official command-line client for RIPE
 app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/semaphore-bin 2.8.53: Modern UI for Ansible
 app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
-app-admin/sops 3.7.2 9999: Simple and flexible tool for managing secrets
+app-admin/sops 3.8.1 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
 app-admin/terraform-provider-proxmox 0.42.0 9999: Terraform Provider for Proxmox
 app-admin/terraform-provider-vcd 3.10.0 9999: Terraform VMware vCloud Director provider
