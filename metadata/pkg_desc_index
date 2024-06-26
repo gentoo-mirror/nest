@@ -758,7 +758,7 @@ net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.7.3.1381 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.11.3 9999: A remote GUI for transmission
 net-voip/linphone-desktop 4.3.2 9999: A free VoIP and video softphone based on the SIP protocol
-net-voip/twinkle 1.10.2 9999: Softphone for voice over IP and IM communication using SIP
+net-voip/twinkle 1.10.3 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/awsvpnclient 1.0.3: AWS VPN Client
 net-vpn/cloudflared 2021.4.0 9999: Argo Tunnel client
 net-vpn/forticlient 7.0.8.0292: Fortinet VPN client
