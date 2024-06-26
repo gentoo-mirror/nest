@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 740](https://img.shields.io/badge/ebuild-740-orange.svg)](https://img.shields.io/badge/ebuild-740-orange.svg)
+[![Number of ebuilds: 742](https://img.shields.io/badge/ebuild-742-orange.svg)](https://img.shields.io/badge/ebuild-742-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -156,6 +156,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-text/[keening](https://github.com/SpiderX/keening) | A simple command line pastebin designed to be used together with ssh
 *   app-text/[notes](https://github.com/nuttyartist/notes) | Note taking application, write down your thoughts
 *   dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr) | Language recognition library by Belledonne Communications
+*   dev-cpp/[commoncpp2](http://www.gnu.org/software/commoncpp/) | GNU Common C++ 2
 *   dev-cpp/[jsoncpp](https://github.com/open-source-parsers/jsoncpp) | CMake files for C++ JSON reader and writer
 *   dev-cpp/[libodb](https://codesynthesis.com/products/odb/) | Common ODB runtime library
 *   dev-cpp/[libodb-sqlite](https://codesynthesis.com/products/odb/) | Common ODB runtime library
@@ -287,6 +288,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
 *   dev-libs/[belle-sip](https://gitlab.linphone.org/BC/public/belle-sip) | SIP (RFC3261) implementation
 *   dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp/) | GNU ccRTP - Implementation of the IETF real-time transport protocol
+*   dev-libs/[ucommon](https://www.gnu.org/software/commoncpp/) | A class framework that was specifically designed for telephony applications
 *   dev-libs/[dstu-engine](https://github.com/dstucrypt/dstu-engine) | OpenSSL engine for DSTU 4145
 *   dev-libs/[fastText](https://github.com/facebookresearch/fastText) | Library for fast text representation and classification
 *   dev-libs/[libcommuni](https://communi.github.io) | A cross-platform IRC framework written with Qt
