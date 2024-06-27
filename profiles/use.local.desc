@@ -251,6 +251,7 @@ net-p2p/opentracker:persistence - Allow saving torrents and peers information on
 net-p2p/opentracker:restrict-stats - Restrict statistics to the tracker owner
 net-p2p/opentracker:spot-woodpeckers - Enable tracking of abusing peers
 net-p2p/opentracker:whitelist - Make use of a torrents white-list
+net-voip/linphone-desktop:qrcode - Support for qrcodes using media-libs/zxing-cpp
 net-voip/twinkle:g729 - Support for ITU G729 Annex A/B speech codec via media-libs/bcg729
 net-voip/twinkle:zrtp - Support for Media Path Key Agreement for Unicast Secure RTP via net-libs/bzrtp
 net-vpn/innernet-bin:client - Install client

@@ -310,7 +310,7 @@ dev-haskell/wai-middleware-static 0.9.0: WAI middleware that serves requests to 
 dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
 dev-haskell/websockets 0.12.7.0 0.12.7.1: Allows you to write WebSocket-capable servers
 dev-libs/belcard 5.3.1 9999: VCard standard format manipulation library
-dev-libs/belle-sip 5.3.1 9999: SIP (RFC3261) implementation
+dev-libs/belle-sip 5.3.60 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
 dev-libs/dstu-engine 1.3.2 1.3.3 9999: OpenSSL engine for DSTU 4145
 dev-libs/fastText 0.9.2 9999: Library for fast text representation and classification
@@ -318,7 +318,7 @@ dev-libs/libcommuni 3.6.0 9999: A cross-platform IRC framework written with Qt
 dev-libs/libdict 1.0.1 9999: C library of key-value data structures
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.8 9999: Library for handling digitally signed documents
-dev-libs/liblinphone 5.3.5 9999: SIP library supporting voice/video calls and text messaging
+dev-libs/liblinphone 5.3.61 9999: SIP library supporting voice/video calls and text messaging
 dev-libs/libopenrazer 0.1.0 9999: Qt wrapper around the D-Bus API from OpenRazer
 dev-libs/lime 5.3.1 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/ucommon 7.0.1 9999: A class framework that was specifically designed for telephony applications
@@ -659,7 +659,7 @@ media-libs/bcmatroska2 5.3.0 9999: Matroska media container support
 media-libs/bv16-floatingpoint 2.1 9999: BroadVoice 16 kbs codec
 media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
 media-libs/libyuv 0.0.1872 9999: Library for freeswitch yuv graphics manipulation
-media-libs/mediastreamer2 5.3.4 9999: Mediastreaming library for telephony application
+media-libs/mediastreamer2 5.3.61 9999: Mediastreaming library for telephony application
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999 21082019: Radio tray for linux on QT
@@ -757,7 +757,7 @@ net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
 net-p2p/resilio-sync 2.7.3.1381 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.11.3 9999: A remote GUI for transmission
-net-voip/linphone-desktop 4.3.2 9999: A free VoIP and video softphone based on the SIP protocol
+net-voip/linphone-desktop 5.2.4 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.3 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/awsvpnclient 1.0.3: AWS VPN Client
 net-vpn/cloudflared 2021.4.0 9999: Argo Tunnel client
