@@ -321,7 +321,7 @@ dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.8 9999: Library for handling digitally signed documents
 dev-libs/liblinphone 5.3.61 9999: SIP library supporting voice/video calls and text messaging
 dev-libs/libopenrazer 0.1.0 9999: Qt wrapper around the D-Bus API from OpenRazer
-dev-libs/libthai 0.1.29: A a set of Thai language support routines
+dev-libs/libthai 0.1.29 9999: A a set of Thai language support routines
 dev-libs/lime 5.3.1 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/ucommon 7.0.1 9999: A class framework that was specifically designed for telephony applications
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
