@@ -1,3 +1,4 @@
+BDEPEND=dev-util/patchelf
 DEFINED_PHASES=install postinst postrm preinst prepare unpack
 DESCRIPTION=Invest in stocks, ETFs, and options with Webull Financial
 EAPI=8
@@ -11,4 +12,4 @@ RESTRICT=bindist mirror strip
 SLOT=0
 SRC_URI=https://u1sweb.webullfintech.com/us/Webull%20Desktop_7.10.0_7001000_global_x64signed.deb -> webull-desktop-7.10.0.deb
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	pax-utils	91d47e5d20627c717aa878b9167c62a8	plocale	950fbaec7deeba41b5bcc0572cca99b9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
-_md5_=a57445b2d6d2cb4994b8f3edaf961e49
+_md5_=1fb6777cea97dc6a1111896493877198
