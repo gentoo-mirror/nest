@@ -674,7 +674,7 @@ media-sound/plexamp 4.7.4: Music focused client for Plex
 media-sound/sayonara 1.7.0_p3 1.8.0_beta1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon
-media-video/ffmpeg-compat 58: Compatibility package for ffmpeg to provide versions 58 of libraries
+media-video/ffmpeg-compat 57 58: Compatibility package for ffmpeg to provide versions 58 of libraries
 media-video/haruna 0.12.2 9999: Video player built with Qt/QML on top of libmpv
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
