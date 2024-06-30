@@ -15,7 +15,11 @@ app-backup/wal-g:sqlserver - Enable MSSQL support
 app-backup/zbackup:tartool - Install tartool utility
 app-crypt/qesteidutil:webcheck - add support for new version checking
 app-editors/qedit:aspell - Enable spellchecking using app-text/aspell
-app-emulation/looking-glass:host - Download Windows host application
+app-emulation/looking-glass:binary - Install Windows host application
+app-emulation/looking-glass:host - Build Linux host application
+app-emulation/looking-glass:iso - Build an iso image with host application
+app-emulation/looking-glass:obs - Build plugin for media-video/obs-studio
+app-emulation/looking-glass:pipewire - Enable sound support via native PipeWire backend
 app-emulation/vmware-vmrc:standalone - Don't reuse files from VMware workstation install
 app-emulation/vmware-workstation:macos-guests - Support macOS guests
 app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally
