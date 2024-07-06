@@ -10,16 +10,13 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	The OpenAI Python library provides convenient access to the OpenAI REST API
-	from any Python application. The library includes type definitions for all
-	request params and response fields, and offers both synchronous and
-	asynchronous clients powered by httpx.
+	This package provides a public type stubs for pandas,
+	following the convention of providing stubs in a separate package.
+	The stubs cover the most typical use cases of pandas. In general,
+	these stubs are narrower than what is possibly allowed by pandas.
 	</longdescription>
-	<use>
-		<flag name="datalib">Support data analysis and statistics</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">openai/openai-python</remote-id>
-		<remote-id type="pypi">openai</remote-id>
+		<remote-id type="github">pandas-dev/pandas-stubs</remote-id>
+		<remote-id type="pypi">pandas-stubs</remote-id>
 	</upstream>
 </pkgmetadata>
