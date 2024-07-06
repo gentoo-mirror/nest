@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 748](https://img.shields.io/badge/ebuild-748-orange.svg)](https://img.shields.io/badge/ebuild-748-orange.svg)
+[![Number of ebuilds: 755](https://img.shields.io/badge/ebuild-755-orange.svg)](https://img.shields.io/badge/ebuild-755-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -479,10 +479,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[langdetect](https://github.com/Mimino666/langdetect) | Language detection library ported from Google
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 *   dev-python/[luhn](https://github.com/mmcloughlin/luhn) | Generate and verify Luhn check digits
+*   dev-python/[llvmlite](https://github.com/numba/llvmlite) | A lightweight wrapper around basic LLVM functionality
 *   dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 *   dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
 *   dev-python/[markdown-include](https://github.com/cmacmackin/markdown-include) | Provides the inclusion of the contents of other Markdown documents
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
+*   dev-python/[moviepy](https://github.com/Zulko/moviepy) | Video editing with Python
 *   dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 *   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
@@ -504,6 +506,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[policyuniverse](https://github.com/Netflix-Skunkworks/policyuniverse) | Parse and Process AWS IAM Policies, Statements, ARNs
 *   dev-python/[port-for](https://github.com/kmike/port-for) | An utility and python library for TCP ports management
 *   dev-python/[prance](https://github.com/jfinkhaeuser/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
+*   dev-python/[proglog](https://github.com/Edinburgh-Genome-Foundry/Proglog) | Logs and progress bars manager for Python
 *   dev-python/[promise](https://github.com/syrusakbary/promise) | Python port of GraphQL.js
 *   dev-python/[purl](https://github.com/codeinthehole/purl) | Simple Python URL class
 *   dev-python/[py3dns](https://launchpad.net/py3dns) | Python 3 DNS library
@@ -603,6 +606,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[cupt](https://github.com/jackyf/cupt) | Package manager for Debian
 *   dev-util/[desed](https://github.com/SoptikHa2/desed) | Debugger for Sed
 *   dev-util/[detect-secrets](https://github.com/Yelp/detect-secrets) | An enterprise friendly way of detecting and preventing secrets
+*   dev-util/[diff-cover](https://github.com/Bachmann1234/diff-cover) | Find diff lines that do not have test coverage
 *   dev-util/[dropwatch](https://github.com/nhorman/dropwatch) | Monitor for dropped network packets
 *   dev-util/[dtm](https://github.com/dtm-labs/dtm) | Distributed transaction framework
 *   dev-util/[duplicate-code-detection-tool](https://github.com/platisd/duplicate-code-detection-tool) | A tool to detect similarities between files within a repository
@@ -646,6 +650,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   kde-misc/[Burn-My-Windows](https://github.com/Schneegans/Burn-My-Windows) | Disintegrate your windows with style
 *   kde-misc/[qCheckGMail](https://github.com/mhogomchungu/qCheckGMail) | qCheckGmail is a Qt/C++ multiple gmail account checker
 *   kde-misc/[kde-relaxingsounds](https://github.com/Prayag2/kde_relaxingsounds) | Plasma 5 widget for play relaxing sounds
+*   kde-misc/[kwin-effects-cube](https://github.com/zzag/kwin-effects-cube) | Desktop cube effect for kwin
+*   kde-misc/[kwin-effects-sliding-notifications](https://github.com/zzag/kwin-effects-sliding-notifications) | Sliding animation for notification windows
 *   kde-misc/[latte-indicator-dashtopanel](https://github.com/psifidotos/latte-indicator-dashtopanel) | Dash To Panel indicator for Latte Dock
 *   kde-misc/[latte-indicator-unity](https://github.com/psifidotos/latte-indicator-unity) | Unity style indicator for Latte Dock
 *   kde-misc/[latte-indicator-win10](https://github.com/psifidotos/latte-indicator-win10) | Windows 10 style indicator for Latte Dock
@@ -657,6 +663,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   kde-misc/[plasma-applet-eventcalendar](https://github.com/Zren/plasma-applet-eventcalendar) | Plasmoid for a calendar and agenda with weather
 *   kde-misc/[plasma-applet-favoriteFolders](https://github.com/enky-marte/plasma-applet-favoriteFolders) | Plasma 5 widget for quick access to favorite folders
 *   kde-misc/[plasma-power-monitor](https://github.com/atul-g/plasma-power-monitor) | Plasma widget to monitor the power consumption of your battery
+*   kde-misc/[plasma5-wallpapers-dynamic](https://github.com/zzag/plasma5-wallpapers-dynamic) | Dynamic wallpaper plugin for KDE Plasma
 *   kde-misc/[plasmoid-wunderground-extended](https://github.com/rliwoch/plasmoid-wunderground-extended) | KDE5 Plasma Weather Widget
 *   kde-misc/[pminhibition](https://github.com/popov895/pminhibition) | Plasma applet shows information about power management inhibition
 *   kde-misc/[Tiled-Quicklaunch](https://github.com/Risu/Tiled-Quicklaunch) | Plasma Menu Widget for KDE
