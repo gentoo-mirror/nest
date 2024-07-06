@@ -486,10 +486,12 @@ dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-ho
 dev-python/jsonpath-ng 1.5.3 9999: Python JSONPath Next-Generation
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
 dev-python/langdetect 1.0.9 9999: Language detection library ported from Google
+dev-python/llvmlite 0.43.0 9999: A lightweight wrapper around basic LLVM functionality
 dev-python/luhn 0.2.0 9999: Generate and verify Luhn check digits
 dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
 dev-python/markdown-include 0.6.0 9999: Provides the inclusion of the contents of other Markdown documents
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
+dev-python/moviepy 1.0.3 9999: Video editing with Python
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.15 9999: Python library for NETCONF clients
 dev-python/netapp-ontap 9.10.1.0: A library for working with ONTAP's REST APIs simply in Python
@@ -508,6 +510,7 @@ dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
 dev-python/prance 0.21.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
+dev-python/proglog 0.1.10 9999: Logs and progress bars manager for Python
 dev-python/promise 2.3.0 9999: Python port of GraphQL.js
 dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 3.2.1 9999: Python 3 DNS library
@@ -594,6 +597,7 @@ dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.1 9999: Debugger for Sed
 dev-util/detect-secrets 1.5.0 9999: An enterprise friendly way of detecting and preventing secrets
+dev-util/diff-cover 9.1.0 9999: Find diff lines that do not have test coverage
 dev-util/dropwatch 1.5.4 9999: Monitor for dropped network packets
 dev-util/dtm 1.13.3 9999: Distributed transaction framework
 dev-util/duplicate-code-detection-tool 1.2.0 9999: A tool to detect similarities between files within a repository
@@ -612,7 +616,7 @@ dev-util/postman 9.22.2: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
 dev-util/semgrep 1.75.0 9999: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
-dev-util/sqlfluff 2.1.1 9999: A SQL linter and auto-formatter
+dev-util/sqlfluff 3.1.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.42 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
@@ -635,6 +639,8 @@ kde-misc/applet-window-appmenu 0.8.0 9999: Plasma 5 applet in order to show wind
 kde-misc/applet-window-buttons 0.11.1 9999: Plasma 5 applet in order to show window buttons in your panels
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
 kde-misc/kde-relaxingsounds 9999 20220615: Plasma 5 widget for play relaxing sounds
+kde-misc/kwin-effects-cube 2.0.0 9999: Desktop cube effect for kwin
+kde-misc/kwin-effects-sliding-notifications 1.5.0 9999: Sliding animation for notification windows
 kde-misc/latte-indicator-dashtopanel 0.5.0 9999: Dash To Panel indicator for Latte Dock
 kde-misc/latte-indicator-unity 0.6.0 9999: Unity style indicator for Latte Dock
 kde-misc/latte-indicator-win10 0.1.0 9999: Windows 10 style indicator for Latte Dock
@@ -646,6 +652,7 @@ kde-misc/plasma-applet-ambientnoise 9999 20210626: Plasma 5 widget for play ambi
 kde-misc/plasma-applet-eventcalendar 76 9999: Plasmoid for a calendar and agenda with weather
 kde-misc/plasma-applet-favoriteFolders 9999 20210412: Plasma 5 widget for quick access to favorite folders
 kde-misc/plasma-power-monitor 0.2 9999: Plasma widget to monitor the power consumption of your battery
+kde-misc/plasma5-wallpapers-dynamic 4.4.1 9999: Dynamic wallpaper plugin for KDE Plasma
 kde-misc/plasmoid-wunderground-extended 0.7.1 9999: KDE5 Plasma Weather Widget
 kde-misc/pminhibition 1.8 9999: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 2.2.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
