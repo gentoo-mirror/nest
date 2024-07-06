@@ -778,7 +778,7 @@ net-vpn/innernet-bin 1.2.0 1.3.0_beta4: WireGuard based private network system
 net-vpn/openiked 7.1 9999: Internet Key Exchange version 2 (IKEv2) daemon
 net-vpn/openvpn-aws 2.5.2: Patched OpenVPN with SAML support for AWS Client VPN
 net-vpn/softether 4.34_beta9744 4.34_p9745 9999: Multi-protocol VPN software
-sci-visualization/visidata 2.11.1 9999: Terminal spreadsheet multitool for discovering and arranging data
+sci-visualization/visidata 3.0.2 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
 sys-apps/choose 1.3.4 9999: Fast alternative to cut and awk
 sys-apps/direnv 2.31.0 9999: Environment variable manager for shell
