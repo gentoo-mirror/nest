@@ -1,0 +1,13 @@
+BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=PCRE wrapping library that offers type-safe preg_ replacements
+EAPI=8
+HOMEPAGE=https://github.com/composer/pcre
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=2fc56289657618fc3ea8c807be5d7f98

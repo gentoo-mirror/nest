@@ -1,0 +1,12 @@
+BDEPEND=dev-php/theseer-Autoload
+DEFINED_PHASES=install prepare
+DESCRIPTION=Semantic versioning utilities, constraint parsing, and checking
+EAPI=8
+HOMEPAGE=https://github.com/composer/semver
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/composer/semver/archive/3.4.0.tar.gz -> semver-3.4.0.tar.gz
+_md5_=5112ce3f209a8c2e55aa0d65d4aacfed

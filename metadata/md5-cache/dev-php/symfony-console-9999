@@ -1,0 +1,10 @@
+BDEPEND=dev-php/theseer-Autoload
+DEFINED_PHASES=install prepare
+DESCRIPTION=Eases the creation of beautiful and testable command line interfaces
+EAPI=8
+HOMEPAGE=https://github.com/symfony/console
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring dev-php/symfony-service-contracts dev-php/symfony-string
+RESTRICT=test
+SLOT=0
+_md5_=95f603978668fb238feeb9f223db4001

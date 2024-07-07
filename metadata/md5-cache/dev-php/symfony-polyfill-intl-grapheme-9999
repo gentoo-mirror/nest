@@ -1,0 +1,13 @@
+BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Symfony polyfill for intl's grapheme_ functions
+EAPI=8
+HOMEPAGE=https://github.com/symfony/polyfill-intl-grapheme
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=4cbdaece4726c01f00f3485a5b94ab2c

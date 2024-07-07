@@ -1,0 +1,12 @@
+BDEPEND=dev-php/theseer-Autoload
+DEFINED_PHASES=install prepare
+DESCRIPTION=A set of service abstractions
+EAPI=8
+HOMEPAGE=https://github.com/symfony/service-contracts
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-container dev-php/symfony-deprecation-contracts
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/service-contracts/archive/v3.5.0.tar.gz -> symfony-service-contracts-3.5.0.tar.gz
+_md5_=64c09e2d25e8c5e83206a9b342a5521e

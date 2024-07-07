@@ -1,0 +1,13 @@
+BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=An object-oriented API to strings
+EAPI=8
+HOMEPAGE=https://github.com/symfony/string
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-intl-grapheme dev-php/symfony-polyfill-intl-normalizer dev-php/symfony-polyfill-mbstring
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=e1b1ec6eb473354af18a9eedb0a66509

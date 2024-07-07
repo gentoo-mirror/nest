@@ -1,0 +1,12 @@
+BDEPEND=dev-php/theseer-Autoload
+DEFINED_PHASES=install prepare
+DESCRIPTION=Symfony polyfill for intl's Normalizer class
+EAPI=8
+HOMEPAGE=https://github.com/symfony/polyfill-intl-normalizer
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/polyfill-intl-normalizer/archive/v1.30.0.tar.gz -> symfony-polyfill-intl-normalizer-1.30.0.tar.gz
+_md5_=21de4e59396b582c249a42b28d56d299

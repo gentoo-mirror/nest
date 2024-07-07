@@ -1,0 +1,13 @@
+BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Provides basic utilities for the filesystem
+EAPI=8
+HOMEPAGE=https://github.com/symfony/filesystem
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-mbstring
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=340d9340b4815d0641a295c135ce5a2c

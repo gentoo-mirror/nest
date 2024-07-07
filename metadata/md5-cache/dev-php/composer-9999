@@ -1,0 +1,13 @@
+BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Dependency Manager for PHP
+EAPI=8
+HOMEPAGE=https://github.com/composer/composer
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[curl] dev-php/ca-bundle dev-php/class-map-generator dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/pcre dev-php/phar-utils dev-php/signal-handler dev-php/psr-log dev-php/reactphp-promise dev-php/semver dev-php/spdx-licenses dev-php/symfony-console dev-php/symfony-filesystem dev-php/symfony-finder dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 dev-php/symfony-process dev-php/xdebug-handler
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
+_md5_=69b2cc862894eb0f83ca4cd34640511a
