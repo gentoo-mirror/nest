@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 756](https://img.shields.io/badge/ebuild-756-orange.svg)](https://img.shields.io/badge/ebuild-756-orange.svg)
+[![Number of ebuilds: 775](https://img.shields.io/badge/ebuild-775-orange.svg)](https://img.shields.io/badge/ebuild-775-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -350,8 +350,27 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-ml/[ocaml-xmlplaylist](https://github.com/savonet/ocaml-xmlplaylist) | OCaml module to parse various RSS playlist formats
 *   dev-ml/[tsdl](https://github.com/dbuenzli/tsdl) | Thin bindings to SDL for OCaml
 *   dev-ml/[xmlm](https://github.com/dbuenzli/xmlm) | Ocaml XML manipulation module
+*   dev-php/[class-map-generator](https://github.com/composer/class-map-generator) | Utilities to scan PHP code and generate class maps
+*   dev-php/[composer](https://github.com/composer/composer) | Dependency Manager for PHP
+*   dev-php/[pcre](https://github.com/composer/pcre) | PCRE wrapping library that offers type-safe preg_ replacements
+*   dev-php/[psr-container](https://github.com/php-fig/container) | Common Container Interface (PHP FIG PSR-11)
 *   dev-php/[scrypt]() | A PHP wrapper fo the scrypt hashing algorithm
+*   dev-php/[semver](https://github.com/composer/semver) | Semantic versioning utilities, constraint parsing, and checking
+*   dev-php/[signal-handler](https://github.com/Seldaek/signal-handler) | Simple unix signal handler
 *   dev-php/[spx](https://github.com/NoiseByNorthwest/php-spx) | A PHP wrapper fo the scrypt hashing algorithm
+*   dev-php/[symfony-console](https://github.com/symfony/console) | Eases the creation of beautiful and testable command line interfaces
+*   dev-php/[symfony-deprecation-contracts](https://github.com/symfony/deprecation-contracts) | A generic function and convention to trigger deprecation notices
+*   dev-php/[symfony-filesystem](https://github.com/symfony/filesystem) | Provides basic utilities for the filesystem
+*   dev-php/[symfony-finder](https://github.com/symfony/finder) | Finds files and directories via an intuitive fluent interface
+*   dev-php/[symfony-polyfill-ctype](https://github.com/symfony/polyfill-ctype) | Symfony polyfill for ctype functions
+*   dev-php/[symfony-polyfill-intl-grapheme](https://github.com/symfony/polyfill-intl-grapheme) | Symfony polyfill for intl's grapheme_ functions
+*   dev-php/[symfony-polyfill-intl-normalizer](https://github.com/symfony/polyfill-intl-normalizer) | Symfony polyfill for intl's Normalizer class
+*   dev-php/[symfony-polyfill-mbstring](https://github.com/symfony/polyfill-mbstring) | Symfony polyfill for the Mbstring extension
+*   dev-php/[symfony-polyfill-php80](https://github.com/symfony/polyfill-php80) | Backport of some PHP 8.0+ features to lower PHP versions
+*   dev-php/[symfony-polyfill-php81](https://github.com/symfony/polyfill-php81) | Backport of some PHP 8.1+ features to lower PHP versions
+*   dev-php/[symfony-process](https://github.com/symfony/process) | Executes commands in sub-processes
+*   dev-php/[symfony-service-contracts](https://github.com/symfony/service-contracts) | A set of service abstractions
+*   dev-php/[symfony-string](https://github.com/symfony/string) | An object-oriented API to strings
 *   dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
 *   dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 *   dev-python/[ahocorasick](https://github.com/WojciechMula/pyahocorasick) | Python module implementing Aho-Corasick algorithm
