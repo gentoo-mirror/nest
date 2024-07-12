@@ -1,4 +1,4 @@
-BDEPEND=virtual/pkgconfig dev-lang/go:0= test? ( dev-util/cmocka ) >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3 virtual/pkgconfig
+BDEPEND=virtual/pkgconfig dev-lang/go:0= test? ( dev-util/cmocka ) >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3 virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst prepare setup test
 DEPEND=kernel_linux? ( iproute2? ( sys-apps/iproute2[-minimal] ) ) lz4? ( app-arch/lz4:0= ) lzo? ( dev-libs/lzo:2 ) mbedtls? ( net-libs/mbedtls:= ) openssl? ( dev-libs/openssl:0= ) pam? ( sys-libs/pam ) pkcs11? ( dev-libs/pkcs11-helper ) systemd? ( sys-apps/systemd )
 DESCRIPTION=Patched OpenVPN with SAML support for AWS Client VPN
@@ -13,5 +13,5 @@ REQUIRED_USE=^^ ( openssl mbedtls ) pkcs11? ( !mbedtls ) !plugins? ( !pam !down-
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://build.openvpn.net/downloads/releases/openvpn-2.5.2.tar.gz
-_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	dc70c1dc473b68317fc4a86f5fbfc57d	readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4	systemd	c8b03e8df84486aa991d4396686e8942	linux-info	ea4122ba1d8791a12b78e53f9510a2e3
+_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	fb7c3cd829c27448f5a05212de2bf499	readme.gentoo-r1	b8c7a61664027641d79dcfc04bd366f4	systemd	c8b03e8df84486aa991d4396686e8942	linux-info	ea4122ba1d8791a12b78e53f9510a2e3
 _md5_=096b1895f2ffe3d08e2c961e602065d0
