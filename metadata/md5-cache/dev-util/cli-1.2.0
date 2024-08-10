@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=dev-cpp/libcutl
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/81f2bef.tar.gz -> cli-1.2.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
 _md5_=a1ebdb6462fc10d30c824efa46bfc608

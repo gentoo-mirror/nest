@@ -9,5 +9,5 @@ RDEPEND=!app-editors/vim-core
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/vim/vim/v8.1.1306/src/xxd/xxd.c https://raw.githubusercontent.com/vim/vim/v8.1.1306/runtime/doc/xxd.1 https://raw.githubusercontent.com/vim/vim/v8.1.1306/src/xxd/Makefile
-_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=872f2ae04ce5d0e276d102a5c7df0aa0
