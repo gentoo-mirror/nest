@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/phpunit dev-php/symfony-filesystem ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/phpunit >=dev-php/symfony-filesystem-6.4.9 ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony Finder Component
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=fe983b093b1ace453c6ad0d927b2a127
+_md5_=0fee1be1a4925f4a1f762a291baca270

@@ -7,8 +7,8 @@ INHERIT=git-r3
 IUSE=test
 LICENSE=MIT
 PROPERTIES=test_network live
-RDEPEND=dev-lang/php:*[curl] dev-php/ca-bundle dev-php/composer-class-map-generator dev-php/composer-pcre dev-php/composer-semver dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/phar-utils dev-php/psr-log dev-php/reactphp-promise dev-php/seld-signal-handler dev-php/spdx-licenses dev-php/symfony-console dev-php/symfony-filesystem dev-php/symfony-finder dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 dev-php/symfony-process dev-php/xdebug-handler
+RDEPEND=dev-lang/php:*[curl] dev-php/ca-bundle dev-php/composer-class-map-generator dev-php/composer-pcre dev-php/composer-semver dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/phar-utils dev-php/psr-log dev-php/reactphp-promise dev-php/seld-signal-handler dev-php/spdx-licenses dev-php/symfony-console >=dev-php/symfony-filesystem-6.4.9 >=dev-php/symfony-finder-6.4.8 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 >=dev-php/symfony-process-6.4.8 dev-php/xdebug-handler
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=40a5b977a98e492be7c20c1f81c4e5cd
+_md5_=62d62becc224b3938a79ae519ee739be
