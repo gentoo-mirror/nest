@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Flexible PHP mock object framework
+EAPI=8
+HOMEPAGE=https://github.com/mockery/mockery
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/hamcrest
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/mockery/mockery/archive/1.6.12.tar.gz -> mockery-1.6.12.tar.gz
+_md5_=79501182d9928a420593134eeb865473

@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-php/composer dev-php/guzzlehttp-psr7 dev-php/mongodb dev-php/pecl-mongodb dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Abstraction for local and remote filesystems
+EAPI=8
+HOMEPAGE=https://github.com/thephpleague/flysystem
+INHERIT=git-r3
+IUSE=fileinfo ftp test zip
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[fileinfo?,ftp?,zip?] dev-php/fedora-autoloader dev-php/league-flysystem-local dev-php/league-mime-type-detection
+REQUIRED_USE=test? ( fileinfo ftp zip )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=85b37d4de312a364eb56a65a1b1e341e

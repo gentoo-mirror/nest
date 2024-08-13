@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Unit tests for HTTP Factory implementations
+EAPI=8
+HOMEPAGE=https://github.com/http-interop/http-factory-tests
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit dev-php/psr-http-factory
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=7afc3060287c1c353ffcecd6f0864b1b

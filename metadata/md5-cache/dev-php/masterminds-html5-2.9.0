@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=An HTML5 parser and serializer for PHP
+EAPI=8
+HOMEPAGE=https://github.com/Masterminds/html5-php
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[xml] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/Masterminds/html5-php/archive/2.9.0.tar.gz -> masterminds-html5-2.9.0.tar.gz
+_md5_=6c9dfa6c5c311f0c51b17bac8bd89eee

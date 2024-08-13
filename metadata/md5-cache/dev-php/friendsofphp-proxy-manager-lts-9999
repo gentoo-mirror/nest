@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Proxy Manager LTS
+EAPI=8
+HOMEPAGE=https://github.com/FriendsOfPHP/proxy-manager-lts
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/laminas-code >=dev-php/symfony-filesystem-6.4.9
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=ce35a7e094f9d76b0b5984f270af1aa6

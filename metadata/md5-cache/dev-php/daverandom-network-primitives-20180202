@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Primitive types for network programming in PHP
+EAPI=8
+HOMEPAGE=https://github.com/DaveRandom/NetworkPrimitives
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/daverandom-enum dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/DaveRandom/NetworkPrimitives/archive/621fd76a2438294a46df81ada3355c95f690eedd.tar.gz -> daverandom-network-primitives-20180202.tar.gz
+_md5_=b92068421c71790f687bc37001cfa25c

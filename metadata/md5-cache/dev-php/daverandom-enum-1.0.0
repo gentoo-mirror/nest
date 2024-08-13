@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=A base class for enumerations in PHP
+EAPI=8
+HOMEPAGE=https://github.com/DaveRandom/Enum
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/DaveRandom/Enum/archive/1.0.0.tar.gz -> daverandom-enum-1.0.0.tar.gz
+_md5_=d713199c934d16beccf54369885d9a0a

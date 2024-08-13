@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/doctrine-annotations dev-php/laminas-stdlib dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Extensions to the PHP Reflection API
+EAPI=8
+HOMEPAGE=https://github.com/laminas/laminas-code
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[phar] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/laminas/laminas-code/archive/4.14.0.tar.gz -> laminas-code-4.14.0.tar.gz
+_md5_=081c2e06cd6602f07af4b3a88b6c8dfa

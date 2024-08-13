@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/guzzlehttp-psr7 dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Abstraction for local and remote filesystems
+EAPI=8
+HOMEPAGE=https://github.com/thephpleague/flysystem
+IUSE=fileinfo ftp test zip
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[fileinfo?,ftp?,zip?] dev-php/fedora-autoloader dev-php/league-flysystem-local dev-php/league-mime-type-detection
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/thephpleague/flysystem/archive/3.28.0.tar.gz -> league-flysystem-3.28.0.tar.gz
+_md5_=7debf1976dca1a029e7f8e6cf1e21b5d

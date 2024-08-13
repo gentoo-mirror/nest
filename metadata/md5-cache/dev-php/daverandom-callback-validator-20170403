@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Tools for validating callback signatures in PHP
+EAPI=8
+HOMEPAGE=https://github.com/DaveRandom/CallbackValidator
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/DaveRandom/CallbackValidator/archive/d87a08cddbc6099816ed01e50ce25cdfc43b542f.tar.gz -> daverandom-callback-validator-20170403.tar.gz
+_md5_=4439b84904e33bca962281bc09376de8

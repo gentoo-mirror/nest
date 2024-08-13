@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Shared interfaces for tags. These are soon-to-be-PSR
+EAPI=8
+HOMEPAGE=https://github.com/php-cache/tag-interop
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=!dev-php/cache dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-cache
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=2d911654f3bc5e83e4922a07d12d22d2

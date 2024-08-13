@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Simple object oriented interface to execute shell commands in PHP
+EAPI=8
+HOMEPAGE=https://github.com/mikehaertl/php-shellcommand
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/mikehaertl/php-shellcommand/archive/1.7.0.tar.gz -> mikehaertl-php-shellcommand-1.7.0.tar.gz
+_md5_=8bd475c8700c3f0eee7b637ee7c5ee23

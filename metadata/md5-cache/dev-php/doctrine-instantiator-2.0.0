@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Doctrine Instantiator
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/instantiator
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pdo] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/doctrine/instantiator/archive/2.0.0.tar.gz -> doctrine-instantiator-2.0.0.tar.gz
+_md5_=93b206173744b6dbf446d3d0a87752b5

@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=The Official MongoDB PHP library
+EAPI=8
+HOMEPAGE=https://github.com/mongodb/mongo-php-library
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/jean85-pretty-package-versions dev-php/pecl-mongodb dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=cc333d238807c1464a2ca41e010cbc87

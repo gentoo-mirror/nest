@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=phpDocumentor ReflectionCommon component
+EAPI=8
+HOMEPAGE=https://github.com/phpDocumentor/ReflectionCommon
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/phpDocumentor/ReflectionCommon/archive/2.2.0.tar.gz -> phpdocumentor-reflection-common-2.2.0.tar.gz
+_md5_=d9b972eab324bfe629114582d25b550e

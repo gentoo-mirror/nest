@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Proxy Manager LTS
+EAPI=8
+HOMEPAGE=https://github.com/FriendsOfPHP/proxy-manager-lts
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/laminas-code >=dev-php/symfony-filesystem-6.4.9
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/FriendsOfPHP/proxy-manager-lts/archive/v1.0.18.tar.gz -> friendsofphp-proxy-manager-lts-1.0.18.tar.gz
+_md5_=c2a8c73264f8bac212d641a1e8251330

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare test unpack
+DESCRIPTION=PHP Cache adapters
+EAPI=8
+HOMEPAGE=https://github.com/php-cache/cache
+INHERIT=git-r3 optfeature
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=!dev-php/cache-tag-interop dev-lang/php:* dev-php/doctrine-cache dev-php/fedora-autoloader dev-php/league-flysystem dev-php/psr-cache dev-php/psr-log dev-php/psr-simple-cache
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=980ba9a905e48215043b8c6054b00053

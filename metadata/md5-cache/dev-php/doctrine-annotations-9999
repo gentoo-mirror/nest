@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/doctrine-common dev-php/phpunit dev-php/symfony-cache ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Doctrine Annotations
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/annotations
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/doctrine-lexer dev-php/fedora-autoloader dev-php/psr-cache
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=24eaafb91709f59718b7a28a107d1fca

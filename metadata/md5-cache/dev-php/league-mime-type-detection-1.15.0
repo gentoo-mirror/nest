@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare test
+DESCRIPTION=League Mime Type Detection
+EAPI=8
+HOMEPAGE=https://github.com/thephpleague/mime-type-detection
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[fileinfo] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/thephpleague/mime-type-detection/archive/1.15.0.tar.gz -> league-mime-type-detection-1.15.0.tar.gz
+_md5_=fb277a9156e2eb3c9e61a71337311ded

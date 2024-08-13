@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Shared interfaces for tags. These are soon-to-be-PSR
+EAPI=8
+HOMEPAGE=https://github.com/php-cache/tag-interop
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=!dev-php/cache dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-cache
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-cache/tag-interop/archive/1.1.0.tar.gz -> cache-tag-interop-1.1.0.tar.gz
+_md5_=8cdd470f7567b2889562dfca57946f97

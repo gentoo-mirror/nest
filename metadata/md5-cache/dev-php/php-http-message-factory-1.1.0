@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Httplug Factory interfaces for PSR-7 HTTP Message
+EAPI=8
+HOMEPAGE=https://github.com/php-http/message-factory
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-message
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-http/message-factory/archive/1.1.0.tar.gz -> php-http-message-factory-1.1.0.tar.gz
+_md5_=9a85a0af1b5e0ae921c21b0a695a9c4a

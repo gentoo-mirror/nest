@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=The Official MongoDB PHP library
+EAPI=8
+HOMEPAGE=https://github.com/mongodb/mongo-php-library
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/jean85-pretty-package-versions dev-php/pecl-mongodb dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-php-library/archive/1.16.1.tar.gz -> mongo-php-library-1.16.1.tar.gz
+_md5_=089d3a1ae9c547478d94d2699581b066

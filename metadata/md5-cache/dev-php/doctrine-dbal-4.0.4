@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-cache dev-php/symfony-console )
+DEFINED_PHASES=install postinst prepare test
+DESCRIPTION=Doctrine Database Abstraction Layer
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/dbal
+INHERIT=optfeature
+IUSE=mysql postgres sqlite test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pdo,mysql?,postgres?,sqlite?] dev-php/doctrine-deprecations dev-php/fedora-autoloader dev-php/psr-cache dev-php/psr-log
+REQUIRED_USE=test? ( mysql postgres sqlite )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/doctrine/dbal/archive/4.0.4.tar.gz -> doctrine-dbal-4.0.4.tar.gz
+_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=e0090b4376009f2d9bca211657f08425

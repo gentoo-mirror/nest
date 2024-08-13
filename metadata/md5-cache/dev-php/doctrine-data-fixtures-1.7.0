@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-php/composer dev-php/doctrine-orm dev-php/phpunit dev-php/symfony-cache )
+DEFINED_PHASES=install postinst prepare test
+DESCRIPTION=Doctrine Data Fixtures Extension
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/data-fixtures
+INHERIT=optfeature
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pdo,sqlite] dev-php/doctrine-deprecations dev-php/doctrine-persistence dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/doctrine/data-fixtures/archive/1.7.0.tar.gz -> doctrine-data-fixtures-1.7.0.tar.gz
+_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=147ece52c92e7f27ff7a872436ae12b3

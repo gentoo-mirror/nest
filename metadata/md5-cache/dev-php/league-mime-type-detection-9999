@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=League Mime Type Detection
+EAPI=8
+HOMEPAGE=https://github.com/thephpleague/mime-type-detection
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[fileinfo] dev-php/fedora-autoloader
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=542fb8ac2853db0a01368b4ef68aa05b

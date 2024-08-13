@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/mockery dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=phpDocumentor ReflectionDocBlock component
+EAPI=8
+HOMEPAGE=https://github.com/phpDocumentor/ReflectionDocBlock
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[filter] dev-php/doctrine-deprecations dev-php/fedora-autoloader dev-php/phpdocumentor-reflection-common dev-php/phpdocumentor-type-resolver dev-php/phpstan-phpdoc-parser dev-php/webmozart-assert
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=b05d6ecba896c513803a467e649620d2

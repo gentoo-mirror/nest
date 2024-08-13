@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=phpDocumentor TypeResolver component
+EAPI=8
+HOMEPAGE=https://github.com/phpDocumentor/TypeResolver
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/doctrine-deprecations dev-php/fedora-autoloader dev-php/phpdocumentor-reflection-common dev-php/phpstan-phpdoc-parser
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=0c8f9471f00ed493c8b18d211db18499

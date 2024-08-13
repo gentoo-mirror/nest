@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Library for handling version information and constraints
+EAPI=8
+HOMEPAGE=https://github.com/phar-io/version
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=a5831a6e06ebf29b4276937c9489cbca

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=DNS implementation in pure PHP
+EAPI=8
+HOMEPAGE=https://github.com/DaveRandom/LibDNS
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[ctype] dev-php/daverandom-callback-validator dev-php/daverandom-enum dev-php/daverandom-network-primitives dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=5ffb56bffb3e62a9b2d6e1a28836df1a

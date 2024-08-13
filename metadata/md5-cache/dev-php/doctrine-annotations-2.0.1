@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/doctrine-common dev-php/phpunit dev-php/symfony-cache )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Doctrine Annotations
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/annotations
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/doctrine-lexer dev-php/fedora-autoloader dev-php/psr-cache
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/doctrine/annotations/archive/2.0.1.tar.gz -> doctrine-annotations-2.0.1.tar.gz
+_md5_=f62a69cde03518e64ab42e7e76371e65

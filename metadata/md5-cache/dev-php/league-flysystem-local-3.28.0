@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Sub-split of Flysystem for local file storage
+EAPI=8
+HOMEPAGE=https://github.com/thephpleague/flysystem-local
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:*[fileinfo] dev-php/fedora-autoloader dev-php/league-mime-type-detection
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/thephpleague/flysystem-local/archive/3.28.0.tar.gz -> league-flysystem-local-3.28.0.tar.gz
+_md5_=22dcb16994112b6332289ece50867516

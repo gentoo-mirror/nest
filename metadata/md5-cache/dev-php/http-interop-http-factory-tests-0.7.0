@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Unit tests for HTTP Factory implementations
+EAPI=8
+HOMEPAGE=https://github.com/http-interop/http-factory-tests
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit dev-php/psr-http-factory
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/http-interop/http-factory-tests/archive/0.7.0.tar.gz -> http-interop-http-factory-tests-0.7.0.tar.gz
+_md5_=6e64f6535d9d85b80022fcef2883b425

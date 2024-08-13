@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/http-interop-http-factory-tests dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=PSR-7 HTTP message library
+EAPI=8
+HOMEPAGE=https://github.com/guzzle/psr7
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-factory dev-php/psr-http-message dev-php/ralouphie-getallheaders
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/guzzle/psr7/archive/2.7.0.tar.gz -> guzzlehttp-psr7-2.7.0.tar.gz
+_md5_=11196340406daad8406216a1a655db51

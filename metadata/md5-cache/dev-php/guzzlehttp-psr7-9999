@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/http-interop-http-factory-tests dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=PSR-7 HTTP message library
+EAPI=8
+HOMEPAGE=https://github.com/guzzle/psr7
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-factory dev-php/psr-http-message dev-php/ralouphie-getallheaders
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=6a8505259193ac948ba90fbf32eec5d0

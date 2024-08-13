@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare test unpack
+DESCRIPTION=Library for PHP code coverage information
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/php-code-coverage
+INHERIT=git-r3 optfeature
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[xml,xmlwriter] dev-php/fedora-autoloader dev-php/nikic-php-parser dev-php/phpunit-php-file-iterator dev-php/phpunit-php-text-template dev-php/sebastian-code-unit-reverse-lookup dev-php/sebastian-complexity dev-php/sebastian-environment dev-php/sebastian-lines-of-code dev-php/sebastian-version dev-php/theseer-tokenizer
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=bbc745119e44b73a744448f56c44d615

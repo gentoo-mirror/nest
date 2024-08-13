@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=FilterIterator implementation that filters files
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/php-file-iterator
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/php-file-iterator/archive/4.1.0.tar.gz -> phpunit-php-file-iterator-4.1.0.tar.gz
+_md5_=198f38437acec1bc596039962924add9

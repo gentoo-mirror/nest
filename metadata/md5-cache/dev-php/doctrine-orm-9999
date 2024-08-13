@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-php/pecl-apcu dev-php/phpunit dev-php/symfony-cache ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare test unpack
+DESCRIPTION=Doctrine Object Relational Mapper
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/orm
+INHERIT=git-r3 optfeature
+IUSE=mysql mssql postgres sqlite test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[ctype,mysql?,mssql?,postgres?,sqlite?] dev-php/fedora-autoloader dev-php/doctrine-collections dev-php/doctrine-dbal dev-php/doctrine-deprecations dev-php/doctrine-event-manager dev-php/doctrine-inflector dev-php/doctrine-instantiator dev-php/doctrine-lexer dev-php/doctrine-persistence dev-php/psr-cache dev-php/symfony-console dev-php/symfony-var-exporter
+REQUIRED_USE=test? ( mysql mssql postgres sqlite )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=0d69b1a8c0f20a17e4bf5c118b7b577f

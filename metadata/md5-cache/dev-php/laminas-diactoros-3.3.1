@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/http-interop-http-factory-tests dev-php/phpunit dev-php/php-http-psr7-integration-tests )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=PSR HTTP Message implementations
+EAPI=8
+HOMEPAGE=https://github.com/laminas/laminas-diactoros
+IUSE=curl gd ipv6 test xml
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[curl?,gd?,ipv6?,xml?] dev-php/fedora-autoloader dev-php/psr-http-factory dev-php/psr-http-message
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/laminas/laminas-diactoros/archive/3.3.1.tar.gz -> laminas-diactoros-3.3.1.tar.gz
+_md5_=efa6ad899c18a6b9e84896297d0f2bcc

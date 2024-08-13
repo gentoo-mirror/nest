@@ -391,10 +391,71 @@ dev-php/amphp-serialization 1.0.0 9999: Serialization tools for IPC and data sto
 dev-php/amphp-socket 2.3.1 9999: Non-blocking socket and TLS functionality for PHP
 dev-php/amphp-sync 2.3.0 9999: Non-blocking synchronization primitives for PHP
 dev-php/amphp-windows-registry 1.0.1 9999: Windows Registry Reader
+dev-php/cache 1.0.0 9999: PHP Cache adapters
+dev-php/cache-integration-tests 0.17.0 9999: Integration tests for PSR-6 cache
+dev-php/cache-tag-interop 1.1.0 9999: Shared interfaces for tags. These are soon-to-be-PSR
 dev-php/composer 2.7.7 9999: Dependency Manager for PHP
 dev-php/composer-class-map-generator 1.3.4 9999: Utilities to scan PHP code and generate class maps
 dev-php/composer-pcre 3.1.4 9999: PCRE wrapping library that offers type-safe preg_ replacements
 dev-php/composer-semver 3.4.2 9999: Semantic versioning utilities, constraint parsing, and checking
+dev-php/daverandom-callback-validator 9999 20170403: Tools for validating callback signatures in PHP
+dev-php/daverandom-enum 1.0.0 9999: A base class for enumerations in PHP
+dev-php/daverandom-libdns 2.1.0 9999: DNS implementation in pure PHP
+dev-php/daverandom-network-primitives 9999 20180202: Primitive types for network programming in PHP
+dev-php/doctrine-annotations 2.0.1 9999: Doctrine Annotations
+dev-php/doctrine-cache 2.2.0 9999: Doctrine Cache
+dev-php/doctrine-collections 2.2.2 9999: Doctrine Collections Abstraction Layer
+dev-php/doctrine-common 3.4.4 9999: Doctrine Common
+dev-php/doctrine-data-fixtures 1.7.0 9999: Doctrine Data Fixtures Extension
+dev-php/doctrine-dbal 4.0.4 9999: Doctrine Database Abstraction Layer
+dev-php/doctrine-deprecations 1.1.3 9999: Doctrine Deprecations
+dev-php/doctrine-event-manager 2.0.1 9999: Doctrine Event Manager
+dev-php/doctrine-inflector 2.0.10 9999: Doctrine Inflector
+dev-php/doctrine-instantiator 2.0.0 9999: Doctrine Instantiator
+dev-php/doctrine-lexer 3.0.1 9999: Doctrine Lexer
+dev-php/doctrine-orm 3.2.1 9999: Doctrine Object Relational Mapper
+dev-php/doctrine-persistence 3.3.3 9999: Doctrine Persistence
+dev-php/egulias-email-validator 4.0.2 9999: PHP Email address validator
+dev-php/friendsofphp-proxy-manager-lts 1.0.18 9999: Proxy Manager LTS
+dev-php/guzzlehttp-promises 2.0.3 9999: Guzzle Promises library for PHP with synchronous support
+dev-php/guzzlehttp-psr7 2.7.0 9999: PSR-7 HTTP message library
+dev-php/hamcrest 2.0.1 9999: PHP Hamcrest implementation
+dev-php/http-interop-http-factory-tests 0.7.0 9999: Unit tests for HTTP Factory implementations
+dev-php/jean85-pretty-package-versions 2.0.6 9999: Independent wrapper to get pretty versions strings
+dev-php/kelunik-certificate 1.1.3 9999: Access certificate details and transform between different formats
+dev-php/laminas-code 4.14.0 9999: Extensions to the PHP Reflection API
+dev-php/laminas-diactoros 3.3.1 9999: SPL extensions, array utilities, error handlers, and more
+dev-php/laminas-stdlib 3.19.0 9999: SPL extensions, array utilities, error handlers, and more
+dev-php/league-flysystem 3.28.0 9999: Abstraction for local and remote filesystems
+dev-php/league-flysystem-local 3.28.0 9999: Sub-split of Flysystem for local file storage
+dev-php/league-html-to-markdown 5.1.1 9999: HTML To Markdown for PHP
+dev-php/league-mime-type-detection 1.15.0 9999: League Mime Type Detection
+dev-php/league-uri 7.4.1 9999: URI manipulation Library
+dev-php/league-uri-components 7.4.1 9999: League URI Components
+dev-php/league-uri-interfaces 7.4.1 9999: League URI Interfaces
+dev-php/masterminds-html5 2.9.0 9999: An HTML5 parser and serializer for PHP
+dev-php/mikehaertl-php-shellcommand 1.7.0 9999: Simple object oriented interface to execute shell commands in PHP
+dev-php/mockery 1.6.12 9999: PHP Hamcrest implementation
+dev-php/mongodb 1.16.1 9999: The Official MongoDB PHP library
+dev-php/nikic-php-parser 4.19.1 9999: A PHP parser written in PHP
+dev-php/nyholm-psr7 1.8.1 9999: A super lightweight PSR-7 implementation
+dev-php/pecl-eio 3.1.3 9999: PHP wrapper for libeio library
+dev-php/pecl-parallel 1.2.3 9999: A succint parallel concurrency API for PHP
+dev-php/pecl-uuid 1.2.0 9999: PHP PECL UUID extension
+dev-php/pecl-uv 0.3.0 9999: PHP PECL UV extension
+dev-php/phar-io-version 3.2.1 9999: Library for handling version information and constraints
+dev-php/php-http-discovery 1.19.4 9999: The HTTP client abstraction for PHP
+dev-php/php-http-httplug 2.4.0 9999: The HTTP client abstraction for PHP
+dev-php/php-http-message-factory 1.1.0 9999: Httplug Factory interfaces for PSR-7 HTTP Message
+dev-php/php-http-promise 1.3.1 9999: Promise used for asynchronous HTTP requests
+dev-php/php-http-psr7-integration-tests 1.4.0 9999: A PSR-7 implementation tests
+dev-php/phpdocumentor-reflection-common 2.2.0 9999: phpDocumentor ReflectionCommon component
+dev-php/phpdocumentor-reflection-docblock 5.4.1 9999: phpDocumentor ReflectionDocBlock component
+dev-php/phpdocumentor-type-resolver 1.8.2 9999: phpDocumentor TypeResolver component
+dev-php/phpstan-phpdoc-parser 1.29.1 9999: PHPDoc Parser for PHPStan
+dev-php/phpunit 10.5.27 9999: The PHP Unit Testing framework
+dev-php/phpunit-php-code-coverage 10.1.15 9999: Library for PHP code coverage information
+dev-php/phpunit-php-file-iterator 4.1.0 9999: FilterIterator implementation that filters files
 dev-php/psr-container 2.0.2 9999: Common Container Interface (PHP FIG PSR-11)
 dev-php/scrypt 2.0.1 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-php/seld-signal-handler 2.0.2 9999: Simple unix signal handler

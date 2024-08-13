@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=A PHP parser written in PHP
+EAPI=8
+HOMEPAGE=https://github.com/nikic/PHP-Parser
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/nikic/PHP-Parser/archive/v4.19.1.tar.gz -> nikic-php-parser-4.19.1.tar.gz
+_md5_=7027cb2bfcf6c266dd9c9c330519bb2a

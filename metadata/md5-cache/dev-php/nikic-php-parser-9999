@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
+DESCRIPTION=A PHP parser written in PHP
+EAPI=8
+HOMEPAGE=https://github.com/nikic/PHP-Parser
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/fedora-autoloader
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=92edc3bde53a56acc4e90bbd2311d05f

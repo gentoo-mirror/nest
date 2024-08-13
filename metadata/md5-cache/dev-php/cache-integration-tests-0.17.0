@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Integration tests for PSR-6 cache
+EAPI=8
+HOMEPAGE=https://github.com/php-cache/integration-tests
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/cache dev-php/fedora-autoloader dev-php/psr-cache
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-cache/integration-tests/archive/0.17.0.tar.gz -> cache-integration-tests-0.17.0.tar.gz
+_md5_=b03fac2d8354e95381173a42d047fd63
