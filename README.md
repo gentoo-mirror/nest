@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 793](https://img.shields.io/badge/ebuild-793-orange.svg)](https://img.shields.io/badge/ebuild-793-orange.svg)
+[![Number of ebuilds: 854](https://img.shields.io/badge/ebuild-854-orange.svg)](https://img.shields.io/badge/ebuild-854-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -367,10 +367,71 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[amphp-socket](https://github.com/amphp/socket) | Non-blocking socket and TLS functionality for PHP
 *   dev-php/[amphp-sync](https://github.com/amphp/sync) | Non-blocking synchronization primitives for PHP
 *   dev-php/[amphp-windows-registry](https://github.com/amphp/windows-registry) | Windows Registry Reader
+*   dev-php/[cache](https://github.com/php-cache/cache) | PHP Cache adapters
+*   dev-php/[cache-integration-tests](https://github.com/php-cache/integration-tests) | Integration tests for PSR-6 cache
+*   dev-php/[cache-tag-interop](https://github.com/php-cache/tag-interop) | Shared interfaces for tags. These are soon-to-be-PSR
 *   dev-php/[composer](https://github.com/composer/composer) | Dependency Manager for PHP
 *   dev-php/[composer-class-map-generator](https://github.com/composer/class-map-generator) | Utilities to scan PHP code and generate class maps
 *   dev-php/[composer-pcre](https://github.com/composer/pcre) | PCRE wrapping library that offers type-safe preg_ replacements
 *   dev-php/[composer-semver](https://github.com/composer/semver) | Semantic versioning utilities, constraint parsing, and checking
+*   dev-php/[daverandom-callback-validator](https://github.com/DaveRandom/CallbackValidator) | Tools for validating callback signatures in PHP
+*   dev-php/[daverandom-enum](https://github.com/DaveRandom/Enum) | A base class for enumerations in PHP
+*   dev-php/[daverandom-libdns](https://github.com/DaveRandom/LibDNS) | DNS implementation in pure PHP
+*   dev-php/[daverandom-network-primitives](https://github.com/DaveRandom/NetworkPrimitives) | Primitive types for network programming in PHP
+*   dev-php/[doctrine-annotations](https://github.com/doctrine/annotations) | Doctrine Annotations
+*   dev-php/[doctrine-cache](https://github.com/doctrine/cache) | Doctrine Cache
+*   dev-php/[doctrine-collections](https://github.com/doctrine/collections) | Doctrine Collections Abstraction Layer
+*   dev-php/[doctrine-common](https://github.com/doctrine/common) | Doctrine Common
+*   dev-php/[doctrine-data-fixtures](https://github.com/doctrine/data-fixtures) | Doctrine Data Fixtures Extension
+*   dev-php/[doctrine-dbal](https://github.com/doctrine/dbal) | Doctrine Database Abstraction Layer
+*   dev-php/[doctrine-deprecations](https://github.com/doctrine/deprecations) | Doctrine Deprecations
+*   dev-php/[doctrine-event-manager](https://github.com/doctrine/event-manager) | Doctrine Event Manager
+*   dev-php/[doctrine-inflector](https://github.com/doctrine/inflector) | Doctrine Inflector
+*   dev-php/[doctrine-instantiator](https://github.com/doctrine/instantiator) | Doctrine Instantiator
+*   dev-php/[doctrine-lexer](https://github.com/doctrine/lexer) | Doctrine Lexer
+*   dev-php/[doctrine-orm](https://github.com/doctrine/orm) | Doctrine Object Relational Mapper
+*   dev-php/[doctrine-persistence](https://github.com/doctrine/persistence) | Doctrine Persistence
+*   dev-php/[egulias-email-validator](https://github.com/egulias/EmailValidator) | PHP Email address validator
+*   dev-php/[friendsofphp-proxy-manager-lts](https://github.com/FriendsOfPHP/proxy-manager-lts) | Proxy Manager LTS
+*   dev-php/[guzzlehttp-promises](https://github.com/guzzle/promises) | Guzzle Promises library for PHP with synchronous support
+*   dev-php/[guzzlehttp-psr7](https://github.com/guzzle/psr7) | PSR-7 HTTP message library
+*   dev-php/[hamcrest](https://github.com/hamcrest/hamcrest-php) | PHP Hamcrest implementation
+*   dev-php/[http-interop-http-factory-tests](https://github.com/http-interop/http-factory-tests) | Unit tests for HTTP Factory implementations
+*   dev-php/[jean85-pretty-package-versions](https://github.com/Jean85/pretty-package-versions) | Independent wrapper to get pretty versions strings
+*   dev-php/[kelunik-certificate](https://github.com/kelunik/certificate) | Access certificate details and transform between different formats
+*   dev-php/[laminas-code](https://github.com/laminas/laminas-code) | Extensions to the PHP Reflection API
+*   dev-php/[laminas-diactoros](https://github.com/laminas/laminas-stdlib) | SPL extensions, array utilities, error handlers, and more
+*   dev-php/[laminas-stdlib](https://github.com/laminas/laminas-stdlib) | SPL extensions, array utilities, error handlers, and more
+*   dev-php/[league-flysystem](https://github.com/thephpleague/flysystem) | Abstraction for local and remote filesystems
+*   dev-php/[league-flysystem-local](https://github.com/thephpleague/flysystem-local) | Sub-split of Flysystem for local file storage
+*   dev-php/[league-html-to-markdown](https://github.com/thephpleague/html-to-markdown) | HTML To Markdown for PHP
+*   dev-php/[league-mime-type-detection](https://github.com/thephpleague/mime-type-detection) | League Mime Type Detection
+*   dev-php/[league-uri](https://github.com/thephpleague/uri) | URI manipulation Library
+*   dev-php/[league-uri-components](https://github.com/thephpleague/uri-components) | League URI Components
+*   dev-php/[league-uri-interfaces](https://github.com/thephpleague/uri-interfaces) | League URI Interfaces
+*   dev-php/[masterminds-html5](https://github.com/Masterminds/html5-php) | An HTML5 parser and serializer for PHP
+*   dev-php/[mikehaertl-php-shellcommand](https://github.com/mikehaertl/php-shellcommand) | Simple object oriented interface to execute shell commands in PHP
+*   dev-php/[mockery](https://github.com/hamcrest/hamcrest-php) | PHP Hamcrest implementation
+*   dev-php/[mongodb](https://github.com/mongodb/mongo-php-library) | The Official MongoDB PHP library
+*   dev-php/[nikic-php-parser](https://github.com/nikic/PHP-Parser) | A PHP parser written in PHP
+*   dev-php/[nyholm-psr7](https://github.com/Nyholm/psr7) | A super lightweight PSR-7 implementation
+*   dev-php/[pecl-eio]() | PHP wrapper for libeio library
+*   dev-php/[pecl-parallel]() | A succint parallel concurrency API for PHP
+*   dev-php/[pecl-uuid]() | PHP PECL UUID extension
+*   dev-php/[pecl-uv]() | PHP PECL UV extension
+*   dev-php/[phar-io-version](https://github.com/phar-io/version) | Library for handling version information and constraints
+*   dev-php/[php-http-discovery](https://github.com/php-http/httplug) | The HTTP client abstraction for PHP
+*   dev-php/[php-http-httplug](https://github.com/php-http/httplug) | The HTTP client abstraction for PHP
+*   dev-php/[php-http-message-factory](https://github.com/php-http/message-factory) | Httplug Factory interfaces for PSR-7 HTTP Message
+*   dev-php/[php-http-promise](https://github.com/php-http/promise) | Promise used for asynchronous HTTP requests
+*   dev-php/[php-http-psr7-integration-tests](https://github.com/php-http/psr7-integration-tests) | A PSR-7 implementation tests
+*   dev-php/[phpdocumentor-reflection-common](https://github.com/phpDocumentor/ReflectionCommon) | phpDocumentor ReflectionCommon component
+*   dev-php/[phpdocumentor-reflection-docblock](https://github.com/phpDocumentor/ReflectionDocBlock) | phpDocumentor ReflectionDocBlock component
+*   dev-php/[phpdocumentor-type-resolver](https://github.com/phpDocumentor/TypeResolver) | phpDocumentor TypeResolver component
+*   dev-php/[phpstan-phpdoc-parser](https://github.com/phpstan/phpdoc-parser) | PHPDoc Parser for PHPStan
+*   dev-php/[phpunit](https://github.com/sebastianbergmann/phpunit) | The PHP Unit Testing framework
+*   dev-php/[phpunit-php-code-coverage](https://github.com/sebastianbergmann/php-code-coverage) | Library for PHP code coverage information
+*   dev-php/[phpunit-php-file-iterator](https://github.com/sebastianbergmann/php-file-iterator) | FilterIterator implementation that filters files
 *   dev-php/[psr-container](https://github.com/php-fig/container) | Common Container Interface (PHP FIG PSR-11)
 *   dev-php/[scrypt]() | A PHP wrapper fo the scrypt hashing algorithm
 *   dev-php/[seld-signal-handler](https://github.com/Seldaek/signal-handler) | Simple unix signal handler
