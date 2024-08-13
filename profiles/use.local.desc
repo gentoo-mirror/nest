@@ -94,6 +94,7 @@ dev-libs/zrtpcpp:empty - Build empty (no cache) backend
 dev-libs/zrtpcpp:sdes - Build with SDES
 dev-libs/zrtpcpp:sqlcipher - Build SQLCipher backed for cache
 dev-libs/zrtpcpp:tivi - Build tivi client
+dev-php/amphp-amp:pcntl - Enable test for Process Control extension
 dev-php/seld-signal-handler:pcntl - Enable test for Process Control extension
 dev-php/symfony-process:pcntl - Enable test for Process Control extension
 dev-python/drf-yasg:validation - Enable swagger spec validation

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/pecl-parallel dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=An advanced parallelization library for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/parallel
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-cache dev-php/amphp-parser dev-php/amphp-pipeline dev-php/amphp-process dev-php/amphp-serialization dev-php/amphp-socket dev-php/amphp-sync dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/parallel/archive/v2.2.9.tar.gz -> amphp-parallel-2.2.9.tar.gz
+_md5_=dc54db9128d5f0d0687375716ed5b6b2

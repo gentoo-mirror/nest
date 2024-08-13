@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=HTTP primitives which can be shared by servers and clients
+EAPI=8
+HOMEPAGE=https://github.com/amphp/http
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-hpack dev-php/amphp-parser dev-php/fedora-autoloader dev-php/league-uri-components dev-php/psr-http-message
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/http/archive/v2.1.1.tar.gz -> amphp-http-2.1.1.tar.gz
+_md5_=28ed0b35e8676f3aaffeba130cfc2eff

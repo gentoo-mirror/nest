@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Non-blocking socket and TLS functionality for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/socket
+IUSE=ipv6 test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[ipv6?,ssl] dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-dns dev-php/fedora-autoloader dev-php/kelunik-certificate dev-php/league-uri dev-php/league-uri-interfaces dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/socket/archive/v2.3.1.tar.gz -> amphp-socket-2.3.1.tar.gz
+_md5_=916ec33f34252a0d7dee256c5b148e26

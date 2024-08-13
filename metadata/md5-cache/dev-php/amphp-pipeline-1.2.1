@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/amphp-phpunit-util dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Concurrent iterators and pipeline operations
+EAPI=8
+HOMEPAGE=https://github.com/amphp/pipeline
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/pipeline/archive/v1.2.1.tar.gz -> amphp-pipeline-1.2.1.tar.gz
+_md5_=d516c7618fdf73c08f98056e83a22d27

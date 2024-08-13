@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Async DNS resolution for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/dns
+INHERIT=git-r3
+IUSE=ipv6 test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[filter,ipv6?] dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-cache dev-php/amphp-parser dev-php/amphp-windows-registry dev-php/daverandom-libdns dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=ae3febc5a7f8872785ab00d413edec2b

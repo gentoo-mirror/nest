@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Non-blocking synchronization primitives for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/sync
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-pipeline dev-php/amphp-serialization dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/sync/archive/v2.3.0.tar.gz -> amphp-sync-2.3.0.tar.gz
+_md5_=265475c86bacf0254ccfa53fbe1c3bd1

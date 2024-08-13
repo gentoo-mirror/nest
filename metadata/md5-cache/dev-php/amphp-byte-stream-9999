@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=A non-blocking stream abstraction for PHP based on Amp
+EAPI=8
+HOMEPAGE=https://github.com/amphp/byte-stream
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-parser dev-php/amphp-pipeline dev-php/amphp-serialization dev-php/amphp-sync dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=752da07ff12454fd66737cfc6b0490aa

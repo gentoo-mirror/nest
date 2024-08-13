@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-php/composer dev-php/pecl-eio >=dev-php/pecl-parallel-1.2.3 dev-php/pecl-uv dev-php/phpunit )
+DEFINED_PHASES=install postinst prepare test
+DESCRIPTION=An abstraction layer and non-blocking file access solution
+EAPI=8
+HOMEPAGE=https://github.com/amphp/file
+INHERIT=optfeature
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-cache dev-php/amphp-parallel dev-php/amphp-sync dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/file/archive/v3.1.0.tar.gz -> amphp-file-3.1.0.tar.gz
+_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=157e88722a6513a81673b3011f0c4d80

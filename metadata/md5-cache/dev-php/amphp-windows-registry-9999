@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Windows Registry Reader
+EAPI=8
+HOMEPAGE=https://github.com/amphp/windows-registry
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/amphp-byte-stream dev-php/amphp-process dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=630fe3eae0efb692b958ef56cfa3e7a0

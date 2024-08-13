@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Non-blocking socket and TLS functionality for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/socket
+INHERIT=git-r3
+IUSE=ipv6 test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[ipv6?,ssl] dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-dns dev-php/fedora-autoloader dev-php/kelunik-certificate dev-php/league-uri dev-php/league-uri-interfaces dev-php/revolt-event-loop
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=a9091a310646f21e1eca058ca609e682

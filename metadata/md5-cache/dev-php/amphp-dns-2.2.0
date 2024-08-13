@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Async DNS resolution for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/dns
+IUSE=ipv6 test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[filter,ipv6?] dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-cache dev-php/amphp-parser dev-php/amphp-windows-registry dev-php/daverandom-libdns dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/dns/archive/v2.2.0.tar.gz -> amphp-dns-2.2.0.tar.gz
+_md5_=b3f84dbc57128e9dfc59f2b2aa36ddaf

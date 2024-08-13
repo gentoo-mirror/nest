@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/amphp-file dev-php/amphp-http-server dev-php/laminas-diactoros dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare test unpack
+DESCRIPTION=Advanced async HTTP client library for PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/http-client
+INHERIT=git-r3 optfeature
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-hpack dev-php/amphp-http dev-php/amphp-pipeline dev-php/amphp-socket dev-php/amphp-sync dev-php/fedora-autoloader dev-php/league-uri dev-php/league-uri-components dev-php/league-uri-interfaces dev-php/psr-http-message dev-php/revolt-event-loop
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=381cf8dce0f4dee62394db74e56244fb

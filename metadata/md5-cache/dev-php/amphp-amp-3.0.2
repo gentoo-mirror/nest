@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=A non-blocking concurrency framework for PHP applications
+EAPI=8
+HOMEPAGE=https://github.com/amphp/amp
+IUSE=pcntl test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pcntl?] dev-php/fedora-autoloader dev-php/revolt-event-loop
+REQUIRED_USE=test? ( pcntl )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/amp/archive/v3.0.2.tar.gz -> amphp-amp-3.0.2.tar.gz
+_md5_=4202858e76817dc8cd645a765eba3d90

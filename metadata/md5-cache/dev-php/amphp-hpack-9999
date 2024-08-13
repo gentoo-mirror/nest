@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=HTTP/2 header compression implementation in PHP
+EAPI=8
+HOMEPAGE=https://github.com/amphp/hpack
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=5c19968176fcd586b8105a6cfa5c6f9a

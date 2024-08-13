@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=HTTP primitives which can be shared by servers and clients
+EAPI=8
+HOMEPAGE=https://github.com/amphp/http
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/amphp-hpack dev-php/amphp-parser dev-php/fedora-autoloader dev-php/league-uri-components dev-php/psr-http-message
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=472acd00972c9371baaf77a0a0a10681

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=An async process dispatcher
+EAPI=8
+HOMEPAGE=https://github.com/amphp/process
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp-sync dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/process/archive/v2.0.3.tar.gz -> amphp-process-2.0.3.tar.gz
+_md5_=005b0cb96cf8129a5d21aee5f0c26482

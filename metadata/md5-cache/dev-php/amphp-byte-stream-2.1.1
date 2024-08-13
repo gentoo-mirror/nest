@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=A non-blocking stream abstraction for PHP based on Amp
+EAPI=8
+HOMEPAGE=https://github.com/amphp/byte-stream
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-parser dev-php/amphp-pipeline dev-php/amphp-serialization dev-php/amphp-sync dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/byte-stream/archive/v2.1.1.tar.gz -> amphp-byte-stream-2.1.1.tar.gz
+_md5_=45e7d162e5eecf09bc3619ad5932200a

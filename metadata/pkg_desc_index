@@ -374,6 +374,23 @@ dev-ml/ocaml-vorbis 0.8.0 9999: OCaml bindings to libvorbis
 dev-ml/ocaml-xmlplaylist 0.1.5 9999: OCaml module to parse various RSS playlist formats
 dev-ml/tsdl 0.9.8 9999: Thin bindings to SDL for OCaml
 dev-ml/xmlm 1.4.0 9999: Ocaml XML manipulation module
+dev-php/amphp-amp 3.0.2 9999: A non-blocking concurrency framework for PHP applications
+dev-php/amphp-byte-stream 2.1.1 9999: A non-blocking stream abstraction for PHP based on Amp
+dev-php/amphp-cache 2.0.1 9999: A fiber-aware cache API
+dev-php/amphp-dns 2.2.0 9999: Async DNS resolution for PHP
+dev-php/amphp-file 3.1.0 9999: An abstraction layer and non-blocking file access solution
+dev-php/amphp-hpack 3.2.1 9999: HTTP/2 header compression implementation in PHP
+dev-php/amphp-http 2.1.1 9999: HTTP primitives which can be shared by servers and clients
+dev-php/amphp-http-client 5.1.0 9999: Advanced async HTTP client library for PHP
+dev-php/amphp-parallel 2.2.9 9999: An advanced parallelization library for PHP
+dev-php/amphp-parser 1.1.1 9999: A generator parser to make streaming parsers simple
+dev-php/amphp-phpunit-util 3.0.0 9999: Helper package to ease testing with PHPUnit
+dev-php/amphp-pipeline 1.2.1 9999: Concurrent iterators and pipeline operations
+dev-php/amphp-process 2.0.3 9999: An async process dispatcher
+dev-php/amphp-serialization 1.0.0 9999: Serialization tools for IPC and data storage in PHP
+dev-php/amphp-socket 2.3.1 9999: Non-blocking socket and TLS functionality for PHP
+dev-php/amphp-sync 2.3.0 9999: Non-blocking synchronization primitives for PHP
+dev-php/amphp-windows-registry 1.0.1 9999: Windows Registry Reader
 dev-php/composer 2.7.7 9999: Dependency Manager for PHP
 dev-php/composer-class-map-generator 1.3.4 9999: Utilities to scan PHP code and generate class maps
 dev-php/composer-pcre 3.1.4 9999: PCRE wrapping library that offers type-safe preg_ replacements

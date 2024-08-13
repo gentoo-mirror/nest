@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Helper package to ease testing with PHPUnit
+EAPI=8
+HOMEPAGE=https://github.com/amphp/phpunit-util
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/fedora-autoloader dev-php/phpunit dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/phpunit-util/archive/v3.0.0.tar.gz -> amphp-phpunit-util-3.0.0.tar.gz
+_md5_=9536c730cae4baad70f9873f3c12cf2b

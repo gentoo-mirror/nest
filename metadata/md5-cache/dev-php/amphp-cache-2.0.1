@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=A fiber-aware cache API
+EAPI=8
+HOMEPAGE=https://github.com/amphp/cache
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-serialization dev-php/amphp-sync dev-php/fedora-autoloader dev-php/revolt-event-loop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/amphp/cache/archive/v2.0.1.tar.gz -> amphp-cache-2.0.1.tar.gz
+_md5_=7c6a72f9fd32b86decf4af482e211cf2

@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Helper package to ease testing with PHPUnit
+EAPI=8
+HOMEPAGE=https://github.com/amphp/phpunit-util
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/fedora-autoloader dev-php/phpunit dev-php/revolt-event-loop
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=b9ce776c7ab10610f383d05d768c77f0
