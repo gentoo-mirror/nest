@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 776](https://img.shields.io/badge/ebuild-776-orange.svg)](https://img.shields.io/badge/ebuild-776-orange.svg)
+[![Number of ebuilds: 793](https://img.shields.io/badge/ebuild-793-orange.svg)](https://img.shields.io/badge/ebuild-793-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -350,6 +350,23 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-ml/[ocaml-xmlplaylist](https://github.com/savonet/ocaml-xmlplaylist) | OCaml module to parse various RSS playlist formats
 *   dev-ml/[tsdl](https://github.com/dbuenzli/tsdl) | Thin bindings to SDL for OCaml
 *   dev-ml/[xmlm](https://github.com/dbuenzli/xmlm) | Ocaml XML manipulation module
+*   dev-php/[amphp-amp](https://github.com/amphp/amp) | A non-blocking concurrency framework for PHP applications
+*   dev-php/[amphp-byte-stream](https://github.com/amphp/byte-stream) | A non-blocking stream abstraction for PHP based on Amp
+*   dev-php/[amphp-cache](https://github.com/amphp/cache) | A fiber-aware cache API
+*   dev-php/[amphp-dns](https://github.com/amphp/dns) | Async DNS resolution for PHP
+*   dev-php/[amphp-file](https://github.com/amphp/file) | An abstraction layer and non-blocking file access solution
+*   dev-php/[amphp-hpack](https://github.com/amphp/hpack) | HTTP/2 header compression implementation in PHP
+*   dev-php/[amphp-http](https://github.com/amphp/http) | HTTP primitives which can be shared by servers and clients
+*   dev-php/[amphp-http-client](https://github.com/amphp/http-client) | Advanced async HTTP client library for PHP
+*   dev-php/[amphp-parallel](https://github.com/amphp/parallel) | An advanced parallelization library for PHP
+*   dev-php/[amphp-parser](https://github.com/amphp/parser) | A generator parser to make streaming parsers simple
+*   dev-php/[amphp-phpunit-util](https://github.com/amphp/phpunit-util) | Helper package to ease testing with PHPUnit
+*   dev-php/[amphp-pipeline](https://github.com/amphp/pipeline) | Concurrent iterators and pipeline operations
+*   dev-php/[amphp-process](https://github.com/amphp/process) | An async process dispatcher
+*   dev-php/[amphp-serialization](https://github.com/amphp/serialization) | Serialization tools for IPC and data storage in PHP
+*   dev-php/[amphp-socket](https://github.com/amphp/socket) | Non-blocking socket and TLS functionality for PHP
+*   dev-php/[amphp-sync](https://github.com/amphp/sync) | Non-blocking synchronization primitives for PHP
+*   dev-php/[amphp-windows-registry](https://github.com/amphp/windows-registry) | Windows Registry Reader
 *   dev-php/[composer](https://github.com/composer/composer) | Dependency Manager for PHP
 *   dev-php/[composer-class-map-generator](https://github.com/composer/class-map-generator) | Utilities to scan PHP code and generate class maps
 *   dev-php/[composer-pcre](https://github.com/composer/pcre) | PCRE wrapping library that offers type-safe preg_ replacements
