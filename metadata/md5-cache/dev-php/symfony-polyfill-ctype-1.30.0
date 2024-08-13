@@ -1,5 +1,4 @@
-BDEPEND=dev-php/theseer-Autoload
-DEFINED_PHASES=install prepare
+DEFINED_PHASES=install
 DESCRIPTION=Symfony polyfill for ctype functions
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-ctype
@@ -9,4 +8,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/symfony/polyfill-ctype/archive/v1.30.0.tar.gz -> symfony-polyfill-ctype-1.30.0.tar.gz
-_md5_=e4c9381046db1a260d486b164f677053
+_md5_=275680fdadbab84da7673049552e794c

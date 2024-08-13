@@ -1,5 +1,4 @@
-BDEPEND=dev-php/theseer-Autoload
-DEFINED_PHASES=install prepare
+DEFINED_PHASES=install
 DESCRIPTION=Backport of some PHP 8.0+ features to lower PHP versions
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-php80
@@ -9,4 +8,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/symfony/polyfill-php80/archive/v1.30.0.tar.gz -> symfony-polyfill-php80-1.30.0.tar.gz
-_md5_=3cbdb792ceb25d3b89a56823fcca19b3
+_md5_=867ed500951b237bd18d670d49af01a6

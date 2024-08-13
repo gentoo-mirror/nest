@@ -1,10 +1,14 @@
-BDEPEND=dev-php/theseer-Autoload
-DEFINED_PHASES=install prepare
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/psr-log dev-php/symfony-dependency-injection dev-php/symfony-event-dispatcher dev-php/symfony-lock dev-php/symfony-phpunit-bridge dev-php/symfony-process dev-php/symfony-var-dumper ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Eases the creation of beautiful and testable command line interfaces
 EAPI=8
 HOMEPAGE=https://github.com/symfony/console
+INHERIT=git-r3
+IUSE=test
 LICENSE=MIT
+PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring dev-php/symfony-service-contracts dev-php/symfony-string
-RESTRICT=test
+RESTRICT=!test? ( test )
 SLOT=0
-_md5_=95f603978668fb238feeb9f223db4001
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=2e12ea313f0c0ca6fe48a11d58d12996

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-filesystem )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Utilities to scan PHP code and generate class maps
+EAPI=8
+HOMEPAGE=https://github.com/composer/class-map-generator
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/composer-pcre dev-php/fedora-autoloader dev-php/symfony-finder
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/composer/class-map-generator/archive/1.3.4.tar.gz -> composer-class-map-generator-1.3.4.tar.gz
+_md5_=1bc78a3bd0d5c348ed36f8785a7c77b6

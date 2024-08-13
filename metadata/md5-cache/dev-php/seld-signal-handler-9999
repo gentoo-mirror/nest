@@ -1,8 +1,8 @@
 BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
-DESCRIPTION=Executes commands in sub-processes
+DESCRIPTION=Simple unix signal handler
 EAPI=8
-HOMEPAGE=https://github.com/symfony/process
+HOMEPAGE=https://github.com/Seldaek/signal-handler
 INHERIT=git-r3
 IUSE=pcntl test
 LICENSE=MIT
@@ -12,4 +12,4 @@ REQUIRED_USE=test? ( pcntl )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=e05d40af509010732aaabfad66932b87
+_md5_=36cbfc18e3ac1ae698296415abba0788

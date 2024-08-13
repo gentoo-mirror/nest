@@ -1,5 +1,4 @@
-BDEPEND=dev-php/theseer-Autoload
-DEFINED_PHASES=install prepare
+DEFINED_PHASES=install
 DESCRIPTION=Symfony polyfill for intl's grapheme_ functions
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-intl-grapheme
@@ -9,4 +8,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/symfony/polyfill-intl-grapheme/archive/v1.30.0.tar.gz -> symfony-polyfill-intl-grapheme-1.30.0.tar.gz
-_md5_=2160b4360ecd8e07ba527bfebf8e1917
+_md5_=21290b0b227ccba3302dcd5a3d64f7fc

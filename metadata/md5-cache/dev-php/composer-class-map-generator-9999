@@ -1,14 +1,14 @@
 BDEPEND=test? ( dev-php/phpunit dev-php/symfony-filesystem ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
-DESCRIPTION=Symfony Finder Component
+DESCRIPTION=Utilities to scan PHP code and generate class maps
 EAPI=8
-HOMEPAGE=https://github.com/symfony/finder
+HOMEPAGE=https://github.com/composer/class-map-generator
 INHERIT=git-r3
 IUSE=test
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RDEPEND=dev-lang/php:* dev-php/composer-pcre dev-php/fedora-autoloader dev-php/symfony-finder
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=fe983b093b1ace453c6ad0d927b2a127
+_md5_=1b7f435f1f2498c15d7c65c3987229aa

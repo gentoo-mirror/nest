@@ -1,5 +1,5 @@
-BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install prepare unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
 DESCRIPTION=Common Container Interface (PHP FIG PSR-11)
 EAPI=8
 HOMEPAGE=https://github.com/php-fig/container
@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4ecf7a70016876cd6f7310531c65cb38
+_md5_=b5d36a6ac3a5c842eeae0aecbbb23825

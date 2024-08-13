@@ -1,5 +1,5 @@
-BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install prepare unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
 DESCRIPTION=Symfony polyfill for the Mbstring extension
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-mbstring
@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=be49bf50b1c30f73fbbb4b1f3205c271
+_md5_=d1cc6e1248d03a1811e72aa62510e648

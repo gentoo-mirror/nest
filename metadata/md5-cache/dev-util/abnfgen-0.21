@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=ABNF-grammar based test case generator
+EAPI=8
+HOMEPAGE=https://www.quut.com/abnfgen/
+KEYWORDS=~amd64 ~x86
+LICENSE=buddy
+SLOT=0
+SRC_URI=https://www.quut.com/abnfgen/abnfgen-0.21.tar.gz
+_md5_=9c5c4b9c630972e75f48035fa0e0a5a3
