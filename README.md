@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 854](https://img.shields.io/badge/ebuild-854-orange.svg)](https://img.shields.io/badge/ebuild-854-orange.svg)
+[![Number of ebuilds: 879](https://img.shields.io/badge/ebuild-879-orange.svg)](https://img.shields.io/badge/ebuild-879-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -432,8 +432,33 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[phpunit](https://github.com/sebastianbergmann/phpunit) | The PHP Unit Testing framework
 *   dev-php/[phpunit-php-code-coverage](https://github.com/sebastianbergmann/php-code-coverage) | Library for PHP code coverage information
 *   dev-php/[phpunit-php-file-iterator](https://github.com/sebastianbergmann/php-file-iterator) | FilterIterator implementation that filters files
+*   dev-php/[phpunit-php-invoker](https://github.com/sebastianbergmann/php-invoker) | Library to invoke PHP callables with a timeout
+*   dev-php/[phpunit-php-text-template](https://github.com/sebastianbergmann/php-text-template) | A simple template engine
+*   dev-php/[phpunit-php-timer](https://github.com/sebastianbergmann/php-timer) | Utility class for timing
+*   dev-php/[phpunit-phpcov](https://github.com/sebastianbergmann/phpcov) | TextUI frontend for php-code-coverage
+*   dev-php/[predis](https://github.com/predis/predis) | Flexible and feature-complete Redis client for PHP
+*   dev-php/[psr-cache](https://github.com/php-fig/cache) | Common Cache Interface (PHP FIG PSR-6)
+*   dev-php/[psr-clock](https://github.com/php-fig/container) | Clock Interface (PHP FIG PSR-20)
 *   dev-php/[psr-container](https://github.com/php-fig/container) | Common Container Interface (PHP FIG PSR-11)
+*   dev-php/[psr-event-dispatcher](https://github.com/php-fig/event-dispatcher) | Event Dispatcher Interface (PHP FIG PSR-14)
+*   dev-php/[psr-http-client](https://github.com/php-fig/http-client) | Common interfaces for HTTP Client
+*   dev-php/[psr-http-factory](https://github.com/php-fig/http-factory) | Implementation of PSR-17 (HTTP Message Factories)
+*   dev-php/[psr-http-message](https://github.com/php-fig/http-message) | Common interfaces for HTTP messages
+*   dev-php/[psr-simple-cache](https://github.com/php-fig/simple-cache) | PHP FIG Simple Cache PSR
+*   dev-php/[ralouphie-getallheaders](https://github.com/ralouphie/getallheaders) | PHP getallheaders polyfill
+*   dev-php/[revolt-event-loop](https://github.com/revoltphp/event-loop) | Event loop for concurrent PHP applications
 *   dev-php/[scrypt]() | A PHP wrapper fo the scrypt hashing algorithm
+*   dev-php/[sebastian-cli-parser](https://github.com/sebastianbergmann/cli-parser) | Library for parsing CLI options
+*   dev-php/[sebastian-code-unit](https://github.com/sebastianbergmann/code-unit) | Collection of PHP code units
+*   dev-php/[sebastian-code-unit-reverse-lookup](https://github.com/sebastianbergmann/code-unit-reverse-lookup) | Looks up which function or method a line of code belongs to
+*   dev-php/[sebastian-comparator](https://github.com/sebastianbergmann/comparator) | Compare PHP values for equality
+*   dev-php/[sebastian-exporter](https://github.com/sebastianbergmann/exporter) | Export PHP variables for visualization
+*   dev-php/[sebastian-global-state](https://github.com/sebastianbergmann/global-state) | Snapshotting of global state
+*   dev-php/[sebastian-object-enumerator](https://github.com/sebastianbergmann/object-enumerator) | Traverses array structures and object graphs
+*   dev-php/[sebastian-object-reflector](https://github.com/sebastianbergmann/object-reflector) | Allows reflection of object attributes
+*   dev-php/[sebastian-recursion-context](https://github.com/sebastianbergmann/recursion-context) | Recursively process PHP variables
+*   dev-php/[sebastian-type](https://github.com/sebastianbergmann/type) | Library that helps with managing the version number
+*   dev-php/[sebastian-version](https://github.com/sebastianbergmann/version) | Library that helps with managing the version number
 *   dev-php/[seld-signal-handler](https://github.com/Seldaek/signal-handler) | Simple unix signal handler
 *   dev-php/[semver](https://github.com/composer/semver) | Semantic versioning utilities, constraint parsing, and checking
 *   dev-php/[signal-handler](https://github.com/Seldaek/signal-handler) | Simple unix signal handler
