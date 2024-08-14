@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Snapshotting of global state
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/global-state
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[xml] dev-php/fedora-autoloader dev-php/sebastian-object-reflector dev-php/sebastian-recursion-context
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=a2d6d268eca7f020040aab059aabc492

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Common Cache Interface (PHP FIG PSR-6)
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/cache
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-fig/cache/archive/3.0.0.tar.gz -> psr-cache-3.0.0.tar.gz
+_md5_=924c18802c89ad716aadde554e3d585e

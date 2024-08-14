@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Common interfaces for HTTP messages
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/http-message
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_md5_=4b1179e98757c6a6680a0440ef31f8c8

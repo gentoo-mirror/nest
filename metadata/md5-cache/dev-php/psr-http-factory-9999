@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Implementation of PSR-17 (HTTP Message Factories)
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/http-factory
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-message
+RESTRICT=test
+SLOT=0
+_md5_=806aa18e23fd98b8929013d10fdddc92

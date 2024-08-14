@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Clock Interface (PHP FIG PSR-20)
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/clock
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-fig/clock/archive/1.0.0.tar.gz -> psr-clock-1.0.0.tar.gz
+_md5_=f4b7adfe1e6b4494a5d4c54213e42a66

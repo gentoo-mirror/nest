@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Collection of PHP code units
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/code-unit
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/code-unit/archive/2.0.0.tar.gz -> sebastian-code-unit-2.0.0.tar.gz
+_md5_=dac399e0829952ed6786a03cbad90ec3

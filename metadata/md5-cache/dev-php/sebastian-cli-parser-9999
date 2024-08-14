@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Library for parsing CLI options
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/cli-parser
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=fa49677443771cf736334bb8ce22d32b

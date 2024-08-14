@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Recursively process PHP variables
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/recursion-context
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/recursion-context/archive/5.0.0.tar.gz -> sebastian-recursion-context-5.0.0.tar.gz
+_md5_=9baeb538898d3eb47f0720745717aa5c

@@ -1,0 +1,12 @@
+BDEPEND=dev-php/theseer-Autoload
+DEFINED_PHASES=install
+DESCRIPTION=PHP FIG Simple Cache PSR
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/simple-cache
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-fig/simple-cache/archive/3.0.0.tar.gz -> psr-simple-cache-3.0.0.tar.gz
+_md5_=aa5908b20ae7e20fe91d27c8253b8a2c

@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Common interfaces for HTTP Client
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/http-client
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-message
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=154553555fb8b71f3b7234fb03b90fd7

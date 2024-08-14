@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Allows reflection of object attributes
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/object-reflector
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/object-reflector/archive/3.0.0.tar.gz -> sebastian-object-reflector-3.0.0.tar.gz
+_md5_=5cfc2cb7bc599c1fd82dd0a1ce93007f

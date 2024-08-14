@@ -1,0 +1,15 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Library to invoke PHP callables with a timeout
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/php-invoker
+IUSE=pcntl test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pcntl?] dev-php/fedora-autoloader
+REQUIRED_USE=test? ( pcntl )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/php-invoker/archive/4.0.0.tar.gz -> phpunit-php-invoker-4.0.0.tar.gz
+_md5_=2d34c1bdcfe0564a41546ae331b71706

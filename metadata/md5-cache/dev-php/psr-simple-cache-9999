@@ -1,0 +1,13 @@
+BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=PHP FIG Simple Cache PSR
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/simple-cache
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=cd4f76e36de93158760302a13e091520

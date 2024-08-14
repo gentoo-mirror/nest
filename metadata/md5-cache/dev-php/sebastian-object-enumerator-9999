@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Traverses array structures and object graphs
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/object-enumerator
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/sebastian-object-reflector dev-php/sebastian-recursion-context
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=8b4c6da9b6a0749f4b8fd7e4513cdbc9

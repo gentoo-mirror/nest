@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Export PHP variables for visualization
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/exporter
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[unicode] dev-php/fedora-autoloader dev-php/sebastian-recursion-context
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=c3493abb30fbef25c5d23126c04b31b5

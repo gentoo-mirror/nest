@@ -1,0 +1,14 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Traverses array structures and object graphs
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/object-enumerator
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/sebastian-object-reflector dev-php/sebastian-recursion-context
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/object-enumerator/archive/5.0.0.tar.gz -> sebastian-object-enumerator-5.0.0.tar.gz
+_md5_=5b549437d79b32e22678b2d8927a6a27

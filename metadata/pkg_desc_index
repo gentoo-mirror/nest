@@ -456,8 +456,33 @@ dev-php/phpstan-phpdoc-parser 1.29.1 9999: PHPDoc Parser for PHPStan
 dev-php/phpunit 10.5.27 9999: The PHP Unit Testing framework
 dev-php/phpunit-php-code-coverage 10.1.15 9999: Library for PHP code coverage information
 dev-php/phpunit-php-file-iterator 4.1.0 9999: FilterIterator implementation that filters files
+dev-php/phpunit-php-invoker 4.0.0 9999: Library to invoke PHP callables with a timeout
+dev-php/phpunit-php-text-template 3.0.1 9999: A simple template engine
+dev-php/phpunit-php-timer 6.0.0 9999: Utility class for timing
+dev-php/phpunit-phpcov 10.0.0 9999: TextUI frontend for php-code-coverage
+dev-php/predis 2.2.2 9999: Flexible and feature-complete Redis client for PHP
+dev-php/psr-cache 3.0.0 9999: Common Cache Interface (PHP FIG PSR-6)
+dev-php/psr-clock 1.0.0 9999: Clock Interface (PHP FIG PSR-20)
 dev-php/psr-container 2.0.2 9999: Common Container Interface (PHP FIG PSR-11)
+dev-php/psr-event-dispatcher 1.0.0 9999: Event Dispatcher Interface (PHP FIG PSR-14)
+dev-php/psr-http-client 1.0.3 9999: Common interfaces for HTTP Client
+dev-php/psr-http-factory 1.1.0 9999: Implementation of PSR-17 (HTTP Message Factories)
+dev-php/psr-http-message 2.0 9999: Common interfaces for HTTP messages
+dev-php/psr-simple-cache 3.0.0 9999: PHP FIG Simple Cache PSR
+dev-php/ralouphie-getallheaders 3.0.3 9999: PHP getallheaders polyfill
+dev-php/revolt-event-loop 1.0.6 9999: Event loop for concurrent PHP applications
 dev-php/scrypt 2.0.1 9999: A PHP wrapper fo the scrypt hashing algorithm
+dev-php/sebastian-cli-parser 2.0.1 9999: Library for parsing CLI options
+dev-php/sebastian-code-unit 2.0.0 9999: Collection of PHP code units
+dev-php/sebastian-code-unit-reverse-lookup 3.0.0 9999: Looks up which function or method a line of code belongs to
+dev-php/sebastian-comparator 5.0.1 9999: Compare PHP values for equality
+dev-php/sebastian-exporter 5.1.2 9999: Export PHP variables for visualization
+dev-php/sebastian-global-state 6.0.2 9999: Snapshotting of global state
+dev-php/sebastian-object-enumerator 5.0.0 9999: Traverses array structures and object graphs
+dev-php/sebastian-object-reflector 3.0.0 9999: Allows reflection of object attributes
+dev-php/sebastian-recursion-context 5.0.0 9999: Recursively process PHP variables
+dev-php/sebastian-type 4.0.0 9999: Library that helps with managing the version number
+dev-php/sebastian-version 4.0.1 9999: Library that helps with managing the version number
 dev-php/seld-signal-handler 2.0.2 9999: Simple unix signal handler
 dev-php/spx 0.4.12 9999: A PHP wrapper fo the scrypt hashing algorithm
 dev-php/symfony-console 6.4.9 9999: Eases the creation of beautiful and testable command line interfaces

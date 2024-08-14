@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Event Dispatcher Interface (PHP FIG PSR-14)
+EAPI=8
+HOMEPAGE=https://github.com/php-fig/event-dispatcher
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/php-fig/event-dispatcher/archive/1.0.0.tar.gz -> psr-event-dispatcher-1.0.0.tar.gz
+_md5_=2016b9234717390abde26bb9cbe79e15
