@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=PHP Autoload Builder
+EAPI=8
+HOMEPAGE=https://github.com/theseer/Autoload
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[cli,fileinfo(-),ssl,tokenizer(-)] dev-php/theseer-DirectoryScanner dev-php/zetacomponents-Base dev-php/zetacomponents-ConsoleTools
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=51cd8021fa4a4c73c98f5b17446f8f41

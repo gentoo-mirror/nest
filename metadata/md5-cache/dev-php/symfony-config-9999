@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-event-dispatcher >=dev-php/symfony-finder-6.4.8 dev-php/symfony-messenger dev-php/symfony-service-contracts dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony Config Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/config
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts >=dev-php/symfony-filesystem-6.4.9 dev-php/symfony-polyfill-ctype
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=4e2de8cbc171f6e9214d3f895c209d4e

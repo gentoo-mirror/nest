@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-db/redis dev-php/composer dev-php/phpunit dev-php/symfony-console dev-php/symfony-http-kernel >=dev-php/symfony-process-6.4.8 dev-php/symfony-uid >=dev-php/twig-3.10.3 )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Mechanisms for walking through any arbitrary PHP variable
+EAPI=8
+HOMEPAGE=https://github.com/symfony/var-dumper
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[iconv] dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/var-dumper/archive/v6.4.9.tar.gz -> symfony-var-dumper-6.4.9.tar.gz
+_md5_=4f6fe6d75dac8a8ad7f906b4742f5a90

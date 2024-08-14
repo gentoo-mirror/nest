@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Webmozart Assert
+EAPI=8
+HOMEPAGE=https://github.com/webmozarts/assert
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[ctype] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/webmozarts/assert/archive/1.11.0.tar.gz -> webmozart-assert-1.11.0.tar.gz
+_md5_=0513cd25b94bf80b1cc9cdbba65eb490

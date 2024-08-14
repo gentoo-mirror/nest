@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-dependency-injection dev-php/symfony-error-handler dev-php/symfony-service-contracts dev-php/symfony-stopwatch ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony EventDispatcher Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/event-dispatcher
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-event-dispatcher-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=d6b9b0d156a6a551b29965bd8358db54

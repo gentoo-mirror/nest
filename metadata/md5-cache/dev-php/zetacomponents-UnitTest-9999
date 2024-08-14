@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Unit tests for any Zeta component
+EAPI=8
+HOMEPAGE=https://github.com/zetacomponents/UnitTest
+INHERIT=git-r3
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=dev-lang/php:*
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=caf9be4261e900428b8de807602d45a3

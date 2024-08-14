@@ -1,0 +1,11 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-expression-language dev-php/symfony-http-client-contracts dev-php/symfony-phpunit-bridge dev-php/symfony-rate-limiter dev-php/symfony-routing dev-php/symfony-security-csrf dev-php/symfony-translation )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony Security HTTP Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/security-http
+IUSE=test
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-http-foundation dev-php/symfony-http-kernel dev-php/symfony-polyfill-mbstring dev-php/symfony-property-access dev-php/symfony-security-core dev-php/symfony-service-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_md5_=73757fb5e4ec009db72dbbcf41e76a4e

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/psr-cache dev-php/symfony-lock dev-php/symfony-phpunit-bridge ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony Rate Limiter Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/rate-limiter
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-options-resolver
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=667e02a93072e6de3a56bf306b247b41

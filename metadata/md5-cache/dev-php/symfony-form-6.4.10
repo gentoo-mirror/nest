@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/doctrine-collections dev-php/phpunit dev-php/symfony-console dev-php/symfony-dependency-injection dev-php/symfony-expression-language dev-php/symfony-html-sanitizer dev-php/symfony-http-foundation dev-php/symfony-http-kernel dev-php/symfony-intl dev-php/symfony-phpunit-bridge dev-php/symfony-security-csrf dev-php/symfony-translation dev-php/symfony-validator dev-php/symfony-var-dumper dev-php/symfony-uid )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony Form Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/form
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-event-dispatcher dev-php/symfony-options-resolver dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-intl-icu dev-php/symfony-polyfill-mbstring dev-php/symfony-property-access dev-php/symfony-service-contracts
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/form/archive/v6.4.10.tar.gz -> symfony-form-6.4.10.tar.gz
+_md5_=074d7394530028934263f3b3a8ad64d5

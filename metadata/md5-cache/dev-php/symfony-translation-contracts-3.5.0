@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Symfony Translation Contracts
+EAPI=8
+HOMEPAGE=https://github.com/symfony/translation-contracts
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/translation-contracts/archive/v3.5.0.tar.gz -> symfony-translation-contracts-3.5.0.tar.gz
+_md5_=7bee393b60dec853ba55cd1a38586c97

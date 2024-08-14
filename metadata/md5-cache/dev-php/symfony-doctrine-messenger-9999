@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/doctrine-persistence dev-php/phpunit dev-php/symfony-property-access dev-php/symfony-serializer ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony Doctrine Messenger
+EAPI=8
+HOMEPAGE=https://github.com/symfony/doctrine-messenger
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/doctrine-dbal dev-php/fedora-autoloader dev-php/symfony-messenger dev-php/symfony-service-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=b7314463a39fd97498f6ffa3a77f44ce

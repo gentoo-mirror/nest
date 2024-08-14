@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-expression-language dev-php/symfony-mime dev-php/symfony-phpunit-bridge >=dev-php/symfony-process-6.4.8 dev-php/symfony-rate-limiter net-misc/curl ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Defines an object-oriented layer for the HTTP specification
+EAPI=8
+HOMEPAGE=https://github.com/symfony/http-foundation
+INHERIT=git-r3
+IUSE=ipv6 test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring dev-php/symfony-polyfill-php83
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=e79c5a5ba97f8e0b79a784a46f012f43

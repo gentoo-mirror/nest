@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony HtmlSanitizer Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/html-sanitizer
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[xml] dev-php/fedora-autoloader dev-php/league-uri dev-php/masterminds-html5
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=ba380f7880cc89102f2e9abc57305a57

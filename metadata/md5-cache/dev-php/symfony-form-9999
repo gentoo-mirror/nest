@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/doctrine-collections dev-php/phpunit dev-php/symfony-console dev-php/symfony-dependency-injection dev-php/symfony-expression-language dev-php/symfony-html-sanitizer dev-php/symfony-http-foundation dev-php/symfony-http-kernel dev-php/symfony-intl dev-php/symfony-phpunit-bridge dev-php/symfony-security-csrf dev-php/symfony-translation dev-php/symfony-validator dev-php/symfony-var-dumper dev-php/symfony-uid ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony Form Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/form
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-event-dispatcher dev-php/symfony-options-resolver dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-intl-icu dev-php/symfony-polyfill-mbstring dev-php/symfony-property-access dev-php/symfony-service-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=b1db338140e1a07af2eb69bd3c7edb19

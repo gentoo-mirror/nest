@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-css-selector ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony DomCrawler Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/dom-crawler
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/masterminds-html5 dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-mbstring
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=bc5036b5dd684e2cd497558e012a4b2f

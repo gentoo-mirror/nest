@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Symfony HttpClient Contracts
+EAPI=8
+HOMEPAGE=https://github.com/symfony/http-client-contracts
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/http-client-contracts/archive/v3.5.0.tar.gz -> symfony-http-client-contracts-3.5.0.tar.gz
+_md5_=f6e62806df5c6671ee2cad1da5678bcd

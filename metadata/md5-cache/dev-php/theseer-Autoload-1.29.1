@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=PHP Autoload Builder
+EAPI=8
+HOMEPAGE=https://github.com/theseer/Autoload
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/php:*[cli,fileinfo(-),ssl,tokenizer(-)] dev-php/theseer-DirectoryScanner dev-php/zetacomponents-Base dev-php/zetacomponents-ConsoleTools
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/theseer/Autoload/archive/1.29.1.tar.gz -> theseer-Autoload-1.29.1.tar.gz
+_md5_=bed359e70a8f949773cf68e30b9fd32d

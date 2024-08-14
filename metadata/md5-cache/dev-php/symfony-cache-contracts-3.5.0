@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Symfony Cache Contracts
+EAPI=8
+HOMEPAGE=https://github.com/symfony/cache-contracts
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-cache
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/cache-contracts/archive/v3.5.0.tar.gz -> symfony-cache-contracts-3.5.0.tar.gz
+_md5_=b1ced9f3d1f59b9a6c3fc73b68fc6bbb

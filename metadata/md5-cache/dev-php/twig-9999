@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/psr-container dev-php/symfony-phpunit-bridge ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=PHP templating engine with syntax similar to Django
+EAPI=8
+HOMEPAGE=https://github.com/twigphp/Twig
+INHERIT=git-r3
+IUSE=test
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-mbstring dev-php/symfony-polyfill-php80
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=9a3cf0a836a7c9c632c20eecb14b782c

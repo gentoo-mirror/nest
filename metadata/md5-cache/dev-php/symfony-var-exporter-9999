@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-property-access dev-php/symfony-serializer dev-php/symfony-var-dumper ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony VarExporter Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/var-exporter
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=e546ae38ef62d2a86b0d2340612a6940

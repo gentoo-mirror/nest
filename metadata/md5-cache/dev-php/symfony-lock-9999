@@ -1,0 +1,11 @@
+BDEPEND=test? ( dev-php/doctrine-dbal dev-php/mongodb dev-php/phpunit dev-php/predis )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony Lock Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/lock
+IUSE=test
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-log dev-php/symfony-deprecation-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_md5_=afe7f981448b9a9fdf2986ff70098195

@@ -485,19 +485,72 @@ dev-php/sebastian-type 4.0.0 9999: Library that helps with managing the version 
 dev-php/sebastian-version 4.0.1 9999: Library that helps with managing the version number
 dev-php/seld-signal-handler 2.0.2 9999: Simple unix signal handler
 dev-php/spx 0.4.12 9999: A PHP wrapper fo the scrypt hashing algorithm
+dev-php/symfony-amqp-messenger 6.4.8 9999: Symfony AMQP Messenger
+dev-php/symfony-browser-kit 6.4.8 9999: Symfony BrowserKit Component
+dev-php/symfony-cache 6.4.8 9999: Symfony PSR-6 implementation for caching
+dev-php/symfony-cache-contracts 3.5.0 9999: Symfony Cache Contracts
+dev-php/symfony-clock 6.4.8 9999: Symfony Clock Component
+dev-php/symfony-config 6.4.8 9999: Symfony Config Component
 dev-php/symfony-console 6.4.9 9999: Eases the creation of beautiful and testable command line interfaces
+dev-php/symfony-css-selector 6.4.8 9999: Symfony CssSelector Component
+dev-php/symfony-dependency-injection 6.4.9 9999: Symfony DependencyInjection Component
 dev-php/symfony-deprecation-contracts 3.5.0 9999: A generic function and convention to trigger deprecation notices
+dev-php/symfony-doctrine-bridge 6.4.9 9999: Symfony Doctrine Bridge
+dev-php/symfony-doctrine-messenger 6.4.9 9999: Symfony Doctrine Messenger
+dev-php/symfony-dom-crawler 6.4.8 9999: Symfony DomCrawler Component
+dev-php/symfony-error-handler 6.4.9 9999: Tools to manage errors and ease debugging PHP code
+dev-php/symfony-event-dispatcher 6.4.8 9999: Symfony EventDispatcher Component
+dev-php/symfony-event-dispatcher-contracts 3.5.0 9999: A set of event dispatcher abstractions
+dev-php/symfony-expression-language 6.4.8 9999: Symfony ExpressionLanguage Component
 dev-php/symfony-filesystem 6.4.9 9999: Provides basic utilities for the filesystem
 dev-php/symfony-finder 6.4.8 9999: Symfony Finder Component
+dev-php/symfony-form 6.4.10 9999: Symfony Form Component
+dev-php/symfony-html-sanitizer 6.4.8 9999: Symfony HtmlSanitizer Component
+dev-php/symfony-http-client 6.4.9 9999: Symfony HttpClient Component
+dev-php/symfony-http-client-contracts 3.5.0 9999: Symfony HttpClient Contracts
+dev-php/symfony-http-foundation 6.4.8 9999: Defines an object-oriented layer for the HTTP specification
+dev-php/symfony-http-kernel 6.4.9 9999: Structured process for converting a Request into a Response
+dev-php/symfony-intl 6.4.8 9999: Symfony Intl Component
+dev-php/symfony-ldap 6.4.8 9999: Symfony Ldap Component
+dev-php/symfony-lock 6.4.8 9999: Symfony Lock Component
+dev-php/symfony-messenger 6.4.9 9999: Symfony Messenger Component
+dev-php/symfony-mime 6.4.9 9999: Symfony MIME Component
+dev-php/symfony-options-resolver 6.4.8 9999: Symfony OptionsResolver Component
+dev-php/symfony-password-hasher 6.4.8 9999: Symfony PasswordHasher Component
+dev-php/symfony-phpunit-bridge 6.4.9 9999: Symfony PHPUnit Bridge
 dev-php/symfony-polyfill-ctype 1.30.0 9999: Symfony polyfill for ctype functions
 dev-php/symfony-polyfill-intl-grapheme 1.30.0 9999: Symfony polyfill for intl's grapheme_ functions
+dev-php/symfony-polyfill-intl-icu 1.30.0 9999: Symfony polyfill for intl's ICU-related data and classes
+dev-php/symfony-polyfill-intl-idn 1.30.0 9999: Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions
 dev-php/symfony-polyfill-intl-normalizer 1.30.0 9999: Symfony polyfill for intl's Normalizer class
 dev-php/symfony-polyfill-mbstring 1.30.0 9999: Symfony polyfill for the Mbstring extension
 dev-php/symfony-polyfill-php80 1.30.0 9999: Backport of some PHP 8.0+ features to lower PHP versions
 dev-php/symfony-polyfill-php81 1.30.0 9999: Backport of some PHP 8.1+ features to lower PHP versions
+dev-php/symfony-polyfill-php83 1.30.0 9999: Backport of some PHP 8.1+ features to lower PHP versions
 dev-php/symfony-process 6.4.8 9999: Executes commands in sub-processes
+dev-php/symfony-property-access 6.4.8 9999: Symfony PropertyAccess Component
+dev-php/symfony-property-info 6.4.9 9999: Symfony PropertyInfo Component
+dev-php/symfony-proxy-manager-bridge 6.4.8 9999: Symfony ProxyManager Bridge
+dev-php/symfony-rate-limiter 6.4.8 9999: Symfony Rate Limiter Component
+dev-php/symfony-routing 6.4.8 9999: Symfony Routing Component
+dev-php/symfony-security-core 6.4.10 9999: Symfony Security Core Component
+dev-php/symfony-security-csrf 6.4.8 9999: Symfony Security CSRF Component
+dev-php/symfony-security-http 6.4.9 9999: Symfony Security HTTP Component
+dev-php/symfony-serializer 6.4.9 9999: Symfony Serializer Component
 dev-php/symfony-service-contracts 3.5.0 9999: A set of service abstractions
+dev-php/symfony-stopwatch 6.4.8 9999: Symfony Stopwatch Component
 dev-php/symfony-string 6.4.9 9999: An object-oriented API to strings
+dev-php/symfony-translation 6.4.10 9999: Symfony Translation Component
+dev-php/symfony-translation-contracts 3.5.0 9999: Symfony Translation Contracts
+dev-php/symfony-uid 6.4.8 9999: Object-oriented API to generate and represent UIDs
+dev-php/symfony-validator 6.4.9 9999: Symfony Validator Component
+dev-php/symfony-var-dumper 6.4.9 9999: Mechanisms for walking through any arbitrary PHP variable
+dev-php/symfony-var-exporter 6.4.9 9999: Symfony VarExporter Component
+dev-php/symfony-yaml 6.4.8 9999: Symfony Yaml Component
+dev-php/theseer-Autoload 1.29.1 9999: PHP Autoload Builder
+dev-php/twig 3.10.3 9999: PHP templating engine with syntax similar to Django
+dev-php/webmozart-assert 1.11.0 9999: Webmozart Assert
+dev-php/zetacomponents-UnitTest 1.2.5 9999: Unit tests for any Zeta component
 dev-python/MarkupPy 1.14: An HTML/XML generator
 dev-python/PyMeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-browser-kit dev-php/symfony-clock dev-php/symfony-config dev-php/symfony-console dev-php/symfony-dependency-injection dev-php/symfony-expression-language dev-php/symfony-http-client-contracts dev-php/symfony-phpunit-bridge >=dev-php/symfony-process-6.4.8 dev-php/symfony-property-access dev-php/symfony-routing dev-php/symfony-serializer dev-php/symfony-stopwatch dev-php/symfony-validator dev-php/symfony-uid >=dev-php/twig-3.10.3 ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Structured process for converting a Request into a Response
+EAPI=8
+HOMEPAGE=https://github.com/symfony/http-kernel
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-error-handler dev-php/symfony-event-dispatcher dev-php/symfony-http-foundation dev-php/symfony-polyfill-ctype dev-php/psr-log
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=e87c7b398b2c7084f144e406e0999f32

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/doctrine-data-fixtures dev-php/doctrine-dbal dev-php/doctrine-orm dev-php/phpunit dev-php/symfony-cache dev-php/symfony-config dev-php/symfony-dependency-injection dev-php/symfony-form dev-php/symfony-http-kernel dev-php/symfony-lock dev-php/symfony-messenger dev-php/symfony-phpunit-bridge dev-php/symfony-proxy-manager-bridge dev-php/symfony-security-core dev-php/symfony-stopwatch dev-php/symfony-validator dev-php/symfony-uid ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Symfony Doctrine Bridge
+EAPI=8
+HOMEPAGE=https://github.com/symfony/doctrine-bridge
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:* dev-php/doctrine-event-manager dev-php/doctrine-persistence dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-ctype dev-php/symfony-polyfill-mbstring dev-php/symfony-service-contracts
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=df5f54a0bf1a8cbe0318f1940fdc86ad
