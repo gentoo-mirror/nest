@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 879](https://img.shields.io/badge/ebuild-879-orange.svg)](https://img.shields.io/badge/ebuild-879-orange.svg)
+[![Number of ebuilds: 932](https://img.shields.io/badge/ebuild-932-orange.svg)](https://img.shields.io/badge/ebuild-932-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -463,19 +463,72 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[semver](https://github.com/composer/semver) | Semantic versioning utilities, constraint parsing, and checking
 *   dev-php/[signal-handler](https://github.com/Seldaek/signal-handler) | Simple unix signal handler
 *   dev-php/[spx](https://github.com/NoiseByNorthwest/php-spx) | A PHP wrapper fo the scrypt hashing algorithm
+*   dev-php/[symfony-amqp-messenger](https://github.com/symfony/amqp-messenger) | Symfony AMQP Messenger
+*   dev-php/[symfony-browser-kit](https://github.com/symfony/browser-kit) | Symfony BrowserKit Component
+*   dev-php/[symfony-config](https://github.com/symfony/config) | Symfony Config Component
 *   dev-php/[symfony-console](https://github.com/symfony/console) | Eases the creation of beautiful and testable command line interfaces
+*   dev-php/[symfony-cache](https://github.com/symfony/cache) | Symfony PSR-6 implementation for caching
+*   dev-php/[symfony-cache-contracts](https://github.com/symfony/cache-contracts) | Symfony Cache Contracts
+*   dev-php/[symfony-clock](https://github.com/symfony/clock) | Symfony Clock Component
+*   dev-php/[symfony-css-selector](https://github.com/symfony/css-selector) | Symfony CssSelector Component
+*   dev-php/[symfony-dependency-injection](https://github.com/symfony/dependency-injection) | Symfony DependencyInjection Component
 *   dev-php/[symfony-deprecation-contracts](https://github.com/symfony/deprecation-contracts) | A generic function and convention to trigger deprecation notices
+*   dev-php/[symfony-doctrine-bridge](https://github.com/symfony/doctrine-bridge) | Symfony Doctrine Bridge
+*   dev-php/[symfony-doctrine-messenger](https://github.com/symfony/doctrine-messenger) | Symfony Doctrine Messenger
+*   dev-php/[symfony-dom-crawler](https://github.com/symfony/dom-crawler) | Symfony DomCrawler Component
+*   dev-php/[symfony-error-handler](https://github.com/symfony/error-handler) | Tools to manage errors and ease debugging PHP code
+*   dev-php/[symfony-event-dispatcher](https://github.com/symfony/event-dispatcher) | Symfony EventDispatcher Component
+*   dev-php/[symfony-event-dispatcher-contracts](https://github.com/symfony/event-dispatcher-contracts) | A set of event dispatcher abstractions
+*   dev-php/[symfony-expression-language](https://github.com/symfony/expression-language) | Symfony ExpressionLanguage Component
 *   dev-php/[symfony-filesystem](https://github.com/symfony/filesystem) | Provides basic utilities for the filesystem
 *   dev-php/[symfony-finder](https://github.com/symfony/finder) | Symfony Finder Component
+*   dev-php/[symfony-form](https://github.com/symfony/form) | Symfony Form Component
+*   dev-php/[symfony-html-sanitizer](https://github.com/symfony/html-sanitizer) | Symfony HtmlSanitizer Component
+*   dev-php/[symfony-http-client](https://github.com/symfony/http-client) | Symfony HttpClient Component
+*   dev-php/[symfony-http-client-contracts](https://github.com/symfony/http-client-contracts) | Symfony HttpClient Contracts
+*   dev-php/[symfony-http-foundation](https://github.com/symfony/http-foundation) | Defines an object-oriented layer for the HTTP specification
+*   dev-php/[symfony-http-kernel](https://github.com/symfony/http-kernel) | Structured process for converting a Request into a Response
+*   dev-php/[symfony-intl](https://github.com/symfony/intl) | Symfony Intl Component
+*   dev-php/[symfony-ldap](https://github.com/symfony/ldap) | Symfony Ldap Component
+*   dev-php/[symfony-lock](https://github.com/symfony/lock) | Symfony Lock Component
+*   dev-php/[symfony-messenger](https://github.com/symfony/messenger) | Symfony Messenger Component
+*   dev-php/[symfony-mime](https://github.com/symfony/mime) | Symfony MIME Component
+*   dev-php/[symfony-options-resolver](https://github.com/symfony/options-resolver) | Symfony OptionsResolver Component
+*   dev-php/[symfony-password-hasher](https://github.com/symfony/password-hasher) | Symfony PasswordHasher Component
+*   dev-php/[symfony-phpunit-bridge](https://github.com/symfony/phpunit-bridge) | Symfony PHPUnit Bridge
 *   dev-php/[symfony-polyfill-ctype](https://github.com/symfony/polyfill-ctype) | Symfony polyfill for ctype functions
 *   dev-php/[symfony-polyfill-intl-grapheme](https://github.com/symfony/polyfill-intl-grapheme) | Symfony polyfill for intl's grapheme_ functions
+*   dev-php/[symfony-polyfill-intl-icu](https://github.com/symfony/polyfill-intl-icu) | Symfony polyfill for intl's ICU-related data and classes
+*   dev-php/[symfony-polyfill-intl-idn](https://github.com/symfony/polyfill-intl-idn) | Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions
 *   dev-php/[symfony-polyfill-intl-normalizer](https://github.com/symfony/polyfill-intl-normalizer) | Symfony polyfill for intl's Normalizer class
 *   dev-php/[symfony-polyfill-mbstring](https://github.com/symfony/polyfill-mbstring) | Symfony polyfill for the Mbstring extension
 *   dev-php/[symfony-polyfill-php80](https://github.com/symfony/polyfill-php80) | Backport of some PHP 8.0+ features to lower PHP versions
 *   dev-php/[symfony-polyfill-php81](https://github.com/symfony/polyfill-php81) | Backport of some PHP 8.1+ features to lower PHP versions
+*   dev-php/[symfony-polyfill-php83](https://github.com/symfony/polyfill-php83) | Backport of some PHP 8.1+ features to lower PHP versions
 *   dev-php/[symfony-process](https://github.com/symfony/process) | Executes commands in sub-processes
+*   dev-php/[symfony-property-access](https://github.com/symfony/property-access) | Symfony PropertyAccess Component
+*   dev-php/[symfony-property-info](https://github.com/symfony/property-info) | Symfony PropertyInfo Component
+*   dev-php/[symfony-proxy-manager-bridge](https://github.com/symfony/proxy-manager-bridge) | Symfony ProxyManager Bridge
+*   dev-php/[symfony-rate-limiter](https://github.com/symfony/rate-limiter) | Symfony Rate Limiter Component
+*   dev-php/[symfony-routing](https://github.com/symfony/routing) | Symfony Routing Component
+*   dev-php/[symfony-security-core](https://github.com/symfony/security-core) | Symfony Security Core Component
+*   dev-php/[symfony-security-csrf](https://github.com/symfony/security-csrf) | Symfony Security CSRF Component
+*   dev-php/[symfony-security-http](https://github.com/symfony/security-http) | Symfony Security HTTP Component
+*   dev-php/[symfony-serializer](https://github.com/symfony/serializer) | Symfony Serializer Component
 *   dev-php/[symfony-service-contracts](https://github.com/symfony/service-contracts) | A set of service abstractions
+*   dev-php/[symfony-stopwatch](https://github.com/symfony/stopwatch) | Symfony Stopwatch Component
 *   dev-php/[symfony-string](https://github.com/symfony/string) | An object-oriented API to strings
+*   dev-php/[symfony-translation](https://github.com/symfony/translation) | Symfony Translation Component
+*   dev-php/[symfony-translation-contracts](https://github.com/symfony/translation-contracts) | Symfony Translation Contracts
+*   dev-php/[symfony-uid](https://github.com/symfony/uid) | Object-oriented API to generate and represent UIDs
+*   dev-php/[symfony-validator](https://github.com/symfony/validator) | Symfony Validator Component
+*   dev-php/[symfony-var-dumper](https://github.com/symfony/var-dumper) | Mechanisms for walking through any arbitrary PHP variable
+*   dev-php/[symfony-var-exporter](https://github.com/symfony/var-exporter) | Symfony VarExporter Component
+*   dev-php/[symfony-yaml](https://github.com/symfony/yaml) | Symfony Yaml Component
+*   dev-php/[theseer-Autoload](https://github.com/theseer/Autoload) | PHP Autoload Builder
+*   dev-php/[twig](https://github.com/twigphp/Twig) | PHP templating engine with syntax similar to Django
+*   dev-php/[webmozart-assert](https://github.com/webmozarts/assert) | Webmozart Assert
+*   dev-php/[zetacomponents-UnitTest](https://github.com/zetacomponents/UnitTest) | Unit tests for any Zeta component
 *   dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
 *   dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
 *   dev-python/[ahocorasick](https://github.com/WojciechMula/pyahocorasick) | Python module implementing Aho-Corasick algorithm
