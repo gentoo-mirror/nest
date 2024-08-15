@@ -7,8 +7,8 @@ INHERIT=git-r3
 IUSE=test
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=dev-lang/php:*[xmlwriter,unicode] dev-php/fedora-autoloader dev-php/myclabs-deepcopy dev-php/phar-io-manifest dev-php/phar-io-version dev-php/phpunit-php-code-coverage dev-php/phpunit-php-file-iterator dev-php/phpunit-php-invoker dev-php/phpunit-php-text-template dev-php/phpunit-php-timer dev-php/sebastian-cli-parser dev-php/sebastian-code-unit dev-php/sebastian-comparator dev-php/sebastian-diff dev-php/sebastian-environment dev-php/sebastian-exporter dev-php/sebastian-global-state dev-php/sebastian-object-enumerator dev-php/sebastian-recursion-context dev-php/sebastian-type dev-php/sebastian-version
+RDEPEND=dev-lang/php:*[xmlwriter,unicode] dev-php/fedora-autoloader dev-php/myclabs-deepcopy dev-php/phar-io-manifest dev-php/phar-io-version dev-php/phpunit-php-code-coverage dev-php/phpunit-php-file-iterator dev-php/phpunit-php-invoker dev-php/phpunit-php-text-template dev-php/phpunit-php-timer dev-php/sebastian-cli-parser dev-php/sebastian-code-unit dev-php/sebastian-comparator >=dev-php/sebastian-diff-5.1.1 dev-php/sebastian-environment dev-php/sebastian-exporter dev-php/sebastian-global-state dev-php/sebastian-object-enumerator dev-php/sebastian-recursion-context dev-php/sebastian-type dev-php/sebastian-version
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=34ef691605d142c9fc4f21d40ddc67e1
+_md5_=652c17377e33b8bdda5e7ed05e0b9a5c

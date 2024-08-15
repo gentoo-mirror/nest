@@ -1,14 +1,14 @@
 BDEPEND=dev-php/theseer-Autoload test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
-DESCRIPTION=Compare PHP values for equality
+DESCRIPTION=PHP Diff implementation
 EAPI=8
-HOMEPAGE=https://github.com/sebastianbergmann/comparator
+HOMEPAGE=https://github.com/sebastianbergmann/diff
 INHERIT=git-r3
 IUSE=test
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=dev-lang/php:*[xml,unicode] dev-php/fedora-autoloader >=dev-php/sebastian-diff-5.1.1 dev-php/sebastian-exporter
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit >=dev-php/symfony-process-6.4.8
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=7fac663fac158f72aed158af51a2f7ea
+_md5_=4c9561ede98546870a9a10f310d162e3

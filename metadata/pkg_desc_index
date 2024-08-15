@@ -476,6 +476,7 @@ dev-php/sebastian-cli-parser 2.0.1 9999: Library for parsing CLI options
 dev-php/sebastian-code-unit 2.0.0 9999: Collection of PHP code units
 dev-php/sebastian-code-unit-reverse-lookup 3.0.0 9999: Looks up which function or method a line of code belongs to
 dev-php/sebastian-comparator 5.0.1 9999: Compare PHP values for equality
+dev-php/sebastian-diff 5.1.1 9999: PHP Diff implementation
 dev-php/sebastian-exporter 5.1.2 9999: Export PHP variables for visualization
 dev-php/sebastian-global-state 6.0.2 9999: Snapshotting of global state
 dev-php/sebastian-object-enumerator 5.0.0 9999: Traverses array structures and object graphs
