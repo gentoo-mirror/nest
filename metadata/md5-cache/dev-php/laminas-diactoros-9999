@@ -1,12 +1,15 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/http-interop-http-factory-tests dev-php/phpunit dev-php/php-http-psr7-integration-tests ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
-DESCRIPTION=SPL extensions, array utilities, error handlers, and more
+DESCRIPTION=PSR HTTP Message implementations
 EAPI=8
-HOMEPAGE=https://github.com/laminas/laminas-stdlib
+HOMEPAGE=https://github.com/laminas/laminas-diactoros
 INHERIT=git-r3
+IUSE=curl gd ipv6 test xml
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=dev-lang/php:*[phar] dev-php/fedora-autoloader
+RDEPEND=dev-lang/php:*[curl?,gd?,ipv6?,xml?] dev-php/fedora-autoloader dev-php/psr-http-factory dev-php/psr-http-message
+REQUIRED_USE=test? ( curl gd xml )
+RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=6330af1c0725616dba3310bb253dcc32
+_md5_=ec90cc32038d9f27f374b67c8765fdbb
