@@ -6,8 +6,8 @@ EAPI=8
 MY_PN="${PN//sebastian-/}"
 MY_P="${MY_PN}-${PV}"
 
-DESCRIPTION="Compare PHP values for equality"
-HOMEPAGE="https://github.com/sebastianbergmann/comparator"
+DESCRIPTION="PHP Diff implementation"
+HOMEPAGE="https://github.com/sebastianbergmann/diff"
 SRC_URI="https://github.com/sebastianbergmann/${MY_PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${MY_P}"
 
@@ -18,10 +18,10 @@ IUSE="test"
 RESTRICT="test"
 PROPERTIES="test_network"
 
-RDEPEND="dev-lang/php:*[xml,unicode]
+RDEPEND="dev-lang/php:*
 	dev-php/fedora-autoloader
-	>=dev-php/sebastian-diff-5.1.1
-	dev-php/sebastian-exporter"
+	dev-php/phpunit
+	>=dev-php/symfony-process-6.4.8"
 BDEPEND="dev-php/theseer-Autoload
 	test? ( dev-php/composer
 		dev-php/phpunit )"
@@ -31,9 +31,9 @@ DOCS=( {ChangeLog,README}.md )
 src_prepare() {
 	default
 
-	phpab -q -o src/autoload.php -t fedora2 src || die "phpab failed"
 	install -D -m 644 "${FILESDIR}"/autoload.php \
 		vendor/autoload.php || die "install failed"
+	phpab -q -o src/autoload.php -t fedora2 src || die "phpab failed"
 }
 
 src_test() {
@@ -42,13 +42,11 @@ src_test() {
 	cp -r "${T}"/vendor/"${PN/-/\/}"/{phpunit.xml,tests} "${S}" \
 		|| die "cp failed"
 	phpab -q -o tests/autoload.php -t fedora2 tests || die "phpab test failed"
-	# remove tests with deprecated method
-	rm tests/MockObjectComparatorTest.php || die "rm failed"
 	phpunit --testdox || die "phpunit failed"
 }
 
 src_install() {
 	einstalldocs
-	insinto /usr/share/php/SebastianBergmann/Comparator
+	insinto /usr/share/php/SebastianBergmann/Diff
 	doins -r src/.
 }
