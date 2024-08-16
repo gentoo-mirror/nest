@@ -459,7 +459,7 @@ dev-php/phpunit-php-file-iterator 4.1.0 9999: FilterIterator implementation that
 dev-php/phpunit-php-invoker 4.0.0 9999: Library to invoke PHP callables with a timeout
 dev-php/phpunit-php-text-template 3.0.1 9999: A simple template engine
 dev-php/phpunit-php-timer 6.0.0 9999: Utility class for timing
-dev-php/phpunit-phpcov 10.0.0 9999: TextUI frontend for php-code-coverage
+dev-php/phpunit-phpcov 9.0.2 9999: TextUI frontend for php-code-coverage
 dev-php/predis 2.2.2 9999: Flexible and feature-complete Redis client for PHP
 dev-php/psr-cache 3.0.0 9999: Common Cache Interface (PHP FIG PSR-6)
 dev-php/psr-clock 1.0.0 9999: Clock Interface (PHP FIG PSR-20)
