@@ -85,6 +85,8 @@ dev-libs/libdigidocpp:utils - install command-line utility
 dev-libs/liblinphone:lime - Support for LIMEv2 and X3DH encryption protocol
 dev-libs/liblinphone:qrcode - Support for qrcodes using media-libs/zxing-cpp
 dev-libs/liblinphone:tools - Build tools
+dev-libs/libmongocrypt:dfp - Build with Intel Decimal Floating-Point Math Library
+dev-libs/mongo-c-driver:aws - Authentication via AWS IAM
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c
 dev-libs/zrtpcpp:axo - Build Axolotl support

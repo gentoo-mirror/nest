@@ -1,13 +1,13 @@
-BDEPEND=dev-php/theseer-Autoload >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Flexible and feature-complete Redis client for PHP
 EAPI=8
 HOMEPAGE=https://github.com/predis/predis
 INHERIT=git-r3
 LICENSE=MIT
-PROPERTIES=test_network live
+PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=e79f81cc779992842b8354c995dd09b8
+_md5_=1e71ce8a23d1351a7c852fe1b20b3059

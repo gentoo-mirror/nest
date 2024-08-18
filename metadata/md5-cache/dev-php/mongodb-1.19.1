@@ -1,14 +1,13 @@
-BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-phpunit-bridge ) >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install prepare test unpack
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-phpunit-bridge )
+DEFINED_PHASES=install prepare test
 DESCRIPTION=The Official MongoDB PHP library
 EAPI=8
 HOMEPAGE=https://github.com/mongodb/mongo-php-library
-INHERIT=git-r3
 IUSE=test
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/jean85-pretty-package-versions ~dev-php/pecl-mongodb-1.18.0 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=bb474e61e26afb2327d9609de36371c4
+SRC_URI=https://github.com/mongodb/mongo-php-library/archive/1.19.1.tar.gz -> mongo-php-library-1.19.1.tar.gz
+_md5_=42122f0841d44cac84794244c825f209
