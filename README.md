@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 933](https://img.shields.io/badge/ebuild-933-orange.svg)](https://img.shields.io/badge/ebuild-933-orange.svg)
+[![Number of ebuilds: 938](https://img.shields.io/badge/ebuild-938-orange.svg)](https://img.shields.io/badge/ebuild-938-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -292,16 +292,19 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-libs/[ucommon](https://www.gnu.org/software/commoncpp/) | A class framework that was specifically designed for telephony applications
 *   dev-libs/[dstu-engine](https://github.com/dstucrypt/dstu-engine) | OpenSSL engine for DSTU 4145
 *   dev-libs/[fastText](https://github.com/facebookresearch/fastText) | Library for fast text representation and classification
+*   dev-libs/[intel-dfp](https://software.intel.com/en-us/articles/intel-decimal-floating-point-math-library) | Library routines related to building,parsing and iterating BSON documents
+*   dev-libs/[libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson) | Library routines related to building,parsing and iterating BSON documents
 *   dev-libs/[libcommuni](https://communi.github.io) | A cross-platform IRC framework written with Qt
 *   dev-libs/[libdatrie](https://github.com/tlwg/libdatrie) | Double-Array Trie Library
 *   dev-libs/[libdict](https://github.com/rtbrick/libdict) | C library of key-value data structures
 *   dev-libs/[libdigidoc](https://github.com/open-eid/libdigidoc) | DigiDoc digital signature library
 *   dev-libs/[libdigidocpp](https://github.com/open-eid/libdigidocpp) | Library for handling digitally signed documents
 *   dev-libs/[liblinphone](https://gitlab.linphone.org/BC/public/liblinphone) | SIP library supporting voice/video calls and text messaging
+*   dev-libs/[libmongocrypt](https://github.com/mongodb/libmongocrypt) | C library for Client Side and Queryable Encryption in MongoDB
 *   dev-libs/[libopenrazer](https://github.com/z3ntu/libopenrazer) | Qt wrapper around the D-Bus API from OpenRazer
 *   dev-libs/[libthai](https://github.com/tlwg/libthai) | A a set of Thai language support routines
 *   dev-libs/[lime](https://gitlab.linphone.org/BC/public/lime) | C++ library implementing Open Whisper System Signal protocol
-*   dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
+*   dev-libs/[mongo-c-driver](https://github.com/mongodb/mongo-c-driver) | Client library written in C for MongoDB*   dev-libs/[xml-security-c](https://santuario.apache.org) | Apache C++ XML security libraries
 *   dev-libs/[zrtpcpp](https://github.com/wernerd/ZRTPCPP) | VCard standard format manipulation library
 *   dev-lua/[lyaml](https://github.com/gvvaughan/lyaml) | LibYAML binding for Lua
 *   dev-ml/[camlimages](https://gitlab.com/camlspotter/camlimages) | An image manipulation library for ocaml
@@ -416,6 +419,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[nikic-php-parser](https://github.com/nikic/PHP-Parser) | A PHP parser written in PHP
 *   dev-php/[nyholm-psr7](https://github.com/Nyholm/psr7) | A super lightweight PSR-7 implementation
 *   dev-php/[pecl-eio]() | PHP wrapper for libeio library
+*   dev-php/[pecl-mongodb]() | MongoDB database driver for PHP
 *   dev-php/[pecl-parallel]() | A succint parallel concurrency API for PHP
 *   dev-php/[pecl-uuid]() | PHP PECL UUID extension
 *   dev-php/[pecl-uv]() | PHP PECL UV extension
