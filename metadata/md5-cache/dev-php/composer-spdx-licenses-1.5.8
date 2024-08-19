@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Tools for working with and validating SPDX licenses
+EAPI=8
+HOMEPAGE=https://github.com/composer/spdx-licenses
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=!dev-php/spdx-licenses dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/composer/spdx-licenses/archive/1.5.8.tar.gz -> composer-spdx-licenses-1.5.8.tar.gz
+_md5_=42a16a8dbb9375ad89058243a38985e7

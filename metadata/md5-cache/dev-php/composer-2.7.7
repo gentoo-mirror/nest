@@ -1,16 +1,17 @@
-BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
-DEFINED_PHASES=compile install prepare test
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit dev-php/sebastian-object-reflector )
+DEFINED_PHASES=compile install postinst prepare test
 DESCRIPTION=Dependency Manager for PHP
 EAPI=8
 HOMEPAGE=https://github.com/composer/composer
-INHERIT=edo shell-completion
-IUSE=test
+INHERIT=edo optfeature shell-completion
+IUSE=ipv6 test zip
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=test_network
-RDEPEND=dev-lang/php:*[intl,curl] dev-php/ca-bundle dev-php/composer-class-map-generator dev-php/composer-pcre dev-php/composer-semver dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/phar-utils dev-php/psr-log dev-php/reactphp-promise dev-php/seld-signal-handler dev-php/spdx-licenses dev-php/symfony-console >=dev-php/symfony-filesystem-6.4.9 >=dev-php/symfony-finder-6.4.8 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 >=dev-php/symfony-process-6.4.8 dev-php/xdebug-handler
+RDEPEND=dev-lang/php:*[ssl,zlib,zip?] dev-php/composer-ca-bundle dev-php/composer-class-map-generator dev-php/composer-pcre dev-php/composer-semver dev-php/composer-spdx-licenses dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/phar-utils dev-php/psr-log dev-php/reactphp-promise dev-php/seld-signal-handler dev-php/symfony-console >=dev-php/symfony-filesystem-6.4.9 >=dev-php/symfony-finder-6.4.8 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 >=dev-php/symfony-process-6.4.8 dev-php/xdebug-handler
+REQUIRED_USE=test? ( zip )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/composer/composer/archive/2.7.7.tar.gz -> composer-2.7.7.tar.gz
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	shell-completion	bb7eb6bc232cd6c4bf8af739cdd2ee14
-_md5_=4a688ee6828ca02b5fba1696672bf793
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	shell-completion	bb7eb6bc232cd6c4bf8af739cdd2ee14
+_md5_=b35addb1de28371d0e72714004507fd6

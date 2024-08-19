@@ -399,9 +399,11 @@ dev-php/cache 1.0.0 9999: PHP Cache adapters
 dev-php/cache-integration-tests 0.17.0 9999: Integration tests for PSR-6 cache
 dev-php/cache-tag-interop 1.1.0 9999: Shared interfaces for tags. These are soon-to-be-PSR
 dev-php/composer 2.7.7 9999: Dependency Manager for PHP
+dev-php/composer-ca-bundle 1.5.1 9999: Find the system CA bundle or fall back to the Mozilla one
 dev-php/composer-class-map-generator 1.3.4 9999: Utilities to scan PHP code and generate class maps
 dev-php/composer-pcre 3.1.4 9999: PCRE wrapping library that offers type-safe preg_ replacements
 dev-php/composer-semver 3.4.2 9999: Semantic versioning utilities, constraint parsing, and checking
+dev-php/composer-spdx-licenses 1.5.8 9999: Tools for working with and validating SPDX licenses
 dev-php/daverandom-callback-validator 9999 20170403: Tools for validating callback signatures in PHP
 dev-php/daverandom-enum 1.0.0 9999: A base class for enumerations in PHP
 dev-php/daverandom-libdns 2.1.0 9999: DNS implementation in pure PHP

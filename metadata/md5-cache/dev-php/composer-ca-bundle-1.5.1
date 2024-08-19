@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Find the system CA bundle or fall back to the Mozilla one
+EAPI=8
+HOMEPAGE=https://github.com/composer/ca-bundle
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=!dev-php/ca-bundle dev-lang/php:*[ssl] dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/composer/ca-bundle/archive/1.5.1.tar.gz -> composer-ca-bundle-1.5.1.tar.gz
+_md5_=d1fd4e9e58597a07f22abeee65d58018
