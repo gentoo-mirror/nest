@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DESCRIPTION=Backport of some PHP 8.1+ features to lower PHP versions
+DESCRIPTION=Backport of some PHP 8.3+ features to lower PHP versions
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-php83
 INHERIT=git-r3
@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=2f2260694b01f6a8bb378cbb74009e6d
+_md5_=ce295d7cc197a775f45cd3c6c8e7aa33

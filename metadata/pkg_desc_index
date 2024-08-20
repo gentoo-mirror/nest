@@ -535,7 +535,8 @@ dev-php/symfony-polyfill-intl-normalizer 1.30.0 9999: Symfony polyfill for intl'
 dev-php/symfony-polyfill-mbstring 1.30.0 9999: Symfony polyfill for the Mbstring extension
 dev-php/symfony-polyfill-php80 1.30.0 9999: Backport of some PHP 8.0+ features to lower PHP versions
 dev-php/symfony-polyfill-php81 1.30.0 9999: Backport of some PHP 8.1+ features to lower PHP versions
-dev-php/symfony-polyfill-php83 1.30.0 9999: Backport of some PHP 8.1+ features to lower PHP versions
+dev-php/symfony-polyfill-php83 1.30.0 9999: Backport of some PHP 8.3+ features to lower PHP versions
+dev-php/symfony-polyfill-uuid 1.30.0 9999: Symfony polyfill for uuid functions
 dev-php/symfony-process 6.4.8 9999: Executes commands in sub-processes
 dev-php/symfony-property-access 6.4.8 9999: Symfony PropertyAccess Component
 dev-php/symfony-property-info 6.4.9 9999: Symfony PropertyInfo Component

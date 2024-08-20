@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install postinst unpack
 DESCRIPTION=Symfony polyfill for intl's ICU-related data and classes
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-intl-icu
-INHERIT=git-r3
+INHERIT=git-r3 optfeature
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=c82b5cb32bda9da04311871ae9865585
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=0edae2e4fec1b4fe7f79a33eaad905c5

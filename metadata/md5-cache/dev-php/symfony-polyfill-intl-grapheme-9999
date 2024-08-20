@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=install postinst unpack
 DESCRIPTION=Symfony polyfill for intl's grapheme_ functions
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-intl-grapheme
-INHERIT=git-r3
+INHERIT=git-r3 optfeature
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=5177360eabde3b78a4715bd8cc27c04a
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=0069f8b744926a33afed2b12a747253c

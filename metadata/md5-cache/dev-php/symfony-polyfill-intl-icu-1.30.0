@@ -1,11 +1,13 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install postinst
 DESCRIPTION=Symfony polyfill for intl's ICU-related data and classes
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-intl-icu
+INHERIT=optfeature
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/symfony/polyfill-intl-icu/archive/v1.30.0.tar.gz -> symfony-polyfill-intl-icu-1.30.0.tar.gz
-_md5_=4c06712de7446f87d3cbf8a5324c9855
+_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=20f9bac5d4d1fce7fd6f8e804a4e3957

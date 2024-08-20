@@ -1,8 +1,8 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst unpack
-DESCRIPTION=Symfony polyfill for intl's Normalizer class
+DESCRIPTION=Symfony polyfill for uuid functions
 EAPI=8
-HOMEPAGE=https://github.com/symfony/polyfill-intl-normalizer
+HOMEPAGE=https://github.com/symfony/polyfill-uuid
 INHERIT=git-r3 optfeature
 LICENSE=MIT
 PROPERTIES=live
@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
-_md5_=d7033c2bca62a28ba48657f118edea52
+_md5_=59739f0acdcf94ec4a56d94670be33a1

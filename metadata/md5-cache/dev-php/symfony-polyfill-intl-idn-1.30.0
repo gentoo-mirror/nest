@@ -1,11 +1,13 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install postinst
 DESCRIPTION=Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions
 EAPI=8
 HOMEPAGE=https://github.com/symfony/polyfill-intl-idn
+INHERIT=optfeature
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-intl-normalizer
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/symfony/polyfill-intl-idn/archive/v1.30.0.tar.gz -> symfony-polyfill-intl-idn-1.30.0.tar.gz
-_md5_=d430d4d8b1f072712f7cbf848c6f83a0
+_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_md5_=7bec2d414459387d4ae16f2eef6ff9b1
