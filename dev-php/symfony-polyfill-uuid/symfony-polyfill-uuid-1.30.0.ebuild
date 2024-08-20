@@ -8,8 +8,8 @@ inherit optfeature
 MY_PN="${PN//symfony-/}"
 MY_P="${MY_PN}-${PV}"
 
-DESCRIPTION="Symfony polyfill for intl's Normalizer class"
-HOMEPAGE="https://github.com/symfony/polyfill-intl-normalizer"
+DESCRIPTION="Symfony polyfill for uuid functions"
+HOMEPAGE="https://github.com/symfony/polyfill-uuid"
 SRC_URI="https://github.com/symfony/${MY_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${MY_P}"
 
@@ -23,10 +23,10 @@ RDEPEND="dev-lang/php:*
 
 src_install() {
 	einstalldocs
-	insinto /usr/share/php/Symfony/Polyfill/Intl/Normalizer
-	doins -r Resources "${FILESDIR}"/autoload.php ./*.php
+	insinto /usr/share/php/Symfony/Polyfill/Uuid
+	doins -r "${FILESDIR}"/autoload.php ./*.php
 }
 
 pkg_postinst() {
-	optfeature "Support of more locales" dev-lang/php[intl]
+	optfeature "Support of best performance" dev-php/pecl-uuid
 }

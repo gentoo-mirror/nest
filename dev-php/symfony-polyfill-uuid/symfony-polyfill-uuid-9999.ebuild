@@ -3,12 +3,12 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/symfony/polyfill-intl-grapheme.git"
+EGIT_REPO_URI="https://github.com/symfony/polyfill-uuid.git"
 
 inherit git-r3 optfeature
 
-DESCRIPTION="Symfony polyfill for intl's grapheme_ functions"
-HOMEPAGE="https://github.com/symfony/polyfill-intl-grapheme"
+DESCRIPTION="Symfony polyfill for uuid functions"
+HOMEPAGE="https://github.com/symfony/polyfill-uuid"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,10 +19,10 @@ RDEPEND="dev-lang/php:*
 
 src_install() {
 	einstalldocs
-	insinto /usr/share/php/Symfony/Polyfill/Intl/Grapheme
+	insinto /usr/share/php/Symfony/Polyfill/Uuid
 	doins -r "${FILESDIR}"/autoload.php ./*.php
 }
 
 pkg_postinst() {
-	optfeature "Support of more locales" dev-lang/php[intl]
+	optfeature "Support of best performance" dev-php/pecl-uuid
 }
