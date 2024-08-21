@@ -147,7 +147,7 @@ app-editors/micro 2.0.10 9999: A modern and intuitive terminal-based text editor
 app-editors/notes 2.0.0 9999: Note taking application, write down your thoughts
 app-editors/obsidian 1.5.8: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/typora 1.4.7: A minimal markdown editor and reader
+app-editors/typora 1.9.3: A minimal markdown editor and reader
 app-emulation/looking-glass 6b 7b_rc1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 16.0.0e 16.1.0e 16.1.1e 16.1.2e 16.1.2f 16.2.0e 16.2.0f 16.2.0g 16.2.1e 16.2.1f 16.2.1g 16.2.3e 16.2.3f 16.2.3g 16.2.3h 16.2.4e 16.2.4f 16.2.4g 16.2.4h 16.2.5 17.0.1 17.0.2 17.5.0 17.5.2: VMware kernel modules
@@ -194,7 +194,7 @@ dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++1
 dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.6.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
-dev-db/dbgate-bin 4.1.12: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
+dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
 dev-db/mongodb-compass 1.43.0: The MongoDB GUI
@@ -763,12 +763,11 @@ dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/w3lib 2.1.2 9999: Library of web-related functions
 dev-util/abnfgen 0.21: ABNF-grammar based test case generator
 dev-util/actionlint 1.6.26 9999: Static checker for GitHub Actions workflow files
-dev-util/arctype 0.9.80.9495: SQL client for PostgreSQL and MySQL
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
 dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
 dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
 dev-util/bcunit 5.3.0 9999: BC Unit Test Framework
-dev-util/beekeeper-studio-bin 1.7.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 4.6.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
@@ -791,7 +790,7 @@ dev-util/fossa-cli 1.1.0 9999: License and vulnerability analysis
 dev-util/gibberish-detector 0.1.1 9999: Train a model, and detect gibberish strings with it
 dev-util/gitlab-runner 13.3.0 9999: GitLab Runner
 dev-util/hotspot 1.3.0 9999: Linux perf GUI for performance analysis
-dev-util/insomnia-bin 2020.4.2 2021.4.1 2022.4.2: HTTP and GraphQL client for developers
+dev-util/insomnia-bin 9.3.3: HTTP and GraphQL client for developers
 dev-util/jwt_tool 2.2.1 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/lazygit 0.34 9999: Simple terminal UI for git commands
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
@@ -868,7 +867,7 @@ media-sound/cozy 1.2.1 9999: Modern audiobook player
 media-sound/finetune 2.2.1: Automatic music tagger
 media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.12 9999: A finely crafted music player
-media-sound/plexamp 4.7.4: Music focused client for Plex
+media-sound/plexamp 4.11.1: Music focused client for Plex
 media-sound/sayonara 1.7.0_p3 1.8.0_beta1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon
@@ -902,7 +901,7 @@ net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 5.0.1-r2: Chat and network platform
-net-im/slack 4.27.156 4.28.182: Team collaboration tool
+net-im/slack 4.39.95: Team collaboration tool
 net-im/viber 21.8.0.11: Free text and calls
 net-libs/bctoolbox 5.3.1 9999: Utilities library used by Belledonne Communications softwares
 net-libs/bzrtp 5.3.1 9999: Media Path Key Agreement for Unicast Secure RTP
