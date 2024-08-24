@@ -797,7 +797,7 @@ dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and trans
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187 4.5.0.20459872 4.6.0.21452615: VMware Open Virtualization Format tool
 dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
 dev-util/policy-sentry 0.12.11 9999: AWS IAM Least Privilege Policy Generator
-dev-util/postman 9.22.2: Build, test, and document your APIs faster
+dev-util/postman 11.9.0: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
 dev-util/semgrep 1.75.0 9999: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
