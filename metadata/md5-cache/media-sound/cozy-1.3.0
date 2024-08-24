@@ -1,10 +1,10 @@
 BDEPEND=sys-devel/gettext virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
-DEFINED_PHASES=compile configure install postinst postrm preinst setup test
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
 DESCRIPTION=Modern audiobook player
 EAPI=8
 HOMEPAGE=https://github.com/geigi/cozy
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
-INHERIT=gnome2-utils meson python-single-r1 xdg
+INHERIT=gnome2-utils meson plocale python-single-r1 xdg
 IUSE=appstream python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
@@ -12,5 +12,5 @@ RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10[sqlite] ) python
 REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
 SLOT=0
 SRC_URI=https://github.com/geigi/cozy/archive/1.3.0.tar.gz -> cozy-1.3.0.tar.gz
-_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	6881b056477c23167d9a6b33e146374e	meson	99466844dd8d4fcfb07578a76f5a9922	python-single-r1	f7abe75c203a988aa9b5c460b6c7d0f1	xdg	4a14c5c24f121e7da66e5aab4a168c6e
-_md5_=5d7a806db7fb64dbc627bd8a178a91e0
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	flag-o-matic	e503ea5acc20410237ba33ec3f7c857d	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	6881b056477c23167d9a6b33e146374e	meson	99466844dd8d4fcfb07578a76f5a9922	plocale	950fbaec7deeba41b5bcc0572cca99b9	python-single-r1	f7abe75c203a988aa9b5c460b6c7d0f1	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_md5_=c632cda8c5772970903e6289f36ba3de
