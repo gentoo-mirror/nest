@@ -145,7 +145,7 @@ app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/marktext 0.17.1: A simple and elegant open-source markdown editor
 app-editors/micro 2.0.10 9999: A modern and intuitive terminal-based text editor
 app-editors/notes 2.0.0 9999: Note taking application, write down your thoughts
-app-editors/obsidian 1.5.8: A knowledge base of plain text Markdown files
+app-editors/obsidian 1.6.7: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/typora 1.9.3: A minimal markdown editor and reader
 app-emulation/looking-glass 6b 7b_rc1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
@@ -197,7 +197,7 @@ dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and
 dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
-dev-db/mongodb-compass 1.43.0: The MongoDB GUI
+dev-db/mongodb-compass 1.43.6: The MongoDB GUI
 dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
@@ -862,7 +862,7 @@ media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
 media-radio/krudio 9999 21082019: Radio tray for linux on QT
 media-radio/liquidsoap 2.0.3 9999: A swiss-army knife for multimedia streaming, used for netradios
-media-sound/cider 2.4.1: A new cross-platform Apple Music experience based on Electron
+media-sound/cider 2.5.0: A new cross-platform Apple Music experience based on Electron
 media-sound/cozy 1.2.1 1.3.0 9999: Modern audiobook player
 media-sound/finetune 2.2.1: Automatic music tagger
 media-sound/mpz 1.0.23 9999: Music player for big local collections
