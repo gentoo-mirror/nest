@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/flac[ogg?] ogg? ( dev-ml/ocaml-ogg:= ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	339df00cc31668d437589817d093748d	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	dune	339df00cc31668d437589817d093748d	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=6794d4ce94e024d946be1e1b2d168551
