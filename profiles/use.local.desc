@@ -362,6 +362,7 @@ www-plugins/bypass-paywalls:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:firefox - Install plugin for www-client/firefox
 www-plugins/chrome-token-signing:vivaldi - Install plugin for www-client/vivaldi
+x11-libs/libvdpau-va-gl:system-vdpau - Use the headers from x11-libs/libvdpau instead of bundled
 x11-misc/libinput-gestures:experimental - avoid producing zombie processes
 x11-themes/WhiteSur-icon-theme:all - Install all colors
 x11-themes/WhiteSur-icon-theme:alternative - Install alternative icons for software center and file-manager

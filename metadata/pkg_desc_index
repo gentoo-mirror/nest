@@ -1005,6 +1005,7 @@ www-plugins/eusw 1.3.1.63: IIT End User CA-1 browser extension
 www-plugins/vdhcoapp-bin 2.0.19: Companion application for Video DownloadHelper browser add-on
 www-servers/gitlab-workhorse 8.43.0 9999: GitLab reverse proxy
 www-servers/imgproxy 3.20.0 9999: Server for resizing and converting remote images
+x11-libs/libvdpau-va-gl 0.4.2 9999: VDPAU driver with OpenGL/VAAPI backend
 x11-misc/RazerGenie 1.0.0 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.76 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
