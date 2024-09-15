@@ -112,7 +112,7 @@ app-admin/semaphore-bin 2.8.53: Modern UI for Ansible
 app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
 app-admin/sops 3.8.1 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
-app-admin/terraform-provider-proxmox 0.42.0 9999: Terraform Provider for Proxmox
+app-admin/terraform-provider-proxmox 0.64.0 9999: Terraform Provider for Proxmox
 app-admin/terraform-provider-vcd 3.10.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.4.0 9999: A top for NGINX
 app-admin/trailscraper 0.8.1 9999: Command-line tool to get information out of AWS CloudTrail
