@@ -826,7 +826,7 @@ kde-misc/applet-window-buttons 0.11.1 9999: Plasma 5 applet in order to show win
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
 kde-misc/kde-relaxingsounds 9999 20220615: Plasma 5 widget for play relaxing sounds
 kde-misc/kwin-effects-cube 2.0.0 9999: Desktop cube effect for kwin
-kde-misc/kwin-effects-sliding-notifications 1.5.0 9999: Sliding animation for notification windows
+kde-misc/kwin-effects-sliding-notifications 1.5.0 9999 20240704: Sliding animation for notification windows
 kde-misc/latte-dock 0.10.8: Elegant dock, based on KDE Frameworks
 kde-misc/latte-indicator-dashtopanel 0.5.0 9999: Dash To Panel indicator for Latte Dock
 kde-misc/latte-indicator-unity 0.6.0 9999: Unity style indicator for Latte Dock
