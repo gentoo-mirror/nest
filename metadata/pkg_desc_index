@@ -818,9 +818,9 @@ dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git reposito
 kde-misc/Burn-My-Windows 43 9999: Disintegrate your windows with style
 kde-misc/Tiled-Quicklaunch 9999 20211017: Plasma Menu Widget for KDE
 kde-misc/applet-latte-analogclock 0.2.0 9999: Analog clock applet that respects Latte items size
-kde-misc/applet-latte-separator 0.1.2 9999: Plasma 5 applet that acts as a separator between applets
+kde-misc/applet-latte-separator 0.1.2 9999 20240312: Plasma 5 applet that acts as a separator between applets
 kde-misc/applet-latte-sidebar-button 0.2.1 9999: Plasma 5 applet to show and hide Latte Sidebars
-kde-misc/applet-latte-spacer 0.3.0 9999: Plasma 5 applet that acts as a spacer between applets
+kde-misc/applet-latte-spacer 0.3.0 9999 20240323: Plasma 5 applet that acts as a spacer between applets
 kde-misc/applet-window-appmenu 0.8.0 9999: Plasma 5 applet in order to show window appmenu in your panels
 kde-misc/applet-window-buttons 0.11.1 9999: Plasma 5 applet in order to show window buttons in your panels
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
@@ -835,13 +835,14 @@ kde-misc/latte-indicator-win7 0.2.1 9999: Windows 7 style indicator for Latte Do
 kde-misc/latte_slideshow_wallpaper 5.18.0 9999: Plasma 5 Wallpaper plugin that informs Latte about background
 kde-misc/lightly 0.4.1 9999: KDE theme style with aim to be visually modern and minimalistic
 kde-misc/paneltransparencybutton 0.2.0 9999: Enable/disable transparency for specific plasma panels
-kde-misc/plasma-applet-ambientnoise 9999 20210626: Plasma 5 widget for play ambient noise
+kde-misc/plasma-applet-ambientnoise 0.6.0 9999 20210626: Plasma widget for play ambient noise
 kde-misc/plasma-applet-eventcalendar 76 9999: Plasmoid for a calendar and agenda with weather
 kde-misc/plasma-applet-favoriteFolders 9999 20210412: Plasma 5 widget for quick access to favorite folders
+kde-misc/plasma-applet-grammarly 9999 20240806: KDE Plasma6 Panel Widget for a Webview to Grammarly Editor
 kde-misc/plasma-power-monitor 0.2 9999: Plasma widget to monitor the power consumption of your battery
 kde-misc/plasma5-wallpapers-dynamic 4.4.1 9999: Dynamic wallpaper plugin for KDE Plasma
 kde-misc/plasmoid-wunderground-extended 0.7.1 9999: KDE5 Plasma Weather Widget
-kde-misc/pminhibition 1.8 9999: Plasma applet shows information about power management inhibition
+kde-misc/pminhibition 1.9 9999: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 2.2.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
 media-gfx/butteraugli 9999 20032019: A tool for measuring perceived differences between images
 media-gfx/colorpick 9999 12042023: Color picker and contrast checker
