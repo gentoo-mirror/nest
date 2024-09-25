@@ -10,10 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Plasma widget that provides quick access to user-defined ambient noise player.
-	With features like, having unlimited defined noise.
+	This is a widget for KDE Plasma 6 that allows you to access
+	the Grammarly editor from your desktop panel.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">m-pilia/plasma-applet-ambientnoise</remote-id>
+		<remote-id type="github">kevinbburns/com.kevinbburns.grammarly</remote-id>
 	</upstream>
 </pkgmetadata>
