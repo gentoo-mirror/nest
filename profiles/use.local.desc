@@ -112,6 +112,7 @@ dev-util/cloud-utils:iso - Enable ISO9660 support
 dev-util/cloud-utils:qemu - Enable QEMU stuff
 dev-util/dropwatch:bfd - Add support for Binary File Descriptor
 dev-util/gitlab-runner:docker - Add support for docker executors
+kde-misc/plasma-panel-spacer-extended:plugin - Build plugin for Plasma 5
 kde-misc/plasmoid-wunderground-extended:plasma-nm - Add support for kde-plasma/plasma-nm
 kde-misc/qCheckGMail:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 kde-misc/qCheckGMail:libsecret - Support locking of keyring via app-crypt/libsecret
