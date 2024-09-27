@@ -1014,5 +1014,6 @@ x11-libs/libvdpau-va-gl 0.4.2 9999: VDPAU driver with OpenGL/VAAPI backend
 x11-misc/RazerGenie 1.0.0 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.76 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
+x11-misc/touchegg 2.0.17 9999: Linux multi-touch gesture recognizer
 x11-themes/Vimix-cursors 2020.02.24 9999: Vimix-cursors for linux desktop
 x11-themes/WhiteSur-icon-theme 2023.07.03 9999: comes in both light and dark variants
