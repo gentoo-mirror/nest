@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 950](https://img.shields.io/badge/ebuild-950-orange.svg)](https://img.shields.io/badge/ebuild-950-orange.svg)
+[![Number of ebuilds: 952](https://img.shields.io/badge/ebuild-952-orange.svg)](https://img.shields.io/badge/ebuild-952-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -72,9 +72,11 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-admin/[ibmcloud-bin](https://github.com/IBM-Cloud/ibm-cloud-cli-release) | IBM Cloud Developer Tools
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/qtpass.svg?header=)](https://repology.org/project/qtpass/versions) app-admin/[qtpass](https://qtpass.org) | Multi-platform GUI for pass, the standard unix password manager
 *   app-admin/[jl](https://github.com/koenbollen/jl) | A tool for working with structured JSON logging
+*   app-admin/[kmon](https://github.com/orhun/kmon) | Linux Kernel Manager and Activity Monitor
 *   app-admin/[mkeosimg](https://github.com/sowbug/mkeosimg) | Ubiquiti EdgeOS image from a system tarball
 *   app-admin/[ngxtop-ce](https://github.com/ngxtop/ngxtop) | real-time metrics for nginx server (and others)
 *   app-admin/[netutils-linux](https://github.com/strizhechenko/netutils-linux) | Suite of network stack performance tunning utilities
+*   app-admin/[profile-cleaner](https://github.com/graysky2/profile-cleaner) | Vacuum and reindex browser sqlite databases
 *   app-admin/[rain](https://github.com/aws-cloudformation/rain) | A development workflow tool for working with AWS CloudFormation
 *   app-admin/[reach](https://github.com/luhring/reach) | A static network verification tool for AWS
 *   app-admin/[reprepro](https://salsa.debian.org/brlink/reprepro) | A tool to handle local repositories of Debian packages
