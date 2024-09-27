@@ -987,6 +987,7 @@ sys-apps/psi-notify 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
 sys-apps/sd 0.7.6 9999: An intuitive find and replace tool
 sys-apps/swapspace 1.17 9999: A dynamic swap space manager
+sys-auth/libfprint-tod-goodix 0.0.6: Goodix driver module for libfprint-2 Touch OEM Driver
 sys-cluster/minishift-bin 1.33.0: Single Node OpenShift Cluster
 sys-fs/adhocify 1.1 9999: Tool which monitors for inotify events and executes script
 sys-fs/duf 0.8.1 9999: Disk Usage/Free Utility

@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=sys-auth/libfprint-tod:2
+DESCRIPTION=Goodix driver module for libfprint-2 Touch OEM Driver
+EAPI=8
+HOMEPAGE=https://git.launchpad.net/~oem-solutions-engineers/libfprint-2-tod1-goodix
+INHERIT=udev
+KEYWORDS=~amd64
+LICENSE=Goodix
+RDEPEND=sys-auth/libfprint-tod:2 acct-group/plugdev
+SLOT=0
+SRC_URI=https://git.launchpad.net/~oem-solutions-engineers/libfprint-2-tod1-goodix/tree/usr/lib/x86_64-linux-gnu/libfprint-2/tod-1/libfprint-tod-goodix-53xc-0.0.6.so https://git.launchpad.net/~oem-solutions-engineers/libfprint-2-tod1-goodix/tree/lib/udev/rules.d/60-libfprint-2-tod1-goodix.rules
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	udev	3b4170e9c327a8ed17097484a016c0c8
+_md5_=a8cd7dd19d52ca36d54fcc02ddacf43a
