@@ -98,9 +98,11 @@ app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
 app-admin/grex 1.4.5 9999: A CLI tool for generating regular expressions
 app-admin/ibmcloud-bin 2.10.0: IBM Cloud Developer Tools
 app-admin/jl 1.6.0 9999: A tool for working with structured JSON logging
+app-admin/kmon 1.6.5 9999: Linux Kernel Manager and Activity Monitor
 app-admin/mkeosimg 9999 19122022: Ubiquiti EdgeOS image from a system tarball
 app-admin/netutils-linux 2.7.9 9999: Suite of network stack performance tunning utilities
 app-admin/ngxtop-ce 0.0.3_alpha7 9999: real-time metrics for nginx server (and others)
+app-admin/profile-cleaner 2.45 9999: Vacuum and reindex browser sqlite databases
 app-admin/qtpass 1.4.0 9999: Multi-platform GUI for pass, the standard unix password manager
 app-admin/rain 1.10.0 9999: A development workflow tool for working with AWS CloudFormation
 app-admin/reach 0.2.0 9999: A static network verification tool for AWS
