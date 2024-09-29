@@ -3,18 +3,18 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/psifidotos/${PN}.git"
+EGIT_REPO_URI="https://github.com/moodyhunter/${PN}.git"
 
 inherit ecm git-r3
 
-DESCRIPTION="Plasma 5 applet shows window title and icon in your panels"
-HOMEPAGE="https://github.com/psifidotos/applet-window-title"
+DESCRIPTION="Plasma 6 applet shows window title and icon in your panels"
+HOMEPAGE="https://github.com/moodyhunter/applet-window-title6"
 
 LICENSE="GPL-2"
-SLOT="5"
+SLOT="6"
 
-RDEPEND="kde-frameworks/kdeclarative:5
-	kde-frameworks/kirigami:5
+RDEPEND="kde-frameworks/kdeclarative:6
+	kde-frameworks/kirigami:6
 	kde-plasma/plasma-workspace:6"
 
 DOCS=( {CHANGELOG,README}.md )
