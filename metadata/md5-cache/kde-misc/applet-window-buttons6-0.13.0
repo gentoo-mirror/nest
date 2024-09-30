@@ -1,6 +1,6 @@
 BDEPEND=kde-frameworks/extra-cmake-modules app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.106.0:*
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
-DEPEND=dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 kde-frameworks/kcoreaddons:6 kde-frameworks/kdeclarative:6 kde-frameworks/ki18n:6 kde-frameworks/kservice:6 kde-frameworks/kpackage:6 kde-frameworks/ksvg:6 kde-plasma/plasma-workspace:6 dev-qt/qtcore:5
+DEPEND=dev-qt/qtcore:5
 DESCRIPTION=Plasma 6 applet in order to show window buttons in your panels
 EAPI=8
 HOMEPAGE=https://github.com/moodyhunter/applet-window-buttons6
@@ -9,8 +9,8 @@ INHERIT=ecm
 IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=|| ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+RDEPEND=!kde-misc/applet-window-buttons:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 kde-frameworks/kcoreaddons:6 kde-frameworks/kdeclarative:6 kde-frameworks/ki18n:6 kde-frameworks/kservice:6 kde-frameworks/kpackage:6 kde-frameworks/ksvg:6 kde-plasma/plasma-workspace:6 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
 SLOT=6
 SRC_URI=https://github.com/moodyhunter/applet-window-buttons6/archive/0.13.0.tar.gz -> applet-window-buttons6-0.13.0.tar.gz
 _eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	cmake	10a50dfaf728b802fcfd37f8d0da9056	virtualx	53fb93b5555470a64f14fde25cf1ad2c	xdg	854eae304447322625df5991e20ed18f	ecm	fe5d0f686a62c5a29db9433ce94c2e31
-_md5_=1e1eeb9643b474803feea215e3949a27
+_md5_=0fcb7ead784dcccb7b3c9cab20b8e2a7
