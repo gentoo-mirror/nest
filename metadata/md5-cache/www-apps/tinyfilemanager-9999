@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-lang/php[fileinfo,iconv,session,unicode,zip] app-admin/webapp-config
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	webapp	ec35e2e7054fc885ca6bba50f7dfc225
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	webapp	5fa840db95fc7348dfd53b8526ed05f5
 _md5_=bc9bdcef3a91bc16b787e95a591f1c34

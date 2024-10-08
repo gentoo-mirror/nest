@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=syslog? ( dev-ml/ocaml-syslog:= ) >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/9999
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	dune	339df00cc31668d437589817d093748d	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=bdaf61d498524c4021614cea318c6f41

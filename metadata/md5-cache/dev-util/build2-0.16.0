@@ -12,5 +12,5 @@ RDEPEND=dev-cpp/libodb dev-cpp/libodb-sqlite dev-db/sqlite:3
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://download.build2.org/0.16.0/build2-toolchain-0.16.0.tar.xz
-_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f
 _md5_=1144451155cd339e90357fdc0176c43d

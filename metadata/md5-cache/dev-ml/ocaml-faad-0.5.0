@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/faad2 >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/0.5.0
 SRC_URI=https://github.com/savonet/ocaml-faad/archive/v0.5.0/ocaml-faad-0.5.0.tar.gz
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	dune	339df00cc31668d437589817d093748d
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a
 _md5_=93f4204e9d790f4c53558dd96b81e804

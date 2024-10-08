@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=net-dns/openresolv net-vpn/openvpn virtual/tmpfiles
 SLOT=0
 SRC_URI=https://api.github.com/repos/alfredopalhares/openvpn-update-resolv-conf/tarball/2485e9d -> openvpn-update-resolv-conf-25032022.tar.gz
-_eclasses_=readme.gentoo-r1	32b48460d813533d85f082897cec1b80	tmpfiles	abdfd90f8841c1cb4b94575d5d109952
+_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
 _md5_=43cab54fda9d83597909ad9b99fb8c68
