@@ -8,9 +8,9 @@ IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=POSTGRESQL
 PDEPEND=virtual/commonlisp
-RDEPEND=app-arch/zstd:0= dev-lisp/alexandria dev-lisp/asdf-finalizers dev-lisp/cffi dev-lisp/cl-abnf dev-lisp/cl-base64 dev-lisp/cl-csv dev-lisp/cl-db3 dev-lisp/cl-fad dev-lisp/cl-ixf dev-lisp/cl-log dev-lisp/cl-markdown dev-lisp/cl-mssql dev-lisp/cl-mustache dev-lisp/closer-mop dev-lisp/cl-plus-ssl dev-lisp/cl-ppcre dev-lisp/cl-sqlite dev-lisp/cl-utilities dev-lisp/command-line-arguments dev-lisp/drakma dev-lisp/esrap dev-lisp/flexi-streams dev-lisp/local-time dev-lisp/lparallel dev-lisp/metabang-bind dev-lisp/postmodern dev-lisp/py-configparser dev-lisp/qmynd dev-lisp/quri dev-lisp/split-sequence dev-lisp/trivial-backtrace dev-lisp/uiop dev-lisp/usocket dev-lisp/uuid dev-lisp/yason dev-lisp/zs3
+RDEPEND=app-arch/zstd:0= dev-lisp/alexandria dev-lisp/asdf-finalizers dev-lisp/cffi dev-lisp/cl-abnf dev-lisp/cl-base64 dev-lisp/cl-csv dev-lisp/cl-db3 dev-lisp/cl-fad dev-lisp/cl-ixf dev-lisp/cl-log dev-lisp/cl-markdown dev-lisp/cl-mssql dev-lisp/cl-mustache dev-lisp/closer-mop dev-lisp/cl-plus-ssl dev-lisp/cl-ppcre dev-lisp/cl-sqlite dev-lisp/cl-utilities dev-lisp/command-line-arguments dev-lisp/drakma dev-lisp/esrap dev-lisp/flexi-streams dev-lisp/local-time dev-lisp/lparallel dev-lisp/metabang-bind dev-lisp/postmodern dev-lisp/py-configparser dev-lisp/qmynd dev-lisp/quri dev-lisp/split-sequence dev-lisp/trivial-backtrace dev-lisp/uax15 dev-lisp/uiop dev-lisp/usocket dev-lisp/uuid dev-lisp/yason dev-lisp/zs3
 RESTRICT=!test? ( test ) strip
 SLOT=0
 SRC_URI=https://github.com/dimitri/pgloader/archive/v3.6.10.tar.gz -> pgloader-3.6.10.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ed0aaf37052d12d2add215aee7b8ddbe
+_md5_=deafe0c93ce8035dafdd5c98972e32f1
