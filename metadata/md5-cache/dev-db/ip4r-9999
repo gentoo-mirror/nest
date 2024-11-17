@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
+DEPEND=dev-db/postgresql:*
+DESCRIPTION=IP address and IP range index types for PostgreSQL
+EAPI=8
+HOMEPAGE=https://github.com/RhodiumToad/ip4r
+INHERIT=git-r3
+LICENSE=POSTGRESQL
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=8fd6608267b7cbfb1d4846a30a01f412

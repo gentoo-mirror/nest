@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam dev-lisp/bordeaux-threads )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp binding for SQLite
+EAPI=8
+HOMEPAGE=https://github.com/TeMPOraL/cl-sqlite
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-db/sqlite:3 dev-lisp/cffi dev-lisp/iterate
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/TeMPOraL/cl-sqlite/archive/0.2.1.tar.gz -> cl-sqlite-0.2.1.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=43e8b5e320967a9f49794d6a636de5f6

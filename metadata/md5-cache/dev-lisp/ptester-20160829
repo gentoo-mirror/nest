@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Portable test harness package
+EAPI=8
+HOMEPAGE=https://tracker.debian.org/pkg/cl-ptester
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=LLGPL-2.1
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cl-ptester/cl-ptester_20160829.gitfe69fde.orig.tar.xz -> ptester-20160829.tar.xz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=003ee0e3218764125c989e08ccf162b3

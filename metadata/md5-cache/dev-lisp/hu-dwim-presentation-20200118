@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip dev-lisp/asdf test? ( dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp component based GUI framework
+EAPI=8
+HOMEPAGE=https://hub.darcs.net/hu.dwim/hu.dwim.presentation
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/cl-graph dev-lisp/cl-typesetting dev-lisp/contextl dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/hu-dwim-logger dev-lisp/hu-dwim-web-server dev-lisp/iolib dev-lisp/moptilities
+RESTRICT=test
+SLOT=0
+SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.presentation/dist -> hu-dwim-presentation-20200118.zip
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=c7ffabfbb5aa4df4a598af5651bfe34a

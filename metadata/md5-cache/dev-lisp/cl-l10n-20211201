@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/hu-dwim-stefil dev-lisp/parse-number )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Portable CL Locale Support
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/cl-l10n/cl-l10n
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1 MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-fad dev-lisp/cl-l10n-cldr dev-lisp/closer-mop dev-lisp/cl-ppcre dev-lisp/cxml dev-lisp/flexi-streams dev-lisp/iterate dev-lisp/local-time dev-lisp/metabang-bind
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.common-lisp.net/cl-l10n/cl-l10n/-/archive/master/cl-l10n-master.tar.bz2
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=b88b735a554cdcc832d7dbc8c7bbc955

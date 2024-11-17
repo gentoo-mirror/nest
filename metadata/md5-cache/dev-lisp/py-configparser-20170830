@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/rt )
+DEFINED_PHASES=compile install test
+DESCRIPTION=ConfigParser Python module functionality in Common Lisp
+EAPI=8
+HOMEPAGE=https://tracker.debian.org/pkg/cl-py-configparser
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/parse-number
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cl-py-configparser/cl-py-configparser_20170830.orig.tar.gz -> py-configparser-20170830.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=07d9af12f222473bdabdca539b4972cc

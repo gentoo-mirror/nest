@@ -198,6 +198,7 @@ dev-db/datanymizer 0.6.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
+dev-db/ip4r 2.4.2 9999: IP address and IP range index types for PostgreSQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
 dev-db/mongodb-compass 1.43.6: The MongoDB GUI
 dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
@@ -213,6 +214,7 @@ dev-db/pg_repack 1.4.7 9999: PostgreSQL extension for data reorganization
 dev-db/pg_squeeze 1.3.1 9999: A PostgreSQL extension for automatic bloat cleanup
 dev-db/pg_timetable 3.0.0 9999: Advanced scheduling for PostgreSQL
 dev-db/pgcenter 0.9.1 0.9.2 9999: Command-line admin tool for observing and troubleshooting Postgres
+dev-db/pgloader 3.6.10 9999: A data loading tool for PostgreSQL, using the COPY command
 dev-db/pipelinedb 1.0.0.13 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 1.1.0 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.3 9999: Database access library for C++
@@ -314,7 +316,7 @@ dev-haskell/websockets 0.12.7.0 0.12.7.1: Allows you to write WebSocket-capable 
 dev-libs/belcard 5.3.86 9999: VCard standard format manipulation library
 dev-libs/belle-sip 5.3.86 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
-dev-libs/dstu-engine 1.3.3 9999: OpenSSL engine for DSTU 4145
+dev-libs/dstu-engine 1.3.4 9999: OpenSSL engine for DSTU 4145
 dev-libs/fastText 0.9.2 9999: Library for fast text representation and classification
 dev-libs/intel-dfp 2.0.3: Library routines related to building,parsing and iterating BSON documents
 dev-libs/libbson 1.27.5 9999: Library routines related to building,parsing and iterating BSON documents
@@ -323,6 +325,7 @@ dev-libs/libdatrie 0.2.13 9999: Double-Array Trie Library
 dev-libs/libdict 1.0.1 9999: C library of key-value data structures
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.8 9999: Library for handling digitally signed documents
+dev-libs/libfixposix 0.5.1 9999: Thin wrapper over POSIX syscalls
 dev-libs/liblinphone 5.3.86 9999: SIP library supporting voice/video calls and text messaging
 dev-libs/libmongocrypt 1.11.0 9999: C library for Client Side and Queryable Encryption in MongoDB
 dev-libs/libopenrazer 0.1.0 9999: Qt wrapper around the D-Bus API from OpenRazer
@@ -332,6 +335,157 @@ dev-libs/mongo-c-driver 1.27.5 9999: Client library written in C for MongoDB
 dev-libs/ucommon 7.0.1 9999: A class framework that was specifically designed for telephony applications
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
+dev-lisp/3bmd 9999 20240515: Markdown processor in Common Lisp using Esrap parser
+dev-lisp/access 9999 20240306: A common lisp library to unify access to common data-structures
+dev-lisp/anaphora 0.9.8 9999: The anaphoric macro collection from Hell
+dev-lisp/arnesi 9999 20170330: A bag-of-tools utilities library
+dev-lisp/asdf-finalizers 9999 20170327: Portable simple API to work with backtraces in Common Lisp
+dev-lisp/asdf-flv 9999 20230912: ASDF extension to provide support for file-local variables
+dev-lisp/asdf-system-connections 9999 20161223: Auto-loading of Common Lisp systems
+dev-lisp/babel 9999 20240605: A charset encoding/decoding library
+dev-lisp/bordeaux-threads 0.9.4 9999: Portable shared-state concurrency for Common Lisp
+dev-lisp/buildapp 1.5.6 9999: Buildapp makes it easy to build application executables with SBCL
+dev-lisp/cffi 9999 20240811: The Common Foreign Function Interface
+dev-lisp/chipz 9999 20230418: A library for decompressing deflate, zlib, and gzip data
+dev-lisp/chunga 1.1.9 9999: Portable chunked streams for Common Lisp
+dev-lisp/cl-abnf 9999 20200229: Common Lisp ABNF Parser Generator
+dev-lisp/cl-ansi-text 2.0.1 9999: ANSI control string characters, focused on color
+dev-lisp/cl-base64 3.4.0: Common Lisp package to encode and decode base64 with URI support
+dev-lisp/cl-colors 9999 20180307: Simple color library for Common Lisp
+dev-lisp/cl-colors2 0.6.1 9999: Simple color library for Common Lisp
+dev-lisp/cl-containers 9999 20240624: Containers Library for Common Lisp
+dev-lisp/cl-csv 9999 20240126: A common lisp library providing easy csv reading and writing
+dev-lisp/cl-db3 9999 20200212: A Common Lisp lib to read dbf files version 3
+dev-lisp/cl-difflib 9999 20090602: A Common Lisp library for computing differences between sequences
+dev-lisp/cl-fad 9999 20220110: Portable pathname library for Common Lisp
+dev-lisp/cl-graph 9999 20231003: Common Lisp library for manipulating graphs
+dev-lisp/cl-html-diff 9999 20090528: A Common Lisp library for generating a human-readable diff
+dev-lisp/cl-interpol 9999 20220725: Common Lisp surface syntax niceties
+dev-lisp/cl-ixf 9999 20170506: Tools to handle IBM PC version of IXF file format
+dev-lisp/cl-json 0.6.0 9999: Json encoder and decoder for Common-Lisp
+dev-lisp/cl-l10n 9999 20211201: Portable CL Locale Support
+dev-lisp/cl-l10n-cldr 9999 20101030: CLDR files for cl-l10n package
+dev-lisp/cl-log 1.0.1 9999: Common Lisp general purpose logging utility
+dev-lisp/cl-markdown 9999 20191219: Portable simple API to work with backtraces in Common Lisp
+dev-lisp/cl-mathstats 9999 20230111: An unordered collection of mathematical routines
+dev-lisp/cl-mssql 9999 20240902: Common Lisp library for interacting with MS SQL databases
+dev-lisp/cl-mustache 9999 20240926: Common Lisp Mustache Template Renderer
+dev-lisp/cl-pdf 9999 20230620: Cross-platform Common Lisp library for generating PDF files
+dev-lisp/cl-plus-ssl 9999 20230731: A Common Lisp interface to OpenSSL
+dev-lisp/cl-sqlite 0.2.1 9999: Common Lisp binding for SQLite
+dev-lisp/cl-typesetting 9999 20210414: Common Lisp Typesetting system
+dev-lisp/cl-utilities 1.2.4 9999: A library of semi-standard utilities
+dev-lisp/cl-variates 0.8.1 9999: Portable Common Lisp Random Number Generation
+dev-lisp/cl-who 1.1.5 9999: Yet another Lisp markup language
+dev-lisp/closer-mop 1.0.0 9999: Common Lisp Metaobject Protocol compatibility layer
+dev-lisp/closure-common 9999 20180909: An internal helper library for the closure web browser
+dev-lisp/clsql 6.7.2: A multi-platform SQL interface for Common Lisp
+dev-lisp/clsql-helper 9999 20180226: A Common Lisp library to smooth some of CLSQLs rough edges
+dev-lisp/clunit2 9999 20231108: Common Lisp unit testing framework
+dev-lisp/collectors 9999 20240524: A Common lisp library providing collector macros
+dev-lisp/colorize 9999 20241109: A Syntax Highlighting library
+dev-lisp/command-line-arguments 9999 20210718: Trivial command-line argument parsing library for Common Lisp
+dev-lisp/contextl 9999 20231021: CLOS extension for Context-oriented Programming
+dev-lisp/cxml 9999 20200605: An XML parser written in Common Lisp
+dev-lisp/data-table 9999 20230703: A Common Lisp data structure representing tabular data
+dev-lisp/documentation-utils 9999 20230703: A few simple tools to help you with documenting your library
+dev-lisp/drakma 9999 20240514: HTTP client written in Common Lisp
+dev-lisp/dynamic-classes 9999 20230809: Dynamic class definition for Common Lisp
+dev-lisp/eos 9999 20200731: A unit test library for Common Lisp
+dev-lisp/esrap 9999 20240514: Common Lisp packrat parser
+dev-lisp/fare-utils 9999 20221206: A collection of small utilities by Fare Rideau
+dev-lisp/fiasco 9999 20200514: A test framework for Common Lisp
+dev-lisp/fiveam 1.4.3 9999: Common Lisp regression testing framework
+dev-lisp/flexi-streams 1.0.20 9999: Flexible bivalent streams for Common Lisp
+dev-lisp/form-fiddle 9999 20230703: A collection of utilities to destructure lambda forms
+dev-lisp/garbage-pools 9999 20210107: Implementation pools for resource management
+dev-lisp/global-vars 9999 20141013: Define efficient global variables in Common Lisp
+dev-lisp/html-encode 1.2: Common Lisp library for encoding text in various web-savvy formats
+dev-lisp/hu-dwim-asdf 9999 20211203: Common Lisp extensions to ASDF
+dev-lisp/hu-dwim-common 9999 20150630: Common Lisp package with code shared by all hu.dwim projects
+dev-lisp/hu-dwim-common-lisp 9999 20210127: A redefinition of the standard Common Lisp package
+dev-lisp/hu-dwim-computed-class 9999 20200402: Constraint based change propagation with CLOS integration
+dev-lisp/hu-dwim-def 9999 20211211: One macro to define them all
+dev-lisp/hu-dwim-defclass-star 9999 20211212: A Common Lisp DEFCLASS* for less boilerplate
+dev-lisp/hu-dwim-delico 9999 20200724: Delimited, interpreted shift-reset continuation
+dev-lisp/hu-dwim-graphviz 9999 20211201: Graphviz layouting using CFFI bindings
+dev-lisp/hu-dwim-logger 9999 20211211: Generic purpose logger utility
+dev-lisp/hu-dwim-partial-eval 9999 20171128: Customizable partial evaluation for Common Lisp
+dev-lisp/hu-dwim-perec 9999 20200229: RDBMS based persistent CLOS, an object relational mapping (ORM)
+dev-lisp/hu-dwim-presentation 9999 20200118: Common Lisp component based GUI framework
+dev-lisp/hu-dwim-quasi-quote 9999 20220821: Quasi quoted domain specific languages and transformations
+dev-lisp/hu-dwim-rdbms 9999 20170425: Relational database independent RDBMS and SQL abstractions
+dev-lisp/hu-dwim-serializer 9999 20160122: Generic serializer and deserializer for Common Lisp
+dev-lisp/hu-dwim-stefil 9999 20211211: A Simple Test Framework In Lisp
+dev-lisp/hu-dwim-syntax-sugar 9999 20220821: Framework to work with syntax sugars in Common Lisp
+dev-lisp/hu-dwim-uri 9999 20170427: Uniform Resource Identifier in Common Lisp
+dev-lisp/hu-dwim-util 9999 20230127: Various utilities for Common Lisp
+dev-lisp/hu-dwim-walker 9999 20230127: Customizable code walker for Common Lisp
+dev-lisp/hu-dwim-web-server 9999 20200127: Common Lisp iolib based HTTP server
+dev-lisp/hu-dwim-zlib 9999 20240228: Common Lisp FFI wrapper for zlib
+dev-lisp/hunchentoot 1.3.1 9999: Web server written in Common Lisp
+dev-lisp/idna 9999 20111222: Common Lisp IDNA encding / decoding functions
+dev-lisp/ieee-floats 9999 20220126: Flexible bivalent streams for Common Lisp
+dev-lisp/iolib 9999 20240129: Common Lisp I/O library
+dev-lisp/ironclad 0.61 9999: A cryptographic toolkit written in Common Lisp
+dev-lisp/iterate 1.5.4 9999: A common lisp ITERATE macro library
+dev-lisp/kmrcl 1.111: General Utilities for Common Lisp Programs
+dev-lisp/language-codes 9999 20230703: A simple library mapping ISO language codes to language names
+dev-lisp/let-plus 9999 20191029: Common Lisp Destructuring extension of LET
+dev-lisp/lift 9999 20231004: LIsp Framework for Testing
+dev-lisp/lisp-unit2 9999 20221205: A Test Framework for Common Lisp in the style of JUnit
+dev-lisp/lml2 1.6.6: Lisp Markup Language
+dev-lisp/local-time 9999 20240817: Time manipulation library for Common Lisp
+dev-lisp/lparallel 2.8.4 9999: Parallelism for Common Lisp
+dev-lisp/lw-compat 9999 20160228: A few utility functions from the LispWorks library
+dev-lisp/md5 2.0.5 9999: Common Lisp implementation of the MD5 Message-Digest Algorithm
+dev-lisp/metabang-bind 9999 20230508: Cacro that generalizes multiple-value-bind
+dev-lisp/metacopy 9999 20230812: Flexible Common Lisp shallow/deep copy mechanism
+dev-lisp/metatilities-base 9999 20191219: Metabang base set of core utilities
+dev-lisp/mgl-pax 9999 20240517: Common Lisp documentation system
+dev-lisp/moptilities 9999 20170330: Compatibility layer for minor MOP implementation differences
+dev-lisp/multilang-documentation 9999 20230703: A drop-in replacement for cl:documentation
+dev-lisp/named-readtables 9999 20230828: Flexible bivalent streams for Common Lisp
+dev-lisp/optima 9999 20150628: Optimized Pattern Matching Library for Common Lisp
+dev-lisp/parachute 9999 20240708: An extensible and cross-compatible testing framework
+dev-lisp/parse-number 1.8 9999: Number parsing library
+dev-lisp/postmodern 1.33.12 9999: A Common Lisp PostgreSQL programming interface
+dev-lisp/prove 9999 20191231: Yet another unit testing framework for Common Lisp
+dev-lisp/ptester 20160829: Portable test harness package
+dev-lisp/puri 1.5.7.2: Portable Universal Resource Indentifier Library
+dev-lisp/py-configparser 9999 20170830: ConfigParser Python module functionality in Common Lisp
+dev-lisp/pythonic-string-reader 9999 20180618: A simple and unintrusive read table modification
+dev-lisp/qmynd 9999 20190529: MySQL Native Driver for Common Lisp
+dev-lisp/quri 9999 20240821: Yet another URI library for Common Lisp
+dev-lisp/rfc2109 9999 20151116: Common Lisp RFC2109 compliant cookies
+dev-lisp/rfc2388 9999 20180830: An implementation of RFC 2388 in Common Lisp
+dev-lisp/rfc2388-binary 9999 20161206: Parsing multipart/form-data data streams library
+dev-lisp/rt 20090812: Common Lisp regression tester from MIT
+dev-lisp/salza2 2.1 9999: Compressed data in the ZLIB, DEFLATE, or GZIP data formats
+dev-lisp/slime 2.30 9999: The Superior Lisp Interaction Mode for Emacs
+dev-lisp/split-sequence 2.0.1 9999: Functions to partition a Common Lisp sequence
+dev-lisp/swap-bytes 9999 20211205: Efficient endianness conversion for SBCL
+dev-lisp/symbol-munger 9999 20220120: A common lisp library to to help convert between various formats
+dev-lisp/system-locale 9999 20231223: A library to retrieve the system's configured locale and language
+dev-lisp/trivial-backtrace 9999 20230111: Portable simple API to work with backtraces in Common Lisp
+dev-lisp/trivial-custom-debugger 9999 20230814: Allows arbitrary functions to become the standard Lisp debugger
+dev-lisp/trivial-features 1.0 9999: Ensures consistent FEATURES across multiple implementations
+dev-lisp/trivial-garbage 0.21 9999: Portable GC-related APIs for Common Lisp
+dev-lisp/trivial-indent 9999 20230703: Allow indentation hints for SWANK
+dev-lisp/trivial-octet-streams 9999 20240424: A Common Lisp library for octet input and output streams
+dev-lisp/trivial-shell 9999 20240605: A simple Common-Lisp interface to the underlying Operating System
+dev-lisp/trivial-sockets 0.4 9999: A trivial networking library for Common Lisp
+dev-lisp/trivial-utf8 9999 20230828: Portable simple API to work with backtraces in Common Lisp
+dev-lisp/trivial-with-current-source-form 9999 20230605: Helps macro writers produce better errors for macro users
+dev-lisp/try 9999 20230828: Flexible bivalent streams for Common Lisp
+dev-lisp/uax15 9999 20240127: Common lisp implementation of unicode normalization functions
+dev-lisp/unit-test 9999 20120423: Common Lisp unit-testing framework
+dev-lisp/usocket 0.8.8 9999: Universal socket library for Common Lisp
+dev-lisp/uuid 9999 20200118: Common Lisp implementation of UUIDs according to RFC4122
+dev-lisp/xmls 9999 20240227: Simple, lightweight XML library for Common Lisp
+dev-lisp/yason 9999 20241012: Common Lisp JSON serializer written with simplicity in mind
+dev-lisp/zpb-ttf 1.0.7 9999: Access TrueType fonts with Common Lisp
+dev-lisp/zs3 1.3.3 9999: Common Lisp library for working with Amazon's S3
 dev-ml/camlimages 5.0.4 9999: An image manipulation library for ocaml
 dev-ml/camomile 1.0.2-r1 9999: A Unicode library for OCaml
 dev-ml/gd4o 1.0_beta1 9999: OCaml interface to the GD graphics library

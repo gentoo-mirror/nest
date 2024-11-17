@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Flexible bivalent streams for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/marijnh/ieee-floats
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/marijnh/ieee-floats/archive/9566ce8adfb299faef803d95736c780413a1373c.tar.gz -> ieee-floats-20220126.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=8a875b61a044d3a5ddec4359b77b5437

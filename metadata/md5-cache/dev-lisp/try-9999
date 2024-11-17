@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Flexible bivalent streams for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/melisgl/try
+INHERIT=common-lisp-3 git-r3
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-ppcre dev-lisp/closer-mop dev-lisp/ieee-floats dev-lisp/mgl-pax dev-lisp/named-readtables dev-lisp/pythonic-string-reader dev-lisp/trivial-gray-streams dev-lisp/uiop
+RESTRICT=test
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=5552a26aff52b34f8cd69d7e66d20b4f

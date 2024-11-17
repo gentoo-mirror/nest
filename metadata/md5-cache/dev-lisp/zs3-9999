@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Common Lisp library for working with Amazon's S3
+EAPI=8
+HOMEPAGE=https://github.com/xach/zs3
+INHERIT=common-lisp-3 git-r3
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-base64 dev-lisp/cxml dev-lisp/drakma dev-lisp/ironclad dev-lisp/puri
+RESTRICT=test
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=0448e1955ecd7a3f08d1ef1fc1214946

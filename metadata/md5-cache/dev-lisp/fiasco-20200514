@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/sbcl:* dev-lisp/uiop )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A test framework for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/joaotavora/fiasco
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0 public-domain
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/trivial-gray-streams
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/joaotavora/fiasco/archive/bb47d2fef4eb24cc16badc1c9a73d73c3a7e18f5.tar.gz -> fiasco-20200514.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=fea39b665b3f48691365e94b132b64bd

@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/arnesi dev-lisp/fiveam ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Parsing multipart/form-data data streams library
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/ucw/rfc2388-binary
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=917fa8199fe4954d301522603849eb0a

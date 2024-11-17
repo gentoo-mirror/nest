@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Cross-platform Common Lisp library for generating PDF files
+EAPI=8
+HOMEPAGE=https://github.com/mbattyani/cl-pdf
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/iterate dev-lisp/salza2 dev-lisp/uiop dev-lisp/zpb-ttf
+SLOT=0
+SRC_URI=https://github.com/mbattyani/cl-pdf/archive/0a1cd33b658c7101766781c534455d4d9e5972bf.tar.gz -> cl-pdf-20230620.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=2d0028b65cca41f4168885f715559bcb

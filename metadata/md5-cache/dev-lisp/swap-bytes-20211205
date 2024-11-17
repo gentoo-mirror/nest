@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Efficient endianness conversion for SBCL
+EAPI=8
+HOMEPAGE=https://github.com/sionescu/swap-bytes
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/trivial-features
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/sionescu/swap-bytes/archive/43ab1410a080d8abfe39078c1b3cecc32cf458f6.tar.gz -> swap-bytes-20211205.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=d64ebeb4fb1754e5e1ae988c1b7fbb84

@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lang/spidermonkey:115 dev-lisp/hu-dwim-stefil dev-lisp/parse-number dev-lisp/uiop ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
+DESCRIPTION=Quasi quoted domain specific languages and transformations
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.quasi-quote
+INHERIT=common-lisp-3 git-r3
+IUSE=doc test
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/babel dev-lisp/cffi dev-lisp/cl-ppcre dev-lisp/cxml dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-defclass-star dev-lisp/hu-dwim-syntax-sugar dev-lisp/hu-dwim-walker doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=f01ac60ad44f7d9a68817c3a9dc3f639

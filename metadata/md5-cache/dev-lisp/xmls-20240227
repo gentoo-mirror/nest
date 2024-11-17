@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Simple, lightweight XML library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/rpgoldman/xmls
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cl-ppcre dev-lisp/flexi-streams
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/rpgoldman/xmls/archive/1bdcdea100718b3720fcceadc4ea9ecd7ba819eb.tar.gz -> xmls-20240227.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=a124f2f7624d5aeb6be0e1e88c22e55a

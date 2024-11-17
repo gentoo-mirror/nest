@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=Portable simple API to work with backtraces in Common Lisp
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/cl-markdown/cl-markdown
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/anaphora dev-lisp/cl-containers dev-lisp/cl-html-diff dev-lisp/cl-ppcre dev-lisp/dynamic-classes dev-lisp/html-encode dev-lisp/lml2 dev-lisp/metabang-bind dev-lisp/metatilities-base dev-lisp/trivial-shell
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.common-lisp.net/cl-markdown/cl-markdown/-/archive/master/cl-markdown-master.tar.bz2
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=7798edce8033434030b1f8ef0b1958bb

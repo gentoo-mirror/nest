@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A redefinition of the standard Common Lisp package
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.common-lisp
+INHERIT=common-lisp-3 git-r3
+IUSE=doc
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/hu-dwim-asdf doc? ( dev-lisp/hu-dwim-presentation )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=5551c01792f013e313da4e7689e9d79e

@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiasco )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Time manipulation library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/dlowe-net/local-time
+INHERIT=common-lisp-3
+IUSE=postgres test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/uiop postgres? ( dev-lisp/postmodern )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/dlowe-net/local-time/archive/5a0955283b6ac585a8f13229bbda9f9193c59903.tar.gz -> local-time-20240817.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=6bad00032d2a5cc586f2b9a765c6a147

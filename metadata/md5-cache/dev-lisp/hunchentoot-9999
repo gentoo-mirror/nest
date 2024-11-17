@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/cl-who dev-lisp/drakma ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Web server written in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/edicl/hunchentoot
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/bordeaux-threads dev-lisp/chunga dev-lisp/cl-base64 dev-lisp/cl-fad dev-lisp/cl-ppcre dev-lisp/cl-plus-ssl dev-lisp/flexi-streams dev-lisp/md5 dev-lisp/rfc2388 dev-lisp/trivial-backtrace dev-lisp/usocket
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=e266384ab652b046e623671ea0cbc522

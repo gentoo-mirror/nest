@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=CLDR files for cl-l10n package
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/cl-l10n/cl-l10n-cldr
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=Unicode-DFS-2016
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://gitlab.common-lisp.net/cl-l10n/cl-l10n-cldr/-/archive/master/cl-l10n-cldr-master.tar.bz2
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=d3b1ea3543d1ed59a503ecb5a3a22adb

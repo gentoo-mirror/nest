@@ -1,0 +1,17 @@
+BDEPEND=app-arch/unzip dev-lisp/asdf test? ( dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=RDBMS based persistent CLOS, an object relational mapping (ORM)
+EAPI=8
+HOMEPAGE=https://hub.darcs.net/hu.dwim/hu.dwim.perec
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/babel dev-lisp/cl-containers dev-lisp/cl-ppcre dev-lisp/contextl dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-computed-class dev-lisp/hu-dwim-def dev-lisp/hu-dwim-defclass-star dev-lisp/hu-dwim-logger dev-lisp/hu-dwim-quasi-quote dev-lisp/hu-dwim-rdbms dev-lisp/hu-dwim-serializer dev-lisp/hu-dwim-syntax-sugar dev-lisp/hu-dwim-walker dev-lisp/iolib dev-lisp/ironclad dev-lisp/local-time dev-lisp/metacopy dev-lisp/parse-number doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.perec/dist -> hu-dwim-perec-20200229.zip
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=2bc31a88e8139ce3554b7dac3c654d21

@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/sbcl:* dev-lisp/uiop ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=A test framework for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/joaotavora/fiasco
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT-0 public-domain
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/trivial-gray-streams
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=19f9b3839e5669d740e6b5b7fe46f544

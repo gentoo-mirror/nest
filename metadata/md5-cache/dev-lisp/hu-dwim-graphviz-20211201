@@ -1,0 +1,17 @@
+BDEPEND=virtual/pkgconfig test? ( dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install
+DESCRIPTION=Graphviz layouting using CFFI bindings
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.graphviz
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cffi dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/metabang-bind media-gfx/graphviz doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.graphviz/archive/31522ca8b9a04d535b7cec20ef24d8bf3b26d52b.tar.gz -> hu-dwim-graphviz-20211201.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=9216810f54024ccb3379e198a42960d0

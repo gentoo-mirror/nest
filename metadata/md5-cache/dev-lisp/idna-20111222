@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp IDNA encding / decoding functions
+EAPI=8
+HOMEPAGE=https://github.com/antifuchs/idna
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://github.com/antifuchs/idna/archive/bf789e6029b695ecba635964deac38130f55c7b4.tar.gz -> idna-20111222.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=2001da09aae2a7bfed8f6e209829c69d

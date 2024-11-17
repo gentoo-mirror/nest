@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/cl-ppcre dev-lisp/unit-test ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Portable pathname library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/edicl/cl-fad
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/bordeaux-threads
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=7e2fc68184870e3a12d4de7aec0de68b

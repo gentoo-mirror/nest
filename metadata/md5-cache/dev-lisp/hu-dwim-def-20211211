@@ -1,0 +1,17 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/hu-dwim-stefil dev-lisp/optima )
+DEFINED_PHASES=compile install test
+DESCRIPTION=One macro to define them all
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.def
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/anaphora dev-lisp/bordeaux-threads dev-lisp/cl-l10n dev-lisp/contextl dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-delico dev-lisp/iterate dev-lisp/metabang-bind dev-lisp/slime dev-lisp/trivial-garbage doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.def/archive/6801c4c483869e3db5d1d598a292322f6ee4cd92.tar.gz -> hu-dwim-def-20211211.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=0ea839d97b4ead1ab343ebfa837b602e

@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/prove )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp Mustache Template Renderer
+EAPI=8
+HOMEPAGE=https://github.com/kanru/cl-mustache
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/uiop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/kanru/cl-mustache/archive/4d1208c8718712f5c88c8397c41c06fc80b2e8e8.tar.gz -> cl-mustache-20240926.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=be5d0136d8e7d42153f6764e41f70bf3

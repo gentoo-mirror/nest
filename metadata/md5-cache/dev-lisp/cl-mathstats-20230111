@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install test
+DESCRIPTION=An unordered collection of mathematical routines
+EAPI=8
+HOMEPAGE=https://github.com/hraban/cl-mathstats
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cl-containers dev-lisp/metatilities-base
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hraban/cl-mathstats/archive/6c7b19ad1ea0d5c1e4386f16d202511c46c2eefd.tar.gz -> cl-mathstats-20230111.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=2f2a6509fd509df2eeb32c3c58ae7947

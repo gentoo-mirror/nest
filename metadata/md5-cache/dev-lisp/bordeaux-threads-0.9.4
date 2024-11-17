@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Portable shared-state concurrency for Common Lisp
+EAPI=8
+HOMEPAGE=https://bordeaux-threads.common-lisp.dev
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria:0= dev-lisp/global-vars dev-lisp/trivial-features dev-lisp/trivial-garbage
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/sionescu/bordeaux-threads/archive/v0.9.4.tar.gz -> bordeaux-threads-0.9.4.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=e497df12f9a2bbf9b596f290c6d7b898

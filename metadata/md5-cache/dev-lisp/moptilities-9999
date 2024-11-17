@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/lift ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
+DESCRIPTION=Compatibility layer for minor MOP implementation differences
+EAPI=8
+HOMEPAGE=https://github.com/hraban/moptilities
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/closer-mop
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=34f654317a0f10b5cc61a816795812c3

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Helps macro writers produce better errors for macro users
+EAPI=8
+HOMEPAGE=https://github.com/scymtym/trivial-with-current-source-form
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria
+SLOT=0
+SRC_URI=https://github.com/scymtym/trivial-with-current-source-form/archive/dc3fff9d4e04f1613227c25a290c8f34e9f8a311.tar.gz -> trivial-with-current-source-form-20230605.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=dd11a77b2ab5361e9910e43172e1e957

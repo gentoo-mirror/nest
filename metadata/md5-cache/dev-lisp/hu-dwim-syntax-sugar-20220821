@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/hu-dwim-stefil dev-lisp/uiop )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Framework to work with syntax sugars in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.syntax-sugar
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-walker doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.syntax-sugar/archive/0927cf2db26eac114e8a61f478ccdd01b37a4639.tar.gz -> hu-dwim-syntax-sugar-20220821.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=dc11dee0840ca56db20c4358033cbcb6

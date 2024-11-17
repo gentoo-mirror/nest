@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/prove )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Yet another URI library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/fukamachi/quri
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/babel dev-lisp/cl-utilities dev-lisp/idna dev-lisp/split-sequence
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/fukamachi/quri/archive/45e0ff7f15a96ae9aef02b977375c6984d57a608.tar.gz -> quri-20240821.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=53ea1ed7709fb2a4e9d38641aade2bbe

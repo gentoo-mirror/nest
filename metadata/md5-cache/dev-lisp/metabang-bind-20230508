@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Cacro that generalizes multiple-value-bind
+EAPI=8
+HOMEPAGE=https://github.com/hraban/metabang-bind
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hraban/metabang-bind/archive/08196426cb099db0623e6cae2aeca566e0b788b2.tar.gz -> metabang-bind-20230508.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=d7a21a6e4f68e454fe6db64f4773a5da

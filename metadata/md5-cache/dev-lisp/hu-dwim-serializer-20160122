@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/asdf dev-lisp/hu-dwim-stefil dev-lisp/uiop )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Generic serializer and deserializer for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.serializer
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/babel dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-def dev-lisp/hu-dwim-syntax-sugar doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.serializer/archive/d453f7687bb0db4dbd818419855faecda6eeb737.tar.gz -> hu-dwim-serializer-20160122.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=dbb5b2f3f1b61def80111d95554cb8f6

@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lift ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Portable simple API to work with backtraces in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hraban/trivial-backtrace
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=7993848e19656fe80453e12bee7efbd6

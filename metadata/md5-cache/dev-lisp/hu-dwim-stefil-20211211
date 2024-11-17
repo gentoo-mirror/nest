@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/uiop )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A Simple Test Framework In Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.stefil
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/slime
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.stefil/archive/7a172486ea51c5d38836e5b209d7135014506d19.tar.gz -> hu-dwim-stefil-20211211.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=9b799a342c2e74b0c6824b1eff388b59

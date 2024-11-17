@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/lisp-unit2 ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=A Common Lisp library to smooth some of CLSQLs rough edges
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/clsql-helper
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/access dev-lisp/alexandria dev-lisp/cl-interpol dev-lisp/closer-mop dev-lisp/cl-ppcre dev-lisp/clsql dev-lisp/collectors dev-lisp/iterate dev-lisp/md5 dev-lisp/symbol-munger
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=7138a525ec43796799040fa18c02baaf

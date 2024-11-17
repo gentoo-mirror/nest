@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/rt ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Ensures consistent FEATURES across multiple implementations
+EAPI=8
+HOMEPAGE=https://github.com/trivial-features/trivial-features
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/cffi
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=411b5a6339cb01cfce3eb4b01be556de

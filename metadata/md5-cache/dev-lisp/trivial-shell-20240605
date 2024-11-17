@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A simple Common-Lisp interface to the underlying Operating System
+EAPI=8
+HOMEPAGE=https://github.com/hraban/trivial-shell
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hraban/trivial-shell/archive/352a464ae3be61778f7080b8aad51d48d544345f.tar.gz -> trivial-shell-20240605.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f4b26d2820d8fbb4d9b779644da16dfa

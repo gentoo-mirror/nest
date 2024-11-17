@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=A bag-of-tools utilities library
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/arnesi
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/cl-ppcre dev-lisp/collectors dev-lisp/slime
+RESTRICT=test
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=9a9b7daf56a69fab522487d1a28f78c0

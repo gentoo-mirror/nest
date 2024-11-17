@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=An extensible and cross-compatible testing framework
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/parachute
+INHERIT=common-lisp-3 git-r3
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/cl-ppcre dev-lisp/documentation-utils dev-lisp/form-fiddle dev-lisp/trivial-custom-debugger
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=1b03c74888edec0f31daca33cc5af5f1

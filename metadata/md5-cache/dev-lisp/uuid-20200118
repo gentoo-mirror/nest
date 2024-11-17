@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=Common Lisp implementation of UUIDs according to RFC4122
+EAPI=8
+HOMEPAGE=https://github.com/dardoria/uuid
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=LLGPL-2.1
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/ironclad dev-lisp/trivial-utf8
+SLOT=0
+SRC_URI=https://github.com/dardoria/uuid/archive/f0052f34a006ec995086aa3b2e42182a178fe228.tar.gz -> uuid-20200118.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=9fb226ba437bf50d43685cfd80be6664

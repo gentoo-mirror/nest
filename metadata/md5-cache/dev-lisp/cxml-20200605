@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=An XML parser written in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/sharplispers/cxml
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=LLGPL-2.1
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/closure-common dev-lisp/puri dev-lisp/trivial-gray-streams
+SLOT=0
+SRC_URI=https://github.com/sharplispers/cxml/archive/8701da08ba4aac30891b8d2005edb018c1d3d796.tar.gz -> cxml-20200605.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=eb375089568aa8062e8a11598ff1694c

@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp Typesetting system
+EAPI=8
+HOMEPAGE=https://github.com/mbattyani/cl-typesetting
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cl-pdf dev-lisp/xmls
+SLOT=0
+SRC_URI=https://github.com/mbattyani/cl-typesetting/archive/86eba981fc4254addebecf765578ec350d6e3b75.tar.gz -> cl-typesetting-20210414.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=1f9248ef4b6a6e85f384a38546b1d2d0

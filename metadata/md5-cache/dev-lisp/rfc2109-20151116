@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/sbcl:* dev-lisp/fiveam )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=Common Lisp RFC2109 compliant cookies
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/rfc2109/rfc2109
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/split-sequence
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.common-lisp.net/rfc2109/rfc2109/-/archive/master/rfc2109-master.tar.bz2
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=55749822ff5b15dfceedff15ab7985e1

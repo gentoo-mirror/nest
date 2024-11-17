@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/rt )
+DEFINED_PHASES=compile install test
+DESCRIPTION=General Utilities for Common Lisp Programs
+EAPI=8
+HOMEPAGE=https://tracker.debian.org/pkg/cl-kmrcl
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cl-kmrcl/cl-kmrcl_1.111.orig.tar.gz -> kmrcl-1.111.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=e32ca4b5dd39573502e09c1e7a3c23b4

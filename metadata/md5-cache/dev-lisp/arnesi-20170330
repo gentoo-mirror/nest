@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A bag-of-tools utilities library
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/arnesi
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cl-ppcre dev-lisp/collectors dev-lisp/slime
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/AccelerationNet/arnesi/archive/1e7dc4cb2cad8599113c7492c78f4925e839522e.tar.gz -> arnesi-20170330.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=4697114ead47e912e5b5164b83c44e22

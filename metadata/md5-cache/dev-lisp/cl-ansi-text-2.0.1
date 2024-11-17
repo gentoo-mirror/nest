@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/sbcl:* dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=ANSI control string characters, focused on color
+EAPI=8
+HOMEPAGE=https://github.com/pnathan/cl-ansi-text
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=LLGPL-2.1
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-colors2
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/pnathan/cl-ansi-text/archive/v2.0.1.tar.gz -> cl-ansi-text-2.0.1.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=6ff3ee1a638eb05029c87e0bf6910ffa

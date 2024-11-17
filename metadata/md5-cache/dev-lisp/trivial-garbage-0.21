@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/rt )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Portable GC-related APIs for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/trivial-garbage/trivial-garbage
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/trivial-garbage/trivial-garbage/archive/v0.21.tar.gz -> trivial-garbage-0.21.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=411afd5ee3222d040edac10bd87b39d9

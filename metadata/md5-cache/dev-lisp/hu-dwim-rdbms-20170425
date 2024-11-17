@@ -1,0 +1,17 @@
+BDEPEND=app-arch/unzip test? ( dev-lisp/asdf dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Relational database independent RDBMS and SQL abstractions
+EAPI=8
+HOMEPAGE=https://hub.darcs.net/hu.dwim/hu.dwim.rdbms
+INHERIT=common-lisp-3
+IUSE=doc oracle postgres sqlite test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/babel dev-lisp/cffi dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-defclass-star dev-lisp/hu-dwim-logger dev-lisp/hu-dwim-syntax-sugar dev-lisp/hu-dwim-walker dev-lisp/ironclad dev-lisp/local-time doc? ( dev-lisp/hu-dwim-presentation ) oracle? ( dev-db/oracle-instantclient ) postgres? ( dev-db/postgresql dev-lisp/postmodern ) sqlite? ( dev-db/sqlite:3 )
+REQUIRED_USE=doc? ( test ) test? ( oracle postgres sqlite )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.rdbms/dist -> hu-dwim-rdbms-20170425.zip
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=ac58107dbf0c6d5f7615459b46b449d1

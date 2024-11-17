@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/lisp-unit2 )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A common lisp library to to help convert between various formats
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/symbol-munger
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/iterate
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/AccelerationNet/symbol-munger/archive/e96558e8315b8eef3822be713354787b2348b25e.tar.gz -> symbol-munger-20220120.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=c9e92316460f71b04ba05c95b0f92d2a

@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Implementation pools for resource management
+EAPI=8
+HOMEPAGE=https://github.com/archimag/garbage-pools
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/archimag/garbage-pools/archive/9a7cb7f48b04197c0495df3b6d2e8395ad13f790.tar.gz -> garbage-pools-20210107.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f5c393f1778c3e8a2fd1287edb012439

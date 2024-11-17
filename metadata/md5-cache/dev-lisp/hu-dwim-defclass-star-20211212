@@ -1,0 +1,17 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/hu-dwim-common dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A Common Lisp DEFCLASS* for less boilerplate
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.defclass-star
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/contextl dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.defclass-star/archive/e376d47ca82e33e171b45fd0fc4c39a9f20f95ab.tar.gz -> hu-dwim-defclass-star-20211212.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=4fdff42be3eb8bc836c0f8cb910fc151

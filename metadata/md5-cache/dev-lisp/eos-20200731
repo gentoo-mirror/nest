@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=A unit test library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/adlai/Eos
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/adlai/Eos/archive/b4413bccc4d142cbe1bf49516c3a0a22c9d99243.tar.gz -> eos-20200731.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=20be375578448974db7976b28e018410

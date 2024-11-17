@@ -1,0 +1,12 @@
+BDEPEND=dev-lisp/asdf >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A few utility functions from the LispWorks library
+EAPI=8
+HOMEPAGE=https://github.com/pcostanza/lw-compat
+INHERIT=common-lisp-3 git-r3
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=c353924c14a2a8fa785cb03851df0e89

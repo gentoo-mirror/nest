@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/try ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Common Lisp documentation system
+EAPI=8
+HOMEPAGE=https://github.com/melisgl/mgl-pax
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT
+PDEPEND=dev-lisp/named-readtables virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/3bmd dev-lisp/alexandria dev-lisp/hunchentoot dev-lisp/md5 dev-lisp/pythonic-string-reader dev-lisp/slime dev-lisp/trivial-utf8
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=11ca5235be83f48ba688a21bcd0274b2

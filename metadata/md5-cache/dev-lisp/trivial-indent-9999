@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Allow indentation hints for SWANK
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/trivial-indent
+INHERIT=common-lisp-3 git-r3
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=af14b82afebfb64c1eac162970c3b171

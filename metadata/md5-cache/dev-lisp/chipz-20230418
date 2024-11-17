@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/salza2 )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A library for decompressing deflate, zlib, and gzip data
+EAPI=8
+HOMEPAGE=https://github.com/sharplispers/chipz
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/sharplispers/chipz/archive/6f803684415704114f213c64e13b231627e7777f.tar.gz -> chipz-20230418.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=29aded7c4832c745f7e28ef171b9c9c0

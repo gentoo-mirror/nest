@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=Tools to handle IBM PC version of IXF file format
+EAPI=8
+HOMEPAGE=https://github.com/dimitri/cl-ixf
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=WTFPL-2
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/babel dev-lisp/cl-ppcre dev-lisp/ieee-floats dev-lisp/local-time dev-lisp/md5 dev-lisp/split-sequence
+SLOT=0
+SRC_URI=https://github.com/dimitri/cl-ixf/archive/ed26f87e4127e4a9e3aac4ff1e60d1f39cca5183.tar.gz -> cl-ixf-20170506.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=d97d4ef62a3d3b5fdf3affb3ed4c6728

@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/hu-dwim-stefil dev-lisp/hu-dwim-util )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Delimited, interpreted shift-reset continuation
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.delico
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/contextl dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/hu-dwim-walker doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.delico/archive/7cd4a308d1803574efd911a89d097af7a22023bb.tar.gz -> hu-dwim-delico-20200724.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=20f0b5981051f8ba7e444216f7268181

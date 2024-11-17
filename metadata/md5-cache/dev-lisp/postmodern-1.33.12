@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-db/postgresql:16[server] dev-lisp/fiveam dev-lisp/local-time dev-lisp/trivial-octet-streams )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A Common Lisp PostgreSQL programming interface
+EAPI=8
+HOMEPAGE=https://marijnhaverbeke.nl/postmodern/
+INHERIT=common-lisp-3
+IUSE=ssl test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT POSTGRESQL ZLIB
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/asdf-system-connections dev-lisp/alexandria dev-lisp/bordeaux-threads dev-lisp/cl-base64 dev-lisp/closer-mop dev-lisp/ironclad dev-lisp/global-vars dev-lisp/md5 dev-lisp/split-sequence dev-lisp/usocket ssl? ( dev-lisp/cl-plus-ssl )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/marijnh/Postmodern/archive/v1.33.12.tar.gz -> Postmodern-1.33.12.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=b382b7973a84ce7e3c9adfb652ad0e82

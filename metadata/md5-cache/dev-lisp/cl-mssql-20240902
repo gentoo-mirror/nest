@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Common Lisp library for interacting with MS SQL databases
+EAPI=8
+HOMEPAGE=https://github.com/archimag/cl-mssql
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=LLGPL-2.1
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-db/freetds[mssql] dev-lisp/cffi dev-lisp/iterate dev-lisp/garbage-pools dev-lisp/parse-number
+SLOT=0
+SRC_URI=https://github.com/archimag/cl-mssql/archive/64c8c8a6be723011b184a7800ac99df6dbfdd756.tar.gz -> cl-mssql-20240902.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=01c656a5e26dd9a720165eee42a42784

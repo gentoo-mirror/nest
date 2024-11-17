@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=Common Lisp Metaobject Protocol compatibility layer
+EAPI=8
+HOMEPAGE=https://closer.common-lisp.dev/closer-mop.html
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://github.com/pcostanza/closer-mop/archive/v1.0.0.tar.gz -> closer-mop-1.0.0.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=05606bacea0689abb016c6ef6b888fcb

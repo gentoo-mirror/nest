@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Optimized Pattern Matching Library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/m2ym/optima
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=LLGPL-2.1
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/closer-mop dev-lisp/cl-ppcre
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/m2ym/optima/archive/373b245b928c1a5cce91a6cb5bfe5dd77eb36195.tar.gz -> optima-20150628.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=9b344069780470536e876d1d891ce250

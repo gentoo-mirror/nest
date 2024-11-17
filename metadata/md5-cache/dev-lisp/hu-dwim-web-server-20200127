@@ -1,0 +1,16 @@
+BDEPEND=app-arch/unzip test? ( dev-lisp/asdf dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp iolib based HTTP server
+EAPI=8
+HOMEPAGE=https://hub.darcs.net/hu.dwim/hu.dwim.web-server
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/babel dev-lisp/bordeaux-threads dev-lisp/cffi dev-lisp/cl-base64 dev-lisp/cl-plus-ssl dev-lisp/drakma dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-computed-class dev-lisp/hu-dwim-def dev-lisp/hu-dwim-logger dev-lisp/hu-dwim-perec dev-lisp/hu-dwim-quasi-quote dev-lisp/hu-dwim-syntax-sugar dev-lisp/hu-dwim-uri dev-lisp/hu-dwim-zlib dev-lisp/iolib dev-lisp/ironclad dev-lisp/local-time dev-lisp/parse-number dev-lisp/rfc2109 dev-lisp/rfc2388-binary doc? ( dev-lisp/hu-dwim-presentation )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.web-server/dist -> hu-dwim-web-server-20200127.zip
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=7a7daaaba435b03cb62ba6f9ef41b311

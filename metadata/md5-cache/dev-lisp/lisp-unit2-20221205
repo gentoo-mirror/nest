@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=A Test Framework for Common Lisp in the style of JUnit
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/lisp-unit2
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-interpol dev-lisp/iterate dev-lisp/symbol-munger
+SLOT=0
+SRC_URI=https://github.com/AccelerationNet/lisp-unit2/archive/b5aa17b298cf2f669f4c0262c471e1ee4ab4699a.tar.gz -> lisp-unit2-20221205.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=62ddd2f6311b9317fed0613795ba394f

@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Tools to handle IBM PC version of IXF file format
+EAPI=8
+HOMEPAGE=https://github.com/dimitri/cl-ixf
+INHERIT=common-lisp-3 git-r3
+LICENSE=WTFPL-2
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/babel dev-lisp/cl-ppcre dev-lisp/ieee-floats dev-lisp/local-time dev-lisp/md5 dev-lisp/split-sequence
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=14b60d65177e7ea682af20d0a5bdb6b5

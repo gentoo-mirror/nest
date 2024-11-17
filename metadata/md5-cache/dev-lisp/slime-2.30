@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf sys-apps/texinfo
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=The Superior Lisp Interaction Mode for Emacs
+EAPI=8
+HOMEPAGE=https://github.com/slime/slime
+INHERIT=common-lisp-3
+IUSE=xref
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain GPL-2+ GPL-3+ LLGPL-2.1 ZLIB xref? ( xref.lisp )
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://github.com/slime/slime/archive/v2.30.tar.gz -> slime-2.30.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=b9f281d0e377533df2a745783ec997c2

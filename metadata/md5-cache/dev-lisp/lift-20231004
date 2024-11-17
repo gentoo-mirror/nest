@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=LIsp Framework for Testing
+EAPI=8
+HOMEPAGE=https://github.com/hraban/lift
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://github.com/hraban/lift/archive/a7941845a9de72be60e66ea941aa34cbee35bf23.tar.gz -> lift-20231004.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=fdd4eff3e9c39eebeab5f3c0a64c7b76

@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Customizable partial evaluation for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.partial-eval
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-def dev-lisp/hu-dwim-defclass-star dev-lisp/hu-dwim-logger dev-lisp/slime dev-lisp/hu-dwim-syntax-sugar dev-lisp/hu-dwim-walker
+REQUIRED_USE=doc? ( test )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.partial-eval/archive/f9babc7827d19b729098c46f66f32daa4c966299.tar.gz -> hu-dwim-partial-eval-20171128.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=401a3a72f052c1f0159a74c55afb30c2

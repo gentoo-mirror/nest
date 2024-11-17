@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lisp-unit2 )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A Common Lisp data structure representing tabular data
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/data-table
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-interpol dev-lisp/clsql dev-lisp/clsql-helper dev-lisp/collectors dev-lisp/iterate dev-lisp/symbol-munger
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/AccelerationNet/data-table/archive/fe3a9e66e0105c97002ccb4ec6e82f606f54760b.tar.gz -> data-table-20230703.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=c584f5765363c1de4d5c70ff18b70b76

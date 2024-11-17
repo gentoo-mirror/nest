@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lisp-unit2 )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=A common lisp library providing easy csv reading and writing
+EAPI=8
+HOMEPAGE=https://github.com/AccelerationNet/cl-csv
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/cl-interpol dev-lisp/clsql-helper dev-lisp/data-table dev-lisp/iterate
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/AccelerationNet/cl-csv/archive/2d64d4183bfc91824068cd4cf3414238d3c00fe5.tar.gz -> cl-csv-20240126.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f3308820852f8b0420d80029f6053cb6

@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/asdf )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Define efficient global variables in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/lmj/global-vars
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/lmj/global-vars/archive/c749f32c9b606a1457daa47d59630708ac0c266e.tar.gz -> global-vars-20141013.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=9fbcdd0f86af5f483b9d88cd83f2affc

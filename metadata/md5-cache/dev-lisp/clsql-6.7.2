@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/rt )
+DEFINED_PHASES=compile configure install prepare test
+DESCRIPTION=A multi-platform SQL interface for Common Lisp
+EAPI=8
+HOMEPAGE=https://tracker.debian.org/pkg/cl-sql
+INHERIT=common-lisp-3 toolchain-funcs
+IUSE=mysql odbc oracle postgres sqlite test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cffi dev-lisp/md5 mysql? ( virtual/mysql ) odbc? ( dev-db/unixODBC ) oracle? ( dev-db/oracle-instantclient ) postgres? ( dev-db/postgresql dev-lisp/postmodern ) sqlite? ( dev-db/sqlite:3 )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cl-sql/cl-sql_6.7.2.orig.tar.gz -> clsql-6.7.2.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96
+_md5_=0b6094e6c85b13f5769eaa79b3a76e51

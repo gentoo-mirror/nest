@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/hu-dwim-stefil dev-lisp/uiop )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Uniform Resource Identifier in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.uri
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/babel dev-lisp/cl-ppcre dev-lisp/hu-dwim-asdf dev-lisp/iolib
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.uri/archive/199ca781d8446618f90b63d06c00858f2bf21636.tar.gz -> hu-dwim-uri-20170427.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=1e9fb9c3d94d9b9d256b1f50013e5a9a

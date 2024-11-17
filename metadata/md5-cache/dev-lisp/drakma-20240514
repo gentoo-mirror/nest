@@ -1,0 +1,17 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/fiveam dev-lisp/hunchentoot )
+DEFINED_PHASES=compile install test
+DESCRIPTION=HTTP client written in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/edicl/drakma
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+PROPERTIES=test_network
+RDEPEND=dev-lisp/chipz dev-lisp/chunga dev-lisp/cl-base64 dev-lisp/cl-ppcre dev-lisp/cl-plus-ssl dev-lisp/flexi-streams dev-lisp/puri dev-lisp/usocket
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/edicl/drakma/archive/501c72becc64da7fb5546af8c34be9c655a86dac.tar.gz -> drakma-20240514.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=142b3f1d9b915fbce9e821b58de3d97a

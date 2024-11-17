@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Flexible Common Lisp shallow/deep copy mechanism
+EAPI=8
+HOMEPAGE=https://github.com/hraban/metacopy
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/contextl dev-lisp/moptilities
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hraban/metacopy/archive/df7856f2a43fa91124fe780ef22f792040bc130c.tar.gz -> metacopy-20230812.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f9d843ea2ece613af6ed9c7a56bf5bcc

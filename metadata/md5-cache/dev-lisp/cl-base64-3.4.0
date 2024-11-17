@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/kmrcl dev-lisp/ptester )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp package to encode and decode base64 with URI support
+EAPI=8
+HOMEPAGE=https://tracker.debian.org/pkg/cl-base64
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cl-base64/cl-base64_3.4.0.orig.tar.gz -> cl-base64-3.4.0.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=a6debff75d0527023b56f799e225927a

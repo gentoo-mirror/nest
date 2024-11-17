@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=A Common Lisp lib to read dbf files version 3
+EAPI=8
+HOMEPAGE=https://github.com/dimitri/cl-db3
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=WTFPL-2
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://github.com/dimitri/cl-db3/archive/38e5ad35f025769fb7f8dcdc6e56df3e8efd8e6d.tar.gz -> cl-db3-20200212.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=c65601ae70a5aa028adf807f2c3ce333

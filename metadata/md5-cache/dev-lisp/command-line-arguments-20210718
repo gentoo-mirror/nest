@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/alexandria dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Trivial command-line argument parsing library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/fare/command-line-arguments
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/uiop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/fare/command-line-arguments/archive/5008c4e4cac5dad8f00438c6d335f36bc4fa6747.tar.gz -> command-line-arguments-20210718.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=ab568a08b4cb78cbe327ee01aa534f83

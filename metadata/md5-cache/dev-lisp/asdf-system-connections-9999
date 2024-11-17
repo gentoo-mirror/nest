@@ -1,0 +1,12 @@
+BDEPEND=dev-lisp/asdf >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Auto-loading of Common Lisp systems
+EAPI=8
+HOMEPAGE=https://github.com/lisp-maintainers/asdf-system-connections
+INHERIT=common-lisp-3 git-r3
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=23ecec3ff2d5f209119b2e73a5d90911

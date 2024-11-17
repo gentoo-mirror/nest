@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=An implementation of RFC 2388 in Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/jdz/rfc2388
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://github.com/jdz/rfc2388/archive/591bcf7e77f2c222c43953a80f8c297751dc0c4e.tar.gz -> rfc2388-20180830.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=5e8062df911a9396e7d4e6bef907551c

@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=A collection of small utilities by Fare Rideau
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/frideau/fare-utils
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://gitlab.common-lisp.net/frideau/fare-utils/-/archive/master/fare-utils-master.tar.bz2
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=bd938bf23513b4982d0d0889e25defd2

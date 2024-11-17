@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-lisp/sbcl:* dev-lisp/hu-dwim-stefil dev-lisp/parse-number dev-lisp/uiop )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=Quasi quoted domain specific languages and transformations
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.quasi-quote
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/babel dev-lisp/cffi dev-lisp/cl-ppcre dev-lisp/cxml dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common dev-lisp/hu-dwim-defclass-star dev-lisp/hu-dwim-syntax-sugar dev-lisp/hu-dwim-walker doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.quasi-quote/archive/2d8f6c88fc2cda3cb5068f4687a7af7a1ad4afb8.tar.gz -> hu-dwim-quasi-quote-20220821.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=5ca2f4666eb5ee9abb4e30a47daa79d2

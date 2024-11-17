@@ -1,0 +1,17 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install prepare test
+DEPEND=dev-lisp/cl-containers dev-lisp/cl-mathstats dev-lisp/cl-variates dev-lisp/dynamic-classes dev-lisp/hu-dwim-graphviz dev-lisp/metabang-bind dev-lisp/metacopy dev-lisp/metatilities-base dev-lisp/moptilities dev-lisp/asdf-system-connections
+DESCRIPTION=Common Lisp library for manipulating graphs
+EAPI=8
+HOMEPAGE=https://github.com/hraban/cl-graph
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cl-containers dev-lisp/cl-mathstats dev-lisp/cl-variates dev-lisp/dynamic-classes dev-lisp/hu-dwim-graphviz dev-lisp/metabang-bind dev-lisp/metacopy dev-lisp/metatilities-base dev-lisp/moptilities
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hraban/cl-graph/archive/e215efd5bb332021a260092e86cb6bff349e68ca.tar.gz -> cl-graph-20231003.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=2753fc8fb7bff64848ee550c19fc7595

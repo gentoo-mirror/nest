@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/flexi-streams dev-lisp/rt ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=A cryptographic toolkit written in Common Lisp
+EAPI=8
+HOMEPAGE=http://www.cliki.net/ironclad
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/bordeaux-threads
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=4cc62d19975e6f7b0c36e581a0c6a5c2

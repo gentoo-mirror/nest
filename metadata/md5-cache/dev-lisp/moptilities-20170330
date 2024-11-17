@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/lift )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=Compatibility layer for minor MOP implementation differences
+EAPI=8
+HOMEPAGE=https://github.com/hraban/moptilities
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/closer-mop
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/hraban/moptilities/archive/a436f16b357c96b82397ec018ea469574c10dd41.tar.gz -> moptilities-20170330.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=58b655c4867171ae496159f816890e7f

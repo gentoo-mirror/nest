@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/hu-dwim-stefil ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DEPEND=dev-lisp/alexandria dev-lisp/cffi dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/hu-dwim-syntax-sugar sys-libs/zlib:=
+DESCRIPTION=Common Lisp FFI wrapper for zlib
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.zlib
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/alexandria dev-lisp/cffi dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/hu-dwim-syntax-sugar
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=1cd114330020ceafd4b4e118a939a181

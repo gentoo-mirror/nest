@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=An extensible and cross-compatible testing framework
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/parachute
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cl-ppcre dev-lisp/documentation-utils dev-lisp/form-fiddle dev-lisp/trivial-custom-debugger
+SLOT=0
+SRC_URI=https://github.com/Shinmera/parachute/archive/3c04273cc61b353d7f1a087f9ae144f6f3fe4121.tar.gz -> parachute-20240708.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=e8931bea4b39680c8c0449465ae28c44

@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-lisp/lift ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install test unpack
+DESCRIPTION=Portable Common Lisp Random Number Generation
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/cl-variates/cl-variates
+INHERIT=common-lisp-3 git-r3
+IUSE=test
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/metacopy
+RESTRICT=test
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=7dce5ca2abf879326ce52dce2f18b3e7

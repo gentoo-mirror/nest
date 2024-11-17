@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/sbcl:* )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp regression tester from MIT
+EAPI=8
+HOMEPAGE=http://www.cliki.net/rt
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/cl-rt/cl-rt_20090812.gita6a7503.orig.tar.xz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=d0ba041b5221f26712948e24a4284f0c

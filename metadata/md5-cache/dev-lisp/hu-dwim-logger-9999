@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/hu-dwim-stefil ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Generic purpose logger utility
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.logger
+INHERIT=common-lisp-3 git-r3
+IUSE=doc test
+LICENSE=MIT-0
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+PROPERTIES=live
+RDEPEND=dev-lisp/bordeaux-threads dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/hu-dwim-defclass-star dev-lisp/local-time dev-lisp/slime doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=09b28de715607e86a176209abebc171a
