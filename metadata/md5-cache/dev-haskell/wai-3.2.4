@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/http-types:=[profile?] dev-haskell/network:=[profile?] dev-haskell/text:=[profile?] dev-haskell/vault:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Web Application Interface
+EAPI=8
+HOMEPAGE=https://github.com/yesodweb/wai
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-haskell/http-types:=[profile?] dev-haskell/network:=[profile?] dev-haskell/text:=[profile?] dev-haskell/vault:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/3.2.4
+SRC_URI=https://hackage.haskell.org/package/wai-3.2.4/wai-3.2.4.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=6c033e2dbd6020c997f8391a55fafedb

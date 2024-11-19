@@ -76,6 +76,10 @@ dev-haskell/req:dev - Enable development settings
 dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
 dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
+dev-haskell/wai:allow-sendfilefd - Allow use of sendfileFd
+dev-haskell/wai:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
+dev-haskell/warp:allow-sendfilefd - Allow use of sendfileFd
+dev-haskell/warp:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
 dev-libs/belcard:tools - Build tools
 dev-libs/belle-sip:tunnel - Enable tunnel support
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
