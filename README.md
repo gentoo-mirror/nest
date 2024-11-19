@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1112](https://img.shields.io/badge/ebuild-1112-orange.svg)](https://img.shields.io/badge/ebuild-1112-orange.svg)
+[![Number of ebuilds: 1120](https://img.shields.io/badge/ebuild-1120-orange.svg)](https://img.shields.io/badge/ebuild-1120-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -202,6 +202,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[Ranged-sets](https://github.com/PaulJohnson/Ranged-sets) | Ranged sets for Haskell
 *   dev-haskell/[ansi-wl-pprint](https://github.com/ekmett/ansi-wl-pprint) | The Wadler/Leijen Pretty Printer for colored ANSI terminal output
 *   dev-haskell/[authenticate-oauth](https://github.com/yesodweb/authenticate) | Library to authenticate with OAuth for Haskell web applications
+*   dev-haskell/[auto-update](https://github.com/yesodweb/wai) | Efficiently run periodic, on-demand actions
 *   dev-haskell/[base-prelude](https://github.com/nikita-volkov/base-prelude) | The most complete prelude formed only from the base package
 *   dev-haskell/[base-unicode-symbols](https://github.com/roelvandijk/base-unicode-symbols) | Unicode alternatives for common functions and operators
 *   dev-haskell/[base64-bytestring](https://github.com/haskell/base64-bytestring) | Fast base64 encoding and decoding for Haskell
@@ -236,6 +237,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[hspec-megaparsec](https://github.com/mrkkrp/hspec-megaparsec) | Utility functions for testing Megaparsec parsers with Hspec
 *   dev-haskell/[hspec-wai](https://github.com/hspec/hspec-wai) | Experimental Hspec support for testing WAI applications
 *   dev-haskell/[hspec-wai-json](https://github.com/hspec/hspec-wai) | Testing JSON APIs with hspec-wai
+*   dev-haskell/[http2](https://github.com/kazu-yamamoto/http2) | HTTP/2 library
 *   dev-haskell/[http-client](https://github.com/snoyberg/http-client) | An HTTP client engine
 *   dev-haskell/[http-media](https://github.com/zmthy/http-media) | Processing HTTP Content-Type and Accept headers
 *   dev-haskell/[indexed-profunctors](https://github.com/well-typed/optics) | Utilities for indexed profunctors
@@ -253,6 +255,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[mime-mail](https://github.com/snoyberg/mime-mail) | Compose MIME email messages
 *   dev-haskell/[modern-uri](https://github.com/mrkkrp/modern-uri) | Modern library for working with URIs
 *   dev-haskell/[monad-time](https://github.com/scrive/monad-time) | Type class for monads which carry the notion of the current time
+*   dev-haskell/[network-byte-order](https://hackage.haskell.org/package/network-byte-order) | Network byte order utilities
+*   dev-haskell/[network-control](https://hackage.haskell.org/package/network-control) | Library to control network protocols
 *   dev-haskell/[network-ip](https://github.com/mvv/network-ip) | Internet Protocol data structures
 *   dev-haskell/[optics-core](https://github.com/well-typed/optics) | Optics as an abstract interface
 *   dev-haskell/[optics-extra](https://github.com/well-typed/optics) | Extra utilities and instances for optics-core
@@ -281,13 +285,17 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[text-builder](https://github.com/nikita-volkov/text-builder) | An efficient strict text builder
 *   dev-haskell/[text-latin1](https://github.com/mvv/text-latin1) | Latin-1 (including ASCII) utility functions for Haskell
 *   dev-haskell/[text-printer](https://github.com/mvv/text-printer) | Abstract interace for Haskell text builders/printers
+*   dev-haskell/[time-manager](https://github.com/yesodweb/wai) | Scalable timer
 *   dev-haskell/[tz](https://github.com/nilcons/haskell-tz) | Library for time zone conversions
 *   dev-haskell/[type-hint](https://github.com/mvv/type-hint) | Haskell library for helping type inference by using proxy values
 *   dev-haskell/[tzdata](https://github.com/nilcons/haskell-tzdata) | Distribution of the standard time zone database
+*   dev-haskell/[unix-time](https://hackage.haskell.org/package/unix-time) | Unix time parser/formatter and utilities
 *   dev-haskell/[websockets](https://jaspervdj.be/websockets/) | Allows you to write WebSocket-capable servers
+*   dev-haskell/[wai](https://github.com/yesodweb/wai) | Web Application Interface
 *   dev-haskell/[wai-cors](https://github.com/larskuhtz/wai-cors) | Cross-Origin resource sharing (CORS) for Wai
 *   dev-haskell/[wai-middleware-static](https://github.com/scotty-web/wai-middleware-static) | WAI middleware that serves requests to static files
 *   dev-haskell/[wai-websockets](https://github.com/yesodweb/wai) | Provide a bridge between WAI and the websockets package
+*   dev-haskell/[warp](https://github.com/yesodweb/wai) | A fast, light-weight web server for WAI applications
 *   dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
 *   dev-libs/[belle-sip](https://gitlab.linphone.org/BC/public/belle-sip) | SIP (RFC3261) implementation
 *   dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp/) | GNU ccRTP - Implementation of the IETF real-time transport protocol
