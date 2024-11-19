@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.21
 SRC_URI=https://hackage.haskell.org/package/scotty-0.21/scotty-0.21.tar.gz https://hackage.haskell.org/package/scotty-0.21/revision/2.cabal -> scotty-0.21-rev2.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
-_md5_=4943932f0e30aa15109f8ba4a7e41a93
+_md5_=461a63fe3fef1672db22e2bc8801fbb3
