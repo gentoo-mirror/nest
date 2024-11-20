@@ -178,7 +178,7 @@ app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
 app-misc/xq 1.2.4 9999: Command-line JSON processor for binary data
 app-office/tradingview 2.9.2.1: A charting platform for traders and investors
-app-office/webull-desktop 7.10.0: Invest in stocks, ETFs, and options with Webull Financial
+app-office/webull-desktop 7.10.0 8.2.0: Invest in stocks, ETFs, and options with Webull Financial
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/confget 5.1.1: Read variables from INI-style configuration files
