@@ -37,6 +37,7 @@ app-metrics/amazon-cloudwatch-agent:otel - Support Amazon Opentelemetry Collecto
 app-metrics/aws-otel-collector:cwagent - Compatibility with CloudWatch agent
 app-misc/android-file-transfer-linux:fuse - Enables FUSE interface through sys-fs/fuse
 app-misc/android-file-transfer-linux:shared - Build shared library
+app-shells/tlog:utempter - Include utmp management support via sys-libs/libutempter
 dev-cpp/belr:tools - Build tools
 dev-db/pg_repack:client - Build CLI client
 dev-db/usql:athena - Enable support for AWS Athena
