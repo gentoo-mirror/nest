@@ -8,7 +8,7 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour test-suite"
 inherit haskell-cabal
 
 DESCRIPTION="Library to control network protocols"
-HOMEPAGE="https://hackage.haskell.org/package/network-control"
+HOMEPAGE="https://github.com/kazu-yamamoto/network-control"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
@@ -25,10 +25,7 @@ BDEPEND="dev-haskell/cabal:=
 		dev-haskell/text:=[profile?] )"
 
 src_prepare() {
-	default
-
-	sed -i '/license-file/d' network-control.cabal \
-		|| die "sed failed"
-
+	haskell-cabal_src_prepare
 	cabal-mksetup
+	sed -i '/license-file/d' network-control.cabal || die "sed failed"
 }

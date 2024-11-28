@@ -23,8 +23,6 @@ BDEPEND="dev-haskell/cabal:=
 		dev-haskell/quickcheck:=[profile?] )"
 
 src_prepare() {
-	default
-
-	sed -i '/license-file/d' unix-time.cabal \
-		|| die "sed failed"
+	haskell-cabal_src_prepare
+	sed -i '/license-file/d' unix-time.cabal || die "sed failed"
 }

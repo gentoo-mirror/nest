@@ -9,7 +9,6 @@ inherit haskell-cabal
 
 DESCRIPTION="A fast, light-weight web server for WAI applications"
 HOMEPAGE="https://github.com/yesodweb/wai"
-SRC_URI="https://hackage.haskell.org/package/${P}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0/${PV}"
@@ -25,8 +24,8 @@ RDEPEND="dev-haskell/async:=[profile?]
 	dev-haskell/http-types:=[profile?]
 	>=dev-haskell/http2-5.1:=[profile?]
 	dev-haskell/iproute:=[profile?]
-	dev-haskell/recv:=[profile?]
 	dev-haskell/network:=[profile?]
+	dev-haskell/recv:=[profile?]
 	dev-haskell/simple-sendfile:=[profile?]
 	dev-haskell/streaming-commons:=[profile?]
 	dev-haskell/text:=[profile?]
@@ -43,10 +42,8 @@ BDEPEND="dev-haskell/cabal:=[profile?]
 		dev-haskell/quickcheck:=[profile?] )"
 
 src_prepare() {
-	default
-
-	sed -i '/license-file/d' warp.cabal \
-		|| die "sed failed"
+	haskell-cabal_src_prepare
+	sed -i '/license-file/d' warp.cabal || die "sed failed"
 }
 
 src_configure() {

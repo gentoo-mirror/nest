@@ -20,10 +20,7 @@ DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:="
 
 src_prepare() {
-	default
-
-	sed -i '/License-file/d' time-manager.cabal \
-		|| die "sed failed"
-
+	haskell-cabal_src_prepare
 	cabal-mksetup
+	sed -i '/License-file/d' time-manager.cabal || die "sed failed"
 }

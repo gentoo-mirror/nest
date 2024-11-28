@@ -24,8 +24,6 @@ BDEPEND="dev-haskell/cabal:=
 	test? ( dev-haskell/hspec:=[profile?] )"
 
 src_prepare() {
-	default
-
-	sed -i '/License-file/d' wai.cabal \
-		|| die "sed failed"
+	haskell-cabal_src_prepare
+	sed -i '/License-file/d' wai.cabal || die "sed failed"
 }

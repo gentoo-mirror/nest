@@ -23,8 +23,6 @@ BDEPEND="dev-haskell/cabal:=
 		dev-haskell/retry:=[profile?] )"
 
 src_prepare() {
-	default
-
-	sed -i '/license-file/d' auto-update.cabal \
-		|| die "sed failed"
+	haskell-cabal_src_prepare
+	sed -i '/license-file/d' auto-update.cabal || die "sed failed"
 }
