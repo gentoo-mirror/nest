@@ -1,0 +1,15 @@
+BDEPEND=dev-haskell/cabal:= app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/data-default-class:=[profile?] dev-lang/ghc:= comonad? ( dev-haskell/comonad:=[profile?] ) kan-extensions? ( dev-haskell/kan-extensions:=[profile?] ) semigroupoids? ( dev-haskell/semigroupoids:=[profile?] ) tagged? ( dev-haskell/tagged:=[profile?] ) transformers? ( dev-haskell/transformers-compat:=[profile?] ) unordered-containers? ( dev-haskell/hashable:=[profile?] dev-haskell/unordered-containers:=[profile?] ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Pointed and copointed data
+EAPI=8
+HOMEPAGE=https://github.com/ekmett/pointed
+INHERIT=haskell-cabal
+IUSE=+comonad +kan-extensions +semigroupoids +stm +tagged +transformers +unordered-containers doc hscolour profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/data-default-class:=[profile?] dev-lang/ghc:= comonad? ( dev-haskell/comonad:=[profile?] ) kan-extensions? ( dev-haskell/kan-extensions:=[profile?] ) semigroupoids? ( dev-haskell/semigroupoids:=[profile?] ) tagged? ( dev-haskell/tagged:=[profile?] ) transformers? ( dev-haskell/transformers-compat:=[profile?] ) unordered-containers? ( dev-haskell/hashable:=[profile?] dev-haskell/unordered-containers:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/5.0.5
+SRC_URI=https://hackage.haskell.org/package/pointed-5.0.5/pointed-5.0.5.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=7671a6f04be7f0b26afd0272cdc5b16f

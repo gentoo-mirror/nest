@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile unpack
+DEPEND=dev-db/postgresql:*
+DESCRIPTION=PostgreSQL extension that requires criteria for UPDATE and DELETE
+EAPI=8
+HOMEPAGE=https://github.com/eradman/pg-safeupdate
+INHERIT=git-r3
+LICENSE=ISC
+PROPERTIES=live
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=0d19c17b9387d9d169d9be3cf3d44bcd

@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/tasty:=[profile?] dev-haskell/tasty-hunit:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-db/postgresql:= dev-haskell/postgresql-libpq-configure dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=low-level binding to libpq
+EAPI=8
+HOMEPAGE=https://github.com/haskellari/postgresql-libpq
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-db/postgresql:= dev-haskell/postgresql-libpq-configure dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.10.2.0
+SRC_URI=https://hackage.haskell.org/package/postgresql-libpq-0.10.2.0/postgresql-libpq-0.10.2.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=24eb89f63416f84e68f3d5d905049123

@@ -1,6 +1,6 @@
 BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/quickcheck:=[profile?] dev-haskell/test-framework:=[profile?] dev-haskell/test-framework-quickcheck2:=[profile?] ) app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/exceptions:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/mmorph:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/exceptions:=[profile?] dev-haskell/mmorph:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Compositional pipelines
 EAPI=8
 HOMEPAGE=https://github.com/Gabriella439/pipes
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-haskell/exceptions:=[profile?] dev-haskell/fail:=[profile?] dev-haskell/mmorph:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/semigroups:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/exceptions:=[profile?] dev-haskell/mmorph:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4.3.16
 SRC_URI=https://hackage.haskell.org/package/pipes-4.3.16/pipes-4.3.16.tar.gz https://hackage.haskell.org/package/pipes-4.3.16/revision/6.cabal -> pipes-4.3.16-rev6.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
-_md5_=7870253d604322e47d89e05624dcade1
+_md5_=1a6379c7085dac122652d04074634d6a

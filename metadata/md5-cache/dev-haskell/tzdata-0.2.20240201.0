@@ -3,7 +3,7 @@ DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/vector:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Distribution of the standard time zone database
 EAPI=8
-HOMEPAGE=https://github.com/nilcons/haskell-tzdata
+HOMEPAGE=https://github.com/ysangkok/haskell-tzdata
 INHERIT=haskell-cabal
 IUSE=doc hscolour profile test
 KEYWORDS=~amd64 ~x86
@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.2.20240201.0
 SRC_URI=https://hackage.haskell.org/package/tzdata-0.2.20240201.0/tzdata-0.2.20240201.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
-_md5_=721a74b5032fe3faf6bb2f86dc161a5e
+_md5_=62b227b31647ac38c7d1db87c4e2bbbd

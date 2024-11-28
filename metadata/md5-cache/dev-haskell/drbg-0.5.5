@@ -1,16 +1,16 @@
-BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/crypto-api-tests:=[profile?] dev-haskell/hunit:=[profile?] dev-haskell/quickcheck:2=[profile?] dev-haskell/test-framework:=[profile?] dev-haskell/test-framework-hunit:=[profile?] ) app-text/dos2unix
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/crypto-api-tests:=[profile?] dev-haskell/hunit:=[profile?] dev-haskell/quickcheck:=[profile?] dev-haskell/test-framework:=[profile?] dev-haskell/test-framework-hunit:=[profile?] ) app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/cereal:=[profile?] dev-haskell/cipher-aes128:=[profile?] dev-haskell/crypto-api:=[profile?] dev-haskell/cryptohash-cryptoapi:=[profile?] dev-haskell/entropy:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/prettyclass:=[profile?] dev-haskell/tagged:=[profile?] dev-haskell/sha:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/cereal:=[profile?] dev-haskell/cipher-aes128:=[profile?] dev-haskell/crypto-api:=[profile?] dev-haskell/cryptohash-cryptoapi:=[profile?] dev-haskell/entropy:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/prettyclass:=[profile?] dev-haskell/tagged:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Deterministic random bit generator (aka PRNG)
 EAPI=8
 HOMEPAGE=https://github.com/TomMD/DRBG
 INHERIT=haskell-cabal
-IUSE=test doc hscolour profile test
+IUSE=doc hscolour profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/cipher-aes128:=[profile?] dev-haskell/crypto-api:=[profile?] dev-haskell/cryptohash-cryptoapi:=[profile?] dev-haskell/entropy:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/prettyclass:=[profile?] dev-haskell/tagged:=[profile?] dev-haskell/sha:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/cipher-aes128:=[profile?] dev-haskell/crypto-api:=[profile?] dev-haskell/cryptohash-cryptoapi:=[profile?] dev-haskell/entropy:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/prettyclass:=[profile?] dev-haskell/tagged:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
 RESTRICT=test !test? ( test )
 SLOT=0/0.5.5
-SRC_URI=https://hackage.haskell.org/package/DRBG-0.5.5/DRBG-0.5.5.tar.gz
+SRC_URI=https://hackage.haskell.org/package/DRBG-0.5.5/DRBG-0.5.5.tar.gz -> drbg-0.5.5.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
-_md5_=25bac2f19ece60bde51ebc8773a2ddb9
+_md5_=8aee9ad5f88fe1136c5a2cc7416bd0ea

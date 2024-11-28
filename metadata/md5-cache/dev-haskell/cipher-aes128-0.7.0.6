@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/crypto-api-tests:=[profile?] dev-haskell/test-framework:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/cereal:=[profile?] dev-haskell/crypto-api:=[profile?] dev-haskell/tagged:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=AES and common modes using AES-NI when available
+EAPI=8
+HOMEPAGE=https://github.com/TomMD/cipher-aes128
+INHERIT=haskell-cabal
+IUSE=test doc hscolour profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/cereal:=[profile?] dev-haskell/crypto-api:=[profile?] dev-haskell/tagged:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=test
+SLOT=0/0.7.0.6
+SRC_URI=https://hackage.haskell.org/package/cipher-aes128-0.7.0.6/cipher-aes128-0.7.0.6.tar.gz https://github.com/TomMD/cipher-aes128/commit/4f30d283de04a65cde5aab4500dd7d7b409602d5.patch -> cipher-aes128-0.7.0.6-ghc-9.2.patch
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=622774cbd3da5ca73345793773da3808

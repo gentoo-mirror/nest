@@ -63,21 +63,20 @@ dev-db/usql:tds - Enable support for SAP ASE
 dev-db/usql:trino - Enable support for Trino
 dev-db/usql:vertica - Enable support for Vertica
 dev-db/usql:voltdb - Enable support for VoltDB
-dev-haskell/hspec-megaparsec:dev - Enable development settings
-dev-haskell/http-client:network-uri - Get Network.URI from the network-uri package.
-dev-haskell/integer-logarithms:integer-gmp - integer-gmp or integer-simple
-dev-haskell/megaparsec:dev - Enable development settings
 dev-haskell/modern-uri:dev - Enable development settings
 dev-haskell/optics-core:explicit-generic-labels - Enable generics-based labels
-dev-haskell/parser-combinators:dev - Enable development settings
+dev-haskell/pointed:comonad - Disable the use of dev-haskell/comonad.
+dev-haskell/pointed:kan-extensions - Disable the use of dev-haskell/kan-extensions.
+dev-haskell/pointed:semigroupoids - Disable the use of dev-haskell/semigroupoids.
+dev-haskell/pointed:stm - Disable the use of dev-haskell/stm.
+dev-haskell/pointed:tagged - Disable the use of dev-haskell/tagged.
+dev-haskell/pointed:transformers - Disable the use of dev-haskell/transformers.
+dev-haskell/pointed:unordered-containers - Disable the use of dev-haskell/unordered-containers.
 dev-haskell/pretty-simple:buildexample - Build program showing how to use the pPrint function
 dev-haskell/pretty-simple:buildexe - Build program that pretty-prints anything from stdin
 dev-haskell/req:dev - Enable development settings
-dev-haskell/semigroups:binary - Build instances for dev-haskell/binary
-dev-haskell/semigroups:transformers - Build instances for dev-haskell/transformers
 dev-haskell/tz:template-haskell - Enable and use template haskell support.
-dev-haskell/wai:allow-sendfilefd - Allow use of sendfileFd
-dev-haskell/wai:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
+dev-haskell/vector-instances:hashable - Disable usage of dev-haskell/hashable
 dev-haskell/warp:allow-sendfilefd - Allow use of sendfileFd
 dev-haskell/warp:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
 dev-libs/belcard:tools - Build tools

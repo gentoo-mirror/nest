@@ -1,6 +1,6 @@
 BDEPEND=dev-haskell/cabal:= dev-haskell/cabal-doctest:= test? ( dev-haskell/doctest:=[profile?] dev-haskell/glob:=[profile?] dev-haskell/quickcheck:=[profile?] ) app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/mtl:=[profile?] >=dev-haskell/prettyprinter-1.7.1:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.3:=[profile?] dev-lang/ghc:= buildexample? ( dev-haskell/aeson:=[profile?] ) buildexe? ( dev-haskell/optparse-applicative:=[profile?] ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/prettyprinter-1.7.1:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.3:=[profile?] dev-lang/ghc:= buildexample? ( dev-haskell/aeson:=[profile?] ) buildexe? ( dev-haskell/optparse-applicative:=[profile?] ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Haskell data types that have a Show instance
 EAPI=8
 HOMEPAGE=https://github.com/cdepillabout/pretty-simple
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=buildexample buildexe doc hscolour profile test
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-haskell/mtl:=[profile?] >=dev-haskell/prettyprinter-1.7.1:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.3:=[profile?] dev-lang/ghc:= buildexample? ( dev-haskell/aeson:=[profile?] ) buildexe? ( dev-haskell/optparse-applicative:=[profile?] ) dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/prettyprinter-1.7.1:=[profile?] >=dev-haskell/prettyprinter-ansi-terminal-1.1.3:=[profile?] dev-lang/ghc:= buildexample? ( dev-haskell/aeson:=[profile?] ) buildexe? ( dev-haskell/optparse-applicative:=[profile?] ) dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/4.0.0.0
 SRC_URI=https://hackage.haskell.org/package/pretty-simple-4.0.0.0/pretty-simple-4.0.0.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
-_md5_=4de6b443a090892630f76ad2f6aab841
+_md5_=379c3511053e0b96ad8a8f97a2c3ef0c

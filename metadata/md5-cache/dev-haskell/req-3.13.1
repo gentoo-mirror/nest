@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:=[profile?] test? ( dev-haskell/hspec:= dev-haskell/hspec-core:= dev-haskell/quickcheck:= ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/authenticate-oauth:=[profile?] dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/crypton-connection:=[profile?] dev-haskell/http-api-data:=[profile?] dev-haskell/http-client:=[profile?] dev-haskell/http-client-tls:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/modern-uri:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/retry:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers-base:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Easy-to-use, type-safe, expandable, high-level HTTP client library
+EAPI=8
+HOMEPAGE=https://github.com/mrkkrp/req
+INHERIT=haskell-cabal
+IUSE=dev doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/authenticate-oauth:=[profile?] dev-haskell/blaze-builder:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/crypton-connection:=[profile?] dev-haskell/http-api-data:=[profile?] dev-haskell/http-client:=[profile?] dev-haskell/http-client-tls:=[profile?] dev-haskell/http-types:=[profile?] dev-haskell/modern-uri:=[profile?] dev-haskell/monad-control:=[profile?] dev-haskell/retry:=[profile?] dev-haskell/text:=[profile?] dev-haskell/transformers-base:=[profile?] dev-haskell/unliftio-core:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/3.13.1
+SRC_URI=https://hackage.haskell.org/package/req-3.13.1/req-3.13.1.tar.gz https://hackage.haskell.org/package/req-3.13.1/revision/1.cabal -> req-3.13.1-rev1.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
+_md5_=0079873afe85e1fd3a5277c9ef8f906c
