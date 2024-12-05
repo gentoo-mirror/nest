@@ -28,6 +28,7 @@ acct-group/ssmd 0: System group: ssmd
 acct-group/step 0: System group: step
 acct-group/stg 0: System group: stg
 acct-group/swapspace 0: System group: swapspace
+acct-group/tlog 0: System group: tlog
 acct-group/topola 0: System group: topola
 acct-group/urbackup 0: System group: urbackup
 acct-group/uredir 0: System group: uredir
@@ -67,6 +68,7 @@ acct-user/ssmd 0: System user: ssmd
 acct-user/step 0: System user: step
 acct-user/stg 0: System user: stg
 acct-user/swapspace 0: System user: swapspace
+acct-user/tlog 0: Tlog terminal I/O logger
 acct-user/topola 0: System user: topola
 acct-user/urbackup 0: System user: urbackup
 acct-user/uredir 0: System user: uredir
@@ -180,6 +182,7 @@ app-misc/xq 1.2.4 9999: Command-line JSON processor for binary data
 app-office/tradingview 2.9.2.1: A charting platform for traders and investors
 app-office/webull-desktop 7.10.0 8.2.0: Invest in stocks, ETFs, and options with Webull Financial
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
+app-shells/tlog 14 9999: Terminal I/O logger
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/confget 5.1.1: Read variables from INI-style configuration files
 app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
@@ -206,6 +209,7 @@ dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
 dev-db/mssql-tools 17.7.1.1: Microsoft SQL Server Tools for Linux
 dev-db/odyssey 1.1 9999: Scalable PostgreSQL connection pooler
+dev-db/pg-safeupdate 1.5 9999: PostgreSQL extension that requires criteria for UPDATE and DELETE
 dev-db/pg_cron 1.3.1 1.4.1 9999: Run periodic jobs in PostgreSQL
 dev-db/pg_hint_plan 1.3.6 1.3.7 1.3.7-r1 1.3.7-r2 1.4.0 9999: Manually force decisions in execution plans of PostgreSQL
 dev-db/pg_page_verification 9999: Checksums verification on PostgreSQL data pages
@@ -222,105 +226,110 @@ dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more 
 dev-db/sqlpackage 15.0.5084.2: Automates SQL Server database development tasks
 dev-db/tableplus 1.0.3.238: Modern, native, and friendly GUI tool for relational databases
 dev-db/usql 0.9.0 9999: Universal command-line interface for SQL databases
-dev-haskell/ChasingBottoms 1.3.1.10: For testing partial and infinite values
-dev-haskell/OneTuple 0.3: Singleton Tuple
-dev-haskell/Ranged-sets 0.4.0: Ranged sets for Haskell
-dev-haskell/ansi-wl-pprint 0.6.9: The Wadler/Leijen Pretty Printer for colored ANSI terminal output
+dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
 dev-haskell/authenticate-oauth 1.7: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/auto-update 0.2.2: Efficiently run periodic, on-demand actions
-dev-haskell/base-prelude 1.4: The most complete prelude formed only from the base package
-dev-haskell/base-unicode-symbols 0.2.4.2: Unicode alternatives for common functions and operators
-dev-haskell/base64-bytestring 1.2.1.0: Fast base64 encoding and decoding for Haskell
-dev-haskell/binary-parser 0.5.7: A highly-efficient but limited parser API for bytestrings
-dev-haskell/bytestring-strict-builder 0.4.5.4: An efficient strict bytestring builder
-dev-haskell/bytestring-tree-builder 0.2.7.5: A ByteString builder implementation based on the binary tree
+dev-haskell/base-prelude 1.6.1.1: The most complete prelude formed only from the base package
+dev-haskell/binary-parser 0.5.7.6: A highly-efficient but limited parser API for bytestrings
+dev-haskell/bytestring-strict-builder 0.4.5.7: An efficient strict bytestring builder
+dev-haskell/bytestring-tree-builder 0.2.7.12: A ByteString builder implementation based on the binary tree
+dev-haskell/cache 0.1.3.0: An in-memory key/value store with expiration support
+dev-haskell/chasingbottoms 1.3.1.15: For testing partial and infinite values
+dev-haskell/cipher-aes128 0.7.0.6: AES and common modes using AES-NI when available
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
-dev-haskell/configurator-pg 0.2.5: Reduced parser for configurator-ng config files
+dev-haskell/configurator-pg 0.2.10: Reduced parser for configurator-ng config files
+dev-haskell/contravariant-extras 0.3.5.4: Extras for the contravariant package
 dev-haskell/conversion 1.2.1: Universal converter between values of different types
-dev-haskell/conversion-bytestring 1.0.1: Conversion instances for the bytestring library
-dev-haskell/conversion-text 1.0.1: Conversion instances for the text library
+dev-haskell/conversion-bytestring 1.0.1.1: Conversion instances for the bytestring library
+dev-haskell/conversion-text 1.0.1.1: Conversion instances for the text library
 dev-haskell/crypto-pubkey-types 0.4.3: Generic cryptography Public keys algorithm types
-dev-haskell/daemons 0.2.1 0.3.0: Daemons in Haskell made fun and easy
-dev-haskell/data-bword 0.1.0.1: Extra operations on binary words of fixed length
+dev-haskell/cryptohash-cryptoapi 0.1.4: Crypto-api interfaces for cryptohash
+dev-haskell/daemons 0.3.0: Daemons in Haskell made fun and easy
+dev-haskell/data-bword 0.1.0.2: Extra operations on binary words of fixed length
 dev-haskell/data-checked 0.3: Type-indexed runtime-checked properties for Haskell
-dev-haskell/data-dword 0.3.2: Stick two binary words together to get a bigger one
+dev-haskell/data-dword 0.3.2.1: Stick two binary words together to get a bigger one
+dev-haskell/data-endian 0.1.1: Endian-sensitive data
 dev-haskell/data-serializer 0.3.5: Common API for Haskell serialization libraries
 dev-haskell/data-textual 0.3.0.3: Human-friendly textual representations for Haskell
-dev-haskell/deferred-folds 0.9.17: Abstractions over deferred folds
+dev-haskell/deferred-folds 0.9.18.6: Abstractions over deferred folds
 dev-haskell/drbg 0.5.5: Deterministic random bit generator (aka PRNG)
 dev-haskell/either 5.0.2: An either monad transformer
 dev-haskell/expiring-cache-map 0.0.6.1: General purpose simple caching
-dev-haskell/filelock 0.1.1.5: Portable interface to file locking
-dev-haskell/hasql 1.4.5.2: An efficient PostgreSQL driver with a flexible mapping API
-dev-haskell/hasql-dynamic-statements 0.3.1: Dynamic statements for Hasql
-dev-haskell/hasql-implicits 0.1.0.2: Implicit definitions for Hasql
-dev-haskell/hasql-notifications 0.2.0.0: PostgreSQL Asynchronous notification
-dev-haskell/hasql-pool 0.5.2: A pool of connections for Hasql
-dev-haskell/hasql-transaction 1.0.1: Abstraction over transactions for Hasql
+dev-haskell/filelock 0.1.1.7: Portable interface to file locking
+dev-haskell/fuzzyset 0.2.4: A fuzzy string set implementation in Haskell
+dev-haskell/gitrev 1.3.1: Compile git revision info into Haskell projects
+dev-haskell/groups 0.5.3: Group and Abelian group typeclasses
+dev-haskell/haskell-src-meta 0.8.14: Parse source to template-haskell abstract syntax
+dev-haskell/hasql 1.6.4.4: An efficient PostgreSQL driver with a flexible mapping API
+dev-haskell/hasql-dynamic-statements 0.3.1.5: Dynamic statements for Hasql
+dev-haskell/hasql-implicits 0.1.1.3: Implicit definitions for Hasql
+dev-haskell/hasql-notifications 0.2.0.6: PostgreSQL Asynchronous notification
+dev-haskell/hasql-pool 0.10.1: A pool of connections for Hasql
+dev-haskell/hasql-transaction 1.0.1.4: Abstraction over transactions for Hasql
 dev-haskell/heredoc 0.2.0.0: multi-line string / here document using QuasiQuotes
 dev-haskell/hspec-expectations-lifted 0.10.0: A version of hspec-expectations generalized to MonadIO
-dev-haskell/hspec-megaparsec 2.2.0: Utility functions for testing Megaparsec parsers with Hspec
-dev-haskell/hspec-wai 0.9.0 0.10.1: Experimental Hspec support for testing WAI applications
 dev-haskell/hspec-wai-json 0.11.0: Testing JSON APIs with hspec-wai
-dev-haskell/http-client 0.7.8: An HTTP client engine
-dev-haskell/http-media 0.8.0.0: Processing HTTP Content-Type and Accept headers
 dev-haskell/http2 5.1.4: HTTP/2 library
-dev-haskell/indexed-profunctors 0.1.1: Utilities for indexed profunctors
-dev-haskell/indexed-traversable-instances 0.1.1: More instances of FunctorWithIndex, FoldableWithIndex
-dev-haskell/ini 0.4.1: Quick and easy configuration files in the INI format
-dev-haskell/insert-ordered-containers 0.2.5: Associative containers retating insertion order for traversals
-dev-haskell/inspection-testing 0.5: GHC plugin to do inspection testing
-dev-haskell/integer-logarithms 1.0.3: Integer logarithms
-dev-haskell/integer-simple 0.1.1.1: Simple Integer library
+dev-haskell/indexed-profunctors 0.1.1.1: Utilities for indexed profunctors
+dev-haskell/ini 0.4.2: Configuration files in the INI format
+dev-haskell/insert-ordered-containers 0.2.5.3: Associative containers retating insertion order for traversals
+dev-haskell/inspection-testing 0.5.0.3: GHC plugin to do inspection testing
 dev-haskell/interpolatedstring-perl6 1.0.2: QuasiQuoter for Perl6 style multi-line interpolated
-dev-haskell/jose 0.8.5.1: Haskell JOSE and JWT library
-dev-haskell/json-ast 0.3.1: Universal JSON AST datastructure
+dev-haskell/isomorphism-class 0.1.1: Isomorphism typeclass solving the conversion problem
+dev-haskell/jose 0.10.0.1: Haskell JOSE and JWT library
+dev-haskell/json-ast 0.3.2: Universal JSON AST datastructure
+dev-haskell/keys 3.12.3: Keyed functors and containers
+dev-haskell/lens-aeson 1.2.3: Law-abiding lenses for aeson
 dev-haskell/loch-th 0.2.2: Support for precise error locations in source files
-dev-haskell/megaparsec 9.2.2: Monadic parser combinators
 dev-haskell/mime-mail 0.5.1: Compose MIME email messages
-dev-haskell/modern-uri 0.3.4.1: Modern library for working with URIs
-dev-haskell/monad-time 0.3.1.0: Type class for monads which carry the notion of the current time
+dev-haskell/modern-uri 0.3.6.1: Modern library for working with URIs
+dev-haskell/monad-time 0.4.0.0: Type class for monads which carry the notion of the current time
 dev-haskell/network-byte-order 0.1.7: Network byte order utilities
 dev-haskell/network-control 0.1.3: Library to control network protocols
 dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
-dev-haskell/optics-core 0.4: Optics as an abstract interface
-dev-haskell/optics-extra 0.4: Extra utilities and instances for optics-core
-dev-haskell/optics-th 0.3.0.2: Optics as an abstract interface
-dev-haskell/parser-combinators 1.3.0: Lightweight package providing commonly useful parser combinators
+dev-haskell/optics-core 0.4.1.1: Optics as an abstract interface
+dev-haskell/optics-extra 0.4.2.1: Extra utilities and instances for optics-core
+dev-haskell/optics-th 0.4.1: Optics as an abstract interface
 dev-haskell/pipes 4.3.16: Compositional pipelines
 dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
-dev-haskell/postgresql-binary 0.12.3.3: Encoders and decoders for the PostgreSQL's binary format
-dev-haskell/postgresql-libpq 0.9.4.3: low-level binding to libpq
-dev-haskell/postgresql-simple 0.6.4: Mid-Level PostgreSQL client library
+dev-haskell/pointed 5.0.5: Pointed and copointed data
+dev-haskell/postgresql-binary 0.13.1.3: Encoders and decoders for the PostgreSQL's binary format
+dev-haskell/postgresql-libpq 0.10.2.0: low-level binding to libpq
+dev-haskell/postgresql-libpq-configure 0.10.0.1: A low-level binding to libpq to configure based provider
+dev-haskell/postgresql-simple 0.6.5.1: Mid-Level PostgreSQL client library
 dev-haskell/pretty-simple 4.0.0.0: Haskell data types that have a Show instance
-dev-haskell/prettyprinter 1.7.1: A modern, easy to use, well-documented, extensible pretty-printer
-dev-haskell/prettyprinter-ansi-terminal 1.1.3: ANSI terminal backend for prettyprinter package
-dev-haskell/protolude 0.3.0: A sensible starting Prelude template
-dev-haskell/ptr 0.16.8.1: Abstractions for operations on pointers
-dev-haskell/rebase 1.13.0.1: A more progressive alternative to the 'base' package
-dev-haskell/req 3.12.0: Easy-to-use, type-safe, expandable, high-level HTTP client library
-dev-haskell/rerebase 1.13.0.1: Reexports from 'base' with a bunch of other standard libraries
+dev-haskell/prettyclass 1.0.0.0: Pretty printing class similar to Show
+dev-haskell/protolude 0.3.4: A sensible starting Prelude template
+dev-haskell/ptr 0.16.8.6: Abstractions for operations on pointers
+dev-haskell/ranged-sets 0.4.0: Ranged sets for Haskell
+dev-haskell/rebase 1.19: A more progressive alternative to the 'base' package
+dev-haskell/req 3.13.1: Easy-to-use, type-safe, expandable, high-level HTTP client library
+dev-haskell/rerebase 1.19: Reexports from 'base' with a bunch of other standard libraries
 dev-haskell/rsa 2.4.1: Implementation of RSA, using the padding schemes of PKCS#1 v2.1
 dev-haskell/scotty 0.12.1 0.21: Haskell web framework
 dev-haskell/scrypt 0.5.0: Stronger password hashing via sequential memory-hard functions
-dev-haskell/selective 0.4.2: Selective applicative functors
-dev-haskell/semigroups 0.19.1: Anything that associates
-dev-haskell/swagger2 2.6: Swagger 2.0 data model
-dev-haskell/tasty-hspec 1.2: Hspec support for the Tasty test framework
-dev-haskell/text-builder 0.6.6.3: An efficient strict text builder
+dev-haskell/selective 0.7.0.1: Selective applicative functors
+dev-haskell/strict-list 0.1.7.5: Strict linked list
+dev-haskell/swagger2 2.8.9: Swagger 2.0 data model
+dev-haskell/tasty-hspec 1.2.0.2: Hspec support for the Tasty test framework
+dev-haskell/template-haskell-compat-v0208 0.1.9.4: Backward-compatibility layer for Template Haskell newer than 2.8
+dev-haskell/text-builder 0.6.7: Efficient strict text builder
+dev-haskell/text-builder-dev 0.3.3.2: Edge of developments for text-builder
 dev-haskell/text-latin1 0.3.1: Latin-1 (including ASCII) utility functions for Haskell
-dev-haskell/text-printer 0.5.0.1: Abstract interace for Haskell text builders/printers
+dev-haskell/text-metrics 0.3.2: Calculate various string metrics efficiently in Haskell
+dev-haskell/text-printer 0.5.0.2: Abstract interace for Haskell text builders/printers
+dev-haskell/th-expand-syns 0.4.11.0: Expands type synonyms in Template Haskell ASTs
+dev-haskell/th-orphans 0.13.15: Orphan instances for TH datatypes
+dev-haskell/th-reify-many 0.1.10: Recurseively reify template haskell datatype info
 dev-haskell/time-manager 0.1.1: Scalable timer
 dev-haskell/type-hint 0.1: Haskell library for helping type inference by using proxy values
-dev-haskell/tz 0.1.3.6: Library for time zone conversions
+dev-haskell/tz 0.1.3.6: Efficient time zone handling
 dev-haskell/tzdata 0.2.20240201.0: Distribution of the standard time zone database
 dev-haskell/unix-time 0.4.16: Unix time parser/formatter and utilities
+dev-haskell/vector-instances 3.4.2: Additional Instances for Data.Vector
 dev-haskell/wai 3.2.4: Web Application Interface
-dev-haskell/wai-cors 0.2.7: Cross-Origin resource sharing (CORS) for Wai
-dev-haskell/wai-middleware-static 0.9.0: WAI middleware that serves requests to static files
-dev-haskell/wai-websockets 3.0.1.2: Provide a bridge between WAI and the websockets package
+dev-haskell/wai-middleware-static 0.9.2: WAI middleware that serves requests to static files
 dev-haskell/warp 3.4.4: A fast, light-weight web server for WAI applications
-dev-haskell/websockets 0.12.7.0 0.12.7.1: Allows you to write WebSocket-capable servers
 dev-libs/belcard 5.3.86 9999: VCard standard format manipulation library
 dev-libs/belle-sip 5.3.86 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
@@ -1038,7 +1047,7 @@ media-sound/finetune 2.2.1: Automatic music tagger
 media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.12 9999: A finely crafted music player
 media-sound/plexamp 4.11.1: Music focused client for Plex
-media-sound/sayonara 1.7.0_p3 1.8.0_beta1 9999: Small, clear and fast Qt-based audio player
+media-sound/sayonara 1.10.0_p1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon
 media-video/ffmpeg-compat 57 58 58-r2: Compatibility package for ffmpeg to provide versions 58 of libraries
@@ -1103,7 +1112,7 @@ net-misc/ntripserver 1.51 9999: Ntrip Version 2.0 Command Line Server
 net-misc/opendrop 0.13.0 9999: an Open Source AirDrop Implementation
 net-misc/openvpn-update-resolv-conf 9999 25032022: Updates DNS settings are pushed by the OpenVPN server
 net-misc/pingu 1.5.1 9999: Policy routing daemon with failover and load-balancing
-net-misc/postgrest 8.0.0 9.0.0: REST API for any Postgres database
+net-misc/postgrest 12.0.3: REST API for any Postgres database
 net-misc/qfreerdp 9999: Qt launcher GUI for XFreeRDP
 net-misc/qia 1.4.2 9999: Authorization tool for Stargazer Billing System written in Qt
 net-misc/redir 3.3 9999: TCP port redirector
@@ -1126,7 +1135,7 @@ net-misc/xh 0.15.0 9999: Friendly and fast tool for sending HTTP requests
 net-p2p/automatic 0.9.0 9999: RSS downloader for Tranmission
 net-p2p/gram-wallet-bin 0.9.4: TON Testnet Wallet
 net-p2p/opentracker 0.5 9999: High-performance bittorrent tracker
-net-p2p/resilio-sync 2.7.3.1381 9999: Resilient, fast and scalable file synchronization tool
+net-p2p/resilio-sync 2.7.3.1381 3.0.1.1414: Resilient, fast and scalable file synchronization tool
 net-p2p/tremotesf 1.11.3 9999: A remote GUI for transmission
 net-voip/linphone-desktop 5.2.6 9999: A free VoIP and video softphone based on the SIP protocol
 net-voip/twinkle 1.10.3 9999: Softphone for voice over IP and IM communication using SIP

@@ -2,7 +2,7 @@ BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/hs
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
 DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/aeson-qq:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/hspec-wai:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Testing JSON APIs with hspec-wai
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/hspec/hspec-wai
 INHERIT=haskell-cabal
 IUSE=doc hscolour profile test
@@ -11,6 +11,6 @@ LICENSE=MIT
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/aeson-qq:=[profile?] dev-haskell/case-insensitive:=[profile?] dev-haskell/hspec-wai:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.11.0
-SRC_URI=https://hackage.haskell.org/package/hspec-wai-json-0.11.0/hspec-wai-json-0.11.0.tar.gz
+SRC_URI=https://hackage.haskell.org/package/hspec-wai-json-0.11.0/hspec-wai-json-0.11.0.tar.gz https://hackage.haskell.org/package/hspec-wai-json-0.11.0/revision/1.cabal -> hspec-wai-json-0.11.0-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	7a05e05c4a785428f7c2f31e22667fea
-_md5_=033a0ec032e4222ea1aed22c3dae4b8d
+_md5_=9f83b57bef3d059505d2fc2330a56941
