@@ -1181,7 +1181,7 @@ www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
 www-apps/tinyfilemanager 2.5.3 9999: Single-file PHP file manager
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
-www-plugins/bypass-paywalls 1.8.1 9999: Bypass Paywalls browser extension
+www-plugins/bypass-paywalls 3.9.6.0: Bypass Paywalls browser extension
 www-plugins/chrome-token-signing 1.1.5 9999: Native client and extension for signing with your eID on the web
 www-plugins/eusw 1.3.1.63: IIT End User CA-1 browser extension
 www-plugins/vdhcoapp-bin 2.0.19: Companion application for Video DownloadHelper browser add-on

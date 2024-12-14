@@ -1,0 +1,12 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=Bypass Paywalls browser extension
+EAPI=8
+HOMEPAGE=https://gitflic.ru/project/magnolia1234/bypass-paywalls-chrome-clean
+IUSE=chrome +chromium
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+REQUIRED_USE=|| ( chrome chromium )
+SLOT=0
+SRC_URI=https://gitflic.ru/project/magnolia1234/bpc_uploads/blob/raw?file=bypass-paywalls-chrome-clean-3.9.6.0.crx -> bypass-paywalls-chrome-clean-3.9.6.0.zip
+_md5_=aadd06051b4737dc5804ab947fa3418b
