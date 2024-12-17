@@ -13,5 +13,5 @@ REQUIRED_USE=libv4l? ( v4l ) arm64? ( cpu_flags_arm_v8 ) cpu_flags_arm_v8? ( cpu
 RESTRICT=test gpl? ( openssl? ( bindist ) fdk? ( bindist ) )
 SLOT=57
 SRC_URI=https://ffmpeg.org/releases/ffmpeg-3.4.13.tar.xz
-_eclasses_=toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib-build	9ac26ea006828266d235e2f0135429b5	multilib-minimal	e9f54d75b074edc47d36994bbc1e2123
+_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib-build	9ac26ea006828266d235e2f0135429b5	multilib-minimal	e9f54d75b074edc47d36994bbc1e2123
 _md5_=b65bd7631638bd3a0ce42521ac911fda
