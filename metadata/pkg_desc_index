@@ -1036,7 +1036,7 @@ media-libs/QtApng 1.1.4 9999: An apng image plugin for Qt to support animated PN
 media-libs/bcmatroska2 5.3.86 9999: Matroska media container support
 media-libs/bv16-floatingpoint 2.1 9999: BroadVoice 16 kbs codec
 media-libs/libqpsd 2.2.1 9999: PSD & PSB Plugin for Qt/C++
-media-libs/libyuv 0.0.1872 9999: Library for freeswitch yuv graphics manipulation
+media-libs/libyuv 0.0.1897 9999: Library for freeswitch yuv graphics manipulation
 media-libs/mediastreamer2 5.3.86 9999: Mediastreaming library for telephony application
 media-libs/qt-heif 0.3.3 9999: Qt plugin for HEIF images
 media-libs/shine 3.1.1 9999: Fixed-point mp3 encoding library
