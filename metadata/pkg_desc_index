@@ -1055,7 +1055,6 @@ media-video/ffmpeg-compat 57 58 58-r2: Compatibility package for ffmpeg to provi
 media-video/haruna 0.12.3 1.2.0 9999: Video player built with Qt/QML on top of libmpv
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
-net-analyzer/bandwhich 0.22.2 9999: Network utilization by process, connection and hostname
 net-analyzer/cymruwhois 1.6 9999: Python client for the whois.cymru.com service
 net-analyzer/dnsdiag 2.1.0 9999: DNS Measurement, Troubleshooting and Security Auditing Toolset
 net-analyzer/goaccess 1.9.3 9999: A real-time web log analyzer and interactive viewer in a terminal
