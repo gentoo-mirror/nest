@@ -1,0 +1,8 @@
+DEFINED_PHASES=install
+DESCRIPTION=Quickly open any url in tmux pane
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-urlview
+LICENSE=MIT
+RDEPEND=app-misc/tmux app-text/extract_url
+SLOT=0
+_md5_=2ccee19e96af32c4c0d8df094598e32f

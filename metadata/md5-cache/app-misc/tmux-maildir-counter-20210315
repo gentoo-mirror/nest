@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Plugin that counts files on a specific mail directory
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-maildir-counter
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-maildir-counter/archive/68136a8020815f99eeba88bc0aae807a465e0e29.tar.gz -> tmux-maildir-counter-20210315.tar.gz
+_md5_=f7d417876cc93d4cd1d7d037d22852c2

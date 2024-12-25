@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Continuous saving of tmux environment
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-continuum
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux app-misc/tmux-resurrect sys-process/procps
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=381cd764a73f6d88875545bd6a095ab9

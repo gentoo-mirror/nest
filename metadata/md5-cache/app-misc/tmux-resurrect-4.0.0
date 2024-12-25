@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Persists tmux environment across system restarts
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-resurrect
+IUSE=gdbm neovim vim
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux sys-process/procps gdbm? ( sys-libs/gdbm:= ) neovim? ( app-editors/neovim ) vim? ( app-editors/vim-core )
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-resurrect/archive/v4.0.0.tar.gz -> tmux-resurrect-4.0.0.tar.gz
+_md5_=abb5916d63625aafbc525297bef866d8

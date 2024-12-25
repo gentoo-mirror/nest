@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Quickly open any path on terminal window in editor
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-fpp
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-shells/fpp app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-fpp/archive/878302f228ee14f0fa59717f63743d396b327a21.tar.gz -> tmux-fpp-20240129.tar.gz
+_md5_=23b6638eeaa42ac2d3e3a41a6ec43d9e

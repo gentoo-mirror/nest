@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Tmux plugin for copying to system clipboard
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-yank
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux || ( gui-apps/wl-clipboard x11-misc/xclip x11-misc/xsel )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=d35d06ccb329a73bcd396438720f7f13

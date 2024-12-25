@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Display newsboat counters in tmux status line
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-newsboat
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux net-news/newsboat
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=edb5be1a6bd45091578f20ad0cbc97b9

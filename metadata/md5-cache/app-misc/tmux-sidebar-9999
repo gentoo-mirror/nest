@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=A sidebar with the directory tree for tmux
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-sessionist
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=64be062be924e167c71b6245935d8e0b

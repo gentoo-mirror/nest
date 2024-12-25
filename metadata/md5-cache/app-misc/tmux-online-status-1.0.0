@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Tmux plugin that displays online status
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-online-status
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-online-status/archive/v1.0.0.tar.gz -> tmux-online-status-1.0.0.tar.gz
+_md5_=d3b4ef4392a446a35f5b642760b22d6a

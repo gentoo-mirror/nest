@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-tcltk/expect ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install test unpack
+DESCRIPTION=Tmux Plugin Manager
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tpm
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=test_network live
+RDEPEND=app-misc/tmux dev-vcs/git
+RESTRICT=test
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=dd17fb1da895ce7de45174c31894f28d

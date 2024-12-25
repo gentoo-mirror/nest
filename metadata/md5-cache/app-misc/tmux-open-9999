@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Tmux key bindings for quick opening of file or url
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-open
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux x11-misc/xdg-utils
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=a66041bf37566d46767c0bd9dd06479c

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Plug and play cpu percentage and icon indicator for Tmux
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-cpu
+IUSE=lm-sensors nvidia
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux app-admin/sysstat sys-process/procps lm-sensors? ( sys-apps/lm-sensors:= ) nvidia? ( x11-drivers/nvidia-drivers:= )
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-cpu/archive/bcb110d754ab2417de824c464730c412a3eb2769.tar.gz -> tmux-cpu-20241006.tar.gz
+_md5_=235d91b85f319a1ce95ef6edee3deb49

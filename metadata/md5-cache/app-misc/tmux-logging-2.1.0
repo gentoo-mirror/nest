@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Easy logging and screen capturing for Tmux
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-logging
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-logging/archive/v2.1.0.tar.gz -> tmux-logging-2.1.0.tar.gz
+_md5_=00fd26fe809a38da084c8d2f275f7ea1

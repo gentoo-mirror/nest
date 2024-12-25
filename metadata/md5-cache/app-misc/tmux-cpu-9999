@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Plug and play cpu percentage and icon indicator for Tmux
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-cpu
+INHERIT=git-r3
+IUSE=lm-sensors nvidia
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux app-admin/sysstat sys-process/procps lm-sensors? ( sys-apps/lm-sensors:= ) nvidia? ( x11-drivers/nvidia-drivers:= )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=1dde0d6fd2c90ab50676e00f00fd23f8

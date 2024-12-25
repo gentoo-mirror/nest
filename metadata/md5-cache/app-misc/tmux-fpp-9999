@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Quickly open any path on terminal window in editor
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-fpp
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-shells/fpp app-misc/tmux
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=d1e662e806740480397b15daaba53e2e

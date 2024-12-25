@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Standard pane key-bindings for tmux
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-pain-control
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=9ea9cbd653b56ed731ddc27dcd1ce3fc

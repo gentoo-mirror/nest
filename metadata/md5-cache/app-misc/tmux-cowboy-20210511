@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Kill hanging processes fast inside tmux pane
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-cowboy
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux sys-process/procps
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-cowboy/archive/75702b6d0a866769dd14f3896e9d19f7e0acd4f2.tar.gz -> tmux-cowboy-20210511.tar.gz
+_md5_=063ecd8d229e14cd5c4a820a9731c435

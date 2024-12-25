@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=A plugin that enhances tmux search
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-copycat
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux dev-vcs/git
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-copycat/archive/v3.0.0.tar.gz -> tmux-copycat-3.0.0.tar.gz
+_md5_=ea99f42e429d713167a41d067b76aabf

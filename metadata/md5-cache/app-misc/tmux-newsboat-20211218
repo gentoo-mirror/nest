@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Display newsboat counters in tmux status line
+EAPI=8
+HOMEPAGE=https://github.com/tmux-plugins/tmux-newsboat
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=app-misc/tmux net-news/newsboat
+SLOT=0
+SRC_URI=https://github.com/tmux-plugins/tmux-newsboat/archive/4b7d2b78b02315fc21eb3b8339aa180bbc8fd9c2.tar.gz -> tmux-newsboat-20211218.tar.gz
+_md5_=ff20513f1bc13e7967a787bf1b0a6eb2
