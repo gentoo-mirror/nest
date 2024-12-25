@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1127](https://img.shields.io/badge/ebuild-1127-orange.svg)](https://img.shields.io/badge/ebuild-1127-orange.svg)
+[![Number of ebuilds: 1151](https://img.shields.io/badge/ebuild-1151-orange.svg)](https://img.shields.io/badge/ebuild-1151-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -143,18 +143,42 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-misc/[cryptr-bin](https://github.com/jgraph/drawio-desktop) | Diagram drawing application built on web technology
 *   app-misc/[deco](https://sourceforge.net/projects/deco/) | Demos Commander, a free Norton Commander clone
 *   app-misc/[fq](https://github.com/wader/fq) | Command-line JSON processor for binary data
+*   app-misc/[gitmux](https://github.com/arl/gitmux) | Git in your tmux status bar
 *   app-misc/[gron](https://github.com/tomnomnom/gron) | Make JSON greppable
 *   app-misc/[jshon](http://kmkeen.com/jshon/) | JSON parser designed for maximum convenience within the shell
 *   app-misc/[jsqry-cli2-bin](https://github.com/jsqry/jsqry-cli2) | CLI tool (similar to jq) to query JSON using sane DSL
 *   app-misc/[kando-bin](https://github.com/kando-menu/kando) | A pie menu for the desktop
 *   app-misc/[mop](https://github.com/mop-tracker/mop) | Stock market tracker for hackers
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/pet.svg?header=)](https://repology.org/project/pet/versions) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
+*   app-misc/[tmux-battery](https://github.com/tmux-plugins/tmux-battery) | Plug and play battery percentage and icon indicator for Tmux
+*   app-misc/[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) | Continuous saving of tmux environment
+*   app-misc/[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat) | A plugin that enhances tmux search
+*   app-misc/[tmux-cowboy](https://github.com/tmux-plugins/tmux-cowboy) | Kill hanging processes fast inside tmux pane
+*   app-misc/[tmux-cpu](https://github.com/tmux-plugins/tmux-cpu) | Plug and play cpu percentage and icon indicator for Tmux
+*   app-misc/[tmux-fastcopy](https://github.com/abhinav/tmux-fastcopy) | Easymotion-style text copying for tmux
+*   app-misc/[tmux-fpp](https://github.com/tmux-plugins/tmux-fpp) | Quickly open any path on terminal window in editor
+*   app-misc/[tmux-logging](https://github.com/tmux-plugins/tmux-logging) | Easy logging and screen capturing for Tmux
+*   app-misc/[tmux-maildir-counter](https://github.com/tmux-plugins/tmux-maildir-counter) | Plugin that counts files on a specific mail directory
+*   app-misc/[tmux-net-speed](https://github.com/tmux-plugins/tmux-net-speed) | Tmux plugin to monitor upload and download speed
+*   app-misc/[tmux-newsboat](https://github.com/tmux-plugins/tmux-newsboat) | Display newsboat counters in tmux status line
+*   app-misc/[tmux-online-status](https://github.com/tmux-plugins/tmux-online-status) | Tmux plugin that displays online status
+*   app-misc/[tmux-open](https://github.com/tmux-plugins/tmux-open) | Tmux key bindings for quick opening of file or url
+*   app-misc/[tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control) | Standard pane key-bindings for tmux
+*   app-misc/[tmux-plugin-manager](https://github.com/tmux-plugins/tpm) | Tmux Plugin Manager
+*   app-misc/[tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight) | Tmux plugin for highlights by tmux prefix key
+*   app-misc/[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Persists tmux environment across system restarts
+*   app-misc/[tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) | Basic tmux settings everyone can agree on
+*   app-misc/[tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist) | Lightweight tmux utils for manipulating sessions
+*   app-misc/[tmux-sidebar](https://github.com/tmux-plugins/tmux-sessionist) | A sidebar with the directory tree for tmux
+*   app-misc/[tmux-urlview](https://github.com/tmux-plugins/tmux-urlview) | Quickly open any url in tmux pane
+*   app-misc/[tmux-yank](https://github.com/tmux-plugins/tmux-yank) | Tmux plugin for copying to system clipboard
 *   app-misc/[topfew](https://github.com/timbray/topfew) | Finds most often fields in a stream of records
 *   app-misc/[up](https://github.com/akavel/up) | Tool for writing Linux pipes with instant live preview
 *   app-misc/[xsv](https://github.com/BurntSushi/xsv) | A fast CSV command line toolkit
 *   app-misc/[xq](https://github.com/sibprogrammer/xq) | Command-line JSON processor for binary data
 *   app-office/[tradingview](https://www.tradingview.com/desktop/) | A charting platform for traders and investors
 *   app-office/[webull-desktop](https://www.webull.com/introduce/desktop-native) | Invest in stocks, ETFs, and options with Webull Financial
+*   app-shells/[fpp](https://github.com/facebook/pathpicker) | Command line tool to select files out of bash output
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/peco.svg?header=)](https://repology.org/project/peco/versions) app-shells/[peco](https://github.com/peco/peco) | Simplistic interactive filtering tool
 *   app-shells/[tlog](https://github.com/Scribery/tlog) | Terminal I/O logger
 *   app-shells/[zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command with supports of all major shells
