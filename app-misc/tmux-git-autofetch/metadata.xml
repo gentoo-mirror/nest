@@ -10,12 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Lightly is a fork of breeze theme style that aims to be visually modern
-	and minimalistic. It is a work in progress theme, there is still a lot
-	to change, so expect bugs.
+	This package provides a tmux plugin automates the process of
+	fetching updates from remote git repositories.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">Luwx/Lightly</remote-id>
-		<remote-id type="github">xuzhao9/Lightly</remote-id>
+		<remote-id type="github">thepante/tmux-git-autofetch</remote-id>
 	</upstream>
 </pkgmetadata>
