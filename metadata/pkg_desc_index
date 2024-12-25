@@ -186,6 +186,7 @@ app-misc/tmux-cowboy 9999 20210511: Kill hanging processes fast inside tmux pane
 app-misc/tmux-cpu 9999 20241006: Plug and play cpu percentage and icon indicator for Tmux
 app-misc/tmux-fastcopy 0.14.1 9999: Easymotion-style text copying for tmux
 app-misc/tmux-fpp 9999 20240129: Quickly open any path on terminal window in editor
+app-misc/tmux-git-autofetch 9999 20240502: Automatically fetches current opened git repositories
 app-misc/tmux-logging 2.1.0 9999: Easy logging and screen capturing for Tmux
 app-misc/tmux-maildir-counter 9999 20210315: Plugin that counts files on a specific mail directory
 app-misc/tmux-net-speed 0.3 9999: Tmux plugin to monitor upload and download speed
