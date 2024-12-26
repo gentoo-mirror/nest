@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Use fzf to manage your tmux work environment
+EAPI=8
+HOMEPAGE=https://github.com/sainnhe/tmux-fzf
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-shells/fzf app-misc/tmux sys-process/procps
+SLOT=0
+SRC_URI=https://github.com/sainnhe/tmux-fzf/archive/1547f18083ead1b235680aa5f98427ccaf5beb21.tar.gz -> tmux-fzf-20240804.tar.gz
+_md5_=37ba700af2f2056d273213e03557a175

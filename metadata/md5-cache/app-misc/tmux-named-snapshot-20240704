@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=A tmux-resurrect extension for named snapshot support
+EAPI=8
+HOMEPAGE=https://github.com/spywhere/tmux-named-snapshot
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/spywhere/tmux-named-snapshot/archive/872fedef62c1b732a56ca643f2354346912e06c3.tar.gz -> tmux-named-snapshot-20240704.tar.gz
+_md5_=0b28b47d6bfc93b9f175e2f8fd93a9c0

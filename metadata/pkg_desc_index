@@ -186,15 +186,20 @@ app-misc/tmux-cowboy 9999 20210511: Kill hanging processes fast inside tmux pane
 app-misc/tmux-cpu 9999 20241006: Plug and play cpu percentage and icon indicator for Tmux
 app-misc/tmux-fastcopy 0.14.1 9999: Easymotion-style text copying for tmux
 app-misc/tmux-fpp 9999 20240129: Quickly open any path on terminal window in editor
+app-misc/tmux-fzf 9999 20240804: Use fzf to manage your tmux work environment
 app-misc/tmux-git-autofetch 9999 20240502: Automatically fetches current opened git repositories
 app-misc/tmux-logging 2.1.0 9999: Easy logging and screen capturing for Tmux
 app-misc/tmux-maildir-counter 9999 20210315: Plugin that counts files on a specific mail directory
+app-misc/tmux-menus 9999 20241223: Popup menus for tmux to help with managing your environment
+app-misc/tmux-mighty-scroll 9999 20241109: Seamless mouse scroll in tmux
+app-misc/tmux-named-snapshot 9999 20240704: A tmux-resurrect extension for named snapshot support
 app-misc/tmux-net-speed 0.3 9999: Tmux plugin to monitor upload and download speed
 app-misc/tmux-newsboat 9999 20211218: Display newsboat counters in tmux status line
 app-misc/tmux-online-status 1.0.0 9999: Tmux plugin that displays online status
 app-misc/tmux-open 3.0.0 9999: Tmux key bindings for quick opening of file or url
 app-misc/tmux-pain-control 1.0.0 9999: Standard pane key-bindings for tmux
 app-misc/tmux-plugin-manager 3.1.0 9999: Tmux Plugin Manager
+app-misc/tmux-powerline 3.0.0 9999: A hackable status bar for tmux
 app-misc/tmux-prefix-highlight 9999 20240114: Tmux plugin for highlights by tmux prefix key
 app-misc/tmux-resurrect 4.0.0 9999: Persists tmux environment across system restarts
 app-misc/tmux-sensible 3.0.0 9999: Basic tmux settings everyone can agree on
@@ -1114,6 +1119,7 @@ net-im/viber 23.2.0.3: Free text and calls
 net-libs/bctoolbox 5.3.86 9999: Utilities library used by Belledonne Communications softwares
 net-libs/bzrtp 5.3.86 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.3.86 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
+net-mail/mailcheck 1.91.2: Check multiple mailboxes/maildirs for mail from the command line
 net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
 net-misc/amazon-workspaces-bin 2023.2.4580 2023.2.4623: Amazon Workspace Client
 net-misc/awscurl 0.32 9999: Make signed requests to AWS API

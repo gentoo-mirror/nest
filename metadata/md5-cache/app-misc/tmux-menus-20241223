@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Popup menus for tmux to help with managing your environment
+EAPI=8
+HOMEPAGE=https://github.com/jaclu/tmux-menus
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/jaclu/tmux-menus/archive/0bc4c35064e2ee785e77c6a531481e15f6ea4e7f.tar.gz -> tmux-menus-20241223.tar.gz
+_md5_=96bfa27f73d583ceadfded2d559033de

@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Use fzf to manage your tmux work environment
+EAPI=8
+HOMEPAGE=https://github.com/sainnhe/tmux-fzf
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-shells/fzf app-misc/tmux sys-process/procps
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=3592841adb01a6c0f588c8672c1eb63d

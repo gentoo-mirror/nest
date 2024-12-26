@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=A hackable status bar for tmux
+EAPI=8
+HOMEPAGE=https://github.com/erikw/tmux-powerline
+INHERIT=edo flag-o-matic toolchain-funcs
+IUSE=mbox mpd X
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=app-alternatives/bc app-misc/jq app-misc/tmux app-misc/tmux-mem-cpu-load net-misc/curl mbox? ( net-mail/mailcheck ) mpd? ( media-libs/libmpdclient ) X? ( x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libxcb:= )
+SLOT=0
+SRC_URI=https://github.com/erikw/tmux-powerline/archive/v3.0.0.tar.gz -> tmux-powerline-3.0.0.tar.gz
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe
+_md5_=f47b1c0f2514c070fd20b97a06d209f1
