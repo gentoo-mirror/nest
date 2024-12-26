@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1153](https://img.shields.io/badge/ebuild-1153-orange.svg)](https://img.shields.io/badge/ebuild-1153-orange.svg)
+[![Number of ebuilds: 1159](https://img.shields.io/badge/ebuild-1159-orange.svg)](https://img.shields.io/badge/ebuild-1159-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -158,15 +158,20 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-misc/[tmux-cpu](https://github.com/tmux-plugins/tmux-cpu) | Plug and play cpu percentage and icon indicator for Tmux
 *   app-misc/[tmux-fastcopy](https://github.com/abhinav/tmux-fastcopy) | Easymotion-style text copying for tmux
 *   app-misc/[tmux-fpp](https://github.com/tmux-plugins/tmux-fpp) | Quickly open any path on terminal window in editor
+*   app-misc/[tmux-fzf](https://github.com/sainnhe/tmux-fzf) | Use fzf to manage your tmux work environment
 *   app-misc/[tmux-git-autofetch](https://github.com/thepante/tmux-git-autofetch) | Automatically fetches current opened git repositories
 *   app-misc/[tmux-logging](https://github.com/tmux-plugins/tmux-logging) | Easy logging and screen capturing for Tmux
 *   app-misc/[tmux-maildir-counter](https://github.com/tmux-plugins/tmux-maildir-counter) | Plugin that counts files on a specific mail directory
+*   app-misc/[tmux-menus](https://github.com/jaclu/tmux-menus) | Popup menus for tmux to help with managing your environment
+*   app-misc/[tmux-mighty-scroll](https://github.com/noscript/tmux-mighty-scroll) | Seamless mouse scroll in tmux
+*   app-misc/[tmux-named-snapshot](https://github.com/spywhere/tmux-named-snapshot) | A tmux-resurrect extension for named snapshot support
 *   app-misc/[tmux-net-speed](https://github.com/tmux-plugins/tmux-net-speed) | Tmux plugin to monitor upload and download speed
 *   app-misc/[tmux-newsboat](https://github.com/tmux-plugins/tmux-newsboat) | Display newsboat counters in tmux status line
 *   app-misc/[tmux-online-status](https://github.com/tmux-plugins/tmux-online-status) | Tmux plugin that displays online status
 *   app-misc/[tmux-open](https://github.com/tmux-plugins/tmux-open) | Tmux key bindings for quick opening of file or url
 *   app-misc/[tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control) | Standard pane key-bindings for tmux
 *   app-misc/[tmux-plugin-manager](https://github.com/tmux-plugins/tpm) | Tmux Plugin Manager
+*   app-misc/[tmux-powerline](https://github.com/erikw/tmux-powerline) | A hackable status bar for tmux
 *   app-misc/[tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight) | Tmux plugin for highlights by tmux prefix key
 *   app-misc/[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Persists tmux environment across system restarts
 *   app-misc/[tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) | Basic tmux settings everyone can agree on
@@ -1126,6 +1131,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   net-libs/[bctoolbox](https://gitlab.linphone.org/BC/public/bctoolbox) | Utilities library used by Belledonne Communications softwares
 *   net-libs/[bzrtp](https://gitlab.linphone.org/BC/public/bzrtp) | Media Path Key Agreement for Unicast Secure RTP
 *   net-libs/[ortp](https://gitlab.linphone.org/BC/public/ortp) | Open Real-time Transport Protocol (RTP, RFC3550) stack
+*   net-mail/[mailcheck](https://mailcheck.sourceforge.net) | Check multiple mailboxes/maildirs for mail from the command line
 *   net-misc/[AdGuardHome-bin](https://github.com/AdguardTeam/AdGuardHome) | Network-wide ads & trackers blocking DNS server
 *   net-misc/[amazon-workspaces-bin](https://clients.amazonworkspaces.com) | Amazon Workspace Client
 *   net-misc/[awscurl](https://github.com/okigan/awscurl) | Make signed requests to AWS API
