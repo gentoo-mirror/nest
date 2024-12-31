@@ -1,15 +1,15 @@
-BDEPEND=dev-qt/linguist-tools:5 >=dev-vcs/git-1.8.2.1[curl] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+BDEPEND=dev-qt/qttools:6[linguist] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install prepare test unpack
-DEPEND=|| ( app-admin/pass app-admin/gopass ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 net-misc/x11-ssh-askpass dev-qt/qtsvg:5 test? ( dev-qt/qttest:5 )
+DEPEND=|| ( app-admin/pass app-admin/gopass ) dev-qt/qtbase:6[gui,network,widgets] net-misc/x11-ssh-askpass dev-qt/qtsvg:6
 DESCRIPTION=Multi-platform GUI for pass, the standard unix password manager
 EAPI=8
 HOMEPAGE=https://qtpass.org
-INHERIT=desktop git-r3 qmake-utils virtualx
-IUSE=test test
+INHERIT=desktop git-r3 qmake-utils
+IUSE=test
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=|| ( app-admin/pass app-admin/gopass ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 net-misc/x11-ssh-askpass
-RESTRICT=!test? ( test ) !test? ( test )
+RDEPEND=|| ( app-admin/pass app-admin/gopass ) dev-qt/qtbase:6[gui,network,widgets] net-misc/x11-ssh-askpass
+RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	virtualx	9741d451eb64ea8bb9faee90d68a9b68
-_md5_=49b18e666d2e7869bb7273efd6058f62
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_md5_=5901ae6e1d19bd80ab090fea7f91dbbe
