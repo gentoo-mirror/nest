@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Nerd Font icons for your tmux windows
+EAPI=8
+HOMEPAGE=https://github.com/joshmedeski/tmux-nerd-font-window-name
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux || ( app-misc/yq app-misc/yq-go )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=94fdd8ed97a28af729ff9e2329b157d4

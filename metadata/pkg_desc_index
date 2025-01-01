@@ -194,6 +194,7 @@ app-misc/tmux-maildir-counter 9999 20210315: Plugin that counts files on a speci
 app-misc/tmux-menus 9999 20241223: Popup menus for tmux to help with managing your environment
 app-misc/tmux-mighty-scroll 9999 20241109: Seamless mouse scroll in tmux
 app-misc/tmux-named-snapshot 9999 20240704: A tmux-resurrect extension for named snapshot support
+app-misc/tmux-nerd-font-window-name 2.1.2 9999: Nerd Font icons for your tmux windows
 app-misc/tmux-net-speed 0.3 9999: Tmux plugin to monitor upload and download speed
 app-misc/tmux-newsboat 9999 20211218: Display newsboat counters in tmux status line
 app-misc/tmux-online-status 1.0.0 9999: Tmux plugin that displays online status
