@@ -200,6 +200,7 @@ app-misc/tmux-online-status 1.0.0 9999: Tmux plugin that displays online status
 app-misc/tmux-open 3.0.0 9999: Tmux key bindings for quick opening of file or url
 app-misc/tmux-pain-control 1.0.0 9999: Standard pane key-bindings for tmux
 app-misc/tmux-plugin-manager 3.1.0 9999: Tmux Plugin Manager
+app-misc/tmux-power-zoom 9999 20241221: Zoom pane to separate window, and unzoom it back
 app-misc/tmux-powerline 3.0.0 9999: A hackable status bar for tmux
 app-misc/tmux-prefix-highlight 9999 20240114: Tmux plugin for highlights by tmux prefix key
 app-misc/tmux-resurrect 4.0.0 9999: Persists tmux environment across system restarts
