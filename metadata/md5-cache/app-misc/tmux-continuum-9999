@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=app-misc/tmux app-misc/tmux-resurrect sys-process/procps
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=381cd764a73f6d88875545bd6a095ab9
+_md5_=1e1b8a8b7e913d34514ff18fdc94a8d7

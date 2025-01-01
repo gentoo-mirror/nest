@@ -7,4 +7,4 @@ LICENSE=MIT
 RDEPEND=app-misc/tmux app-misc/tmux-resurrect sys-process/procps
 SLOT=0
 SRC_URI=https://github.com/tmux-plugins/tmux-continuum/archive/v3.1.0.tar.gz -> tmux-continuum-3.1.0.tar.gz
-_md5_=a0bd57012813420a60771c85e7df3aa1
+_md5_=fb18837acebc3044b3be652a1703a762
