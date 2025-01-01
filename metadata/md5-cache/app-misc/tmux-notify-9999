@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Tmux plugin to notify about finished processes
+EAPI=8
+HOMEPAGE=https://github.com/rickstaa/tmux-notify
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-misc/tmux net-misc/wget x11-libs/libnotify
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=b5ce506f8466a40f36ea13171059adf4
