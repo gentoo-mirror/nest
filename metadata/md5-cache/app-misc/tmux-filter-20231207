@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Filter logs by some text or pattern
+EAPI=8
+HOMEPAGE=https://github.com/MaximilianGaedig/tmux-filter
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/MaximilianGaedig/tmux-filter/archive/11acbea4adffaff575d772d16d7dcb3c3ad3c89d.tar.gz -> tmux-filter-20231207.tar.gz
+_md5_=9e51a06af3dc552e7bc2ce0c441dcf11
