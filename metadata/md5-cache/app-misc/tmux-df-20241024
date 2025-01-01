@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Tmux plugin to show disk space in the statusbar
+EAPI=8
+HOMEPAGE=https://github.com/tassaron/tmux-df
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-misc/tmux
+SLOT=0
+SRC_URI=https://github.com/tassaron/tmux-df/archive/bf2049d74bc252681047438ebdc783c3b2f8a405.tar.gz -> tmux-df-20241024.tar.gz
+_md5_=47d54ecfa3618e311792bfdb542f6008
