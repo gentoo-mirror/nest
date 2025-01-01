@@ -10,14 +10,10 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	This package provides a tmux plugin with powerline status bar
-	consisting of segments. It's easily extensible with custom segments
-	and themes.
+	This package provides a tmux plugin, which simply puts the output of
+	df -h in the tmux statusbar.
 	</longdescription>
-	<use>
-		<flag name="mpd">Enable support for the Music Player Daemon</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">erikw/tmux-powerline</remote-id>
+		<remote-id type="github">tassaron/tmux-df</remote-id>
 	</upstream>
 </pkgmetadata>
