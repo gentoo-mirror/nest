@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,7 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_EXT=1
 DISTUTILS_OPTIONAL=1
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit cmake distutils-r1
 
@@ -17,8 +17,9 @@ SRC_URI="https://github.com/facebookresearch/${PN}/archive/v${PV}.tar.gz -> ${P}
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="python"
-REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
+IUSE="python test"
+RESTRICT="!test? ( test )"
+REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} ) test? ( python )"
 
 RDEPEND="python? ( ${PYTHON_DEPS}
 	dev-python/pybind11[${PYTHON_USEDEP}]
