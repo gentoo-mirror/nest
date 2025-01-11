@@ -10,4 +10,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/barnybug/cli53/archive/0.8.18.tar.gz -> cli53-0.8.18.gh.tar.gz https://github.com/SpiderX/portage-overlay/raw/deps/cli53-0.8.18-deps.tar.xz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	go-env	90efbc8636d2f02d9654183330e84cf7	go-module	df32d29550d40a92da723d3b8e17b467
-_md5_=ffeff6eb2d72e65764862c08821930d1
+_md5_=bc4beeae04aaa1981ab82f594f5cb86b

@@ -74,10 +74,9 @@ acct-user/urbackup 0: System user: urbackup
 acct-user/uredir 0: System user: uredir
 acct-user/vector 0: System user: vector
 acct-user/vhusb 0: System user: vhusb
-app-admin/aws-sam-cli 1.118.0 9999: CLI tool to manage Serverless applications using AWS SAM
+app-admin/aws-sam-cli 1.132.0 9999: CLI tool to manage Serverless applications using AWS SAM
 app-admin/aws-vault 6.6.0 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awsdtc 1.0.4 9999: AWS Data Transfer Cost Explorer
-app-admin/awslimitchecker 12.0.0 9999: Utility to check AWS resource limits and usage
 app-admin/awslog 0.1.6 9999: History and changes of configuration versions of AWS resources
 app-admin/awsls 0.11.0 9999: A list command for AWS resources
 app-admin/awsometag 0.1.7 9999: Simple command-line snippet manager
@@ -85,7 +84,7 @@ app-admin/awstaghelper 0.19.0 9999: AWS bulk tagging tool
 app-admin/awsume 4.5.5 9999: A utility for easily assuming AWS IAM roles from command line
 app-admin/awsume-console-plugin 1.2.4 9999: Use assumed role to open AWS console in default browser
 app-admin/azcopy 10.16.0 9999: A command-line utility to manage Azure Storage accounts
-app-admin/cfn-policy-validator 0.0.33 9999: IAM Policy Validator for AWS CloudFormation
+app-admin/cfn-policy-validator 0.0.35 9999: IAM Policy Validator for AWS CloudFormation
 app-admin/cli53 0.8.18 9999: Command line tool for Amazon Route 53
 app-admin/container-service-extension 3.0.5 9999: Container Service Extension for vCloud Director
 app-admin/csp-reporter 9999 20171023: Content Security Policy logs parser
@@ -94,7 +93,7 @@ app-admin/digaws 1.0.3 9999: Look up region and other information for any AWS IP
 app-admin/digaz 0.3.6 9999: Look up region and other information for any Azure IP address
 app-admin/digg 0.2.7 9999: Look up region and other information for any Google IP address
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
-app-admin/doctl 1.78.0 1.79.0 9999: A command line tool for DigitalOcean services
+app-admin/doctl 1.120.1 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
 app-admin/fselect 0.8.6 9999: Find files with SQL-like queries
 app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
@@ -774,7 +773,6 @@ dev-php/twig 3.10.3 9999: PHP templating engine with syntax similar to Django
 dev-php/webmozart-assert 1.11.0 9999: Webmozart Assert
 dev-php/zetacomponents-UnitTest 1.2.5 9999: Unit tests for any Zeta component
 dev-python/MarkupPy 1.14: An HTML/XML generator
-dev-python/PyMeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
 dev-python/ahocorasick 2.1.0 9999: Python module implementing Aho-Corasick algorithm
 dev-python/aiomultiprocess 0.9.1 9999: asyncio version of the standard multiprocessing module
@@ -919,6 +917,7 @@ dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libr
 dev-python/pyemd 1.0.0 9999: Fast EMD for Python
 dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
 dev-python/pykickstart 3.47 9999: Python library for reading and writing kickstart files
+dev-python/pymeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/pyspnego 0.1.6 9999: Python SPNEGO authentication library
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
 dev-python/pytest-benchmark 3.4.1 9999: py.test fixture for benchmarking code
@@ -972,7 +971,7 @@ dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/vcd-api-schemas-type 10.3.0_pre72: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
-dev-python/w3lib 2.1.2 9999: Library of web-related functions
+dev-python/w3lib 2.2.0 9999: Library of web-related functions
 dev-util/abnfgen 0.21: ABNF-grammar based test case generator
 dev-util/actionlint 1.6.26 9999: Static checker for GitHub Actions workflow files
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
