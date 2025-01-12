@@ -117,15 +117,15 @@ app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
 app-admin/sops 3.8.1 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
 app-admin/terraform-provider-proxmox 0.64.0 9999: Terraform Provider for Proxmox
-app-admin/terraform-provider-vcd 3.10.0 9999: Terraform VMware vCloud Director provider
+app-admin/terraform-provider-vcd 3.14.0 9999: Terraform VMware vCloud Director provider
 app-admin/topngx 0.4.0 9999: A top for NGINX
 app-admin/trailscraper 0.8.1 9999: Command-line tool to get information out of AWS CloudTrail
 app-admin/tztail 1.2.0 9999: A log view in various timezones
 app-admin/userdbadm 0.1 9999: Tool to manage (PAM) userdb files with crypted passwords
-app-admin/uwsgitop 0.11 9999: uWSGI stats viewer
+app-admin/uwsgitop 0.12 9999: uWSGI stats viewer
 app-admin/vault-backend-migrator 0.2.1_alpha 9999: Tool to migrate data across vault clusters
 app-admin/vcd-cli 24.0.1 9999: Utility to check AWS resource limits and usage
-app-admin/vector-bin 0.23.0: High performance logs, metrics, and events router
+app-admin/vector-bin 0.43.1: High performance logs, metrics, and events router
 app-admin/whatfiles 1.0 9999: Log what files are accessed by any Linux process
 app-admin/yaml-vault 1.1.1_p1 9999: Utility to import/export data from HashiCorp Vault
 app-backup/clickhouse-backup 1.0.0 9999: Tool for easy ClickHouse backup and restore

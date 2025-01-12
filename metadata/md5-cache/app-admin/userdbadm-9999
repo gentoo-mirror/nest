@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-lang/perl:0=[berkdb] virtual/perl-DB_File
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=69f8a4a32e58b8c215465073ee12777d
+_md5_=9da4a139c4b9cc5fedbd0fb3e3cf4ae1
