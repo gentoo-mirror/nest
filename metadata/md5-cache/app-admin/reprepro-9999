@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=0a7721c9c30602bff09af82fa0c4df9e
+_md5_=04f73a87019075e2122e7a7d6e4ef1dc

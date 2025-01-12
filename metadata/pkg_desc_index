@@ -95,13 +95,13 @@ app-admin/digg 0.2.7 9999: Look up region and other information for any Google I
 app-admin/docker-pretty-ps 1.0.1 9999: docker ps in colored and long output
 app-admin/doctl 1.120.1 9999: A command line tool for DigitalOcean services
 app-admin/ebs-autoresize 1.1.0 9999: Automatically resize EBS
-app-admin/fselect 0.8.6 9999: Find files with SQL-like queries
-app-admin/glaball 1.0.0 9999: Gitlab bulk administration tool
+app-admin/fselect 0.8.8 9999: Find files with SQL-like queries
+app-admin/glaball 1.0.27 9999: Gitlab bulk administration tool
 app-admin/grex 1.4.5 9999: A CLI tool for generating regular expressions
-app-admin/ibmcloud-bin 2.10.0: IBM Cloud Developer Tools
+app-admin/ibmcloud-bin 2.31.0: IBM Cloud Developer Tools
 app-admin/jl 1.6.0 9999: A tool for working with structured JSON logging
 app-admin/kmon 1.6.5 9999: Linux Kernel Manager and Activity Monitor
-app-admin/mkeosimg 9999 19122022: Ubiquiti EdgeOS image from a system tarball
+app-admin/mkeosimg 9999 11082024: Ubiquiti EdgeOS image from a system tarball
 app-admin/netutils-linux 2.7.9 9999: Suite of network stack performance tunning utilities
 app-admin/ngxtop-ce 0.0.3_alpha7 9999: real-time metrics for nginx server (and others)
 app-admin/profile-cleaner 2.45 9999: Vacuum and reindex browser sqlite databases
@@ -109,10 +109,10 @@ app-admin/qtpass 1.4.0-r1 9999: Multi-platform GUI for pass, the standard unix p
 app-admin/rain 1.10.0 9999: A development workflow tool for working with AWS CloudFormation
 app-admin/reach 0.2.0 9999: A static network verification tool for AWS
 app-admin/reprepro 5.3.0 9999: A tool to handle local repositories of Debian packages
-app-admin/rhit 2.0.1 9999: A nginx log explorer
+app-admin/rhit 2.0.3 9999: A nginx log explorer
 app-admin/ripe-atlas-tools 3.1.1 9999: The official command-line client for RIPE Atlas
 app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
-app-admin/semaphore-bin 2.8.53: Modern UI for Ansible
+app-admin/semaphore-bin 2.11.2: Modern UI for Ansible
 app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
 app-admin/sops 3.8.1 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
@@ -933,7 +933,7 @@ dev-python/python-user-agents 2.2.0 9999: A library to identify devices by parsi
 dev-python/pythonqt 3.5.2 9999: A dynamic Python binding for the Qt framework
 dev-python/pytimeparse 1.1.8-r1 9999: A library to parse time from human readable string
 dev-python/pyvcloud 23.0.4 9999: VMware vCloud Director Python SDK
-dev-python/pyvmomi 8.0.2.0.1 9999: VMware vSphere API Python Bindings
+dev-python/pyvmomi 8.0.3.0.1 9999: VMware vSphere API Python Bindings
 dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 2.0.1 9999: Python library to build pretty command line user prompts
 dev-python/reprint 0.6.0 9999: Binding variables and refreshing multi-line output in terminal
@@ -965,7 +965,7 @@ dev-python/types-s3transfer 0.7.0 9999: Type annotations and code completion for
 dev-python/ua-parser 0.10.0 9999: A python implementation of the UA Parser
 dev-python/ukpostcodeparser 1.1.2 9999: UK postcode parser library
 dev-python/umalqurra 0.2 9999: Date Api that support Hijri Umalqurra calendar
-dev-python/unittest-xml-reporting 3.0.2 9999: unittest-based test runner with Ant/JUnit like XML reporting
+dev-python/unittest-xml-reporting 3.2.0 9999: unittest-based test runner with Ant/JUnit like XML reporting
 dev-python/update-checker 0.18.0 9999: A python module that will check for package updates
 dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/vcd-api-schemas-type 10.3.0_pre72: VMware vCloud Director Python API Schemas Type

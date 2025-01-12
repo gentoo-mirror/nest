@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=sys-libs/db:= sys-libs/zlib archive? ( app-arch/libarchive:0= ) gpg? ( app-crypt/gpgme:1= dev-libs/libgpg-error ) lzma? ( app-arch/lzma )
 SLOT=0
 SRC_URI=https://ftp.debian.org/debian/pool/main/r/reprepro/reprepro_5.3.0.orig.tar.gz -> reprepro-5.3.0.tar.gz
-_md5_=5b69171899b19ffc74b25d9f6d6d2589
+_md5_=b462a02c9d577acd28dbef5f0d754628
