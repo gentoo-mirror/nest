@@ -128,9 +128,9 @@ app-admin/vcd-cli 24.0.1 9999: Utility to check AWS resource limits and usage
 app-admin/vector-bin 0.43.1: High performance logs, metrics, and events router
 app-admin/whatfiles 1.0 9999: Log what files are accessed by any Linux process
 app-admin/yaml-vault 1.1.1_p1 9999: Utility to import/export data from HashiCorp Vault
-app-backup/clickhouse-backup 1.0.0 9999: Tool for easy ClickHouse backup and restore
-app-backup/hashget 0.150 9999: Deduplication tool for archiving data with extremely high ratio
-app-backup/pgbackrest 2.39 9999: Reliable PostgreSQL Backup & Restore
+app-backup/clickhouse-backup 2.6.5 9999: Tool for easy ClickHouse backup and restore
+app-backup/hashget 0.176 9999: Deduplication tool for archiving data with extremely high ratio
+app-backup/pgbackrest 2.54.1 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.4.11 9999: Client Server backup system
 app-backup/urbackup-server 2.4.15 9999: Client Server backup system
 app-backup/wal-g 2.0.0 9999: Archival restoration tool for databases
