@@ -13,5 +13,5 @@ REQUIRED_USE=test? ( soap )
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/sebastianbergmann/phpunit/archive/10.5.27.tar.gz -> phpunit-10.5.27.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=d4e9af415ea49922f94342f6912e1e8f

@@ -11,5 +11,5 @@ RDEPEND=!dev-php/cache-tag-interop dev-lang/php:* dev-php/doctrine-cache dev-php
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/php-cache/cache/archive/1.0.0.tar.gz -> cache-1.0.0.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=2807e85e5b289556c0deafe8c24cc411

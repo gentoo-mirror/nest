@@ -11,5 +11,5 @@ RDEPEND=dev-lang/php:*[pdo,mysql?,postgres?,sqlite?] dev-php/doctrine-deprecatio
 REQUIRED_USE=test? ( mysql postgres sqlite )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	538bce96e5589935b57e178e8635f301
 _md5_=3ae6f842f885f91d2eda008053a79ac8

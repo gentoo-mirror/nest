@@ -11,5 +11,5 @@ RDEPEND=dev-lang/php:*[soap?,xml,xmlwriter,unicode] dev-php/fedora-autoloader de
 REQUIRED_USE=test? ( soap )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	538bce96e5589935b57e178e8635f301
 _md5_=30750bcf4cd2a84bd46c431e849d092f

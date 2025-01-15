@@ -9,5 +9,5 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-intl-n
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/symfony/polyfill-intl-idn/archive/v1.30.0.tar.gz -> symfony-polyfill-intl-idn-1.30.0.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=7bec2d414459387d4ae16f2eef6ff9b1

@@ -12,5 +12,5 @@ RDEPEND=dev-lang/php:*[pdo,sqlite] dev-php/doctrine-deprecations dev-php/doctrin
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/doctrine/data-fixtures/archive/1.7.0.tar.gz -> doctrine-data-fixtures-1.7.0.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=147ece52c92e7f27ff7a872436ae12b3

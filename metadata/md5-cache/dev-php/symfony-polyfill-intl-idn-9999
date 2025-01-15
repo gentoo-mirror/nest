@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-intl-normalizer
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	538bce96e5589935b57e178e8635f301
 _md5_=43cf6f800919e002e523212a008477cc

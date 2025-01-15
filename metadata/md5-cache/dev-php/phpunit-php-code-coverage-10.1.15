@@ -12,5 +12,5 @@ RDEPEND=dev-lang/php:*[xml,xmlwriter] dev-php/fedora-autoloader dev-php/nikic-ph
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/sebastianbergmann/php-code-coverage/archive/10.1.15.tar.gz -> phpunit-php-code-coverage-10.1.15.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=b9436d21edd3acff8f0b34b210933e24

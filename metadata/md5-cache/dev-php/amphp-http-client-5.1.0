@@ -12,5 +12,5 @@ RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-byte-stream dev-php/amphp
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/amphp/http-client/archive/v5.1.0.tar.gz -> amphp-http-client-5.1.0.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=1866d19b2e4feaba5b2db3a5cec9e084
