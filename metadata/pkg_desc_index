@@ -134,7 +134,7 @@ app-backup/pgbackrest 2.54.1 9999: Reliable PostgreSQL Backup & Restore
 app-backup/urbackup-client 2.5.25 9999: Client Server backup system
 app-backup/urbackup-server 2.5.33 9999: Client Server backup system
 app-backup/wal-g 3.0.5 9999: Archival restoration tool for databases
-app-containers/lazydocker 0.12 9999: Lazier way to manage everything docker
+app-containers/lazydocker 0.24.1 9999: Lazier way to manage everything docker
 app-crypt/acme-client 1.3.0 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 3.0.2 9999: An ACME Shell script
 app-crypt/acmebot 2.7.4 9999: ACME protocol automatic certitificate manager
