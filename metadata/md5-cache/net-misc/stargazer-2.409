@@ -11,5 +11,5 @@ RDEPEND=acct-user/stg
 REQUIRED_USE=stargazer? ( ^^ ( module-store-files module-store-firebird module-store-mysql module-store-postgres ) )
 SLOT=0
 SRC_URI=https://stg.net.ua/files/stg-2.409.tar.gz
-_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe
+_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9
 _md5_=05a160e133e0a82abcb47946b71d8f4b
