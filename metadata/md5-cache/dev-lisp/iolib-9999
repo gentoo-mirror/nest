@@ -11,5 +11,5 @@ PROPERTIES=test_network live
 RDEPEND=dev-libs/libfixposix dev-lisp/alexandria dev-lisp/babel dev-lisp/bordeaux-threads dev-lisp/cffi dev-lisp/idna dev-lisp/split-sequence dev-lisp/swap-bytes dev-lisp/trivial-features
 RESTRICT=test
 SLOT=0
-_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96
 _md5_=a658aa6aa3009293eece86251a4e37b7
