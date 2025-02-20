@@ -3,20 +3,19 @@
 
 EAPI=8
 
-EGIT_REPO_URI="https://github.com/magillos/${PN}.git"
+inherit ecm
 
-inherit ecm git-r3
-
-DESCRIPTION="Plasma 6 compatibile widget showing power usage"
-HOMEPAGE="https://github.com/magillos/Plasma-6-power-usage-widget"
+DESCRIPTION="Currently playing song and playback controls in Plasma 6"
+HOMEPAGE="https://github.com/ccatterina/plasmusic-toolbar"
+SRC_URI="https://github.com/ccatterina/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="6"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="kde-frameworks/kdeclarative:6
 	kde-frameworks/ki18n:6
 	kde-frameworks/kirigami:6
-	kde-plasma/plasma5support:6
 	kde-plasma/plasma-workspace:6"
 
 src_prepare() {
@@ -30,6 +29,6 @@ src_compile() { :; }
 src_install() {
 	default
 
-	insinto /usr/share/plasma/plasmoids/org.kde.plasma.powerusage
-	doins -r Power-Usage/.
+	insinto /usr/share/plasma/plasmoids/plasmusic-toolbar
+	doins -r src/.
 }
