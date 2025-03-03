@@ -981,7 +981,6 @@ dev-util/beekeeper-studio-bin 4.6.2: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
-dev-util/cfn-skeleton 0.2.0 9999: AWS Cloudformation Template Builder
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
 dev-util/checkov 3.2.136 9999: Static code analysis tool for infrastructure-as-code
@@ -1088,7 +1087,7 @@ media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.12 9999: A finely crafted music player
 media-sound/plexamp 4.11.1: Music focused client for Plex
 media-sound/sayonara 1.10.0_p1 9999: Small, clear and fast Qt-based audio player
-media-sound/spotify-qt 3.10 9999: Lightweight Spotify client using Qt
+media-sound/spotify-qt 3.12 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon
 media-video/ffmpeg-compat 57 58 58-r2: Compatibility package for ffmpeg to provide versions 58 of libraries
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
