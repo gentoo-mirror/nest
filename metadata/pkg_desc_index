@@ -987,6 +987,8 @@ dev-util/checkov 3.2.136 9999: Static code analysis tool for infrastructure-as-c
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.6.2 9999: AWS IAM Security Assessment tool
+dev-util/config-file-validator 1.8.0 9999: Cross Platform tool to validate configuration files
+dev-util/crudini 0.9.5 9999: A utility for manipulating ini files
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.1 9999: Debugger for Sed
