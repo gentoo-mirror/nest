@@ -1119,7 +1119,7 @@ net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 5.0.1-r2: Chat and network platform
-net-im/skypeforlinux 8.127.76.102_p356: Instant messaging client, with support for audio and video
+net-im/skypeforlinux 8.138.0.203_p386: Instant messaging client, with support for audio and video
 net-im/slack 4.41.105-r1: Team collaboration tool
 net-im/teams-for-linux 1.9.2: Unofficial Microsoft Teams for Linux client
 net-im/viber 23.2.0.3: Free text and calls
