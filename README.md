@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1170](https://img.shields.io/badge/ebuild-1170-orange.svg)](https://img.shields.io/badge/ebuild-1170-orange.svg)
+[![Number of ebuilds: 1172](https://img.shields.io/badge/ebuild-1172-orange.svg)](https://img.shields.io/badge/ebuild-1172-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -866,6 +866,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[igraph](https://github.com/igraph/python-igraph) | Python interface for igraph
 *   dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 *   dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
+*   dev-python/[jiter](https://github.com/pydantic/jiter) | Fast iterable JSON parser
 *   dev-python/[jproperties](https://github.com/Tblue/python-jproperties) | Java Property file parser and writer for Python
 *   dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 *   dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
@@ -953,6 +954,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
 *   dev-python/[social-auth-core](https://github.com/python-social-auth/social-core) | Python Social Auth - Core
 *   dev-python/[social-auth-app-django](https://github.com/python-social-auth/social-app-django) | Python Social Auth - Application - Django
+*   dev-python/[spdx-tools](https://github.com/spdx/tools-python) | Python library to parse, validate and create SPDX documents
 *   dev-python/[sphinx-autobuild](https://github.com/GaretJax/sphinx-autobuild) | Autorebuild documentation on change
 *   dev-python/[sphinxcontrib-httpdomain](https://github.com/sphinx-contrib/httpdomain) | Documenting RESTful HTTP APIs
 *   dev-python/[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | Mermaid diagrams in sphinx powered docs
