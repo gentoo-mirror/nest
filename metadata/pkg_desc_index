@@ -786,13 +786,13 @@ dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AW
 dev-python/azure-common 1.1.28 9999: Microsoft Azure Client Common Library for Python
 dev-python/azure-core 1.30.2 9999: Microsoft Azure Core Library for Python
 dev-python/azure-storage-blob 12.20.0 9999: Microsoft Azure Storage Blobs Library for Python
-dev-python/bc-detect-secrets 1.5.12 9999: A fork of enterprise friendly way of detecting and preventing secrets
+dev-python/bc-detect-secrets 1.5.37 9999: A fork of enterprise friendly way of detecting and preventing secrets
 dev-python/bc-jsonpath-ng 1.6.1 9999: Python JSONPath Next-Generation
 dev-python/bc-python-hcl2 0.4.2 9999: A fork of parser for HCL2 written in Python
 dev-python/billiard 3.6.4.0 9999: Multiprocessing Pool Extensions
 dev-python/boto3-stubs 1.28.78 9999: Type annotations for boto3
 dev-python/botocore-stubs 1.31.78 9999: Type annotations and code completion for botocore
-dev-python/cached-property 1.5.2 9999: A cached-property for decorating methods in classes
+dev-python/cached-property 2.0.1 9999: A cached-property for decorating methods in classes
 dev-python/celery 5.2.3 9999: Asynchronous task job queue based on distributed message passing
 dev-python/cerberus 1.3.4 9999: Lightweight and extensible data validation library for Python
 dev-python/chevron 0.14.0 9999: Mustache templating language renderer
@@ -811,7 +811,7 @@ dev-python/crayons 0.4.0 9999: Text UI colors
 dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.8 9999: Fast and reliable NGINX configuration parser
 dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems programming
-dev-python/cyclonedx-python-lib 7.4.1 9999: Python library for generating CycloneDX SBOMs
+dev-python/cyclonedx-python-lib 7.6.2 9.1.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.2.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.2.0 9999: Date parsing library designed to parse dates from HTML pages
@@ -875,6 +875,7 @@ dev-python/hsh 1.1.0 9999: Simple cross-platform file hash digests and file inte
 dev-python/igraph 0.11.5 9999: Python interface for igraph
 dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 4.1.1 9999: Jalali implementation of Python's datetime module
+dev-python/jiter 0.9.0 9999: Fast iterable JSON parser
 dev-python/jproperties 2.1.1 9999: Java Property file parser and writer for Python
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
 dev-python/jsonpath-ng 1.5.3 9999: Python JSONPath Next-Generation
@@ -893,13 +894,13 @@ dev-python/nltk 3.8.1 9999: Topic Modelling for Humans
 dev-python/nltk-data 20230202: Data files for NLTK
 dev-python/nmslib 2.1.1 9999: Non-Metric Space Library
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
-dev-python/openai 1.35.10 9999: The official Python library for the OpenAI API
+dev-python/openai 1.66.3 9999: The official Python library for the OpenAI API
 dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Python
 dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
-dev-python/packageurl 0.15.1 9999: Python implementation of the package url spec
-dev-python/pandas-stubs 2.2.2.240603 9999: Type annotations for pandas
+dev-python/packageurl 0.16.0 9999: Python implementation of the package url spec
+dev-python/pandas-stubs 2.2.3.250308 9999: Type annotations for pandas
 dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
 dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
@@ -910,7 +911,7 @@ dev-python/promise 2.3.0 9999: Python port of GraphQL.js
 dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 3.2.1 9999: Python 3 DNS library
 dev-python/pybeam 0.7 9999: Python module to parse Erlang BEAM files
-dev-python/pycep 0.4.2 9999: A Python based Bicep parser
+dev-python/pycep 0.5.1 9999: A Python based Bicep parser
 dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
 dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libraries
 dev-python/pyemd 1.0.0 9999: Fast EMD for Python
@@ -943,12 +944,13 @@ dev-python/rstr 3.1.0 9999: Generate random strings in Python
 dev-python/schema 0.7.5 9999: Simple data validation library
 dev-python/scikit-learn 1.0.2 9999: Machine learning in Python
 dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
-dev-python/serializable 1.0.3 9999: Serialize and deserialize Python objects to and from JSON and XML
+dev-python/serializable 1.1.2 2.0.0 9999: Serialize and deserialize Python objects to and from JSON and XML
 dev-python/shellingham 1.4.0 9999: Detects what shell the current Python executable is running in
 dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
 dev-python/smart-open 7.0.4 9999: Utils for streaming large files
 dev-python/social-auth-app-django 5.0.0 9999: Python Social Auth - Application - Django
 dev-python/social-auth-core 4.2.0 9999: Python Social Auth - Core
+dev-python/spdx-tools 0.8.3 9999: Python library to parse, validate and create SPDX documents
 dev-python/sphinx-autobuild 2021.3.14 9999: Autorebuild documentation on change
 dev-python/sphinxcontrib-httpdomain 1.7.0 9999: Documenting RESTful HTTP APIs
 dev-python/sphinxcontrib-mermaid 0.7 9999: Mermaid diagrams in sphinx powered docs
@@ -983,10 +985,10 @@ dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
 dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
-dev-util/checkov 3.2.136 9999: Static code analysis tool for infrastructure-as-code
+dev-util/checkov 3.2.388 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
 dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
-dev-util/cloudsplaining 0.6.2 9999: AWS IAM Security Assessment tool
+dev-util/cloudsplaining 0.8.0 9999: AWS IAM Security Assessment tool
 dev-util/config-file-validator 1.8.0 9999: Cross Platform tool to validate configuration files
 dev-util/crudini 0.9.5 9999: A utility for manipulating ini files
 dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
@@ -1007,7 +1009,7 @@ dev-util/lazygit 0.34 9999: Simple terminal UI for git commands
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187 4.5.0.20459872 4.6.0.21452615: VMware Open Virtualization Format tool
 dev-util/packer 1.7.6 9999: A tool to create identical machine images for multiple platforms
-dev-util/policy-sentry 0.12.11 9999: AWS IAM Least Privilege Policy Generator
+dev-util/policy-sentry 0.14.0 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 11.9.0: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
 dev-util/semgrep 1.75.0 9999: Lightweight static analysis for many languages
