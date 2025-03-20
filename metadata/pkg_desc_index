@@ -237,7 +237,7 @@ dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding comp
 dev-db/datanymizer 0.6.0 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
-dev-db/go-sqlcmd 1.1.0 9999: CLI for SQL Server and Azure SQL
+dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
 dev-db/ip4r 2.4.2 9999: IP address and IP range index types for PostgreSQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
 dev-db/mongodb-compass 1.43.6: The MongoDB GUI
