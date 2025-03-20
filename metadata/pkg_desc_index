@@ -804,7 +804,7 @@ dev-python/click-option-group 0.5.6 9999: Option groups missing in Click
 dev-python/click-repl 0.2.0 9999: Subcommand REPL for click apps
 dev-python/colorpedia 1.2.3 9999: Command-line tool for looking up colors and palettes
 dev-python/commandlines 0.4.1 9999: Python command line argument to object parsing library
-dev-python/configparser 6.0.0 9999: Backport of configparser from Python 3
+dev-python/configparser 7.2.0 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.4.0 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
@@ -1134,7 +1134,7 @@ net-libs/ortp 5.3.86 9999: Open Real-time Transport Protocol (RTP, RFC3550) stac
 net-mail/mailcheck 1.91.2: Check multiple mailboxes/maildirs for mail from the command line
 net-misc/AdGuardHome-bin 0.106.3: Network-wide ads & trackers blocking DNS server
 net-misc/amazon-workspaces-bin 2023.2.4580 2023.2.4623: Amazon Workspace Client
-net-misc/awscurl 0.32 9999: Make signed requests to AWS API
+net-misc/awscurl 0.36 9999: Make signed requests to AWS API
 net-misc/bngblaster 0.5.0 9999: A tool to simulate thousands of PPPoE or IPoE subscribers
 net-misc/comcast 1.0.1_p1 9999: Network problems simulator
 net-misc/curlie 1.6.9 9999: The power of curl, the ease of use of httpie
