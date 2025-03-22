@@ -234,7 +234,7 @@ dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema d
 dev-cpp/open-eid-cmake 9999 23022022: Open Electronic Identity CMake modules
 dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler
-dev-db/datanymizer 0.6.0 9999: Powerful database anonymizer with flexible rules
+dev-db/datanymizer 0.7.1 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
@@ -257,7 +257,7 @@ dev-db/pg_timetable 3.0.0 9999: Advanced scheduling for PostgreSQL
 dev-db/pgcenter 0.9.1 0.9.2 9999: Command-line admin tool for observing and troubleshooting Postgres
 dev-db/pgloader 3.6.10 9999: A data loading tool for PostgreSQL, using the COPY command
 dev-db/pipelinedb 1.0.0.13 9999: High-performance time-series aggregation for PostgreSQL
-dev-db/postgresql_anonymizer 1.1.0 9999: Anonymization & Data Masking for PostgreSQL
+dev-db/postgresql_anonymizer 2.0.0 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.3 9999: Database access library for C++
 dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more SQL queries
 dev-db/sqlpackage 15.0.5084.2: Automates SQL Server database development tasks
