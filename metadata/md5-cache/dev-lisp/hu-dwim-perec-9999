@@ -12,5 +12,5 @@ RDEPEND=dev-lisp/babel dev-lisp/cl-containers dev-lisp/cl-ppcre dev-lisp/context
 REQUIRED_USE=doc? ( test )
 RESTRICT=test
 SLOT=0
-_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	estack	c61c368a76fdf3a82fdf8dbaebea3804	darcs	045cf23c2cf2cc870aa29cc01b4cc2a3
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	estack	c61c368a76fdf3a82fdf8dbaebea3804	darcs	a19dab260f8c1cf27b04a65eb784683c
 _md5_=7d90e1ba7bdd78c08bb47dc8a198c63b

@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=A pure Unix shell script implementing ACME client protocol
+EAPI=8
+HOMEPAGE=https://github.com/acmesh-official/acme.sh
+INHERIT=optfeature
+IUSE=selinux
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-libs/openssl:0 net-misc/curl net-misc/socat selinux? ( sec-policy/selinux-certbot )
+SLOT=0
+SRC_URI=https://github.com/acmesh-official/acme.sh/archive/3.1.0.tar.gz -> acme.sh-3.1.0.tar.gz
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
+_md5_=9c12f36814a9613f5051f6538c333f91

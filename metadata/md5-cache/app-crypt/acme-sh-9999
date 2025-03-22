@@ -1,12 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst unpack
-DESCRIPTION=An ACME Shell script
+DESCRIPTION=A pure Unix shell script implementing ACME client protocol
 EAPI=8
 HOMEPAGE=https://github.com/acmesh-official/acme.sh
 INHERIT=git-r3 optfeature
+IUSE=selinux
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-libs/openssl:0 net-misc/curl net-misc/socat
+RDEPEND=dev-libs/openssl:0 net-misc/curl net-misc/socat selinux? ( sec-policy/selinux-certbot )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	538bce96e5589935b57e178e8635f301
-_md5_=a206d326a07cdaf298ea873f03dc87fe
+_md5_=c5344a91d3bdd80489734143bc90466c
