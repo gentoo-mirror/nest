@@ -141,15 +141,14 @@ app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.28.6 9999: A zero trust swiss army knife for working with X509
 app-crypt/totp 1.1.2 9999: Time-Based One-Time Password Code Generator
-app-editors/FeatherPad 1.2.0 9999: Lightweight Qt5 plain-text editor
-app-editors/NotepadNext 0.5.1 9999: A cross-platform reimplementation of Notepad++
+app-editors/NotepadNext 0.10 9999: A cross-platform reimplementation of Notepad++
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/marktext 0.17.1: A simple and elegant open-source markdown editor
-app-editors/micro 2.0.10 9999: A modern and intuitive terminal-based text editor
-app-editors/notes 2.0.0 9999: Note taking application, write down your thoughts
+app-editors/micro 2.0.14 9999: A modern and intuitive terminal-based text editor
+app-editors/notes 2.3.1 9999: Note taking application, write down your thoughts
 app-editors/obsidian 1.8.9: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
-app-editors/typora 1.9.3: A minimal markdown editor and reader
+app-editors/typora 1.10.8: A minimal markdown editor and reader
 app-emulation/looking-glass 6b 7b_rc1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 16.0.0e 16.1.0e 16.1.1e 16.1.2e 16.1.2f 16.2.0e 16.2.0f 16.2.0g 16.2.1e 16.2.1f 16.2.1g 16.2.3e 16.2.3f 16.2.3g 16.2.3h 16.2.4e 16.2.4f 16.2.4g 16.2.4h 16.2.5 17.0.1 17.0.2 17.5.0 17.5.2: VMware kernel modules
@@ -222,7 +221,6 @@ app-shells/tlog 14 9999: Terminal I/O logger
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/confget 5.1.1: Read variables from INI-style configuration files
 app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
-app-text/notes 2.2.1 9999: Note taking application, write down your thoughts
 dev-cpp/belr 5.3.1 9999: Language recognition library by Belledonne Communications
 dev-cpp/commoncpp2 1.8.1: GNU Common C++ 2
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
