@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1172](https://img.shields.io/badge/ebuild-1172-orange.svg)](https://img.shields.io/badge/ebuild-1172-orange.svg)
+[![Number of ebuilds: 1171](https://img.shields.io/badge/ebuild-1171-orange.svg)](https://img.shields.io/badge/ebuild-1171-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -114,7 +114,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-crypt/[step-ca](https://github.com/smallstep/certificates) | A private certificate authority and ACME server
 *   app-crypt/[totp](https://github.com/arcanericky/totp) | Time-Based One-Time Password Code Generator
 *   app-editors/[qedit](http://hugo.pereira.free.fr/software/index.php) | Qt-based multi-purpose text editor
-*   app-editors/[FeatherPad](https://github.com/tsujan/FeatherPad) | Lightweight Qt5 plain-text editor
 *   app-editors/[lite](https://github.com/rxi/lite) | A lightweight text editor written in Lua
 *   app-editors/[micro](https://github.com/zyedidia/micro) | A modern and intuitive terminal-based text editor
 *   app-editors/[marktext](https://github.com/marktext/marktext) | A simple and elegant open-source markdown editor
@@ -195,7 +194,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-shells/[zoxide](https://github.com/ajeetdsouza/zoxide) | A smarter cd command with supports of all major shells
 *   app-text/[confget](https://devel.ringlet.net/textproc/confget/) | Read variables from INI-style configuration files
 *   app-text/[keening](https://github.com/SpiderX/keening) | A simple command line pastebin designed to be used together with ssh
-*   app-text/[notes](https://github.com/nuttyartist/notes) | Note taking application, write down your thoughts
 *   dev-cpp/[belr](https://gitlab.linphone.org/BC/public/belr) | Language recognition library by Belledonne Communications
 *   dev-cpp/[commoncpp2](http://www.gnu.org/software/commoncpp/) | GNU Common C++ 2
 *   dev-cpp/[libodb](https://codesynthesis.com/products/odb/) | Common ODB runtime library
