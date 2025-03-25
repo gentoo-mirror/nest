@@ -155,7 +155,7 @@ app-emulation/vmware-modules 16.0.0e 16.1.0e 16.1.1e 16.1.2e 16.1.2f 16.2.0e 16.
 app-emulation/vmware-vmrc 11.2.0.16492666 12.0.0.17287072 12.0.1.18113358 12.0.4.21740317: VMware Remote Console
 app-emulation/vmware-workstation 17.5.2.23775571: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 8.10.3 9999: Auditing git repository for secrets and keys
-app-forensics/whispers 2.3.0 9999: Identify hardcoded secrets in static structured text
+app-forensics/whispers 2.4.0 9999: Identify hardcoded secrets in static structured text
 app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
 app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
@@ -841,7 +841,7 @@ dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile fi
 dev-python/dpath 2.2.0 9999: A python module that will check for package updates
 dev-python/drf-yasg 1.20.0-r1 9999: Yet another Swagger generator
 dev-python/editdistance 0.5.3 9999: Fast implementation of the edit distance(Levenshtein distance)
-dev-python/face 22.0.0 9999: Straightforward CLI parsing and dispatching microframework
+dev-python/face 24.0.0 9999: Straightforward CLI parsing and dispatching microframework
 dev-python/factory_boy 3.2.1 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.6 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
@@ -851,7 +851,7 @@ dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gensim 4.3.2 9999: Topic Modelling for Humans
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
-dev-python/glom 23.5.0 9999: A declarative object transformer for conglomerating nested data
+dev-python/glom 24.11.0 9999: A declarative object transformer for conglomerating nested data
 dev-python/google-cloud-core 2.4.1 9999: Google Cloud API client core library
 dev-python/google-cloud-iam 2.15.0 9999: Google Cloud IAM API client library
 dev-python/google-cloud-kms 2.23.0 9999: Google Cloud KMS API client library
@@ -874,7 +874,7 @@ dev-python/igraph 0.11.5 9999: Python interface for igraph
 dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 4.1.1 9999: Jalali implementation of Python's datetime module
 dev-python/jiter 0.9.0 9999: Fast iterable JSON parser
-dev-python/jproperties 2.1.1 9999: Java Property file parser and writer for Python
+dev-python/jproperties 2.1.2 9999: Java Property file parser and writer for Python
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
 dev-python/jsonpath-ng 1.5.3 9999: Python JSONPath Next-Generation
 dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
@@ -895,6 +895,13 @@ dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP p
 dev-python/openai 1.66.3 9999: The official Python library for the OpenAI API
 dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Python
 dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
+dev-python/opentelemetry-exporter-otlp-proto-common 1.31.1 9999: OpenTelemetry Protobuf encoding
+dev-python/opentelemetry-exporter-otlp-proto-http 1.31.1 9999: OpenTelemetry Collector Protobuf over HTTP Exporter
+dev-python/opentelemetry-instrumentation 0.52_beta1 9999: Instrumentation Tools for OpenTelemetry Python
+dev-python/opentelemetry-instrumentation-requests 0.52_beta1 9999: OpenTelemetry requests instrumentation
+dev-python/opentelemetry-proto 1.31.1 9999: OpenTelemetry Python Proto
+dev-python/opentelemetry-test-utils 0.52_beta1 9999: Test utilities for OpenTelemetry unit tests
+dev-python/opentelemetry-util-http 0.52_beta1 9999: Web util for OpenTelemetry
 dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
 dev-python/oyaml 1.0 9999: Ordered YAML
 dev-python/packageurl 0.16.0 9999: Python implementation of the package url spec
@@ -1010,7 +1017,7 @@ dev-util/packer 1.7.6 9999: A tool to create identical machine images for multip
 dev-util/policy-sentry 0.14.0 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 11.9.0: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
-dev-util/semgrep 1.75.0 9999: Lightweight static analysis for many languages
+dev-util/semgrep 1.114.0 9999: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
 dev-util/sqlfluff 3.1.0 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
