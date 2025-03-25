@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1172](https://img.shields.io/badge/ebuild-1172-orange.svg)](https://img.shields.io/badge/ebuild-1172-orange.svg)
+[![Number of ebuilds: 1179](https://img.shields.io/badge/ebuild-1179-orange.svg)](https://img.shields.io/badge/ebuild-1179-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -890,6 +890,13 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[openai](https://github.com/openai/openai-python) | The official Python library for the OpenAI API
 *   dev-python/[openapi-schema-validator](https://github.com/p1c2u/openapi-schema-validator) | OpenAPI schema validation for Python
 *   dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | OpenAPI Spec validator
+*   dev-python/[opentelemetry-exporter-otlp-proto-common](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Protobuf encoding
+*   dev-python/[opentelemetry-exporter-otlp-proto-http](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Collector Protobuf over HTTP Exporter
+*   dev-python/[opentelemetry-instrumentation](https://github.com/open-telemetry/opentelemetry-contrib) | Instrumentation Tools for OpenTelemetry Python
+*   dev-python/[opentelemetry-instrumentation-requests](https://github.com/open-telemetry/opentelemetry-contrib) | OpenTelemetry requests instrumentation
+*   dev-python/[opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Python Proto
+*   dev-python/[opentelemetry-test-utils](https://github.com/open-telemetry/opentelemetry-python) | Test utilities for OpenTelemetry unit tests
+*   dev-python/[opentelemetry-util-http](https://github.com/open-telemetry/opentelemetry-contrib) | Web util for OpenTelemetry
 *   dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
 *   dev-python/[oyaml](https://github.com/wimglenn/oyaml) | Ordered YAML
 *   dev-python/[packageurl](https://github.com/package-url/packageurl-python) | Python implementation of the package url spec
