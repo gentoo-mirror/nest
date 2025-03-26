@@ -782,8 +782,8 @@ dev-python/assertpy 1.1 9999: Assertion library for unit testing
 dev-python/aws-lambda-builders 1.54.0 9999: Python library to manage AWS Lambda functions
 dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/azure-common 1.1.28 9999: Microsoft Azure Client Common Library for Python
-dev-python/azure-core 1.30.2 9999: Microsoft Azure Core Library for Python
-dev-python/azure-storage-blob 12.20.0 9999: Microsoft Azure Storage Blobs Library for Python
+dev-python/azure-core 1.32.0 9999: Microsoft Azure Core Library for Python
+dev-python/azure-storage-blob 12.25.0 9999: Microsoft Azure Storage Blobs Library for Python
 dev-python/bc-detect-secrets 1.5.37 9999: A fork of enterprise friendly way of detecting and preventing secrets
 dev-python/bc-jsonpath-ng 1.6.1 9999: Python JSONPath Next-Generation
 dev-python/bc-python-hcl2 0.4.2 9999: A fork of parser for HCL2 written in Python
@@ -849,22 +849,22 @@ dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/flup 1.0.3: Random assortment of WSGI servers
 dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
-dev-python/gensim 4.3.2 9999: Topic Modelling for Humans
+dev-python/gensim 4.3.3 9999: Topic Modelling for Humans
 dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
 dev-python/glom 24.11.0 9999: A declarative object transformer for conglomerating nested data
-dev-python/google-cloud-core 2.4.1 9999: Google Cloud API client core library
-dev-python/google-cloud-iam 2.15.0 9999: Google Cloud IAM API client library
-dev-python/google-cloud-kms 2.23.0 9999: Google Cloud KMS API client library
-dev-python/google-cloud-pubsub 2.21.3 9999: Google Cloud Pub/Sub API client library
-dev-python/google-cloud-storage 2.17.0 9999: Google Cloud Storage API client library
-dev-python/google-cloud-testutils 1.4.0 9999: Google Cloud Storage API client library
-dev-python/google-crc32c 1.5.0 9999: Hardware-based implementation of the CRC32C hashing algorithm
-dev-python/google-resumable-media 2.7.1 9999: Utilities for Google Media Downloads and Resumable Uploads
+dev-python/google-cloud-core 2.4.3 9999: Google Cloud API client core library
+dev-python/google-cloud-iam 2.18.3 9999: Google Cloud IAM API client library
+dev-python/google-cloud-kms 3.4.1 9999: Python Client for Google Cloud Key Management Service
+dev-python/google-cloud-pubsub 2.29.0 9999: Google Cloud Pub/Sub API client library
+dev-python/google-cloud-storage 3.1.0 9999: Google Cloud Storage API client library
+dev-python/google-cloud-testutils 1.6.0 9999: Google Cloud Storage API client library
+dev-python/google-crc32c 1.7.1 9999: Hardware-based implementation of the CRC32C hashing algorithm
+dev-python/google-resumable-media 2.7.2 9999: Utilities for Google Media Downloads and Resumable Uploads
 dev-python/graphene 3.0.0 9999: GraphQL framework for Python
 dev-python/graphene-django 2.15.0 9999: A Django integration for Graphene
 dev-python/graphql-core 3.1.7 3.2.0 9999: Python port of GraphQL.js
 dev-python/graphql-relay 3.1.5 9999: A library to help construct a graphql-py server supporting react-relay
-dev-python/grpc-google-iam-v1 0.13.0 9999: Google GRPC IAM API client library
+dev-python/grpc-google-iam-v1 0.14.2 9999: Python Client for Cloud Identity and Access Management
 dev-python/grpcio 1.64.1 9999: High-performance RPC framework (python libraries)
 dev-python/grpcio-status 1.64.1 9999: Status proto mapping for gRPC
 dev-python/hijri-converter 2.3.1: Hijri-Gregorian date converter
@@ -888,8 +888,8 @@ dev-python/moviepy 1.0.3 9999: Video editing with Python
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.15 9999: Python library for NETCONF clients
 dev-python/netapp-ontap 9.10.1.0: A library for working with ONTAP's REST APIs simply in Python
-dev-python/nltk 3.8.1 9999: Topic Modelling for Humans
-dev-python/nltk-data 20230202: Data files for NLTK
+dev-python/nltk 3.9.1 9999: Natural Language Toolkit
+dev-python/nltk-data 20250326: Data files for NLTK
 dev-python/nmslib 2.1.1 9999: Non-Metric Space Library
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openai 1.66.3 9999: The official Python library for the OpenAI API
@@ -921,7 +921,7 @@ dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
 dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libraries
 dev-python/pyemd 1.0.0 9999: Fast EMD for Python
 dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
-dev-python/pykickstart 3.47 9999: Python library for reading and writing kickstart files
+dev-python/pykickstart 3.63 9999: Python library for reading and writing kickstart files
 dev-python/pymeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/pyspnego 0.1.6 9999: Python SPNEGO authentication library
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
@@ -952,7 +952,7 @@ dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtua
 dev-python/serializable 1.1.2 2.0.0 9999: Serialize and deserialize Python objects to and from JSON and XML
 dev-python/shellingham 1.4.0 9999: Detects what shell the current Python executable is running in
 dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
-dev-python/smart-open 7.0.4 9999: Utils for streaming large files
+dev-python/smart-open 7.2.0 9999: Utils for streaming large files
 dev-python/social-auth-app-django 5.0.0 9999: Python Social Auth - Application - Django
 dev-python/social-auth-core 4.2.0 9999: Python Social Auth - Core
 dev-python/spdx-tools 0.8.3 9999: Python library to parse, validate and create SPDX documents
