@@ -843,7 +843,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[google-crc32c](https://github.com/googleapis/python-crc32c) | Hardware-based implementation of the CRC32C hashing algorithm
 *   dev-python/[google-cloud-iam](https://github.com/googleapis/python-iam) | Google Cloud IAM API client library
 *   dev-python/[google-cloud-core](https://github.com/googleapis/python-cloud-core) | Google Cloud API client core library
-*   dev-python/[google-cloud-kms](https://github.com/googleapis/python-kms) | Google Cloud KMS API client library
+*   dev-python/[google-cloud-kms](https://github.com/googleapis/google-cloud-python) | Python Client for Google Cloud Key Management Service
 *   dev-python/[google-cloud-pubsub](https://github.com/googleapis/python-pubsub) | Google Cloud Pub/Sub API client library
 *   dev-python/[google-cloud-storage](https://github.com/googleapis/python-storage) | Google Cloud Storage API client library
 *   dev-python/[google-cloud-testutils](https://github.com/googleapis/python-test-utils) | Google Cloud Storage API client library
@@ -853,7 +853,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 *   dev-python/[graphql-core](https://github.com/graphql-python/graphql-core) | Python port of GraphQL.js
 *   dev-python/[graphql-relay](https://github.com/graphql-python/graphql-relay-py) | A library to help construct a graphql-py server supporting react-relay
-*   dev-python/[grpc-google-iam-v1](https://github.com/googleapis/python-grpc-google-iam-v1) | Google GRPC IAM API client library
+*   dev-python/[grpc-google-iam-v1](https://github.com/googleapis/google-cloud-python) | Python Client for Cloud Identity and Access Management
 *   dev-python/[grpcio](https://grpc.io) | High-performance RPC framework (python libraries)
 *   dev-python/[grpcio-status](https://grpc.io) | Status proto mapping for gRPC
 *   dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
@@ -883,7 +883,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 *   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
 *   dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
-*   dev-python/[nltk](https://github.com/nltk/nltk) | Topic Modelling for Humans
+*   dev-python/[nltk](https://github.com/nltk/nltk) | Natural Language Toolkit
 *   dev-python/[nltk-data](https://www.nltk.org/nltk_data/) | Data files for NLTK
 *   dev-python/[nmslib](https://github.com/nmslib/nmslib) | Non-Metric Space Library
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords

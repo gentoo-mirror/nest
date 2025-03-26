@@ -1,20 +1,15 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
-inherit distutils-r1
+inherit distutils-r1 pypi
 
-MY_PN="${PN//google-cloud/python}"
-MY_P="${MY_PN}-${PV}"
-
-DESCRIPTION="Google Cloud Pub/Sub API client library"
-HOMEPAGE="https://github.com/googleapis/python-pubsub"
-SRC_URI="https://github.com/googleapis/${MY_PN}/archive/v${PV}.tar.gz -> ${MY_P}.gh.tar.gz"
-S="${WORKDIR}/${MY_P}"
+DESCRIPTION="Python Client for Google Cloud Key Management Service"
+HOMEPAGE="https://github.com/googleapis/google-cloud-python"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -23,13 +18,17 @@ KEYWORDS="~amd64 ~x86"
 RDEPEND="dev-python/google-api-core[${PYTHON_USEDEP}]
 	dev-python/google-auth[${PYTHON_USEDEP}]
 	dev-python/grpcio[${PYTHON_USEDEP}]
-	dev-python/grpcio-status[${PYTHON_USEDEP}]
 	dev-python/grpc-google-iam-v1[${PYTHON_USEDEP}]
 	dev-python/protobuf[${PYTHON_USEDEP}]
 	dev-python/proto-plus[${PYTHON_USEDEP}]"
 BDEPEND="test? ( dev-python/pytest-asyncio[${PYTHON_USEDEP}] )"
 
 distutils_enable_tests pytest
+
+EPYTEST_DESELECT=(
+	# need valid PROJECT_ID (KeyError: 'PROJECT_ID')
+	tests/system/smoke_test.py::test_list_ekm_connections
+)
 
 python_compile() {
 	distutils-r1_python_compile
