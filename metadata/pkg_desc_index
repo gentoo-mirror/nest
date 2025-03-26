@@ -1021,7 +1021,7 @@ dev-util/semgrep 1.114.0 9999: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
 dev-util/sqlfluff 3.3.1 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
-dev-util/taskcat 0.9.42 9999: An OpenSource Cloudformation Deployment Framework
+dev-util/taskcat 0.9.56 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
