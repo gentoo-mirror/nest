@@ -1019,7 +1019,7 @@ dev-util/postman 11.9.0: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
 dev-util/semgrep 1.114.0 9999: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
-dev-util/sqlfluff 3.1.0 9999: A SQL linter and auto-formatter
+dev-util/sqlfluff 3.3.1 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.42 9999: An OpenSource Cloudformation Deployment Framework
 dev-util/testmace 9999: Powerful IDE to work with API
