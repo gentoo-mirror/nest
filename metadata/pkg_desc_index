@@ -979,6 +979,7 @@ dev-python/vcd-api-schemas-type 10.3.0_pre72: VMware vCloud Director Python API 
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
 dev-python/w3lib 2.3.1 9999: Library of web-related functions
+dev-python/zstd 1.5.6.6 9999: Simple python bindings to Yann Collet ZSTD compression library
 dev-util/abnfgen 0.21: ABNF-grammar based test case generator
 dev-util/actionlint 1.6.26 9999: Static checker for GitHub Actions workflow files
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
