@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=app-alternatives/bc app-misc/jq app-misc/tmux app-misc/tmux-mem-cpu-load net-misc/curl mbox? ( net-mail/mailcheck ) mpd? ( media-libs/libmpdclient ) X? ( x11-libs/libX11 x11-libs/libXau x11-libs/libXdmcp x11-libs/libxcb:= )
 SLOT=0
 SRC_URI=https://github.com/erikw/tmux-powerline/archive/v3.0.0.tar.gz -> tmux-powerline-3.0.0.tar.gz
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	e8de74bac929ba17427e740e95707d00
 _md5_=74eadfc82fb94330cca769c48820b076
