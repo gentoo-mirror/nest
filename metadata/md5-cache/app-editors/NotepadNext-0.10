@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-qt/qtbase:6[gui,network,widgets] dev-qt/qt5compat:6
 SLOT=0
 SRC_URI=https://github.com/dail8859/NotepadNext/archive/v0.10.tar.gz -> NotepadNext-0.10.tar.gz https://github.com/alex-spataru/QSimpleUpdater/archive/3cc832cbe55b70c54f56a0b9b6f2cdd3c43c2337.tar.gz -> NotepadNext-0.10-qsu.tar.gz https://github.com/githubuser0xFFFF/Qt-Advanced-Docking-System/archive/5edbcc1970bc8858ad09a41f4c3ac1700e489c8b.tar.gz -> NotepadNext-0.10-qads.tar.gz https://github.com/editorconfig/editorconfig-core-qt/archive/52820d59769fcba6d0ed94f685406c0383fe1a30.tar.gz -> NotepadNext-0.10-ec.tar.gz https://github.com/itay-grudev/SingleApplication/archive/8c48163c4d3fbba603cfe8a5b94046c9dad71825.tar.gz -> NotepadNext-0.10-sa.tar.gz https://gitlab.freedesktop.org/uchardet/uchardet/-/archive/edae8e81cfb8092496f94da1a306c4c9f0ce32bb.tar.gz -> NotepadNext-0.10-uc.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=0142bef0ab254f2ebbc9e17cea4927cc

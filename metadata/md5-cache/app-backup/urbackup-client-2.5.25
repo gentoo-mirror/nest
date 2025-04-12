@@ -11,5 +11,5 @@ LICENSE=AGPL-3+
 RDEPEND=acct-group/urbackup acct-user/urbackup app-arch/zstd:= dev-db/sqlite:3 dev-libs/crypto++:0= dev-libs/icu:0= sys-libs/zlib:0= X? ( x11-libs/wxGTK:3.0-gtk3[X] )
 SLOT=0
 SRC_URI=https://hndl.urbackup.org/Client/2.5.25/urbackup-client-2.5.25.tar.gz
-_eclasses_=plocale	950fbaec7deeba41b5bcc0572cca99b9	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0	flag-o-matic	e8de74bac929ba17427e740e95707d00	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
+_eclasses_=plocale	950fbaec7deeba41b5bcc0572cca99b9	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	54bd206bb5c4efac6ae28b6b006713b0	flag-o-matic	e8de74bac929ba17427e740e95707d00	wxwidgets	9a707a3f9f1ea7aa703b1e46552291e5
 _md5_=b4340f1583e445247f8f28b7a86568b0
