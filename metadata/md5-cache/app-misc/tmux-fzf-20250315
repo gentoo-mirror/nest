@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=app-shells/fzf app-misc/tmux sys-process/procps
 SLOT=0
-SRC_URI=https://github.com/sainnhe/tmux-fzf/archive/1547f18083ead1b235680aa5f98427ccaf5beb21.tar.gz -> tmux-fzf-20240804.tar.gz
-_md5_=37ba700af2f2056d273213e03557a175
+SRC_URI=https://github.com/sainnhe/tmux-fzf/archive/e91c1ae55389f2b34480ea23df77682bdd51d735.tar.gz -> tmux-fzf-20250315.tar.gz
+_md5_=3523b48d117a4b6f487ead6954984959

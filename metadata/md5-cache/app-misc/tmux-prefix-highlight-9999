@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=app-misc/tmux
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=75ebb801e40d9aaeedc52c665d34d88a
+_md5_=cf05b0401446f32f61d346437558408a

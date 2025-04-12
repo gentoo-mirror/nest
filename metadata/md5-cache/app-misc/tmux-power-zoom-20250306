@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=app-misc/tmux
 SLOT=0
-SRC_URI=https://github.com/jaclu/tmux-power-zoom/archive/3a1de2280e9b7ffcb8efd009fc87fd34ecbb14ac.tar.gz -> tmux-power-zoom-20241221.tar.gz
-_md5_=bdcf14d7bd2aca40fb4d2a66f7e9d3c1
+SRC_URI=https://github.com/jaclu/tmux-power-zoom/archive/84b8e3dd5b7e10db793ac925e1e65fe204a4e47b.tar.gz -> tmux-power-zoom-20250306.tar.gz
+_md5_=8571d2deab741f921cc8f29edac42134
