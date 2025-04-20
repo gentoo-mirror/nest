@@ -216,7 +216,7 @@ app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
 app-misc/xq 1.2.4 9999: Command-line JSON processor for binary data
 app-office/tradingview 2.9.2.1: A charting platform for traders and investors
-app-office/webull-desktop 7.10.0 8.2.0: Invest in stocks, ETFs, and options with Webull Financial
+app-office/webull-desktop 8.9.0: Invest in stocks, ETFs, and options with Webull Financial
 app-shells/fpp 0.9.5 9999: Command line tool to select files out of bash output
 app-shells/peco 0.5.10 9999: Simplistic interactive filtering tool
 app-shells/tlog 14 9999: Terminal I/O logger
@@ -1103,7 +1103,6 @@ media-sound/plexamp 4.11.1: Music focused client for Plex
 media-sound/sayonara 1.10.0_p1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 3.12 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.3.5 9999: A spotify daemon
-media-video/ffmpeg-compat 57 58 58-r2: Compatibility package for ffmpeg to provide versions 58 of libraries
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/cymruwhois 1.6 9999: Python client for the whois.cymru.com service
@@ -1135,7 +1134,7 @@ net-im/gitter-bin 5.0.1-r2: Chat and network platform
 net-im/skypeforlinux 8.138.0.203_p386: Instant messaging client, with support for audio and video
 net-im/slack 4.41.105-r1: Team collaboration tool
 net-im/teams-for-linux 1.9.2: Unofficial Microsoft Teams for Linux client
-net-im/viber 23.2.0.3: Free text and calls
+net-im/viber 23.2.0.3-r1: Free text and calls
 net-libs/bctoolbox 5.3.86 9999: Utilities library used by Belledonne Communications softwares
 net-libs/bzrtp 5.3.86 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.3.86 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
