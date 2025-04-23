@@ -11,5 +11,5 @@ RDEPEND=acct-group/tlog acct-user/tlog dev-libs/json-c net-misc/curl systemd? ( 
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/Scribery/tlog/archive/v14.tar.gz -> tlog-14.tar.gz
-_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	f20ecf7ab0a7c34e83238b3ed4aaf6d6	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	35f9bf6198bb538e28dcdea5fda274f2	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
 _md5_=1b376acac49bd9ae929148525e0ecc2b
