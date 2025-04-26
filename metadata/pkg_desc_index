@@ -148,7 +148,7 @@ app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/marktext 0.17.1: A simple and elegant open-source markdown editor
 app-editors/micro 2.0.14 9999: A modern and intuitive terminal-based text editor
 app-editors/notes 2.3.1 9999: Note taking application, write down your thoughts
-app-editors/obsidian 1.8.9: A knowledge base of plain text Markdown files
+app-editors/obsidian 1.8.10: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/typora 1.10.8: A minimal markdown editor and reader
 app-emulation/looking-glass 6b 7b_rc1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
@@ -1044,7 +1044,7 @@ kde-misc/applet-window-buttons6 0.14.0 9999: Plasma 6 applet in order to show wi
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
 kde-misc/applet-window-title6 9999 20240510: Plasma 6 applet shows window title and icon in your panels
 kde-misc/cpu-power-monitor 9999 20241219: KDE Plasma widget to monitor the CPU power consumption
-kde-misc/darkly 0.5.18 9999: A modern style for qt applications
+kde-misc/darkly 0.5.19 9999: A modern style for qt applications
 kde-misc/kde-relaxingsounds 9999 20220615: Plasma 5 widget for play relaxing sounds
 kde-misc/kwin-effects-cube 2.0.0 9999: Desktop cube effect for kwin
 kde-misc/kwin-effects-sliding-notifications 1.5.0 9999 20240704: Sliding animation for notification windows
