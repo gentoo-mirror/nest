@@ -254,7 +254,6 @@ dev-db/pg_squeeze 1.3.1 9999: A PostgreSQL extension for automatic bloat cleanup
 dev-db/pg_timetable 3.0.0 9999: Advanced scheduling for PostgreSQL
 dev-db/pgcenter 0.9.1 0.9.2 9999: Command-line admin tool for observing and troubleshooting Postgres
 dev-db/pgloader 3.6.10 9999: A data loading tool for PostgreSQL, using the COPY command
-dev-db/pipelinedb 1.0.0.13 9999: High-performance time-series aggregation for PostgreSQL
 dev-db/postgresql_anonymizer 2.0.0 9999: Anonymization & Data Masking for PostgreSQL
 dev-db/soci 4.0.3 9999: Database access library for C++
 dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more SQL queries
@@ -771,14 +770,12 @@ dev-php/twig 3.10.3 9999: PHP templating engine with syntax similar to Django
 dev-php/webmozart-assert 1.11.0 9999: Webmozart Assert
 dev-php/zetacomponents-UnitTest 1.2.5 9999: Unit tests for any Zeta component
 dev-python/MarkupPy 1.14: An HTML/XML generator
-dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
 dev-python/ahocorasick 2.1.0 9999: Python module implementing Aho-Corasick algorithm
 dev-python/aiomultiprocess 0.9.1 9999: asyncio version of the standard multiprocessing module
 dev-python/annoy 1.17.3 9999: Approximate Nearest Neighbors in C++/Python
 dev-python/anyconfig 0.13.0 9999: Generic access to configuration files in any formats
 dev-python/apispec-webframeworks 1.2.0 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
-dev-python/aspectlib 1.5.2 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/assertpy 1.1 9999: Assertion library for unit testing
 dev-python/aws-lambda-builders 1.54.0 9999: Python library to manage AWS Lambda functions
 dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
@@ -788,69 +785,30 @@ dev-python/azure-storage-blob 12.25.0 9999: Microsoft Azure Storage Blobs Librar
 dev-python/bc-detect-secrets 1.5.37 9999: A fork of enterprise friendly way of detecting and preventing secrets
 dev-python/bc-jsonpath-ng 1.6.1 9999: Python JSONPath Next-Generation
 dev-python/bc-python-hcl2 0.4.2 9999: A fork of parser for HCL2 written in Python
-dev-python/billiard 3.6.4.0 9999: Multiprocessing Pool Extensions
 dev-python/boto3-stubs 1.28.78 9999: Type annotations for boto3
 dev-python/botocore-stubs 1.31.78 9999: Type annotations and code completion for botocore
 dev-python/cached-property 2.0.1 9999: A cached-property for decorating methods in classes
-dev-python/celery 5.2.3 9999: Asynchronous task job queue based on distributed message passing
-dev-python/cerberus 1.3.4 9999: Lightweight and extensible data validation library for Python
 dev-python/chevron 0.14.0 9999: Mustache templating language renderer
-dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
-dev-python/click-didyoumean 0.3.0 9999: Enable git-like did-you-mean feature in click
-dev-python/click-help-colors 0.9-r1 9999: Colorization of help messages in Click
-dev-python/click-repl 0.2.0 9999: Subcommand REPL for click apps
-dev-python/colorpedia 1.2.3 9999: Command-line tool for looking up colors and palettes
 dev-python/commandlines 0.4.1 9999: Python command line argument to object parsing library
 dev-python/configparser 7.2.0 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.4.0 9999: Utils for converting between date formats and calculating holidays
-dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
-dev-python/coreschema 0.0.4 9999: Python CoreSchema
 dev-python/crayons 0.4.0 9999: Text UI colors
-dev-python/cron-descriptor 1.2.24 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.8 9999: Fast and reliable NGINX configuration parser
-dev-python/curio 1.5 9999: Coroutine-based library for concurrent Python systems programming
 dev-python/cyclonedx-python-lib 7.6.2 9.1.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.2.0 9999: A library for diffs of python data structures
 dev-python/dateparser 1.2.1 9999: Date parsing library designed to parse dates from HTML pages
 dev-python/decli 0.6.2 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
-dev-python/delegator-py 0.1.1 9999: Simple library for dealing with subprocesses
 dev-python/diagrams 0.23.4 9999: Diagram as Code for prototyping cloud system architectures
-dev-python/dj-database-url 0.5.0 9999: URL bases database backend configuration in Django
-dev-python/dj-email-url 1.0.2 9999: URL based email backend configuration in Django
-dev-python/dj-search-url 0.1 9999: Environment based search backend configuration in Django
-dev-python/django-cache-url 3.2.3 9999: URL based cache backend configuration in Django
-dev-python/django-celery-beat 2.2.1 9999: Celery Periodic Tasks for Django
-dev-python/django-configurations 2.2-r1 9999: A helper for organizing Django project settings
-dev-python/django-crispy-forms 1.14.0 9999: DRY Django forms
-dev-python/django-environ 0.4.5 9999: An environment variables to configure Django
 dev-python/django-fake-model 0.1.4 9999: A library for creating fake models in the unit tests
-dev-python/django-graphiql-debug-toolbar 0.2.0 9999: Django Debug Toolbar for GraphiQL IDE
-dev-python/django-guardian 2.4.0 9999: Implementation of per object permissions for Django
-dev-python/django-jinja 2.8.0 9999: Jinja2 templating language integrated in Django
-dev-python/django-js-asset 1.2.2-r1 9999: A script tag with additional attributes for django.forms.Media
-dev-python/django-oauth-toolkit 1.7.0 9999: OAuth2 Provider for Django
-dev-python/django-pglocks 1.0.4 9999: PostgreSQL locking context managers and functions for Django
-dev-python/django-pipeline 2.0.6 9999: An asset packaging library for Django
-dev-python/django-rest-framework-camel-case 1.3.0 9999: Camel case JSON support for Django REST framework
-dev-python/django-rest-framework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
-dev-python/django-rest-swagger 2.2.0 9999: Swagger UI for Django REST Framework
-dev-python/django-tables2 2.4.1 9999: Django application for creating HTML tables
 dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile files
 dev-python/dpath 2.2.0 9999: A python module that will check for package updates
-dev-python/drf-yasg 1.20.0-r1 9999: Yet another Swagger generator
-dev-python/editdistance 0.5.3 9999: Fast implementation of the edit distance(Levenshtein distance)
 dev-python/face 24.0.0 9999: Straightforward CLI parsing and dispatching microframework
-dev-python/factory_boy 3.2.1 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.6 9999: An implementation of a LDAPObject to fake a ldap server
-dev-python/fire 0.4.0 9999: Library for automatically generating CLI from object
-dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
-dev-python/flup 1.0.3: Random assortment of WSGI servers
 dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gensim 4.3.3 9999: Topic Modelling for Humans
-dev-python/git-url-parse 1.2.2 9999: A simple GIT URL parser
 dev-python/glom 24.11.0 9999: A declarative object transformer for conglomerating nested data
 dev-python/google-cloud-core 2.4.3 9999: Google Cloud API client core library
 dev-python/google-cloud-iam 2.18.3 9999: Google Cloud IAM API client library
@@ -860,10 +818,6 @@ dev-python/google-cloud-storage 3.1.0 9999: Google Cloud Storage API client libr
 dev-python/google-cloud-testutils 1.6.0 9999: Google Cloud Storage API client library
 dev-python/google-crc32c 1.7.1 9999: Hardware-based implementation of the CRC32C hashing algorithm
 dev-python/google-resumable-media 2.7.2 9999: Utilities for Google Media Downloads and Resumable Uploads
-dev-python/graphene 3.0.0 9999: GraphQL framework for Python
-dev-python/graphene-django 2.15.0 9999: A Django integration for Graphene
-dev-python/graphql-core 3.1.7 3.2.0 9999: Python port of GraphQL.js
-dev-python/graphql-relay 3.1.5 9999: A library to help construct a graphql-py server supporting react-relay
 dev-python/grpc-google-iam-v1 0.14.2 9999: Python Client for Cloud Identity and Access Management
 dev-python/grpcio 1.64.1 9999: High-performance RPC framework (python libraries)
 dev-python/grpcio-status 1.64.1 9999: Status proto mapping for gRPC
@@ -871,30 +825,23 @@ dev-python/hijri-converter 2.3.1: Hijri-Gregorian date converter
 dev-python/hijridate 2.5.0 9999: Hijri-Gregorian date converter
 dev-python/hsh 1.1.0 9999: Simple cross-platform file hash digests and file integrity checks
 dev-python/igraph 0.11.5 9999: Python interface for igraph
-dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 4.1.1 9999: Jalali implementation of Python's datetime module
 dev-python/jiter 0.9.0 9999: Fast iterable JSON parser
 dev-python/jproperties 2.1.2 9999: Java Property file parser and writer for Python
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
 dev-python/jsonpath-ng 1.5.3 9999: Python JSONPath Next-Generation
-dev-python/k5test 0.9.2 9999: A library for setting up self-contained Kerberos 5 environments
 dev-python/langdetect 1.0.9 9999: Language detection library ported from Google
 dev-python/llvmlite 0.43.0 9999: A lightweight wrapper around basic LLVM functionality
 dev-python/luhn 0.2.0 9999: Generate and verify Luhn check digits
-dev-python/m9dicts 0.4.0 9999: A dict-like object supports recursive merge operation
-dev-python/markdown-include 0.6.0 9999: Provides the inclusion of the contents of other Markdown documents
 dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django behavior
 dev-python/moviepy 1.0.3 9999: Video editing with Python
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.15 9999: Python library for NETCONF clients
-dev-python/netapp-ontap 9.10.1.0: A library for working with ONTAP's REST APIs simply in Python
 dev-python/nltk 3.9.1 9999: Natural Language Toolkit
 dev-python/nltk-data 20250326: Data files for NLTK
 dev-python/nmslib 2.1.1 9999: Non-Metric Space Library
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openai 1.66.3 9999: The official Python library for the OpenAI API
-dev-python/openapi-schema-validator 0.2.3 9999: OpenAPI schema validation for Python
-dev-python/openapi-spec-validator 0.3.1 9999: OpenAPI Spec validator
 dev-python/opentelemetry-exporter-otlp-proto-common 1.31.1 9999: OpenTelemetry Protobuf encoding
 dev-python/opentelemetry-exporter-otlp-proto-http 1.31.1 9999: OpenTelemetry Collector Protobuf over HTTP Exporter
 dev-python/opentelemetry-instrumentation 0.52_beta1 9999: Instrumentation Tools for OpenTelemetry Python
@@ -902,44 +849,22 @@ dev-python/opentelemetry-instrumentation-requests 0.52_beta1 9999: OpenTelemetry
 dev-python/opentelemetry-proto 1.31.1 9999: OpenTelemetry Python Proto
 dev-python/opentelemetry-test-utils 0.52_beta1 9999: Test utilities for OpenTelemetry unit tests
 dev-python/opentelemetry-util-http 0.52_beta1 9999: Web util for OpenTelemetry
-dev-python/outcome 1.1.0 9999: Capture the outcome of Python function calls
-dev-python/oyaml 1.0 9999: Ordered YAML
 dev-python/packageurl 0.16.0 9999: Python implementation of the package url spec
 dev-python/pandas-stubs 2.2.3.250308 9999: Type annotations for pandas
 dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
-dev-python/polemarch-ansible 2.0.3 9999: Wrapper for Ansible CLI
 dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
-dev-python/port-for 0.6.1 9999: An utility and python library for TCP ports management
-dev-python/prance 0.21.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/proglog 0.1.10 9999: Logs and progress bars manager for Python
-dev-python/promise 2.3.0 9999: Python port of GraphQL.js
-dev-python/purl 1.6 9999: Simple Python URL class
 dev-python/py3dns 4.0.2 9999: Python 3 DNS library
 dev-python/pybeam 0.7 9999: Python module to parse Erlang BEAM files
 dev-python/pycep 0.5.1 9999: A Python based Bicep parser
-dev-python/pycfmodel 0.10.0 9999: A python model for Cloud Formation scripts
-dev-python/pydash 5.0.0 9999: The kitchen sink of Python functional utility libraries
 dev-python/pyemd 1.0.0 9999: Fast EMD for Python
-dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
 dev-python/pykickstart 3.63 9999: Python library for reading and writing kickstart files
 dev-python/pymeeus 0.5.11 9999: Library of astronomical algorithms in Python
-dev-python/pyspnego 0.1.6 9999: Python SPNEGO authentication library
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
-dev-python/pytest-benchmark 3.4.1 9999: py.test fixture for benchmarking code
-dev-python/pytest-celery 0.0.0 9999: Subcommand REPL for click apps
 dev-python/pytest-datadir-ng 1.1.1 9999: Fixtures for pytest to retrieve test resources from filesystem
-dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
-dev-python/pytest-random-order 1.0.4 9999: pytest plugin to randomise the order of tests
-dev-python/pytest-trio 0.7.0 9999: Python library for async concurrency and I/O
-dev-python/python-crontab 2.6.0 9999: Crontab module for reading and writing crontab files
-dev-python/python-gilt 1.2.2 9999: A GIT layering tool
-dev-python/python-openapi-codec 1.3.2 9999: An OpenAPI codec for Core API
-dev-python/python-user-agents 2.2.0 9999: A library to identify devices by parsing user agent strings
 dev-python/pythonqt 3.5.2 9999: A dynamic Python binding for the Qt framework
-dev-python/pytimeparse 1.1.8-r1 9999: A library to parse time from human readable string
 dev-python/pyvcloud 23.0.4 9999: VMware vCloud Director Python SDK
 dev-python/pyvmomi 8.0.3.0.1 9999: VMware vSphere API Python Bindings
-dev-python/pywinrm 0.4.1 9999: Python library for Windows Remote Management
 dev-python/questionary 2.1.0 9999: Python library to build pretty command line user prompts
 dev-python/reprint 0.6.0 9999: Binding variables and refreshing multi-line output in terminal
 dev-python/ripe-atlas-cousteau 2.0.0 9999: Official python wrapper around RIPE Atlas API
@@ -947,33 +872,17 @@ dev-python/ripe-atlas-sagan 1.3.1 9999: A parsing library for RIPE Atlas measure
 dev-python/route53-transfer 9999 20211227: Generic access to configuration files in any formats
 dev-python/rstr 3.1.0 9999: Generate random strings in Python
 dev-python/schema 0.7.5 9999: Simple data validation library
-dev-python/scikit-learn 1.0.2 9999: Machine learning in Python
-dev-python/selinux 0.2.1 9999: Pure-python selinux shim module for use in virtualenvs
 dev-python/serializable 1.1.2 2.0.0 9999: Serialize and deserialize Python objects to and from JSON and XML
-dev-python/shellingham 1.4.0 9999: Detects what shell the current Python executable is running in
-dev-python/shouldbe 0.1.2 9999: A Python Assertions Helper
 dev-python/smart-open 7.2.0 9999: Utils for streaming large files
-dev-python/social-auth-app-django 5.0.0 9999: Python Social Auth - Application - Django
-dev-python/social-auth-core 4.2.0 9999: Python Social Auth - Core
 dev-python/spdx-tools 0.8.3 9999: Python library to parse, validate and create SPDX documents
-dev-python/sphinx-autobuild 2021.3.14 9999: Autorebuild documentation on change
-dev-python/sphinxcontrib-httpdomain 1.7.0 9999: Documenting RESTful HTTP APIs
-dev-python/sphinxcontrib-mermaid 0.7 9999: Mermaid diagrams in sphinx powered docs
-dev-python/sphinxcontrib-openapi 0.7.0 9999: Sphinx extension to generate APIs docs from OpenAPI
 dev-python/ssh2-python 1.0.0 9999: Super fast SSH2 protocol library, Python bindings for libssh2
-dev-python/swagger_spec_validator 2.7.4 9999: Python library that validates Swagger Specs
 dev-python/tablib 3.4.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
-dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
 dev-python/types-awscrt 0.19.8 9999: Type annotations and code completion for awscrt
-dev-python/types-chardet 4.0.1 9999: Collection of library stubs for Python, with static types
 dev-python/types-s3transfer 0.7.0 9999: Type annotations and code completion for s3transfer
-dev-python/ua-parser 0.10.0 9999: A python implementation of the UA Parser
-dev-python/ukpostcodeparser 1.1.2 9999: UK postcode parser library
 dev-python/umalqurra 0.2 9999: Date Api that support Hijri Umalqurra calendar
 dev-python/unittest-xml-reporting 3.2.0 9999: unittest-based test runner with Ant/JUnit like XML reporting
 dev-python/update-checker 0.18.0 9999: A python module that will check for package updates
-dev-python/validate_email 1.3 9999: Python email validation library
 dev-python/vcd-api-schemas-type 10.3.0_pre72: VMware vCloud Director Python API Schemas Type
 dev-python/versionfinder 1.1.1 9999: Find version of python package, installed via pip, setuptools, git
 dev-python/vsphere-guest-run 0.0.7 9999: Python library for guest operations
@@ -982,22 +891,16 @@ dev-python/zstd 1.5.6.6 9999: Simple python bindings to Yann Collet ZSTD compres
 dev-util/abnfgen 0.21: ABNF-grammar based test case generator
 dev-util/actionlint 1.6.26 9999: Static checker for GitHub Actions workflow files
 dev-util/asio_wrapper 05112018 9999: ASIO standalone CMake installer
-dev-util/aws-config-rdk 0.8.0 9999: AWS Config Rules Development Kit
-dev-util/aws-config-rdklib 0.2.0 9999: Rule Development Kit Library for AWS Config
 dev-util/bcunit 5.3.0 9999: BC Unit Test Framework
 dev-util/beekeeper-studio-bin 4.6.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
-dev-util/cfn-template-flip 1.2.3 9999: AWS CloudFormation Template Flip
-dev-util/cfripper 1.0.4 9999: Analysing CloudFormation templates for security compliance
 dev-util/checkov 3.2.388 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
-dev-util/cloud-utils 0.32 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.8.0 9999: AWS IAM Security Assessment tool
 dev-util/config-file-validator 1.8.0 9999: Cross Platform tool to validate configuration files
 dev-util/crudini 0.9.5 9999: A utility for manipulating ini files
-dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.1 9999: Debugger for Sed
 dev-util/detect-secrets 1.5.0 9999: An enterprise friendly way of detecting and preventing secrets
@@ -1010,7 +913,6 @@ dev-util/gibberish-detector 0.1.1 9999: Train a model, and detect gibberish stri
 dev-util/gitlab-runner 13.3.0 9999: GitLab Runner
 dev-util/hotspot 1.3.0 9999: Linux perf GUI for performance analysis
 dev-util/insomnia-bin 9.3.3: HTTP and GraphQL client for developers
-dev-util/jwt_tool 2.2.1 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/lazygit 0.34 9999: Simple terminal UI for git commands
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187 4.5.0.20459872 4.6.0.21452615: VMware Open Virtualization Format tool
@@ -1030,8 +932,6 @@ dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/commitizen 4.4.1 9999: Python commitizen client tool
 dev-vcs/gitaly 13.12.15 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.19.1 9999: Git commit message linter
-dev-vcs/mercurial-extension_utils 1.5.1 9999: Mercurial Extension Utils
-dev-vcs/mercurial_keyring 1.4.1 9999: Mercurial Keyring Extension
 dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git repository
 kde-misc/Burn-My-Windows 44 9999: Disintegrate your windows with style
 kde-misc/Tiled-Quicklaunch 9999 20211017: Plasma Menu Widget for KDE
@@ -1147,7 +1047,6 @@ net-misc/dhcdrop 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/droplet-agent 1.2.3 9999: DigitalOcean Droplet Agent
 net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuration
-net-misc/ec2-instance-connect-cli 1.0.2 9999: Python client for accessing EC2 instances via EC2 Instance Connect
 net-misc/fiche 0.9.1 9999: Command line pastebin server
 net-misc/inverting-proxy 9999: Reverse proxy that inverts the direction of traffic
 net-misc/kafkactl 5.3.0 9999: A command-line interface for interaction with Apache Kafka
@@ -1227,7 +1126,6 @@ www-apps/LookingGlass 9999 25032019: A Python-backed Looking Glass
 www-apps/adminerevo 4.8.4 9999: Database management in a single PHP file
 www-apps/draw-io 20.0.1: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
-www-apps/netbox 3.1.8: IP address and data center infrastructure management tool
 www-apps/tinyfilemanager 2.5.3 9999: Single-file PHP file manager
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/bypass-paywalls 3.9.6.0: Bypass Paywalls browser extension

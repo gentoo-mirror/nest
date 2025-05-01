@@ -1,16 +1,16 @@
 BDEPEND=app-arch/unzip virtual/pkgconfig test? ( dev-qt/qttest:5 ) >=dev-vcs/git-1.8.2.1[curl] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
 DEFINED_PHASES=configure install prepare setup test unpack
-DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 ) dev-qt/qtxml:5 doc? ( app-text/doxygen )
+DEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 ) dev-qt/qtxml:5 doc? ( app-text/doxygen )
 DESCRIPTION=A dynamic Python binding for the Qt framework
 EAPI=8
 HOMEPAGE=https://mevislab.github.io/pythonqt/
 INHERIT=git-r3 qmake-utils python-single-r1 virtualx
-IUSE=debug doc examples +extensions test python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 test
+IUSE=debug doc examples +extensions test python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 test
 LICENSE=LGPL-2.1
 PROPERTIES=live
-RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 )
-REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
+RDEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 extensions? ( dev-qt/designer:5 dev-qt/qtdeclarative:5[widgets] dev-qt/qtmultimedia:5[widgets] dev-qt/qtnetwork:5 dev-qt/qtopengl:5 dev-qt/qtprintsupport:5 dev-qt/qtsql:5 dev-qt/qtsvg:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 )
+REQUIRED_USE=^^ ( python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
 RESTRICT=!test? ( test ) !test? ( test )
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	virtualx	9741d451eb64ea8bb9faee90d68a9b68
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	virtualx	9741d451eb64ea8bb9faee90d68a9b68
 _md5_=2f607cc33774f0b9b8000a6cd0f38f6a
