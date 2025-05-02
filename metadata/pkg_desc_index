@@ -896,7 +896,7 @@ dev-util/beekeeper-studio-bin 4.6.2: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
-dev-util/checkov 3.2.388 9999: Static code analysis tool for infrastructure-as-code
+dev-util/checkov 3.2.414 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
 dev-util/cloudsplaining 0.8.0 9999: AWS IAM Security Assessment tool
 dev-util/config-file-validator 1.8.0 9999: Cross Platform tool to validate configuration files
