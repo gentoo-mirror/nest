@@ -842,13 +842,13 @@ dev-python/nltk-data 20250326: Data files for NLTK
 dev-python/nmslib 2.1.1 9999: Non-Metric Space Library
 dev-python/onetimepass 1.0.1 9999: One-time password library for HOTP and TOTP passwords
 dev-python/openai 1.66.3 9999: The official Python library for the OpenAI API
-dev-python/opentelemetry-exporter-otlp-proto-common 1.31.1 9999: OpenTelemetry Protobuf encoding
-dev-python/opentelemetry-exporter-otlp-proto-http 1.31.1 9999: OpenTelemetry Collector Protobuf over HTTP Exporter
-dev-python/opentelemetry-instrumentation 0.52_beta1 9999: Instrumentation Tools for OpenTelemetry Python
-dev-python/opentelemetry-instrumentation-requests 0.52_beta1 9999: OpenTelemetry requests instrumentation
-dev-python/opentelemetry-proto 1.31.1 9999: OpenTelemetry Python Proto
-dev-python/opentelemetry-test-utils 0.52_beta1 9999: Test utilities for OpenTelemetry unit tests
-dev-python/opentelemetry-util-http 0.52_beta1 9999: Web util for OpenTelemetry
+dev-python/opentelemetry-exporter-otlp-proto-common 1.32.1 9999: OpenTelemetry Protobuf encoding
+dev-python/opentelemetry-exporter-otlp-proto-http 1.32.1 9999: OpenTelemetry Collector Protobuf over HTTP Exporter
+dev-python/opentelemetry-instrumentation 0.53_beta1 9999: Instrumentation Tools for OpenTelemetry Python
+dev-python/opentelemetry-instrumentation-requests 0.53_beta1 9999: OpenTelemetry requests instrumentation
+dev-python/opentelemetry-proto 1.32.1 9999: OpenTelemetry Python Proto
+dev-python/opentelemetry-test-utils 0.53_beta1 9999: Test utilities for OpenTelemetry unit tests
+dev-python/opentelemetry-util-http 0.53_beta1 9999: Web util for OpenTelemetry
 dev-python/packageurl 0.16.0 9999: Python implementation of the package url spec
 dev-python/pandas-stubs 2.2.3.250308 9999: Type annotations for pandas
 dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
@@ -920,7 +920,8 @@ dev-util/packer 1.7.6 9999: A tool to create identical machine images for multip
 dev-util/policy-sentry 0.14.0 9999: AWS IAM Least Privilege Policy Generator
 dev-util/postman 11.9.0: Build, test, and document your APIs faster
 dev-util/rpmlint 2.4.0 9999: Tool for checking common errors in RPM packages
-dev-util/semgrep 1.114.0 9999: Lightweight static analysis for many languages
+dev-util/semgrep 1.120.0 9999: Lightweight static analysis for many languages
+dev-util/semgrep-core-bin 1.120.1: Lightweight static analysis for many languages
 dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash support
 dev-util/sqlfluff 3.3.1 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
