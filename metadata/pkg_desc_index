@@ -862,7 +862,7 @@ dev-python/pykickstart 3.63 9999: Python library for reading and writing kicksta
 dev-python/pymeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
 dev-python/pytest-datadir-ng 1.1.1 9999: Fixtures for pytest to retrieve test resources from filesystem
-dev-python/pythonqt 3.5.2 9999: A dynamic Python binding for the Qt framework
+dev-python/pythonqt 3.6.0 9999: A dynamic Python binding for the Qt framework
 dev-python/pyvcloud 23.0.4 9999: VMware vCloud Director Python SDK
 dev-python/pyvmomi 8.0.3.0.1 9999: VMware vSphere API Python Bindings
 dev-python/questionary 2.1.0 9999: Python library to build pretty command line user prompts
