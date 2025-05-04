@@ -112,6 +112,7 @@ dev-php/phpunit-php-invoker:pcntl - Enable test for Process Control extension
 dev-php/seld-signal-handler:pcntl - Enable test for Process Control extension
 dev-php/symfony-cache:pdo - Enable test for PHP Data Objects extension
 dev-php/symfony-process:pcntl - Enable test for Process Control extension
+dev-python/drf-yasg:coreapi - Enable Core API
 dev-python/drf-yasg:validation - Enable swagger spec validation
 dev-python/openai:datalib - Support data analysis and statistics
 dev-python/pythonqt:extensions - Install extensions

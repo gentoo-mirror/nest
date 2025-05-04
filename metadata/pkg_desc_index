@@ -788,14 +788,22 @@ dev-python/azure-storage-blob 12.25.0 9999: Microsoft Azure Storage Blobs Librar
 dev-python/bc-detect-secrets 1.5.37 9999: A fork of enterprise friendly way of detecting and preventing secrets
 dev-python/bc-jsonpath-ng 1.6.1 9999: Python JSONPath Next-Generation
 dev-python/bc-python-hcl2 0.4.2 9999: A fork of parser for HCL2 written in Python
+dev-python/billiard 4.2.1 9999: Multiprocessing Pool Extensions
 dev-python/boto3-stubs 1.28.78 9999: Type annotations for boto3
 dev-python/botocore-stubs 1.31.78 9999: Type annotations and code completion for botocore
 dev-python/cached-property 2.0.1 9999: A cached-property for decorating methods in classes
+dev-python/celery 5.5.2 9999: Asynchronous task job queue based on distributed message passing
 dev-python/chevron 0.14.0 9999: Mustache templating language renderer
+dev-python/click-completion 0.5.2 9999: Enhanced completion for bash, fish, zsh in Click
+dev-python/click-repl 0.3.0 9999: Subcommand REPL for click apps
+dev-python/colorpedia 1.2.3 9999: Command-line tool for looking up colors and palettes
 dev-python/commandlines 0.4.1 9999: Python command line argument to object parsing library
 dev-python/configparser 7.2.0 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.4.0 9999: Utils for converting between date formats and calculating holidays
+dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
+dev-python/coreschema 0.0.4 9999: Python CoreSchema
 dev-python/crayons 0.4.0 9999: Text UI colors
+dev-python/cron-descriptor 1.4.4 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.8 9999: Fast and reliable NGINX configuration parser
 dev-python/cyclonedx-python-lib 7.6.2 9.1.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
@@ -804,12 +812,19 @@ dev-python/dateparser 1.2.1 9999: Date parsing library designed to parse dates f
 dev-python/decli 0.6.2 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/diagrams 0.23.4 9999: Diagram as Code for prototyping cloud system architectures
+dev-python/django-celery-beat 2.8.0 9999: Celery Periodic Tasks for Django
 dev-python/django-fake-model 0.1.4 9999: A library for creating fake models in the unit tests
 dev-python/django-graphiql-debug-toolbar 0.2.0 9999: Django Debug Toolbar for GraphiQL IDE
+dev-python/django-oauth-toolkit 3.0.1 9999: OAuth2 Provider for Django
+dev-python/djangorestframework-camel-case 1.4.2 9999: Camel case JSON support for Django REST framework
+dev-python/djangorestframework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
 dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile files
 dev-python/dpath 2.2.0 9999: A python module that will check for package updates
+dev-python/drf-yasg 1.21.10 9999: Yet another Swagger generator
 dev-python/face 24.0.0 9999: Straightforward CLI parsing and dispatching microframework
 dev-python/fakeldap 0.6.6 9999: An implementation of a LDAPObject to fake a ldap server
+dev-python/fire 0.7.0 9999: Library for automatically generating CLI from object
+dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
 dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gensim 4.3.3 9999: Topic Modelling for Humans
@@ -833,6 +848,7 @@ dev-python/hijri-converter 2.3.1: Hijri-Gregorian date converter
 dev-python/hijridate 2.5.0 9999: Hijri-Gregorian date converter
 dev-python/hsh 1.1.0 9999: Simple cross-platform file hash digests and file integrity checks
 dev-python/igraph 0.11.5 9999: Python interface for igraph
+dev-python/itypes 1.2.0 9999: Simple immutable types for python
 dev-python/jdatetime 4.1.1 9999: Jalali implementation of Python's datetime module
 dev-python/jiter 0.9.0 9999: Fast iterable JSON parser
 dev-python/jproperties 2.1.2 9999: Java Property file parser and writer for Python
@@ -861,6 +877,7 @@ dev-python/packageurl 0.16.0 9999: Python implementation of the package url spec
 dev-python/pandas-stubs 2.2.3.250308 9999: Type annotations for pandas
 dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
 dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
+dev-python/prance 25.4.8.0 9999: Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 dev-python/proglog 0.1.10 9999: Logs and progress bars manager for Python
 dev-python/promise 2.3.0 9999: Ultra-performant Promise implementation in Python
 dev-python/py3dns 4.0.2 9999: Python 3 DNS library
@@ -872,8 +889,13 @@ dev-python/pykickstart 3.63 9999: Python library for reading and writing kicksta
 dev-python/pymeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
 dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
+dev-python/pytest-celery 1.2.0 9999: A shim pytest plugin to enable celery.contrib.pytest
 dev-python/pytest-datadir-ng 1.1.1 9999: Fixtures for pytest to retrieve test resources from filesystem
+dev-python/pytest-docker-tools 3.1.9 9999: Opionated helpers for creating py.test fixtures for Docker
+dev-python/pytest-pythonpath 0.7.3 9999: plugin for adding to the PYTHONPATH from command line or configs
 dev-python/pytest-random-order 1.1.1 9999: pytest plugin to randomise the order of tests
+dev-python/python-crontab 3.2.0 9999: Crontab module for reading and writing crontab files
+dev-python/python-user-agents 2.2.0 9999: A library to identify devices by parsing user agent strings
 dev-python/pythonqt 3.6.0 9999: A dynamic Python binding for the Qt framework
 dev-python/pyvcloud 23.0.4 9999: VMware vCloud Director Python SDK
 dev-python/pyvmomi 8.0.3.0.1 9999: VMware vSphere API Python Bindings
@@ -888,10 +910,12 @@ dev-python/serializable 1.1.2 2.0.0 9999: Serialize and deserialize Python objec
 dev-python/smart-open 7.2.0 9999: Utils for streaming large files
 dev-python/spdx-tools 0.8.3 9999: Python library to parse, validate and create SPDX documents
 dev-python/ssh2-python 1.0.0 9999: Super fast SSH2 protocol library, Python bindings for libssh2
+dev-python/swagger-spec-validator 3.0.4 9999: Python library that validates Swagger Specs
 dev-python/tablib 3.4.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
 dev-python/types-awscrt 0.19.8 9999: Type annotations and code completion for awscrt
 dev-python/types-s3transfer 0.7.0 9999: Type annotations and code completion for s3transfer
+dev-python/ua-parser 0.18.0 9999: A python implementation of the UA Parser
 dev-python/umalqurra 0.2 9999: Date Api that support Hijri Umalqurra calendar
 dev-python/unittest-xml-reporting 3.2.0 9999: unittest-based test runner with Ant/JUnit like XML reporting
 dev-python/update-checker 0.18.0 9999: A python module that will check for package updates
