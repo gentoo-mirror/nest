@@ -1,28 +1,27 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8..10} )
-EGIT_REPO_URI="https://github.com/jfinkhaeuser/${PN}.git"
+PYTHON_COMPAT=( python3_{11..13} )
+EGIT_SUBMODULES=( "tests/OpenAPI-Specification" )
 
 inherit distutils-r1 git-r3 optfeature
 
 DESCRIPTION="Resolving Swagger/OpenAPI 2.0 and 3.0 Parser"
-HOMEPAGE="https://github.com/jfinkhaeuser/prance"
-SRC_URI=""
+HOMEPAGE="https://github.com/RonnyPfannschmidt/prance"
+EGIT_REPO_URI="https://github.com/RonnyPfannschmidt/${PN}.git"
 
 LICENSE="Apache-2.0 MIT"
 SLOT="0"
-KEYWORDS=""
 
 RDEPEND="dev-python/chardet[${PYTHON_USEDEP}]
+	dev-python/packaging[${PYTHON_USEDEP}]
 	dev-python/ruamel-yaml[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/semver[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
-BDEPEND="test? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )"
+	dev-python/requests[${PYTHON_USEDEP}]"
+BDEPEND="dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	test? ( dev-python/openapi-spec-validator[${PYTHON_USEDEP}] )"
 
 distutils_enable_tests pytest
 
@@ -39,7 +38,7 @@ python_test() {
 
 pkg_postinst() {
 	optfeature "integration with icu" dev-python/pyicu
-	optfeature "integration with swagger" dev-python/swagger_spec_validator
+	optfeature "integration with swagger" dev-python/swagger-spec-validator
 	optfeature "integration with openapi" dev-python/openapi-spec-validator
 	optfeature "integration with swagger validator" dev-python/flex
 	optfeature "command line client" dev-python/click

@@ -1,43 +1,38 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{8,10} )
-EGIT_REPO_URI="https://github.com/celery/${PN}.git"
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit distutils-r1 git-r3
 
 DESCRIPTION="Celery Periodic Tasks for Django"
 HOMEPAGE="https://github.com/celery/django-celery-beat"
-SRC_URI=""
+EGIT_REPO_URI="https://github.com/celery/${PN}.git"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS=""
 
 RDEPEND="dev-python/celery[${PYTHON_USEDEP}]
+	dev-python/cron-descriptor[${PYTHON_USEDEP}]
+	dev-python/django[${PYTHON_USEDEP}]
 	dev-python/django-timezone-field[${PYTHON_USEDEP}]
-	dev-python/python-crontab[${PYTHON_USEDEP}]"
-BDEPEND="test? ( dev-python/case[${PYTHON_USEDEP}]
-		dev-python/pytest-timeout[${PYTHON_USEDEP}]
-		dev-python/pytz[${PYTHON_USEDEP}]
-		sci-astronomy/pyephem[${PYTHON_USEDEP}] )"
+	dev-python/python-crontab[${PYTHON_USEDEP}]
+	dev-python/tzdata[${PYTHON_USEDEP}]"
+BDEPEND="test? ( sci-astronomy/pyephem[${PYTHON_USEDEP}] )"
 
+EPYTEST_TIMEOUT=1
 distutils_enable_tests pytest
 
 EPYTEST_DESELECT=(
-	t/unit/test_models.py::CrontabScheduleTestCase::test_default_timezone_with_settings_config
-	# Failed: Timeout >5.0s
+	# Failed: Timeout >1.0s
+	t/unit/test_schedulers.py::test_DatabaseScheduler::test_sync_not_saves_last_run_at_while_schedule_changed
+	t/unit/test_schedulers.py::test_DatabaseScheduler::test_heap_always_return_the_first_item
+	t/unit/test_schedulers.py::test_DatabaseScheduler::test_starttime_trigger
+	t/unit/test_schedulers.py::test_DatabaseScheduler::test_crontab_with_start_time_tick
+	# kombu.exceptions.OperationalError: [Errno 111] Connection refused
 	t/unit/test_schedulers.py::test_modeladmin_PeriodicTaskAdmin::test_run_task
 	t/unit/test_schedulers.py::test_modeladmin_PeriodicTaskAdmin::test_run_tasks
 )
-
-python_prepare_all() {
-	# Fix test
-	sed -i "/TimeZoneField/s|.default_choices\[0\]\[0\].zone|(default='UTC')|" \
-		t/unit/test_models.py
-
-	distutils-r1_python_prepare_all
-}

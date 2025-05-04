@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1179](https://img.shields.io/badge/ebuild-1179-orange.svg)](https://img.shields.io/badge/ebuild-1179-orange.svg)
+[![Number of ebuilds: 1175](https://img.shields.io/badge/ebuild-1175-orange.svg)](https://img.shields.io/badge/ebuild-1175-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -775,8 +775,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[chevron](https://github.com/noahmorrison/chevron) | Mustache templating language renderer
 *   dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
 *   dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
-*   dev-python/[click-didyoumean](https://github.com/click-contrib/click-didyoumean) | Enable git-like did-you-mean feature in click
-*   dev-python/[click-help-colors](https://github.com/click-contrib/click-help-colors) | Colorization of help messages in Click
 *   dev-python/[click-repl](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
 *   dev-python/[colorpedia](https://github.com/joowani/colorpedia) | Command-line tool for looking up colors and palettes
 *   dev-python/[commandlines](https://github.com/chrissimpkins/commandlines) | Python command line argument to object parsing library
@@ -798,7 +796,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[decli](https://github.com/Woile/decli) | Minimal declarative cli tool
 *   dev-python/[deep_merge](https://github.com/halfak/deep_merge) | A simple utility for merging python dictionaries
 *   dev-python/[delegator-py](https://github.com/kennethreitz/delegator.py) | Simple library for dealing with subprocesses
-*   dev-python/[dj-database-url](https://github.com/kennethreitz/dj-database-url) | URL bases database backend configuration in Django
 *   dev-python/[dj-email-url](https://github.com/migonzalvar/dj-email-url) | URL based email backend configuration in Django
 *   dev-python/[dj-search-url](https://github.com/dstufft/dj-search-url) | Environment based search backend configuration in Django
 *   dev-python/[django-cache-url](https://github.com/epicserve/django-cache-url) | URL based cache backend configuration in Django
@@ -816,8 +813,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) | OAuth2 Provider for Django
 *   dev-python/[django-pipeline](https://github.com/jazzband/django-pipeline) | An asset packaging library for Django
 *   dev-python/[django-pglocks](https://github.com/Xof/django-pglocks) | PostgreSQL locking context managers and functions for Django
-*   dev-python/[django-rest-framework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
-*   dev-python/[django-rest-framework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
+*   dev-python/[djangorestframework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
+*   dev-python/[djangorestframework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
 *   dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger/) | Swagger UI for Django REST Framework
 *   dev-python/[django-tables2](https://github.com/jieter/django-tables2) | Django application for creating HTML tables
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
@@ -907,9 +904,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[polemarch-ansible](https://gitlab.com/vstconsulting/polemarch-ansible) | Wrapper for Ansible CLI
 *   dev-python/[policyuniverse](https://github.com/Netflix-Skunkworks/policyuniverse) | Parse and Process AWS IAM Policies, Statements, ARNs
 *   dev-python/[port-for](https://github.com/kmike/port-for) | An utility and python library for TCP ports management
-*   dev-python/[prance](https://github.com/jfinkhaeuser/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
+*   dev-python/[prance](https://github.com/RonnyPfannschmidt/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 *   dev-python/[proglog](https://github.com/Edinburgh-Genome-Foundry/Proglog) | Logs and progress bars manager for Python
-*   dev-python/[promise](https://github.com/syrusakbary/promise) | Python port of GraphQL.js
+*   dev-python/[promise](https://github.com/syrusakbary/promise) | Ultra-performant Promise implementation in Python
 *   dev-python/[purl](https://github.com/codeinthehole/purl) | Simple Python URL class
 *   dev-python/[py3dns](https://launchpad.net/py3dns) | Python 3 DNS library
 *   dev-python/[pybeam](https://github.com/matwey/pybeam) | Python module to parse Erlang BEAM files
@@ -922,9 +919,10 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pyspnego](https://github.com/jborean93/pyspnego) | Python SPNEGO authentication library
 *   dev-python/[pystache](https://github.com/PennyDreadfulMTG/pystache) | Mustache templating system for Python
 *   dev-python/[pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | py.test fixture for benchmarking code
-*   dev-python/[pytest-celery](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
+*   dev-python/[pytest-celery](https://github.com/celery/pytest-celery) | A shim pytest plugin to enable celery.contrib.pytest
 *   dev-python/[pytest-datadir-ng](https://github.com/Tblue/pytest-datadir-ng) | Fixtures for pytest to retrieve test resources from filesystem
 *   dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
+*   dev-python/[pytest-docker-tools](https://github.com/Jc2k/pytest-docker-tools) | Opionated helpers for creating py.test fixtures for Docker
 *   dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 *   dev-python/[pytest-random-order](https://github.com/jbasko/pytest-random-order) | pytest plugin to randomise the order of tests
 *   dev-python/[pytest-trio](https://github.com/python-trio/pytest-trio) | Python library for async concurrency and I/O
@@ -965,7 +963,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | Mermaid diagrams in sphinx powered docs
 *   dev-python/[sphinxcontrib-openapi](https://github.com/sphinx-contrib/openapi) | Sphinx extension to generate APIs docs from OpenAPI
 *   dev-python/[ssh2-python](https://github.com/ParallelSSH/ssh2-python) | Super fast SSH2 protocol library, Python bindings for libssh2
-*   dev-python/[swagger_spec_validator](https://github.com/Yelp/swagger_spec_validator) | Python library that validates Swagger Specs
+*   dev-python/[swagger-spec-validator](https://github.com/Yelp/swagger_spec_validator) | Python library that validates Swagger Specs
 *   dev-python/[tablib](https://github.com/jazzband/tablib) | Format-agnostic tabular dataset library
 *   dev-python/[testinfra](https://github.com/pytest-dev/pytest-testinfra) | Testinfra test your infrastructures
 *   dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
@@ -1257,4 +1255,3 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   x11-themes/[WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme) | comes in both light and dark variants
 
 </details>
-* dev-python/[promise](https://github.com/syrusakbary/promise) | Ultra-performant Promise implementation in Python
