@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1175](https://img.shields.io/badge/ebuild-1175-orange.svg)](https://img.shields.io/badge/ebuild-1175-orange.svg)
+[![Number of ebuilds: 1164](https://img.shields.io/badge/ebuild-1164-orange.svg)](https://img.shields.io/badge/ebuild-1164-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -795,13 +795,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[diagrams](https://github.com/mingrammer/diagrams) | Diagram as Code for prototyping cloud system architectures
 *   dev-python/[decli](https://github.com/Woile/decli) | Minimal declarative cli tool
 *   dev-python/[deep_merge](https://github.com/halfak/deep_merge) | A simple utility for merging python dictionaries
-*   dev-python/[delegator-py](https://github.com/kennethreitz/delegator.py) | Simple library for dealing with subprocesses
 *   dev-python/[dj-email-url](https://github.com/migonzalvar/dj-email-url) | URL based email backend configuration in Django
-*   dev-python/[dj-search-url](https://github.com/dstufft/dj-search-url) | Environment based search backend configuration in Django
-*   dev-python/[django-cache-url](https://github.com/epicserve/django-cache-url) | URL based cache backend configuration in Django
 *   dev-python/[django-celery-beat](https://github.com/celery/django-celery-beat) | Celery Periodic Tasks for Django
-*   dev-python/[django-configurations](https://github.com/jazzband/django-configurations) | A helper for organizing Django project settings
-*   dev-python/[django-crispy-forms](https://github.com/django-crispy-forms/django-crispy-forms) | DRY Django forms
 *   dev-python/[django-debug-toolbar](https://github.com/django-debug-toolbar/django-debug-toolbar) | A configurable set of panels that display debug information
 *   dev-python/[django-environ](https://github.com/joke2k/django-environ) | An environment variables to configure Django
 *   dev-python/[django-fake-model](https://github.com/erm0l0v/django-fake-model) | A library for creating fake models in the unit tests
@@ -809,14 +804,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[django-guardian](https://github.com/django-guardian/django-guardian) | Implementation of per object permissions for Django
 *   dev-python/[django-jsonfield](https://github.com/dmkoch/django-jsonfield) | A Django field to store validated JSON in your model
 *   dev-python/[django-jinja](https://github.com/niwinz/django-jinja) | Jinja2 templating language integrated in Django
-*   dev-python/[django-js-asset](https://github.com/matthiask/django-js-asset) | A script tag with additional attributes for django.forms.Media
 *   dev-python/[django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) | OAuth2 Provider for Django
 *   dev-python/[django-pipeline](https://github.com/jazzband/django-pipeline) | An asset packaging library for Django
 *   dev-python/[django-pglocks](https://github.com/Xof/django-pglocks) | PostgreSQL locking context managers and functions for Django
 *   dev-python/[djangorestframework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
 *   dev-python/[djangorestframework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
 *   dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger/) | Swagger UI for Django REST Framework
-*   dev-python/[django-tables2](https://github.com/jieter/django-tables2) | Django application for creating HTML tables
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
 *   dev-python/[dpath](https://github.com/dpath-maintainers/dpath-python) | A python module that will check for package updates
 *   dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
@@ -866,14 +859,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 *   dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 *   dev-python/[jsonpath-ng](https://github.com/h2non/jsonpath-ng) | Python JSONPath Next-Generation
-*   dev-python/[k5test](https://github.com/pythongssapi/k5test) | A library for setting up self-contained Kerberos 5 environments
 *   dev-python/[langdetect](https://github.com/Mimino666/langdetect) | Language detection library ported from Google
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 *   dev-python/[luhn](https://github.com/mmcloughlin/luhn) | Generate and verify Luhn check digits
 *   dev-python/[llvmlite](https://github.com/numba/llvmlite) | A lightweight wrapper around basic LLVM functionality
 *   dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 *   dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
-*   dev-python/[markdown-include](https://github.com/cmacmackin/markdown-include) | Provides the inclusion of the contents of other Markdown documents
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 *   dev-python/[moviepy](https://github.com/Zulko/moviepy) | Video editing with Python
 *   dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
