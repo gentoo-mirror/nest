@@ -802,6 +802,7 @@ dev-python/configparser 7.2.0 9999: Backport of configparser from Python 3
 dev-python/convertdate 2.4.0 9999: Utils for converting between date formats and calculating holidays
 dev-python/coreapi 2.3.3-r2 9999: Python client library for Core API
 dev-python/coreschema 0.0.4 9999: Python CoreSchema
+dev-python/cprint 1.2.2 9999: Printing in color in python
 dev-python/crayons 0.4.0 9999: Text UI colors
 dev-python/cron-descriptor 1.4.4 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.8 9999: Fast and reliable NGINX configuration parser
@@ -942,6 +943,7 @@ dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
 dev-util/cloudsplaining 0.8.0 9999: AWS IAM Security Assessment tool
 dev-util/config-file-validator 1.8.0 9999: Cross Platform tool to validate configuration files
 dev-util/crudini 0.9.5 9999: A utility for manipulating ini files
+dev-util/css-html-js-minify 1.2.0 9999: StandAlone Async cross-platform Minifier for the Web
 dev-util/cupt 2.10.3 9999: Package manager for Debian
 dev-util/desed 1.2.1 9999: Debugger for Sed
 dev-util/detect-secrets 1.5.0 9999: An enterprise friendly way of detecting and preventing secrets
@@ -954,6 +956,7 @@ dev-util/gibberish-detector 0.1.1 9999: Train a model, and detect gibberish stri
 dev-util/gitlab-runner 13.3.0 9999: GitLab Runner
 dev-util/hotspot 1.3.0 9999: Linux perf GUI for performance analysis
 dev-util/insomnia-bin 9.3.3: HTTP and GraphQL client for developers
+dev-util/jwt_tool 2.3.0 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/lazygit 0.34 9999: Simple terminal UI for git commands
 dev-util/mapforce-advanced 2020_p2: Advanced data mapping, conversion, and transformation tool
 dev-util/ovftool 4.4.0.15722219 4.4.0.16360108 4.4.1.16812187 4.5.0.20459872 4.6.0.21452615: VMware Open Virtualization Format tool
@@ -974,6 +977,8 @@ dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
 dev-vcs/commitizen 4.4.1 9999: Python commitizen client tool
 dev-vcs/gitaly 13.12.15 9999: Git RPC service for handling GitLab git calls
 dev-vcs/gitlint 0.19.1 9999: Git commit message linter
+dev-vcs/mercurial-extension_utils 1.5.3 9999: Mercurial Extension Utils
+dev-vcs/mercurial_keyring 1.4.4 9999: Mercurial Keyring Extension
 dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git repository
 kde-misc/Burn-My-Windows 44 9999: Disintegrate your windows with style
 kde-misc/Tiled-Quicklaunch 9999 20211017: Plasma Menu Widget for KDE
@@ -1088,6 +1093,7 @@ net-misc/dhcdrop 0.5-r2: Effectively suppresses illegal DHCP servers on the LAN
 net-misc/dnsflood 9999: Use raw sockets to generate DNS flood attack
 net-misc/droplet-agent 1.2.3 9999: DigitalOcean Droplet Agent
 net-misc/ec2-instance-connect 1.1.14 9999: AWS EC2 Instance Connect Configuration
+net-misc/ec2-instance-connect-cli 1.0.3 9999: Python client for accessing EC2 instances via EC2 Instance Connect
 net-misc/fiche 0.9.1 9999: Command line pastebin server
 net-misc/inverting-proxy 9999: Reverse proxy that inverts the direction of traffic
 net-misc/kafkactl 5.3.0 9999: A command-line interface for interaction with Apache Kafka

@@ -1,0 +1,14 @@
+DEFINED_PHASES=install prepare setup
+DESCRIPTION=A toolkit for testing, tweaking and cracking JSON Web Tokens
+EAPI=8
+HOMEPAGE=https://github.com/ticarpi/jwt_tool
+INHERIT=python-single-r1
+IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_11? ( dev-python/cprint[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/cprint[python_targets_python3_12(-)] ) python_single_target_python3_13? ( dev-python/cprint[python_targets_python3_13(-)] ) python_single_target_python3_11? ( dev-python/pycryptodome[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/pycryptodome[python_targets_python3_12(-)] ) python_single_target_python3_13? ( dev-python/pycryptodome[python_targets_python3_13(-)] ) python_single_target_python3_11? ( dev-python/ratelimit[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/ratelimit[python_targets_python3_12(-)] ) python_single_target_python3_13? ( dev-python/ratelimit[python_targets_python3_13(-)] ) python_single_target_python3_11? ( dev-python/requests[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/requests[python_targets_python3_12(-)] ) python_single_target_python3_13? ( dev-python/requests[python_targets_python3_13(-)] ) python_single_target_python3_11? ( dev-python/termcolor[python_targets_python3_11(-)] ) python_single_target_python3_12? ( dev-python/termcolor[python_targets_python3_12(-)] ) python_single_target_python3_13? ( dev-python/termcolor[python_targets_python3_13(-)] )
+REQUIRED_USE=^^ ( python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
+SLOT=0
+SRC_URI=https://github.com/ticarpi/jwt_tool/archive/v2.3.0.tar.gz -> jwt_tool-2.3.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	de71d9571aa267f353b9e8ab4666732e	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
+_md5_=dd179e9517a4a0dc8c8ac750d0ebda8b
