@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1164](https://img.shields.io/badge/ebuild-1164-orange.svg)](https://img.shields.io/badge/ebuild-1164-orange.svg)
+[![Number of ebuilds: 1153](https://img.shields.io/badge/ebuild-1153-orange.svg)](https://img.shields.io/badge/ebuild-1153-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -876,8 +876,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[nmslib](https://github.com/nmslib/nmslib) | Non-Metric Space Library
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 *   dev-python/[openai](https://github.com/openai/openai-python) | The official Python library for the OpenAI API
-*   dev-python/[openapi-schema-validator](https://github.com/p1c2u/openapi-schema-validator) | OpenAPI schema validation for Python
-*   dev-python/[openapi-spec-validator](https://github.com/p1c2u/openapi-spec-validator) | OpenAPI Spec validator
 *   dev-python/[opentelemetry-exporter-otlp-proto-common](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Protobuf encoding
 *   dev-python/[opentelemetry-exporter-otlp-proto-http](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Collector Protobuf over HTTP Exporter
 *   dev-python/[opentelemetry-instrumentation](https://github.com/open-telemetry/opentelemetry-python-contrib) | Instrumentation Tools for OpenTelemetry Python
@@ -885,7 +883,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Python Proto
 *   dev-python/[opentelemetry-test-utils](https://github.com/open-telemetry/opentelemetry-python) | Test utilities for OpenTelemetry unit tests
 *   dev-python/[opentelemetry-util-http](https://github.com/open-telemetry/opentelemetry-python-contrib) | Web util for OpenTelemetry
-*   dev-python/[outcome](https://github.com/python-trio/outcome) | Capture the outcome of Python function calls
 *   dev-python/[oyaml](https://github.com/wimglenn/oyaml) | Ordered YAML
 *   dev-python/[packageurl](https://github.com/package-url/packageurl-python) | Python implementation of the package url spec
 *   dev-python/[pandas-stubs](https://github.com/pandas-dev/pandas-stubs) | Type annotations for pandas
@@ -907,7 +904,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pyemd](https://github.com/wmayner/pyemd) | Fast EMD for Python
 *   dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
 *   dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
-*   dev-python/[pyspnego](https://github.com/jborean93/pyspnego) | Python SPNEGO authentication library
 *   dev-python/[pystache](https://github.com/PennyDreadfulMTG/pystache) | Mustache templating system for Python
 *   dev-python/[pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | py.test fixture for benchmarking code
 *   dev-python/[pytest-celery](https://github.com/celery/pytest-celery) | A shim pytest plugin to enable celery.contrib.pytest
@@ -917,7 +913,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 *   dev-python/[pytest-random-order](https://github.com/jbasko/pytest-random-order) | pytest plugin to randomise the order of tests
 *   dev-python/[pytest-trio](https://github.com/python-trio/pytest-trio) | Python library for async concurrency and I/O
-*   dev-python/[pytimeparse](https://github.com/wroberts/pytimeparse) | A library to parse time from human readable string
 *   dev-python/[pythonqt](https://mevislab.github.io/pythonqt/) | A dynamic Python binding for the Qt framework
 *   dev-python/[python-crontab](https://gitlab.com/doctormo/python-crontab/) | Crontab module for reading and writing crontab files
 *   dev-python/[python-gilt](https://github.com/metacloud/gilt) | A GIT layering tool
@@ -927,7 +922,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pymeeus](https://github.com/architest/pymeeus) | Library of astronomical algorithms in Python
 *   dev-python/[pyvcloud](https://github.com/vmware/pyvcloud) | VMware vCloud Director Python SDK
 *   dev-python/[pyvmomi](https://github.com/vmware/pyvmomi) | VMware vSphere API Python Bindings
-*   dev-python/[pywinrm](https://github.com/diyan/pywinrm) | Python library for Windows Remote Management
 *   dev-python/[questionary](https://github.com/tmbo/questionary) | Python library to build pretty command line user prompts
 *   dev-python/[random2](https://github.com/strichter/random2) | Python-2.7 random module ported to python-3
 *   dev-python/[requests-mock](https://github.com/jamielennox/requests-mock) | Mock out responses from the requests package
@@ -942,7 +936,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[selinux](https://github.com/pycontribs/selinux) | Pure-python selinux shim module for use in virtualenvs
 *   dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | Python client for Sentry
 *   dev-python/[serializable](https://github.com/madpah/serializable) | Serialize and deserialize Python objects to and from JSON and XML
-*   dev-python/[shellingham](https://github.com/sarugaku/shellingham) | Detects what shell the current Python executable is running in
 *   dev-python/[shouldbe](https://github.com/directxman12/should_be) | A Python Assertions Helper
 *   dev-python/[smart-open](https://github.com/piskvorky/smart_open) | Utils for streaming large files
 *   dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
