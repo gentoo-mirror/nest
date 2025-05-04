@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1181](https://img.shields.io/badge/ebuild-1181-orange.svg)](https://img.shields.io/badge/ebuild-1181-orange.svg)
+[![Number of ebuilds: 1179](https://img.shields.io/badge/ebuild-1179-orange.svg)](https://img.shields.io/badge/ebuild-1179-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -772,7 +772,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[botocore-stubs](https://github.com/youtype/botocore-stubs) | Type annotations and code completion for botocore
 *   dev-python/[cached-property](https://github.com/pydanny/cached-property) | A cached-property for decorating methods in classes
 *   dev-python/[celery](https://github.com/celery/celery) | Asynchronous task job queue based on distributed message passing
-*   dev-python/[cerberus](https://github.com/pyeve/cerberus) | Lightweight and extensible data validation library for Python
 *   dev-python/[chevron](https://github.com/noahmorrison/chevron) | Mustache templating language renderer
 *   dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
 *   dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
@@ -1258,3 +1257,4 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   x11-themes/[WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme) | comes in both light and dark variants
 
 </details>
+* dev-python/[promise](https://github.com/syrusakbary/promise) | Ultra-performant Promise implementation in Python
