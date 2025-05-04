@@ -771,12 +771,14 @@ dev-php/twig 3.10.3 9999: PHP templating engine with syntax similar to Django
 dev-php/webmozart-assert 1.11.0 9999: Webmozart Assert
 dev-php/zetacomponents-UnitTest 1.2.5 9999: Unit tests for any Zeta component
 dev-python/MarkupPy 1.14: An HTML/XML generator
+dev-python/adal 1.2.7 9999: Library for authentication in Azure Active Directory
 dev-python/ahocorasick 2.1.0 9999: Python module implementing Aho-Corasick algorithm
 dev-python/aiomultiprocess 0.9.1 9999: asyncio version of the standard multiprocessing module
 dev-python/annoy 1.17.3 9999: Approximate Nearest Neighbors in C++/Python
 dev-python/anyconfig 0.13.0 9999: Generic access to configuration files in any formats
 dev-python/apispec-webframeworks 1.2.0 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
+dev-python/aspectlib 2.0.0 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/assertpy 1.1 9999: Assertion library for unit testing
 dev-python/aws-lambda-builders 1.54.0 9999: Python library to manage AWS Lambda functions
 dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
@@ -803,6 +805,7 @@ dev-python/decli 0.6.2 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/diagrams 0.23.4 9999: Diagram as Code for prototyping cloud system architectures
 dev-python/django-fake-model 0.1.4 9999: A library for creating fake models in the unit tests
+dev-python/django-graphiql-debug-toolbar 0.2.0 9999: Django Debug Toolbar for GraphiQL IDE
 dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile files
 dev-python/dpath 2.2.0 9999: A python module that will check for package updates
 dev-python/face 24.0.0 9999: Straightforward CLI parsing and dispatching microframework
@@ -819,6 +822,10 @@ dev-python/google-cloud-storage 3.1.0 9999: Google Cloud Storage API client libr
 dev-python/google-cloud-testutils 1.6.0 9999: Google Cloud Storage API client library
 dev-python/google-crc32c 1.7.1 9999: Hardware-based implementation of the CRC32C hashing algorithm
 dev-python/google-resumable-media 2.7.2 9999: Utilities for Google Media Downloads and Resumable Uploads
+dev-python/graphene 3.4.3 9999: GraphQL framework for Python
+dev-python/graphene-django 3.2.3 9999: A Django integration for Graphene
+dev-python/graphql-core 3.2.6 9999: Python port of GraphQL.js
+dev-python/graphql-relay 3.2.0 9999: A library to help construct a graphql-py server supporting react-relay
 dev-python/grpc-google-iam-v1 0.14.2 9999: Python Client for Cloud Identity and Access Management
 dev-python/grpcio 1.64.1 9999: High-performance RPC framework (python libraries)
 dev-python/grpcio-status 1.64.1 9999: Status proto mapping for gRPC
@@ -855,14 +862,18 @@ dev-python/pandas-stubs 2.2.3.250308 9999: Type annotations for pandas
 dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
 dev-python/policyuniverse 1.5.1.20231109 9999: Parse and Process AWS IAM Policies, Statements, ARNs
 dev-python/proglog 0.1.10 9999: Logs and progress bars manager for Python
+dev-python/promise 2.3.0 9999: Ultra-performant Promise implementation in Python
 dev-python/py3dns 4.0.2 9999: Python 3 DNS library
 dev-python/pybeam 0.7 9999: Python module to parse Erlang BEAM files
 dev-python/pycep 0.5.1 9999: A Python based Bicep parser
 dev-python/pyemd 1.0.0 9999: Fast EMD for Python
+dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
 dev-python/pykickstart 3.63 9999: Python library for reading and writing kickstart files
 dev-python/pymeeus 0.5.11 9999: Library of astronomical algorithms in Python
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
+dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
 dev-python/pytest-datadir-ng 1.1.1 9999: Fixtures for pytest to retrieve test resources from filesystem
+dev-python/pytest-random-order 1.1.1 9999: pytest plugin to randomise the order of tests
 dev-python/pythonqt 3.6.0 9999: A dynamic Python binding for the Qt framework
 dev-python/pyvcloud 23.0.4 9999: VMware vCloud Director Python SDK
 dev-python/pyvmomi 8.0.3.0.1 9999: VMware vSphere API Python Bindings
