@@ -889,6 +889,8 @@ dev-python/promise 2.3.0 9999: Ultra-performant Promise implementation in Python
 dev-python/py3dns 4.0.2 9999: Python 3 DNS library
 dev-python/pybeam 0.7 9999: Python module to parse Erlang BEAM files
 dev-python/pycep 0.5.1 9999: A Python based Bicep parser
+dev-python/pycfmodel 1.1.0 9999: A python model for Cloud Formation scripts
+dev-python/pydash 8.0.5 9999: The kitchen sink of Python functional utility libraries
 dev-python/pyemd 1.0.0 9999: Fast EMD for Python
 dev-python/pygaljs 1.0.2 9999: Python package providing assets from js module for pygal
 dev-python/pykickstart 3.63 9999: Python library for reading and writing kickstart files
@@ -938,6 +940,8 @@ dev-util/beekeeper-studio-bin 4.6.2: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/build2 0.16.0: Cross-platform toolchain for building and packaging C++ code
 dev-util/cfn-format 1.1.2_p1 9999: AWS CloudFormation Template Formatter
 dev-util/cfn-guard 3.1.1 9999: AWS CloudFormation Guard
+dev-util/cfn-template-flip 1.3.0 9999: AWS CloudFormation Template Flip
+dev-util/cfripper 1.17.0 9999: Analysing CloudFormation templates for security compliance
 dev-util/checkov 3.2.414 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
 dev-util/cloudsplaining 0.8.0 9999: AWS IAM Security Assessment tool
