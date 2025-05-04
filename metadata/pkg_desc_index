@@ -805,6 +805,7 @@ dev-python/coreschema 0.0.4 9999: Python CoreSchema
 dev-python/crayons 0.4.0 9999: Text UI colors
 dev-python/cron-descriptor 1.4.4 9999: Converts cron expressions into human readable strings
 dev-python/crossplane 0.5.8 9999: Fast and reliable NGINX configuration parser
+dev-python/curio 1.6 9999: Coroutine-based library for concurrent Python systems programming
 dev-python/cyclonedx-python-lib 7.6.2 9.1.0 9999: Python library for generating CycloneDX SBOMs
 dev-python/dataclasses-jsonschema 2.16.0 9999: JSON schema generation from dataclasses
 dev-python/datadiff 2.2.0 9999: A library for diffs of python data structures
@@ -813,9 +814,13 @@ dev-python/decli 0.6.2 9999: Minimal declarative cli tool
 dev-python/deep_merge 0.0.4 9999: A simple utility for merging python dictionaries
 dev-python/diagrams 0.23.4 9999: Diagram as Code for prototyping cloud system architectures
 dev-python/django-celery-beat 2.8.0 9999: Celery Periodic Tasks for Django
+dev-python/django-environ 0.12.0 9999: An environment variables to configure Django
 dev-python/django-fake-model 0.1.4 9999: A library for creating fake models in the unit tests
 dev-python/django-graphiql-debug-toolbar 0.2.0 9999: Django Debug Toolbar for GraphiQL IDE
+dev-python/django-guardian 2.4.0 9999: Implementation of per object permissions for Django
+dev-python/django-jinja 2.11.0 9999: Jinja2 templating language integrated in Django
 dev-python/django-oauth-toolkit 3.0.1 9999: OAuth2 Provider for Django
+dev-python/django-pglocks 1.0.4 9999: PostgreSQL locking context managers and functions for Django
 dev-python/djangorestframework-camel-case 1.4.2 9999: Camel case JSON support for Django REST framework
 dev-python/djangorestframework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
 dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile files
