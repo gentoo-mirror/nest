@@ -54,6 +54,10 @@ PATCHES=( "${FILESDIR}/${P}-kernel-6.10.patch" )
 
 CONFIG_CHECK="~UIO"
 
+PATCHES=(
+	"${FILESDIR}/kvmfr-kernel-6.10.patch"
+)
+
 src_unpack() {
 	einfo "Unpacking ${P}.tar.gz ..."
 	tar -xzf "${DISTDIR}/${P}.tar.gz" "${PN}-${MY_PV}" \
