@@ -822,6 +822,7 @@ dev-python/django-guardian 2.4.0 9999: Implementation of per object permissions 
 dev-python/django-jinja 2.11.0 9999: Jinja2 templating language integrated in Django
 dev-python/django-oauth-toolkit 3.0.1 9999: OAuth2 Provider for Django
 dev-python/django-pglocks 1.0.4 9999: PostgreSQL locking context managers and functions for Django
+dev-python/django-pipeline 4.0.0 9999: An asset packaging library for Django
 dev-python/django-rest-swagger 2.2.0 9999: Swagger UI for Django REST Framework
 dev-python/djangorestframework-camel-case 1.4.2 9999: Camel case JSON support for Django REST framework
 dev-python/djangorestframework-recursive 0.1.2 9999: Recursive Serialization for Django REST framework
@@ -829,9 +830,11 @@ dev-python/dockerfile-parse 2.0.1 9999: Python library for parsing Dockerfile fi
 dev-python/dpath 2.2.0 9999: A python module that will check for package updates
 dev-python/drf-yasg 1.21.10 9999: Yet another Swagger generator
 dev-python/face 24.0.0 9999: Straightforward CLI parsing and dispatching microframework
+dev-python/factory-boy 3.3.3 9999: A fixtures replacement tool
 dev-python/fakeldap 0.6.6 9999: An implementation of a LDAPObject to fake a ldap server
 dev-python/fire 0.7.0 9999: Library for automatically generating CLI from object
 dev-python/flex 6.14.1 9999: Validation tooling for Swagger 2.0 specifications
+dev-python/flup 1.0.3: Random assortment of WSGI servers
 dev-python/forbiddenfruit 0.1.4 9999: Patch python built-in objects
 dev-python/future 0.18.3: Easy, clean, reliable Python 2/3 compatibility
 dev-python/gensim 4.3.3 9999: Topic Modelling for Humans
@@ -869,6 +872,7 @@ dev-python/mock-django 0.6.10 9999: A simple library for mocking certain Django 
 dev-python/moviepy 1.0.3 9999: Video editing with Python
 dev-python/msrest 0.6.21 9999: AutoRest swagger generator Python client runtime
 dev-python/ncclient 0.6.15 9999: Python library for NETCONF clients
+dev-python/netapp-ontap 9.16.1.0: A library for working with ONTAP's REST APIs simply in Python
 dev-python/nltk 3.9.1 9999: Natural Language Toolkit
 dev-python/nltk-data 20250326: Data files for NLTK
 dev-python/nmslib 2.1.1 9999: Non-Metric Space Library
@@ -882,6 +886,7 @@ dev-python/opentelemetry-instrumentation-requests 0.53_beta1 9999: OpenTelemetry
 dev-python/opentelemetry-proto 1.32.1 9999: OpenTelemetry Python Proto
 dev-python/opentelemetry-test-utils 0.53_beta1 9999: Test utilities for OpenTelemetry unit tests
 dev-python/opentelemetry-util-http 0.53_beta1 9999: Web util for OpenTelemetry
+dev-python/oyaml 1.1 9999: Ordered YAML
 dev-python/packageurl 0.16.0 9999: Python implementation of the package url spec
 dev-python/pandas-stubs 2.2.3.250308 9999: Type annotations for pandas
 dev-python/parsel 1.9.1 9999: Utility to extract data from XML/HTML documents using XPath or CSS selectors
