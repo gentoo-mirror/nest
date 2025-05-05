@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1155](https://img.shields.io/badge/ebuild-1155-orange.svg)](https://img.shields.io/badge/ebuild-1155-orange.svg)
+[![Number of ebuilds: 1152](https://img.shields.io/badge/ebuild-1152-orange.svg)](https://img.shields.io/badge/ebuild-1152-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -814,11 +814,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
 *   dev-python/[dpath](https://github.com/dpath-maintainers/dpath-python) | A python module that will check for package updates
 *   dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
-*   dev-python/[editdistance](https://github.com/roy-ht/editdistance) | Fast implementation of the edit distance(Levenshtein distance)
-*   dev-python/[editdistance-s](https://github.com/asottile/editdistance-s) | Fast implementation of edit (Levenshtein) distance
 *   dev-python/[email-validator](https://github.com/JoshData/python-email-validator) | An email syntax and deliverability validation library
 *   dev-python/[face](https://github.com/mahmoud/face) | Straightforward CLI parsing and dispatching microframework
-*   dev-python/[factory_boy](https://github.com/FactoryBoy/factory_boy) | A fixtures replacement tool
+*   dev-python/[factory-boy](https://github.com/FactoryBoy/factory_boy) | A fixtures replacement tool
 *   dev-python/[fakeldap](https://github.com/zulip/fakeldap) | An implementation of a LDAPObject to fake a ldap server
 *   dev-python/[faker](https://github.com/joke2k/faker) | Python package that generates fake data
 *   dev-python/[filetype](https://github.com/h2non/filetype.py) | Infer file type and MIME type of any file/buffer
@@ -864,7 +862,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 *   dev-python/[luhn](https://github.com/mmcloughlin/luhn) | Generate and verify Luhn check digits
 *   dev-python/[llvmlite](https://github.com/numba/llvmlite) | A lightweight wrapper around basic LLVM functionality
-*   dev-python/[m9dicts](https://github.com/ssato/python-m9dicts) | A dict-like object supports recursive merge operation
 *   dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 *   dev-python/[moviepy](https://github.com/Zulko/moviepy) | Video editing with Python
@@ -891,7 +888,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 *   dev-python/[parsel](https://github.com/scrapy/parsel) | Utility to extract data from XML/HTML documents using XPath or CSS selectors
 *   dev-python/[pathspec](https://github.com/cpburnz/python-path-specification) | A utility library for pattern matching of file paths
-*   dev-python/[polemarch-ansible](https://gitlab.com/vstconsulting/polemarch-ansible) | Wrapper for Ansible CLI
 *   dev-python/[policyuniverse](https://github.com/Netflix-Skunkworks/policyuniverse) | Parse and Process AWS IAM Policies, Statements, ARNs
 *   dev-python/[port-for](https://github.com/fizyk/port-for) | An utility and python library for TCP ports management
 *   dev-python/[prance](https://github.com/RonnyPfannschmidt/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
