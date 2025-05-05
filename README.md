@@ -943,7 +943,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[social-auth-core](https://github.com/python-social-auth/social-core) | Python Social Auth - Core
 *   dev-python/[social-auth-app-django](https://github.com/python-social-auth/social-app-django) | Python Social Auth - Application - Django
 *   dev-python/[spdx-tools](https://github.com/spdx/tools-python) | Python library to parse, validate and create SPDX documents
-*   dev-python/[sphinx-autobuild](https://github.com/GaretJax/sphinx-autobuild) | Autorebuild documentation on change
+*   dev-python/[sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) | Autorebuild documentation on change
+*   dev-python/[sphinx-mdinclude](https://github.com/omnilib/sphinx-mdinclude) | Markdown extension for Sphinx
 *   dev-python/[sphinxcontrib-httpdomain](https://github.com/sphinx-contrib/httpdomain) | Documenting RESTful HTTP APIs
 *   dev-python/[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | Mermaid diagrams in sphinx powered docs
 *   dev-python/[sphinxcontrib-openapi](https://github.com/sphinx-contrib/openapi) | Sphinx extension to generate APIs docs from OpenAPI
@@ -955,7 +956,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
 *   dev-python/[tree-format](https://github.com/jml/tree-format) | Python library for printing trees on the console
 *   dev-python/[types-awscrt](https://github.com/youtype/types-awscrt) | Type annotations and code completion for awscrt
-*   dev-python/[types-chardet](https://github.com/python/typeshed) | Collection of library stubs for Python, with static types
 *   dev-python/[types-s3transfer](https://github.com/youtype/types-s3transfer) | Type annotations and code completion for s3transfer
 *   dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
 *   dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
@@ -963,7 +963,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[umalqurra](https://github.com/tytkal/python-hijiri-ummalqura) | Date Api that support Hijri Umalqurra calendar
 *   dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
 *   dev-python/[update-checker](https://github.com/bboe/update_checker) | A python module that will check for package updates
-*   dev-python/[validate_email](https://github.com/syrusakbary/validate_email) | Python email validation library
+*   dev-python/[validate-email](https://github.com/syrusakbary/validate_email) | Python email validation library
 *   dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
 *   dev-python/[vcd-api-schemas-type](https://github.com/vmware/vcd-api-schemas) | VMware vCloud Director Python API Schemas Type
 *   dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git

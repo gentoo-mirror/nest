@@ -3,20 +3,22 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
+DISTUTILS_USE_PEP517=flit
 PYTHON_COMPAT=( python3_{11..13} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library for printing trees on the console"
-HOMEPAGE="https://github.com/jml/tree-format"
+DESCRIPTION="Markdown extension for Sphinx"
+HOMEPAGE="https://github.com/omnilib/sphinx-mdinclude"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-BDEPEND="test? ( dev-python/testtools[${PYTHON_USEDEP}] )"
+RDEPEND="dev-python/docutils[${PYTHON_USEDEP}]
+	dev-python/mistune[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
 
