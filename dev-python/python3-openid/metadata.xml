@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	Utility that helps with local TCP ports managment.
-	It can find an unused TCP localhost port and remember the association.
+	This package provides a set of Python packages to support use of
+	the OpenID decentralized identity system.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">fizyk/port-for</remote-id>
-		<remote-id type="pypi">port-for</remote-id>
+		<remote-id type="github">necaris/python3-openid</remote-id>
+		<remote-id type="pypi">python3-openid</remote-id>
 	</upstream>
 </pkgmetadata>
