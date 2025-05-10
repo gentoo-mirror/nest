@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst postrm preinst prepare setup test unpack
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
 DEPEND=dev-libs/libinput dev-util/desktop-file-utils
 DESCRIPTION=Actions gestures on your touchpad using libinput
 EAPI=8
@@ -14,4 +14,4 @@ REQUIRED_USE=^^ ( python_single_target_python3_13t python_single_target_python3_
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=5ed2b739cb7bad963a67e497fd3fe707
+_md5_=438b641b61f1d7e0f2e867f3ebe17e06
