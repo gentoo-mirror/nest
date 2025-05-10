@@ -1179,12 +1179,13 @@ sys-apps/dust 1.0.0 9999: More intuitive version of du
 sys-apps/ethq 0.6.3 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.64 9999: Graphical user interface of Firajail security sandbox
+sys-apps/gdisk-efi-bin 1.0.4: GPT partition table manipulator for Linux (EFI version)
 sys-apps/jless 0.9.0 9999: Command-line JSON viewer
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
 sys-apps/psi-notify 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
 sys-apps/sd 0.7.6 9999: An intuitive find and replace tool
-sys-apps/swapspace 1.17 9999: A dynamic swap space manager
+sys-apps/swapspace 1.18.1 9999: A dynamic swap space manager
 sys-auth/fprintd 1.94.4 9999: D-Bus service to access fingerprint readers
 sys-auth/libfprint-tod 1.94.8 9999: libfprint for Touch OEM Drivers
 sys-auth/libfprint-tod-goodix 0.0.6: Goodix driver module for libfprint-2 Touch OEM Driver
