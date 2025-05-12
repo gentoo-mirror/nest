@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Utilities for interacting with a cloud
+EAPI=8
+HOMEPAGE=https://github.com/canonical/cloud-utils
+INHERIT=git-r3 python-r1
+IUSE=fat iso qemu python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 python_targets_python3_14
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=python_targets_python3_11? ( dev-lang/python:3.11 ) python_targets_python3_12? ( dev-lang/python:3.12 ) python_targets_python3_13? ( dev-lang/python:3.13 ) python_targets_python3_14? ( dev-lang/python:3.14 ) iso? ( app-cdr/cdrtools ) fat? ( sys-fs/dosfstools sys-fs/mtools ) qemu? ( app-emulation/qemu )
+REQUIRED_USE=fat? ( iso qemu ) iso? ( fat qemu ) || ( python_targets_python3_11 python_targets_python3_12 python_targets_python3_13 python_targets_python3_14 )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	python-r1	0e15b2ab9cfc87d7474678201d6bca38
+_md5_=4dbb4be369d5a3dbf7622e7585af79c6

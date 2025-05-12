@@ -969,6 +969,7 @@ dev-util/cfn-template-flip 1.3.0 9999: AWS CloudFormation Template Flip
 dev-util/cfripper 1.17.0 9999: Analysing CloudFormation templates for security compliance
 dev-util/checkov 3.2.414 9999: Static code analysis tool for infrastructure-as-code
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
+dev-util/cloud-utils 0.33 9999: Utilities for interacting with a cloud
 dev-util/cloudsplaining 0.8.0 9999: AWS IAM Security Assessment tool
 dev-util/config-file-validator 1.8.0 9999: Cross Platform tool to validate configuration files
 dev-util/crudini 0.9.5 9999: A utility for manipulating ini files
