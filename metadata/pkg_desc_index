@@ -1203,6 +1203,7 @@ www-apps/LookingGlass 9999 25032019: A Python-backed Looking Glass
 www-apps/adminerevo 4.8.4 9999: Database management in a single PHP file
 www-apps/draw-io 20.0.1: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
+www-apps/lookingglass 1.3.5 9999: Modern, simple and fresh looking glass based on Bootstrap 5 and PHP 8
 www-apps/tinyfilemanager 2.5.3 9999: Single-file PHP file manager
 www-apps/webui-aria2 9999: The worlds best and hottest interface to interact with aria2
 www-plugins/bypass-paywalls 3.9.6.0: Bypass Paywalls browser extension

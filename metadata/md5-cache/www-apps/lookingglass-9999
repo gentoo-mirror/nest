@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prerm setup unpack
+DEPEND=app-admin/webapp-config
+DESCRIPTION=Modern, simple and fresh looking glass based on Bootstrap 5 and PHP 8
+EAPI=8
+HOMEPAGE=https://github.com/hybula/lookingglass
+INHERIT=git-r3 webapp
+IUSE=vhosts
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=dev-lang/php:* app-admin/webapp-config
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	webapp	5fa840db95fc7348dfd53b8526ed05f5
+_md5_=88730e9fd0f4b3f704882c2548c4eb92
