@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install
+DESCRIPTION=Server software for testing internet bandwidth using speedtest.net
+EAPI=8
+HOMEPAGE=https://www.ookla.com
+INHERIT=systemd
+KEYWORDS=-* ~amd64 ~arm64
+LICENSE=all-rights-reserved
+RDEPEND=acct-group/ookla acct-user/ookla
+SLOT=0
+SRC_URI=amd64? ( https://install.speedtest.net/ooklaserver/stable/OoklaServer-linux-x86_64-static-musl.tgz ) arm64? ( https://install.speedtest.net/ooklaserver/stable/OoklaServer-linux-aarch64-static-musl.tgz )
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=9b85f079c20d38c187bbd2bfd260ce51

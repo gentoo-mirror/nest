@@ -13,8 +13,8 @@ acct-group/goaccess 0: System group: goaccess
 acct-group/inadyn 0: System group: inadyn
 acct-group/liquidsoap 0: System group: liquidsoap
 acct-group/msd 0: System group: msd
-acct-group/netgauge 0: System group: netgauge
 acct-group/odyssey 0: System group: odyssey
+acct-group/ookla 0: System group: ookla
 acct-group/opentracker 0: System group: opentracker
 acct-group/passivedns 0: System group: passivedns
 acct-group/postgrest 0: System group: postgrest
@@ -53,8 +53,8 @@ acct-user/inadyn 0: System user: inadyn
 acct-user/liquidsoap 0: System user: liquidsoap
 acct-user/mapforce 0: System user: mapforce
 acct-user/msd 0: System user: msd
-acct-user/netgauge 0: System user: netgauge
 acct-user/odyssey 0: System user: odyssey
+acct-user/ookla 0: System user: ookla
 acct-user/opentracker 0: System user: opentracker
 acct-user/passivedns 0: System user: passivedns
 acct-user/postgrest 0: System user: postgrest
@@ -1084,8 +1084,8 @@ net-analyzer/dnsdiag 2.1.0 9999: DNS Measurement, Troubleshooting and Security A
 net-analyzer/goaccess 1.9.3 9999: A real-time web log analyzer and interactive viewer in a terminal
 net-analyzer/gping 1.16.1 9999: Ping, but with a graph
 net-analyzer/logswan 2.1.6 9999: Web log analyzer using probabilistic data structures
-net-analyzer/netgauge 9999: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/nuttcp 8.2.2: Network performance measurement tool
+net-analyzer/ooklaserver 2.11.1.2: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/passivedns 1.2.1 9999: Network sniffer that logs all DNS server replies
 net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
 net-analyzer/ripe-atlas-probe 5020: RIPE Atlas Software Probe
