@@ -1,4 +1,4 @@
-# Config file for /etc/init.d/netgauge
+# Config file for /etc/init.d/ooklaserver
 
 # Various options.
 # run `OoklaServer -h` for valid cmdline options

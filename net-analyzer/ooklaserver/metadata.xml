@@ -10,9 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	NetGauge is capable of testing Speed throughput,
-	Latency, Packet Loss, and Firewall ports.
-	Can be used to measure or monitor LAN, inter-office WAN, VPN broadband.
+	OoklaServer is our TCP based server daemon that provides standalone
+	testing of Speed throughput, Latency, Packet Loss, etc.
 	</longdescription>
 	<upstream>
 		<doc>https://www.ookla.com/support/</doc>
