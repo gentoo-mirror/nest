@@ -160,6 +160,7 @@ media-radio/liquidsoap:shout - Stream to Shoutcast and Icecast
 media-radio/liquidsoap:soundtouch - media-libs/libsoundtouch effects
 media-radio/liquidsoap:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
 media-sound/cozy:appstream - Enable AppStream software metadata support
+media-sound/spotifyd:mpris-dbus - Enable the mpris plugin, to read data via dbus for mpris
 media-sound/spotifyd:rodio - Enable rodio backend
 net-analyzer/goaccess:geoipv2 - Enable support for GeoIP2 through dev-libs/libmaxminddb
 net-analyzer/goaccess:getline - Use GNU getline() to parse full line requests

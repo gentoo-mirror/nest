@@ -1,15 +1,14 @@
 BDEPEND=virtual/pkgconfig || ( >=dev-lang/rust-bin-1.74.1:* >=dev-lang/rust-1.74.1:* ) >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
 DEFINED_PHASES=compile configure install setup test unpack
-DEPEND=dev-libs/openssl:0= alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio-daemon )
 DESCRIPTION=A spotify daemon
 EAPI=8
 HOMEPAGE=https://github.com/Spotifyd/spotifyd
 INHERIT=cargo git-r3 systemd
-IUSE=+alsa dbus portaudio pulseaudio rodio debug
+IUSE=+alsa mpris-dbus portaudio pulseaudio rodio debug
 LICENSE=0BSD Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD BSD-2 Boost-1.0 GPL-3 ISC LGPL-3 MIT MPL-2.0 Unlicense ZLIB
 PROPERTIES=live
-RDEPEND=dev-libs/openssl:0= alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio-daemon )
+RDEPEND=dev-libs/openssl:0= alsa? ( media-libs/alsa-lib ) mpris-dbus? ( sys-apps/dbus ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio-daemon )
 REQUIRED_USE=|| ( alsa portaudio pulseaudio rodio ) rodio? ( alsa )
 SLOT=0
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	3b042096236a464b8bd9dd7a1120ad23	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	5da01b45ec362e78575502b4fb82773a	git-r3	875eb471682d3e1f18da124be97dcc81	systemd	a964c0cbe818b5729da1dbfcee5be861
-_md5_=e71db02a4c121082a09b53b50283fa12
+_md5_=a914d9c9e3df0ceee6116b1167ff2404
