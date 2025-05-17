@@ -171,6 +171,8 @@ app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
 app-misc/fq 0.0.6 9999: Command-line JSON processor for binary data
 app-misc/gitmux 0.11.2 9999: Git in your tmux status bar
 app-misc/gron 0.6.1 9999: Make JSON greppable
+app-misc/hq 3.2 9999: A HTML processor inspired by jq
+app-misc/htmlq 0.4.0 9999: Like jq, but for HTML
 app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
 app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane DSL
 app-misc/kando-bin 1.6.0: A pie menu for the desktop
@@ -384,6 +386,7 @@ dev-libs/libmongocrypt 1.11.0 9999: C library for Client Side and Queryable Encr
 dev-libs/libopenrazer 0.1.0 9999: Qt wrapper around the D-Bus API from OpenRazer
 dev-libs/libthai 0.1.29 9999: A a set of Thai language support routines
 dev-libs/lime 5.3.86 9999: C++ library implementing Open Whisper System Signal protocol
+dev-libs/modest 0.0.6 9999: Fast HTML renderer
 dev-libs/mongo-c-driver 1.27.5 9999: Client library written in C for MongoDB
 dev-libs/ucommon 7.0.1 9999: A class framework that was specifically designed for telephony applications
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
