@@ -388,6 +388,7 @@ dev-libs/libthai 0.1.29 9999: A a set of Thai language support routines
 dev-libs/lime 5.3.86 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/modest 0.0.6 9999: Fast HTML renderer
 dev-libs/mongo-c-driver 1.27.5 9999: Client library written in C for MongoDB
+dev-libs/rustc-demangle 0.1.24: Library for Rust symbol demangling
 dev-libs/ucommon 7.0.1 9999: A class framework that was specifically designed for telephony applications
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
