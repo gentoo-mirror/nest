@@ -1,0 +1,17 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.116.0:*
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
+DEPEND=dev-qt/qtcore:5
+DESCRIPTION=Linux perf GUI for performance analysis
+EAPI=8
+HOMEPAGE=https://github.com/KDAB/hotspot
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=ecm xdg
+IUSE=test debug
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=app-arch/zstd:= dev-libs/qcustomplot dev-libs/rustc-demangle dev-qt/qtbase:6[network,widgets] dev-qt/qtsvg:6 dev-util/perf gui-libs/kddockwidgets:= kde-frameworks/karchive:6 kde-frameworks/kconfig:6 kde-frameworks/kconfigwidgets:6 kde-frameworks/kcoreaddons:6 kde-frameworks/knotifications:6 kde-frameworks/ki18n:6 kde-frameworks/kiconthemes:6 kde-frameworks/kio:6 kde-frameworks/kitemmodels:6 kde-frameworks/kitemviews:6 kde-frameworks/kparts:6 kde-frameworks/syntax-highlighting:6 kde-frameworks/kwindowsystem:6 kde-frameworks/solid:6 kde-frameworks/threadweaver:6 media-gfx/kgraphviewer virtual/libelf:= || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/KDAB/hotspot/archive/v1.5.1.tar.gz -> hotspot-1.5.1.tar.gz https://github.com/koenpoppe/PrefixTickLabels/archive/6e86393f546429113e4ee78f7702eb820b21a0d2.tar.gz -> koenpoppe-PrefixTickLabels-6e86393f546429113e4ee78f7702eb820b21a0d2.tar.gz https://github.com/KDAB/perfparser/archive/8972055d87d46ae5388310844b1e4405b9276962.tar.gz -> KDAB-perfparser-8972055d87d46ae5388310844b1e4405b9276962.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f	virtualx	9741d451eb64ea8bb9faee90d68a9b68	xdg	3ef49a87c52c8b77c476351195dfe575	ecm	486d192539fbcffdf4ef830e96f581cf
+_md5_=52a8924ffab4969ce1f1d50e53762c08

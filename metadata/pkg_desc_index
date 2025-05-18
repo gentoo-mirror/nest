@@ -988,7 +988,7 @@ dev-util/duplicate-code-detection-tool 1.2.0 9999: A tool to detect similarities
 dev-util/fossa-cli 1.1.0 9999: License and vulnerability analysis
 dev-util/gibberish-detector 0.1.1 9999: Train a model, and detect gibberish strings with it
 dev-util/gitlab-runner 13.3.0 9999: GitLab Runner
-dev-util/hotspot 1.3.0 9999: Linux perf GUI for performance analysis
+dev-util/hotspot 1.5.1 9999: Linux perf GUI for performance analysis
 dev-util/insomnia-bin 9.3.3: HTTP and GraphQL client for developers
 dev-util/jwt_tool 2.3.0 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/lazygit 0.34 9999: Simple terminal UI for git commands
