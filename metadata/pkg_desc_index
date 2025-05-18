@@ -1181,7 +1181,7 @@ sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
 sys-apps/choose 1.3.4 9999: Fast alternative to cut and awk
 sys-apps/direnv 2.31.0 9999: Environment variable manager for shell
 sys-apps/dust 1.0.0 9999: More intuitive version of du
-sys-apps/ethq 0.6.3 9999: Ethernet NIC Queue stats viewer
+sys-apps/ethq 0.7.0 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.64 9999: Graphical user interface of Firajail security sandbox
 sys-apps/jless 0.9.0 9999: Command-line JSON viewer
