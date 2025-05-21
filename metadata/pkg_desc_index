@@ -28,6 +28,7 @@ acct-group/ssmd 0: System group: ssmd
 acct-group/step 0: System group: step
 acct-group/stg 0: System group: stg
 acct-group/swapspace 0: System group: swapspace
+acct-group/tftp 0: System group: tftp
 acct-group/tlog 0: System group: tlog
 acct-group/topola 0: System group: topola
 acct-group/urbackup 0: System group: urbackup
@@ -68,6 +69,7 @@ acct-user/ssmd 0: System user: ssmd
 acct-user/step 0: System user: step
 acct-user/stg 0: System user: stg
 acct-user/swapspace 0: System user: swapspace
+acct-user/tftp 0: System user: tftp
 acct-user/tlog 0: Tlog terminal I/O logger
 acct-user/topola 0: System user: topola
 acct-user/urbackup 0: System user: urbackup
