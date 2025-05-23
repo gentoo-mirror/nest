@@ -1,9 +1,9 @@
 BDEPEND=dev-lisp/asdf dev-lisp/buildapp test? ( dev-db/ip4r )
-DEFINED_PHASES=compile install prepare test
+DEFINED_PHASES=compile install postinst prepare test
 DESCRIPTION=A data loading tool for PostgreSQL, using the COPY command
 EAPI=8
 HOMEPAGE=https://github.com/dimitri/pgloader
-INHERIT=common-lisp-3
+INHERIT=common-lisp-3 readme.gentoo-r1
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=POSTGRESQL
@@ -12,5 +12,5 @@ RDEPEND=app-arch/zstd:0= dev-lisp/alexandria dev-lisp/asdf-finalizers dev-lisp/c
 RESTRICT=!test? ( test ) strip
 SLOT=0
 SRC_URI=https://github.com/dimitri/pgloader/archive/v3.6.10.tar.gz -> pgloader-3.6.10.tar.gz
-_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=deafe0c93ce8035dafdd5c98972e32f1
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	readme.gentoo-r1	b045f3acf546393ab6b3170781875358
+_md5_=74087c9145d636281b8754313a32ad83
