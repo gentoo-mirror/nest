@@ -11,6 +11,7 @@ acct-group/fiche 0: System group: fiche
 acct-group/gitlab 0: System group: gitlab
 acct-group/goaccess 0: System group: goaccess
 acct-group/inadyn 0: System group: inadyn
+acct-group/labca 0: System group: labca
 acct-group/liquidsoap 0: System group: liquidsoap
 acct-group/msd 0: System group: msd
 acct-group/odyssey 0: System group: odyssey
@@ -51,6 +52,7 @@ acct-user/gitlab-runner 0: System user: gitlab-runner
 acct-user/gitlab-workhorse 0: System user: gitlab-workhorse
 acct-user/goaccess 0: System user: goaccess
 acct-user/inadyn 0: System user: inadyn
+acct-user/labca 0: System user: labca
 acct-user/liquidsoap 0: System user: liquidsoap
 acct-user/mapforce 0: System user: mapforce
 acct-user/msd 0: System user: msd
@@ -139,6 +141,7 @@ app-backup/wal-g 3.0.5 9999: Archival restoration tool for databases
 app-containers/lazydocker 0.24.1 9999: Lazier way to manage everything docker
 app-crypt/acme-client 1.3.2 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 3.1.0 9999: A pure Unix shell script implementing ACME client protocol
+app-crypt/labca 25.03 9999: A private Certificate Authority for internal (lab) use
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/rolesanywhere-credential-helper 1.5.0 9999: AWS IAM Roles Anywhere Credential Helper
 app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server

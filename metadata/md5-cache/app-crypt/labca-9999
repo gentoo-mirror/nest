@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.20:= app-arch/unzip
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=A private Certificate Authority for internal (lab) use
+EAPI=8
+HOMEPAGE=https://github.com/hakwerk/labca
+INHERIT=git-r3 go-module tmpfiles
+LICENSE=MPL-2.0
+PROPERTIES=live
+RDEPEND=acct-group/labca acct-user/labca virtual/tmpfiles
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	191a27261275fc3bff7dd7482361b5d6	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_md5_=e8563d7771ccc8f092b5e9ba544a36c9
