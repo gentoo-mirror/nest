@@ -15,6 +15,7 @@ app-backup/wal-g:redis - Enable Redis support
 app-backup/wal-g:sodium - Use dev-libs/libsodium
 app-backup/wal-g:sqlserver - Enable MSSQL support
 app-crypt/qesteidutil:webcheck - add support for new version checking
+app-crypt/step-ca:utils - Install database migration utility
 app-editors/qedit:aspell - Enable spellchecking using app-text/aspell
 app-emulation/looking-glass:binary - Install Windows host application
 app-emulation/looking-glass:host - Build Linux host application
