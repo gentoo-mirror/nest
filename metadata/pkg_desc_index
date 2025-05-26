@@ -167,6 +167,7 @@ app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
 app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/ag 2.2.0_p1 9999: A code-searching tool with a focus on speed
+app-misc/amazon-ec2-instance-selector 3.1.1 9999: Amazon EC2 Instance Selector
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
