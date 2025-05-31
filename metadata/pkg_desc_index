@@ -248,7 +248,7 @@ dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
 dev-db/ip4r 2.4.2 9999: IP address and IP range index types for PostgreSQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
 dev-db/mongodb-compass 1.43.6: The MongoDB GUI
-dev-db/msodbcsql 17.7.2.1: Microsoft ODBC Driver for SQL Server
+dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
 dev-db/mssql-tools 17.7.1.1: Microsoft SQL Server Tools for Linux
@@ -1117,7 +1117,7 @@ net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 5.0.1-r2: Chat and network platform
 net-im/skypeforlinux 8.138.0.203_p386: Instant messaging client, with support for audio and video
-net-im/slack 4.41.105-r1: Team collaboration tool
+net-im/slack 4.44.59-r1: Team collaboration tool
 net-im/teams-for-linux 1.9.2: Unofficial Microsoft Teams for Linux client
 net-im/viber 23.2.0.3-r1: Free text and calls
 net-libs/bctoolbox 5.3.86 9999: Utilities library used by Belledonne Communications softwares
