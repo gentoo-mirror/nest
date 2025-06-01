@@ -78,6 +78,7 @@ acct-user/urbackup 0: System user: urbackup
 acct-user/uredir 0: System user: uredir
 acct-user/vector 0: System user: vector
 acct-user/vhusb 0: System user: vhusb
+app-admin/anf 0.0.6: Utilities for Assimetric NAT module for Linux xtables
 app-admin/aws-sam-cli 1.135.0 9999: CLI tool to manage Serverless applications using AWS SAM
 app-admin/aws-vault 6.6.0 9999: A vault for securely storing and accessing AWS credentials
 app-admin/awsdtc 1.0.4 9999: AWS Data Transfer Cost Explorer
@@ -1098,7 +1099,6 @@ net-analyzer/logswan 2.1.6 9999: Web log analyzer using probabilistic data struc
 net-analyzer/nuttcp 8.2.2: Network performance measurement tool
 net-analyzer/ooklaserver 2.11.1.2: Server software for testing internet bandwidth using speedtest.net
 net-analyzer/passivedns 1.2.1 9999: Network sniffer that logs all DNS server replies
-net-analyzer/pkt-netflow 9999: NetFlow v5, v9, IPFIX flow data exporter
 net-analyzer/ripe-atlas-probe 5020: RIPE Atlas Software Probe
 net-analyzer/smtpping 1.1.3 9999: Simple, portable tool for measuring SMTP server delay
 net-analyzer/sx 0.3.0 9999: Fast, modern, easy-to-use network scanner
@@ -1109,7 +1109,8 @@ net-dns/flares 2.3.2 9999: CloudFlare DNS backup tool
 net-dns/inadyn-mt 02.28.10 9999: A simple dynamic DNS client
 net-dns/massdns 0.3 9999: A high-performance DNS stub resolver
 net-dns/nsping 9999: Measure reachability and latency of DNS nameservers
-net-firewall/ipt-ratelimit 9999 20042022: Ratelimit iptables module
+net-firewall/ipt-ratelimit 9999 20240923: Ratelimit iptables module
+net-firewall/xt_anat 0.0.9: Assimetric NAT module for Linux xtables
 net-firewall/xt_dns 1.5 9999: Netfilter extension to match various DNS atributes
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
 net-fs/mc 2025.04.16.18.13.26-r1 9999: Minio client provides alternatives for ls, cat on cloud storage and filesystems
