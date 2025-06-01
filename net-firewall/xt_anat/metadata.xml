@@ -10,10 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	High performance NetFlow v5, v9, IPFIX flow data export module for Linux
-	kernel. Created to be useful for linux routers in high-throughput networks.
+	This Full Cone NAT xtables module was developed as a replace for
+	the conntrack NAT to provide Assymetric NAT features on Linux systems
+	that can be used as a Carrier Grade NAT in small ISP networks.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aabc/pkt-netflow</remote-id>
+		<doc>https://forum.nag.ru/index.php?/topic/195398-anat-advanced-asymmetric-cg-nat-xt_anat-module-yadra-dlya-linux/</doc>
 	</upstream>
 </pkgmetadata>

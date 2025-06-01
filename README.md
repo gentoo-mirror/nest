@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1158](https://img.shields.io/badge/ebuild-1158-orange.svg)](https://img.shields.io/badge/ebuild-1158-orange.svg)
+[![Number of ebuilds: 1159](https://img.shields.io/badge/ebuild-1159-orange.svg)](https://img.shields.io/badge/ebuild-1159-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -45,6 +45,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 <details>
     <summary>Expand</summary>
 
+*   app-admin/[anf](https://forum.nag.ru/index.php?/topic/195398-anat-advanced-asymmetric-cg-nat-xt_anat-module-yadra-dlya-linux) | Utilities for Assimetric NAT module for Linux xtables
 *   app-admin/[awsdtc](https://github.com/c1982/awsdtc) | AWS Data Transfer Cost Explorer
 *   app-admin/[aws-sam-cli](https://github.com/aws/aws-sam-cli) | CLI tool to manage Serverless applications using AWS SAM
 *   app-admin/[awslog](https://github.com/jaksi/awslog) | History and changes of configuration versions of AWS resources
@@ -1108,7 +1109,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/nuttcp.svg?header=)](https://repology.org/project/nuttcp/versions) net-analyzer/[nuttcp](https://www.nuttcp.net) | Network performance measurement tool
 *   net-analyzer/[ooklaserver](https://www.ookla.com) | Server software for testing internet bandwidth using speedtest.net
 *   net-analyzer/[passivedns](https://github.com/gamelinux/passivedns) | Network sniffer that logs all DNS server replies
-*   net-analyzer/[pkt-netflow](https://github.com/aabc/pkt-netflow) | NetFlow v5, v9, IPFIX flow data exporter
 *   net-analyzer/[cymruwhois](https://github.com/JustinAzoff/python-cymruwhois) | Python client for the whois.cymru.com service
 *   net-analyzer/[ripe-atlas-probe](https://github.com/RIPE-NCC/ripe-atlas-software-probe) | RIPE Atlas Software Probe
 *   net-analyzer/[smtpping](https://github.com/halon/smtpping) | Simple, portable tool for measuring SMTP server delay
@@ -1122,7 +1122,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   net-dns/[nsping](https://github.com/vovcat/nsping) | Measure reachability and latency of DNS nameservers
 *   net-firewall/[ipt-ratelimit](https://github.com/aabc/ipt-ratelimit) | Ratelimit iptables module
 *   net-firewall/[xt_dns](https://github.com/oskar456/xt_dns) | Netfilter extension to match various DNS atributes
-*   net-firewall/[xt_nat](https://github.com/andrsharaev/xt_NAT) | Full Cone NAT module for Linux iptables
+*   net-firewall/[xt_anat](https://forum.nag.ru/index.php?/topic/195398-anat-advanced-asymmetric-cg-nat-xt_anat-module-yadra-dlya-linux) | Assimetric NAT module for Linux xtables
+*   net-firewall/[xt_nat](https://github.com/gonarh/xt_NAT_with_netflow_v9) | Full Cone NAT module for Linux iptables
 *   net-fs/[mc](https://github.com/minio/mc) | Minio client provides alternatives for ls, cat on cloud storage and filesystems
 *   net-ftp/[weex](https://sourceforge.net/projects/weex/) | A non-interactive FTP client for updating web pages
 *   net-im/[communi-desktop](https://github.com/communi/communi-desktop) | A cross-platform IRC framework written with Qt
