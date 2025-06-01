@@ -144,7 +144,7 @@ app-crypt/acme-client 1.3.2 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 3.1.0 9999: A pure Unix shell script implementing ACME client protocol
 app-crypt/labca 25.03 9999: A private Certificate Authority for internal (lab) use
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
-app-crypt/rolesanywhere-credential-helper 1.5.0 9999: AWS IAM Roles Anywhere Credential Helper
+app-crypt/rolesanywhere-credential-helper 1.6.0 9999: AWS IAM Roles Anywhere Credential Helper
 app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.28.6 9999: A zero trust swiss army knife for working with X509
 app-crypt/step-kms-plugin 0.12.2 9999: A private certificate authority and ACME server
