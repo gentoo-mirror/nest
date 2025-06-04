@@ -793,7 +793,6 @@ dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/aspectlib 2.0.0 9999: Aspect-oriented programming, monkey-patch and decorators library
 dev-python/assertpy 1.1 9999: Assertion library for unit testing
 dev-python/aws-lambda-builders 1.54.0 9999: Python library to manage AWS Lambda functions
-dev-python/aws-lambda-powertools 1.17.0 9999: A suite of Python utilities for AWS Lambda functions
 dev-python/azure-common 1.1.28 9999: Microsoft Azure Client Common Library for Python
 dev-python/azure-core 1.32.0 9999: Microsoft Azure Core Library for Python
 dev-python/azure-storage-blob 12.25.0 9999: Microsoft Azure Storage Blobs Library for Python
