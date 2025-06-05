@@ -252,7 +252,7 @@ dev-db/mongodb-compass 1.43.6: The MongoDB GUI
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-scripter 1.0.0_alpha23 9999: CLI for scripting SQL Server Databases
-dev-db/mssql-tools 17.7.1.1: Microsoft SQL Server Tools for Linux
+dev-db/mssql-tools 18.4.1.1: Microsoft SQL Server Tools for Linux
 dev-db/odyssey 1.1 9999: Scalable PostgreSQL connection pooler
 dev-db/pg-safeupdate 1.5 9999: PostgreSQL extension that requires criteria for UPDATE and DELETE
 dev-db/pg_cron 1.3.1 1.4.1 9999: Run periodic jobs in PostgreSQL

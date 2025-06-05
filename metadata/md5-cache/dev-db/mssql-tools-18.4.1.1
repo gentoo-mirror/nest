@@ -1,0 +1,13 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Microsoft SQL Server Tools for Linux
+EAPI=8
+HOMEPAGE=https://docs.microsoft.com/en-us/sql/tools/overview-sql-tools
+INHERIT=pax-utils unpacker
+KEYWORDS=-* ~amd64 ~arm64
+LICENSE=BSD Microsoft-TOOLS
+RDEPEND=dev-db/msodbcsql:18 dev-db/unixODBC
+RESTRICT=bindist mirror
+SLOT=0
+SRC_URI=amd64? ( https://packages.microsoft.com/debian/12/prod/pool/main/m/mssql-tools18/mssql-tools18_18.4.1.1-1_amd64.deb ) arm64? ( https://packages.microsoft.com/debian/12/prod/pool/main/m/mssql-tools18/mssql-tools18_18.4.1.1-1_arm64.deb )
+_eclasses_=pax-utils	5555f2e75744739fe100ee62c22d28fe	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627
+_md5_=ba279cc7690b231e1cf1b8650294e180
