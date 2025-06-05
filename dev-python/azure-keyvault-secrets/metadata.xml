@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A suite of utilities for AWS Lambda Functions that makes
-	tracing with AWS X-Ray, structured logging and creating custom metrics
-	asynchronously easier
+	Azure Key Vault helps solve the following problems with secrets management,
+	securely store and control access to tokens, passwords, certificates, API keys, and other secrets.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aws-powertools/powertools-lambda-python</remote-id>
-		<remote-id type="pypi">aws-lambda-powertools</remote-id>
+		<remote-id type="github">Azure/azure-sdk-for-python</remote-id>
+		<remote-id type="pypi">azure-keyvault-secrets</remote-id>
 	</upstream>
 </pkgmetadata>

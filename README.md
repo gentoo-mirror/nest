@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1159](https://img.shields.io/badge/ebuild-1159-orange.svg)](https://img.shields.io/badge/ebuild-1159-orange.svg)
+[![Number of ebuilds: 1173](https://img.shields.io/badge/ebuild-1173-orange.svg)](https://img.shields.io/badge/ebuild-1173-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -766,10 +766,18 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 *   dev-python/[aspectlib](https://github.com/ionelmc/python-aspectlib) | Aspect-oriented programming, monkey-patch and decorators library
 *   dev-python/[assertpy](https://github.com/assertpy/assertpy) | Assertion library for unit testing
+*   dev-python/[aws-cryptography-internal-dynamodb](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal ComAmazonawsDynamodb
+*   dev-python/[aws-cryptography-internal-kms](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal ComAmazonAwsKms
+*   dev-python/[aws-cryptography-internal-primitives](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal AwsCryptographyPrimitives
+*   dev-python/[aws-cryptography-internal-standard-library](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal StandardLibrary
+*   dev-python/[aws-cryptographic-material-providers](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Material Providers Library
+*   dev-python/[aws-encryption-sdk](https://github.com/aws/aws-encryption-sdk-python) | AWS Encryption SDK
 *   dev-python/[aws-lambda-builders](https://github.com/aws/aws-lambda-builders) | Python library to manage AWS Lambda functions
-*   dev-python/[aws-lambda-powertools](https://github.com/awslabs/aws-lambda-powertools-python) | A suite of Python utilities for AWS Lambda functions
+*   dev-python/[aws-lambda-powertools](https://github.com/aws-powertools/powertools-lambda-python) | A suite of Python utilities for AWS Lambda functions
 *   dev-python/[azure-common](https://github.com/Azure/azure-python-devtools) | Microsoft Azure Client Common Library for Python
-*   dev-python/[azure-core](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Core Library for Python
+*   dev-python/[azure-core](https://github.com/Azure/azure-sdk-for-python) | Azure Core shared client library for Python
+*   dev-python/[azure-identity](https://github.com/Azure/azure-sdk-for-python) | Azure Identity client library for Python
+*   dev-python/[azure-keyvault-secrets](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Key Vault Secrets Client Library for Python
 *   dev-python/[azure-storage-blob](https://github.com/Azure/azure-sdk-for-python) | Microsoft Azure Storage Blobs Library for Python
 *   dev-python/[bc-detect-secrets](https://github.com/bridgecrewio/detect-secrets) | A fork of enterprise friendly way of detecting and preventing secrets
 *   dev-python/[bc-jsonpath-ng](https://github.com/bridgecrewio/jsonpath-ng) | Python JSONPath Next-Generation
@@ -797,6 +805,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[ctypescrypto](https://github.com/vbwagner/ctypescrypto) | File format determination library for Python
 *   dev-python/[curio](https://github.com/dabeaz/curio) | Coroutine-based library for concurrent Python systems programming
 *   dev-python/[cyclonedx-python-lib](https://github.com/CycloneDX/cyclonedx-python-lib) | Python library for generating CycloneDX SBOMs
+*   dev-python/[dafnyruntimepython](https://github.com/dafny-lang/dafny) | Dafny runtime for Python
 *   dev-python/[dataclasses](https://github.com/ericvsmith/dataclasses) | A backport of the dataclasses module for Python 3.6
 *   dev-python/[dataclasses-jsonschema](https://github.com/s-knibbs/dataclasses-jsonschema) | JSON schema generation from dataclasses
 *   dev-python/[datadiff](https://sourceforge.net/projects/datadiff/) | A library for diffs of python data structures
@@ -841,6 +850,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[google-cloud-core](https://github.com/googleapis/python-cloud-core) | Google Cloud API client core library
 *   dev-python/[google-cloud-kms](https://github.com/googleapis/google-cloud-python) | Python Client for Google Cloud Key Management Service
 *   dev-python/[google-cloud-pubsub](https://github.com/googleapis/python-pubsub) | Google Cloud Pub/Sub API client library
+*   dev-python/[google-cloud-secret-manager](https://github.com/googleapis/google-cloud-python) | Google Cloud Storage API client library
 *   dev-python/[google-cloud-storage](https://github.com/googleapis/python-storage) | Google Cloud Storage API client library
 *   dev-python/[google-cloud-testutils](https://github.com/googleapis/python-test-utils) | Google Cloud Storage API client library
 *   dev-python/[google-resumable-media](https://github.com/googleapis/google-resumable-media-python) | Utilities for Google Media Downloads and Resumable Uploads
@@ -872,6 +882,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 *   dev-python/[moviepy](https://github.com/Zulko/moviepy) | Video editing with Python
+*   dev-python/[msal](https://github.com/AzureAD/microsoft-authentication-library-for-python) | Microsoft Authentication Library (MSAL) for Python
+*   dev-python/[msal-extensions](https://github.com/AzureAD/microsoft-authentication-extensions-for-python) | Microsoft Authentication Extensions for Python
 *   dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 *   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
@@ -905,6 +917,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pybeam](https://github.com/matwey/pybeam) | Python module to parse Erlang BEAM files
 *   dev-python/[pycep](https://github.com/gruebel/pycep) | A Python based Bicep parser
 *   dev-python/[pycfmodel](https://github.com/Skyscanner/pycfmodel) | A python model for Cloud Formation scripts
+*   dev-python/[pydantic-settings](https://github.com/pydantic/pydantic-settings) | Settings management using pydantic
 *   dev-python/[pydash](https://github.com/dgilland/pydash) | The kitchen sink of Python functional utility libraries
 *   dev-python/[pyemd](https://github.com/wmayner/pyemd) | Fast EMD for Python
 *   dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
@@ -915,6 +928,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pytest-datadir-ng](https://github.com/Tblue/pytest-datadir-ng) | Fixtures for pytest to retrieve test resources from filesystem
 *   dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
 *   dev-python/[pytest-docker-tools](https://github.com/Jc2k/pytest-docker-tools) | Opionated helpers for creating py.test fixtures for Docker
+*   dev-python/[pytest-examples](https://github.com/pydantic/pytest-examples) | Pytest plugin for testing examples in docstrings and markdown files
 *   dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 *   dev-python/[pytest-random-order](https://github.com/jbasko/pytest-random-order) | pytest plugin to randomise the order of tests
 *   dev-python/[pytest-trio](https://github.com/python-trio/pytest-trio) | Python library for async concurrency and I/O
@@ -936,6 +950,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-sagan) | A parsing library for RIPE Atlas measurement results
 *   dev-python/[route53-transfer](https://github.com/cosmin/route53-transfer) | Generic access to configuration files in any formats
 *   dev-python/[rstr](https://pypi.org/project/rstr/) | Generate random strings in Python
+*   dev-python/[ruff](https://github.com/astral-sh/ruff) | Pytest module for ruff
 *   dev-python/[schema](https://github.com/keleshev/schema) | Simple data validation library
 *   dev-python/[scikit-learn](https://github.com/scikit-learn/scikit-learn) | Machine learning in Python
 *   dev-python/[selinux](https://github.com/pycontribs/selinux) | Pure-python selinux shim module for use in virtualenvs
@@ -1045,7 +1060,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   kde-misc/[darkly](https://github.com/Bali10050/Darkly) | A modern style for qt applications
 *   kde-misc/[qCheckGMail](https://github.com/mhogomchungu/qCheckGMail) | qCheckGmail is a Qt/C++ multiple gmail account checker
 *   kde-misc/[kde-relaxingsounds](https://github.com/Prayag2/kde_relaxingsounds) | Plasma 5 widget for play relaxing sounds
-*   kde-misc/[kwin-effects-cube](https://github.com/zzag/kwin-effects-cube) | Desktop cube effect for kwin
 *   kde-misc/[kwin-effects-sliding-notifications](https://github.com/zzag/kwin-effects-sliding-notifications) | Sliding animation for notification windows
 *   kde-misc/[latte-dock](https://apps.kde.org/latte-dock/) | Elegant dock, based on KDE Frameworks
 *   kde-misc/[latte-indicator-dashtopanel](https://github.com/psifidotos/latte-indicator-dashtopanel) | Dash To Panel indicator for Latte Dock

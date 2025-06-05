@@ -6,12 +6,12 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{11..13} )
 
-inherit distutils-r1 optfeature git-r3
+inherit distutils-r1 git-r3
 
-DESCRIPTION="Microsoft Azure Storage Blobs Library for Python"
+DESCRIPTION="Azure Identity client library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 EGIT_REPO_URI="https://github.com/Azure/azure-sdk-for-python.git"
-S="${WORKDIR}/sdk/storage/${PN}"
+S="${WORKDIR}/sdk/identity/${PN}"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,13 +19,8 @@ RESTRICT="test" # https://github.com/Azure/azure-sdk-for-python/issues/9616
 
 RDEPEND="dev-python/azure-core[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/isodate[${PYTHON_USEDEP}]
+	dev-python/msal[${PYTHON_USEDEP}]
+	dev-python/msal-extensions[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 
-DOCS=( {CHANGELOG,README}.md )
-
 distutils_enable_tests pytest
-
-pkg_postinst() {
-	optfeature "support of aio" dev-python/azure-core dev-python/aiohttp
-}

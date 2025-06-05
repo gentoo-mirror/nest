@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A suite of utilities for AWS Lambda Functions that makes
-	tracing with AWS X-Ray, structured logging and creating custom metrics
-	asynchronously easier
+	Google Cloud Secret Manager allows to store secrets on Google infrastructure
+	with very high reliability, performance and availability.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aws-powertools/powertools-lambda-python</remote-id>
-		<remote-id type="pypi">aws-lambda-powertools</remote-id>
+		<remote-id type="github">googleapis/google-cloud-python</remote-id>
+		<remote-id type="pypi">google-cloud-secret-manager</remote-id>
 	</upstream>
 </pkgmetadata>

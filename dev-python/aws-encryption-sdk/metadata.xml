@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A suite of utilities for AWS Lambda Functions that makes
-	tracing with AWS X-Ray, structured logging and creating custom metrics
-	asynchronously easier
+	The AWS Encryption SDK for Python provides a fully compliant, native Python
+	implementation of the AWS Encryption SDK.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aws-powertools/powertools-lambda-python</remote-id>
-		<remote-id type="pypi">aws-lambda-powertools</remote-id>
+		<remote-id type="github">aws/aws-encryption-sdk-python</remote-id>
+		<remote-id type="pypi">aws-encryption-sdk</remote-id>
 	</upstream>
 </pkgmetadata>

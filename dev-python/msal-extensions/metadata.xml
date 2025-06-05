@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A suite of utilities for AWS Lambda Functions that makes
-	tracing with AWS X-Ray, structured logging and creating custom metrics
-	asynchronously easier
+	The Microsoft Authentication Extensions for Python offers secure mechanisms for
+	client applications to perform cross-platform token cache serialization and persistence.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aws-powertools/powertools-lambda-python</remote-id>
-		<remote-id type="pypi">aws-lambda-powertools</remote-id>
+		<remote-id type="pypi">msal-extensions</remote-id>
+		<remote-id type="github">AzureAD/microsoft-authentication-extensions-for-python</remote-id>
 	</upstream>
 </pkgmetadata>

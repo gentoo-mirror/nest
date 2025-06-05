@@ -10,12 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	A suite of utilities for AWS Lambda Functions that makes
-	tracing with AWS X-Ray, structured logging and creating custom metrics
-	asynchronously easier
+	This package provides a settings management feature using Pydantic,
+	this is the new official home of Pydantic's BaseSettings.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">aws-powertools/powertools-lambda-python</remote-id>
-		<remote-id type="pypi">aws-lambda-powertools</remote-id>
+		<remote-id type="github">pydantic/pydantic-settings</remote-id>
+		<remote-id type="pypi">pydantic-settings</remote-id>
 	</upstream>
 </pkgmetadata>

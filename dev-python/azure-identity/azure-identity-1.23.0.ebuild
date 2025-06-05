@@ -4,11 +4,11 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{11..13} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Microsoft Azure Storage Blobs Library for Python"
+DESCRIPTION="Azure Identity client library for Python"
 HOMEPAGE="https://github.com/Azure/azure-sdk-for-python"
 
 LICENSE="MIT"
@@ -17,9 +17,9 @@ KEYWORDS="~amd64"
 RESTRICT="test" # https://github.com/Azure/azure-sdk-for-python/issues/9616
 
 RDEPEND="dev-python/azure-core[${PYTHON_USEDEP}]
-	dev-python/msrest[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
-
-DOCS=( {CHANGELOG,README}.md )
+	dev-python/cryptography[${PYTHON_USEDEP}]
+	dev-python/msal[${PYTHON_USEDEP}]
+	dev-python/msal-extensions[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

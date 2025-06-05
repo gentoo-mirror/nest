@@ -10,11 +10,11 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<longdescription lang="en">
-	This package provides a basic desktop cube effect for KWin.
-	It's primarily intended to help you impress your friends with
-	what one can do on "Linux."
+	The AWS Cryptographic Internal ComAmazonawsDynamodb is a modeled library
+	used in the AWS Cryptographic Material Providers Library.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">zzag/kwin-effects-cube</remote-id>
+		<remote-id type="github">aws/aws-cryptographic-material-providers-library</remote-id>
+		<remote-id type="pypi">aws-cryptography-internal-dynamodb</remote-id>
 	</upstream>
 </pkgmetadata>
