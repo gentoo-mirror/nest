@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=Unix command line queue utility
+EAPI=8
+HOMEPAGE=https://github.com/leahneukirchen/nq
+INHERIT=shell-completion toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+SLOT=0
+SRC_URI=https://github.com/leahneukirchen/nq/archive/v1.0.tar.gz -> nq-1.0.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	bash-completion-r1	767861f3744f589ee5291c1698b1c082	shell-completion	0b655d0d825e157a5e99c463bddaac16
+_md5_=80dcaa19a5e55e24165be042db18d430
