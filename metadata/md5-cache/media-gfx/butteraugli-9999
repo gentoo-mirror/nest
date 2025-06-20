@@ -1,13 +1,12 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=media-libs/libjpeg-turbo:= media-libs/libpng:0 sys-libs/zlib:=
 DESCRIPTION=A tool for measuring perceived differences between images
 EAPI=8
 HOMEPAGE=https://github.com/google/butteraugli
 INHERIT=git-r3 toolchain-funcs
 LICENSE=Apache-2.0
 PROPERTIES=live
-RDEPEND=media-libs/libjpeg-turbo:= media-libs/libpng:0 sys-libs/zlib:=
+RDEPEND=media-libs/libjpeg-turbo:= media-libs/libpng:= sys-libs/zlib:=
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
-_md5_=2b0fcf34a2ea0c795d573dd6a29cb21f
+_md5_=6dfb5cd9c137c5e4b646b51b3f8d53df

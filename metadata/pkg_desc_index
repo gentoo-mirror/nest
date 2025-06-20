@@ -231,6 +231,7 @@ app-shells/tlog 14 9999: Terminal I/O logger
 app-shells/zoxide 0.8.0 9999: A smarter cd command with supports of all major shells
 app-text/confget 5.1.1: Read variables from INI-style configuration files
 app-text/keening 0.2 9999: A simple command line pastebin designed to be used together with ssh
+dev-build/qtilitools 0.1.2 9999: Scripts/commands used in the Qtilities organization
 dev-cpp/belr 5.3.1 9999: Language recognition library by Belledonne Communications
 dev-cpp/commoncpp2 1.8.1: GNU Common C++ 2
 dev-cpp/jsoncpp 1.9.5: CMake files for C++ JSON reader and writer
