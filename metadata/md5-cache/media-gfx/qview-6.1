@@ -1,0 +1,16 @@
+BDEPEND=dev-qt/qttools[linguist] virtual/pkgconfig test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=configure install postinst postrm preinst prepare test
+DESCRIPTION=Practical and minimal image viewer
+EAPI=8
+HOMEPAGE=https://interversehq.com/qview/ https://github.com/jurplel/qView
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=qmake-utils optfeature plocale virtualx xdg
+IUSE=X test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtbase:6[gui,network,widgets] X? ( x11-libs/libX11 )
+RESTRICT=test !test? ( test )
+SLOT=0
+SRC_URI=https://github.com/jurplel/qView/archive/6.1.tar.gz -> qview-6.1.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	optfeature	538bce96e5589935b57e178e8635f301	plocale	950fbaec7deeba41b5bcc0572cca99b9	virtualx	9741d451eb64ea8bb9faee90d68a9b68	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=9a526b1995a19bb49b07ebd7c69d2ddc
