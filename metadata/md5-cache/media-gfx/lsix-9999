@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-gfx/imagemagick[truetype,djvu?,jpeg?,jpeg2k?,png?,svg?,tiff?,webp?]
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=844f6260645c5e3c182649022cbecd7b
+_md5_=26efbe8153ef4eba7a536b7491aaba36
