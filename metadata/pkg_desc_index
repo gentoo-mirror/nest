@@ -1076,9 +1076,9 @@ kde-misc/plasmusic-toolbar 2.3.0 9999: Currently playing song and playback contr
 kde-misc/pminhibition 1.9 9999: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 2.2.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
 media-gfx/butteraugli 9999 20032019: A tool for measuring perceived differences between images
-media-gfx/colorpick 9999 12042023: Color picker and contrast checker
+media-gfx/colorpick 0.1.0 9999: Color picker and contrast checker
 media-gfx/depix 1.0.2 9999: A tool for recovering passwords from pixelized screenshots
-media-gfx/dssim 3.2.3 9999: Image similarity comparison simulating human perception
+media-gfx/dssim 3.4.0 9999: Image similarity comparison simulating human perception
 media-gfx/guetzli 1.0.1 9999: Perceptual JPEG encoder
 media-gfx/lsix 1.9.1 9999: Image viewer for terminal that use sixel graphics
 media-gfx/pineapple-pictures 1.0.0 9999: A homebrew lightweight image viewer
