@@ -136,6 +136,7 @@ app-admin/yaml-vault 1.1.1_p1 9999: Utility to import/export data from HashiCorp
 app-backup/clickhouse-backup 2.6.5 9999: Tool for easy ClickHouse backup and restore
 app-backup/hashget 0.176 9999: Deduplication tool for archiving data with extremely high ratio
 app-backup/pgbackrest 2.54.1 9999: Reliable PostgreSQL Backup & Restore
+app-backup/urbackup-client 2.5.25 9999: Client Server backup system
 app-backup/urbackup-server 2.5.33 9999: Client Server backup system
 app-backup/wal-g 3.0.5 9999: Archival restoration tool for databases
 app-containers/lazydocker 0.24.1 9999: Lazier way to manage everything docker
