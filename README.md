@@ -127,9 +127,9 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-editors/[typora](https://typora.io) | A minimal markdown editor and reader
 *   app-emulation/[looking-glass](https://looking-glass.io) | A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 *   app-emulation/[qio](https://github.com/SpiderX/qio) | QEMU Init OpenRC
-*   app-emulation/[vmware-modules](https://github.com/mkubecek/vmware-host-modules) | VMware kernel modules
+*   app-emulation/[vmware-modules](https://github.com/bytium/vm-host-modules) | VMware kernel modules
 *   app-emulation/[vmware-vmrc](https://docs.vmware.com/en/VMware-Remote-Console/index.html) | VMware Remote Console
-*   app-emulation/[vmware-workstation](https://www.vmware.com/products/desktop-hypervisor.html) | Emulate a complete PC without the performance overhead
+*   app-emulation/[vmware-workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) | Emulate a complete PC without the performance overhead
 *   app-forensics/[gitleaks](https://github.com/zricethezav/gitleaks) | Auditing git repository for secrets and keys
 *   app-forensics/[whispers](https://github.com/adeptex/whispers) | Identify hardcoded secrets in static structured text
 *   app-metrics/[amazon-cloudwatch-agent](https://github.com/aws/amazon-cloudwatch-agent) | Amazon Cloudwatch Agent
@@ -1026,7 +1026,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[jwt_tool](https://github.com/ticarpi/jwt_tool) | A toolkit for testing, tweaking and cracking JSON Web Tokens
 *   dev-util/[lazygit](https://github.com/jesseduffield/lazygit) | Simple terminal UI for git commands
 *   dev-util/[mapforce-advanced](https://www.altova.com/mapforce) | Advanced data mapping, conversion, and transformation tool
-*   dev-util/[ovftool](https://developer.vmware.com/tools) | VMware Open Virtualization Format tool
+*   dev-util/[ovftool](https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool) | VMware Open Virtualization Format tool
 *   dev-util/[packer](https://www.packer.io) | A tool to create identical machine images for multiple platforms
 *   dev-util/[policy-sentry](https://github.com/salesforce/policy_sentry) | AWS IAM Least Privilege Policy Generator
 *   dev-util/[postman](https://www.postman.com) | Build, test, and document your APIs faster
