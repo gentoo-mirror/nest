@@ -157,7 +157,7 @@ app-editors/notes 2.3.1 9999: Note taking application, write down your thoughts
 app-editors/obsidian 1.8.10: A knowledge base of plain text Markdown files
 app-editors/qedit 2.8.3: Qt-based multi-purpose text editor
 app-editors/typora 1.10.8: A minimal markdown editor and reader
-app-emulation/looking-glass 6b 7b_rc1 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
+app-emulation/looking-glass 7b 9999: A low latency KVM FrameRelay implementation for guests with VGA PCI Passthrough
 app-emulation/qio 0.2 9999: QEMU Init OpenRC
 app-emulation/vmware-modules 17.6.3: VMware kernel modules
 app-emulation/vmware-vmrc 12.0.5.22744838: VMware Remote Console
