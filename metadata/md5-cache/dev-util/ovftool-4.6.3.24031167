@@ -1,14 +1,15 @@
-DEFINED_PHASES=install nofetch unpack
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install nofetch prepare
 DESCRIPTION=VMware Open Virtualization Format tool
 EAPI=8
-HOMEPAGE=https://developer.vmware.com/tools
+HOMEPAGE=https://developer.broadcom.com/tools/open-virtualization-format-ovf-tool
 INHERIT=multilib-build pax-utils
 IUSE=abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_s390_32 abi_s390_64
-KEYWORDS=-* ~amd64 ~arm64 ~x86
+KEYWORDS=-* ~amd64
 LICENSE=vmware
 RDEPEND=virtual/libcrypt:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_s390_32(-)?,abi_s390_64(-)?]
 RESTRICT=bindist fetch mirror
 SLOT=0
-SRC_URI=amd64? ( VMware-ovftool-4.5.0-20459872-lin.x86_64.bundle ) x86? ( VMware-ovftool-4.5.0-20459872-lin.i386.bundle )
+SRC_URI=VMware-ovftool-4.6.3-24031167-lin.x86_64.zip
 _eclasses_=out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	multilib-build	9ac26ea006828266d235e2f0135429b5	pax-utils	5555f2e75744739fe100ee62c22d28fe
-_md5_=dfa48d622f2c5f5b8a19a3054f0ce41f
+_md5_=7f7c3e9c15c81e7f74f83f740be94241
