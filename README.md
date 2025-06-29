@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1173](https://img.shields.io/badge/ebuild-1173-orange.svg)](https://img.shields.io/badge/ebuild-1173-orange.svg)
+[![Number of ebuilds: 1205](https://img.shields.io/badge/ebuild-1205-orange.svg)](https://img.shields.io/badge/ebuild-1205-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -75,6 +75,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-admin/[jl](https://github.com/koenbollen/jl) | A tool for working with structured JSON logging
 *   app-admin/[kmon](https://github.com/orhun/kmon) | Linux Kernel Manager and Activity Monitor
 *   app-admin/[mkeosimg](https://github.com/sowbug/mkeosimg) | Ubiquiti EdgeOS image from a system tarball
+*   app-admin/[netexec](https://github.com/Pennyw0rth/NetExec) | The Network Execution Tool
 *   app-admin/[ngxtop-ce](https://github.com/ngxtop/ngxtop) | real-time metrics for nginx server (and others)
 *   app-admin/[netutils-linux](https://github.com/strizhechenko/netutils-linux) | Suite of network stack performance tunning utilities
 *   app-admin/[profile-cleaner](https://github.com/graysky2/profile-cleaner) | Vacuum and reindex browser sqlite databases
@@ -757,16 +758,24 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[webmozart-assert](https://github.com/webmozarts/assert) | Webmozart Assert
 *   dev-php/[zetacomponents-UnitTest](https://github.com/zetacomponents/UnitTest) | Unit tests for any Zeta component
 *   dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
+*   dev-python/[aardwolf](https://github.com/skelsec/aardwolf) | Asynchronous RDP client for Python
 *   dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
+*   dev-python/[aesedb](https://github.com/skelsec/aesedb) | NTDS parser toolkit
 *   dev-python/[ahocorasick](https://github.com/WojciechMula/pyahocorasick) | Python module implementing Aho-Corasick algorithm
 *   dev-python/[aiomultiprocess](https://github.com/omnilib/aiomultiprocess) | asyncio version of the standard multiprocessing module
+*   dev-python/[aiosmb](https://github.com/skelsec/aiosmb) | Asynchronous SMB protocol implementation
+*   dev-python/[aiowinreg](https://github.com/skelsec/aiowinreg) | Windows registry file reader
 *   dev-python/[annoy](https://github.com/spotify/annoy) | Approximate Nearest Neighbors in C++/Python
 *   dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
 *   dev-python/[apispec](https://github.com/marshmallow-code/apispec) | A pluggable API specification generator
 *   dev-python/[apispec-webframeworks](https://github.com/marshmallow-code/apispec-webframeworks) | Web framework plugins for apispec
 *   dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
+*   dev-python/[arc4](https://github.com/manicmaniac/arc4) | A small and insanely fast ARCFOUR (RC4) cipher
+*   dev-python/[asn1tools](https://github.com/eerimoq/asn1tools) | ASN.1 parsing, encoding and decoding
 *   dev-python/[aspectlib](https://github.com/ionelmc/python-aspectlib) | Aspect-oriented programming, monkey-patch and decorators library
 *   dev-python/[assertpy](https://github.com/assertpy/assertpy) | Assertion library for unit testing
+*   dev-python/[asyauth](https://github.com/skelsec/asyauth) | Unified authentication library
+*   dev-python/[asysocks](https://github.com/skelsec/asysocks) | Asynchronous socks and http proxy library
 *   dev-python/[aws-cryptography-internal-dynamodb](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal ComAmazonawsDynamodb
 *   dev-python/[aws-cryptography-internal-kms](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal ComAmazonAwsKms
 *   dev-python/[aws-cryptography-internal-primitives](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal AwsCryptographyPrimitives
@@ -785,6 +794,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[bc-python-hcl2](https://github.com/bridgecrewio/python-hcl2) | A fork of parser for HCL2 written in Python
 *   dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 *   dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
+*   dev-python/[bitstruct](https://github.com/eerimoq/bitstruct) | Python bit pack/unpack package
+*   dev-python/[bloodhound](https://github.com/dirkjanm/bloodhound.py) | Python based ingestor for BloodHound
 *   dev-python/[boto3-stubs](https://github.com/youtype/mypy_boto3_builder) | Type annotations for boto3
 *   dev-python/[botocore-stubs](https://github.com/youtype/botocore-stubs) | Type annotations and code completion for botocore
 *   dev-python/[cached-property](https://github.com/pydanny/cached-property) | A cached-property for decorating methods in classes
@@ -831,6 +842,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
 *   dev-python/[dpath](https://github.com/dpath-maintainers/dpath-python) | A python module that will check for package updates
 *   dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
+*   dev-python/[dsinternals](https://github.com/p0dalirius/pydsinternals) | Directory Services Internals Library
+*   dev-python/[dunamai](https://github.com/mtkennerly/dunamai) | Dynamic versioning library and CLI
 *   dev-python/[email-validator](https://github.com/JoshData/python-email-validator) | An email syntax and deliverability validation library
 *   dev-python/[face](https://github.com/mahmoud/face) | Straightforward CLI parsing and dispatching microframework
 *   dev-python/[factory-boy](https://github.com/FactoryBoy/factory_boy) | A fixtures replacement tool
@@ -855,6 +868,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[google-cloud-storage](https://github.com/googleapis/python-storage) | Google Cloud Storage API client library
 *   dev-python/[google-cloud-testutils](https://github.com/googleapis/python-test-utils) | Google Cloud Storage API client library
 *   dev-python/[google-resumable-media](https://github.com/googleapis/google-resumable-media-python) | Utilities for Google Media Downloads and Resumable Uploads
+*   dev-python/[dploot](https://github.com/zblurx/dploot) | DPAPI looting remotely and locally
 *   dev-python/[graphene](https://github.com/graphql-python/graphene) | GraphQL framework for Python
 *   dev-python/[graphene-django](https://github.com/graphql-python/graphene-django) | A Django integration for Graphene
 *   dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
@@ -869,6 +883,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[hsh](https://github.com/chrissimpkins/hsh) | Simple cross-platform file hash digests and file integrity checks
 *   dev-python/[identify](https://github.com/pre-commit/identify) | File identification library for Python
 *   dev-python/[igraph](https://github.com/igraph/python-igraph) | Python interface for igraph
+*   dev-python/[impacket](https://github.com/fortra/impacket) | Collection of Python classes for working with network protocols
 *   dev-python/[itypes](https://github.com/tomchristie/itypes) | Simple immutable types for python
 *   dev-python/[jdatetime](https://github.com/slashmili/python-jalali) | Jalali implementation of Python's datetime module
 *   dev-python/[jiter](https://github.com/pydantic/jiter) | Fast iterable JSON parser
@@ -877,15 +892,23 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 *   dev-python/[jsonpath-ng](https://github.com/h2non/jsonpath-ng) | Python JSONPath Next-Generation
 *   dev-python/[langdetect](https://github.com/Mimino666/langdetect) | Language detection library ported from Google
+*   dev-python/[ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump) | Active Directory information dumper via LDAP
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 *   dev-python/[luhn](https://github.com/mmcloughlin/luhn) | Generate and verify Luhn check digits
 *   dev-python/[llvmlite](https://github.com/numba/llvmlite) | A lightweight wrapper around basic LLVM functionality
+*   dev-python/[lsassy](https://github.com/login-securite/lsassy) | Python library to extract credentials from lsass remotely
 *   dev-python/[markdown2](https://github.com/trentm/python-markdown2) | A fast and complete Python implementation of Markdown
+*   dev-python/[masky](https://pypi.org/project/masky) | Remotely dump domain user credentials via an ADCS
+*   dev-python/[mbedtls](https://github.com/Synss/python-mbedtls) | Cryptographic library with an mbed TLS back end
+*   dev-python/[minidump](https://github.com/skelsec/minidump) | Python library to parse Windows minidump file format
+*   dev-python/[minikerberos](https://github.com/skelsec/minikerberos) | Kerberos manipulation library
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
 *   dev-python/[moviepy](https://github.com/Zulko/moviepy) | Video editing with Python
 *   dev-python/[msal](https://github.com/AzureAD/microsoft-authentication-library-for-python) | Microsoft Authentication Library (MSAL) for Python
 *   dev-python/[msal-extensions](https://github.com/AzureAD/microsoft-authentication-extensions-for-python) | Microsoft Authentication Extensions for Python
+*   dev-python/[msldap](https://github.com/skelsec/msldap) | LDAP library for auditing MS AD
 *   dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
+*   dev-python/[neo4j](https://github.com/neo4j/neo4j-python-driver) | Neo4j Bolt driver for Python
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 *   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
 *   dev-python/[ncclient](https://github.com/ncclient/ncclient) | Python library for NETCONF clients
@@ -902,12 +925,14 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Python Proto
 *   dev-python/[opentelemetry-test-utils](https://github.com/open-telemetry/opentelemetry-python) | Test utilities for OpenTelemetry unit tests
 *   dev-python/[opentelemetry-util-http](https://github.com/open-telemetry/opentelemetry-python-contrib) | Web util for OpenTelemetry
+*   dev-python/[oscrypto](https://github.com/wbond/oscrypto) | Kerberos manipulation library
 *   dev-python/[oyaml](https://github.com/wimglenn/oyaml) | Ordered YAML
 *   dev-python/[packageurl](https://github.com/package-url/packageurl-python) | Python implementation of the package url spec
 *   dev-python/[pandas-stubs](https://github.com/pandas-dev/pandas-stubs) | Type annotations for pandas
 *   dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 *   dev-python/[parsel](https://github.com/scrapy/parsel) | Utility to extract data from XML/HTML documents using XPath or CSS selectors
 *   dev-python/[pathspec](https://github.com/cpburnz/python-path-specification) | A utility library for pattern matching of file paths
+*   dev-python/[poetry-dynamic-versioning](https://github.com/mtkennerly/poetry-dynamic-versioning) | Plugin for Poetry to enable dynamic versioning based on VCS tags
 *   dev-python/[policyuniverse](https://github.com/Netflix-Skunkworks/policyuniverse) | Parse and Process AWS IAM Policies, Statements, ARNs
 *   dev-python/[port-for](https://github.com/fizyk/port-for) | An utility and python library for TCP ports management
 *   dev-python/[prance](https://github.com/RonnyPfannschmidt/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
@@ -922,7 +947,11 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pydash](https://github.com/dgilland/pydash) | The kitchen sink of Python functional utility libraries
 *   dev-python/[pyemd](https://github.com/wmayner/pyemd) | Fast EMD for Python
 *   dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
+*   dev-python/[pylnk3](https://github.com/strayge/pylnk) | Windows LNK File Parser and Creator
 *   dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
+*   dev-python/[pynfsclient](https://github.com/Pennyw0rth/NfsClient) | Python library to simulate NFS client
+*   dev-python/[pypsrp](https://github.com/jborean93/pypsrp) | PowerShell Remoting Protocol and WinRM for Python
+*   dev-python/[pypykatz](https://github.com/skelsec/pypykatz) | Python library to extract passwords from memory
 *   dev-python/[pystache](https://github.com/PennyDreadfulMTG/pystache) | Mustache templating system for Python
 *   dev-python/[pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | py.test fixture for benchmarking code
 *   dev-python/[pytest-celery](https://github.com/celery/pytest-celery) | A shim pytest plugin to enable celery.contrib.pytest
@@ -936,6 +965,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[pythonqt](https://mevislab.github.io/pythonqt/) | A dynamic Python binding for the Qt framework
 *   dev-python/[python-crontab](https://gitlab.com/doctormo/python-crontab/) | Crontab module for reading and writing crontab files
 *   dev-python/[python-gilt](https://github.com/metacloud/gilt) | A GIT layering tool
+*   dev-python/[python-libnmap](https://github.com/savon-noir/python-libnmap) | Python NMAP library
 *   dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
 *   dev-python/[python3-openid](https://github.com/python-social-auth/social-core) | OpenID support for modern servers and consumers
 *   dev-python/[pykickstart](https://github.com/pykickstart/pykickstart) | Python library for reading and writing kickstart files
@@ -981,6 +1011,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
 *   dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 *   dev-python/[umalqurra](https://github.com/tytkal/python-hijiri-ummalqura) | Date Api that support Hijri Umalqurra calendar
+*   dev-python/[unicrypto](https://github.com/skelsec/unicrypto) | Unified interface for cryptographic libraries
 *   dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
 *   dev-python/[update-checker](https://github.com/bboe/update_checker) | A python module that will check for package updates
 *   dev-python/[validate-email](https://github.com/syrusakbary/validate_email) | Python email validation library
@@ -989,6 +1020,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 *   dev-python/[vsphere-guest-run](https://github.com/vmware/vsphere-guest-run) | Python library for guest operations
 *   dev-python/[w3lib](https://github.com/scrapy/w3lib) | Library of web-related functions
+*   dev-python/[winacl](https://github.com/skelsec/winacl) | ACL/ACE/Security Descriptor manipulation library
 *   dev-python/[zstd](https://github.com/sergey-dryabzhinsky/python-zstd) | Simple python bindings to Yann Collet ZSTD compression library
 *   dev-util/[abnfgen](https://www.quut.com/abnfgen/) | ABNF-grammar based test case generator
 *   dev-util/[actionlint](https://github.com/rhysd/actionlint) | Static checker for GitHub Actions workflow files
