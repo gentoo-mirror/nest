@@ -1,17 +1,18 @@
 BDEPEND=virtual/pkgconfig test? ( dev-util/bcunit ) app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=ssl? ( net-libs/mbedtls:0= )
+DEPEND=mbedtls? ( net-libs/mbedtls:3= ) openssl? ( dev-libs/openssl:= )
 DESCRIPTION=Utilities library used by Belledonne Communications softwares
 EAPI=8
 HOMEPAGE=https://gitlab.linphone.org/BC/public/bctoolbox
 INHERIT=cmake
-IUSE=debug ssl test
+IUSE=debug mbedtls +openssl test
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 PROPERTIES=test_network
-RDEPEND=ssl? ( net-libs/mbedtls:0= )
+RDEPEND=mbedtls? ( net-libs/mbedtls:3= ) openssl? ( dev-libs/openssl:= )
+REQUIRED_USE=^^ ( mbedtls openssl ) test? ( openssl )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://gitlab.linphone.org/BC/public/bctoolbox/-/archive/5.3.86/bctoolbox-5.3.86.tar.bz2
+SRC_URI=https://gitlab.linphone.org/BC/public/bctoolbox/-/archive/5.4.23/bctoolbox-5.4.23.tar.bz2
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
-_md5_=abf729b3f2ecc620c99df5836aaad352
+_md5_=b39e1f453217e14c434489704c9615fb

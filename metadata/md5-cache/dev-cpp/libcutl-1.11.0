@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.16
+BDEPEND=dev-util/build2
 DEFINED_PHASES=compile configure install test
 DESCRIPTION=A collection of C++ libraries (successor of libcult)
 EAPI=8
@@ -10,4 +10,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=https://www.codesynthesis.com/download/xsd/4.2/libcutl-1.11.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
-_md5_=6826e7d0f5fa7c37a6c8e7c8ec36552b
+_md5_=b9e6b72613120c9d890936f34b07aac6

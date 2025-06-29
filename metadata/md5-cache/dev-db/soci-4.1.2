@@ -1,15 +1,16 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install prepare test unpack
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
 DEPEND=boost? ( dev-libs/boost:= ) mysql? ( dev-db/mysql-connector-c:0= ) odbc? ( dev-db/unixODBC ) oracle? ( dev-db/oracle-instantclient:= ) postgres? ( dev-db/postgresql:= ) sqlite? ( dev-db/sqlite:3 )
 DESCRIPTION=Database access library for C++
 EAPI=8
 HOMEPAGE=https://github.com/SOCI/soci
-INHERIT=cmake git-r3
+INHERIT=cmake
 IUSE=boost firebird mysql odbc oracle postgres sqlite static-libs test
+KEYWORDS=~amd64 ~x86
 LICENSE=BSD-1
-PROPERTIES=live
 RDEPEND=boost? ( dev-libs/boost:= ) mysql? ( dev-db/mysql-connector-c:0= ) odbc? ( dev-db/unixODBC ) oracle? ( dev-db/oracle-instantclient:= ) postgres? ( dev-db/postgresql:= ) sqlite? ( dev-db/sqlite:3 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=55e1e5949aa54ccdb7edcf356e079c3a
+SRC_URI=https://github.com/SOCI/soci/archive/v4.1.2.tar.gz -> soci-4.1.2.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_md5_=6caf4178194b5aa40ebf90ce57762f49

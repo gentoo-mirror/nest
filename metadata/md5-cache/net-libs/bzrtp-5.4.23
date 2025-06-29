@@ -1,16 +1,16 @@
 BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-cpp/belr net-libs/bctoolbox[test?]
-DESCRIPTION=VCard standard format manipulation library
+DEPEND=net-libs/bctoolbox[test?] sqlite? ( dev-db/sqlite:3 dev-libs/libxml2:2 )
+DESCRIPTION=Media Path Key Agreement for Unicast Secure RTP
 EAPI=8
-HOMEPAGE=https://gitlab.linphone.org/BC/public/belcard
+HOMEPAGE=https://gitlab.linphone.org/BC/public/bzrtp
 INHERIT=cmake
-IUSE=test tools
+IUSE=doc sqlite test
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=dev-cpp/belr net-libs/bctoolbox[test?]
+RDEPEND=net-libs/bctoolbox[test?] sqlite? ( dev-db/sqlite:3 dev-libs/libxml2:2 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://gitlab.linphone.org/BC/public/belcard/-/archive/5.3.86/belcard-5.3.86.tar.bz2
+SRC_URI=https://gitlab.linphone.org/BC/public/bzrtp/-/archive/5.4.23/bzrtp-5.4.23.tar.bz2
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
-_md5_=7c449b1d129a3d64d34b3e4f026044e6
+_md5_=763de96cda53fbc284c44b9ffe2215ce

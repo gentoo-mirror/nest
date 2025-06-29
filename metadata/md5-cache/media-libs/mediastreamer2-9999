@@ -10,7 +10,7 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=net-libs/bctoolbox[test?] net-libs/ortp alsa? ( media-libs/alsa-lib ) av1? ( || ( media-libs/dav1d media-libs/libaom ) ) bv16? ( media-libs/bv16-floatingpoint ) g726? ( media-libs/spandsp ) g729? ( media-libs/bcg729 ) gsm? ( media-sound/gsm ) jpeg? ( media-libs/libjpeg-turbo ) matroska? ( media-libs/bcmatroska2 ) opengl? ( media-libs/glew:0 x11-libs/libX11 virtual/opengl ) opus? ( media-libs/opus ) pcap? ( net-libs/libpcap ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio-daemon ) qrcode? ( media-libs/zxing-cpp ) speex? ( media-libs/speex media-libs/speexdsp ) srtp? ( net-libs/libsrtp:2 ) theora? ( media-libs/libtheora ) v4l? ( media-libs/libv4l ) vpx? ( media-libs/libvpx:= ) yuv? ( media-libs/libyuv ) zrtp? ( net-libs/bzrtp[sqlite] )
 REQUIRED_USE=zrtp? ( srtp ) resample? ( speex ) || ( alsa portaudio pulseaudio ) || ( opengl v4l )
-RESTRICT=!test? ( test )
+RESTRICT=test
 SLOT=0
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=7ff6b7e6a2db40b8759ec8f528eb91c9
+_md5_=7c54ab6f89a37d5a6f86b7ececa2705a

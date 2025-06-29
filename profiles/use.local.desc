@@ -47,6 +47,7 @@ app-misc/tmux-resurrect:vim - Support for app-editors/vim-core
 app-shells/tlog:utempter - Include utmp management support via sys-libs/libutempter
 dev-cpp/belr:tools - Build tools
 dev-db/pg_repack:client - Build CLI client
+dev-db/soci:boost - Enable support for dev-libs/boost
 dev-db/usql:athena - Enable support for AWS Athena
 dev-db/usql:avatica - Enable support for Apache Avatica
 dev-db/usql:bigquery - Enable support for Google BigQuery
@@ -88,7 +89,6 @@ dev-haskell/vector-instances:hashable - Disable usage of dev-haskell/hashable
 dev-haskell/warp:allow-sendfilefd - Allow use of sendfileFd
 dev-haskell/warp:x509 - Adds a dependency on the x509 library to enable getting TLS client certificates.
 dev-libs/belcard:tools - Build tools
-dev-libs/belle-sip:tunnel - Enable tunnel support
 dev-libs/libcommuni:qml - Build QML/QtQuick bindings and imports
 dev-libs/libcommuni:uchardet - Enable charset discovery via app-i18n/uchardet
 dev-libs/libdigidoc:utils - install command-line utility
@@ -169,6 +169,8 @@ net-analyzer/goaccess:getline - Use GNU getline() to parse full line requests
 net-analyzer/passivedns:json - Enable JSON support
 net-dns/inadyn-mt:sound - Enable sound support using
 net-im/viber:apulse - Use PulseAudio emulation for ALSA
+net-libs/bctoolbox:mbedtls - Use net-libs/mbedtls as crypto engine
+net-libs/bctoolbox:openssl - Use dev-libs/openssl as crypto engine
 net-libs/ortp:ntp-timestamp - Turn on NTP timestamping on received packet
 net-misc/inverting-proxy:agent - Enable install of agent
 net-misc/inverting-proxy:server - Enable install of server

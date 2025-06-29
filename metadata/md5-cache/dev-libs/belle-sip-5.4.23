@@ -1,17 +1,17 @@
-BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
+BDEPEND=virtual/pkgconfig test? ( dev-cpp/cpp-httplib:0= ) app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=dev-cpp/belr net-libs/bctoolbox[test?] sys-libs/zlib:= zeroconf? ( net-dns/avahi[mdnsresponder-compat] )
 DESCRIPTION=SIP (RFC3261) implementation
 EAPI=8
 HOMEPAGE=https://gitlab.linphone.org/BC/public/belle-sip
 INHERIT=cmake
-IUSE=test tunnel zeroconf
+IUSE=test zeroconf
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 PROPERTIES=test_network
 RDEPEND=dev-cpp/belr net-libs/bctoolbox[test?] sys-libs/zlib:= zeroconf? ( net-dns/avahi[mdnsresponder-compat] )
 RESTRICT=test
 SLOT=0
-SRC_URI=https://gitlab.linphone.org/BC/public/belle-sip/-/archive/5.3.86/belle-sip-5.3.86.tar.bz2
+SRC_URI=https://gitlab.linphone.org/BC/public/belle-sip/-/archive/5.4.23/belle-sip-5.4.23.tar.bz2
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
-_md5_=b42abc6c644ea6f1d08d44563beff41a
+_md5_=55edffdb83c81d860cf14dbc6a00cf09

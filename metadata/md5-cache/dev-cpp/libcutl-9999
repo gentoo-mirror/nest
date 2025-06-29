@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.16 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-util/build2 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DESCRIPTION=A collection of C++ libraries (successor of libcult)
 EAPI=8
@@ -9,4 +9,4 @@ LICENSE=MIT
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
-_md5_=8a362ee8d9ed448824d2db06c5136320
+_md5_=c35607c61b25a02175adcf6a05640ae7
