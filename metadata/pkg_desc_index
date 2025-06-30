@@ -164,6 +164,7 @@ app-emulation/vmware-modules 17.6.3: VMware kernel modules
 app-emulation/vmware-vmrc 12.0.5.22744838: VMware Remote Console
 app-emulation/vmware-workstation 17.6.3.24583834: Emulate a complete PC without the performance overhead
 app-forensics/gitleaks 8.10.3 9999: Auditing git repository for secrets and keys
+app-forensics/kerbrute 1.0.3_p20201116 9999: A tool to perform Kerberos pre-auth bruteforcing
 app-forensics/whispers 2.4.0 9999: Identify hardcoded secrets in static structured text
 app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
