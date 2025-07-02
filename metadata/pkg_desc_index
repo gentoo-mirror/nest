@@ -249,6 +249,7 @@ dev-db/datanymizer 0.7.1 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/dynamodb-shell 0.8.1 9999: A command line client (shell) for AWS DynamoDB
+dev-db/dynein 0.3.0 9999: DynamoDB Command Line Interface
 dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
 dev-db/ip4r 2.4.2 9999: IP address and IP range index types for PostgreSQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
