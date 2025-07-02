@@ -1,0 +1,16 @@
+BDEPEND=sys-devel/bison sys-devel/flex app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/aws-sdk-cpp:=[dynamodb,iam,sts] sys-libs/readline:= sys-libs/zlib:=
+DESCRIPTION=A command line client (shell) for AWS DynamoDB
+EAPI=8
+HOMEPAGE=https://github.com/awslabs/dynamodb-shell
+INHERIT=cmake
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-libs/aws-sdk-cpp:=[dynamodb,iam,sts] sys-libs/readline:= sys-libs/zlib:=
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/awslabs/dynamodb-shell/archive/v0.8.1.tar.gz -> dynamodb-shell-0.8.1.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
+_md5_=c3a5d5c19282dcaf3b89c07e26671fce

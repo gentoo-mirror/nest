@@ -248,6 +248,7 @@ dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding comp
 dev-db/datanymizer 0.7.1 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
+dev-db/dynamodb-shell 0.8.1 9999: A command line client (shell) for AWS DynamoDB
 dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
 dev-db/ip4r 2.4.2 9999: IP address and IP range index types for PostgreSQL
 dev-db/litestream 0.3.8 9999: Streaming replication for SQLite
@@ -379,6 +380,19 @@ dev-haskell/vector-instances 3.4.2: Additional Instances for Data.Vector
 dev-haskell/wai 3.2.4: Web Application Interface
 dev-haskell/wai-middleware-static 0.9.2: WAI middleware that serves requests to static files
 dev-haskell/warp 3.4.4: A fast, light-weight web server for WAI applications
+dev-libs/aws-c-auth 0.9.0 9999: AWS client-side authentication
+dev-libs/aws-c-cal 0.9.2 9999: AWS Crypto Abstraction Layer
+dev-libs/aws-c-common 0.12.3 9999: Core AWS SDK package
+dev-libs/aws-c-compression 0.3.1 9999: AWS C Compression
+dev-libs/aws-c-event-stream 0.5.5 9999: C99 implementation of the eventstream content-type
+dev-libs/aws-c-http 0.10.2 9999: HTTP C99 implementation
+dev-libs/aws-c-io 0.20.1 9999: AWS SDK module for IO and TLS
+dev-libs/aws-c-mqtt 0.13.2 9999: AWS SDK MQTT implementation
+dev-libs/aws-c-s3 0.8.3 9999: AWS SDK S3 implementation
+dev-libs/aws-c-sdkutils 0.2.4 9999: AWS SDK Utilities
+dev-libs/aws-checksums 0.2.7 9999: Cross-Platform HW accelerated CRC32c and CRC32
+dev-libs/aws-crt-cpp 0.32.10 9999: AWS SDK Core CRT package
+dev-libs/aws-sdk-cpp 1.11.600 9999: AWS SDK for C++
 dev-libs/belcard 5.4.23 9999: VCard standard format manipulation library
 dev-libs/belle-sip 5.4.23 9999: SIP (RFC3261) implementation
 dev-libs/ccrtp 2.1.2 9999: GNU ccRTP - Implementation of the IETF real-time transport protocol
@@ -400,6 +414,7 @@ dev-libs/lime 5.4.23 9999: C++ library implementing Open Whisper System Signal p
 dev-libs/modest 0.0.6 9999: Fast HTML renderer
 dev-libs/mongo-c-driver 1.27.5 9999: Client library written in C for MongoDB
 dev-libs/rustc-demangle 0.1.24: Library for Rust symbol demangling
+dev-libs/s2n-tls 1.5.21 9999: An implementation of the TLS/SSL protocols
 dev-libs/ucommon 7.0.1 9999: A class framework that was specifically designed for telephony applications
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/zrtpcpp 4.7.0 9999: VCard standard format manipulation library
