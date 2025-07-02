@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1205](https://img.shields.io/badge/ebuild-1205-orange.svg)](https://img.shields.io/badge/ebuild-1205-orange.svg)
+[![Number of ebuilds: 1220](https://img.shields.io/badge/ebuild-1220-orange.svg)](https://img.shields.io/badge/ebuild-1220-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -217,6 +217,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-db/[datanymizer](https://github.com/datanymizer/datanymizer) | Powerful database anonymizer with flexible rules
 *   dev-db/[dbcrossbar](https://www.dbcrossbar.org) | Copy tabular data between databases, CSV files and cloud storage
 *   dev-db/[dbgate-bin](https://github.com/dbgate/dbgate) | Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
+*   dev-db/[dynamodb-shell](https://github.com/awslabs/dynamodb-shell) | A command line client (shell) for AWS DynamoDB
 *   dev-db/[go-sqlcmd](https://github.com/microsoft/go-sqlcmd) | CLI for SQL Server and Azure SQL
 *   dev-db/[ip4r](https://github.com/RhodiumToad/ip4r) | IP address and IP range index types for PostgreSQL
 *   dev-db/[litestream](https://github.com/benbjohnson/litestream) | Streaming replication for SQLite
@@ -349,6 +350,19 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[wai](https://github.com/yesodweb/wai) | Web Application Interface
 *   dev-haskell/[wai-middleware-static](https://github.com/scotty-web/wai-middleware-static) | WAI middleware that serves requests to static files
 *   dev-haskell/[warp](https://github.com/yesodweb/wai) | A fast, light-weight web server for WAI applications
+*   dev-libs/[aws-c-auth](https://github.com/awslabs/aws-c-auth) | AWS client-side authentication
+*   dev-libs/[aws-c-cal](https://github.com/awslabs/aws-c-cal) | AWS Crypto Abstraction Layer
+*   dev-libs/[aws-c-common](https://github.com/awslabs/aws-c-common) | Core AWS SDK package
+*   dev-libs/[aws-c-compression](https://github.com/awslabs/aws-c-common) | AWS C Compression
+*   dev-libs/[aws-c-event-stream](https://github.com/awslabs/aws-c-event-stream) | C99 implementation of the eventstream content-type
+*   dev-libs/[aws-c-http](https://github.com/awslabs/aws-c-http) | HTTP C99 implementation
+*   dev-libs/[aws-c-io](https://github.com/awslabs/aws-c-io) | AWS SDK module for IO and TLS
+*   dev-libs/[aws-c-mqtt](https://github.com/awslabs/aws-c-mqtt) | AWS SDK MQTT implementation
+*   dev-libs/[aws-c-s3](https://github.com/awslabs/aws-c-s3) | AWS SDK S3 implementation
+*   dev-libs/[aws-c-sdkutils](https://github.com/awslabs/aws-c-sdkutils) | AWS SDK Utilities
+*   dev-libs/[aws-checksums](https://github.com/awslabs/aws-checksums) | Cross-Platform HW accelerated CRC32c and CRC32
+*   dev-libs/[aws-crt-cpp](https://github.com/awslabs/aws-crt-cpp) | AWS SDK Core CRT package
+*   dev-libs/[aws-sdk-cpp](https://github.com/aws/aws-sdk-cpp) | AWS SDK for C++
 *   dev-libs/[belcard](https://gitlab.linphone.org/BC/public/belcard) | VCard standard format manipulation library
 *   dev-libs/[belle-sip](https://gitlab.linphone.org/BC/public/belle-sip) | SIP (RFC3261) implementation
 *   dev-libs/[ccrtp](https://www.gnu.org/software/ccrtp/) | GNU ccRTP - Implementation of the IETF real-time transport protocol
@@ -499,6 +513,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-lisp/[rfc2388](https://github.com/jdz/rfc2388) | An implementation of RFC 2388 in Common Lisp
 *   dev-lisp/[rfc2388-binary](https://gitlab.common-lisp.net/ucw/rfc2388-binary) | Parsing multipart/form-data data streams library
 *   dev-lisp/[rt](http://www.cliki.net/rt) | Common Lisp regression tester from MIT
+*   dev-libs/[s2n-tls](https://github.com/aws/s2n-tls) | An implementation of the TLS/SSL protocols
 *   dev-lisp/[salza2](https://github.com/xach/salza2) | Compressed data in the ZLIB, DEFLATE, or GZIP data formats
 *   dev-lisp/[slime](https://github.com/slime/slime) | The Superior Lisp Interaction Mode for Emacs
 *   dev-lisp/[split-sequence](http://www.cliki.net/split-sequence) | Functions to partition a Common Lisp sequence
