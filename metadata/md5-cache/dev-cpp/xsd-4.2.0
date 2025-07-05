@@ -12,5 +12,5 @@ RDEPEND=dev-libs/xerces-c dev-libs/boost:= dev-cpp/libcutl dev-cpp/libxsd-fronte
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://www.codesynthesis.com/download/xsd/4.2/xsd-4.2.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=c310de8621b7d60f893393649ce8dd3f

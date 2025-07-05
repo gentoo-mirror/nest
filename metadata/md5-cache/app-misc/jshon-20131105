@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=dev-libs/jansson
 SLOT=0
 SRC_URI=https://github.com/keenerd/jshon/archive/20131105.tar.gz -> jshon-20131105.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=db540cd5ac6f301d615110753e934c32

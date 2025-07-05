@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtmultimedia:5[gstreamer] dev-qt/qtsql:5 dev-qt/qtwidgets:5 media-plugins/gst-plugins-meta:1.0[aac,http,mp3,mpeg,ogg,vorbis]
 SLOT=0
 SRC_URI=https://github.com/alexyalinc/krudio/archive/a45ad15680dd44a1dfd2ebae336d6f085d5f2651.tar.gz -> krudio-21082019.gh.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=cd1499b58f445a85dc4f25be366d245a

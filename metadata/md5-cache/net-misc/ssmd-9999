@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-libs/boost:0= dev-libs/openssl:0= net-misc/curl acct-user/ssmd
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	systemd	a964c0cbe818b5729da1dbfcee5be861
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=f8d6b01390c3427de8a0d5ea1abd8a6c

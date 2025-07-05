@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/stolk/freqtop/archive/bff91f1017c0f3abf2edae52498641c65fa9b0b9.tar.gz -> freqtop-20230315.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=2ddb8e10ae6a5639b83e53ae50536502
