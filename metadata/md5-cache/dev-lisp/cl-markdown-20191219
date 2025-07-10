@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.common-lisp.net/cl-markdown/cl-markdown/-/archive/master/cl-markdown-master.tar.bz2
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=7798edce8033434030b1f8ef0b1958bb
+_md5_=88f8cd4a239fe4967aaaa7382aafeb78

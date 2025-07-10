@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.serializer/archive/d453f7687bb0db4dbd818419855faecda6eeb737.tar.gz -> hu-dwim-serializer-20160122.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=dbb5b2f3f1b61def80111d95554cb8f6
+_md5_=0d76747a5e183aabf56f7b067ff5f82d

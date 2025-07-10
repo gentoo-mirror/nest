@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/bordeaux-threads
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4cc62d19975e6f7b0c36e581a0c6a5c2
+_md5_=f749fc8148e3134569edf98454915c7a

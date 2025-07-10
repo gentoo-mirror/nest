@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/sharplispers/chipz/archive/6f803684415704114f213c64e13b231627e7777f.tar.gz -> chipz-20230418.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=29aded7c4832c745f7e28ef171b9c9c0
+_md5_=0054b5614d3a853d024339a17e4853dd

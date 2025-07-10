@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/iterate dev-lisp/salza2 dev-lisp/uiop dev-lisp/zpb-ttf
 SLOT=0
 SRC_URI=https://github.com/mbattyani/cl-pdf/archive/0a1cd33b658c7101766781c534455d4d9e5972bf.tar.gz -> cl-pdf-20230620.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=2d0028b65cca41f4168885f715559bcb
+_md5_=47264b34b1bba1df5557ded28c306965

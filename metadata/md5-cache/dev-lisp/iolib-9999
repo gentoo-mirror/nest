@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libfixposix dev-lisp/alexandria dev-lisp/babel dev-lisp/bordeau
 RESTRICT=test
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
-_md5_=a658aa6aa3009293eece86251a4e37b7
+_md5_=76bf017145fba3cb33d2ec96c6ffe6d3

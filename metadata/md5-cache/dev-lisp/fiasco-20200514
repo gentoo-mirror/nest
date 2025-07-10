@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/joaotavora/fiasco/archive/bb47d2fef4eb24cc16badc1c9a73d73c3a7e18f5.tar.gz -> fiasco-20200514.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=fea39b665b3f48691365e94b132b64bd
+_md5_=9251079cfe674fd7a659dbbfd005b9da

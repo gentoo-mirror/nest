@@ -1,4 +1,4 @@
-BDEPEND=dev-lisp/asdf test? ( dev-db/postgresql:16[server] dev-lisp/fiveam dev-lisp/local-time dev-lisp/trivial-octet-streams ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-lisp/asdf test? ( dev-db/postgresql:17[server] dev-lisp/fiveam dev-lisp/local-time dev-lisp/trivial-octet-streams ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=A Common Lisp PostgreSQL programming interface
 EAPI=8
@@ -8,8 +8,8 @@ IUSE=ssl test
 LICENSE=MIT POSTGRESQL ZLIB
 PDEPEND=virtual/commonlisp
 PROPERTIES=live
-RDEPEND=dev-lisp/asdf-system-connections dev-lisp/alexandria dev-lisp/bordeaux-threads dev-lisp/cl-base64 dev-lisp/closer-mop dev-lisp/ironclad dev-lisp/global-vars dev-lisp/md5 dev-lisp/split-sequence dev-lisp/usocket ssl? ( dev-lisp/cl-plus-ssl )
+RDEPEND=dev-lisp/asdf-system-connections dev-lisp/alexandria dev-lisp/bordeaux-threads dev-lisp/cl-base64 dev-lisp/closer-mop dev-lisp/ironclad dev-lisp/global-vars dev-lisp/md5 dev-lisp/split-sequence dev-lisp/uax15 dev-lisp/usocket ssl? ( dev-lisp/cl-plus-ssl )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=5a7b3fd78d960ce0393d94a2ed811a48
+_md5_=fc9e2fd570940df196e1863f7c96eee7

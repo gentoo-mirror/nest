@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-lisp/ironclad dev-lisp/trivial-utf8
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=e21394da0bb44719d938ae6ce63057bb
+_md5_=9fbd1aefa7137898f2ee0649e0c57323

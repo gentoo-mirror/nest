@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.presentation/dist -> hu-dwim-presentation-20200118.zip
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=c7ffabfbb5aa4df4a598af5651bfe34a
+_md5_=606c0a7d64d392a2cd23d77fe8f3758c

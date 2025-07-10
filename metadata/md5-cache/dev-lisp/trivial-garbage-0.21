@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/trivial-garbage/trivial-garbage/archive/v0.21.tar.gz -> trivial-garbage-0.21.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=411afd5ee3222d040edac10bd87b39d9
+_md5_=b5c9240ac3cb48c449198381db15bc43

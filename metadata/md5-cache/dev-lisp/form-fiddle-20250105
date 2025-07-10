@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=A collection of utilities to destructure lambda forms
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/form-fiddle
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/documentation-utils
+SLOT=0
+SRC_URI=https://github.com/Shinmera/form-fiddle/archive/fc4e7e607200356f4e665b9282e4125a3136a2e7.tar.gz -> form-fiddle-20250105.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=7c1b1818716d01e86e8fb95c0f343db8

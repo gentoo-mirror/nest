@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/AccelerationNet/cl-csv/archive/2d64d4183bfc91824068cd4cf3414238d3c00fe5.tar.gz -> cl-csv-20240126.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=f3308820852f8b0420d80029f6053cb6
+_md5_=443ac22b2ea7f9b1c098b96c4ad7c2ae

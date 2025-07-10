@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/sabracrolleton/uax-15/archive/2226aa32584550aa7b772cb59236eab14ac4b6d8.tar.gz -> uax15-20240127.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=8f3d86645ce0aea644dcf4443bf7ce90
+_md5_=78caa38fa4e5ae8a27dba1d512a88c62

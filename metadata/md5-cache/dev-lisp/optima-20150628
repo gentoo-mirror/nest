@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/m2ym/optima/archive/373b245b928c1a5cce91a6cb5bfe5dd77eb36195.tar.gz -> optima-20150628.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=9b344069780470536e876d1d891ce250
+_md5_=91383ddd735fb65c820e13e70eda13d9

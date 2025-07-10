@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.syntax-sugar/archive/0927cf2db26eac114e8a61f478ccdd01b37a4639.tar.gz -> hu-dwim-syntax-sugar-20220821.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=dc11dee0840ca56db20c4358033cbcb6
+_md5_=dd85db3a687f2cf7dcdcb7acfcd2bcc9

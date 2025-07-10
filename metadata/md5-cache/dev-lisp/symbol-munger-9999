@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/iterate
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=25ec1c5df7cd813eb64fe28ca2b78b03
+_md5_=639de3f4e528ed1d666dc717cdd4513d

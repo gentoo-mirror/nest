@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/try )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp documentation system
+EAPI=8
+HOMEPAGE=https://github.com/melisgl/mgl-pax
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=dev-lisp/named-readtables virtual/commonlisp
+RDEPEND=dev-lisp/3bmd dev-lisp/alexandria dev-lisp/hunchentoot dev-lisp/md5 dev-lisp/pythonic-string-reader dev-lisp/slime dev-lisp/trivial-utf8
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/melisgl/mgl-pax/archive/18f1d93b962781f273d2362bd190ce1744c120c4.tar.gz -> mgl-pax-20250613.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=00bc472b081a98a58a829975e4896b63

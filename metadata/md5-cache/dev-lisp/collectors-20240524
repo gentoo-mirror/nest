@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/AccelerationNet/collectors/archive/4c5e70cf399381de8fb485d4ed5a5c8fd7555146.tar.gz -> collectors-20240524.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=50f248cf3ede2c17c04bb95f727b0576
+_md5_=804ca2562aff2eee045a8c879c12b4f8

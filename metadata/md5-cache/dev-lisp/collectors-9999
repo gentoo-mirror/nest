@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/closer-mop dev-lisp/symbol-munger
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4a8b8c750530242be3a8b1906e581ce0
+_md5_=193a8c8b23ed446a19b307671c7beed8

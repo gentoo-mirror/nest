@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/pythonic-string-reader dev-lisp/try )
+DEFINED_PHASES=compile install test
+DEPEND=dev-lisp/mgl-pax
+DESCRIPTION=Flexible bivalent streams for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/melisgl/named-readtables
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD MIT
+PDEPEND=virtual/commonlisp
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/melisgl/named-readtables/archive/8bd0045267007f03d7a59211d4446a1d8aa7c26c.tar.gz -> named-readtables-20250524.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=04d5bca9c9b076c772960ca54ab9c895

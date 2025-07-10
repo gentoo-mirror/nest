@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install postinst
+DESCRIPTION=A few simple tools to help you with documenting your library
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/documentation-utils
+INHERIT=common-lisp-3 optfeature
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/trivial-indent
+SLOT=0
+SRC_URI=https://github.com/Shinmera/documentation-utils/archive/0665d6e43d135d02658292ac1dae3b17ff426889.tar.gz -> documentation-utils-20250201.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	optfeature	538bce96e5589935b57e178e8635f301
+_md5_=d019fa892a434cee14c6a1a33db51009

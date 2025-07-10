@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/edicl/cl-interpol/archive/d4f49d45257be1512db238a5c740e69a5964e93b.tar.gz -> cl-interpol-20220725.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=4cab35b41f5f946036949e95b8dffcbe
+_md5_=19863cf7e73437dd3c6a413306728b63

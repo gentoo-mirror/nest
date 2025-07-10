@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.common-lisp.net/frideau/fare-utils/-/archive/master/fare-utils-master.tar.bz2
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=bd938bf23513b4982d0d0889e25defd2
+_md5_=25dc8465376c0ed4ad6533d1251b836f

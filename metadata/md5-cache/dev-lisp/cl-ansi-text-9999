@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/cl-colors2
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=eed47276bc19954baaad78c4c8dda290
+_md5_=ccd5d1599bcf9d520004415895e313c9

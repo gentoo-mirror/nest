@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/hu-dwim-asdf doc? ( dev-lisp/hu-dwim-presentation )
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.common-lisp/archive/90558195773383142a57a16687d5e7f4adea6418.tar.gz -> hu-dwim-common-lisp-20210127.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=3aaa0b1a39bda4d1e8b087f16ad021fc
+_md5_=3d669e03399ad25d1cb27299c45412e6

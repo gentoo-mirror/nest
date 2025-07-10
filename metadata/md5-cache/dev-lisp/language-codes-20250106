@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=A simple library mapping ISO language codes to language names
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/language-codes
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/documentation-utils
+SLOT=0
+SRC_URI=https://github.com/Shinmera/language-codes/archive/acf4468ea6ed74e01ef947ce8fbd6e5a7b2d641c.tar.gz -> language-codes-20250106.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=c2ab76e7c1d8261703c1d0db716dde3a

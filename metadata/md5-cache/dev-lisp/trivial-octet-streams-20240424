@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/sharplispers/trivial-octet-streams/archive/71b00632c569618863376dd0cb985f6868b523b0.tar.gz -> trivial-octet-streams-20240424.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ac2fecf941b6df1019b55b285e24d014
+_md5_=4a36b74ee502573df1041f5f68588e5f

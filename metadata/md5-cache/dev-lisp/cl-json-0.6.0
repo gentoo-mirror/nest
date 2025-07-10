@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/sharplispers/cl-json/archive/v0.6.0.tar.gz -> cl-json-0.6.0.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=6029d8b511bb62d304ef3907a490ccfa
+_md5_=04f68c8cf73597cd67d2fa30112f6a8d

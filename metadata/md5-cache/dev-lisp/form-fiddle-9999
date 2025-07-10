@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-lisp/documentation-utils
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=c1a2105ee21983b3304a9dc26ff9cdbe
+_md5_=9c5f669d084dc45eaff4dbc5b99a2361

@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/trivial-gray-streams
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=f6cf5fd7f65f2a796abcc2db38719739
+_md5_=44b8253269d819d9403a380f0905df8d

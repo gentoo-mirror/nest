@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/trivial-gray-streams
 SLOT=0
 SRC_URI=https://github.com/edicl/flexi-streams/archive/v1.0.20.tar.gz -> flexi-streams-1.0.20.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=2ef7035c664169aefd814df0089e0407
+_md5_=ad03e160c3578914975635979d38dbf2

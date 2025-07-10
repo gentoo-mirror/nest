@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/bordeaux-threads )
+DEFINED_PHASES=compile install test
+DESCRIPTION=The Common Foreign Function Interface
+EAPI=8
+HOMEPAGE=https://github.com/cffi/cffi
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/babel dev-lisp/cl-json dev-lisp/cl-ppcre dev-lisp/trivial-features dev-lisp/uiop
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/cffi/cffi/archive/48eaef6f64c2c4830f3a1104432c66e6bad721a4.tar.gz -> cffi-20250311.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=aa5c007622caf20c96566d93218cfac8

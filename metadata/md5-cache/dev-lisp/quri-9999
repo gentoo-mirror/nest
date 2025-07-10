@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/babel dev-lisp/cl-utilities dev-lisp/idna d
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=49197e2e50b814a8c5953a747dd10dac
+_md5_=b0f764811273d9c58a822e8ffa17b5ef

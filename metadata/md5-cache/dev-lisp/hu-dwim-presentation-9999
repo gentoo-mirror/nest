@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/cl-graph dev-lisp/cl-typesetting dev-lisp/contextl dev-lisp/hu-
 RESTRICT=test
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	estack	c61c368a76fdf3a82fdf8dbaebea3804	darcs	a19dab260f8c1cf27b04a65eb784683c
-_md5_=c56974f289e12e6ea4fe2723f99e6b6b
+_md5_=d12bd800a569026a82cacd913b5dec40

@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-lisp/alexandria dev-lisp/anaphora dev-lisp/closer-mop dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-common-lisp dev-lisp/iterate dev-lisp/metabang-bind doc? ( dev-lisp/hu-dwim-presentation )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=fe99a6e10a014c74a0a853dbf4a0d71d
+_md5_=7e839cf7e28e19ee18114864e1331576

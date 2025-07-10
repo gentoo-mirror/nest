@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/cl-babel/babel/archive/23c14409dc89538b8a0bb2667a9784a5a72b795f.tar.gz -> babel-20240605.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=60e27ee0b33c399f5bbf9f491d9794be
+_md5_=eb55547680adcd7f827276c5dd0cf810

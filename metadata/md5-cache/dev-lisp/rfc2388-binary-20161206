@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.common-lisp.net/ucw/rfc2388-binary/-/archive/master/rfc2388-binary-master.tar.bz2
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=00265affd346267018d96ee8aebb2e13
+_md5_=e4d7cf911af15eab7afc0bf475235e19

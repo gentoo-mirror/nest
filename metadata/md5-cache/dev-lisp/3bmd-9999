@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/colorize dev-lisp/esrap dev-lisp/split-sequ
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=84836a872a7a10b982af165aa4f613f0
+_md5_=59a57d9f3c8f8937301ac31d02dd9a6f

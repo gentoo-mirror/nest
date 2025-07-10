@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hraban/cl-containers/archive/5f877987e3c7f27ce8fa98006f1607dbb9311d13.tar.gz -> cl-containers-20240624.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=3b8a18f7a9ccab855e9a0222bdd4d810
+_md5_=4beb2332914d9a6bf099df50b0969d23

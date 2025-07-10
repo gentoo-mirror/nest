@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/didierverna/asdf-flv/archive/3f1de416f7f40a39c47f08335c710a884ece36b3.tar.gz -> asdf-flv-20230912.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=e2b58a74725e46a4881d3c2fc3e11d1b
+_md5_=d7af837f44451ea634bff91674a3feb9

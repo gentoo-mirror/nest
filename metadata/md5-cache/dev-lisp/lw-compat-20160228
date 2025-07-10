@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/pcostanza/lw-compat/archive/aabfe28c6c1a4949f9d7b3cb30319367c9fd1c0d.tar.gz -> lw-compat-20160228.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ccd0842da8e106b84d3b568b02ceb5da
+_md5_=af8db5b8b3318b0bc9fbebc1d66997c3

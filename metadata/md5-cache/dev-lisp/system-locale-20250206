@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=A library to retrieve the system's configured locale and language
+EAPI=8
+HOMEPAGE=https://github.com/Shinmera/system-locale
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/cffi dev-lisp/documentation-utils
+SLOT=0
+SRC_URI=https://github.com/Shinmera/system-locale/archive/940468f477d708511a0fd5c36ac346cd3ad67880.tar.gz -> system-locale-20250206.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=9d381ebed436e1ac684e5e967cc77c20

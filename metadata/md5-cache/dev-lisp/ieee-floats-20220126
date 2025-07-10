@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/marijnh/ieee-floats/archive/9566ce8adfb299faef803d95736c780413a1373c.tar.gz -> ieee-floats-20220126.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=8a875b61a044d3a5ddec4359b77b5437
+_md5_=0a645cec72169940810302f592bb4241

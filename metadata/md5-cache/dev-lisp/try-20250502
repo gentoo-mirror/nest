@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=Flexible bivalent streams for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/melisgl/try
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/closer-mop dev-lisp/cl-ppcre dev-lisp/ieee-floats dev-lisp/mgl-pax dev-lisp/named-readtables dev-lisp/pythonic-string-reader dev-lisp/trivial-gray-streams dev-lisp/uiop
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/melisgl/try/archive/f3b4646b2c7d64ec87363e502fa46c551ae9a41e.tar.gz -> try-20250502.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=665e1c272902c0e34566cfa455da984f

@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/cl-interpol dev-lisp/clsql-helper dev-lisp/
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=0cc21cdc62bb250d437b9ce905f5ea51
+_md5_=50785f9c054b5150dc1a38bbd310b7e3

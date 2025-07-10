@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/wiseman/cl-difflib/archive/98eb335c693f1881584b83ca7be4a0fe05355c4e.tar.gz -> cl-difflib-20090602.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=16caed13f5a0eaad224b0e042666b86e
+_md5_=5ae6cc70b997b819e2934d0791a9c146

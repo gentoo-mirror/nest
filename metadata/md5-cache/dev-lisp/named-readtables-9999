@@ -12,4 +12,4 @@ PROPERTIES=live
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=ff7149e4e76568c32783696907b9f5fa
+_md5_=a435494bba2b1c843de9c6adee84c4a5

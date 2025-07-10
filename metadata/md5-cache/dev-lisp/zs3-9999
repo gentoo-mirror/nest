@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/cl-base64 dev-lisp/cxml dev-lisp/drakma dev
 RESTRICT=test
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=0448e1955ecd7a3f08d1ef1fc1214946
+_md5_=874cd5f106c5ac3c8151531e4353d9c5

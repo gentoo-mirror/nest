@@ -14,4 +14,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.perec/dist -> hu-dwim-perec-20200229.zip
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=2bc31a88e8139ce3554b7dac3c654d21
+_md5_=4f5bdb4b5f7aa0d2544af1b06226fca7

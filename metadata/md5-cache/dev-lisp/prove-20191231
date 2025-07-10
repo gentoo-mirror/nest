@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/cl-ansi-text dev-lisp/cl-colors dev-lisp/cl
 SLOT=0
 SRC_URI=https://github.com/fukamachi/prove/archive/5d71f02795b89e36f34e8c7d50e69b67ec6ca2de.tar.gz -> prove-20191231.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=9fed7b2f734ae74650675517e11d5d40
+_md5_=d3be6c42f529c282e776bac8a16d6bb6

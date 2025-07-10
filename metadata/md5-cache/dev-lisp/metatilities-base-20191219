@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hraban/metatilities-base/archive/ef04337759972fd622c9b27b53149f3d594a841f.tar.gz -> metatilities-base-20191219.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ab90be341b7054c0e4f3ceab163c9cf9
+_md5_=1a4876d66b864eb0abe191e0a497564d

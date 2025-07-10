@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/hanshuebner/unit-test/archive/266afaf4ac091fe0e8803bac2ae72d238144e735.tar.gz -> unit-test-20120423.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ee46b25ca93d1446f85fc3df2ad4105d
+_md5_=82e8dfbefeb88cd7a2706806fcfca22c

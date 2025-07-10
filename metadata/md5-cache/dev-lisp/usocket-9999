@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/bordeaux-threads dev-lisp/iolib dev-lisp/split-sequence
 RESTRICT=test
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=23f672ee9bd906f95e730479ff469dd3
+_md5_=0e47df8a9d20408ad2f847e3c5fee24b

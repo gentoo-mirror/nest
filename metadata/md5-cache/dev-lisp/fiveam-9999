@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-lisp/alexandria:0= dev-lisp/asdf-flv dev-lisp/trivial-backtrace
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=bd202202063c1e94273c41c31afd521c
+_md5_=ccb69479386b35c9e540c892be7eb7b9

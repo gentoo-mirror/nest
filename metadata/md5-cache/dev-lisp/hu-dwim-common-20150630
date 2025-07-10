@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/anaphora dev-lisp/closer-mop dev-lisp/hu-dw
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.common/archive/38949223e9d67d0f8ae3052d2c7738b0c58ca973.tar.gz -> hu-dwim-common-20150630.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=9e7ccd305138cae144e349d1f4fd9999
+_md5_=6abce4523550b5b6617cc07f3fcacb60

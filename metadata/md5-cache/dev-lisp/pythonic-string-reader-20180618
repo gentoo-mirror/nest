@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/smithzvk/pythonic-string-reader/archive/47a70ba1e32362e03dad6ef8e6f36180b560f86a.tar.gz -> pythonic-string-reader-20180618.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=931cde41e158f5e5fbbca92f604ba7e4
+_md5_=70eb9c268112902d62f9e657b7ac8a82

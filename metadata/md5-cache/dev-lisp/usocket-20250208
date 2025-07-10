@@ -1,0 +1,17 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/rt )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Universal socket library for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/usocket/usocket
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+PROPERTIES=test_network
+RDEPEND=dev-lisp/bordeaux-threads dev-lisp/iolib dev-lisp/split-sequence
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/usocket/usocket/archive/v20250208.tar.gz -> usocket-20250208.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f442952d85c4bea19afa1fe4affc6dda

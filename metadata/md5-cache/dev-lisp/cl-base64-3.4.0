@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://debian/pool/main/c/cl-base64/cl-base64_3.4.0.orig.tar.gz -> cl-base64-3.4.0.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=a6debff75d0527023b56f799e225927a
+_md5_=b56c449ef7e5813b44f9375703743eeb

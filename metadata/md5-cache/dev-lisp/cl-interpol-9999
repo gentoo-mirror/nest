@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/cl-unicode dev-lisp/named-readtables
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=afa42d2104fb97630fa8f3423e4928b0
+_md5_=b62dd2373b327624d1e747b6b456f6ed

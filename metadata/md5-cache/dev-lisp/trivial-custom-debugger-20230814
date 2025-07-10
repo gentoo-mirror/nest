@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/phoe/trivial-custom-debugger/archive/802473c75d9db625b8f37b05c95dde47b67c52fa.tar.gz -> trivial-custom-debugger-20230814.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ee49d0844cf8182d251916e3b6003f42
+_md5_=4cbd3cda62588bb3e3e06a8b4e714e1e

@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/fukamachi/quri/archive/45e0ff7f15a96ae9aef02b977375c6984d57a608.tar.gz -> quri-20240821.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=53ea1ed7709fb2a4e9d38641aade2bbe
+_md5_=8e26d89174cdaeda2f4a270f375c9d9e

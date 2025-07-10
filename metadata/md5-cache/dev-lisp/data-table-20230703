@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/AccelerationNet/data-table/archive/fe3a9e66e0105c97002ccb4ec6e82f606f54760b.tar.gz -> data-table-20230703.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=c584f5765363c1de4d5c70ff18b70b76
+_md5_=3e48cb46386d3b462eff53341366e0ea

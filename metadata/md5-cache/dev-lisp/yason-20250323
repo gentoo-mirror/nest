@@ -1,0 +1,16 @@
+BDEPEND=dev-lisp/asdf test? ( dev-lisp/unit-test )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Common Lisp JSON serializer written with simplicity in mind
+EAPI=8
+HOMEPAGE=https://github.com/phmarek/yason
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/trivial-gray-streams
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/phmarek/yason/archive/0c84b29a32c284f6b4be6f8587ff89b5702a6fda.tar.gz -> yason-20250323.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f02c8656a210c6d2e75c6cabcb17ae2d

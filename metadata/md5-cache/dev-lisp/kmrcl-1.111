@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://debian/pool/main/c/cl-kmrcl/cl-kmrcl_1.111.orig.tar.gz -> kmrcl-1.111.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=e32ca4b5dd39573502e09c1e7a3c23b4
+_md5_=ca58bbee6fe65265258dc74f2112b6cd

@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.common-lisp.net/cl-l10n/cl-l10n/-/archive/master/cl-l10n-master.tar.bz2
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=b88b735a554cdcc832d7dbc8c7bbc955
+_md5_=59c625c557ce3dc137c8e2545bb4e8b3

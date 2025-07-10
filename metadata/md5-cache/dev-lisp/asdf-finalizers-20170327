@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://gitlab.common-lisp.net/asdf/asdf-finalizers/-/archive/master/asdf-finalizers-master.tar.bz2
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=2a597771485da11dba9f85545db44022
+_md5_=fcdb353a6b9b53b9933576b0c649e885

@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.computed-class/archive/4988dabf27330161d0ba20bd3f2f163979fe2861.tar.gz -> hu-dwim-computed-class-20200402.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=b4873624e64c7d29a82fb23a01a87d3b
+_md5_=28e29395d035f2f4be168bf694d6ddc6

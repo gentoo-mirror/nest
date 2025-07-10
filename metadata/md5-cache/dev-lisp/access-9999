@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/closer-mop dev-lisp/cl-ppcre dev-lisp/itera
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=be201dc8fb57f477dd690ddd68e73c7b
+_md5_=c87c123d6533da9893ed4627a289bdc4

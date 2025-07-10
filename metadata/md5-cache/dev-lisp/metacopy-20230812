@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hraban/metacopy/archive/df7856f2a43fa91124fe780ef22f792040bc130c.tar.gz -> metacopy-20230812.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=f9d843ea2ece613af6ed9c7a56bf5bcc
+_md5_=1181728d879cc83b73c95d28f33a4566

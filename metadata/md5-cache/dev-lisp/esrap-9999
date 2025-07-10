@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/trivial-with-current-source-form
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=1cc696b68c9fd5df56d67a067f827285
+_md5_=d3a0a42462909d4730465e5a7ca6fee9

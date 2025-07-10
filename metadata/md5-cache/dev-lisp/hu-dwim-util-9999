@@ -13,4 +13,4 @@ REQUIRED_USE=doc? ( test )
 RESTRICT=test
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=bf169f318e7dff0141439c2a864bfc93
+_md5_=52f6fd5d4a53de5556e21e78d6fcdef7

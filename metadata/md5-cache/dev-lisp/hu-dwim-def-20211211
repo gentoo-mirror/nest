@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.def/archive/6801c4c483869e3db5d1d598a292322f6ee4cd92.tar.gz -> hu-dwim-def-20211211.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=0ea839d97b4ead1ab343ebfa837b602e
+_md5_=92e60e4e1305a19459613450bd258dcd

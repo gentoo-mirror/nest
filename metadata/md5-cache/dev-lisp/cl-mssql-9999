@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-db/freetds[mssql] dev-lisp/cffi dev-lisp/iterate dev-lisp/garbage-pools dev-lisp/parse-number
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=7addf16f9c5773b5db418374783b84f3
+_md5_=111167dab32e93bdb2648cb1465b0137

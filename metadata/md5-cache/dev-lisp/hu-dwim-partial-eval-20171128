@@ -14,4 +14,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.partial-eval/archive/f9babc7827d19b729098c46f66f32daa4c966299.tar.gz -> hu-dwim-partial-eval-20171128.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=401a3a72f052c1f0159a74c55afb30c2
+_md5_=c01fb181586b19091e159de2de10794c

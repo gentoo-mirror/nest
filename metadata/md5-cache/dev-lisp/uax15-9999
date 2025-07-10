@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/cl-ppcre dev-lisp/split-sequence dev-lisp/uiop
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=725925ed19741498a079bfac9d59cd16
+_md5_=a4ef85b679bb027c9cc280753e32d320

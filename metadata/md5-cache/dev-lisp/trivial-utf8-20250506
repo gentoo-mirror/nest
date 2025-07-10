@@ -1,0 +1,14 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=Portable simple API to work with backtraces in Common Lisp
+EAPI=8
+HOMEPAGE=https://gitlab.common-lisp.net/trivial-utf-8/trivial-utf-8
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+PDEPEND=dev-lisp/mgl-pax virtual/commonlisp
+RESTRICT=test
+SLOT=0
+SRC_URI=https://gitlab.common-lisp.net/trivial-utf-8/trivial-utf-8/-/archive/master/trivial-utf-8-master.tar.bz2
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=142b3c26908013277383890abc578a98

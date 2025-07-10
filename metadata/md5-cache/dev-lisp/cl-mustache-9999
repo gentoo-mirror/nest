@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/uiop
 RESTRICT=test
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=406a0abb09fcbd5417e450581a779d41
+_md5_=a12fbbee87ad5b20e525c3ed76b8b3d4

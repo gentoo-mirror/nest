@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=3d757149537a9a1cf7806cf480ff8c6d
+_md5_=4752c6444e803cd6b3cd2355e8eacaff

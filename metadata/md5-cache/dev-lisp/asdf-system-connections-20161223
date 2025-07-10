@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/lisp-maintainers/asdf-system-connections/archive/9f085240febccccff99d9d3bb687fcaafffd3f5e.tar.gz -> asdf-system-connections-20161223.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=249c3d11b5963905ec9b86b5fb2bbf7f
+_md5_=f26a4e11d27396017a4736a1ad5fd12f

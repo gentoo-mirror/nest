@@ -14,4 +14,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://hub.darcs.net/hu.dwim/hu.dwim.rdbms/dist -> hu-dwim-rdbms-20170425.zip
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ac58107dbf0c6d5f7615459b46b449d1
+_md5_=0d5bc8fd52003dd6c2a5148b14621cba

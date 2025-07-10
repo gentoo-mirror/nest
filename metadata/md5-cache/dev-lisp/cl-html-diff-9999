@@ -9,4 +9,4 @@ PDEPEND=virtual/commonlisp
 PROPERTIES=live
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4a456edd3835b588e491e1445a8a0b8d
+_md5_=46dd58154304f5af1c14360048bbceae

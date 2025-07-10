@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/hu-dwim-stefil )
+DEFINED_PHASES=compile install test
+DESCRIPTION=Customizable code walker for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.walker
+INHERIT=common-lisp-3
+IUSE=doc test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PDEPEND=dev-lisp/hu-dwim-util virtual/commonlisp
+RDEPEND=dev-lisp/alexandria dev-lisp/anaphora dev-lisp/closer-mop dev-lisp/contextl dev-lisp/hu-dwim-asdf dev-lisp/hu-dwim-def dev-lisp/hu-dwim-defclass-star dev-lisp/metabang-bind doc? ( dev-lisp/hu-dwim-presentation )
+REQUIRED_USE=doc? ( test )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.walker/archive/334c20f4ca44085351fbdf570ff0665ffd94aae8.tar.gz -> hu-dwim-walker-20250609.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=8b92c3b336a692ece34a6982c755cb9f

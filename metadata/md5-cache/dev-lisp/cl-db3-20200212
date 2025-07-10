@@ -10,4 +10,4 @@ PDEPEND=virtual/commonlisp
 SLOT=0
 SRC_URI=https://github.com/dimitri/cl-db3/archive/38e5ad35f025769fb7f8dcdc6e56df3e8efd8e6d.tar.gz -> cl-db3-20200212.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=c65601ae70a5aa028adf807f2c3ce333
+_md5_=a1c6b45fc5895b4729ad6cd5cf355298

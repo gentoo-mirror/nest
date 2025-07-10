@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/AccelerationNet/clsql-helper/archive/846b67a26906da5ea2cff790a36a4cb2f496a528.tar.gz -> clsql-helper-20180226.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=010589c0f5094c2a5bb1175462575576
+_md5_=91cef4d7d32a1dcf7b5a5120a8f5c284

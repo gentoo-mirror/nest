@@ -1,0 +1,13 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=Common Lisp unit testing framework
+EAPI=8
+HOMEPAGE=https://codeberg.org/cage/clunit2
+INHERIT=common-lisp-3
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+SLOT=0
+SRC_URI=https://codeberg.org/cage/clunit2/archive/dd654e199aa3cbbdbcb0c2d8e1d240745bff75e8.tar.gz -> clunit2-20250212.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=f296f8acbdca9f2568fd47028ffdd600

@@ -12,4 +12,4 @@ RDEPEND=dev-lisp/anaphora dev-lisp/cl-containers dev-lisp/cl-html-diff dev-lisp/
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=9e084d1497e7b64ebf38b44085979dbe
+_md5_=0eb8d114acbaaa77942bb98ccf23bb6f

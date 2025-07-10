@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hu-dwim/hu.dwim.delico/archive/7cd4a308d1803574efd911a89d097af7a22023bb.tar.gz -> hu-dwim-delico-20200724.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=20f0b5981051f8ba7e444216f7268181
+_md5_=fbb091f9f38bd55fdbdcf4cb8eeaf549

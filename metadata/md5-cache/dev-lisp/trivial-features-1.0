@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-lisp/asdf dev-lisp/rt )
+BDEPEND=test? ( dev-lisp/asdf dev-lisp/cffi dev-lisp/rt )
 DEFINED_PHASES=compile install test
 DESCRIPTION=Ensures consistent FEATURES across multiple implementations
 EAPI=8
@@ -8,9 +8,9 @@ IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PDEPEND=virtual/commonlisp
-RDEPEND=dev-lisp/alexandria dev-lisp/cffi
+RDEPEND=dev-lisp/alexandria
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/trivial-features/trivial-features/archive/v1.0.tar.gz -> trivial-features-1.0.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ccbabee9eb67767a16a296f0e03cb938
+_md5_=097dfae3c24a01a8a74cd941304cea73

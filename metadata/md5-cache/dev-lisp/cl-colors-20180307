@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/tpapp/cl-colors/archive/827410584553f5c717eec6182343b7605f707f75.tar.gz -> cl-colors-20180307.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=677b1eaac354edc56818a3252195e1f5
+_md5_=64b357c1283ab2af5f3f7c06247dc63c

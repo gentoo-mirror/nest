@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/sharplispers/let-plus/archive/455e657e077235829b197f7ccafd596fcda69e30.tar.gz -> let-plus-20191029.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=a2e34d785d6655d75bdde45521965b77
+_md5_=1c831d16c7b07cb03d30b58bd274a21e

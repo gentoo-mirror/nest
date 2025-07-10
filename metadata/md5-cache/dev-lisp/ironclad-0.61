@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/sharplispers/ironclad/archive/v0.61.tar.gz -> ironclad-0.61.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=d7c0eaeede95c72bbfc0da2d545c1380
+_md5_=63811a50d066e83feb20d0a03158c5a8

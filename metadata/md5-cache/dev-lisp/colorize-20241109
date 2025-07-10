@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/alexandria dev-lisp/html-encode dev-lisp/split-sequence
 SLOT=0
 SRC_URI=https://github.com/kingcons/colorize/archive/c41fcc5833ebcf184f48aaf31ab89a9a1c230464.tar.gz -> colorize-20241109.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=0b0fefa5154e2fcb9365b2f8133a7075
+_md5_=bee4687bcace9cc810db7face32c28ef

@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/cl-ppcre dev-lisp/esrap
 SLOT=0
 SRC_URI=https://github.com/dimitri/cl-abnf/archive/ba1fbb104dedbdaddb1ef93d2e4da711bd96cd70.tar.gz -> cl-abnf-20200229.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=2d9c76b671064ffcff070b70c3cf1154
+_md5_=b13a8955f6edaa829b5c561614d0a2cf

@@ -11,4 +11,4 @@ RDEPEND=dev-lisp/cl-pdf dev-lisp/xmls
 SLOT=0
 SRC_URI=https://github.com/mbattyani/cl-typesetting/archive/86eba981fc4254addebecf765578ec350d6e3b75.tar.gz -> cl-typesetting-20210414.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=1f9248ef4b6a6e85f384a38546b1d2d0
+_md5_=320838f878e117ab9ed21a4ab060de27

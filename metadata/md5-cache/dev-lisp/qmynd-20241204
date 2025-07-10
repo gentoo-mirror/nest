@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install test
+DESCRIPTION=MySQL Native Driver for Common Lisp
+EAPI=8
+HOMEPAGE=https://github.com/qitab/qmynd
+INHERIT=common-lisp-3
+IUSE=ssl
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/asdf-finalizers dev-lisp/babel dev-lisp/chipz dev-lisp/flexi-streams dev-lisp/ironclad dev-lisp/salza2 dev-lisp/trivial-gray-streams dev-lisp/uiop dev-lisp/usocket ssl? ( dev-lisp/cl-plus-ssl )
+SLOT=0
+SRC_URI=https://github.com/qitab/qmynd/archive/42664f5fd15a2f308c958c1062edebec30125308.tar.gz -> qmynd-20241204.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=44f99a9741d0126cdcd0faefce6df617

@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-lisp/fiveam dev-lisp/trivial-sockets )
+DEFINED_PHASES=compile install prepare test
+DESCRIPTION=A Common Lisp interface to OpenSSL
+EAPI=8
+HOMEPAGE=https://github.com/cl-plus-ssl/cl-plus-ssl
+INHERIT=common-lisp-3
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-libs/openssl:= dev-lisp/alexandria dev-lisp/bordeaux-threads dev-lisp/cffi dev-lisp/flexi-streams dev-lisp/trivial-features dev-lisp/trivial-garbage dev-lisp/trivial-gray-streams dev-lisp/uiop dev-lisp/usocket
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/cl-plus-ssl/cl-plus-ssl/archive/38e501f9415332d2fca53bab2b9add71fa97d8f6.tar.gz -> cl-plus-ssl-20250424.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=5fe065101f87c2a8b710fbc3c3dc6719

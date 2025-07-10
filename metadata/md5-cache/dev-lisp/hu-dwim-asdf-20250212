@@ -1,0 +1,15 @@
+BDEPEND=dev-lisp/asdf
+DEFINED_PHASES=compile install
+DESCRIPTION=Common Lisp extensions to ASDF
+EAPI=8
+HOMEPAGE=https://github.com/hu-dwim/hu.dwim.asdf
+INHERIT=common-lisp-3
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT-0
+PDEPEND=virtual/commonlisp
+RDEPEND=dev-lisp/uiop doc? ( dev-lisp/hu-dwim-presentation )
+SLOT=0
+SRC_URI=https://github.com/hu-dwim/hu.dwim.asdf/archive/aae9defaac911ca322233f25bf96d35d637e96dc.tar.gz -> hu-dwim-asdf-20250212.tar.gz
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
+_md5_=4dcd7edc83cf5637f790db2db3d15029

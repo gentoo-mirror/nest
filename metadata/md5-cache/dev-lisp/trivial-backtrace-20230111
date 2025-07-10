@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hraban/trivial-backtrace/archive/7f90b4a4144775cca0728791e4b92ac2557b07a1.tar.gz -> trivial-backtrace-20230111.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=f7399da0b52242fd744fda8441b66735
+_md5_=57c994c9f0444bee4321a4a37a201ec1

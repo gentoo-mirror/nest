@@ -12,4 +12,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/hraban/trivial-shell/archive/352a464ae3be61778f7080b8aad51d48d544345f.tar.gz -> trivial-shell-20240605.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=f4b26d2820d8fbb4d9b779644da16dfa
+_md5_=740eac0ba0d031c0898f8630c482718d
