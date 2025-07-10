@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Foundation
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,9 +8,8 @@ inherit common-lisp-3 toolchain-funcs
 MY_PN="cl-sql"
 
 DESCRIPTION="A multi-platform SQL interface for Common Lisp"
-HOMEPAGE="https://tracker.debian.org/pkg/cl-sql"
-SRC_URI="mirror://debian/pool/main/c/${MY_PN}/${MY_PN}_${PV}.orig.tar.gz -> ${P}.tar.gz"
-S="${WORKDIR}/${MY_PN}-${PV}"
+HOMEPAGE="https://github.com/sharplispers/clsql"
+SRC_URI="https://github.com/sharplispers/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

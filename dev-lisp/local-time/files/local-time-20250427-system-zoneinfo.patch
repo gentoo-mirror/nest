@@ -1,0 +1,12 @@
+--- ../src/local-time.lisp	2025-07-09 19:40:17.656054265 +0300
++++ ../src/local-time.lisp	2025-07-09 19:45:30.117114672 +0300
+@@ -104,7 +104,8 @@
+                (truename
+                 (merge-pathnames "zoneinfo/"
+                                  (make-pathname :name nil :type nil :defaults project-home-directory)))))))
+-    (or (when (find-package "ASDF")
++    (or (probe-file #p "/usr/share/zoneinfo/")
++        (when (find-package "ASDF")
+           (let ((path (eval (read-from-string
+                              "(let ((system (asdf:find-system :local-time nil)))
+                                 (when system
