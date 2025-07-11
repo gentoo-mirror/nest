@@ -148,7 +148,7 @@ app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/rolesanywhere-credential-helper 1.6.0 9999: AWS IAM Roles Anywhere Credential Helper
 app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.28.6 9999: A zero trust swiss army knife for working with X509
-app-crypt/step-kms-plugin 0.12.2 9999: A private certificate authority and ACME server
+app-crypt/step-kms-plugin 0.13.0 9999: A private certificate authority and ACME server
 app-crypt/totp 1.1.2 9999: Time-Based One-Time Password Code Generator
 app-editors/NotepadNext 0.10 9999: A cross-platform reimplementation of Notepad++
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
