@@ -5,16 +5,15 @@ EAPI=8
 
 inherit ecm git-r3
 
-DESCRIPTION="Currently playing song and playback controls in Plasma 6"
-HOMEPAGE="https://github.com/ccatterina/plasmusic-toolbar"
-EGIT_REPO_URI="https://github.com/ccatterina/${PN}.git"
+DESCRIPTION="Plasmoid for translation using the mymemory translated api"
+HOMEPAGE="https://github.com/zayronxio/Kde.mymemory.translator"
+EGIT_REPO_URI="https://github.com/zayronxio/Kde.mymemory.translator.git"
 
-LICENSE="GPL-3"
+LICENSE="MIT"
 SLOT="6"
 
 RDEPEND="kde-frameworks/kdeclarative:6
 	kde-frameworks/ki18n:6
-	kde-frameworks/kirigami:6
 	kde-plasma/plasma-workspace:6"
 
 src_prepare() {
@@ -28,6 +27,6 @@ src_compile() { :; }
 src_install() {
 	default
 
-	insinto /usr/share/plasma/plasmoids/plasmusic-toolbar
-	doins -r src/.
+	insinto /usr/share/plasma/plasmoids/kde.mymemory.translator
+	doins -r contents metadata.json
 }
