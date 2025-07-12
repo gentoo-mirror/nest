@@ -1,9 +1,10 @@
 BDEPEND=dev-lisp/asdf
-DEFINED_PHASES=compile install
+DEFINED_PHASES=compile install prepare
 DESCRIPTION=Buildapp makes it easy to build application executables with SBCL
 EAPI=8
 HOMEPAGE=https://github.com/xach/buildapp
 INHERIT=common-lisp-3
+IUSE=runtime-options
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 PDEPEND=virtual/commonlisp
@@ -11,4 +12,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/xach/buildapp/archive/release-1.5.6.tar.gz -> buildapp-1.5.6.tar.gz
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c
-_md5_=ab3e8c8bc0d5caf03ddf9cd96fe27fe3
+_md5_=cdafccd65cdcfd4305d09823d087d4fa

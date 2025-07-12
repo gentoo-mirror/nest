@@ -47,6 +47,7 @@ app-misc/tmux-resurrect:vim - Support for app-editors/vim-core
 app-shells/tlog:utempter - Include utmp management support via sys-libs/libutempter
 dev-cpp/belr:tools - Build tools
 dev-db/pg_repack:client - Build CLI client
+dev-db/pgloader:runtime-options - Use runtime options as command line arguments
 dev-db/soci:boost - Enable support for dev-libs/boost
 dev-db/usql:athena - Enable support for AWS Athena
 dev-db/usql:avatica - Enable support for Apache Avatica
@@ -522,6 +523,7 @@ dev-libs/zrtpcpp:empty - Build empty (no cache) backend
 dev-libs/zrtpcpp:sdes - Build with SDES
 dev-libs/zrtpcpp:sqlcipher - Build SQLCipher backed for cache
 dev-libs/zrtpcpp:tivi - Build tivi client
+dev-lisp/buildapp:runtime-options - Use runtime options as command line arguments
 dev-lisp/slime:xref - Install xref.lisp cross-referencing tool
 dev-php/amphp-amp:pcntl - Enable test for Process Control extension
 dev-php/league-flysystem:fileinfo - Enable test for File Information extension

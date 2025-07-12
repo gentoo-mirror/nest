@@ -1,13 +1,14 @@
 BDEPEND=dev-lisp/asdf >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install prepare unpack
 DESCRIPTION=Buildapp makes it easy to build application executables with SBCL
 EAPI=8
 HOMEPAGE=https://github.com/xach/buildapp
 INHERIT=common-lisp-3 git-r3
+IUSE=runtime-options
 LICENSE=BSD
 PDEPEND=virtual/commonlisp
 PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=894391f824fe5626130eae678fb2789d
+_md5_=8ef4125aedea991f53ff015949e7a939
