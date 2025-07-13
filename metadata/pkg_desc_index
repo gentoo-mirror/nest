@@ -1087,7 +1087,7 @@ dev-vcs/gitlint 0.19.1 9999: Git commit message linter
 dev-vcs/mercurial-extension_utils 1.5.3 9999: Mercurial Extension Utils
 dev-vcs/mercurial_keyring 1.4.4 9999: Mercurial Keyring Extension
 dev-vcs/transcrypt 2.1.0 9999: Transparently encrypt files within a git repository
-kde-misc/Burn-My-Windows 44 9999: Disintegrate your windows with style
+kde-misc/Burn-My-Windows 46 9999: Disintegrate your windows with style
 kde-misc/Tiled-Quicklaunch 9999 20211017: Plasma Menu Widget for KDE
 kde-misc/applet-latte-analogclock 0.2.0 9999: Analog clock applet that respects Latte items size
 kde-misc/applet-latte-separator 0.1.2 9999 20240312: Plasma 5 applet that acts as a separator between applets
@@ -1098,7 +1098,7 @@ kde-misc/applet-window-buttons6 0.14.0 9999: Plasma 6 applet in order to show wi
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
 kde-misc/applet-window-title6 9999 20240510: Plasma 6 applet shows window title and icon in your panels
 kde-misc/cpu-power-monitor 9999 20241219: KDE Plasma widget to monitor the CPU power consumption
-kde-misc/darkly 0.5.19 9999: A modern style for qt applications
+kde-misc/darkly 0.5.21 9999: A modern style for qt applications
 kde-misc/kde-mymemory-translator 9999 20250416: Plasmoid for translation using the mymemory translated api
 kde-misc/kde-relaxingsounds 9999 20220615: Plasma 5 widget for play relaxing sounds
 kde-misc/kwin-effects-sliding-notifications 1.5.0 9999 20240704: Sliding animation for notification windows
