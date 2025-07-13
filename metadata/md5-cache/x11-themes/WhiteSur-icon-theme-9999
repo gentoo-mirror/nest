@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEFINED_PHASES=install postinst postrm preinst unpack
 DESCRIPTION=comes in both light and dark variants
 EAPI=8
 HOMEPAGE=https://github.com/vinceliuice/WhiteSur-icon-theme
@@ -11,4 +11,4 @@ PROPERTIES=live
 REQUIRED_USE=^^ ( all default green grey nord orange pink purple red yellow )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=aa56b15b250b7249bba071d9122c7532
+_md5_=f978fc745e95e3048af0d3571fd5cac4

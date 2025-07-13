@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst postrm preinst prepare
+DEFINED_PHASES=install postinst postrm preinst
 DESCRIPTION=comes in both light and dark variants
 EAPI=8
 HOMEPAGE=https://github.com/vinceliuice/WhiteSur-icon-theme
@@ -11,4 +11,4 @@ REQUIRED_USE=^^ ( all default green grey nord orange pink purple red yellow )
 SLOT=0
 SRC_URI=https://github.com/vinceliuice/WhiteSur-icon-theme/archive/v2025-02-10.tar.gz -> WhiteSur-icon-theme-2025.02.10.tar.gz
 _eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=c45af3747f3e9bf1121e522f2cf7a60b
+_md5_=fb10b416fbb2b82b9d1650c0af990f5e
