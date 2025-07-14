@@ -13,5 +13,5 @@ RDEPEND=dev-libs/libfixposix dev-lisp/alexandria dev-lisp/babel dev-lisp/bordeau
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/sionescu/iolib/archive/396cc434ebb499ad178b24904cb36a9ec7d834e8.tar.gz -> iolib-20240129.tar.gz
-_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
+_eclasses_=common-lisp-3	11d5b94b6865855d9a890a952bf92c7c	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
 _md5_=02960f9a40d1231c6e361748097fd134
