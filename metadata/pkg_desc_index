@@ -837,6 +837,7 @@ dev-python/bc-jsonpath-ng 1.6.1 9999: Python JSONPath Next-Generation
 dev-python/bc-python-hcl2 0.4.2 9999: A fork of parser for HCL2 written in Python
 dev-python/billiard 4.2.1 9999: Multiprocessing Pool Extensions
 dev-python/bitstruct 8.21.0 9999: Python bit pack/unpack package
+dev-python/bleak 1.0.1 9999: Bluetooth Low Energy platform Agnostic Klient
 dev-python/bloodhound 1.8.0 9999: Python based ingestor for BloodHound
 dev-python/boto3-stubs 1.28.78 9999: Type annotations for boto3
 dev-python/botocore-stubs 1.31.78 9999: Type annotations and code completion for botocore
