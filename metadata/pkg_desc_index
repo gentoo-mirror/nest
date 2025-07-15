@@ -1097,6 +1097,7 @@ kde-misc/applet-window-appmenu 0.8.0 9999: Plasma 5 applet in order to show wind
 kde-misc/applet-window-buttons6 0.14.0 9999: Plasma 6 applet in order to show window buttons in your panels
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
 kde-misc/applet-window-title6 9999 20240510: Plasma 6 applet shows window title and icon in your panels
+kde-misc/chatai 2.2.1 9999: Chatbots as Plasmoid for KDE Plasma
 kde-misc/cpu-power-monitor 9999 20241219: KDE Plasma widget to monitor the CPU power consumption
 kde-misc/darkly 0.5.21 9999: A modern style for qt applications
 kde-misc/kde-mymemory-translator 9999 20250416: Plasmoid for translation using the mymemory translated api
