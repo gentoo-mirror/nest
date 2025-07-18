@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install
+DESCRIPTION=Modern UI for Ansible
+EAPI=8
+HOMEPAGE=https://github.com/ansible-semaphore/semaphore
+INHERIT=systemd shell-completion
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=acct-group/semaphore acct-user/semaphore
+SLOT=0
+SRC_URI=https://github.com/ansible-semaphore/semaphore/archive/v2.15.0.tar.gz -> semaphore-2.15.0.tar.gz https://github.com/ansible-semaphore/semaphore/releases/download/v2.15.0/semaphore_2.15.0_linux_amd64.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	systemd	a964c0cbe818b5729da1dbfcee5be861	bash-completion-r1	767861f3744f589ee5291c1698b1c082	shell-completion	0b655d0d825e157a5e99c463bddaac16
+_md5_=57f486acc612a250ce4334202d4cce0e

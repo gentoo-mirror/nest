@@ -118,7 +118,7 @@ app-admin/reprepro 5.3.0 9999: A tool to handle local repositories of Debian pac
 app-admin/rhit 2.0.3 9999: A nginx log explorer
 app-admin/ripe-atlas-tools 3.1.1 9999: The official command-line client for RIPE Atlas
 app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
-app-admin/semaphore-bin 2.11.2: Modern UI for Ansible
+app-admin/semaphore-bin 2.15.0: Modern UI for Ansible
 app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
 app-admin/sops 3.8.1 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
@@ -150,7 +150,7 @@ app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.28.6 9999: A zero trust swiss army knife for working with X509
 app-crypt/step-kms-plugin 0.13.0 9999: A private certificate authority and ACME server
 app-crypt/totp 1.1.2 9999: Time-Based One-Time Password Code Generator
-app-editors/NotepadNext 0.10 9999: A cross-platform reimplementation of Notepad++
+app-editors/NotepadNext 0.12 9999: A cross-platform reimplementation of Notepad++
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/marktext 0.17.1: A simple and elegant open-source markdown editor
 app-editors/micro 2.0.14 9999: A modern and intuitive terminal-based text editor
