@@ -175,18 +175,17 @@ app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimali
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
 app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.6.10 9999: Interactive cryptocurrency monitor
-app-misc/cryptr-bin 0.4.0: Diagram drawing application built on web technology
 app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
-app-misc/fq 0.0.6 9999: Command-line JSON processor for binary data
+app-misc/fq 0.15.1 9999: Command-line JSON processor for binary data
 app-misc/gitmux 0.11.2 9999: Git in your tmux status bar
-app-misc/gron 0.6.1 9999: Make JSON greppable
+app-misc/gron 0.7.1 9999: Make JSON greppable
 app-misc/hq 3.2 9999: A HTML processor inspired by jq
 app-misc/htmlq 0.4.0 9999: Like jq, but for HTML
-app-misc/jshon 9999 20131105: JSON parser designed for maximum convenience within the shell
+app-misc/jshon 9999 20180209: JSON parser designed for maximum convenience within the shell
 app-misc/jsqry-cli2-bin 0.1.2: CLI tool (similar to jq) to query JSON using sane DSL
-app-misc/kando-bin 1.6.0: A pie menu for the desktop
-app-misc/mop 9999 20230528: Stock market tracker for hackers
-app-misc/pet 0.4.0 9999: Simple command-line snippet manager
+app-misc/kando-bin 2.0.0: A pie menu for the desktop
+app-misc/mop 9999 20250717: Stock market tracker for hackers
+app-misc/pet 1.0.1 9999: Simple command-line snippet manager
 app-misc/tmux-autoreload 0.0.1 9999: Automatically reload your tmux config file on change
 app-misc/tmux-battery 1.3.0 9999: Plug and play battery percentage and icon indicator for Tmux
 app-misc/tmux-continuum 3.1.0 9999: Continuous saving of tmux environment
