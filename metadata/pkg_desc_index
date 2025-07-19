@@ -222,9 +222,9 @@ app-misc/tmux-sidebar 0.7.0 9999: A sidebar with the directory tree for tmux
 app-misc/tmux-suspend 9999 20230115: Suspend local tmux session
 app-misc/tmux-urlview 9999 20160303: Quickly open any url in tmux pane
 app-misc/tmux-yank 2.3.0 9999: Tmux plugin for copying to system clipboard
-app-misc/topfew 0.9.0 9999: Finds most often fields in a stream of records
+app-misc/topfew 2.0.0 9999: Finds most often fields in a stream of records
 app-misc/up 0.4 9999: Tool for writing Linux pipes with instant live preview
-app-misc/xq 1.2.4 9999: Command-line JSON processor for binary data
+app-misc/xq 1.3.0 9999: Command-line JSON processor for binary data
 app-office/tradingview 2.9.2.1: A charting platform for traders and investors
 app-office/webull-desktop 8.9.0: Invest in stocks, ETFs, and options with Webull Financial
 app-shells/fpp 0.9.5 9999: Command line tool to select files out of bash output
