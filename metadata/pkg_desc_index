@@ -173,7 +173,7 @@ app-misc/ag 2.2.0_p1 9999: A code-searching tool with a focus on speed
 app-misc/amazon-ec2-instance-selector 3.1.1 9999: Amazon EC2 Instance Selector
 app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
-app-misc/cheat 4.0.2 9999: Interactive cheatsheets on the command-line
+app-misc/cheat 4.4.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.6.10 9999: Interactive cryptocurrency monitor
 app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
 app-misc/fq 0.15.1 9999: Command-line JSON processor for binary data

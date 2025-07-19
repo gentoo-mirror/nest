@@ -1,11 +1,11 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.20:= app-arch/unzip
 DEFINED_PHASES=compile install test unpack
 DESCRIPTION=Interactive cheatsheets on the command-line
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/cheat/cheat
-INHERIT=bash-completion-r1 git-r3 go-module
+INHERIT=git-r3 go-module shell-completion
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	bash-completion-r1	767861f3744f589ee5291c1698b1c082	git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885
-_md5_=1c1fb290c8be4e62d75947f00af7cdbf
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885	bash-completion-r1	767861f3744f589ee5291c1698b1c082	shell-completion	0b655d0d825e157a5e99c463bddaac16
+_md5_=fe34b40cac84b984e1ee07fecb4d756e
