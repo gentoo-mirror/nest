@@ -44,6 +44,7 @@ app-misc/tmux-resurrect:neovim - Support for app-editors/neovim
 app-misc/tmux-resurrect:vim - Support for app-editors/vim-core
 app-shells/tlog:utempter - Include utmp management support via sys-libs/libutempter
 dev-cpp/belr:tools - Build tools
+dev-db/odyssey:compression - Build compression support
 dev-db/pg_repack:client - Build CLI client
 dev-db/pgloader:runtime-options - Use runtime options as command line arguments
 dev-db/soci:boost - Enable support for dev-libs/boost

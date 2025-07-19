@@ -1,15 +1,18 @@
 BDEPEND=dev-build/make >=dev-build/cmake-3.20.5 virtual/pkgconfig
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=acct-user/odyssey dev-db/postgresql:= dev-libs/openssl:0= sys-libs/pam
+DEPEND=acct-user/odyssey dev-db/postgresql:= dev-libs/openssl:0= net-nds/openldap:0= zlib? ( sys-libs/zlib:0= ) zstd? ( app-arch/zstd:0= ) sys-libs/pam
 DESCRIPTION=Scalable PostgreSQL connection pooler
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/yandex/odyssey
 INHERIT=cmake systemd
-IUSE=debug
+IUSE=compression debug zlib zstd
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
-RDEPEND=acct-user/odyssey dev-db/postgresql:= dev-libs/openssl:0= sys-libs/pam
+PROPERTIES=test_network
+RDEPEND=acct-user/odyssey dev-db/postgresql:= dev-libs/openssl:0= net-nds/openldap:0= zlib? ( sys-libs/zlib:0= ) zstd? ( app-arch/zstd:0= ) sys-libs/pam
+REQUIRED_USE=zlib? ( compression ) zstd? ( compression )
+RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/yandex/odyssey/archive/1.1.tar.gz -> odyssey-1.1.tar.gz
+SRC_URI=https://github.com/yandex/odyssey/archive/1.4.0.tar.gz -> odyssey-1.4.0.tar.gz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	systemd	a964c0cbe818b5729da1dbfcee5be861
-_md5_=907c0980a154a9bbc07ff26c670bcedb
+_md5_=a06c5490df5a7b3895756d7e89fe6527
