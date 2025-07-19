@@ -908,8 +908,6 @@ dev-python/graphene-django 3.2.3 9999: A Django integration for Graphene
 dev-python/graphql-core 3.2.6 9999: Python port of GraphQL.js
 dev-python/graphql-relay 3.2.0 9999: A library to help construct a graphql-py server supporting react-relay
 dev-python/grpc-google-iam-v1 0.14.2 9999: Python Client for Cloud Identity and Access Management
-dev-python/grpcio 1.64.1 9999: High-performance RPC framework (python libraries)
-dev-python/grpcio-status 1.64.1 9999: Status proto mapping for gRPC
 dev-python/hijri-converter 2.3.1: Hijri-Gregorian date converter
 dev-python/hijridate 2.5.0 9999: Hijri-Gregorian date converter
 dev-python/hsh 1.1.0 9999: Simple cross-platform file hash digests and file integrity checks
