@@ -1,15 +1,15 @@
-BDEPEND=dev-cpp/xsd virtual/pkgconfig || ( app-editors/vim-core dev-util/xxdi ) doc? ( app-text/doxygen ) test? ( dev-libs/boost:= ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=virtual/pkgconfig doc? ( app-text/doxygen ) test? ( dev-libs/boost:= ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-libs/libdigidoc dev-libs/opensc dev-libs/openssl:0= dev-libs/xalan-c dev-libs/xerces-c dev-libs/xml-security-c sys-libs/zlib:0=[minizip] java? ( virtual/jre:= ) pdf? ( virtual/podofo-build ) java? ( dev-lang/swig ) virtual/libiconv
+DEPEND=dev-libs/libxml2:2 dev-libs/opensc:0= dev-libs/xmlsec:=[openssl] dev-libs/libxslt sys-libs/zlib:0=[minizip] java? ( virtual/jre:= ) java? ( dev-lang/swig )
 DESCRIPTION=Library for handling digitally signed documents
 EAPI=8
 HOMEPAGE=https://github.com/open-eid/libdigidocpp https://id.ee
 INHERIT=cmake git-r3
-IUSE=doc java pdf test +utils
-LICENSE=BSD GPL-2 MIT OASIS-Open W3C ZLIB
+IUSE=doc java test +utils
+LICENSE=LGPL-2.1
 PROPERTIES=live
-RDEPEND=dev-libs/libdigidoc dev-libs/opensc dev-libs/openssl:0= dev-libs/xalan-c dev-libs/xerces-c dev-libs/xml-security-c sys-libs/zlib:0=[minizip] java? ( virtual/jre:= ) pdf? ( virtual/podofo-build )
+RDEPEND=dev-libs/libxml2:2 dev-libs/opensc:0= dev-libs/xmlsec:=[openssl] dev-libs/libxslt sys-libs/zlib:0=[minizip] java? ( virtual/jre:= )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=0a47a06542bfbb1862c7cf5195f98c47
+_md5_=d828447d613a95d1f1393c164ad4fa6b

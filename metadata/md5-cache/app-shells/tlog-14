@@ -12,4 +12,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/Scribery/tlog/archive/v14.tar.gz -> tlog-14.tar.gz
 _eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	955b29ccd82c1df4755e5f37748d2fa6	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
-_md5_=1b376acac49bd9ae929148525e0ecc2b
+_md5_=805f4549a75c2123963a08b3ee633d2c

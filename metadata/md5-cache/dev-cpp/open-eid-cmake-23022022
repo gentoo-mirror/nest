@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=Open Electronic Identity CMake modules
-EAPI=8
-HOMEPAGE=https://github.com/open-eid/cmake http://id.ee
-KEYWORDS=~amd64 ~x86
-LICENSE=LGPL-2.1
-SLOT=0
-SRC_URI=https://api.github.com/repos/open-eid/cmake/tarball/eececc0 -> open-eid-cmake-23022022.tar.gz
-_md5_=6902571fd8ac574c11d7d7cb4f08744b
