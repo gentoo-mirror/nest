@@ -171,12 +171,10 @@ app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
 app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/ag 2.2.0_p1 9999: A code-searching tool with a focus on speed
 app-misc/amazon-ec2-instance-selector 3.1.1 9999: Amazon EC2 Instance Selector
-app-misc/android-file-transfer-linux 3.9 9999: Reliable MTP client with minimalistic UI
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
 app-misc/cheat 4.4.2 9999: Interactive cheatsheets on the command-line
 app-misc/cointop 1.6.10 9999: Interactive cryptocurrency monitor
 app-misc/deco 3.9.6: Demos Commander, a free Norton Commander clone
-app-misc/fq 0.15.1 9999: Command-line JSON processor for binary data
 app-misc/gitmux 0.11.2 9999: Git in your tmux status bar
 app-misc/gron 0.7.1 9999: Make JSON greppable
 app-misc/hq 3.2 9999: A HTML processor inspired by jq
