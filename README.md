@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1217](https://img.shields.io/badge/ebuild-1217-orange.svg)](https://img.shields.io/badge/ebuild-1217-orange.svg)
+[![Number of ebuilds: 1213](https://img.shields.io/badge/ebuild-1213-orange.svg)](https://img.shields.io/badge/ebuild-1213-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -220,13 +220,11 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-db/[mongodb-compass](https://github.com/mongodb-js/compass) | The MongoDB GUI
 *   dev-db/[msodbcsql](https://learn.microsoft.com/en-us/sql/connect/odbc/microsoft-odbc-driver-for-sql-server) | Microsoft ODBC Driver for SQL Server
 *   dev-db/[mssql-cli](https://github.com/dbcli/mssql-cli) | CLI for SQL Server Database
-*   dev-db/[mssql-scripter](https://github.com/microsoft/mssql-scripter) | CLI for scripting SQL Server Databases
 *   dev-db/[mssql-tools](https://docs.microsoft.com/en-us/sql/tools/overview-sql-tools) | Microsoft SQL Server Tools for Linux
 *   dev-db/[pg_cron](https://github.com/citusdata/pg_cron) | Run periodic jobs in PostgreSQL
 *   dev-db/[pg_hint_plan](https://github.com/ossc-db/pg_hint_plan) | Manually force decisions in execution plans of PostgreSQL
 *   dev-db/[odyssey](https://github.com/yandex/odyssey) | Scalable PostgreSQL connection pooler
 *   dev-db/[pg-safeupdate](https://github.com/eradman/pg-safeupdate) | PostgreSQL extension that requires criteria for UPDATE and DELETE
-*   dev-db/[pg_page_verification](https://github.com/google/pg_page_verification) | Checksums verification on PostgreSQL data pages
 *   dev-db/[pg_profile](https://github.com/zubkov-andrei/pg_profile) | Postgres historic performance reports
 *   dev-db/[pg_repack](https://github.com/reorg/pg_repack) | PostgreSQL extension for data reorganization
 *   dev-db/[pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) | A PostgreSQL extension for automatic bloat cleanup
@@ -235,7 +233,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-db/[pgloader](https://github.com/dimitri/pgloader) | A data loading tool for PostgreSQL, using the COPY command
 *   dev-db/[postgresql_anonymizer](https://gitlab.com/dalibo/postgresql_anonymizer) | Anonymization & Data Masking for PostgreSQL
 *   dev-db/[sqlbench](https://github.com/felixge/sqlbench) | Measures and compares execution time of one or more SQL queries
-*   dev-db/[sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage?view=sql-server-ver15) | Automates SQL Server database development tasks
+*   dev-db/[sqlpackage](https://docs.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage?view=sql-server-ver17) | Automates SQL Server database development tasks
 *   dev-db/[soci](https://github.com/SOCI/soci) | Database access library for C++
 *   dev-db/[step-badger](https://github.com/lukasz-lobocki/step-badger) | Exporting data out of the badger database of step-ca
 *   dev-db/[tableplus](https://tableplus.com) | Modern, native, and friendly GUI tool for relational databases
@@ -867,7 +865,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[flex](https://github.com/pipermerriam/flex) | Validation tooling for Swagger 2.0 specifications
 *   dev-python/[flup](https://www.saddi.com/software/flup/) | Random assortment of WSGI servers
 *   dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
-*   dev-python/[future](https://github.com/PythonCharmers/python-future) | Easy, clean, reliable Python 2/3 compatibility
 *   dev-python/[gensim](https://github.com/piskvorky/gensim) | Topic Modelling for Humans
 *   dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
 *   dev-python/[glom](https://github.com/mahmoud/glom) | A declarative object transformer for conglomerating nested data
