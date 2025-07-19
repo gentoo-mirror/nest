@@ -168,7 +168,7 @@ app-forensics/kerbrute 1.0.3_p20201116 9999: A tool to perform Kerberos pre-auth
 app-forensics/whispers 2.4.0 9999: Identify hardcoded secrets in static structured text
 app-metrics/amazon-cloudwatch-agent 1.247350.0 9999: Amazon Cloudwatch Agent
 app-metrics/aws-otel-collector 0.7.0 9999: Amazon AWS Opentelemetry Collector
-app-metrics/do-agent 3.13.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
+app-metrics/do-agent 3.17.0 9999: DigitalOcean Agent for Enhanced Droplet Graphs
 app-misc/ag 2.2.0_p1 9999: A code-searching tool with a focus on speed
 app-misc/amazon-ec2-instance-selector 3.1.1 9999: Amazon EC2 Instance Selector
 app-misc/ccut 3.1 9999: A unix cut command with a couple of extra features
@@ -238,11 +238,11 @@ dev-cpp/libodb 2.5.0_beta25: Common ODB runtime library
 dev-cpp/libodb-sqlite 2.5.0_beta25: Common ODB runtime library
 dev-cpp/libxsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler library
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
-dev-cpp/string-view-lite 1.6.0 9999: A single-file header-only version of a C++17-like string_view
+dev-cpp/string-view-lite 1.8.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.7.1 9999: Powerful database anonymizer with flexible rules
 dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
-dev-db/dbgate-bin 5.3.4: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
+dev-db/dbgate-bin 6.5.6: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/dynamodb-shell 0.8.1 9999: A command line client (shell) for AWS DynamoDB
 dev-db/dynein 0.3.0 9999: DynamoDB Command Line Interface
 dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
