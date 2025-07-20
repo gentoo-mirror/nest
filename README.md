@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1213](https://img.shields.io/badge/ebuild-1213-orange.svg)](https://img.shields.io/badge/ebuild-1213-orange.svg)
+[![Number of ebuilds: 1215](https://img.shields.io/badge/ebuild-1215-orange.svg)](https://img.shields.io/badge/ebuild-1215-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -111,6 +111,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-crypt/[acme-client](https://git.sr.ht/~graywolf/acme-client-portable) | Secure Let's Encrypt client
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/acme.sh.svg?header=)](https://repology.org/project/acme.sh/versions) app-crypt/[acme-sh](https://github.com/acmesh-official/acme.sh) | A pure Unix shell script implementing ACME client protocol
 *   app-crypt/[age](https://github.com/FiloSottile/age) | Simple, modern and secure encryption tool
+*   app-crypt/[digidoc4-client](https://github.com/open-eid/DigiDoc4-Client) | Digital signing and encrypting documents
 *   app-crypt/[labca](https://github.com/hakwerk/labca) | A private Certificate Authority for internal (lab) use
 *   app-crypt/[qesteidutil](https://github.com/open-eid/qesteidutil) | Estonian ID card management desktop utility
 *   app-crypt/[rolesanywhere-credential-helper](https://github.com/aws/rolesanywhere-credential-helper) | AWS IAM Roles Anywhere Credential Helper
@@ -118,6 +119,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-crypt/[step-ca](https://github.com/smallstep/certificates) | A private certificate authority and ACME server
 *   app-crypt/[step-kms-plugin](https://github.com/smallstep/certificates) | A private certificate authority and ACME server
 *   app-crypt/[totp](https://github.com/arcanericky/totp) | Time-Based One-Time Password Code Generator
+*   app-crypt/[web-eid](https://github.com/web-eid/web-eid-app) | Digital signing and authentication operations with electronic ID
 *   app-editors/[qedit](http://hugo.pereira.free.fr/software/index.php) | Qt-based multi-purpose text editor
 *   app-editors/[lite](https://github.com/rxi/lite) | A lightweight text editor written in Lua
 *   app-editors/[micro](https://github.com/zyedidia/micro) | A modern and intuitive terminal-based text editor
