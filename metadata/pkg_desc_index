@@ -1116,7 +1116,7 @@ kde-misc/plasma-power-monitor 0.2 9999: Plasma widget to monitor the power consu
 kde-misc/plasma5-wallpapers-dynamic 4.4.1 9999: Dynamic wallpaper plugin for KDE Plasma
 kde-misc/plasmoid-wunderground 3.4.3 9999: Plasma 5/6 widget for showing data from Wunderground PWS
 kde-misc/plasmoid-wunderground-extended 0.7.1 9999: KDE5 Plasma Weather Widget
-kde-misc/plasmusic-toolbar 3.0.0 9999: Currently playing song and playback controls in Plasma 6
+kde-misc/plasmusic-toolbar 3.1.0 9999: Currently playing song and playback controls in Plasma 6
 kde-misc/pminhibition 1.9 9999: Plasma applet shows information about power management inhibition
 kde-misc/qCheckGMail 2.2.0 9999: qCheckGmail is a Qt/C++ multiple gmail account checker
 media-gfx/butteraugli 9999 20032019: A tool for measuring perceived differences between images
