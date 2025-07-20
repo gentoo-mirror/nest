@@ -1,0 +1,15 @@
+BDEPEND=dev-qt/qttools:6[linguist] virtual/pkgconfig test? ( dev-cpp/gtest:0= ) app-alternatives/ninja >=dev-build/cmake-3.20.5 >=dev-vcs/git-1.8.2.1[curl] test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=dev-libs/openssl:0= dev-qt/qtbase:6=[network,widgets] dev-qt/qtsvg:6= sys-apps/pcsc-lite
+DESCRIPTION=Digital signing and authentication operations with electronic ID
+EAPI=8
+HOMEPAGE=https://github.com/web-eid/web-eid-app
+INHERIT=cmake git-r3 readme.gentoo-r1 virtualx
+IUSE=test test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-libs/openssl:0= dev-qt/qtbase:6=[network,widgets] dev-qt/qtsvg:6= sys-apps/pcsc-lite
+RESTRICT=!test? ( test ) !test? ( test )
+SLOT=0
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	git-r3	875eb471682d3e1f18da124be97dcc81	readme.gentoo-r1	b045f3acf546393ab6b3170781875358	virtualx	9741d451eb64ea8bb9faee90d68a9b68
+_md5_=2191c75b47f474076daa71650351cd39

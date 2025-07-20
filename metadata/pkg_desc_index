@@ -143,6 +143,7 @@ app-backup/wal-g 3.0.5 9999: Archival restoration tool for databases
 app-containers/lazydocker 0.24.1 9999: Lazier way to manage everything docker
 app-crypt/acme-client 1.3.2 9999: Secure Let's Encrypt client
 app-crypt/acme-sh 3.1.0 9999: A pure Unix shell script implementing ACME client protocol
+app-crypt/digidoc4-client 4.8.0 9999: Digital signing and encrypting documents
 app-crypt/labca 25.03 9999: A private Certificate Authority for internal (lab) use
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/rolesanywhere-credential-helper 1.6.0 9999: AWS IAM Roles Anywhere Credential Helper
@@ -150,6 +151,7 @@ app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.28.6 9999: A zero trust swiss army knife for working with X509
 app-crypt/step-kms-plugin 0.13.0 9999: A private certificate authority and ACME server
 app-crypt/totp 1.1.2 9999: Time-Based One-Time Password Code Generator
+app-crypt/web-eid 2.7.0 9999: Digital signing and authentication operations with electronic ID
 app-editors/NotepadNext 0.12 9999: A cross-platform reimplementation of Notepad++
 app-editors/lite 1.11 9999: A lightweight text editor written in Lua
 app-editors/marktext 0.17.1: A simple and elegant open-source markdown editor

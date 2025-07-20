@@ -1,0 +1,15 @@
+BDEPEND=dev-qt/qttools:6[linguist] virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=dev-libs/flatbuffers:= dev-libs/libdigidocpp dev-libs/openssl:0= dev-qt/qtbase:6=[network,widgets] dev-qt/qtsvg:6= net-nds/openldap sys-apps/pcsc-lite sys-libs/zlib:= gnome? ( gnome-base/nautilus sys-devel/gettext )
+DESCRIPTION=Digital signing and encrypting documents
+EAPI=8
+HOMEPAGE=https://github.com/open-eid/DigiDoc4-Client
+INHERIT=cmake plocale
+IUSE=gnome
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-libs/flatbuffers:= dev-libs/libdigidocpp dev-libs/openssl:0= dev-qt/qtbase:6=[network,widgets] dev-qt/qtsvg:6= net-nds/openldap sys-apps/pcsc-lite sys-libs/zlib:= gnome? ( gnome-base/nautilus sys-devel/gettext )
+SLOT=0
+SRC_URI=https://github.com/open-eid/DigiDoc4-Client/archive/v4.8.0.tar.gz -> DigiDoc4-Client-4.8.0.tar.gz https://github.com/open-eid/qt-common/archive/6a1b2817ca3bdb529ec272dc9414d64c7e996f95.tar.gz -> DigiDoc4-Client-4.8.0-qtc.tar.gz https://sr.riik.ee/tsl/estonian-tsl.xml -> EE.xml https://ec.europa.eu/tools/lotl/eu-lotl.xml https://id.eesti.ee/config.json https://id.eesti.ee/config.rsa https://id.eesti.ee/config.pub
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	plocale	950fbaec7deeba41b5bcc0572cca99b9
+_md5_=9d4aafce03a9c0a8fa550051673197c9
