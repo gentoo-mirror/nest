@@ -713,7 +713,7 @@ dev-php/psr-http-message 2.0 9999: Common interfaces for HTTP messages
 dev-php/psr-simple-cache 3.0.0 9999: PHP FIG Simple Cache PSR
 dev-php/ralouphie-getallheaders 3.0.3 9999: PHP getallheaders polyfill
 dev-php/revolt-event-loop 1.0.6 9999: Event loop for concurrent PHP applications
-dev-php/scrypt 2.0.1 9999: A PHP wrapper fo the scrypt hashing algorithm
+dev-php/scrypt 2.0.1 9999: A PHP wrapper for the scrypt hashing algorithm
 dev-php/sebastian-cli-parser 2.0.1 9999: Library for parsing CLI options
 dev-php/sebastian-code-unit 2.0.0 9999: Collection of PHP code units
 dev-php/sebastian-code-unit-reverse-lookup 3.0.0 9999: Looks up which function or method a line of code belongs to
