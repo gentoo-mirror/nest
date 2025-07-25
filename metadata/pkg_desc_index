@@ -1266,7 +1266,7 @@ sys-fs/adhocify 1.1 9999: Tool which monitors for inotify events and executes sc
 sys-fs/duf 0.8.1 9999: Disk Usage/Free Utility
 sys-fs/xfs_undelete 14.0 9999: An undelete tool for the XFS filesystem
 sys-power/freqtop 9999 20230315: Monitor for the CPU Frequency Scaling under Linux
-sys-power/powerstat 0.04.04 9999: Laptop power measuring tool
+sys-power/powerstat 0.04.05 9999: Laptop power measuring tool
 sys-process/btop 1.2.5 9999: A monitor of resources
 sys-process/falco-bin 0.26.1: Cloud-Native runtime security
 sys-process/nq 1.0 9999: Unix command line queue utility

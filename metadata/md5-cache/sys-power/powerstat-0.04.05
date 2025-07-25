@@ -6,6 +6,6 @@ INHERIT=bash-completion-r1 toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
 SLOT=0
-SRC_URI=https://github.com/ColinIanKing/powerstat/archive/V0.04.04.tar.gz -> powerstat-0.04.04.tar.gz
+SRC_URI=https://github.com/ColinIanKing/powerstat/archive/V0.04.05.tar.gz -> powerstat-0.04.05.tar.gz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	bash-completion-r1	767861f3744f589ee5291c1698b1c082
 _md5_=69ecf25b51146541555318970ef9063e
