@@ -1069,7 +1069,6 @@ dev-util/shfmt 3.5.1 9999: A shell parser, formatter, and interpreter with bash 
 dev-util/sqlfluff 3.3.1 9999: A SQL linter and auto-formatter
 dev-util/swapusage 1.1 9999: Amount of swapped memory for running processes
 dev-util/taskcat 0.9.56 9999: An OpenSource Cloudformation Deployment Framework
-dev-util/testmace 9999: Powerful IDE to work with API
 dev-util/tickgit 0.0.14 9999: Manage your repository's TODOs as config in your codebase
 dev-util/xxd 8.1.1306 9999: Hexdump utility from vim
 dev-vcs/blackbox 2.0.0 9999: Safely store secrets in Git/Mercurial/Subversion
@@ -1085,7 +1084,6 @@ kde-misc/applet-latte-analogclock 0.2.0 9999: Analog clock applet that respects 
 kde-misc/applet-latte-separator 0.1.2 9999 20240312: Plasma 5 applet that acts as a separator between applets
 kde-misc/applet-latte-sidebar-button 0.2.1 9999: Plasma 5 applet to show and hide Latte Sidebars
 kde-misc/applet-latte-spacer 0.3.0 9999 20240323: Plasma 5 applet that acts as a spacer between applets
-kde-misc/applet-window-appmenu 0.8.0 9999: Plasma 5 applet in order to show window appmenu in your panels
 kde-misc/applet-window-buttons6 0.14.0 9999: Plasma 6 applet in order to show window buttons in your panels
 kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and icon in your panels
 kde-misc/applet-window-title6 9999 20240510: Plasma 6 applet shows window title and icon in your panels
@@ -1144,7 +1142,7 @@ media-sound/cozy 1.2.1 1.3.0 9999: Modern audiobook player
 media-sound/finetune 2.2.1: Automatic music tagger
 media-sound/mpz 1.0.23 9999: Music player for big local collections
 media-sound/musique 1.12 9999: A finely crafted music player
-media-sound/plexamp 4.11.1: Music focused client for Plex
+media-sound/plexamp 4.12.4: Music focused client for Plex
 media-sound/sayonara 1.10.0_p1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 4.0.0 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.4.1 9999: A spotify daemon
