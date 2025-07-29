@@ -826,6 +826,7 @@ dev-python/azure-core 1.34.0 9999: Azure Core shared client library for Python
 dev-python/azure-identity 1.23.0 9999: Azure Identity client library for Python
 dev-python/azure-keyvault-secrets 4.9.0 9999: Microsoft Azure Key Vault Secrets Client Library for Python
 dev-python/azure-storage-blob 12.25.1 9999: Microsoft Azure Storage Blobs Library for Python
+dev-python/backoff 2.2.1 9999: Function decoration for backoff and retry
 dev-python/bc-detect-secrets 1.5.37 9999: A fork of enterprise friendly way of detecting and preventing secrets
 dev-python/bc-jsonpath-ng 1.6.1 9999: Python JSONPath Next-Generation
 dev-python/bc-python-hcl2 0.4.2 9999: A fork of parser for HCL2 written in Python
