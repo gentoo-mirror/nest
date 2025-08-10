@@ -1171,7 +1171,7 @@ net-firewall/ipt-ratelimit 9999 20240923: Ratelimit iptables module
 net-firewall/xt_anat 0.0.9: Assimetric NAT module for Linux xtables
 net-firewall/xt_dns 1.5 9999: Netfilter extension to match various DNS atributes
 net-firewall/xt_nat 9999: Full Cone NAT module for Linux iptables
-net-fs/mc 2025.04.16.18.13.26-r1 9999: Minio client provides alternatives for ls, cat on cloud storage and filesystems
+net-fs/mc 2025.07.21.05.28.08-r1 9999: Minio client provides alternatives for ls, cat on cloud storage and filesystems
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 5.0.1-r2: Chat and network platform
