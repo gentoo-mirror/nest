@@ -1,5 +1,5 @@
 BDEPEND=|| ( >=dev-lang/rust-bin-1.74.1:* >=dev-lang/rust-1.74.1:* ) >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install prepare setup test unpack
+DEFINED_PHASES=compile configure install setup test unpack
 DESCRIPTION=Ping, but with a graph
 EAPI=8
 HOMEPAGE=https://github.com/orf/gping
@@ -10,4 +10,4 @@ PROPERTIES=live
 RESTRICT=mirror
 SLOT=0
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	2c958ff95a0fd21c1cb19e961cb2946d	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	5da01b45ec362e78575502b4fb82773a	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=ecbf98d9a0957f129d07eabe9b281ef8
+_md5_=a5bebd60d2f349a8738c40b2578911b9
