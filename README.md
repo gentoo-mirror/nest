@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1214](https://img.shields.io/badge/ebuild-1214-orange.svg)](https://img.shields.io/badge/ebuild-1214-orange.svg)
+[![Number of ebuilds: 1211](https://img.shields.io/badge/ebuild-1211-orange.svg)](https://img.shields.io/badge/ebuild-1211-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -900,7 +900,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[jproperties](https://github.com/Tblue/python-jproperties) | Java Property file parser and writer for Python
 *   dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 *   dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
-*   dev-python/[jsonpath-ng](https://github.com/h2non/jsonpath-ng) | Python JSONPath Next-Generation
 *   dev-python/[langdetect](https://github.com/Mimino666/langdetect) | Language detection library ported from Google
 *   dev-python/[ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump) | Active Directory information dumper via LDAP
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
@@ -1233,7 +1232,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   net-misc/[topola](https://topola.unity.net) | Customer accounting system, services and statistics collection management
 *   net-misc/[uredir](https://github.com/troglobit/uredir) | UDP port redirector
 *   net-misc/[virtualhere-usb](https://virtualhere.com) | Share USB devices over the network
-*   net-misc/[websocat](https://github.com/vi/websocat) | Netcat, curl and socat for WebSockets
 *   net-misc/[winbox](https://mikrotik.com/) | Standalone client for Mikrotik routers
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/x11-ssh-askpass.svg?header=)](https://repology.org/project/x11-ssh-askpass/versions) net-misc/[x11-ssh-askpass](https://github.com/sigmavirus24/x11-ssh-askpass) | X11-based passphrase dialog for use with OpenSSH
 *   net-misc/[xh](https://github.com/ducaale/xh) | Friendly and fast tool for sending HTTP requests
@@ -1258,7 +1256,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   sys-apps/[choose](https://github.com/theryangeary/choose) | Fast alternative to cut and awk
 *   sys-apps/[direnv](https://github.com/direnv/direnv) | Environment variable manager for shell
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/ethq.svg?header=)](https://repology.org/project/ethq/versions) sys-apps/[ethq](https://github.com/isc-projects/ethq) | Ethernet NIC Queue stats viewer
-*   sys-apps/[dust](https://github.com/bootandy/dust) | More intuitive version of du
 *   sys-apps/[evhz](https://git.sr.ht/~iank/evhz) | Mouse refresh rate under evdev
 *   sys-apps/[firetools](https://firejail.wordpress.com) | Graphical user interface of Firajail security sandbox
 *   sys-apps/[jless](https://github.com/PaulJuliusMartinez/jless) | Command-line JSON viewer
