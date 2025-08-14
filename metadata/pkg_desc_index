@@ -914,7 +914,6 @@ dev-python/jdatetime 4.1.1 9999: Jalali implementation of Python's datetime modu
 dev-python/jiter 0.9.0 9999: Fast iterable JSON parser
 dev-python/jproperties 2.1.2 9999: Java Property file parser and writer for Python
 dev-python/jsonfield 3.1.0 9999: A reusable Django model field for storing ad-hoc JSON data
-dev-python/jsonpath-ng 1.5.3 9999: Python JSONPath Next-Generation
 dev-python/langdetect 1.0.9 9999: Language detection library ported from Google
 dev-python/ldapdomaindump 0.10.0_p20250406 9999: Active Directory information dumper via LDAP
 dev-python/llvmlite 0.43.0 9999: A lightweight wrapper around basic LLVM functionality
@@ -1224,7 +1223,6 @@ net-misc/stargazer 2.409_rc4 2.409: Billing system for small home and office net
 net-misc/topola 5.36.58: Customer accounting system, services and statistics collection management
 net-misc/uredir 3.3 9999: UDP port redirector
 net-misc/virtualhere-usb 9999: Share USB devices over the network
-net-misc/websocat 1.13.0 9999: Netcat, curl and socat for WebSockets
 net-misc/winbox 4.0_beta8: Standalone client for Mikrotik routers
 net-misc/wuzz 0.5.0 9999: Interactive cli tool for HTTP inspection
 net-misc/x11-ssh-askpass 1.2.4.1-r2 9999: X11-based passphrase dialog for use with OpenSSH
@@ -1246,9 +1244,8 @@ net-vpn/softether 4.34_beta9744 4.34_p9745 9999: Multi-protocol VPN software
 net-wireless/librepods 0.1.0_rc4 9999: AirPods libreated from Apple's ecosystem
 sci-visualization/visidata 3.0.2 9999: Terminal spreadsheet multitool for discovering and arranging data
 sys-apps/aptly 1.4.0 9999: A swiss army knife for Debian repository management
-sys-apps/choose 1.3.4 9999: Fast alternative to cut and awk
+sys-apps/choose 1.3.6 9999: Fast alternative to cut and awk
 sys-apps/direnv 2.31.0 9999: Environment variable manager for shell
-sys-apps/dust 1.0.0 9999: More intuitive version of du
 sys-apps/ethq 0.7.0 9999: Ethernet NIC Queue stats viewer
 sys-apps/evhz 9999: Mouse refresh rate under evdev
 sys-apps/firetools 0.9.64 9999: Graphical user interface of Firajail security sandbox
@@ -1256,7 +1253,7 @@ sys-apps/jless 0.9.0 9999: Command-line JSON viewer
 sys-apps/nocache 1.1 9999: Minimize caching effects for applications
 sys-apps/psi-notify 1.2.1 9999: Minimalistic PSI notifier using libnotify
 sys-apps/sampler 1.1.0 9999: Visualization for any shell command
-sys-apps/sd 0.7.6 9999: An intuitive find and replace tool
+sys-apps/sd 1.0.0 9999: An intuitive find and replace tool
 sys-apps/swapspace 1.18.1 9999: A dynamic swap space manager
 sys-auth/fprintd 1.94.5 9999: D-Bus service to access fingerprint readers
 sys-auth/libfprint-tod 1.94.9 9999: libfprint for Touch OEM Drivers
