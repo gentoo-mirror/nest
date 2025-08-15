@@ -806,7 +806,7 @@ dev-python/aiomultiprocess 0.9.1 9999: asyncio version of the standard multiproc
 dev-python/aiosmb 0.4.11 9999: Asynchronous SMB protocol implementation
 dev-python/aiowinreg 0.0.12 9999: Windows registry file reader
 dev-python/annoy 1.17.3 9999: Approximate Nearest Neighbors in C++/Python
-dev-python/anyconfig 0.13.0 9999: Generic access to configuration files in any formats
+dev-python/anyconfig 0.14.0 9999: Generic access to configuration files in any formats
 dev-python/apispec-webframeworks 1.2.0 9999: Web framework plugins for apispec
 dev-python/applicationinsights 0.11.10 9999: Application Insights SDK for Python
 dev-python/arc4 0.4.0 9999: A small and insanely fast ARCFOUR (RC4) cipher
@@ -1010,6 +1010,7 @@ dev-python/ssh2-python 1.0.0 9999: Super fast SSH2 protocol library, Python bind
 dev-python/swagger-spec-validator 3.0.4 9999: Python library that validates Swagger Specs
 dev-python/tablib 3.4.0 9999: Format-agnostic tabular dataset library
 dev-python/timecop 0.5.0_pre 9999: A port of TimeCop Ruby Gem for Python
+dev-python/toml 0.10.2 9999: Python Library for TOML
 dev-python/tree-format 0.1.2 9999: Python library for printing trees on the console
 dev-python/types-awscrt 0.19.8 9999: Type annotations and code completion for awscrt
 dev-python/types-s3transfer 0.7.0 9999: Type annotations and code completion for s3transfer
