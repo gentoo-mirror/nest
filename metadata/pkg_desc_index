@@ -245,7 +245,7 @@ dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema d
 dev-cpp/string-view-lite 1.8.0 9999: A single-file header-only version of a C++17-like string_view
 dev-cpp/xsd 4.2.0 9999: A cross-platform W3C XML Schema to C++ data binding compiler
 dev-db/datanymizer 0.7.1 9999: Powerful database anonymizer with flexible rules
-dev-db/dbcrossbar 0.5.7 9999: Copy tabular data between databases, CSV files and cloud storage
+dev-db/dbcrossbar 0.5.8_pre3 9999: Copy tabular data between databases, CSV files and cloud storage
 dev-db/dbgate-bin 6.5.6: Database manager for MySQL, PostgreSQL, SQL Server and MongoDB
 dev-db/dynamodb-shell 0.8.1 9999: A command line client (shell) for AWS DynamoDB
 dev-db/dynein 0.3.0 9999: DynamoDB Command Line Interface
