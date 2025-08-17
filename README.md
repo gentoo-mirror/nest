@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1212](https://img.shields.io/badge/ebuild-1212-orange.svg)](https://img.shields.io/badge/ebuild-1212-orange.svg)
+[![Number of ebuilds: 1209](https://img.shields.io/badge/ebuild-1209-orange.svg)](https://img.shields.io/badge/ebuild-1209-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -851,7 +851,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[django-pglocks](https://github.com/Xof/django-pglocks) | PostgreSQL locking context managers and functions for Django
 *   dev-python/[djangorestframework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
 *   dev-python/[djangorestframework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
-*   dev-python/[django-rest-swagger](https://marcgibbons.com/django-rest-swagger/) | Swagger UI for Django REST Framework
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
 *   dev-python/[dpath](https://github.com/dpath-maintainers/dpath-python) | A python module that will check for package updates
 *   dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
@@ -865,7 +864,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[filetype](https://github.com/h2non/filetype.py) | Infer file type and MIME type of any file/buffer
 *   dev-python/[fire](https://github.com/google/python-fire) | Library for automatically generating CLI from object
 *   dev-python/[fleep](https://github.com/floyernick/fleep-py) | File format determination library for Python
-*   dev-python/[flex](https://github.com/pipermerriam/flex) | Validation tooling for Swagger 2.0 specifications
 *   dev-python/[flup](https://www.saddi.com/software/flup/) | Random assortment of WSGI servers
 *   dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
 *   dev-python/[gensim](https://github.com/piskvorky/gensim) | Topic Modelling for Humans
@@ -926,7 +924,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[nmslib](https://github.com/nmslib/nmslib) | Non-Metric Space Library
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 *   dev-python/[openai](https://github.com/openai/openai-python) | The official Python library for the OpenAI API
-*   dev-python/[openapi-codec](https://github.com/core-api/python-openapi-codec) | An OpenAPI codec for Core API
 *   dev-python/[opentelemetry-exporter-otlp-proto-common](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Protobuf encoding
 *   dev-python/[opentelemetry-exporter-otlp-proto-http](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Collector Protobuf over HTTP Exporter
 *   dev-python/[opentelemetry-instrumentation](https://github.com/open-telemetry/opentelemetry-python-contrib) | Instrumentation Tools for OpenTelemetry Python
