@@ -405,7 +405,7 @@ dev-libs/libdigidocpp 4.2.0 9999: Library for handling digitally signed document
 dev-libs/libfixposix 0.5.1 9999: Thin wrapper over POSIX syscalls
 dev-libs/liblinphone 5.4.23 9999: SIP library supporting voice/video calls and text messaging
 dev-libs/libmongocrypt 1.11.0 9999: C library for Client Side and Queryable Encryption in MongoDB
-dev-libs/libopenrazer 0.1.0 9999: Qt wrapper around the D-Bus API from OpenRazer
+dev-libs/libopenrazer 0.4.0 9999: Qt wrapper around the D-Bus API from OpenRazer
 dev-libs/libthai 0.1.29 9999: A a set of Thai language support routines
 dev-libs/lime 5.4.23 9999: C++ library implementing Open Whisper System Signal protocol
 dev-libs/modest 0.0.6 9999: Fast HTML renderer
@@ -1234,7 +1234,7 @@ net-voip/linphone-desktop 6.0.0 9999: A free VoIP and video softphone based on t
 net-voip/twinkle 1.10.3 9999: Softphone for voice over IP and IM communication using SIP
 net-vpn/awsvpnclient 1.0.3: AWS VPN Client
 net-vpn/cloudflared 2021.4.0 9999: Argo Tunnel client
-net-vpn/forticlient 7.0.8.0292: Fortinet VPN client
+net-vpn/forticlient 7.4.3.1736: Fortinet VPN client
 net-vpn/innernet-bin 1.2.0 1.3.0_beta4: WireGuard based private network system
 net-vpn/openiked 7.4 9999: Internet Key Exchange version 2 (IKEv2) daemon
 net-vpn/openvpn-aws 2.5.2: Patched OpenVPN with SAML support for AWS Client VPN
@@ -1262,12 +1262,11 @@ sys-fs/duf 0.8.1 9999: Disk Usage/Free Utility
 sys-fs/xfs_undelete 14.0 9999: An undelete tool for the XFS filesystem
 sys-power/freqtop 9999 20230315: Monitor for the CPU Frequency Scaling under Linux
 sys-power/powerstat 0.04.05 9999: Laptop power measuring tool
-sys-process/btop 1.2.5 9999: A monitor of resources
 sys-process/falco-bin 0.26.1: Cloud-Native runtime security
 sys-process/nq 1.0 9999: Unix command line queue utility
 www-apps/LookingGlass 9999 25032019: A Python-backed Looking Glass
 www-apps/adminerevo 4.8.4 9999: Database management in a single PHP file
-www-apps/draw-io 20.0.1: Online diagramming web application
+www-apps/draw-io 28.0.9: Online diagramming web application
 www-apps/keeweb 9999: Cross-platform password manager compatible with KeePass
 www-apps/lookingglass 1.3.5 9999: Modern, simple and fresh looking glass based on Bootstrap 5 and PHP 8
 www-apps/tinyfilemanager 2.5.3 9999: Single-file PHP file manager
@@ -1279,7 +1278,7 @@ www-plugins/vdhcoapp-bin 2.0.19: Companion application for Video DownloadHelper 
 www-servers/gitlab-workhorse 8.43.0 9999: GitLab reverse proxy
 www-servers/imgproxy 3.20.0 9999: Server for resizing and converting remote images
 x11-libs/libvdpau-va-gl 0.4.2 9999: VDPAU driver with OpenGL/VAAPI backend
-x11-misc/RazerGenie 1.0.0 9999: Razer devices configurator
+x11-misc/RazerGenie 1.3.0 9999: Razer devices configurator
 x11-misc/libinput-gestures 2.80 9999: Actions gestures on your touchpad using libinput
 x11-misc/logkeys 0.2.0 9999: A Linux keylogger
 x11-misc/touchegg 2.0.17 9999: Linux multi-touch gesture recognizer
