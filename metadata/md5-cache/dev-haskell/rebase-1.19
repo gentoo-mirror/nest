@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=dev-haskell/bifunctors:=[profile?] dev-haskell/comonad:=[profile?] dev-haskell/contravariant:=[profile?] dev-haskell/dlist:=[profile?] dev-haskell/either:=[profile?] dev-haskell/groups:=[profile?] dev-haskell/hashable:=[profile?] dev-haskell/invariant:=[profile?] dev-haskell/profunctors:=[profile?] dev-haskell/scientific:=[profile?] dev-haskell/selective:=[profile?] dev-haskell/semigroupoids:=[profile?] dev-haskell/text:=[profile?] dev-haskell/time-compat:=[profile?] dev-haskell/unordered-containers:=[profile?] dev-haskell/uuid-types:=[profile?] dev-haskell/vector:=[profile?] dev-haskell/vector-instances:=[profile?] dev-haskell/void:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
 SLOT=0/1.19
 SRC_URI=https://hackage.haskell.org/package/rebase-1.19/rebase-1.19.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
 _md5_=1adcdb6d26d7000bbbbfec823895e1ae
