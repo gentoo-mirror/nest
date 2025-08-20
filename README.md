@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1208](https://img.shields.io/badge/ebuild-1208-orange.svg)](https://img.shields.io/badge/ebuild-1208-orange.svg)
+[![Number of ebuilds: 1200](https://img.shields.io/badge/ebuild-1200-orange.svg)](https://img.shields.io/badge/ebuild-1200-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -985,7 +985,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[rich](https://github.com/willmcgugan/rich) | Validate configuration and produce human readable error messages
 *   dev-python/[ripe-atlas-cousteau](https://github.com/RIPE-NCC/ripe-atlas-cousteau) | Official python wrapper around RIPE Atlas API
 *   dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-sagan) | A parsing library for RIPE Atlas measurement results
-*   dev-python/[route53-transfer](https://github.com/cosmin/route53-transfer) | Generic access to configuration files in any formats
 *   dev-python/[rstr](https://github.com/leapfrogonline/rstr) | Generate random strings in Python
 *   dev-python/[ruff](https://github.com/astral-sh/ruff) | Pytest module for ruff
 *   dev-python/[schema](https://github.com/keleshev/schema) | Simple data validation library
@@ -1002,7 +1001,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) | Autorebuild documentation on change
 *   dev-python/[sphinx-mdinclude](https://github.com/omnilib/sphinx-mdinclude) | Markdown extension for Sphinx
 *   dev-python/[sphinxcontrib-httpdomain](https://github.com/sphinx-contrib/httpdomain) | Documenting RESTful HTTP APIs
-*   dev-python/[sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid) | Mermaid diagrams in sphinx powered docs
 *   dev-python/[sphinxcontrib-openapi](https://github.com/sphinx-contrib/openapi) | Sphinx extension to generate APIs docs from OpenAPI
 *   dev-python/[ssh2-python](https://github.com/ParallelSSH/ssh2-python) | Super fast SSH2 protocol library, Python bindings for libssh2
 *   dev-python/[swagger-spec-validator](https://github.com/Yelp/swagger_spec_validator) | Python library that validates Swagger Specs
@@ -1086,9 +1084,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-vcs/[mercurial_keyring](https://foss.heptapod.net/mercurial/mercurial_keyring) | Mercurial Keyring Extension
 *   dev-vcs/[pre-commit](https://github.com/pre-commit/pre-commit) | A framework for multi-language pre-commit hooks
 *   dev-vcs/[transcrypt](https://github.com/elasticdog/transcrypt) | Transparently encrypt files within a git repository
-*   kde-misc/[applet-latte-analogclock](https://github.com/psifidotos/applet-latte-analogclock) | Analog clock applet that respects Latte items size
 *   kde-misc/[applet-latte-separator](https://github.com/psifidotos/applet-latte-separator) | Plasma 5 applet that acts as a separator between applets
-*   kde-misc/[applet-latte-sidebar-button](https://github.com/psifidotos/applet-latte-sidebar-button) | Plasma 5 applet to show and hide Latte Sidebars
 *   kde-misc/[applet-latte-spacer](https://github.com/psifidotos/applet-latte-spacer) | Plasma 5 applet that acts as a spacer between applets
 *   kde-misc/[applet-window-buttons6](https://github.com/moodyhunter/applet-window-buttons6) | Plasma 6 applet in order to show window buttons in your panels
 *   kde-misc/[applet-window-title](https://github.com/psifidotos/applet-window-title) | Plasma 5 applet shows window title and icon in your panels
@@ -1098,15 +1094,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   kde-misc/[Burn-My-Windows](https://github.com/Schneegans/Burn-My-Windows) | Disintegrate your windows with style
 *   kde-misc/[darkly](https://github.com/Bali10050/Darkly) | A modern style for qt applications
 *   kde-misc/[qCheckGMail](https://github.com/mhogomchungu/qCheckGMail) | qCheckGmail is a Qt/C++ multiple gmail account checker
-*   kde-misc/[kde-relaxingsounds](https://github.com/Prayag2/kde_relaxingsounds) | Plasma 5 widget for play relaxing sounds
 *   kde-misc/[kde-translator-widget](https://github.com/y4my4my4m/kde-translator-widget) | KDE Translator Widget
 *   kde-misc/[kwin-effects-sliding-notifications](https://github.com/zzag/kwin-effects-sliding-notifications) | Sliding animation for notification windows
-*   kde-misc/[latte-dock](https://apps.kde.org/latte-dock/) | Elegant dock, based on KDE Frameworks
 *   kde-misc/[latte-indicator-dashtopanel](https://github.com/psifidotos/latte-indicator-dashtopanel) | Dash To Panel indicator for Latte Dock
 *   kde-misc/[latte-indicator-unity](https://github.com/psifidotos/latte-indicator-unity) | Unity style indicator for Latte Dock
 *   kde-misc/[latte-indicator-win10](https://github.com/psifidotos/latte-indicator-win10) | Windows 10 style indicator for Latte Dock
 *   kde-misc/[latte-indicator-win7](https://github.com/psifidotos/latte-indicator-win7) | Windows 7 style indicator for Latte Dock
-*   kde-misc/[latte_slideshow_wallpaper](https://github.com/psifidotos/latte_slideshow_wallpaper) | Plasma 5 Wallpaper plugin that informs Latte about background
 *   kde-misc/[lightly](https://github.com/Luwx/Lightly) | KDE theme style with aim to be visually modern and minimalistic
 *   kde-misc/[lightly](https://github.com/xuzhao9/Lightly) | KDE theme style with aim to be visually modern and minimalistic
 *   kde-misc/[lyrics-on-panel](https://github.com/KangweiZhu/plasmusic-toolbar) | Lyrics for currently playing song in Plasma 6
@@ -1125,7 +1118,6 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   kde-misc/[plasmoid-wunderground-extended](https://github.com/rliwoch/plasmoid-wunderground-extended) | KDE5 Plasma Weather Widget
 *   kde-misc/[plasmusic-toolbar](https://github.com/ccatterina/plasmusic-toolbar) | Currently playing song and playback controls in Plasma 6
 *   kde-misc/[pminhibition](https://github.com/popov895/pminhibition) | Plasma applet shows information about power management inhibition
-*   kde-misc/[Tiled-Quicklaunch](https://github.com/Risu/Tiled-Quicklaunch) | Plasma Menu Widget for KDE
 *   media-gfx/[butteraugli](https://github.com/google/butteraugli) | A tool for measuring perceived differences between images
 *   media-gfx/[colorpick](https://github.com/qtilities/colorpick) | Color picker and contrast checker
 *   media-gfx/[depix](https://github.com/beurtschipper/Depix) | A tool for recovering passwords from pixelized screenshots
