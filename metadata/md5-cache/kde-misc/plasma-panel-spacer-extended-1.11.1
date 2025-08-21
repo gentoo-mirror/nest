@@ -1,4 +1,4 @@
-BDEPEND=kde-frameworks/extra-cmake-modules app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.116.0:*
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 dev-libs/libpcre2:* >=kde-frameworks/extra-cmake-modules-5.116.0:*
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test
 DEPEND=dev-qt/qtcore:5
 DESCRIPTION=Spacer with Mouse gestures for the KDE Plasma Panel
@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/luisbocanegra/plasma-panel-spacer-extended
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=ecm
-IUSE=plugin debug
+IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=kde-plasma/kdeplasma-addons:6 kde-plasma/plasma-workspace:6 plugin? ( dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtquickcontrols:5 kde-frameworks/ki18n:5 kde-plasma/libplasma:5 ) || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
+RDEPEND=kde-plasma/kdeplasma-addons:6 kde-plasma/plasma-workspace:6 || ( kde-frameworks/breeze-icons:* kde-frameworks/oxygen-icons:* ) >=kde-frameworks/kf-env-4 dev-qt/qtcore:5
 SLOT=0
 SRC_URI=https://github.com/luisbocanegra/plasma-panel-spacer-extended/archive/v1.11.1.tar.gz -> plasma-panel-spacer-extended-1.11.1.tar.gz
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	virtualx	9741d451eb64ea8bb9faee90d68a9b68	xdg	3ef49a87c52c8b77c476351195dfe575	ecm	ca1560f738b337a36fa9cf35054ea70a
-_md5_=b89d708f0d4c89dae155c83639a198b3
+_md5_=42018fa333bf239c61f6bc8e0ab8e24c
