@@ -1162,7 +1162,7 @@ net-fs/mc 2025.07.21.05.28.08-r1 9999: Minio client provides alternatives for ls
 net-ftp/weex 2.8.3 9999: A non-interactive FTP client for updating web pages
 net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 5.0.1-r2: Chat and network platform
-net-im/slack 4.45.64-r1: Team collaboration tool
+net-im/slack 4.45.69-r1: Team collaboration tool
 net-im/teams-for-linux 1.9.2: Unofficial Microsoft Teams for Linux client
 net-im/viber 24.9.0.3: Free text and calls
 net-libs/bctoolbox 5.4.23 9999: Utilities library used by Belledonne Communications softwares
