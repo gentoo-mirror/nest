@@ -252,7 +252,6 @@ dev-db/dynein 0.3.0 9999: DynamoDB Command Line Interface
 dev-db/go-sqlcmd 1.8.2 9999: CLI for SQL Server and Azure SQL
 dev-db/ip4r 2.4.2 9999: IP address and IP range index types for PostgreSQL
 dev-db/litestream 0.3.13 9999: Streaming replication for SQLite
-dev-db/mongodb-compass 1.46.6: The MongoDB GUI
 dev-db/msodbcsql 18.5.1.1: Microsoft ODBC Driver for SQL Server
 dev-db/mssql-cli 1.0 9999: CLI for SQL Server Database
 dev-db/mssql-tools 18.4.1.1: Microsoft SQL Server Tools for Linux
@@ -1084,7 +1083,7 @@ kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and 
 kde-misc/applet-window-title6 9999 20240510: Plasma 6 applet shows window title and icon in your panels
 kde-misc/chatai 2.2.1 9999: Chatbots as Plasmoid for KDE Plasma
 kde-misc/cpu-power-monitor 9999 20241219: KDE Plasma widget to monitor the CPU power consumption
-kde-misc/darkly 0.5.21 9999: A modern style for qt applications
+kde-misc/darkly 0.5.22 9999: A modern style for qt applications
 kde-misc/kde-mymemory-translator 9999 20250416: Plasmoid for translation using the mymemory translated api
 kde-misc/kde-translator-widget 1.0.0 9999: KDE Translator Widget
 kde-misc/kwin-effects-sliding-notifications 1.5.0 9999 20240704: Sliding animation for notification windows

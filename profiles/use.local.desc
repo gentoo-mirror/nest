@@ -540,6 +540,7 @@ dev-util/cloud-utils:iso - Enable ISO9660 support
 dev-util/cloud-utils:qemu - Enable QEMU stuff
 dev-util/dropwatch:bfd - Add support for Binary File Descriptor
 dev-util/gitlab-runner:docker - Add support for docker executors
+kde-misc/darkly:qt5 - Enable building for QT5
 kde-misc/qCheckGMail:kwallet - Enable encrypted storage of passwords with kde-frameworks/kwallet
 kde-misc/qCheckGMail:libsecret - Support locking of keyring via app-crypt/libsecret
 media-libs/mediastreamer2:av1 - Support for AV1 via media-libs/dav1d
