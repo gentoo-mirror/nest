@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/doctrine-lexer dev-php/fedora-autoloader dev-php/
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=03ab37dcf2ee69283165fe87b423dfcf
+_md5_=e437e8baaa2e4995d5a885dcb571f3b0

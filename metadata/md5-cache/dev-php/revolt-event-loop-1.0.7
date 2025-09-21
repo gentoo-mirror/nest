@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/pecl-ev dev-php/pecl-event dev-php/pecl-uv )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Event loop for concurrent PHP applications
+EAPI=8
+HOMEPAGE=https://github.com/revoltphp/event-loop
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/revoltphp/event-loop/archive/v1.0.7.tar.gz -> revolt-event-loop-1.0.7.tar.gz
+_md5_=5d9358a49302f00dbaeb682b2a67592c

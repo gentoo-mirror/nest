@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Guzzle Promises library for PHP with synchronous support
+EAPI=8
+HOMEPAGE=https://github.com/guzzle/promises
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/guzzle/promises/archive/2.3.0.tar.gz -> guzzlehttp-promises-2.3.0.tar.gz
+_md5_=ab733e9c6ad635a320c4fa7ef9c9ae66

@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/doctrine-event-manager dev-php/fedora-autoloader 
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=df04c97a0f4c88c9fd5aa7948107b30c
+_md5_=84d81e3161d3e04eb3754a59bf74b98f

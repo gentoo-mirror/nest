@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-phpunit-bridge ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony OptionsResolver Component
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-con
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4e64e09af42d4fcf0e1a230df4aec77e
+_md5_=74f827119930cd233e82743b0e553edc

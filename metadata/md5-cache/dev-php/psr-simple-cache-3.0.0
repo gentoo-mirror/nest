@@ -9,4 +9,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/php-fig/simple-cache/archive/3.0.0.tar.gz -> psr-simple-cache-3.0.0.tar.gz
-_md5_=aa5908b20ae7e20fe91d27c8253b8a2c
+_md5_=592fedf8ef54bb18e2bfc99505e1d06b

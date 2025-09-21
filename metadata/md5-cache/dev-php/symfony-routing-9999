@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/doctrine-annotations dev-php/phpunit dev-php/psr-log dev-php/symfony-config dev-php/symfony-dependency-injection dev-php/symfony-expression-language dev-php/symfony-http-foundation dev-php/symfony-phpunit-bridge dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/phpunit dev-php/psr-log dev-php/symfony-config dev-php/symfony-dependency-injection dev-php/symfony-expression-language dev-php/symfony-http-foundation dev-php/symfony-phpunit-bridge dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony Routing Component
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-con
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=31fc0ad377c151905230e56e9e5a2e2e
+_md5_=6220611082bb60d964703be7748c209e

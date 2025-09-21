@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=phpDocumentor TypeResolver component
+EAPI=8
+HOMEPAGE=https://github.com/phpDocumentor/TypeResolver
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/doctrine-deprecations dev-php/fedora-autoloader dev-php/phpdocumentor-reflection-common dev-php/phpstan-phpdoc-parser
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/phpDocumentor/TypeResolver/archive/1.10.0.tar.gz -> phpdocumentor-type-resolver-1.10.0.tar.gz
+_md5_=77d4b6ae039195f75ce95f51f9cbdaa4

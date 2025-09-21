@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/phpunit dev-php/symfony-error-handler dev-php/symfony-intl dev-php/symfony-translation-contracts ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-emoji dev-php/symfony-error-handler dev-php/symfony-intl dev-php/symfony-translation-contracts ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=An object-oriented API to strings
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-ctype 
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=ae7ce7ddf076ef1d7cb31d0a53c6c791
+_md5_=3b7c7a3c74bcd25699d2c71b70d2a1e4

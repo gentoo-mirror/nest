@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/composer dev-php/guzzlehttp-psr7 dev-php/mongodb dev-php/pecl-mongodb dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/composer dev-php/guzzlehttp-psr7 dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Abstraction for local and remote filesystems
 EAPI=8
@@ -12,4 +12,4 @@ REQUIRED_USE=test? ( fileinfo ftp zip )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=85b37d4de312a364eb56a65a1b1e341e
+_md5_=91d65885dc6f6c94b06d04b5921fb669

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-dependency-injection dev-php/symfony-expression-language dev-php/symfony-http-foundation dev-php/symfony-phpunit-bridge dev-php/symfony-translation dev-php/symfony-validator )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony Security Core Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/security-core
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-event-dispatcher-contracts dev-php/symfony-password-hasher dev-php/symfony-service-contracts
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/security-core/archive/v7.3.3.tar.gz -> symfony-security-core-7.3.3.tar.gz
+_md5_=f2eab3e59568f21f19de29e545683e43

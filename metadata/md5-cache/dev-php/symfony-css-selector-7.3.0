@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony CssSelector Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/css-selector
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/css-selector/archive/v7.3.0.tar.gz -> symfony-css-selector-7.3.0.tar.gz
+_md5_=2606660f7718fe445daacb8e5e18bdf9

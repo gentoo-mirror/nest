@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:* dev-php/amphp-byte-stream dev-php/amphp-process dev-php/f
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=630fe3eae0efb692b958ef56cfa3e7a0
+_md5_=e6c39d45cf8ae965cde458e1498d0449

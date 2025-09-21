@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-serialization dev-php/amp
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=132e20ad652c3af79d164526808e0bbe
+_md5_=d11b59ba965fa35f1662be0308a74458

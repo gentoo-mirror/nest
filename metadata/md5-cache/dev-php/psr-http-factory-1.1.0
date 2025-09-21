@@ -8,4 +8,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-message
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/php-fig/http-factory/archive/1.1.0.tar.gz -> psr-http-factory-1.1.0.tar.gz
-_md5_=e4e629582060a3de565660a66353f08d
+_md5_=da39a99214ce8622e1ea1826e58e319b

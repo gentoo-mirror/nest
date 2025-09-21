@@ -1,11 +1,14 @@
-BDEPEND=test? ( dev-php/phpunit dev-php/symfony-expression-language dev-php/symfony-http-client-contracts dev-php/symfony-phpunit-bridge dev-php/symfony-rate-limiter dev-php/symfony-routing dev-php/symfony-security-csrf dev-php/symfony-translation )
-DEFINED_PHASES=install prepare test
+BDEPEND=test? ( dev-php/phpunit dev-php/symfony-expression-language dev-php/symfony-http-client dev-php/symfony-http-client-contracts dev-php/symfony-phpunit-bridge dev-php/symfony-rate-limiter dev-php/symfony-routing dev-php/symfony-security-csrf dev-php/symfony-translation ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony Security HTTP Component
 EAPI=8
 HOMEPAGE=https://github.com/symfony/security-http
+INHERIT=git-r3
 IUSE=test
 LICENSE=MIT
+PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-http-foundation dev-php/symfony-http-kernel dev-php/symfony-polyfill-mbstring dev-php/symfony-property-access dev-php/symfony-security-core dev-php/symfony-service-contracts
 RESTRICT=!test? ( test )
 SLOT=0
-_md5_=73757fb5e4ec009db72dbbcf41e76a4e
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=3f294f00e08ca266806de506232ab9f7

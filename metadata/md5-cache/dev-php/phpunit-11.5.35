@@ -1,0 +1,17 @@
+BDEPEND=>=dev-php/theseer-Autoload-1.29.1 test? ( dev-php/composer )
+DEFINED_PHASES=install postinst prepare test
+DESCRIPTION=The PHP Unit Testing framework
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/phpunit
+INHERIT=optfeature
+IUSE=soap test
+KEYWORDS=~amd64
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[soap?,xml,xmlwriter,unicode] dev-php/fedora-autoloader dev-php/myclabs-deepcopy dev-php/phar-io-manifest >=dev-php/phar-io-version-3.2.1 dev-php/phpunit-php-code-coverage dev-php/phpunit-php-file-iterator dev-php/phpunit-php-invoker dev-php/phpunit-php-text-template dev-php/phpunit-php-timer dev-php/sebastian-cli-parser dev-php/sebastian-code-unit dev-php/sebastian-comparator >=dev-php/sebastian-diff-5.1.1 dev-php/sebastian-environment dev-php/sebastian-exporter dev-php/sebastian-global-state dev-php/sebastian-object-enumerator >=dev-php/sebastian-type-4.0.0 >=dev-php/sebastian-version-4.0.1
+REQUIRED_USE=test? ( soap )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/phpunit/archive/11.5.35.tar.gz -> phpunit-11.5.35.tar.gz
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
+_md5_=b876dd4a006f41d1b50f07f5fc3d0dbb

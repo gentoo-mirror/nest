@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-service-contrac
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=50192d750b6ab71a2843392ec72837ca
+_md5_=fbcb0230fa7d9f8c61eb7fd09475237e

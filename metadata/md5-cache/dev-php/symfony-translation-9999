@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/nikic-php-parser dev-php/phpunit dev-php/symfony-config dev-php/symfony-console dev-php/symfony-dependency-injection >=dev-php/symfony-finder-6.4.8 dev-php/symfony-http-client-contracts dev-php/symfony-http-kernel dev-php/symfony-phpunit-bridge dev-php/symfony-routing dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/nikic-php-parser dev-php/phpunit dev-php/symfony-config dev-php/symfony-console dev-php/symfony-dependency-injection >=dev-php/symfony-finder-6 dev-php/symfony-http-client-contracts dev-php/symfony-http-kernel dev-php/symfony-phpunit-bridge dev-php/symfony-routing dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony Translation Component
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-con
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=7b39816d46bea48053dcb1436166eb68
+_md5_=f5b58bd4487e45bb942974d25ac97af5

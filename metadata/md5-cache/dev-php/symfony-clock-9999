@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/doctrine-dbal dev-php/phpunit dev-php/predis ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/composer dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony Clock Component
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-clock dev-php/symfo
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=963e83ed19b05a1f32d0112e4008e4c2
+_md5_=a1d461609c00fa96f68b46f524509dcf

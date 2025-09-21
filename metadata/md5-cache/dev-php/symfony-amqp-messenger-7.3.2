@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-process dev-php/symfony-property-access dev-php/symfony-serializer net-misc/rabbitmq-server )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony AMQP Messenger
+EAPI=8
+HOMEPAGE=https://github.com/symfony/amqp-messenger
+INHERIT=edo
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/pecl-amqp dev-php/symfony-messenger
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/amqp-messenger/archive/v7.3.2.tar.gz -> symfony-amqp-messenger-7.3.2.tar.gz
+_eclasses_=edo	a5e294016aa84979fcb2459749eb80b2
+_md5_=0c581cbd8cb50968c7fea07bd8a69dad

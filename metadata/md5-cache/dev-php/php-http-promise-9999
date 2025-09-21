@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=87d2b5f032b58e964014e9a49a4b9e31
+_md5_=e1a1c4296cc569d3d5f35176303dab05

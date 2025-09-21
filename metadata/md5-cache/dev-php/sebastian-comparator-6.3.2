@@ -1,0 +1,15 @@
+BDEPEND=dev-php/theseer-Autoload test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Compare PHP values for equality
+EAPI=8
+HOMEPAGE=https://github.com/sebastianbergmann/comparator
+IUSE=bcmath test
+KEYWORDS=~amd64
+LICENSE=BSD
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[bcmath?,xml,unicode] dev-php/fedora-autoloader >=dev-php/sebastian-diff-6.0.2 dev-php/sebastian-exporter
+REQUIRED_USE=test? ( bcmath )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/sebastianbergmann/comparator/archive/6.3.2.tar.gz -> sebastian-comparator-6.3.2.tar.gz
+_md5_=6ef3e8fbfc0f2d6a046083a0edbe5717

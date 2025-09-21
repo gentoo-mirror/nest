@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:*[xml,xmlwriter] dev-php/fedora-autoloader dev-php/nikic-ph
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	538bce96e5589935b57e178e8635f301
-_md5_=bbc745119e44b73a744448f56c44d615
+_md5_=d87f6c4571aa50db8ef50dc19677c06b

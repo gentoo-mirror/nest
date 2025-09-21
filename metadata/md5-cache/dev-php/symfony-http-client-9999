@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/amphp-http-client dev-php/guzzlehttp-promises dev-php/nyholm-psr7 dev-php/php-http-discovery dev-php/php-http-httplug dev-php/phpunit dev-php/symfony-dependency-injection dev-php/symfony-http-kernel >=dev-php/symfony-process-6.4.8 dev-php/symfony-stopwatch ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/amphp-http-client dev-php/guzzlehttp-promises dev-php/nyholm-psr7 dev-php/php-http-httplug dev-php/phpunit dev-php/psr-http-client dev-php/symfony-dependency-injection dev-php/symfony-http-kernel dev-php/symfony-phpunit-bridge >=dev-php/symfony-process-6 dev-php/symfony-rate-limiter dev-php/symfony-stopwatch ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony HttpClient Component
 EAPI=8
@@ -6,9 +6,9 @@ HOMEPAGE=https://github.com/symfony/http-client
 INHERIT=git-r3
 IUSE=ipv6 test
 LICENSE=MIT
-PROPERTIES=live
-RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-http-client-contracts dev-php/symfony-service-contracts
-RESTRICT=!test? ( test )
+PROPERTIES=test_network live
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-log dev-php/symfony-deprecation-contracts dev-php/symfony-http-client-contracts dev-php/symfony-polyfill-php83 dev-php/symfony-service-contracts
+RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=2d8ff8d6993e10d1034bb02c7c67481f
+_md5_=f2130e818e5c40c7553c859fdf55e38f

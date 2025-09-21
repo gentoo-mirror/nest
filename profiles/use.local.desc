@@ -524,11 +524,25 @@ dev-libs/zrtpcpp:tivi - Build tivi client
 dev-lisp/buildapp:runtime-options - Use runtime options as command line arguments
 dev-lisp/slime:xref - Install xref.lisp cross-referencing tool
 dev-php/amphp-amp:pcntl - Enable test for Process Control extension
+dev-php/composer:intl - nables the intl extension for extended internalization support
 dev-php/league-flysystem:fileinfo - Enable test for File Information extension
+dev-php/pecl-eio:pcntl - Enable test for Process Control extension
+dev-php/pecl-igbinary:apcu - Enable test for APC User Cache
+dev-php/pecl-igbinary:curl - Add support for client-side URL transfer library
+dev-php/pecl-igbinary:session - Add persistent session support
+dev-php/pecl-msgpack:apcu - Enable test for APC User Cache
+dev-php/pecl-msgpack:session - Add persistent session support
 dev-php/phpunit-php-invoker:pcntl - Enable test for Process Control extension
+dev-php/sebastian-comparator:bcmath - Enable the BCMath Arbitrary Precision Mathematics extension
 dev-php/seld-signal-handler:pcntl - Enable test for Process Control extension
 dev-php/symfony-cache:pdo - Enable test for PHP Data Objects extension
+dev-php/symfony-password-hasher:argon2 - Enable password hashing algorithm from app-crypt/argon2
+dev-php/symfony-password-hasher:sodium - Enable support for crypto through dev-libs/libsodium
 dev-php/symfony-process:pcntl - Enable test for Process Control extension
+dev-php/symfony-serializer:bcmath - Enable the BCMath Arbitrary Precision Mathematics extension
+dev-php/symfony-serializer:gmp - Add support for dev-libs/gmp
+dev-php/symfony-var-dumper:ffi - Enable the Foreign Function Interface (FFI) extension using dev-libs/libffi
+dev-php/symfony-var-dumper:mysqli - Add support for the improved mySQL libraries
 dev-python/drf-yasg:coreapi - Enable Core API
 dev-python/drf-yasg:validation - Enable swagger spec validation
 dev-python/openai:datalib - Support data analysis and statistics

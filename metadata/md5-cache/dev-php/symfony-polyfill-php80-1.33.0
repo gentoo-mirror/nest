@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Backport of some PHP 8.0+ features to lower PHP versions
+EAPI=8
+HOMEPAGE=https://github.com/symfony/polyfill-php80
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/polyfill-php80/archive/v1.33.0.tar.gz -> symfony-polyfill-php80-1.33.0.tar.gz
+_md5_=3c64dbfff82bd933f6f3c2ff721bfc10

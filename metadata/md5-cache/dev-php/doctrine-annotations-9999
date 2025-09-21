@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:*[tokenizer] dev-php/doctrine-lexer dev-php/fedora-autoload
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=24eaafb91709f59718b7a28a107d1fca
+_md5_=89ade77633e593ee43c4d751ad60fd8b

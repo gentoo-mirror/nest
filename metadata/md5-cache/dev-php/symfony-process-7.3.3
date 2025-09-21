@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Executes commands in sub-processes
+EAPI=8
+HOMEPAGE=https://github.com/symfony/process
+IUSE=pcntl test
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pcntl?] dev-php/fedora-autoloader
+REQUIRED_USE=test? ( pcntl )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/process/archive/v7.3.3.tar.gz -> symfony-process-7.3.3.tar.gz
+_md5_=1fffc756b51ce9f79395ba6783072068

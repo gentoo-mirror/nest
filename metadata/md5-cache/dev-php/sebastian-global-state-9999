@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:*[xml] dev-php/fedora-autoloader dev-php/sebastian-object-r
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=a2d6d268eca7f020040aab059aabc492
+_md5_=946c93a8b07506979cc60363ef77afeb

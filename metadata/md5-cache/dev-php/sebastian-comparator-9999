@@ -4,11 +4,12 @@ DESCRIPTION=Compare PHP values for equality
 EAPI=8
 HOMEPAGE=https://github.com/sebastianbergmann/comparator
 INHERIT=git-r3
-IUSE=test
+IUSE=bcmath test
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=dev-lang/php:*[xml,unicode] dev-php/fedora-autoloader >=dev-php/sebastian-diff-5.1.1 dev-php/sebastian-exporter
+RDEPEND=dev-lang/php:*[bcmath?,xml,unicode] dev-php/fedora-autoloader >=dev-php/sebastian-diff-6.0.2 dev-php/sebastian-exporter
+REQUIRED_USE=test? ( bcmath )
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=7fac663fac158f72aed158af51a2f7ea
+_md5_=98dfa1726d14cf5227af3c84b0b0685e

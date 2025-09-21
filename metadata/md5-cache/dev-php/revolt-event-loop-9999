@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/pecl-event dev-php/pecl-uv ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/pecl-ev dev-php/pecl-event dev-php/pecl-uv ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Event loop for concurrent PHP applications
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=dca54be0b68df67f3a3df32db740d818
+_md5_=42c76f21e059720299e54ba24589fa80

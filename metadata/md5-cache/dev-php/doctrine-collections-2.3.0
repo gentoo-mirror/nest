@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Doctrine Collections Abstraction Layer
+EAPI=8
+HOMEPAGE=https://github.com/doctrine/collections
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/doctrine-deprecations dev-php/fedora-autoloader dev-php/symfony-polyfill-php84
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/doctrine/collections/archive/2.3.0.tar.gz -> doctrine-collections-2.3.0.tar.gz
+_md5_=e78f8bf8a29f7f5db0f4f24dd3a0d714

@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/doctrine-annotations dev-php/egulias-email-validator dev-php/phpunit dev-php/symfony-config dev-php/symfony-console dev-php/symfony-dependency-injection dev-php/symfony-expression-language >=dev-php/symfony-finder-6.4.8 dev-php/symfony-http-client dev-php/symfony-http-kernel dev-php/symfony-intl dev-php/symfony-mime dev-php/symfony-phpunit-bridge dev-php/symfony-property-access dev-php/symfony-translation dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/egulias-email-validator dev-php/phpunit dev-php/symfony-config dev-php/symfony-console dev-php/symfony-dependency-injection dev-php/symfony-expression-language >=dev-php/symfony-finder-6 dev-php/symfony-http-client dev-php/symfony-http-kernel dev-php/symfony-intl dev-php/symfony-mime dev-php/symfony-phpunit-bridge dev-php/symfony-property-access dev-php/symfony-translation dev-php/symfony-yaml ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=Symfony Validator Component
 EAPI=8
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-con
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=5ab70ece80d35e2e28204aa460096faf
+_md5_=869348c00e4394d581eb27c396ec5260

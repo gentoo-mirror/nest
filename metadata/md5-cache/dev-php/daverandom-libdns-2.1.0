@@ -1,11 +1,13 @@
-DEFINED_PHASES=install
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
 DESCRIPTION=DNS implementation in pure PHP
 EAPI=8
 HOMEPAGE=https://github.com/DaveRandom/LibDNS
-KEYWORDS=~amd64 ~x86
+IUSE=test
+KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=dev-lang/php:*[ctype] dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/DaveRandom/libdns/archive/v2.1.0.tar.gz -> daverandom-libdns-2.1.0.tar.gz
-_md5_=b83f7d09c280fb2e774773a329efcb88
+_md5_=9d7f135cddae6540d1a408e9cc86c08f

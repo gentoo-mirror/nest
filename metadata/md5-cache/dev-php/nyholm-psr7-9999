@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-factory dev-ph
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=d92a635879a6c2171ca4f1b4d0a64ca0
+_md5_=c134f6afc27869de07dc953c3cecf4ce

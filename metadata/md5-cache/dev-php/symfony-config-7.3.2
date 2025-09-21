@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-event-dispatcher >=dev-php/symfony-finder-6 dev-php/symfony-messenger dev-php/symfony-service-contracts dev-php/symfony-yaml )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony Config Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/config
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts >=dev-php/symfony-filesystem-6 dev-php/symfony-polyfill-ctype
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/config/archive/v7.3.2.tar.gz -> symfony-config-7.3.2.tar.gz
+_md5_=cdd1766731a87a3c9f3060d8dc2d5fea

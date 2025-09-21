@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-db/redis dev-php/composer dev-php/pecl-redis dev-php/phpunit dev-php/symfony-console dev-php/symfony-http-kernel >=dev-php/symfony-process-6 dev-php/symfony-uid >=dev-php/twig-3.10.3 )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Mechanisms for walking through any arbitrary PHP variable
+EAPI=8
+HOMEPAGE=https://github.com/symfony/var-dumper
+IUSE=ipv6 ffi mysqli test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[ffi?,mysqli?,xmlreader] dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring
+REQUIRED_USE=test? ( ffi mysqli )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/var-dumper/archive/v7.3.3.tar.gz -> symfony-var-dumper-7.3.3.tar.gz
+_md5_=e6d248860ab0b8bf61ae5719118502bd

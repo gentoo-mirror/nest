@@ -6,10 +6,10 @@ HOMEPAGE=https://github.com/composer/composer
 INHERIT=edo git-r3 optfeature shell-completion
 IUSE=curl intl ipv6 test zip
 LICENSE=MIT
-PROPERTIES=live
-RDEPEND=dev-lang/php:*[curl?,intl?,ssl,zlib,zip?] dev-php/composer-ca-bundle dev-php/composer-class-map-generator dev-php/composer-pcre dev-php/composer-semver dev-php/composer-spdx-licenses dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/phar-utils dev-php/psr-log dev-php/reactphp-promise dev-php/seld-signal-handler dev-php/symfony-console >=dev-php/symfony-filesystem-6.4.9 >=dev-php/symfony-finder-6.4.8 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 >=dev-php/symfony-process-6.4.8 dev-php/xdebug-handler
+PROPERTIES=test_network live
+RDEPEND=dev-lang/php:*[curl?,intl?,ssl,zlib,zip?] dev-php/composer-ca-bundle dev-php/composer-class-map-generator dev-php/composer-pcre dev-php/composer-semver dev-php/composer-spdx-licenses dev-php/fedora-autoloader dev-php/jsonlint dev-php/json-schema dev-php/metadata-minifier dev-php/phar-utils dev-php/psr-log dev-php/reactphp-promise dev-php/seld-signal-handler dev-php/symfony-console >=dev-php/symfony-filesystem-6 >=dev-php/symfony-finder-6 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81 >=dev-php/symfony-process-6 dev-php/xdebug-handler
 REQUIRED_USE=test? ( curl intl zip )
-RESTRICT=!test? ( test )
+RESTRICT=test
 SLOT=0
 _eclasses_=edo	a5e294016aa84979fcb2459749eb80b2	git-r3	875eb471682d3e1f18da124be97dcc81	optfeature	538bce96e5589935b57e178e8635f301	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	bash-completion-r1	767861f3744f589ee5291c1698b1c082	shell-completion	0b655d0d825e157a5e99c463bddaac16
-_md5_=7d95e6f1b2b3ffa109c37113c1983737
+_md5_=0a7e6478b2f0adae7f33977af0d4627a

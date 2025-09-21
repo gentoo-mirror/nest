@@ -7,8 +7,8 @@ INHERIT=git-r3
 IUSE=test
 LICENSE=BSD
 PROPERTIES=live
-RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/phpunit >=dev-php/symfony-process-6.4.8
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=4c9561ede98546870a9a10f310d162e3
+_md5_=1e971ef884e7972c16c2c9977d419439

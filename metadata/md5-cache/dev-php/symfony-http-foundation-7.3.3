@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-db/redis dev-php/composer dev-php/doctrine-dbal dev-php/pecl-memcached dev-php/phpunit dev-php/predis dev-php/symfony-clock dev-php/symfony-expression-language dev-php/symfony-mime dev-php/symfony-phpunit-bridge >=dev-php/symfony-process-6 dev-php/symfony-rate-limiter net-misc/curl )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Defines an object-oriented layer for the HTTP specification
+EAPI=8
+HOMEPAGE=https://github.com/symfony/http-foundation
+IUSE=ipv6 test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring dev-php/symfony-polyfill-php83
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/http-foundation/archive/v7.3.3.tar.gz -> symfony-http-foundation-7.3.3.tar.gz
+_md5_=7f72a49e2e2075addd0e1f9c41a7db97

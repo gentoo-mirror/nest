@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-con
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=e546ae38ef62d2a86b0d2340612a6940
+_md5_=879f1a7b810b8b95a5571334b0650359

@@ -1,13 +1,14 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install unpack
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=PCRE wrapping library that offers type-safe preg_ replacements
 EAPI=8
 HOMEPAGE=https://github.com/composer/pcre
 INHERIT=git-r3
+IUSE=test
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=af0c8b4a6a0730b9e10f5a82f821f384
+_md5_=524717f1f675d6d925cd49f44644ab09

@@ -1,4 +1,4 @@
-BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/symfony-phpunit-bridge ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( dev-php/composer dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install prepare test unpack
 DESCRIPTION=The Official MongoDB PHP library
 EAPI=8
@@ -7,8 +7,8 @@ INHERIT=git-r3
 IUSE=test
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/jean85-pretty-package-versions ~dev-php/pecl-mongodb-1.18.0 dev-php/symfony-polyfill-php80 dev-php/symfony-polyfill-php81
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/jean85-pretty-package-versions >=dev-php/pecl-mongodb-1.21.0 dev-php/psr-log
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=bb474e61e26afb2327d9609de36371c4
+_md5_=4172d03b38ffcdcfe3dc63e2d7a2881c

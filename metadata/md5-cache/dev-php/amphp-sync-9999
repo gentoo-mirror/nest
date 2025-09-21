@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/amphp-amp dev-php/amphp-pipeline dev-php/amphp-se
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=51bf80c76c36af7738986a5a77ea9222
+_md5_=a24df7bc9bc36c040f436c7a7e135d17

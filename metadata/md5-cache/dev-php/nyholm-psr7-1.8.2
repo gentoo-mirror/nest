@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/http-interop-http-factory-tests dev-php/php-http-message-factory dev-php/php-http-psr7-integration-tests dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=A super lightweight PSR-7 implementation
+EAPI=8
+HOMEPAGE=https://github.com/Nyholm/psr7
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-factory dev-php/psr-http-message
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/Nyholm/psr7/archive/1.8.2.tar.gz -> nyholm-psr7-1.8.2.tar.gz
+_md5_=c217002a61c3a6bafeb514dd9832f038

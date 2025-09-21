@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/masterminds-html5 dev-p
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=bc5036b5dd684e2cd497558e012a4b2f
+_md5_=cc6c89279b35b57ef48de8933c15a997

@@ -1,0 +1,13 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=The Official MongoDB PHP library
+EAPI=8
+HOMEPAGE=https://github.com/mongodb/mongo-php-library
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/jean85-pretty-package-versions >=dev-php/pecl-mongodb-1.21.0 dev-php/psr-log
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-php-library/archive/1.21.2.tar.gz -> mongo-php-library-1.21.2.tar.gz
+_md5_=bb1db7f8da0708133663f6636b008a3a

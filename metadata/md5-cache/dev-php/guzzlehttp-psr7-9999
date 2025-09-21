@@ -1,5 +1,5 @@
 BDEPEND=test? ( dev-php/http-interop-http-factory-tests dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install prepare test unpack
+DEFINED_PHASES=compile install prepare test unpack
 DESCRIPTION=PSR-7 HTTP message library
 EAPI=8
 HOMEPAGE=https://github.com/guzzle/psr7
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-factory dev-ph
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=6a8505259193ac948ba90fbf32eec5d0
+_md5_=c86616779fb90ca34a495c04cca2cd92

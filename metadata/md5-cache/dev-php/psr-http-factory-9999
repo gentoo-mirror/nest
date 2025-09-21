@@ -6,4 +6,4 @@ LICENSE=MIT
 RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-http-message
 RESTRICT=test
 SLOT=0
-_md5_=806aa18e23fd98b8929013d10fdddc92
+_md5_=7dd5e3dc0877d8bb3af3da0d2c3c00f5

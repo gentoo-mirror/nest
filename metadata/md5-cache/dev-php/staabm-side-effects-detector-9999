@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/phpunit ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare test unpack
+DESCRIPTION=Analyzes php-code for side-effects
+EAPI=8
+HOMEPAGE=https://github.com/staabm/side-effects-detector
+INHERIT=git-r3
+IUSE=test
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/php:*[tokenizer] dev-php/fedora-autoloader
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=b55ba839aa870ddd996dd5f89d050810

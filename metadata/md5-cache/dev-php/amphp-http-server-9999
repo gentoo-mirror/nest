@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:*[ipv6?] dev-php/amphp-amp dev-php/amphp-byte-stream dev-ph
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=1815a92e31e6f50d0cbefadc3d97a9ba
+_md5_=af3b3f1f51bd138c9cc11df057657ab7

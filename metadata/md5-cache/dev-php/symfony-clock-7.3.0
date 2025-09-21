@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony Clock Component
+EAPI=8
+HOMEPAGE=https://github.com/symfony/clock
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/psr-clock dev-php/symfony-polyfill-php83
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/clock/archive/v7.3.0.tar.gz -> symfony-clock-7.3.0.tar.gz
+_md5_=c88058b618eb4693b36cf3e48ca15a06

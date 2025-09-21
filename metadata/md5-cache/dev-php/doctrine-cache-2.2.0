@@ -8,4 +8,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/doctrine/cache/archive/2.2.0.tar.gz -> doctrine-cache-2.2.0.tar.gz
-_md5_=3357f9b40f01e17958814c6c2cc1168b
+_md5_=e22ad80ba7c4bb3fac9661c563319d9f

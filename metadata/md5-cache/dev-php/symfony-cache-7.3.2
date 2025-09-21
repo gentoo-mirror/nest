@@ -1,0 +1,15 @@
+BDEPEND=test? ( dev-db/redis dev-php/cache-integration-tests dev-php/composer dev-php/doctrine-dbal dev-php/pecl-apcu dev-php/pecl-igbinary dev-php/pecl-memcached dev-php/pecl-redis dev-php/phpunit dev-php/predis dev-php/psr-simple-cache dev-php/symfony-dependency-injection >=dev-php/symfony-filesystem-6 dev-php/symfony-http-kernel dev-php/symfony-messenger dev-php/symfony-phpunit-bridge )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Symfony PSR-6 implementation for caching
+EAPI=8
+HOMEPAGE=https://github.com/symfony/cache
+IUSE=pdo postgres sqlite test zlib
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:*[pdo?,postgres?,sqlite?,zlib?] dev-php/fedora-autoloader dev-php/psr-cache dev-php/psr-log dev-php/symfony-cache-contracts dev-php/symfony-service-contracts dev-php/symfony-var-exporter
+REQUIRED_USE=test? ( pdo postgres sqlite zlib )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/cache/archive/v7.3.2.tar.gz -> symfony-cache-7.3.2.tar.gz
+_md5_=02be2204f3bd7fb2215593a138981274

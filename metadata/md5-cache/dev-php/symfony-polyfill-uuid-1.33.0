@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Symfony polyfill for uuid functions
+EAPI=8
+HOMEPAGE=https://github.com/symfony/polyfill-uuid
+INHERIT=optfeature
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/polyfill-uuid/archive/v1.33.0.tar.gz -> symfony-polyfill-uuid-1.33.0.tar.gz
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
+_md5_=ea22cfe90f09d34347c7830ae5d90885

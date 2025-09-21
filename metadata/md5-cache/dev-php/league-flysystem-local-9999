@@ -10,4 +10,4 @@ RDEPEND=dev-lang/php:*[fileinfo] dev-php/fedora-autoloader dev-php/league-mime-t
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=311e59fb90d6fc46a4203b12b3f6b826
+_md5_=40e4de5893c1693c7d09515cf6872bdd

@@ -1,0 +1,14 @@
+BDEPEND=test? ( dev-php/composer dev-php/phpunit dev-php/psr-log dev-php/symfony-dependency-injection dev-php/symfony-event-dispatcher dev-php/symfony-lock dev-php/symfony-messenger dev-php/symfony-phpunit-bridge >=dev-php/symfony-process-6 dev-php/symfony-stopwatch dev-php/symfony-var-dumper )
+DEFINED_PHASES=install prepare test
+DESCRIPTION=Eases the creation of beautiful and testable command line interfaces
+EAPI=8
+HOMEPAGE=https://github.com/symfony/console
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-deprecation-contracts dev-php/symfony-polyfill-mbstring dev-php/symfony-service-contracts dev-php/symfony-string
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/console/archive/v7.3.3.tar.gz -> symfony-console-7.3.3.tar.gz
+_md5_=987ee2947bc770c6dc834b190259fef2

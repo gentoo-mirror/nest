@@ -1,5 +1,5 @@
-BDEPEND=test? ( dev-php/composer dev-php/doctrine-annotations dev-php/phpunit >=dev-php/symfony-process-6.4.8 dev-util/abnfgen ) >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install prepare test unpack
+BDEPEND=test? ( dev-php/composer dev-php/doctrine-annotations dev-php/phpunit >=dev-php/symfony-process-6 dev-util/abnfgen ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare test unpack
 DESCRIPTION=PHPDoc Parser for PHPStan
 EAPI=8
 HOMEPAGE=https://github.com/phpstan/phpdoc-parser
@@ -11,4 +11,4 @@ RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
 RESTRICT=!test? ( test )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=375b874beb57450b8d10eee421237b4d
+_md5_=4da278246e91faa85627c3379bef6342

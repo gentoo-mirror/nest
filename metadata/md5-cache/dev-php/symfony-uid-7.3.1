@@ -1,0 +1,16 @@
+BDEPEND=test? ( dev-php/composer dev-php/pecl-ds dev-php/phpunit dev-php/symfony-console )
+DEFINED_PHASES=install postinst prepare test
+DESCRIPTION=Object-oriented API to generate and represent UIDs
+EAPI=8
+HOMEPAGE=https://github.com/symfony/uid
+INHERIT=optfeature
+IUSE=test
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=test_network
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader dev-php/symfony-polyfill-uuid
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/uid/archive/v7.3.1.tar.gz -> symfony-uid-7.3.1.tar.gz
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
+_md5_=8141067467becddac82821c2484f454e

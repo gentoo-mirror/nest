@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Symfony polyfill for intl's Normalizer class
+EAPI=8
+HOMEPAGE=https://github.com/symfony/polyfill-intl-normalizer
+INHERIT=optfeature
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/polyfill-intl-normalizer/archive/v1.33.0.tar.gz -> symfony-polyfill-intl-normalizer-1.33.0.tar.gz
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
+_md5_=74e3d937544ee3968d1fb242bee633bf
