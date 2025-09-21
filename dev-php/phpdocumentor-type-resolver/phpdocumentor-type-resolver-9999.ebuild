@@ -1,14 +1,13 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
-EGIT_REPO_URI="https://github.com/phpDocumentor/TypeResolver.git"
 
 inherit git-r3
 
 DESCRIPTION="phpDocumentor TypeResolver component"
 HOMEPAGE="https://github.com/phpDocumentor/TypeResolver"
+EGIT_REPO_URI="https://github.com/phpDocumentor/TypeResolver.git"
 
 LICENSE="MIT"
 SLOT="0"
@@ -29,6 +28,35 @@ src_prepare() {
 		src/TypeResolver/autoload.php || die "install failed"
 	install -D -m 644 "${FILESDIR}"/autoload-test.php \
 		vendor/autoload.php || die "install test failed"
+	# fix non-static data provider deprecation
+	sed -i '/provideArrays(/s|function|static function|' \
+		tests/unit/PseudoTypes/{IntRange,List,NonEmptyArray,NonEmptyList}Test.php \
+		tests/unit/Types/ArrayTest.php \
+		|| die "sed failed for provideArrays"
+	sed -i  -e '/provideKeywords(/s|function|static function|' \
+		-e '/provideClassStrings(/s|function|static function|' \
+		-e '/provideInterfaceStrings(/s|function|static function|' \
+		-e '/provideFqcn(/s|function|static function|' \
+		-e '/typeProvider(/s|function|static function|' \
+		-e '/genericsProvider(/s|function|static function|' \
+		-e '/callableProvider(/s|function|static function|' \
+		-e '/constExpressions(/s|function|static function|' \
+		-e '/shapeStructures(/s|function|static function|' \
+		-e '/illegalLegacyFormatProvider(/s|function|static function|' \
+		tests/unit/TypeResolverTest.php \
+		|| die "sed failed for TypeResolverTest.php"
+	sed -i '/provideClassStrings(/s|function|static function|' \
+		tests/unit/Types/ClassStringTest.php \
+		|| die "sed failed for ClassStringTest.php"
+	sed -i '/provideCollections(/s|function|static function|' \
+		tests/unit/Types/CollectionTest.php \
+		|| die "sed failed for CollectionTest.php"
+	sed -i '/provideInterfaceStrings(/s|function|static function|' \
+		tests/unit/Types/InterfaceStringTest.php \
+		|| die "sed failed for InterfaceStringTest.php"
+	sed -i '/provideIterables(/s|function|static function|' \
+		tests/unit/Types/IterableTest.php \
+		|| die "sed failed for IterableTest.php"
 }
 
 src_test() {
@@ -37,6 +65,6 @@ src_test() {
 
 src_install() {
 	einstalldocs
-	insinto /usr/share/php/Reflection
+	insinto /usr/share/php/phpDocumentor/Reflection
 	doins -r src/.
 }

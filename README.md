@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1195](https://img.shields.io/badge/ebuild-1195-orange.svg)](https://img.shields.io/badge/ebuild-1195-orange.svg)
+[![Number of ebuilds: 1204](https://img.shields.io/badge/ebuild-1204-orange.svg)](https://img.shields.io/badge/ebuild-1204-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -648,10 +648,16 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[mongodb](https://github.com/mongodb/mongo-php-library) | The Official MongoDB PHP library
 *   dev-php/[nikic-php-parser](https://github.com/nikic/PHP-Parser) | A PHP parser written in PHP
 *   dev-php/[nyholm-psr7](https://github.com/Nyholm/psr7) | A super lightweight PSR-7 implementation
+*   dev-php/[pecl-ds]() | Native Data Structures for PHP
 *   dev-php/[pecl-eio]() | PHP wrapper for libeio library
+*   dev-php/[pecl-ev]() | PECL extension providing interface to libev library
+*   dev-php/[pecl-igbinary]() | Drop in replacement for the standard PHP serializer
 *   dev-php/[pecl-mcrypt]() | Bindings for the libmcrypt library
 *   dev-php/[pecl-memcache]() | PHP extension for using memcached
 *   dev-php/[pecl-mongodb]() | MongoDB database driver for PHP
+*   dev-php/[pecl-msgpack]() | PHP extension for interfacing with MessagePack
+*   dev-php/[pecl-parallel]() | A succint parallel concurrency API for PHP
+*   dev-php/[pecl-rdkafka]() | PHP Kafka client
 *   dev-php/[pecl-uuid]() | PHP PECL UUID extension
 *   dev-php/[pecl-uv]() | PHP PECL UV extension
 *   dev-php/[phar-io-version](https://github.com/phar-io/version) | Library for handling version information and constraints
@@ -699,6 +705,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[semver](https://github.com/composer/semver) | Semantic versioning utilities, constraint parsing, and checking
 *   dev-php/[signal-handler](https://github.com/Seldaek/signal-handler) | Simple unix signal handler
 *   dev-php/[spx](https://github.com/NoiseByNorthwest/php-spx) | A PHP wrapper fo the scrypt hashing algorithm
+*   dev-php/[staabm-side-effects-detector](https://github.com/staabm/side-effects-detector) | Analyzes php-code for side-effects
 *   dev-php/[symfony-amqp-messenger](https://github.com/symfony/amqp-messenger) | Symfony AMQP Messenger
 *   dev-php/[symfony-browser-kit](https://github.com/symfony/browser-kit) | Symfony BrowserKit Component
 *   dev-php/[symfony-config](https://github.com/symfony/config) | Symfony Config Component
@@ -712,6 +719,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[symfony-doctrine-bridge](https://github.com/symfony/doctrine-bridge) | Symfony Doctrine Bridge
 *   dev-php/[symfony-doctrine-messenger](https://github.com/symfony/doctrine-messenger) | Symfony Doctrine Messenger
 *   dev-php/[symfony-dom-crawler](https://github.com/symfony/dom-crawler) | Symfony DomCrawler Component
+*   dev-php/[symfony-emoji](https://github.com/symfony/emoji) | Provides access to emoji characters
 *   dev-php/[symfony-error-handler](https://github.com/symfony/error-handler) | Tools to manage errors and ease debugging PHP code
 *   dev-php/[symfony-event-dispatcher](https://github.com/symfony/event-dispatcher) | Symfony EventDispatcher Component
 *   dev-php/[symfony-event-dispatcher-contracts](https://github.com/symfony/event-dispatcher-contracts) | A set of event dispatcher abstractions
@@ -741,11 +749,11 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[symfony-polyfill-php80](https://github.com/symfony/polyfill-php80) | Backport of some PHP 8.0+ features to lower PHP versions
 *   dev-php/[symfony-polyfill-php81](https://github.com/symfony/polyfill-php81) | Backport of some PHP 8.1+ features to lower PHP versions
 *   dev-php/[symfony-polyfill-php83](https://github.com/symfony/polyfill-php83) | Backport of some PHP 8.3+ features to lower PHP versions
+*   dev-php/[symfony-polyfill-php84](https://github.com/symfony/polyfill-php84) | Backport of some PHP 8.4+ features to lower PHP versions
 *   dev-php/[symfony-polyfill-uuid](https://github.com/symfony/polyfill-uuid) | Symfony polyfill for uuid functions
 *   dev-php/[symfony-process](https://github.com/symfony/process) | Executes commands in sub-processes
 *   dev-php/[symfony-property-access](https://github.com/symfony/property-access) | Symfony PropertyAccess Component
 *   dev-php/[symfony-property-info](https://github.com/symfony/property-info) | Symfony PropertyInfo Component
-*   dev-php/[symfony-proxy-manager-bridge](https://github.com/symfony/proxy-manager-bridge) | Symfony ProxyManager Bridge
 *   dev-php/[symfony-rate-limiter](https://github.com/symfony/rate-limiter) | Symfony Rate Limiter Component
 *   dev-php/[symfony-routing](https://github.com/symfony/routing) | Symfony Routing Component
 *   dev-php/[symfony-security-core](https://github.com/symfony/security-core) | Symfony Security Core Component
@@ -757,6 +765,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-php/[symfony-string](https://github.com/symfony/string) | An object-oriented API to strings
 *   dev-php/[symfony-translation](https://github.com/symfony/translation) | Symfony Translation Component
 *   dev-php/[symfony-translation-contracts](https://github.com/symfony/translation-contracts) | Symfony Translation Contracts
+*   dev-php/[symfony-type-info](https://github.com/symfony/type-info) | Extracts PHP types information
 *   dev-php/[symfony-uid](https://github.com/symfony/uid) | Object-oriented API to generate and represent UIDs
 *   dev-php/[symfony-validator](https://github.com/symfony/validator) | Symfony Validator Component
 *   dev-php/[symfony-var-dumper](https://github.com/symfony/var-dumper) | Mechanisms for walking through any arbitrary PHP variable

@@ -1,14 +1,13 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
-EGIT_REPO_URI="https://github.com/thephpleague/html-to-markdown.git"
 
 inherit git-r3
 
 DESCRIPTION="HTML To Markdown for PHP"
 HOMEPAGE="https://github.com/thephpleague/html-to-markdown"
+EGIT_REPO_URI="https://github.com/thephpleague/html-to-markdown.git"
 
 LICENSE="MIT"
 SLOT="0"
@@ -32,6 +31,12 @@ src_prepare() {
 		-e '/convertErrorsToExceptions/d' -e '/convertNoticesToExceptions/d' \
 		-e '/convertWarningsToExceptions/d' -e '/<filter/,+4d' -e '/logging/,+6d' \
 		phpunit.xml.dist || die "sed failed for phpunit.xml.dist"
+	# fix non-static data provider deprecation
+	sed -i  -e '/provideStringTestCases(/s|function|static function|' \
+		-e '/provideInvalidStringTestCases(/s|function|static function|' \
+		-e '/yield \[\$this/d' \
+		tests/CoerceTest.php \
+		|| die "sed failed for CompliesTest.php"
 }
 
 src_test() {
