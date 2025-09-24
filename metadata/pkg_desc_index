@@ -303,6 +303,7 @@ dev-haskell/either 5.0.2: An either monad transformer
 dev-haskell/expiring-cache-map 0.0.6.1: General purpose simple caching
 dev-haskell/filelock 0.1.1.7: Portable interface to file locking
 dev-haskell/fuzzyset 0.2.4: A fuzzy string set implementation in Haskell
+dev-haskell/generic-monoid 0.1.0.1: Derive monoid instances for product types
 dev-haskell/gitrev 1.3.1: Compile git revision info into Haskell projects
 dev-haskell/groups 0.5.3: Group and Abelian group typeclasses
 dev-haskell/haskell-src-meta 0.8.14: Parse source to template-haskell abstract syntax
@@ -339,6 +340,8 @@ dev-haskell/optics-th 0.4.1: Optics as an abstract interface
 dev-haskell/pipes 4.3.16: Compositional pipelines
 dev-haskell/placeholders 0.1: Placeholders for use while developing Haskell code
 dev-haskell/pointed 5.0.5: Pointed and copointed data
+dev-haskell/port-utils 0.2.1.0: Utilities for creating and waiting on ports
+dev-haskell/postgres-options 0.2.2.0: An Options type for PostgreSQL
 dev-haskell/postgresql-binary 0.13.1.3: Encoders and decoders for the PostgreSQL's binary format
 dev-haskell/postgresql-libpq 0.10.2.0: low-level binding to libpq
 dev-haskell/postgresql-libpq-configure 0.10.0.1: A low-level binding to libpq to configure based provider
@@ -369,10 +372,12 @@ dev-haskell/th-expand-syns 0.4.11.0: Expands type synonyms in Template Haskell A
 dev-haskell/th-orphans 0.13.15: Orphan instances for TH datatypes
 dev-haskell/th-reify-many 0.1.10: Recurseively reify template haskell datatype info
 dev-haskell/time-manager 0.1.1: Scalable timer
+dev-haskell/tmp-postgres 1.35.0.0_pre20230808: Create temporary postgres instances
 dev-haskell/type-hint 0.1: Haskell library for helping type inference by using proxy values
 dev-haskell/tz 0.1.3.6: Efficient time zone handling
 dev-haskell/tzdata 0.2.20240201.0: Distribution of the standard time zone database
 dev-haskell/unix-time 0.4.16: Unix time parser/formatter and utilities
+dev-haskell/uri-bytestring 0.4.0.1: Haskell URI parsing as ByteStrings
 dev-haskell/vector-instances 3.4.2: Additional Instances for Data.Vector
 dev-haskell/wai 3.2.4: Web Application Interface
 dev-haskell/wai-middleware-static 0.9.2: WAI middleware that serves requests to static files

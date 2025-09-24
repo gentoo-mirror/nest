@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/network:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/async:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/cryptohash-sha1:=[profile?] dev-haskell/generic-monoid:=[profile?] dev-haskell/port-utils:=[profile?] dev-haskell/postgres-options:=[profile?] dev-haskell/postgresql-simple:=[profile?] dev-haskell/prettyprinter:=[profile?] dev-haskell/temporary:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Create temporary postgres instances
+EAPI=8
+HOMEPAGE=https://github.com/jfischoff/tmp-postgres
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/async:=[profile?] dev-haskell/base64-bytestring:=[profile?] dev-haskell/cryptohash-sha1:=[profile?] dev-haskell/generic-monoid:=[profile?] dev-haskell/port-utils:=[profile?] dev-haskell/postgres-options:=[profile?] dev-haskell/postgresql-simple:=[profile?] dev-haskell/prettyprinter:=[profile?] dev-haskell/temporary:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=test !test? ( test )
+SLOT=0/1.35.0.0_pre20230808
+SRC_URI=https://github.com/jfischoff/tmp-postgres/archive/7f2467a6d6d5f6db7eed59919a6773fe006cf22b.tar.gz -> tmp-postgres-1.35.0.0_pre20230808.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
+_md5_=c3143f767dfa78c3aa2564ac53777c5b
