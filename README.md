@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1204](https://img.shields.io/badge/ebuild-1204-orange.svg)](https://img.shields.io/badge/ebuild-1204-orange.svg)
+[![Number of ebuilds: 1209](https://img.shields.io/badge/ebuild-1209-orange.svg)](https://img.shields.io/badge/ebuild-1209-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -270,6 +270,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[expiring-cache-map](https://github.com/elblake/expiring-cache-map) | General purpose simple caching
 *   dev-haskell/[filelock](https://github.com/haskell-pkg-janitors/filelock) | Portable interface to file locking
 *   dev-haskell/[fuzzyset](https://github.com/laserpants/fuzzyset-haskell) | A fuzzy string set implementation in Haskell
+*   dev-haskell/[generic-monoid](https://hackage.haskell.org/package/generic-monoid) | Derive monoid instances for product types
 *   dev-haskell/[gitrev](https://github.com/acfoltzer/gitrev) | Compile git revision info into Haskell projects
 *   dev-haskell/[groups](https://github.com/Taneb/groups) | Group and Abelian group typeclasses
 *   dev-haskell/[haskell-src-meta](https://github.com/haskell-party/haskell-src-meta) | Parse source to template-haskell abstract syntax
@@ -306,10 +307,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[pipes](https://github.com/Gabriella439/pipes) | Compositional pipelines
 *   dev-haskell/[placeholders](https://github.com/ahammar/placeholders) | Placeholders for use while developing Haskell code
 *   dev-haskell/[pointed](https://github.com/ekmett/pointed) | Pointed and copointed data
+*   dev-haskell/[port-utils](https://github.com/jfischoff/port-utils) | Utilities for creating and waiting on ports
 *   dev-haskell/[postgresql-binary](https://github.com/nikita-volkov/postgresql-binary) | Encoders and decoders for the PostgreSQL's binary format
 *   dev-haskell/[postgresql-libpq](https://github.com/haskellari/postgresql-libpq) | low-level binding to libpq
 *   dev-haskell/[postgresql-libpq-configure](https://github.com/haskellari/postgresql-libpq) | A low-level binding to libpq to configure based provider
 *   dev-haskell/[postgresql-libpq-pkgconfig](https://github.com/haskellari/postgresql-libpq) | A low-level binding to libpq for pkg-config based provider
+*   dev-haskell/[postgres-options](https://github.com/jfischoff/postgres-options) | An Options type for PostgreSQL
 *   dev-haskell/[postgresql-simple](https://github.com/haskellari/postgresql-libpq) | Mid-Level PostgreSQL client library
 *   dev-haskell/[pretty-simple](https://github.com/cdepillabout/pretty-simple) | Haskell data types that have a Show instance
 *   dev-haskell/[prettyclass](https://hackage.haskell.org/package/prettyclass) | Pretty printing class similar to Show
@@ -336,11 +339,13 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[th-orphans](https://github.com/mgsloan/th-orphans) | Orphan instances for TH datatypes
 *   dev-haskell/[th-reify-many](https://github.com/mgsloan/th-reify-many) | Recurseively reify template haskell datatype info
 *   dev-haskell/[time-manager](https://github.com/yesodweb/wai) | Scalable timer
+*   dev-haskell/[tmp-postgres](https://github.com/jfischoff/tmp-postgres) | Create temporary postgres instances
 *   dev-haskell/[tz](https://github.com/ysangkok/haskell-tz) | Efficient time zone handling
 *   dev-haskell/[tzdata](https://github.com/ysangkok/haskell-tzdata) | Distribution of the standard time zone database
 *   dev-haskell/[type-hint](https://github.com/mvv/type-hint) | Haskell library for helping type inference by using proxy values
 *   dev-haskell/[tzdata](https://github.com/nilcons/haskell-tzdata) | Distribution of the standard time zone database
 *   dev-haskell/[unix-time](https://hackage.haskell.org/package/unix-time) | Unix time parser/formatter and utilities
+*   dev-haskell/[uri-bytestring](https://github.com/Soostone/uri-bytestring) | Haskell URI parsing as ByteStrings
 *   dev-haskell/[vector-instances](https://github.com/ekmett/vector-instances) | Additional Instances for Data.Vector
 *   dev-haskell/[wai](https://github.com/yesodweb/wai) | Web Application Interface
 *   dev-haskell/[wai-middleware-static](https://github.com/scotty-web/wai-middleware-static) | WAI middleware that serves requests to static files
