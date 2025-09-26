@@ -1,6 +1,6 @@
 BDEPEND=dev-ml/dune-configurator:0= virtual/pkgconfig dev-lang/ocaml dev-ml/dune
 DEFINED_PHASES=compile install test
-DEPEND=>=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+DEPEND=dev-lang/ocaml:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=OCaml bindings to libvorbis
 EAPI=8
 HOMEPAGE=https://github.com/savonet/ocaml-vorbis
@@ -8,8 +8,8 @@ INHERIT=dune
 IUSE=+ocamlopt
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/libvorbis >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
+RDEPEND=dev-ml/ocaml-ogg:=[ocamlopt?] media-libs/libvorbis dev-lang/ocaml:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/0.8.0
 SRC_URI=https://github.com/savonet/ocaml-vorbis/archive/v0.8.0/ocaml-vorbis-0.8.0.tar.gz
-_eclasses_=edo	a5e294016aa84979fcb2459749eb80b2	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a
+_eclasses_=edo	a5e294016aa84979fcb2459749eb80b2	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	4304f35da0fafecd98eb149d0b7ed4d4
 _md5_=c9f9bdb84701b0040895774eab4d11e6
