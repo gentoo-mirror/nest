@@ -1,6 +1,6 @@
 BDEPEND=dev-ml/topkg:= >=dev-vcs/git-1.8.2.1[curl] dev-ml/opam-installer dev-lang/ocaml
 DEFINED_PHASES=compile install test unpack
-DEPEND=>=dev-lang/ocaml-4:=
+DEPEND=dev-lang/ocaml:=
 DESCRIPTION=Ocaml XML manipulation module
 EAPI=7
 HOMEPAGE=https://github.com/dbuenzli/xmlm
@@ -8,8 +8,8 @@ INHERIT=git-r3 opam
 IUSE=test
 LICENSE=ISC
 PROPERTIES=live
-RDEPEND=>=dev-lang/ocaml-4:=
+RDEPEND=dev-lang/ocaml:=
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	opam	2d0e114062b346818f6d0fee5e0df656
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	opam	a6a9e96e7c709313e144e2df4b0fe727
 _md5_=6fe5739400350da331fd62a74b9198f9

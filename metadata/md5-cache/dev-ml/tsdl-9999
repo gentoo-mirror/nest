@@ -1,6 +1,6 @@
 BDEPEND=dev-ml/topkg:= dev-ml/opam-installer dev-lang/ocaml >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install test unpack
-DEPEND=>=dev-lang/ocaml-4:=
+DEPEND=dev-lang/ocaml:=
 DESCRIPTION=Thin bindings to SDL for OCaml
 EAPI=7
 HOMEPAGE=https://github.com/dbuenzli/tsdl
@@ -8,8 +8,8 @@ INHERIT=opam git-r3
 IUSE=+ocamlopt test
 LICENSE=ISC
 PROPERTIES=live
-RDEPEND=dev-ml/ocaml-ctypes:=[ocamlopt?] media-libs/libsdl2 >=dev-lang/ocaml-4:=
+RDEPEND=dev-ml/ocaml-ctypes:=[ocamlopt?] media-libs/libsdl2 dev-lang/ocaml:=
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=opam	2d0e114062b346818f6d0fee5e0df656	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=opam	a6a9e96e7c709313e144e2df4b0fe727	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=cb3ab32180b065cf4b883924edbbc70d
