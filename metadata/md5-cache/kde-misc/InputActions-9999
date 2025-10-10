@@ -1,0 +1,14 @@
+BDEPEND=kde-frameworks/extra-cmake-modules virtual/pkgconfig test? ( dev-cpp/gtest:= ) app-alternatives/ninja >=dev-build/cmake-3.28.5 >=dev-vcs/git-1.8.2.1[curl] virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
+DESCRIPTION=Mouse and touchpad gestures for Hyprland, Plasma 6 Wayland
+EAPI=8
+HOMEPAGE=https://github.com/taj-ny/InputActions
+INHERIT=cmake git-r3 readme.gentoo-r1 udev
+IUSE=kde hyprland test udev
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-cpp/yaml-cpp:= dev-libs/libevdev x11-libs/libxkbcommon hyprland? ( dev-libs/libinput:= gui-wm/hyprland x11-libs/libdrm x11-libs/pango x11-libs/pixman ) kde? ( dev-qt/qtbase:6[dbus,widgets] kde-frameworks/kcmutils:6 kde-frameworks/kconfigwidgets:6 kde-frameworks/kguiaddons:6 kde-frameworks/ki18n:6 kde-plasma/kwin:6 )
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181	git-r3	875eb471682d3e1f18da124be97dcc81	readme.gentoo-r1	b045f3acf546393ab6b3170781875358	udev	f3d9a4376ebd22131726a68e1a0a058f
+_md5_=334d9dd6d46b7182bab11ac66e7a271e
