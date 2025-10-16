@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-libs/flatbuffers:= dev-libs/libdigidocpp dev-libs/openssl:0= dev-qt/qtbase:6=[network,widgets] dev-qt/qtsvg:6= net-nds/openldap sys-apps/pcsc-lite sys-libs/zlib:= gnome? ( gnome-base/nautilus sys-devel/gettext )
 SLOT=0
 SRC_URI=https://github.com/open-eid/DigiDoc4-Client/archive/v4.8.0.tar.gz -> DigiDoc4-Client-4.8.0.tar.gz https://github.com/open-eid/qt-common/archive/6a1b2817ca3bdb529ec272dc9414d64c7e996f95.tar.gz -> DigiDoc4-Client-4.8.0-qtc.tar.gz https://sr.riik.ee/tsl/estonian-tsl.xml -> EE.xml https://ec.europa.eu/tools/lotl/eu-lotl.xml https://id.eesti.ee/config.json https://id.eesti.ee/config.rsa https://id.eesti.ee/config.pub
-_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181	plocale	950fbaec7deeba41b5bcc0572cca99b9
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3d9a5fc17dadea162813d5d8918328b4	plocale	950fbaec7deeba41b5bcc0572cca99b9
 _md5_=9d4aafce03a9c0a8fa550051673197c9
