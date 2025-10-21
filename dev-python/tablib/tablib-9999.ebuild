@@ -1,51 +1,36 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10,11} )
-EGIT_REPO_URI="https://github.com/jazzband/${PN}.git"
+PYTHON_COMPAT=( python3_{11..14} )
 
-inherit distutils-r1 git-r3 optfeature
+inherit distutils-r1 git-r3
 
 DESCRIPTION="Format-agnostic tabular dataset library"
 HOMEPAGE="https://github.com/jazzband/tablib"
-SRC_URI=""
+EGIT_REPO_URI="https://github.com/jazzband/${PN}.git"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
-IUSE="xls yaml"
+IUSE="cli ods pandas xls xlsx yaml"
+REQUIRED_USE="test? ( cli ods pandas xls xlsx yaml )"
 
-RDEPEND="xls? ( dev-python/xlrd[${PYTHON_USEDEP}]
+RDEPEND="cli? ( dev-python/tabulate[${PYTHON_USEDEP}] )
+	ods? ( dev-python/odfpy[${PYTHON_USEDEP}] )
+	pandas? ( dev-python/pandas[${PYTHON_USEDEP}] )
+	xls? ( dev-python/xlrd[${PYTHON_USEDEP}]
 		dev-python/xlwt[${PYTHON_USEDEP}] )
+	xlsx? ( dev-python/openpyxl[${PYTHON_USEDEP}] )
 	yaml? ( dev-python/pyyaml[${PYTHON_USEDEP}] )"
-BDEPEND="dev-python/setuptools-scm[${PYTHON_USEDEP}]
-	test? ( dev-python/MarkupPy[${PYTHON_USEDEP}]
-		dev-python/odfpy[${PYTHON_USEDEP}]
-		dev-python/openpyxl[${PYTHON_USEDEP}]
-		dev-python/pandas[${PYTHON_USEDEP}]
-		dev-python/pyyaml[${PYTHON_USEDEP}]
-		dev-python/tabulate[${PYTHON_USEDEP}]
-		dev-python/xlrd[${PYTHON_USEDEP}]
-		dev-python/xlwt[${PYTHON_USEDEP}] )"
+BDEPEND="dev-python/setuptools-scm[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
 
 python_prepare_all() {
-	# Disable pytest options
+	# disable pytest options
 	sed -i '/addopts/d' pytest.ini || die "sed failed for pytest.ini"
 
 	distutils-r1_python_prepare_all
-}
-
-pkg_postinst() {
-	optfeature "support cli" dev-python/tabulate
-	optfeature "support html" dev-python/MarkupPy
-	optfeature "support ods" dev-python/odfpy
-	optfeature "support pandas" dev-python/pandas
-	optfeature "support xls" dev-python/xlrd dev-python/xlwt
-	optfeature "support xlsx" dev-python/openpyxl
-	optfeature "support yaml" dev-python/pyyaml
 }

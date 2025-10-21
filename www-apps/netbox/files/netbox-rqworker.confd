@@ -3,5 +3,5 @@
 # Various options.
 NETBOX_USER="netbox"
 NETBOX_GROUP="netbox"
-NETBOX_DIR="/var/www/localhost/htdocs/netbox"
+NETBOX_DIR="/opt/netbox/netbox"
 NETBOX_LOG="/var/log/netbox"

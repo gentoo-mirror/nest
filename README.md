@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1211](https://img.shields.io/badge/ebuild-1211-orange.svg)](https://img.shields.io/badge/ebuild-1211-orange.svg)
+[![Number of ebuilds: 1333](https://img.shields.io/badge/ebuild-1333-orange.svg)](https://img.shields.io/badge/ebuild-1333-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -783,6 +783,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[MarkupPy](https://github.com/tylerbakke/MarkupPy) | An HTML/XML generator
 *   dev-python/[aardwolf](https://github.com/skelsec/aardwolf) | Asynchronous RDP client for Python
 *   dev-python/[adal](https://github.com/AzureAD/azure-activedirectory-library-for-python) | Library for authentication in Azure Active Directory
+*   dev-python/[advanced-alchemy](https://github.com/litestar-org/advanced-alchemy) | Ready-to-go SQLAlchemy concoctions
 *   dev-python/[aesedb](https://github.com/skelsec/aesedb) | NTDS parser toolkit
 *   dev-python/[ahocorasick](https://github.com/WojciechMula/pyahocorasick) | Python module implementing Aho-Corasick algorithm
 *   dev-python/[aiomultiprocess](https://github.com/omnilib/aiomultiprocess) | asyncio version of the standard multiprocessing module
@@ -790,14 +791,18 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[aiowinreg](https://github.com/skelsec/aiowinreg) | Windows registry file reader
 *   dev-python/[annoy](https://github.com/spotify/annoy) | Approximate Nearest Neighbors in C++/Python
 *   dev-python/[anyconfig](https://github.com/ssato/python-anyconfig) | Generic access to configuration files in any formats
+*   dev-python/[apeye](https://github.com/domdfcoding/apeye) | Handy tools for working with URLs and APIs
+*   dev-python/[apeye-core](https://github.com/domdfcoding/apeye-core) | Core functionality for the apeye library
 *   dev-python/[apispec](https://github.com/marshmallow-code/apispec) | A pluggable API specification generator
 *   dev-python/[apispec-webframeworks](https://github.com/marshmallow-code/apispec-webframeworks) | Web framework plugins for apispec
 *   dev-python/[applicationinsights](https://github.com/microsoft/ApplicationInsights-Python) | Application Insights SDK for Python
 *   dev-python/[arc4](https://github.com/manicmaniac/arc4) | A small and insanely fast ARCFOUR (RC4) cipher
+*   dev-python/[asgi-lifespan](https://github.com/florimondmanca/asgi-lifespan) | Programmatic startup/shutdown of ASGI apps
 *   dev-python/[asn1tools](https://github.com/eerimoq/asn1tools) | ASN.1 parsing, encoding and decoding
 *   dev-python/[aspectlib](https://github.com/ionelmc/python-aspectlib) | Aspect-oriented programming, monkey-patch and decorators library
 *   dev-python/[assertpy](https://github.com/assertpy/assertpy) | Assertion library for unit testing
 *   dev-python/[asyauth](https://github.com/skelsec/asyauth) | Unified authentication library
+*   dev-python/[asyncpg](https://github.com/MagicStack/asyncpg) | A fast PostgreSQL Database Client Library for Python/asyncio
 *   dev-python/[asysocks](https://github.com/skelsec/asysocks) | Asynchronous socks and http proxy library
 *   dev-python/[aws-cryptography-internal-dynamodb](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal ComAmazonawsDynamodb
 *   dev-python/[aws-cryptography-internal-kms](https://github.com/aws/aws-cryptographic-material-providers-library) | AWS Cryptographic Internal ComAmazonAwsKms
@@ -816,6 +821,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[bc-detect-secrets](https://github.com/bridgecrewio/detect-secrets) | A fork of enterprise friendly way of detecting and preventing secrets
 *   dev-python/[bc-jsonpath-ng](https://github.com/bridgecrewio/jsonpath-ng) | Python JSONPath Next-Generation
 *   dev-python/[bc-python-hcl2](https://github.com/bridgecrewio/python-hcl2) | A fork of parser for HCL2 written in Python
+*   dev-python/[beanie](https://github.com/BeanieODM/beanie) | Asynchronous Python ODM for MongoDB
 *   dev-python/[billiard](https://github.com/celery/billiard) | Multiprocessing Pool Extensions
 *   dev-python/[binaryornot](https://github.com/audreyfeldroy/binaryornot) | Python package to guess whether a file is binary or text
 *   dev-python/[bitstruct](https://github.com/eerimoq/bitstruct) | Python bit pack/unpack package
@@ -823,13 +829,18 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[bloodhound](https://github.com/dirkjanm/bloodhound.py) | Python based ingestor for BloodHound
 *   dev-python/[boto3-stubs](https://github.com/youtype/mypy_boto3_builder) | Type annotations for boto3
 *   dev-python/[botocore-stubs](https://github.com/youtype/botocore-stubs) | Type annotations and code completion for botocore
+*   dev-python/[bson](https://github.com/py-bson/bson) | Independent BSON codec for Python
 *   dev-python/[cached-property](https://github.com/pydanny/cached-property) | A cached-property for decorating methods in classes
 *   dev-python/[celery](https://github.com/celery/celery) | Asynchronous task job queue based on distributed message passing
+*   dev-python/[channels](https://github.com/django/channels) | Brings async, event-driven capabilities to Django
 *   dev-python/[chevron](https://github.com/noahmorrison/chevron) | Mustache templating language renderer
 *   dev-python/[cfgv](https://github.com/asottile/cfgv) | Validate configuration and produce human readable error messages
+*   dev-python/[circuitbreaker](https://github.com/fabfuel/circuitbreaker) | Python Circuit Breaker pattern implementation
 *   dev-python/[click-completion](https://github.com/click-contrib/click-completion) | Enhanced completion for bash, fish, zsh in Click
 *   dev-python/[click-repl](https://github.com/click-contrib/click-repl) | Subcommand REPL for click apps
+*   dev-python/[coincidence](https://github.com/python-coincidence/coincidence) | Helper functions for pytest
 *   dev-python/[colorpedia](https://github.com/joowani/colorpedia) | Command-line tool for looking up colors and palettes
+*   dev-python/[consolekit](https://github.com/domdfcoding/consolekit) | Additional utilities for click
 *   dev-python/[commandlines](https://github.com/chrissimpkins/commandlines) | Python command line argument to object parsing library
 *   dev-python/[configparser](https://github.com/jaraco/configparser) | Backport of configparser from Python 3
 *   dev-python/[convertdate](https://github.com/fitnr/convertdate) | Utils for converting between date formats and calculating holidays
@@ -837,35 +848,62 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[coreschema](https://github.com/core-api/python-coreschema) | Python CoreSchema
 *   dev-python/[cprint](https://github.com/EVasseure/cprint) | Printing in color in python
 *   dev-python/[crayons](https://github.com/kennethreitz/crayons) | Text UI colors
+*   dev-python/[cron-converter](https://github.com/Sonic0/cron-converter) | Cron string parser and scheduler for Python
 *   dev-python/[cron-descriptor](https://github.com/Salamek/cron-descriptor) | Converts cron expressions into human readable strings
 *   dev-python/[crossplane](https://github.com/nginxinc/crossplane) | Fast and reliable NGINX configuration parser
 *   dev-python/[ctypescrypto](https://github.com/vbwagner/ctypescrypto) | File format determination library for Python
 *   dev-python/[curio](https://github.com/dabeaz/curio) | Coroutine-based library for concurrent Python systems programming
 *   dev-python/[cyclonedx-python-lib](https://github.com/CycloneDX/cyclonedx-python-lib) | Python library for generating CycloneDX SBOMs
 *   dev-python/[dafnyruntimepython](https://github.com/dafny-lang/dafny) | Dafny runtime for Python
+*   dev-python/[daphne](https://github.com/django/daphne) | Django ASGI (HTTP/WebSocket) server
 *   dev-python/[dataclasses](https://github.com/ericvsmith/dataclasses) | A backport of the dataclasses module for Python 3.6
 *   dev-python/[dataclasses-jsonschema](https://github.com/s-knibbs/dataclasses-jsonschema) | JSON schema generation from dataclasses
 *   dev-python/[datadiff](https://sourceforge.net/projects/datadiff/) | A library for diffs of python data structures
 *   dev-python/[dateparser](https://github.com/scrapinghub/dateparser) | Date parsing library designed to parse dates from HTML pages
+*   dev-python/[db-dtypes](https://github.com/googleapis/python-db-dtypes-pandas) | Pandas Data Types for SQL systems
 *   dev-python/[diagrams](https://github.com/mingrammer/diagrams) | Diagram as Code for prototyping cloud system architectures
+*   dev-python/[dishka](https://github.com/reagento/dishka) | Cute DI framework with scopes and agreeable API
 *   dev-python/[decli](https://github.com/Woile/decli) | Minimal declarative cli tool
 *   dev-python/[deep_merge](https://github.com/halfak/deep_merge) | A simple utility for merging python dictionaries
+*   dev-python/[deprecation-alias](https://github.com/domdfcoding/deprecation-alias) | A wrapper around 'deprecation' providing support for deprecated aliases
+*   dev-python/[dist-meta](https://github.com/repo-helper/dist-meta) | Parse and create Python distribution metadata
+*   dev-python/[dj-rest-auth](https://github.com/iMerica/dj-rest-auth) | Authentication and Registration in Django Rest Framework
+*   dev-python/[django-allauth](https://codeberg.org/allauth/django-allauth) | Django 3rd party (social) account authentication
+*   dev-python/[django-choices-field](https://github.com/bellini666/django-choices-field) | Django TextChoices/IntegerChoices enum
 *   dev-python/[django-celery-beat](https://github.com/celery/django-celery-beat) | Celery Periodic Tasks for Django
 *   dev-python/[django-debug-toolbar](https://github.com/django-debug-toolbar/django-debug-toolbar) | A configurable set of panels that display debug information
 *   dev-python/[django-environ](https://github.com/joke2k/django-environ) | An environment variables to configure Django
+*   dev-python/[django-htmx](https://github.com/adamchainz/django-htmx) | Extensions for using Django with htmx
 *   dev-python/[django-fake-model](https://github.com/erm0l0v/django-fake-model) | A library for creating fake models in the unit tests
 *   dev-python/[django-graphiql-debug-toolbar](https://github.com/flavors/django-graphiql-debug-toolbar) | Django Debug Toolbar for GraphiQL IDE
 *   dev-python/[django-guardian](https://github.com/django-guardian/django-guardian) | Implementation of per object permissions for Django
 *   dev-python/[django-jsonfield](https://github.com/dmkoch/django-jsonfield) | A Django field to store validated JSON in your model
 *   dev-python/[django-jinja](https://github.com/niwinz/django-jinja) | Jinja2 templating language integrated in Django
+*   dev-python/[django-model-utils](https://github.com/jazzband/django-model-utils) | Django model mixins and utilities
+*   dev-python/[django-mptt](https://github.com/django-mptt/django-mptt) | Utilities for implementing a modified pre-order traversal tree in django
+*   dev-python/[django-ninja](https://github.com/vitalik/django-ninja) | Fast Django REST Framework
 *   dev-python/[django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit) | OAuth2 Provider for Django
 *   dev-python/[django-pipeline](https://github.com/jazzband/django-pipeline) | An asset packaging library for Django
 *   dev-python/[django-pglocks](https://github.com/Xof/django-pglocks) | PostgreSQL locking context managers and functions for Django
+*   dev-python/[django-rest-knox](https://github.com/jazzband/django-rest-knox) | Authentication module for Django Rest Framework
+*   dev-python/[django-rich](https://github.com/adamchainz/django-rich) | Extensions for using Rich with Django
+*   dev-python/[django-rq](https://github.com/rq/django-rq) | Django integration for Redis Queue
+*   dev-python/[django-storages](https://github.com/jschneier/django-storages) | Support for many storage backends in Django
+*   dev-python/[django-tree-queries](https://github.com/feincms/django-tree-queries) | Tree queries with explicit opt-in, without configurability
 *   dev-python/[djangorestframework-camel-case](https://github.com/vbabiy/djangorestframework-camel-case) | Camel case JSON support for Django REST framework
+*   dev-python/[djangorestframework-dataclasses](https://github.com/oxan/djangorestframework-dataclasses) | Dataclasses serializer for Django REST framework
+*   dev-python/[djangorestframework-gis](https://github.com/openwisp/django-rest-framework-gis) | Geographic add-ons for Django REST Framework
 *   dev-python/[djangorestframework-recursive](https://github.com/heywbj/django-rest-framework-recursive) | Recursive Serialization for Django REST framework
+*   dev-python/[djangorestframework-simplejwt](https://github.com/jazzband/djangorestframework-simplejwt) | JSON Web Token authentication plugin for the Django REST Framework
 *   dev-python/[dockerfile-parse](https://github.com/containerbuildsystem/dockerfile-parse) | Python library for parsing Dockerfile files
+*   dev-python/[dom-toml](https://github.com/domdfcoding/dom_toml) | Dom's tools for Tom's Obvious, Minimal Language
+*   dev-python/[domdf-python-tools](https://github.com/domdfcoding/domdf_python_tools) | Helpful functions for Python
 *   dev-python/[dpath](https://github.com/dpath-maintainers/dpath-python) | A python module that will check for package updates
+*   dev-python/[drf-nested-routers](https://github.com/alanjds/drf-nested-routers) | Nested resources for the Django Rest Framework
+*   dev-python/[drf-spectacular](https://github.com/tfranzel/drf-spectacular) | Sane and flexible OpenAPI 3 schema generation for Django REST framework
+*   dev-python/[drf-spectacular-sidecar](https://github.com/tfranzel/drf-spectacular-sidecar) | Self-contained distribution builds of Swagger UI and Redoc with Django
 *   dev-python/[drf-yasg](https://github.com/axnsan12/drf-yasg) | Yet another Swagger generator
+*   dev-python/[dropbox](https://github.com/dropbox/dropbox-sdk-python) | Official Dropbox API Client
 *   dev-python/[dsinternals](https://github.com/p0dalirius/pydsinternals) | Directory Services Internals Library
 *   dev-python/[dunamai](https://github.com/mtkennerly/dunamai) | Dynamic versioning library and CLI
 *   dev-python/[email-validator](https://github.com/JoshData/python-email-validator) | An email syntax and deliverability validation library
@@ -873,20 +911,31 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[factory-boy](https://github.com/FactoryBoy/factory_boy) | A fixtures replacement tool
 *   dev-python/[fakeldap](https://github.com/zulip/fakeldap) | An implementation of a LDAPObject to fake a ldap server
 *   dev-python/[faker](https://github.com/joke2k/faker) | Python package that generates fake data
+*   dev-python/[fastapi](https://github.com/fastapi/fastapi) | FastAPI framework
+*   dev-python/[fastavro](https://github.com/fastavro/fastavro) | Fast Avro for Python
+*   dev-python/[fido2](https://github.com/Yubico/python-fido2) | Python based FIDO 2.0 library
 *   dev-python/[filetype](https://github.com/h2non/filetype.py) | Infer file type and MIME type of any file/buffer
 *   dev-python/[fire](https://github.com/google/python-fire) | Library for automatically generating CLI from object
+*   dev-python/[first](https://github.com/hynek/first) | Return the first true value of an iterable
 *   dev-python/[fleep](https://github.com/floyernick/fleep-py) | File format determination library for Python
 *   dev-python/[flup](https://www.saddi.com/software/flup/) | Random assortment of WSGI servers
 *   dev-python/[forbiddenfruit](https://github.com/clarete/forbiddenfruit) | Patch python built-in objects
 *   dev-python/[gensim](https://github.com/piskvorky/gensim) | Topic Modelling for Humans
 *   dev-python/[git-url-parse](https://github.com/coala/git-url-parse) | A simple GIT URL parser
+*   dev-python/[gevent](https://github.com/gevent/gevent) | Coroutine-based concurrency library for Python
 *   dev-python/[glom](https://github.com/mahmoud/glom) | A declarative object transformer for conglomerating nested data
 *   dev-python/[google-crc32c](https://github.com/googleapis/python-crc32c) | Hardware-based implementation of the CRC32C hashing algorithm
+*   dev-python/[google-cloud-bigquery](https://github.com/googleapis/python-bigquery) | Google Cloud BigQuery API client library
+*   dev-python/[google-cloud-bigquery-storage](https://github.com/googleapis/google-cloud-python) | Google Cloud Bigquery Storage API client library
 *   dev-python/[google-cloud-iam](https://github.com/googleapis/python-iam) | Google Cloud IAM API client library
 *   dev-python/[google-cloud-core](https://github.com/googleapis/python-cloud-core) | Google Cloud API client core library
+*   dev-python/[google-cloud-datacatalog](https://github.com/googleapis/google-cloud-python) | Google Cloud Datacatalog API client library
 *   dev-python/[google-cloud-kms](https://github.com/googleapis/google-cloud-python) | Python Client for Google Cloud Key Management Service
+*   dev-python/[google-cloud-monitoring](https://github.com/googleapis/google-cloud-python) | Google Cloud Monitoring API client library
 *   dev-python/[google-cloud-pubsub](https://github.com/googleapis/python-pubsub) | Google Cloud Pub/Sub API client library
+*   dev-python/[google-cloud-resource-manager](https://github.com/googleapis/google-cloud-python) | Google Cloud Resource Manager API client library
 *   dev-python/[google-cloud-secret-manager](https://github.com/googleapis/google-cloud-python) | Google Cloud Storage API client library
+*   dev-python/[google-cloud-spanner](https://github.com/googleapis/python-spanner) | Google Cloud Spanner API client library
 *   dev-python/[google-cloud-storage](https://github.com/googleapis/python-storage) | Google Cloud Storage API client library
 *   dev-python/[google-cloud-testutils](https://github.com/googleapis/python-test-utils) | Google Cloud Storage API client library
 *   dev-python/[google-resumable-media](https://github.com/googleapis/google-resumable-media-python) | Utilities for Google Media Downloads and Resumable Uploads
@@ -896,11 +945,16 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[graphviz](https://github.com/xflr6/graphviz) | Simple Python interface for Graphviz
 *   dev-python/[graphql-core](https://github.com/graphql-python/graphql-core) | Python port of GraphQL.js
 *   dev-python/[graphql-relay](https://github.com/graphql-python/graphql-relay-py) | A library to help construct a graphql-py server supporting react-relay
+*   dev-python/[grpc-interceptor](https://github.com/d5h-foss/grpc-interceptor) | Simplifies gRPC interceptors
 *   dev-python/[grpc-google-iam-v1](https://github.com/googleapis/google-cloud-python) | Python Client for Cloud Identity and Access Management
 *   dev-python/[gssapi](https://github.com/pythongssapi/python-gssapi) | A Python interface to RFC 2743/2744
+*   dev-python/[handy-archives](https://github.com/mongomock/mongomock) | Small library for mocking pymongo collection objects for testing purposes
+*   dev-python/[hatch-requirements-txt](https://github.com/repo-helper/hatch-requirements-txt) | Hatchling plugin to read project dependencies from requirements.txt
 *   dev-python/[hijridate](https://github.com/mhalshehri/hijri-converter) | Hijri-Gregorian date converter
 *   dev-python/[hijri-converter](https://github.com/mhalshehri/hijri-converter) | Hijri-Gregorian date converter
 *   dev-python/[hsh](https://github.com/chrissimpkins/hsh) | Simple cross-platform file hash digests and file integrity checks
+*   dev-python/[html5tagger](https://github.com/sanic-org/html5tagger) | Pythonic HTML generation/templating
+*   dev-python/[httpx-sse](https://github.com/florimondmanca/httpx-sse) | Consume Server-Sent Event (SSE) messages with HTTPX
 *   dev-python/[identify](https://github.com/pre-commit/identify) | File identification library for Python
 *   dev-python/[igraph](https://github.com/igraph/python-igraph) | Python interface for igraph
 *   dev-python/[impacket](https://github.com/fortra/impacket) | Collection of Python classes for working with network protocols
@@ -911,7 +965,12 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[jsmin](https://github.com/tikitu/jsmin) | JavaScript minifier
 *   dev-python/[jsonfield](https://github.com/rpkilby/jsonfield) | A reusable Django model field for storing ad-hoc JSON data
 *   dev-python/[langdetect](https://github.com/Mimino666/langdetect) | Language detection library ported from Google
+*   dev-python/[lazy-model](https://github.com/BeanieODM/lazy_model) | Lazy parsing for Pydantic models
 *   dev-python/[ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump) | Active Directory information dumper via LDAP
+*   dev-python/[lia-web](https://github.com/patrick91/lia) | A library for working with web frameworks
+*   dev-python/[libvalkey](https://github.com/valkey-io/libvalkey-py) | Python wrapper for libvalkey
+*   dev-python/[litestar](https://github.com/litestar-org/litestar) | A production-ready, highly performant, extensible ASGI API Framework
+*   dev-python/[litestar-htmx](https://github.com/litestar-org/litestar-htmx) | The HTMX Plugin for Litestar
 *   dev-python/[livereload](https://github.com/lepture/python-livereload) | Python LiveReload is an awesome tool for web developers
 *   dev-python/[luhn](https://github.com/mmcloughlin/luhn) | Generate and verify Luhn check digits
 *   dev-python/[llvmlite](https://github.com/numba/llvmlite) | A lightweight wrapper around basic LLVM functionality
@@ -921,12 +980,25 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[mbedtls](https://github.com/Synss/python-mbedtls) | Cryptographic library with an mbed TLS back end
 *   dev-python/[minidump](https://github.com/skelsec/minidump) | Python library to parse Windows minidump file format
 *   dev-python/[minikerberos](https://github.com/skelsec/minikerberos) | Kerberos manipulation library
+*   dev-python/[minijinja](https://github.com/mitsuhiko/minijinja) | Powerful template engine for Rust with minimal dependencies
+*   dev-python/[minio](https://github.com/minio/minio-py) | MinIO Client SDK for Python
+*   dev-python/[mkrecipe](https://github.com/repo-helper/mkrecipe) | Recipes for building conda packages
+*   dev-python/[mmh3](https://github.com/hajimes/mmh3) | Python extension for MurmurHash
+*   dev-python/[mockupdb](https://github.com/mongodb-labs/mongo-mockup-db) | MongoDB Wire Protocol server library
 *   dev-python/[mock-django](https://github.com/dcramer/mock-django) | A simple library for mocking certain Django behavior
+*   dev-python/[model-bakery](https://github.com/model-bakers/model_bakery) | Smart object creation facility for Django
+*   dev-python/[mongo-thingy](https://github.com/Refty/mongo-thingy) | Object-Document Mapper to use MongoDB with Python
+*   dev-python/[mongoengine](https://github.com/MongoEngine/mongoengine) | Python Object-Document Mapper for working with MongoDB
+*   dev-python/[mongomock](https://github.com/mongomock/mongomock) | Small library for mocking pymongo collection objects for testing purposes
+*   dev-python/[mongomock-motor](https://github.com/michaelkryukov/mongomock_motor) | Library for mocking AsyncIOMotorClient built on top of mongomock
+*   dev-python/[montydb](https://github.com/davidlatwe/montydb) | MongoDB implemented in Python
+*   dev-python/[motor](https://github.com/mongodb/motor) | Non-blocking MongoDB driver for Tornado or asyncio
 *   dev-python/[moviepy](https://github.com/Zulko/moviepy) | Video editing with Python
 *   dev-python/[msal](https://github.com/AzureAD/microsoft-authentication-library-for-python) | Microsoft Authentication Library (MSAL) for Python
 *   dev-python/[msal-extensions](https://github.com/AzureAD/microsoft-authentication-extensions-for-python) | Microsoft Authentication Extensions for Python
 *   dev-python/[msldap](https://github.com/skelsec/msldap) | LDAP library for auditing MS AD
 *   dev-python/[msrest](https://github.com/Azure/msrest-for-python) | AutoRest swagger generator Python client runtime
+*   dev-python/[mysql-connector-python](https://github.com/mysql/mysql-connector-python) | Python client library for MariaDB/MySQL
 *   dev-python/[neo4j](https://github.com/neo4j/neo4j-python-driver) | Neo4j Bolt driver for Python
 *   dev-python/[netaddr](https://github.com/drkjam/netaddr) | Network address representation and manipulation library
 *   dev-python/[netapp-ontap](https://devnet.netapp.com/restapi.php) | A library for working with ONTAP's REST APIs simply in Python
@@ -934,15 +1006,19 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[nltk](https://github.com/nltk/nltk) | Natural Language Toolkit
 *   dev-python/[nltk-data](https://www.nltk.org/nltk_data/) | Data files for NLTK
 *   dev-python/[nmslib](https://github.com/nmslib/nmslib) | Non-Metric Space Library
+*   dev-python/[oci](https://github.com/oracle/oci-python-sdk) | Oracle Cloud Infrastructure Python SDK
 *   dev-python/[onetimepass](https://github.com/tadeck/onetimepass) | One-time password library for HOTP and TOTP passwords
 *   dev-python/[openai](https://github.com/openai/openai-python) | The official Python library for the OpenAI API
 *   dev-python/[opentelemetry-exporter-otlp-proto-common](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Protobuf encoding
 *   dev-python/[opentelemetry-exporter-otlp-proto-http](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Collector Protobuf over HTTP Exporter
 *   dev-python/[opentelemetry-instrumentation](https://github.com/open-telemetry/opentelemetry-python-contrib) | Instrumentation Tools for OpenTelemetry Python
+*   dev-python/[opentelemetry-instrumentation-asgi](https://github.com/open-telemetry/opentelemetry-python-contrib) | OpenTelemetry ASGI Instrumentation
 *   dev-python/[opentelemetry-instrumentation-requests](https://github.com/open-telemetry/opentelemetry-python-contrib) | OpenTelemetry requests instrumentation
 *   dev-python/[opentelemetry-proto](https://github.com/open-telemetry/opentelemetry-python) | OpenTelemetry Python Proto
+*   dev-python/[opentelemetry-resourcedetector-gcp](https://github.com/GoogleCloudPlatform/opentelemetry-operations-python) | OpenTelemetry Google Cloud Resource Detector
 *   dev-python/[opentelemetry-test-utils](https://github.com/open-telemetry/opentelemetry-python) | Test utilities for OpenTelemetry unit tests
 *   dev-python/[opentelemetry-util-http](https://github.com/open-telemetry/opentelemetry-python-contrib) | Web util for OpenTelemetry
+*   dev-python/[oracledb](https://github.com/oracle/python-oracledb) | Python interface to Oracle Database
 *   dev-python/[oscrypto](https://github.com/wbond/oscrypto) | Kerberos manipulation library
 *   dev-python/[oyaml](https://github.com/wimglenn/oyaml) | Ordered YAML
 *   dev-python/[packageurl](https://github.com/package-url/packageurl-python) | Python implementation of the package url spec
@@ -950,42 +1026,61 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[parameterized](https://github.com/wolever/parameterized) | Parameterized testing with any Python test framework
 *   dev-python/[parsel](https://github.com/scrapy/parsel) | Utility to extract data from XML/HTML documents using XPath or CSS selectors
 *   dev-python/[pathspec](https://github.com/cpburnz/python-path-specification) | A utility library for pattern matching of file paths
+*   dev-python/[pendulum](https://github.com/python-pendulum/pendulum) | Python datetimes made easy
 *   dev-python/[poetry-dynamic-versioning](https://github.com/mtkennerly/poetry-dynamic-versioning) | Plugin for Poetry to enable dynamic versioning based on VCS tags
 *   dev-python/[policyuniverse](https://github.com/Netflix-Skunkworks/policyuniverse) | Parse and Process AWS IAM Policies, Statements, ARNs
+*   dev-python/[polyfactory](https://github.com/litestar-org/polyfactory) | Mock data generation factories
 *   dev-python/[port-for](https://github.com/fizyk/port-for) | An utility and python library for TCP ports management
 *   dev-python/[prance](https://github.com/RonnyPfannschmidt/prance) | Resolving Swagger/OpenAPI 2.0 and 3.0 Parser
 *   dev-python/[proglog](https://github.com/Edinburgh-Genome-Foundry/Proglog) | Logs and progress bars manager for Python
 *   dev-python/[promise](https://github.com/syrusakbary/promise) | Ultra-performant Promise implementation in Python
 *   dev-python/[purl](https://github.com/codeinthehole/purl) | Simple Python URL class
+*   dev-python/[pwdlib](https://github.com/frankie567/pwdlib) | Modern password hashing for Python
 *   dev-python/[py3dns](https://launchpad.net/py3dns) | Python 3 DNS library
 *   dev-python/[pybeam](https://github.com/matwey/pybeam) | Python module to parse Erlang BEAM files
 *   dev-python/[pycep](https://github.com/gruebel/pycep) | A Python based Bicep parser
 *   dev-python/[pycfmodel](https://github.com/Skyscanner/pycfmodel) | A python model for Cloud Formation scripts
+*   dev-python/[pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) | Extra Pydantic types
 *   dev-python/[pydantic-settings](https://github.com/pydantic/pydantic-settings) | Settings management using pydantic
 *   dev-python/[pydash](https://github.com/dgilland/pydash) | The kitchen sink of Python functional utility libraries
 *   dev-python/[pyemd](https://github.com/wmayner/pyemd) | Fast EMD for Python
+*   dev-python/[pyinstrument](https://github.com/joerick/pyinstrument) | Call stack profiler for Python
 *   dev-python/[pygaljs](https://github.com/ionelmc/python-pygaljs) | Python package providing assets from js module for pygal
 *   dev-python/[pylnk3](https://github.com/strayge/pylnk) | Windows LNK File Parser and Creator
+*   dev-python/[pymongo-auth-aws](https://github.com/mongodb/pymongo-auth-aws) | The Python MONGODB-AWS authentication mechanism for PyMongo
+*   dev-python/[pymongocrypt](https://github.com/mongodb/libmongocrypt/tree/master/bindings/python) | Python bindings for libmongocrypt
+*   dev-python/[pymssql](https://github.com/pymssql/pymssql) | DB-API interface to Microsoft SQL Server for Python
 *   dev-python/[pymysql](https://github.com/PyMySQL/PyMySQL) | Pure-Python MySQL Driver
 *   dev-python/[pynfsclient](https://github.com/Pennyw0rth/NfsClient) | Python library to simulate NFS client
 *   dev-python/[pypsrp](https://github.com/jborean93/pypsrp) | PowerShell Remoting Protocol and WinRM for Python
+*   dev-python/[pypi-json](https://github.com/repo-helper/pypi-json) | PyPI JSON API client library
+*   dev-python/[pyproject-examples](https://github.com/repo-helper/pyproject-examples) | Example pyproject.toml configs for testing
+*   dev-python/[pyproject-parser](https://github.com/repo-helper/pyproject-parser) | Parser for pyproject.toml
 *   dev-python/[pypykatz](https://github.com/skelsec/pypykatz) | Python library to extract passwords from memory
 *   dev-python/[pystache](https://github.com/PennyDreadfulMTG/pystache) | Mustache templating system for Python
 *   dev-python/[pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | py.test fixture for benchmarking code
 *   dev-python/[pytest-celery](https://github.com/celery/pytest-celery) | A shim pytest plugin to enable celery.contrib.pytest
+*   dev-python/[pytest-codspeed](https://github.com/CodSpeedHQ/pytest-codspeed) | Pytest plugin to create CodSpeed benchmarks
+*   dev-python/[pytest-databases](https://github.com/litestar-org/pytest-databases) | Reusable database fixtures for any and all databases
 *   dev-python/[pytest-datadir-ng](https://github.com/Tblue/pytest-datadir-ng) | Fixtures for pytest to retrieve test resources from filesystem
 *   dev-python/[pytest-django](https://github.com/pytest-dev/pytest-django) | A Django plugin for py.test
 *   dev-python/[pytest-docker-tools](https://github.com/Jc2k/pytest-docker-tools) | Opionated helpers for creating py.test fixtures for Docker
+*   dev-python/[pytest-emoji](https://github.com/hackebrot/pytest-emoji) | A pytest plugin that adds emojis to your test result report
 *   dev-python/[pytest-examples](https://github.com/pydantic/pytest-examples) | Pytest plugin for testing examples in docstrings and markdown files
+*   dev-python/[pytest-git](https://github.com/man-group/pytest-plugins) | Git repository fixture for py.test
 *   dev-python/[pytest-pythonpath](https://github.com/bigsassy/pytest-pythonpath) | plugin for adding to the PYTHONPATH from command line or configs
 *   dev-python/[pytest-random-order](https://github.com/jbasko/pytest-random-order) | pytest plugin to randomise the order of tests
+*   dev-python/[pytest-shutil](https://github.com/man-group/pytest-plugins) | A goodie-bag of unix shell and environment tools for py.test
+*   dev-python/[pytest-snapshot](https://github.com/joseph-roitman/pytest-snapshot) | A plugin for snapshot testing with pytest
 *   dev-python/[pytest-trio](https://github.com/python-trio/pytest-trio) | Python library for async concurrency and I/O
+*   dev-python/[python-ulid](https://github.com/mdomke/python-ulid) | Universally unique lexicographically sortable identifier
 *   dev-python/[pythonqt](https://mevislab.github.io/pythonqt/) | A dynamic Python binding for the Qt framework
 *   dev-python/[python-crontab](https://gitlab.com/doctormo/python-crontab/) | Crontab module for reading and writing crontab files
 *   dev-python/[python-gilt](https://github.com/metacloud/gilt) | A GIT layering tool
 *   dev-python/[python-libnmap](https://github.com/savon-noir/python-libnmap) | Python NMAP library
 *   dev-python/[python-user-agents](https://github.com/selwin/python-user-agents) | A library to identify devices by parsing user agent strings
 *   dev-python/[python3-openid](https://github.com/python-social-auth/social-core) | OpenID support for modern servers and consumers
+*   dev-python/[python3-saml](https://github.com/SAML-Toolkits/python3-saml) | SAML Python3 Toolkit
 *   dev-python/[pykickstart](https://github.com/pykickstart/pykickstart) | Python library for reading and writing kickstart files
 *   dev-python/[pymeeus](https://github.com/architest/pymeeus) | Library of astronomical algorithms in Python
 *   dev-python/[pyvcloud](https://github.com/vmware/pyvcloud) | VMware vCloud Director Python SDK
@@ -999,45 +1094,71 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-python/[ripe-atlas-sagan](https://github.com/RIPE-NCC/ripe-atlas-sagan) | A parsing library for RIPE Atlas measurement results
 *   dev-python/[rstr](https://github.com/leapfrogonline/rstr) | Generate random strings in Python
 *   dev-python/[ruff](https://github.com/astral-sh/ruff) | Pytest module for ruff
+*   dev-python/[sanic](https://github.com/sanic-org/sanic) | A web server and web framework that's written to go fast
+*   dev-python/[sanic-ext](https://github.com/sanic-org/sanic-ext) | Extend Sanic installation with some core functionality
+*   dev-python/[sanic-routing](https://github.com/sanic-org/sanic-routing) | Core routing component for Sanic
+*   dev-python/[sanic-testing](https://github.com/sanic-org/sanic-testing) | Core testing clients for Sanic
 *   dev-python/[schema](https://github.com/keleshev/schema) | Simple data validation library
 *   dev-python/[scikit-learn](https://github.com/scikit-learn/scikit-learn) | Machine learning in Python
+*   dev-python/[sdjson](https://github.com/domdfcoding/singledispatch-json) | Custom JSON Encoder for Python
 *   dev-python/[selinux](https://github.com/pycontribs/selinux) | Pure-python selinux shim module for use in virtualenvs
-*   dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | Python client for Sentry
+*   dev-python/[sentinels](https://github.com/vmalloc/sentinels) | Various objects to denote special meanings in python
+*   dev-python/[sentry-sdk](https://github.com/getsentry/sentry-python) | The official Python SDK for Sentry.io
 *   dev-python/[serializable](https://github.com/madpah/serializable) | Serialize and deserialize Python objects to and from JSON and XML
+*   dev-python/[shippinglabel](https://github.com/domdfcoding/shippinglabel) | Utilities for handling packages
+*   dev-python/[shippinglabel-conda](https://github.com/domdfcoding/shippinglabel-conda) | Shippinglabel extension with utilities conda packages
+*   dev-python/[shippinglabel-pypi](https://github.com/domdfcoding/shippinglabel-pypi) | Shippinglabel extension for interacting with PyPI
 *   dev-python/[shouldbe](https://github.com/directxman12/should_be) | A Python Assertions Helper
 *   dev-python/[smart-open](https://github.com/piskvorky/smart_open) | Utils for streaming large files
 *   dev-python/[sniffio](https://github.com/python-trio/sniffio) | Sniff out which async library your code is running under
 *   dev-python/[social-auth-core](https://github.com/python-social-auth/social-core) | Python Social Auth - Core
 *   dev-python/[social-auth-app-django](https://github.com/python-social-auth/social-app-django) | Python Social Auth - Application - Django
+*   dev-python/[sorl-thumbnail](https://github.com/jazzband/sorl-thumbnail) | Thumbnails for Django
+*   dev-python/[southwark](https://github.com/repo-helper/southwark) | Extensions to the Dulwich Git library
 *   dev-python/[spdx-tools](https://github.com/spdx/tools-python) | Python library to parse, validate and create SPDX documents
 *   dev-python/[sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) | Autorebuild documentation on change
 *   dev-python/[sphinx-mdinclude](https://github.com/omnilib/sphinx-mdinclude) | Markdown extension for Sphinx
 *   dev-python/[sphinxcontrib-httpdomain](https://github.com/sphinx-contrib/httpdomain) | Documenting RESTful HTTP APIs
 *   dev-python/[sphinxcontrib-openapi](https://github.com/sphinx-contrib/openapi) | Sphinx extension to generate APIs docs from OpenAPI
+*   dev-python/[sqlmodel](https://github.com/fastapi/sqlmodel) | SQL databases in Python
+*   dev-python/[sse-starlette](https://github.com/sysid/sse-starlette) | SSE plugin for Starlette
 *   dev-python/[ssh2-python](https://github.com/ParallelSSH/ssh2-python) | Super fast SSH2 protocol library, Python bindings for libssh2
+*   dev-python/[stone](https://github.com/dropbox/stone) | The Official Api Spec Language for Dropbox
+*   dev-python/[strawberry-graphql](https://github.com/strawberry-graphql/strawberry) | A library for creating GraphQL APIs
+*   dev-python/[strawberry-graphql-django](https://github.com/strawberry-graphql/strawberry-django) | Strawberry GraphQL Django extension
 *   dev-python/[swagger-spec-validator](https://github.com/Yelp/swagger_spec_validator) | Python library that validates Swagger Specs
+*   dev-python/[syrupy](https://github.com/syrupy-project/syrupy) | Pytest Snapshot Test Utility
 *   dev-python/[tablib](https://github.com/jazzband/tablib) | Format-agnostic tabular dataset library
 *   dev-python/[testinfra](https://github.com/pytest-dev/pytest-testinfra) | Testinfra test your infrastructures
 *   dev-python/[text-unidecode](https://github.com/kmike/text-unidecode) | The most basic Text::Unidecode port
+*   dev-python/[thingy](https://github.com/Refty/thingy) | Dictionary as an object, that can have different views
 *   dev-python/[timecop](https://github.com/bluekelp/pytimecop) | A port of TimeCop Ruby Gem for Python
 *   dev-python/[toml](https://github.com/uiri/toml) | Python Library for TOML
+*   dev-python/[tracerite](https://github.com/sanic-org/tracerite) | Human-readable HTML tracebacks for Python exceptions
 *   dev-python/[tree-format](https://github.com/jml/tree-format) | Python library for printing trees on the console
+*   dev-python/[txmongo](https://github.com/twisted/txmongo) | Asynchronous Python driver for MongoDB
 *   dev-python/[types-awscrt](https://github.com/youtype/types-awscrt) | Type annotations and code completion for awscrt
 *   dev-python/[types-s3transfer](https://github.com/youtype/types-s3transfer) | Type annotations and code completion for s3transfer
 *   dev-python/[ua-parser](https://github.com/ua-parser/uap-python) | A python implementation of the UA Parser
 *   dev-python/[ujson](https://github.com/esnme/ultrajson) | Ultra fast JSON encoder and decoder for Python
 *   dev-python/[ukpostcodeparser](https://github.com/hamstah/ukpostcodeparser) | UK postcode parser library
 *   dev-python/[umalqurra](https://github.com/tytkal/python-hijiri-ummalqura) | Date Api that support Hijri Umalqurra calendar
+*   dev-python/[umongo](https://github.com/Scille/umongo) | Sync/async MongoDB ODM
 *   dev-python/[unicrypto](https://github.com/skelsec/unicrypto) | Unified interface for cryptographic libraries
 *   dev-python/[unittest-xml-reporting](https://github.com/xmlrunner/unittest-xml-reporting) | unittest-based test runner with Ant/JUnit like XML reporting
 *   dev-python/[update-checker](https://github.com/bboe/update_checker) | A python module that will check for package updates
+*   dev-python/[uuid-utils](https://github.com/aminalaee/uuid-utils) | Python bindings to Rust UUID
 *   dev-python/[validate-email](https://github.com/syrusakbary/validate_email) | Python email validation library
 *   dev-python/[validators](https://github.com/kvesteri/validators) | Python data validation library
+*   dev-python/[valkey](https://github.com/valkey-io/valkey-py) | The Python interface to the Valkey key-value store
 *   dev-python/[vcd-api-schemas-type](https://github.com/vmware/vcd-api-schemas) | VMware vCloud Director Python API Schemas Type
 *   dev-python/[versionfinder](https://github.com/jantman/versionfinder) | Find version of python package, installed via pip, setuptools, git
 *   dev-python/[vsphere-guest-run](https://github.com/vmware/vsphere-guest-run) | Python library for guest operations
 *   dev-python/[w3lib](https://github.com/scrapy/w3lib) | Library of web-related functions
 *   dev-python/[winacl](https://github.com/skelsec/winacl) | ACL/ACE/Security Descriptor manipulation library
+*   dev-python/[whey](https://github.com/repo-helper/whey) | A simple Python wheel builder for simple projects
+*   dev-python/[whey-conda](https://github.com/repo-helper/whey-conda) | Whey extension for creating Conda packages
+*   dev-python/[whey-pth](https://github.com/repo-helper/whey-pth) | Extension to whey to support .pth files
 *   dev-python/[zstd](https://github.com/sergey-dryabzhinsky/python-zstd) | Simple python bindings to Yann Collet ZSTD compression library
 *   dev-util/[abnfgen](https://www.quut.com/abnfgen/) | ABNF-grammar based test case generator
 *   dev-util/[actionlint](https://github.com/rhysd/actionlint) | Static checker for GitHub Actions workflow files
