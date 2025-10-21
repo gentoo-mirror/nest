@@ -547,8 +547,12 @@ dev-python/drf-yasg:coreapi - Enable Core API
 dev-python/drf-yasg:validation - Enable swagger spec validation
 dev-python/openai:datalib - Support data analysis and statistics
 dev-python/pythonqt:extensions - Install extensions
+dev-python/tablib:cli - Support for CLI via dev-python/tabulate
+dev-python/tablib:ods - Support for CLI via dev-python/odfpy
+dev-python/tablib:pandas - Support for pandas via dev-python/pandas
 dev-python/tablib:xls - Support for xls
-dev-python/tablib:yaml - Support for yaml
+dev-python/tablib:xlsx - Support for xlsx via dev-python/openpyxl
+dev-python/tablib:yaml - Support for yaml via dev-python/pyyaml
 dev-util/cloud-utils:fat - Enable FAT support
 dev-util/cloud-utils:iso - Enable ISO9660 support
 dev-util/cloud-utils:qemu - Enable QEMU stuff
