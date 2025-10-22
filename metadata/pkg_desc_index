@@ -1090,7 +1090,7 @@ dev-python/python-ulid 3.1.0 9999: Universally unique lexicographically sortable
 dev-python/python-user-agents 2.2.0 9999: A library to identify devices by parsing user agent strings
 dev-python/python3-openid 3.2.0 9999: OpenID support for modern servers and consumers
 dev-python/python3-saml 1.16.0 9999: SAML Python3 Toolkit
-dev-python/pythonqt 3.6.0 9999: A dynamic Python binding for the Qt framework
+dev-python/pythonqt 3.6.1 9999: A dynamic Python binding for the Qt framework
 dev-python/pyvcloud 23.0.4 9999: VMware vCloud Director Python SDK
 dev-python/pyvmomi 8.0.3.0.1 9999: VMware vSphere API Python Bindings
 dev-python/questionary 2.1.1 9999: Python library to build pretty command line user prompts
