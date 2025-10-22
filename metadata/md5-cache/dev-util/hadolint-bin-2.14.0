@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Dockerfile linter, validate inline bash
+EAPI=8
+HOMEPAGE=https://github.com/hadolint/hadolint
+INHERIT=edo
+KEYWORDS=-* ~amd64 ~arm64
+LICENSE=GPL-3+
+RDEPEND=!dev-util/hadolint
+SLOT=0
+SRC_URI=amd64? ( https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-linux-x86_64 ) arm64? ( https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-linux-arm64 )
+_eclasses_=edo	a5e294016aa84979fcb2459749eb80b2
+_md5_=16dcfe790062e490e0a99d6e528ed2e6
