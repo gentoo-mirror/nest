@@ -281,9 +281,12 @@ dev-haskell/base-prelude 1.6.1.1: The most complete prelude formed only from the
 dev-haskell/binary-parser 0.5.7.6: A highly-efficient but limited parser API for bytestrings
 dev-haskell/bytestring-strict-builder 0.4.5.7: An efficient strict bytestring builder
 dev-haskell/bytestring-tree-builder 0.2.7.12: A ByteString builder implementation based on the binary tree
+dev-haskell/cabal-syntax 3.16.0.0: A library for working with .cabal files
 dev-haskell/cache 0.1.3.0: An in-memory key/value store with expiration support
 dev-haskell/chasingbottoms 1.3.1.15: For testing partial and infinite values
 dev-haskell/cipher-aes128 0.7.0.6: AES and common modes using AES-NI when available
+dev-haskell/colourista 0.1.0.2: Convenient interface for printing colourful messages
+dev-haskell/commutative-semigroups 0.2.0.2: Commutative semigroups
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
 dev-haskell/configurator-pg 0.2.10: Reduced parser for configurator-ng config files
 dev-haskell/contravariant-extras 0.3.5.4: Extras for the contravariant package
@@ -299,6 +302,7 @@ dev-haskell/data-dword 0.3.2.1: Stick two binary words together to get a bigger 
 dev-haskell/data-endian 0.1.1: Endian-sensitive data
 dev-haskell/data-serializer 0.3.5: Common API for Haskell serialization libraries
 dev-haskell/data-textual 0.3.0.3: Human-friendly textual representations for Haskell
+dev-haskell/deepseq 1.5.2.0: Deep evaluation of data structures
 dev-haskell/deferred-folds 0.9.18.6: Abstractions over deferred folds
 dev-haskell/drbg 0.5.5: Deterministic random bit generator (aka PRNG)
 dev-haskell/either 5.0.2: An either monad transformer
@@ -319,6 +323,7 @@ dev-haskell/heredoc 0.2.0.0: multi-line string / here document using QuasiQuotes
 dev-haskell/hspec-expectations-lifted 0.10.0: A version of hspec-expectations generalized to MonadIO
 dev-haskell/hspec-wai-json 0.11.0: Testing JSON APIs with hspec-wai
 dev-haskell/http2 5.1.4: HTTP/2 library
+dev-haskell/ilist 0.4.0.1: Index-related functions for lists
 dev-haskell/indexed-profunctors 0.1.1.1: Utilities for indexed profunctors
 dev-haskell/ini 0.4.2: Configuration files in the INI format
 dev-haskell/insert-ordered-containers 0.2.5.3: Associative containers retating insertion order for traversals
@@ -328,11 +333,13 @@ dev-haskell/isomorphism-class 0.1.1: Isomorphism typeclass solving the conversio
 dev-haskell/jose 0.10.0.1: Haskell JOSE and JWT library
 dev-haskell/json-ast 0.3.2: Universal JSON AST datastructure
 dev-haskell/keys 3.12.3: Keyed functors and containers
+dev-haskell/language-docker 13.0.0: Haskell Dockerfile parser, pretty-printer and EDSL
 dev-haskell/lens-aeson 1.2.3: Law-abiding lenses for aeson
 dev-haskell/loch-th 0.2.2: Support for precise error locations in source files
 dev-haskell/mime-mail 0.5.1: Compose MIME email messages
 dev-haskell/modern-uri 0.3.6.1: Modern library for working with URIs
 dev-haskell/monad-time 0.4.0.0: Type class for monads which carry the notion of the current time
+dev-haskell/monoid-subclasses 1.2.6: Subclasses of Monoid
 dev-haskell/network-byte-order 0.1.7: Network byte order utilities
 dev-haskell/network-control 0.1.3: Library to control network protocols
 dev-haskell/network-ip 0.3.0.3: Internet Protocol data structures
@@ -351,6 +358,7 @@ dev-haskell/postgresql-libpq-pkgconfig 0.10: A low-level binding to libpq for pk
 dev-haskell/postgresql-simple 0.6.5.1: Mid-Level PostgreSQL client library
 dev-haskell/pretty-simple 4.0.0.0: Haskell data types that have a Show instance
 dev-haskell/prettyclass 1.0.0.0: Pretty printing class similar to Show
+dev-haskell/primes 0.2.1.0: Efficient, purely functional generation of prime numbers
 dev-haskell/protolude 0.3.4: A sensible starting Prelude template
 dev-haskell/ptr 0.16.8.6: Abstractions for operations on pointers
 dev-haskell/ranged-sets 0.4.0: Ranged sets for Haskell
@@ -361,6 +369,8 @@ dev-haskell/rsa 2.4.1: Implementation of RSA, using the padding schemes of PKCS#
 dev-haskell/scotty 0.12.1 0.21: Haskell web framework
 dev-haskell/scrypt 0.5.0: Stronger password hashing via sequential memory-hard functions
 dev-haskell/selective 0.7.0.1: Selective applicative functors
+dev-haskell/semver 0.4.0.1: Representation, manipulation, and serialisation of Semantic Versions
+dev-haskell/spdx 1.0.0.3: SPDX license expression language
 dev-haskell/strict-list 0.1.7.5: Strict linked list
 dev-haskell/swagger2 2.8.9: Swagger 2.0 data model
 dev-haskell/tasty-hspec 1.2.0.2: Hspec support for the Tasty test framework
@@ -374,6 +384,7 @@ dev-haskell/th-expand-syns 0.4.11.0: Expands type synonyms in Template Haskell A
 dev-haskell/th-orphans 0.13.15: Orphan instances for TH datatypes
 dev-haskell/th-reify-many 0.1.10: Recurseively reify template haskell datatype info
 dev-haskell/time-manager 0.1.1: Scalable timer
+dev-haskell/timerep 2.1.0.0: Parse and display time according to some RFCs
 dev-haskell/tmp-postgres 1.35.0.0_pre20230808: Create temporary postgres instances
 dev-haskell/type-hint 0.1: Haskell library for helping type inference by using proxy values
 dev-haskell/tz 0.1.3.6: Efficient time zone handling
@@ -1187,6 +1198,7 @@ dev-util/duplicate-code-detection-tool 1.2.0 9999: A tool to detect similarities
 dev-util/fossa-cli 1.1.0 9999: License and vulnerability analysis
 dev-util/gibberish-detector 0.1.1 9999: Train a model, and detect gibberish strings with it
 dev-util/gitlab-runner 13.3.0 9999: GitLab Runner
+dev-util/hadolint 2.12.0: Dockerfile linter, validate inline bash
 dev-util/hadolint-bin 2.14.0: Dockerfile linter, validate inline bash
 dev-util/hotspot 1.5.1 9999: Linux perf GUI for performance analysis
 dev-util/insomnia-bin 9.3.3: HTTP and GraphQL client for developers
@@ -1222,7 +1234,7 @@ kde-misc/applet-window-title 0.7.1 9999: Plasma 5 applet shows window title and 
 kde-misc/applet-window-title6 9999 20240510: Plasma 6 applet shows window title and icon in your panels
 kde-misc/chatai 2.2.1 9999: Chatbots as Plasmoid for KDE Plasma
 kde-misc/cpu-power-monitor 9999 20241219: KDE Plasma widget to monitor the CPU power consumption
-kde-misc/darkly 0.5.22 9999: A modern style for qt applications
+kde-misc/darkly 0.5.23 9999: A modern style for qt applications
 kde-misc/kde-mymemory-translator 9999 20250416: Plasmoid for translation using the mymemory translated api
 kde-misc/kde-translator-widget 1.0.0 9999: KDE Translator Widget
 kde-misc/kwin-effects-sliding-notifications 1.5.0 9999 20240704: Sliding animation for notification windows

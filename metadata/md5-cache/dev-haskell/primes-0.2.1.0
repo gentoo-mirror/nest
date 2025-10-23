@@ -1,15 +1,15 @@
 BDEPEND=dev-haskell/cabal:= app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=dev-haskell/base-compat:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
-DESCRIPTION=Compile git revision info into Haskell projects
+DEPEND=dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Efficient, purely functional generation of prime numbers
 EAPI=8
-HOMEPAGE=https://github.com/acfoltzer/gitrev
+HOMEPAGE=https://github.com/sebfisch/primes
 INHERIT=haskell-cabal
 IUSE=doc hscolour profile
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=dev-haskell/base-compat:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
-SLOT=0/1.3.1
-SRC_URI=https://hackage.haskell.org/package/gitrev-1.3.1/gitrev-1.3.1.tar.gz
+RDEPEND=dev-lang/ghc:= dev-lang/ghc:=[profile?]
+SLOT=0/0.2.1.0
+SRC_URI=https://hackage.haskell.org/package/primes-0.2.1.0/primes-0.2.1.0.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
-_md5_=430abf6c2e2ac703e1a148512146cf2c
+_md5_=2252aca33ebdcdc2ba9e2286aad68ad5

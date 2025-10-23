@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Index-related functions for lists
+EAPI=8
+HOMEPAGE=https://github.com/brandonhamilton/ilist
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MPL-2.0
+RDEPEND=dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.4.0.1
+SRC_URI=https://hackage.haskell.org/package/ilist-0.4.0.1/ilist-0.4.0.1.tar.gz https://hackage.haskell.org/package/ilist-0.4.0.1/revision/3.cabal -> ilist-0.4.0.1-rev3.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
+_md5_=6876424bf2b81f966fd6fcf28603e8d4

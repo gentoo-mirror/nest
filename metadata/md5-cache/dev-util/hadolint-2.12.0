@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] dev-haskell/hunit:=[profile?] dev-haskell/silently:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/aeson:=[profile?] dev-haskell/colourista:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/email-validate:=[profile?] dev-haskell/foldl:=[profile?] dev-haskell/gitrev:=[profile?] dev-haskell/hsyaml:=[profile?] dev-haskell/ilist:=[profile?] dev-haskell/language-docker:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/prettyprinter:=[profile?] dev-haskell/semver:=[profile?] dev-haskell/spdx:=[profile?] dev-haskell/split:=[profile?] dev-haskell/text:=[profile?] dev-haskell/timerep:=[profile?] dev-haskell/void:=[profile?] dev-haskell/xml-conduit:=[profile?] dev-util/shellcheck:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Dockerfile linter, validate inline bash
+EAPI=8
+HOMEPAGE=https://github.com/hadolint/hadolint
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/colourista:=[profile?] dev-haskell/cryptonite:=[profile?] dev-haskell/data-default:=[profile?] dev-haskell/email-validate:=[profile?] dev-haskell/foldl:=[profile?] dev-haskell/gitrev:=[profile?] dev-haskell/hsyaml:=[profile?] dev-haskell/ilist:=[profile?] dev-haskell/language-docker:=[profile?] dev-haskell/megaparsec:=[profile?] dev-haskell/mtl:=[profile?] dev-haskell/network-uri:=[profile?] dev-haskell/optparse-applicative:=[profile?] dev-haskell/parallel:=[profile?] dev-haskell/parsec:=[profile?] dev-haskell/prettyprinter:=[profile?] dev-haskell/semver:=[profile?] dev-haskell/spdx:=[profile?] dev-haskell/split:=[profile?] dev-haskell/text:=[profile?] dev-haskell/timerep:=[profile?] dev-haskell/void:=[profile?] dev-haskell/xml-conduit:=[profile?] dev-util/shellcheck:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/2.12.0
+SRC_URI=https://hackage.haskell.org/package/hadolint-2.12.0/hadolint-2.12.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
+_md5_=e52981cd3db0cd66bfc345871fd270be

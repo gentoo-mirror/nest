@@ -1,0 +1,15 @@
+BDEPEND=dev-haskell/alex dev-haskell/cabal:= app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/parsec:=[profile?] dev-haskell/text:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=A library for working with .cabal files
+EAPI=8
+HOMEPAGE=https://github.com/haskell/cabal
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-haskell/parsec:=[profile?] dev-haskell/text:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+SLOT=0/3.16.0.0
+SRC_URI=https://hackage.haskell.org/package/Cabal-syntax-3.16.0.0/Cabal-syntax-3.16.0.0.tar.gz -> cabal-syntax-3.16.0.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
+_md5_=7e2b6ca8365fddf29df48b264883d858

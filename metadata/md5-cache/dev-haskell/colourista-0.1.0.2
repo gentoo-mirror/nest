@@ -1,0 +1,16 @@
+BDEPEND=dev-haskell/cabal:= test? ( dev-haskell/hspec:=[profile?] ) app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/ansi-terminal:=[profile?] dev-haskell/text:=[profile?] dev-lang/ghc:= hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Convenient interface for printing colourful messages
+EAPI=8
+HOMEPAGE=https://github.com/kowainik/colourista
+INHERIT=haskell-cabal
+IUSE=doc hscolour profile test
+KEYWORDS=~amd64 ~x86
+LICENSE=MPL-2.0
+RDEPEND=dev-haskell/ansi-terminal:=[profile?] dev-haskell/text:=[profile?] dev-lang/ghc:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.1.0.2
+SRC_URI=https://hackage.haskell.org/package/colourista-0.1.0.2/colourista-0.1.0.2.tar.gz https://hackage.haskell.org/package/colourista-0.1.0.2/revision/6.cabal -> colourista-0.1.0.2-rev6.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	8e4f6eb2d0e798049f6fcaf3b84c0d4a	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	haskell-cabal	bad13a2329d86d55e2032a804a9d93a4
+_md5_=7d23d71f7110c0a03b8d55d090a3756e
