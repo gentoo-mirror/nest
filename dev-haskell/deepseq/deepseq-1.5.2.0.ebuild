@@ -7,19 +7,21 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour"
 
 inherit haskell-cabal
 
-DESCRIPTION="Compile git revision info into Haskell projects"
-HOMEPAGE="https://github.com/acfoltzer/gitrev"
+DESCRIPTION="Deep evaluation of data structures"
+HOMEPAGE="https://github.com/haskell/deepseq"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
+RESTRICT="test" # no tests
 
-RDEPEND="dev-haskell/base-compat:=[profile?]
-	dev-lang/ghc:="
+RDEPEND="dev-lang/ghc:="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:="
 
+DOCS=( changelog.md )
+
 src_prepare() {
 	haskell-cabal_src_prepare
-	sed -i '/license-file/d' gitrev.cabal || die "sed failed"
+	sed -i '/license-file/d' deepseq.cabal || die "sed failed"
 }

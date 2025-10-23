@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1334](https://img.shields.io/badge/ebuild-1334-orange.svg)](https://img.shields.io/badge/ebuild-1334-orange.svg)
+[![Number of ebuilds: 1346](https://img.shields.io/badge/ebuild-1346-orange.svg)](https://img.shields.io/badge/ebuild-1346-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -246,15 +246,18 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[binary-parser](https://github.com/nikita-volkov/binary-parser) | A highly-efficient but limited parser API for bytestrings
 *   dev-haskell/[bytestring-strict-builder](https://github.com/nikita-volkov/bytestring-strict-builder) | An efficient strict bytestring builder
 *   dev-haskell/[bytestring-tree-builder](https://github.com/nikita-volkov/bytestring-tree-builder) | A ByteString builder implementation based on the binary tree
+*   dev-haskell/[cabal-syntax](https://github.com/haskell/cabal) | A library for working with .cabal files
 *   dev-haskell/[cache](https://github.com/hverr/haskell-cache) | An in-memory key/value store with expiration support
 *   dev-haskell/[chasingbottoms](https://hackage.haskell.org/package/ChasingBottoms) | For testing partial and infinite values
 *   dev-haskell/[cipher-aes128](https://github.com/TomMD/cipher-aes128) | AES and common modes using AES-NI when available
+*   dev-haskell/[colourista](https://github.com/kowainik/colourista) | Convenient interface for printing colourful messages
 *   dev-haskell/[concise](https://github.com/frasertweedale/hs-concise) | Utilities for Control.Lens.Cons
 *   dev-haskell/[configurator-pg](https://github.com/robx/configurator-pg) | Reduced parser for configurator-ng config files
 *   dev-haskell/[contravariant-extras](https://github.com/nikita-volkov/contravariant-extras) | Extras for the contravariant package
 *   dev-haskell/[conversion](https://github.com/nikita-volkov/conversion) | Universal converter between values of different types
 *   dev-haskell/[conversion-bytestring](https://github.com/nikita-volkov/conversion-bytestring) | Conversion instances for the bytestring library
 *   dev-haskell/[conversion-text](https://github.com/nikita-volkov/conversion-text) | Conversion instances for the text library
+*   dev-haskell/[commutative-semigroups](https://github.com/obsidiansystems/commutative-semigroups) | Commutative semigroups
 *   dev-haskell/[crypto-pubkey-types](https://github.com/vincenthz/hs-crypto-pubkey-types) | Generic cryptography Public keys algorithm types
 *   dev-haskell/[cryptohash-cryptoapi](https://github.com/vincenthz/hs-cryptohash-cryptoapi) | Crypto-api interfaces for cryptohash
 *   dev-haskell/[daemons](https://github.com/scvalex/daemons) | Daemons in Haskell made fun and easy
@@ -264,6 +267,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[data-endian](https://github.com/mvv/data-endian) | Endian-sensitive data
 *   dev-haskell/[data-serializer](https://github.com/mvv/data-serializer) | Common API for Haskell serialization libraries
 *   dev-haskell/[data-textual](https://github.com/mvv/data-textual) | Human-friendly textual representations for Haskell
+*   dev-haskell/[deepseq](https://github.com/haskell/deepseq) | Deep evaluation of data structures
 *   dev-haskell/[deferred-folds](https://github.com/nikita-volkov/deferred-folds) | Abstractions over deferred folds
 *   dev-haskell/[drbg](https://github.com/TomMD/DRBG) | Deterministic random bit generator (aka PRNG)
 *   dev-haskell/[either](https://github.com/ekmett/either) | An either monad transformer
@@ -284,6 +288,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[hspec-expectations-lifted](https://github.com/hspec/hspec-expectations-lifted) | A version of hspec-expectations generalized to MonadIO
 *   dev-haskell/[hspec-wai-json](https://github.com/hspec/hspec-wai) | Testing JSON APIs with hspec-wai
 *   dev-haskell/[http2](https://github.com/kazu-yamamoto/http2) | HTTP/2 library
+*   dev-haskell/[ilist](https://github.com/brandonhamilton/ilist) | Index-related functions for lists
 *   dev-haskell/[indexed-profunctors](https://github.com/well-typed/optics) | Utilities for indexed profunctors
 *   dev-haskell/[ini](https://github.com/andreasabel/ini) | Configuration files in the INI format
 *   dev-haskell/[insert-ordered-containers](https://github.com/phadej/insert-ordered-containers) | Associative containers retating insertion order for traversals
@@ -293,11 +298,13 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[jose](https://github.com/frasertweedale/hs-jose) | Haskell JOSE and JWT library
 *   dev-haskell/[json-ast](https://github.com/nikita-volkov/json-ast) | Universal JSON AST datastructure
 *   dev-haskell/[keys](https://github.com/ekmett/keys) | Keyed functors and containers
+*   dev-haskell/[language-docker](https://github.com/hadolint/language-docker) | Haskell Dockerfile parser, pretty-printer and EDSL
 *   dev-haskell/[lens-aeson](https://github.com/lens/lens-aeson) | Law-abiding lenses for aeson
 *   dev-haskell/[loch-th](https://github.com/liskin/loch-th) | Support for precise error locations in source files
 *   dev-haskell/[mime-mail](https://github.com/snoyberg/mime-mail) | Compose MIME email messages
 *   dev-haskell/[modern-uri](https://github.com/mrkkrp/modern-uri) | Modern library for working with URIs
 *   dev-haskell/[monad-time](https://github.com/scrive/monad-time) | Type class for monads which carry the notion of the current time
+*   dev-haskell/[monoid-subclasses](https://github.com/blamario/monoid-subclasses) | Subclasses of Monoid
 *   dev-haskell/[network-byte-order](https://github.com/kazu-yamamoto/network-byte-order) | Network byte order utilities
 *   dev-haskell/[network-control](https://github.com/kazu-yamamoto/network-control) | Library to control network protocols
 *   dev-haskell/[network-ip](https://github.com/mvv/network-ip) | Internet Protocol data structures
@@ -314,6 +321,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[postgresql-libpq-pkgconfig](https://github.com/haskellari/postgresql-libpq) | A low-level binding to libpq for pkg-config based provider
 *   dev-haskell/[postgres-options](https://github.com/jfischoff/postgres-options) | An Options type for PostgreSQL
 *   dev-haskell/[postgresql-simple](https://github.com/haskellari/postgresql-libpq) | Mid-Level PostgreSQL client library
+*   dev-haskell/[primes](https://github.com/sebfisch/primes) | Efficient, purely functional generation of prime numbers
 *   dev-haskell/[pretty-simple](https://github.com/cdepillabout/pretty-simple) | Haskell data types that have a Show instance
 *   dev-haskell/[prettyclass](https://hackage.haskell.org/package/prettyclass) | Pretty printing class similar to Show
 *   dev-haskell/[protolude](https://github.com/sdiehl/protolude) | A sensible starting Prelude template
@@ -326,6 +334,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[scotty](https://github.com/scotty-web/scotty) | Haskell web framework
 *   dev-haskell/[scrypt](https://github.com/informatikr/scrypt) | Stronger password hashing via sequential memory-hard functions
 *   dev-haskell/[selective](https://github.com/snowleopard/selective) | Selective applicative functors
+*   dev-haskell/[semver](https://github.com/brendanhay/semver) | Representation, manipulation, and serialisation of Semantic Versions
+*   dev-haskell/[spdx](https://github.com/phadej/spdx) | SPDX license expression language Representation, manipulation, and serialisation of Semantic Versions
 *   dev-haskell/[strict-list](https://github.com/nikita-volkov/strict-list) | Strict linked list
 *   dev-haskell/[swagger2](https://github.com/GetShopTV/swagger2) | Swagger 2.0 data model
 *   dev-haskell/[tasty-hspec](https://github.com/mitchellwrosen/tasty-hspec) | Hspec support for the Tasty test framework
@@ -338,6 +348,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-haskell/[th-expand-syns](https://github.com/DanielSchuessler/th-expand-syns) | Expands type synonyms in Template Haskell ASTs
 *   dev-haskell/[th-orphans](https://github.com/mgsloan/th-orphans) | Orphan instances for TH datatypes
 *   dev-haskell/[th-reify-many](https://github.com/mgsloan/th-reify-many) | Recurseively reify template haskell datatype info
+*   dev-haskell/[timerep](https://github.com/HugoDaniel/timerep) | Parse and display time according to some RFCs
 *   dev-haskell/[time-manager](https://github.com/yesodweb/wai) | Scalable timer
 *   dev-haskell/[tmp-postgres](https://github.com/jfischoff/tmp-postgres) | Create temporary postgres instances
 *   dev-haskell/[tz](https://github.com/ysangkok/haskell-tz) | Efficient time zone handling
@@ -1191,6 +1202,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-util/[gibberish-detector](https://github.com/domanchi/gibberish-detector) | Train a model, and detect gibberish strings with it
 *   dev-util/[gh](https://github.com/cli/cli) | The GitHub CLI
 *   dev-util/[gitlab-runner](https://gitlab.com/gitlab-org/gitlab-runner) | GitLab Runner
+*   dev-util/[hadolint](https://github.com/hadolint/hadolint) | Dockerfile linter, validate inline bash
 *   dev-util/[hadolint-bin](https://github.com/hadolint/hadolint) | Dockerfile linter, validate inline bash
 *   dev-util/[hotspot](https://github.com/KDAB/hotspot) | Linux perf GUI for performance analysis
 *   dev-util/[insomnia-bin](https://insomnia.rest) | HTTP and GraphQL client for developers

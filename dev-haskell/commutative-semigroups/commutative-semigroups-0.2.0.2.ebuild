@@ -7,19 +7,20 @@ CABAL_FEATURES="lib profile haddock hoogle hscolour"
 
 inherit haskell-cabal
 
-DESCRIPTION="Compile git revision info into Haskell projects"
-HOMEPAGE="https://github.com/acfoltzer/gitrev"
+DESCRIPTION="Commutative semigroups"
+HOMEPAGE="https://github.com/obsidiansystems/commutative-semigroups"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="dev-haskell/base-compat:=[profile?]
-	dev-lang/ghc:="
+RDEPEND="dev-lang/ghc:="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-haskell/cabal:="
 
+DOCS=( {ChangeLog,ReadMe}.md )
+
 src_prepare() {
 	haskell-cabal_src_prepare
-	sed -i '/license-file/d' gitrev.cabal || die "sed failed"
+	sed -i '/license-file/d' commutative-semigroups.cabal || die "sed failed"
 }
