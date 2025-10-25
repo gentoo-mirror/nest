@@ -1286,6 +1286,7 @@ media-sound/plexamp 4.12.4: Music focused client for Plex
 media-sound/sayonara 1.10.0_p1 9999: Small, clear and fast Qt-based audio player
 media-sound/spotify-qt 4.0.0 9999: Lightweight Spotify client using Qt
 media-sound/spotifyd 0.4.1 9999: A spotify daemon
+media-video/kooha 2.3.1: GTK4 screen recorder for Wayland
 media-video/qwinff 0.2.1 9999: Qt GUI Frontend for FFmpeg
 media-video/rtsp-simple-server 0.13.2 9999: RTSP server and RTSP proxy to read, publish and proxy media stream
 net-analyzer/cymruwhois 1.6 9999: Python client for the whois.cymru.com service
